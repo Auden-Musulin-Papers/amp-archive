@@ -1,0 +1,185 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0029.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
+            <title level="a">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</title>
+            <author>Musulin, Stella</author>
+            <editor>
+               <name>Mayer, Sandra</name>
+               <name>Frühwirth, Timo</name>
+            </editor>
+            <funder>
+               <name>FWF Austrian Science Fund</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Vienna</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Vienna</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>AMP</edition>
+            <respStmt>
+               <resp>Transcription and commentary</resp>
+               <name>Mayer, Sandra</name>
+               <name>Frühwirth, Timo</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2021">2021</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
+                  <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
+for any purpose, even commercially.</p>
+                  <p>The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms:</p>
+                  <p>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p>
+                  <p>Notices:</p>
+                  <p>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</p>
+               </licence>
+               <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
+            </availability>
+         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C322-F</idno></publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>St. Pölten</settlement>
+                        <repository>State Collections of Lower Austria</repository>
+                        <collection>Stella Musulin (Depot)</collection>
+                        <idno>2, 8</idno>
+                     </msIdentifier>
+                     <history>
+                        <origin><origDate notBefore-iso="1968-02-13T00:00:00+01:00" notAfter-iso="1968-02-14T23:59:59+01:00">1968-02-13--1968-02-14</origDate></origin>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
+         <change who="tfruehwirth" when="2021-12-01">text transcribed</change>
+         <change who="smayer" when="2021-12-01">text transcribed</change>
+         <change who="smayer tfruehwirth" when="2021-12-01">transcriptions collated</change>
+         <change who="smayer tfruehwirth" when="2022-05-10">transcription reviewed, `space` element and `hand` attributes added, date format in `origDate` and `correspAction`/`date` modified</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4242" lry="5396">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0215/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="4238" lry="5388">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0216/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="4242" lry="5570">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0217/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="4240" lry="5672">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0218/"/>
+      </surface>
+   </facsimile>
+   <text type="notes" hand="#handwritten">
+      <body>
+         <div xml:id="transcription">
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0215/" type="sheet"/>
+               <p>
+                  Lunch with <rs type="person" ref="#amp_person_1">W<unclear>.</unclear>H<unclear>.</unclear>A.</rs> at the <rs type="place" ref="#amp_place_id_92"><unclear>O</unclear>pern-Café</rs> on<lb/>
+                  13th' Feb.19<unclear>6</unclear>8 .
+               </p>
+               <p>
+                  <unclear>T</unclear>alk of awful impasse in <rs type="event" ref="#amp_event_id_47">Vietnam<lb/>
+                  War</rs>; <rs type="person" ref="#amp_person_1">W.</rs> <unclear>so</unclear> afraid of use of nuclear<lb/>
+                  weapons that he can hardly <unclear>b</unclear>ear to<lb/>
+                  read or listen to the news <unclear>,</unclear> Feels US<lb/>
+                  will have to get out;perhaps to<lb/>
+                  blame for the <rs type="event" ref="#amp_event_id_48"><unclear>"</unclear>Pueblo<unclear>"</unclear> affair</rs> &amp; <hi rend="underline"><unclear>wa</unclear>r</hi>s<lb/>
+                  in territorial waters.<lb/>
+                  may have to vote Repu<unclear>b</unclear>lican<unclear>,</unclear> <unclear>thou</unclear>gh<lb/>
+                  he's never done <unclear>so</unclear> <unclear>b</unclear>efore,be<unclear>c</unclear>ause the<lb/>
+                  Demo<unclear>c</unclear>rats really have no one for<lb/>
+                  President<unclear>.</unclear><lb/>
+                  Says the Hippies are <unclear>m</unclear>oving in on<lb/>
+                  <rs type="place" ref="#amp_place_id_247">his district</rs>. I asked what a hippy<lb/>
+                  does when he gets old; <rs type="person" ref="#amp_person_1">W</rs><unclear>,</unclear> said thats'<lb/>
+                  What he asks them; too soon to tell .<lb/>
+                  Told him ab<unclear>ou</unclear>t <rs type="person" ref="#amp_person_161">Hundertwasser</rs> <unclear>&amp;</unclear><lb/>
+                  his naked protests.<lb/>
+                  <del><unclear>I</unclear> s</del>Said I was glad he had told<lb/>
+                  British young people that L.S.D is<lb/>
+                  a dead duck for <unclear>c</unclear>reative workers .<lb/>
+                  <rs type="person" ref="#amp_person_1">W</rs><unclear>,</unclear> told me <unclear>a</unclear>t some length about<lb/>
+                  his <del><gap reason="deleted"/></del> trials of LSD &amp;<unclear>m</unclear>escalin<unclear>,</unclear><lb/>
+                  Point is that young people need<lb/>
+                  to discover who &amp; what they are <unclear>.</unclear>- 
+               </p>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0216/" type="sheet"/>
+               <p>
+                  &amp;L<unclear>.</unclear>S<unclear>.</unclear>D. doesn't tell them, its' a<lb/>
+                  pa<unclear>ss</unclear>ive effe<unclear>c</unclear>t in which there is <del>some</del><lb/>
+                  alienat<unclear>io</unclear>n from <unclear>se</unclear>lf . You con<unclear>ce</unclear>ntrate<lb/>
+                  on things (chair, c<unclear>e</unclear>iling <gap reason="illegible"/>),people<lb/>
+                  be<unclear>c</unclear>ome unimportant. <gap reason="illegible"/>s<lb/>
+                  effe<unclear>c</unclear>t of listening to music -<lb/>
+                  intolerabl<unclear>e</unclear> as the sounds lo<unclear>s</unclear>e<lb/>
+                  their interrelatio<unclear>n</unclear> &amp; form.<lb/>
+                  Basi<unclear>c</unclear>ally, you achieve a mild<lb/>
+                  d<unclear>egr</unclear>ee of schizophrenia. <rs type="person" ref="#amp_person_143">Huxley</rs><lb/>
+                  did a <unclear>lot</unclear> of <unclear>h</unclear>arm by <rs type="lit_work" ref="#lit_work_id_97">pu<unclear>bli</unclear>s<unclear>h</unclear>ing<lb/>
+                  his experien<unclear>c</unclear>es with mes<unclear>c</unclear>alin</rs>,<lb/>
+                  making people think it is<lb/>
+                  an artistic experien<unclear>c</unclear>e. <rs type="person" ref="#amp_person_1">W.</rs><lb/>
+                  had <unclear>t</unclear>o add colour effe<unclear>c</unclear>ts .<lb/>
+                  A<unclear>wf</unclear>ul <unclear>s</unclear>tory about young people<lb/>
+                  having gone blind was invented -<lb/>
+                  <unclear>q</unclear>uite untrue<unclear>.</unclear> He did it in<lb/>
+                  compa<unclear>n</unclear>y with <rs type="person" ref="#amp_person_197">his doctor</rs> and<lb/>
+                  they went round to lo<unclear>c</unclear>al pub.<lb/>
+                  Suddenly saw a postman waving<lb/>
+                  at him &amp; thought "this is it.<unclear>-</unclear><lb/>
+                  Later postman said " I waved<lb/>
+                  at you , why didn't you <unclear>answ</unclear>er<unclear>?"</unclear>
+               </p>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0217/" type="sheet"/>
+               <p>
+                  <hi rend="underline">2</hi>
+               </p>   
+               <p>
+                  Tal<unclear>k</unclear>ed with great enthusiasm<lb/>
+                  about <rs type="lit_work" ref="#lit_work_id_111">"Mayhew"</rs>. Said <unclear>th</unclear>is is the<lb/>
+                  greatest work of the 19th<unclear>'</unclear> centu<unclear>r</unclear>y .<lb/>
+                  Has just <rs type="lit_work" ref="#lit_work_id_112">reviewed new issue<lb/>
+                  in 4 <unclear>V</unclear>olumes in the <rs type="org" ref="#amp_organization_65">New Yorker</rs></rs>.<lb/>
+                  Said h<unclear>ow</unclear> well it pays to do<lb/>
+                  a le<unclear>c</unclear>ture / reading tour. In<lb/>
+                  6 weeks he <unclear>c</unclear>an c<hi rend="underline">lear</hi> 15,000 <unclear>$</unclear>.<lb/>
+                  But it's <unclear>"</unclear>killing<unclear>"</unclear> - the <unclear>s</unclear>ocial<lb/>
+                  <del>life</del><unclear>side</unclear> which you can't <unclear>s</unclear>kip. And<lb/>
+                  if you do meet someone<lb/>
+                  interesting y<unclear>our'</unclear>e torn apart<lb/>
+                  after <unclear>2 or</unclear> 3 minutes<unclear>,</unclear><lb/>
+                  <rs type="person" ref="#amp_person_1">W.</rs> had <unclear>fl</unclear>own over for <unclear>4</unclear> days<lb/>
+                  to interview <rs type="person" ref="#amp_person_32 #amp_person_176">couple</rs> for <rs type="place" ref="#amp_place_id_2">Kir<unclear>c</unclear>hstetten</rs> ,<lb/>
+                  <unclear>&amp;</unclear> had to return to <rs type="place" ref="#amp_place_id_28">N<unclear>_</unclear>Y</rs>.
+               </p>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0218/" type="sheet"/>
+         </div>
+      </body>
+   </text>
+</TEI>

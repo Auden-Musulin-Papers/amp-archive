@@ -1,0 +1,182 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0071.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
+            <title level="a">Typed Letter Signed Stella Musulin to W. H. Auden 1962-04-16--1973-04-16</title>
+            <author>Musulin, Stella</author>
+            <editor>
+               <name>Mayer, Sandra</name>
+               <name>Frühwirth, Timo</name>
+               <name>Grigoriou, Dimitra</name>
+            </editor>
+            <funder>
+               <name>FWF Austrian Science Fund</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Vienna</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Vienna</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Typed Letter Signed Stella Musulin to W. H. Auden 1962-04-16--1973-04-16</title>
+               <interpGrp>
+                  <interp xml:id="ana_005" source="ph_005"><!-- link to nanopub -->
+                     <desc>
+                        The date range has been delimited on the basis of research into the mention of "Easter" in relation to the indicated date of "16th April": 1962 is the first year in the Auden-Musulin correspondence in which the Easter weekend follows after the date of composition. Auden did not usually keep his acquaintances' correspondence (Colburn 2004: 240); the presence of this letter (the sole letter by Stella Musulin kept by Auden) among his papers might suggest a date of composition toward the end of Auden's life.
+                     </desc>
+                     <respons resp="dgrigoriou smayer tfruehwirth" locus="value"/>
+                     <certainty cert="high" locus="value"/>
+                  </interp>
+               </interpGrp>
+            </edition>
+            <respStmt>
+               <resp>Transcription and commentary</resp>
+               <name>Mayer, Sandra</name>
+               <name>Frühwirth, Timo</name>
+               <name>Grigoriou, Dimitra</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2021">2021</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
+                  <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
+for any purpose, even commercially.</p>
+                  <p>The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms:</p>
+                  <p>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p>
+                  <p>Notices:</p>
+                  <p>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</p>
+               </licence>
+               <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
+            </availability>
+         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C30C-9</idno></publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>St. Pölten</settlement>
+                        <repository>State Collections of Lower Austria</repository>
+                        <collection>Stella Musulin (Depot)</collection>
+                        <idno>3, 2</idno>
+                     </msIdentifier>
+                     <history>
+                        <origin>
+                           <origDate notBefore-iso="1962-04-16T00:00:00+01:00" notAfter-iso="1973-04-16T23:59:59+01:00" ana="#ana_005">1962-04-16--1973-04-16</origDate>
+                           <origPlace ana="#ana_003"/>
+                        </origin>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="de">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="received">
+               <persName ref="#amp_person_1">Auden, W. H.</persName>
+               <placeName ref="#amp_place_id_5">Kirchstetten</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#amp_person_1">Auden, W. H.</ref>
+               <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
+               <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0021.xml">Typed Letter Signed W. H. Auden to Stella Musulin 1961-10-13</ref>
+               <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0059.xml">Envelope W. H. Auden to Stella Musulin 1962-04-30</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
+         <change who="dgrigoriou" when="2023-07-20">text transcribed</change>
+         <change who="dgrigoriou tfruehwirth" when="2023-07-31">transcriptions collated</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2023-08-02">container structure updated</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2023-11-16">entities updated, interpGrp added</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4256" lry="5666">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0469/"/>  
+      </surface>
+      <surface ulx="0" uly="0" lrx="4248" lry="5666">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0470/"/>
+      </surface>
+   </facsimile>
+   <text type="letter" hand="#typed">
+      <body>
+         <div type="transcription" xml:id="transcription_amp_0071" xml:lang="en">
+            <div type="letter">
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0469/" type="sheet"/>
+               <div type="letter_message">
+                  <opener>
+                     <dateline>
+                        <placeName xml:lang="de">
+                           <seg hand="#printed">
+                              <address>
+                                 <rs type="place" ref="#amp_place_id_7">A-3200 Fridau<lb/> 
+                                 Obergrafendorf<lb/> 
+                                 bei St. Pölten, NÖ.</rs><lb/>
+                                 <addrLine>Telefon 0 27 47 / 311</addrLine>
+                              </address>
+                           </seg>
+                           <seg hand="#printed">
+                              <address>
+                                 <rs type="place" ref="#amp_place_id_11">Neulinggasse 26/14<lb/> 
+                                 A-1030 Wien</rs><lb/>
+                                 <addrLine>Telefon 73 94 015</addrLine><lb/>
+                              </address>
+                           </seg>
+                        </placeName>
+                        <date rend="#block">
+                           <seg hand="#handwritten">
+                              16th April .
+                           </seg>
+                        </date>
+                     </dateline>
+                     <salute>
+                        Dear <rs type="person" ref="#amp_person_1">Wystan</rs>,
+                     </salute>
+                  </opener>
+                  <p>  
+                     <space quantity="5" unit="char"/>Are you <rs type="place" ref="#amp_place_id_2">there</rs>? <space unit="char" quantity="1"/>May I come across for<lb/> 
+                     a cuppa? <space unit="char" quantity="1"/>I shall be at <rs type="place" ref="#amp_place_id_7">Fridau</rs> over Easter<lb/> 
+                     but am otherwise mostly in <rs type="place" ref="#amp_place_id_11">Vienna</rs>.
+                  </p>
+                  <p>
+                     <space quantity="5" unit="char"/>Was very dashed at missing you when I<lb/> 
+                     got back <rs type="place" ref="#amp_place_id_2">here</rs> at the beginning of September<lb/> 
+                     and found you'd gone.
+                  </p>
+                  <closer hand="#handwritten">
+                     <salute>
+                         Love
+                     </salute>
+                     <signed>
+                        <rs type="person" ref="#amp_person_2">Stella</rs>
+                     </signed>  
+                  </closer>
+               </div>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0470/" type="sheet"/>
+               <div>
+                  <ab hand="#handwritten">50</ab>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

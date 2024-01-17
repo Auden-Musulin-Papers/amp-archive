@@ -1,0 +1,166 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0057.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
+            <title level="a">Envelope W. H. Auden to Stella Musulin 1961-04-25--1961-10-25</title>
+            <author>Auden, W. H.</author>
+            <editor>
+               <name>Mayer, Sandra</name>
+               <name>Frühwirth, Timo</name>
+               <name>Grigoriou, Dimitra</name>
+            </editor>
+            <funder>
+               <name>FWF Austrian Science Fund</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Vienna</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Vienna</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Envelope W. H. Auden to Stella Musulin 1961-04-25--1961-10-25</title>
+               <interpGrp>
+                  <interp xml:id="ana_004" source="ph_004"><!-- link to nanopub -->
+                     <desc>
+                        The postmark is illegible in the place where the month of dispatch is indicated; the day and the year can be deciphered as "25" and "61", respectively. The letter must have been sent between the months of April and October, when Auden was present in Kirchstetten, where the letter was posted.
+                     </desc>
+                     <respons resp="dgrigoriou smayer tfruehwirth" locus="value"></respons>
+                     <certainty cert="high" locus="value"></certainty>
+                  </interp>
+               </interpGrp>
+            </edition>
+            <respStmt>
+               <resp>Transcription and commentary</resp>
+               <name>Mayer, Sandra</name>
+               <name>Frühwirth, Timo</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2021">2021</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
+                  <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
+for any purpose, even commercially.</p>
+                  <p>The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms:</p>
+                  <p>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p>
+                  <p>Notices:</p>
+                  <p>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</p>
+               </licence>
+               <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
+            </availability>
+         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C33E-1</idno></publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>St. Pölten</settlement>
+                        <repository>State Collections of Lower Austria</repository>
+                        <collection>Stella Musulin (Depot)</collection>
+                        <idno>1, 37</idno>
+                     </msIdentifier>
+                     <history>
+                        <origin>
+                           <origDate notBefore-iso="1961-04-25T00:00:00+01:00" notAfter-iso="1961-10-25T23:59:59+01:00" ana="#ana_004">1961-04-25--1961-10-25</origDate>
+                           <origPlace ref="#amp_place_id_2">Hinterholz 6</origPlace>
+                        </origin>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="de">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</orgName>
+               <placeName ref="#amp_place_id_5">Kirchstetten</placeName>
+               <date notBefore-iso="1961-04-25T12:00:01+01:00" notAfter-iso="1961-10-25T18:00:00+01:00">1961-04-25T12:00:01+01:00/1961-10-25T18:00:00+01:00</date>
+            </correspAction>
+            <correspAction type="redirected">
+               <placeName ref="#amp_place_id_11">Neulinggasse 26</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#amp_person_2">Musulin, Stella</persName>
+               <placeName ref="#amp_place_id_7">Fridau</placeName>
+            </correspAction>
+         <correspContext>
+            <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
+            <ref type="belongsToCorrespondence" target="#amp_person_1">Auden, W. H.</ref>
+            <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0058.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-10-01--1965-08-15</ref>
+            <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0022.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-08-16</ref>
+         </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
+         <change who="smayer" when="2021-11-23">text transcribed</change>
+         <change who="tfruehwirth" when="2021-11-23">text transcribed</change>
+         <change who="smayer tfruehwirth" when="2021-11-23">transcriptions collated</change>
+         <change who="smayer tfruehwirth" when="2022-05-10">transcription reviewed, `space` element and `hand` attributes added, date format in `origDate` and `correspAction`/`date` modified</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2023-03-01">entities collated</change>
+         <change who="dgrigoriou" when="2023-08-18">container structure updated</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2023-11-15">entities updated, interpGrp added</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4562" lry="3522">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0105/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="4560" lry="3528">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0106/"/>
+      </surface>
+   </facsimile>
+   <text type="letter" hand="#typed">
+      <body>
+         <div type="transcription" xml:id="transcription_amp_0057" xml:lang="en">
+            <div type="envelope">
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0105/" type="envelope"/>
+               <ab xml:lang="de">
+                  <rs type="person" ref="#amp_person_2">Die Baronin<lb/>
+                  Stella Mussolin</rs><lb/>
+                  <address>
+                     <rs type="place" ref="#amp_place_id_11"><del>WIEN III</del><lb/>
+                     <del>Neulinggasse 26</del></rs>
+                  </address>
+               </ab>
+               <ab hand="#handwritten" xml:lang="de">
+                  <address>
+                     <rs type="place" ref="#amp_place_id_7">FRIDAU<lb/>
+                     OBERGRAFENDORF<lb/>
+                     BEI ST<unclear>-</unclear>PÖLTEN<lb/>
+                     N.Ö.</rs>
+                  </address>
+               </ab>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0106/" type="envelope"/>
+               <ab>
+                  <rs type="person" ref="#amp_person_1">W.H.Auden</rs>
+                  <seg hand="#printed">
+                     <address>
+                        <rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (<foreign xml:lang="de">WESTBAHN</foreign>)<lb/>
+                        HINTERHOLZ 6<lb/>
+                        <foreign xml:lang="de">N.-Ö.</foreign>, AUSTRIA</rs>
+                     </address>
+                  </seg>
+               </ab>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

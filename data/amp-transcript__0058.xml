@@ -1,0 +1,179 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0058.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
+            <title level="a">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-10-01--1965-08-15</title>
+            <author>Auden, W. H.</author>
+            <editor>
+               <name>Mayer, Sandra</name>
+               <name>Frühwirth, Timo</name>
+               <name>Grigoriou, Dimitra</name>
+            </editor>
+            <funder>
+               <name>FWF Austrian Science Fund</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Vienna</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Vienna</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Autograph Letter Signed W. H. Auden to Stella Musulin 1961-10-01--1965-08-15</title>
+               <interpGrp>
+                  <interp xml:id="ana_002" source="ph_002"><!-- link to nanopub -->    
+                     <desc>
+                        The date of creation has been delimited based on considerations related to material aspects, Auden's salutatory practice, and letter contents. As suggested by the documents in our collection, Auden would use his off-white Kirchstetten stationery from at least September 1965 onward; the last extant message in the AMP collection that is written on the bluish grey letter paper, used in this document, dates from 12 May 1963. Furthermore, whereas, in his letter from 21 July 1960, Auden addresses Stella Musulin as "Dear Baroness Musulin", he would call her by her first name from at least August 1961 onward. The specific range provided for the date of creation results from investigation into the date of writing as indicated in Auden's message ("Sonntag") in relation to the date of a proposed meeting mentioned in Auden's message: 1 October 1961 is the date of the Sunday that precedes the first "Thursday (19th)" during Auden's residence at Kirchstetten after July 1960; 15 August 1965 is the date of the Sunday that precedes the last "Thursday (19th)" during Auden's stay in his Austrian home before September 1965.
+                     </desc>
+                     <respons locus="value" resp="#tfruehwirth #smayer"/>
+                     <certainty locus="value" cert="high"/>
+                  </interp>
+                  <interp xml:id="ana_003" source="ph_003"><!-- link to nanopub -->
+                     <desc>
+                        In this period of time, Stella Musulin lived either at <rs type="place" ref="#amp_place_id_7">Schloss Fridau</rs> in Ober-Grafendorf or in <rs type="place" ref="#amp_place_id_11">Neulinggasse 26</rs> in Vienna.
+                        <listPlace type="choice">
+                           <place><placeName ref="#amp_place_id_7"/></place>
+                           <place><placeName ref="#amp_place_id_11"/></place>
+                        </listPlace>
+                     </desc>
+                     <respons locus="value" resp="#tfruehwirth #dgrigoriou #smayer"/>
+                     <certainty locus="value" cert="high"/>
+                  </interp>
+               </interpGrp>
+            </edition>
+            <respStmt>
+               <resp>Transcription and commentary</resp>
+               <name>Mayer, Sandra</name>
+               <name>Frühwirth, Timo</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2021">2021</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
+                  <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
+for any purpose, even commercially.</p>
+                  <p>The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms:</p>
+                  <p>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p>
+                  <p>Notices:</p>
+                  <p>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</p>
+               </licence>
+               <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
+            </availability>
+         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C33F-0</idno></publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>St. Pölten</settlement>
+                        <repository>State Collections of Lower Austria</repository>
+                        <collection>Stella Musulin (Depot)</collection>
+                        <idno>1, 37</idno>
+                     </msIdentifier>
+                     <history>
+                        <origin>
+                           <origDate notBefore-iso="1961-10-01T00:00:00+01:00" notAfter-iso="1965-08-15T23:59:59+01:00" ana="#ana_002">
+                              1961-10-01--1965-08-15
+                           </origDate>
+                           <origPlace ref="#amp_place_id_2">Hinterholz 6</origPlace>
+                        </origin>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="de">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="received">
+               <persName ref="#amp_person_2">Musulin, Stella</persName>
+            </correspAction>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#amp_person_1">Auden, W. H.</ref>
+               <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
+               <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0045.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1960-07-21</ref>
+               <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0057.xml">Envelope W. H. Auden to Stella Musulin 1961-04-25--1961-10-25</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
+         <change who="smayer" when="2021-11-09">text transcribed</change>
+         <change who="tfruehwirth" when="2021-11-11">text transcribed</change>
+         <change who="smayer tfruehwirth" when="2021-11-11">transcriptions collated</change>
+         <change who="smayer tfruehwirth" when="2022-05-10">transcription reviewed, `space` element and `hand` attributes added, date format in `origDate` and `correspAction`/`date` modified</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2023-03-02">entities and correspDesc collated</change>
+         <change who="dgrigoriou" when="2023-08-18">container structure updated</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2023-11-15">entities updated, internal events created, interpGrp added</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="7734" lry="5690">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0107/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="7742" lry="5684">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0108/"/>
+      </surface>
+   </facsimile>
+   <text type="letter" hand="#handwritten">
+      <body>
+         <div type="transcription" xml:id="transcription_amp_0058" xml:lang="en">
+            <div type="letter"> 
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0107/" type="sheet"/>
+               <div> 
+                  <ab xml:lang="de">
+                     K<unclear>ö</unclear>nnen Sie Mittwoch<lb/>
+                     <unclear>a</unclear>ns<unclear>t</unclear>att Donnerstag zum Abend<unclear>e</unclear>ssen kommen<lb/>
+                  </ab>
+                  <ab>
+                     <rs type="person" ref="#amp_person_1">Auden</rs>
+                  </ab>
+               </div>
+               <div type="letter_message">
+                  <opener>
+                     <dateline>
+                        <placeName>
+                           <seg hand="#printed">
+                              <address>
+                                 <rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (<foreign xml:lang="de">WESTBAHN</foreign>)<lb/>
+                                 HINTERHOLZ 6<lb/>
+                                 <foreign xml:lang="de">N.-Ö.</foreign>, AUSTRIA</rs>
+                              </address>
+                           </seg>
+                        </placeName>
+                        <date rend="#block" xml:lang="de">
+                           <unclear>S</unclear>onntag.
+                        </date>
+                     </dateline>
+                     <salute>Dear <rs type="person" ref="#amp_person_2">Stella</rs>:</salute>
+                  </opener>
+                  <p>
+                     Good. <rs type="event" ref="#amp_event_id_64">Will be at <rs type="place" ref="#amp_place_id_315" ana="#ana_003">your place</rs><lb/>
+                     on Thu<unclear>r</unclear>sday (19th) at 6.p.m<unclear>.</unclear></rs>
+                  </p>
+                  <closer>
+                     <signed><rs type="person" ref="#amp_person_1">Wystan</rs></signed>
+                  </closer>
+               </div>         
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0108/" type="sheet"/>
+         </div>
+      </div>     
+      </body>
+   </text>
+</TEI>
