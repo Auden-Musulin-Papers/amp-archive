@@ -55,7 +55,7 @@ USER_CONFIG = {
         "id": "//tei:pb/@facs",
         "id_suffix": ".tif",
         "id_as_title": True,
-        "id_as_title_prefix": "Facsimile:",
+        "id_as_title_prefix": "High Resolution Facsimile:",
         "xpaths": {
             "isSourceOf__prefix__nolang": "//tei:TEI/@xml:id"
         },
@@ -71,16 +71,16 @@ USER_CONFIG = {
         "resource_file_path": "data",
         "file_format": "xml",
         "id": "//tei:pb/@facs",
-        "id_suffix": ".tif",
+        "id_suffix": ".png",
         "id_as_title": True,
-        "id_as_title_prefix": "Facsimile:",
+        "id_as_title_prefix": "Low Resultion Facsimile:",
         "xpaths": {
             "isSourceOf__prefix__nolang": "//tei:TEI/@xml:id"
         },
         "static_values": {
             "hasAccessRestrictions": "https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public",
             "hasCategory": "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
-            "isPartOf": "https://id.acdh.oeaw.ac.at/auden-musulin-papers/facs",
+            "isPartOf": "https://id.acdh.oeaw.ac.at/auden-musulin-papers/web-img",
             "hasPid": "create"
         },
         "vocabs_lookup": {}
