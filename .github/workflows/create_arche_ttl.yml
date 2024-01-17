@@ -57,4 +57,7 @@ jobs:
         run: |
           python scripts/baserow_dump.py
           python scripts/arche_constants.py
-        
+      - name: Commit data
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Downloaded/Updated Data

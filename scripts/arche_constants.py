@@ -1,6 +1,7 @@
 import json
 import re
 import glob
+import os
 from config import USER_CONFIG, PROJECT_NAME
 from acdh_tei_pyutils.tei import TeiReader
 from tqdm import tqdm
@@ -460,5 +461,6 @@ for file in file_glob:
                 )
 
 # serialize graph
-serialize_graph(g, "turtle", "arche_constants.ttl")
-print("Done with ARCHE constants. file: arche_constants.ttl")
+os.makedirs("rdf", exist_ok=True)
+serialize_graph(g, "turtle", "rdf/arche.ttl")
+print("Done with ARCHE constants. file: rdf/arche.ttl")
