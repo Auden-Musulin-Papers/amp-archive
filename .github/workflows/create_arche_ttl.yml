@@ -11,7 +11,7 @@ on:
       project_name:
         type: string
         description: '(Required) Project Name as string'
-        required: false
+        required: true
         default: ''
       resource_files_url:
         type: string
