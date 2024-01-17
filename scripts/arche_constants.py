@@ -2,7 +2,7 @@ import json
 import re
 import glob
 import os
-from config import USER_CONFIG, PROJECT_NAME
+from config import USER_CONFIG, PROJECT_NAME, LATEST_RELEASE
 from acdh_tei_pyutils.tei import TeiReader
 from tqdm import tqdm
 from acdh_graph_pyutils.graph import (
@@ -186,7 +186,7 @@ def get_resource_triple_from_xpath(
 def create_resource_triples(
     file_path: str,
     file_format: str,
-    id: str,
+    subject_id: str,
     id_suffix: str = "",
     id_as_title: bool = False,
     id_as_title_prefix: str = "",
@@ -201,7 +201,7 @@ def create_resource_triples(
     edition_files = glob.glob(f"{file_path}/*.{file_format}")
     for file in tqdm(edition_files, total=len(edition_files)):
         doc = TeiReader(file)
-        xml_id = doc.any_xpath(id)
+        xml_id = doc.any_xpath(subject_id)
         if isinstance(xml_id, list) and len(xml_id) > 0:
             for x in xml_id:
                 resource_id = x
@@ -210,7 +210,7 @@ def create_resource_triples(
                 elif resource_id.startswith("http"):
                     resource_id = resource_id.split("/")[-2]
                 if len(resource_id) != 0:
-                    item_id = f'{arche_id}auden-musulin-papers/{resource_id}{id_suffix}'
+                    item_id = f'{arche_id}{COLLECTION_NAME}/{resource_id}{id_suffix}'
                     subject_uri = URIRef(item_id)
                     if init:
                         create_type_triple(g, subject_uri, ARCHE["Resource"])
@@ -286,6 +286,16 @@ def create_resource_triples(
                         )
 
 
+def verify_config_keys(key, result):
+    try:
+        return CONFIG[key]
+    except KeyError:
+        if result == "raise":
+            raise UnboundLocalError(f"User Config: id {key} is required")
+        else:
+            return result
+
+
 # create empty graph
 g = create_empty_graph(
     namespaces=NAMESPACES,
@@ -294,37 +304,20 @@ g = create_empty_graph(
 )
 
 # initialize resource URIs (lookup USER_CONFIG)
-for config in USER_CONFIG.values():
-    files_path = config["resource_file_path"]
-    file_format = config["file_format"]
-    subject_id = config["id"]
-    try:
-        id_suffix = config["id_suffix"]
-    except KeyError:
-        id_suffix = ""
-    try:
-        id_as_title = config["id_as_title"]
-    except KeyError:
-        id_as_title = False
-    try:
-        id_as_title_prefix = config["id_as_title_prefix"]
-    except KeyError:
-        id_as_title_prefix = ""
-    xpaths = config["xpaths"]
-    static_values = config["static_values"]
-    vocabs_lookup = config["vocabs_lookup"]
-    create_resource_triples(
-        files_path,
-        file_format,
-        subject_id,
-        id_suffix=id_suffix,
-        id_as_title=id_as_title,
-        id_as_title_prefix=id_as_title_prefix,
-        init=True,
-        xpaths=xpaths,
-        static_values=static_values,
-        vocabs_lookup=vocabs_lookup
-    )
+if isinstance(LATEST_RELEASE, str) and len(LATEST_RELEASE) > 0:
+    for CONFIG in USER_CONFIG.values():
+        create_resource_triples(
+            file_path=verify_config_keys("resource_file_path", "raise"),
+            file_format=verify_config_keys("file_format", "raise"),
+            subject_id=verify_config_keys("id", "raise"),
+            id_suffix=verify_config_keys("id_suffix", ""),
+            id_as_title=verify_config_keys("id_as_title", ""),
+            id_as_title_prefix=verify_config_keys("id_as_title_prefix", ""),
+            init=True,
+            xpaths=verify_config_keys("xpaths", None),
+            static_values=verify_config_keys("static_values", None),
+            vocabs_lookup=verify_config_keys("vocabs_lookup", None)
+        )
 
 for meta in tqdm(metadata.values(), total=len(metadata)):
     subject_string = meta["Subject_uri"]
@@ -397,35 +390,21 @@ for meta in tqdm(metadata.values(), total=len(metadata)):
             predicate_uri=predicate_uri,
             number=number
         )
-        if isinstance(meta["Inherit"], list) and len(meta["Inherit"]) > 0:
-            for inherit in meta["Inherit"]:
-                try:
-                    config = USER_CONFIG[subject_string]
-                    files_path = config["resource_file_path"]
-                    file_format = config["file_format"]
-                    subject_id = config["id"]
+        if isinstance(LATEST_RELEASE, str) and len(LATEST_RELEASE) > 0:
+            if isinstance(meta["Inherit"], list) and len(meta["Inherit"]) > 0:
+                for inherit in meta["Inherit"]:
                     try:
-                        id_suffix = config["id_suffix"]
+                        CONFIG = USER_CONFIG[subject_string]
+                        create_resource_triples(
+                            file_path=verify_config_keys("resource_file_path", "raise"),
+                            file_format=verify_config_keys("file_format", "raise"),
+                            subject_id=verify_config_keys("id", "raise"),
+                            id_suffix=verify_config_keys("id_suffix", ""),
+                            id_as_title=verify_config_keys("id_as_title", ""),
+                            id_as_title_prefix=verify_config_keys("id_as_title_prefix", ""),
+                        )
                     except KeyError:
-                        id_suffix = ""
-                    try:
-                        id_as_title = config["id_as_title"]
-                    except KeyError:
-                        id_as_title = False
-                    try:
-                        id_as_title_prefix = config["id_as_title_prefix"]
-                    except KeyError:
-                        id_as_title_prefix = ""
-                    create_resource_triples(
-                        files_path,
-                        file_format,
-                        subject_id,
-                        id_suffix=id_suffix,
-                        id_as_title=id_as_title,
-                        id_as_title_prefix=id_as_title_prefix
-                    )
-                except KeyError:
-                    print("No config for this resource.")
+                        print("No config for this resource.")
 
 # create graph for ARCHE entities
 # open json file

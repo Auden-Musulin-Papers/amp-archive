@@ -8,6 +8,11 @@ on:
         description: '(Required) Database ID as number'
         required: true
         default: 0
+      project_name:
+        type: string
+        description: '(Required) Project Name as string'
+        required: false
+        default: ''
       resource_files_url:
         type: string
         description: '(Optional) Latest Release of Resource Files as URL'
@@ -23,11 +28,7 @@ on:
         description: '(Optional) Primary File Format as string'
         required: false
         default: 'xml'
-      project_name:
-        type: string
-        description: '(Optional) Project Name as string'
-        required: false
-        default: ''
+      
 
 jobs:
   update_baserow:
