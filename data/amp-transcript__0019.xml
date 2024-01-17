@@ -1,0 +1,193 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0019.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
+            <title level="a">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</title>
+            <author>Auden, W. H.</author>
+            <editor>
+               <name>Mayer, Sandra</name>
+               <name>Frühwirth, Timo</name>
+            </editor>
+            <funder>
+               <name>FWF Austrian Science Fund</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Vienna</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Vienna</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>AMP</edition>
+            <respStmt>
+               <resp>Transcription and commentary</resp>
+               <name>Mayer, Sandra</name>
+               <name>Frühwirth, Timo</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2021">2021</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
+                  <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
+for any purpose, even commercially.</p>
+                  <p>The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms:</p>
+                  <p>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p>
+                  <p>Notices:</p>
+                  <p>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</p>
+               </licence>
+               <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
+            </availability>
+         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C318-B</idno></publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>St. Pölten</settlement>
+                        <repository>State Collections of Lower Austria</repository>
+                        <collection>Stella Musulin (Depot)</collection>
+                        <idno>1, 32</idno>
+                     </msIdentifier>
+                     <history>
+                        <origin>
+                           <origDate notBefore-iso="1972-02-22T00:00:00-05:00" notAfter-iso="1972-02-22T23:59:59-05:00">1972-02-22</origDate>
+                           <origPlace ref="#amp_place_id_29">77 St. Mark's Place</origPlace>
+                        </origin>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="de">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#amp_organization_85">United States General Post Office</orgName>
+               <placeName ref="#amp_place_id_28">New York City</placeName>
+               <date notBefore-iso="1972-02-23T12:00:00-05:00" notAfter-iso="1972-02-23T23:59:59-05:00">1972-02-23T12:00:00-05:00/1972-02-23T23:59:59-05:00</date>
+            </correspAction>
+            <correspAction type="transmitted">
+               <orgName ref="amp_organization_72">Postamt Oberndorf an der Melk (post office Oberndorf an der Melk)</orgName>
+               <placeName ref="#amp_place_id_311">Oberndorf an der Melk</placeName>
+               <date notBefore-iso="1972-02-28T13:00:01+01:00" notAfter-iso="1972-02-28T14:00:00+01:00">1972-02-28T13:00:01+01:00/1972-02-28T14:00:00+01:00</date>
+            </correspAction>
+            <correspAction type="redirected">
+               <orgName ref="amp_organization_72">Postamt Oberndorf an der Melk (post office Oberndorf an der Melk)</orgName>
+               <placeName ref="#amp_place_id_311">Oberndorf an der Melk</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#amp_person_2">Musulin, Stella</persName>
+               <placeName ref="#amp_place_id_7">Fridau</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#amp_person_1">Auden, W. H.</ref>
+               <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
+               <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0018.xml">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark Bewölkt" 1971-10-19</ref>
+               <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0020.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1973-09-24</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
+         <change who="tfruehwirth" when="2021-10-18">text transcribed</change>
+         <change who="smayer" when="2021-10-18">text transcribed</change>
+         <change who="smayer tfruehwirth" when="2021-10-18">transcriptions collated</change>
+         <change who="smayer tfruehwirth" when="2022-03-16">transcription reviewed, `space` element and `hand` attributes added, date format in `origDate` and `correspAction`/`date` modified</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2023-02-21">entities and correspDesc collated</change>
+         <change who="dgrigoriou" when="2023-08-17">container structure updated</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="6474" lry="3212">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0091/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="6454" lry="3210">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0092/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="5864" lry="7274">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0093/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="5864" lry="7270">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0094/"/>
+      </surface>
+   </facsimile>
+   <text type="letter" hand="#handwritten">
+      <body>
+         <div type="transcription" xml:id="transcription_amp_0019">
+            <div type="envelope">
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0091/" type="envelope"/>
+               <ab>
+                  <rs type="person" ref="#amp_person_1">W<unclear>.</unclear>H.Auden</rs><lb/>
+                  <address>  
+                     <rs type="place" ref="#amp_place_id_29">77 St Mark's Place<lb/>
+                     New York City<lb/>
+                     N.Y . 10003<lb/>
+                     U.S.A</rs>
+                  </address>    
+               </ab>
+               <ab>
+                  Not <unclear>q</unclear>uitti<unclear>n</unclear>g <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs> <unclear>·</unclear>
+               </ab>
+               <ab>
+                  <rs type="person" ref="#amp_person_2">Die Baronin<lb/>
+                  Stella Musulin</rs><lb/>
+                  <address> 
+                     <rs type="place" ref="#amp_place_id_7">Fridau<lb/>
+                     3200 Obergrabendorf<lb/>
+                     N. Ö<lb/>
+                     Austria</rs>
+                  </address>
+               </ab>   
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0092/" type="envelope"/>
+            </div>
+            <div type="letter">
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0093/" type="sheet"/>
+               <div type="letter_message">
+                  <opener>
+                     <dateline>
+                        <date rend="#block">Feb 22nd, 1972</date>
+                        <placeName>
+                           <address>
+                              <rs type="place" ref="#amp_place_id_29">77 St Mark's Place<lb/>
+                              New York City<lb/>
+                              N.Y. 10003</rs>
+                           </address>
+                        </placeName>
+                     </dateline>
+                     <salute>
+                        Dear <rs type="person" ref="#amp_person_2">Stella</rs><unclear>;</unclear>
+                     </salute>
+                  </opener>
+                  <p>
+                     Many thanks for your letter<unclear>,</unclear> Whate<unclear>ve</unclear>r<lb/>
+                     ma<unclear>d</unclear>e you imagine I was quitting <rs type="place" ref="#amp_place_id_5">Kirchst<unclear>e</unclear>tten</rs><unclear>?</unclear><lb/>
+                     Of course I'm not<unclear>,</unclear> The <rs type="event" ref="#amp_event_id_43">change</rs> is that I<lb/>
+                     shall be spending my winters in <rs type="place" ref="#amp_place_id_46">Oxford</rs><lb/>
+                     not in <rs type="place" ref="#amp_place_id_28">New York</rs>.
+                  </p>
+                  <closer>
+                     <salute>love</salute>
+                     <signed><rs type="person" ref="#amp_person_1">Wystan</rs></signed>
+                  </closer>
+               </div>     
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0094/" type="sheet"/>
+         </div>
+      </div>
+      </body>
+   </text>
+</TEI>

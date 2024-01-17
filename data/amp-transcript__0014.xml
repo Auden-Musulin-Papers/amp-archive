@@ -1,0 +1,206 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0014.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
+            <title level="a">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</title>
+            <author>Auden, W. H.</author>
+            <editor>
+               <name>Mayer, Sandra</name>
+               <name>Frühwirth, Timo</name>
+            </editor>
+            <funder>
+               <name>FWF Austrian Science Fund</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Vienna</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Vienna</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>AMP</edition>
+            <respStmt>
+               <resp>Transcription and commentary</resp>
+               <name>Mayer, Sandra</name>
+               <name>Frühwirth, Timo</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2021">2021</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
+                  <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
+for any purpose, even commercially.</p>
+                  <p>The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms:</p>
+                  <p>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p>
+                  <p>Notices:</p>
+                  <p>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</p>
+               </licence>
+               <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
+            </availability>
+         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C313-0</idno></publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>St. Pölten</settlement>
+                        <repository>State Collections of Lower Austria</repository>
+                        <collection>Stella Musulin (Depot)</collection>
+                        <idno>1, 25</idno>
+                     </msIdentifier>
+                     <history>
+                        <origin>
+                           <origDate notBefore-iso="1969-05-21T00:00:00+01:00" notAfter-iso="1969-05-21T23:59:59+01:00">1969-05-21</origDate>
+                           <origPlace ref="#amp_place_id_2">Hinterholz 6</origPlace>
+                        </origin>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="de">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="amp_organization_76">Hauptpostamt 1150 (main post office 1150)</orgName>
+               <placeName ref="#amp_place_id_1">Vienna</placeName>
+               <date notBefore-iso="1969-05-22T00:00:00+01:00" notAfter-iso="1969-05-22T15:00:00+01:00">1969-05-22T00:00:00+01:00/1969-05-22T15:00:00+01:00</date>
+            </correspAction>
+            <correspAction type="transmitted">
+               <orgName ref="amp_organization_73">Hauptpostamt 1030 (main post office 1030)</orgName>
+               <placeName ref="#amp_place_id_1">Vienna</placeName>
+               <date notBefore-iso="1969-05-22T14:00:01+01:00" notAfter-iso="1969-05-22T15:00:00+01:00">1969-05-22T14:00:01+01:00/1969-05-22T15:00:00+01:00</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#amp_person_2">Musulin, Stella</persName>
+               <placeName ref="#amp_place_id_11">Neulinggasse 26</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#amp_person_1">Auden, W. H.</ref>
+               <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
+               <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0013.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</ref>
+               <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0053.xml">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
+         <change who="tfruehwirth" when="2021-10-08">text transcribed</change>
+         <change who="smayer" when="2021-10-11">text transcribed</change>
+         <change who="smayer tfruehwirth" when="2021-10-11">transcriptions collated</change>
+         <change who="smayer tfruehwirth" when="2022-03-16">transcription reviewed, `space` element and `hand` attributes added, date format in `origDate` and `correspAction`/`date` modified</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2023-02-21">entities and correspDesc collated</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4586" lry="3444">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0063/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="4590" lry="3446">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0064/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="5750" lry="7686">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0065/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="5750" lry="7694">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0066/"/>
+      </surface>
+   </facsimile>
+   <text type="letter" hand="#handwritten">
+      <body>
+         <div type="transcription" xml:id="transcription_amp_0014">
+            <div type="envelope">
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0063/" type="envelope"/>
+               <ab>
+                  <hi rend="underline">Express</hi>
+               </ab>
+               <ab>
+                  "<unclear>L</unclear>onging to hear abo<unclear>u</unclear>t<lb/>
+                  <rs type="event" ref="#amp_event_id_7">royal visi<unclear>t</unclear></rs> .<unclear>"</unclear>
+               </ab>
+               <ab>
+                  <rs type="person" ref="#amp_person_2">Die Baronin<lb/>
+                  Stella Musuli<unclear>m</unclear></rs><lb/>
+                  <address>   
+                     <rs type="place" ref="#amp_place_id_11">Wien III<lb/>
+                     Neulinggasse 26/14</rs>
+                  </address>
+               </ab>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0064/" type="envelope"/>
+               <ab>
+                  <rs type="person" ref="#amp_person_1">W<unclear>H.</unclear> Auden</rs><lb/>
+                  <seg type="#printed">
+                     <address>
+                        <rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN, BEZ. ST. PÖLTEN<lb/>
+                        HINTERHOLZ 6<lb/>
+                        N.-Ö., AUSTRIA</rs>
+                     </address>
+                  </seg>
+               </ab>
+            </div>
+            <div type="letter">
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0065/" type="sheet"/>
+               <div type="letter_message">
+                  <opener>
+                     <dateline>
+                        <placeName>
+                           <seg hand="#printed">
+                              <address>  
+                                 <rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN, BEZ. ST. PÖLTEN<lb/>
+                                 HINTERHOLZ 6<lb/>
+                                 N.-Ö., AUSTRIA</rs>
+                              </address>
+                           </seg>
+                        </placeName>
+                        <date rend="#block">
+                           May 21 st<unclear>.</unclear>. 1969
+                        </date>
+                     </dateline>
+                     <salute>
+                        Dear <rs type="person" ref="#amp_person_2">Stella</rs><unclear>,</unclear>
+                     </salute>   
+                  </opener>
+                  <p>
+                     Ma<unclear>n</unclear>y thank f<unclear>o</unclear> your card<unclear>,</unclear> Had<lb/>
+                     tried several <unclear>ti</unclear>mes t<unclear>o</unclear> reach you<lb/>
+                     by phone,but w<unclear>ithou</unclear>t succ<unclear>e</unclear>ss  
+                  </p>
+                  <p>
+                     Wed<unclear>n</unclear>esday <del>lunch</del> May 28th is fine<lb/>
+                     for <rs type="person" ref="#amp_person_1 #amp_person_4">us</rs>,and we shall much look<lb/>
+                     forward to seeing you <rs type="person" ref="#amp_person_2 #amp_person_54">both</rs><unclear>-</unclear>
+                  </p>
+                  <p>
+                     <del>H</del> Longing to hear about the<lb/>
+                     <rs type="event" ref="#amp_event_id_7">Royal v<unclear>s</unclear>it</rs>.<lb/>
+                  </p>
+                  <closer>
+                     <salute>
+                        love
+                     </salute>
+                     <signed>
+                        <rs type="person" ref="#amp_person_1">Wystan</rs><unclear>'</unclear>
+                     </signed>
+                  </closer>
+               </div>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0066/" type="sheet"/>
+         </div>
+      </div>
+      </body>
+   </text>
+</TEI>

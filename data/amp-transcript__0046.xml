@@ -1,0 +1,174 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0046.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
+            <title level="a">Autograph Notes Stella Musulin on Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</title>
+            <author>Musulin, Stella</author>
+            <author>Musulin, Elsa</author>
+            <editor>
+               <name>Mayer, Sandra</name>
+               <name>Frühwirth, Timo</name>
+            </editor>
+            <funder>
+               <name>FWF Austrian Science Fund</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Vienna</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Vienna</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>AMP</edition>
+            <respStmt>
+               <resp>Transcription and commentary</resp>
+               <name>Mayer, Sandra</name>
+               <name>Frühwirth, Timo</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2021">2021</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
+                  <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
+for any purpose, even commercially.</p>
+                  <p>The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms:</p>
+                  <p>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p>
+                  <p>Notices:</p>
+                  <p>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</p>
+               </licence>
+               <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
+            </availability>
+         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C333-C</idno></publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>St. Pölten</settlement>
+                        <repository>State Collections of Lower Austria</repository>
+                        <collection>Stella Musulin (Depot)</collection>
+                        <idno>2, 2</idno>
+                     </msIdentifier>
+                     <history>
+                        <origin><origDate notBefore-iso="1965-04-28T00:00:00+01:00" notAfter-iso="1965-12-31T23:59:59+01:00">1965-04-28--1965-12-31</origDate></origin>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <bibl type="lit_work" xml:id="lit_work_id_94">Josef Weinheber notes</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="de">German</language>
+         </langUsage>
+         
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
+         <change who="smayer" when="2022-01-04">text transcribed</change>
+         <change who="tfruehwirth" when="2022-01-04">text transcribed using Transkribus</change>
+         <change who="smayer tfruehwirth" when="2022-01-04">transcriptions collated</change>
+         <change who="smayer tfruehwirth" when="2022-05-10">transcription reviewed, `space` element and `hand` attributes added, date format in `origDate` and `correspAction`/`date` modified</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2023-02-28">entities collated</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="5696" lry="7728">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0141/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="5694" lry="7730">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0142/"/>
+      </surface>
+   </facsimile>
+   <text type="notes" hand="#handwritten">
+      <body>
+         <div xml:id="transcription">
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0141/" type="sheet"/>
+               <p>
+                  1. In dem <hi rend="underline">man</hi><unclear>✓</unclear> dich — begrub ·
+               </p>
+               <p>
+                  2. Kategorisiert<unclear>.</unclear><lb/>
+                  Amb<unclear>it_</unclear>Umwelt is a bit wea<unclear>k</unclear> but pro<unclear>b</unclear>ably<lb/>
+                  can't <unclear>b</unclear>e helped·
+               </p>
+               <p>
+                  <unclear>3</unclear>. Grosses Unheil stifteten und Böses planten .<lb/>
+                  <del>Mem</del> men of great damage and malengine .<lb/>
+                  <hi rend="underline"><unclear>1</unclear></hi> the act<unclear>io</unclear>n<lb/>
+                  <hi rend="underline">2</hi> the intent.<lb/>
+                  Übelwollens?<lb/>
+                  Männer<unclear>✓</unclear> grossen Unheils und Übelwol<unclear>l</unclear>ens<unclear>.</unclear> ?
+               </p>
+               <p>
+                  <unclear>5</unclear>. Alpdruck.(vom nicht vor)<lb/>
+                  Stümper .
+               </p>
+               <p>
+                  <unclear>6.</unclear> <del><unclear>I</unclear>n str</del> Bei✓ strömendem Regen<lb/>
+               </p>
+               <p>
+                  <unclear>7.</unclear> Hope ever<unclear>y</unclear>one won't think <unclear>"</unclear>die Reiche<unclear>"</unclear><lb/>
+                  is a missprint for <unclear>"</unclear>die Reichen<unclear>".</unclear>prosais<unclear>c</unclear>h<hi rend="underline">e</hi><lb/>
+                  <unclear>&amp;</unclear> privat<hi rend="underline">e</hi> Art
+               </p>
+               <p>
+                  8. L<hi rend="underline">äch</hi>eln wir bei Hochzei<unclear>t</unclear>en , <hi rend="underline">auf</hi> denen ?<lb/>
+                  Next sentence ungramm<unclear>a</unclear>t<unclear>ica</unclear>l <unclear>.</unclear> Verb <del>lacking</del>missing..<lb/>
+                  And perhaps<unclear>:</unclear> <unclear>"</unclear>Noch nie war die Erde ohne<lb/>
+                  ihr<hi rend="underline">e</hi> faule<del>n</del> Stelle<del>n</del> (singular as in original),<lb/>
+                  ein Uno<unclear>r</unclear>t mit <hi rend="underline">Posten</hi> fü<unclear>r</unclear> Folterer
+               </p>
+               <p>
+                  <unclear>9.</unclear> Frieden oder Friede✓ ?
+               </p>
+               <p>
+                  10. An das Regime? Wie <unclear>w</unclear>u einst<unclear>✓</unclear> <unclear>·</unclear> W<hi rend="underline">ann</hi> bei jedem<lb/>
+                  <hi rend="underline">Wenn</hi> .
+               </p>
+               <p>
+                  11. Bedeu<unclear>te</unclear>nd<hi rend="underline">ere</hi><hi rend="underline"><del><unclear>r</unclear></del>n </hi>Nachbarn<lb/> 
+                  Warum <hi rend="underline">des</hi> n<hi rend="underline">oblen</hi> <unclear>Fl</unclear>usses <unclear>?</unclear> <rs type="place" ref="#amp_place_id_251">die Perschling</rs>
+               </p>
+               <p>
+                  12. W<hi rend="underline">as</hi> ist der Abgrund?<lb/>
+                  statt Bratschen Violas oder Geigen
+               </p>
+               <p>
+                  &#x2052;
+               </p>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0142/" type="sheet"/>
+               <p>
+                  Heute lächeln wir bei Hochzeiten ,<lb/>
+                  bei <unclear>d</unclear>enen Braut u. Bräutigam schon<lb/>
+                  auf der Welt waren als sich der Schatten<lb/>
+                  gehoben <unclear>oder</unclear> (vielmehr)✓ weiter<unclear>✓</unclear>gerückt war<unclear>.</unclear>
+               </p>
+               <p>
+                  1<unclear>2·</unclear><lb/>
+                  Anger wäre ev. besser als Rasen <unclear>.</unclear><lb/>
+                  Try gepfählt
+               </p>
+               <p>
+                  d<hi rend="underline">ie</hi> ihn n<hi rend="underline">achher</hi> dazu ver<hi rend="underline">p</hi>f<unclear>l</unclear>ichteten, sie<lb/>
+                  den Abgrund zu nennen <unclear>·</unclear><lb/>
+                  Look for old-fashioned wo<unclear>r</unclear>d for Streicher .<lb/>
+                  <unclear>(</unclear>Strin<unclear>g</unclear>end instruments genera<unclear>l</unclear>ly.)
+               </p>
+         </div>
+      </body>
+   </text>
+</TEI>

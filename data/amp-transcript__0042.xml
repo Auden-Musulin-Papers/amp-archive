@@ -1,0 +1,311 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0042.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
+            <title level="a">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescripts W. H. Auden "August 1968" and "Elegy" 1968-10-04</title>
+            <author>Auden, W. H.</author>
+            <editor>
+               <name>Mayer, Sandra</name>
+               <name>Frühwirth, Timo</name>
+            </editor>
+            <funder>
+               <name>FWF Austrian Science Fund</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Vienna</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Vienna</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>AMP</edition>
+            <respStmt>
+               <resp>Transcription and commentary</resp>
+               <name>Mayer, Sandra</name>
+               <name>Frühwirth, Timo</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2021">2021</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
+                  <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
+for any purpose, even commercially.</p>
+                  <p>The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms:</p>
+                  <p>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p>
+                  <p>Notices:</p>
+                  <p>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</p>
+               </licence>
+               <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
+            </availability>
+         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C32F-2</idno></publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>St. Pölten</settlement>
+                        <repository>State Collections of Lower Austria</repository>
+                        <collection>Stella Musulin (Depot)</collection>
+                        <idno>1, 17</idno>
+                     </msIdentifier>
+                     <history>
+                        <origin>
+                           <origDate notBefore-iso="1968-10-04T00:00:00+01:00" notAfter-iso="1968-10-04T23:59:59+01:00">1968-10-04</origDate>
+                           <origPlace ref="#amp_place_id_2">Hinterholz 6</origPlace>
+                        </origin>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="de">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <orgName ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</orgName>
+               <placeName ref="#amp_place_id_5">Kirchstetten</placeName>
+               <date notBefore-iso="1968-10-04T17:00:01+01:00" notAfter-iso="1968-10-04T18:00:00+01:00">1968-10-04T17:00:01+01:00/1968-10-04T18:00:00+01:00</date>
+            </correspAction>
+            <correspAction type="transmitted">
+               <orgName ref="#amp_organization_74">Hauptpostamt 1040 (main post office 1040)</orgName>
+               <placeName ref="#amp_place_id_1">Vienna</placeName>
+               <date notBefore-iso="1968-10-05T11:00:01+01:00" notAfter-iso="1968-10-05T12:00:00+01:00">1968-10-05T11:00:01+01:00/1968-10-05T12:00:00+01:00</date>
+            </correspAction>
+            <correspAction type="redirected">
+               <orgName ref="#amp_organization_74">Hauptpostamt 1040 (main post office 1040)</orgName>
+               <placeName ref="#amp_place_id_1">Vienna</placeName>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#amp_person_2">Musulin, Stella</persName>
+               <placeName ref="#amp_place_id_11">Neulinggasse 26</placeName>
+            </correspAction>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#amp_person_1">Auden, W. H.</ref>
+               <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
+               <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0006.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</ref>
+               <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0007.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-06</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
+         <change who="smayer" when="2021-10-29">text transcribed</change>
+         <change who="tfruehwirth" when="2021-11-04">text transcribed using Transkribus</change>
+         <change who="smayer tfruehwirth" when="2021-11-09">transcriptions collated</change>
+         <change who="smayer tfruehwirth" when="2022-05-30">transcription reviewed, `space` element and `hand` attributes added, date format in `origDate` and `correspAction`/`date` modified</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2023-02-28">entities and correspDesc collated</change>
+         <change who="smayer tfruehwirth" when="2023-08-08">container structure updated</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4586" lry="3462">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0033/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="4584" lry="3464">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0034/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="5694" lry="7732">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0103/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="5692" lry="7734">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0104/"/>
+      </surface>
+   </facsimile>
+   <text type="letter" hand="#typed">
+      <body>
+         <div type="transcription" xml:id="transcription_amp_0042">
+            <div type="envelope">
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0033/" type="envelope"/>
+               <ab hand="#handwritten">
+                  <rs type="person" ref="#amp_person_2">Die Baronin<lb/>
+                  S<del><unclear>e</unclear></del>tella Musulin</rs><lb/>
+                  <address>
+                     <rs type="place" ref="#amp_place_id_11"><del>1040</del> Wien <del>IV</del><lb/>
+                     Neulingasse 26</rs>
+                  </address>
+               </ab>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0034/" type="envelope"/>
+               <ab hand="#printed">
+                  <address>
+                     <rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN, BEZ. ST. PÖLTEN<lb/>
+                     HINTERHOLZ 6<lb/>
+                     N.-Ö., AUSTRIA</rs>
+                  </address>
+               </ab>
+            </div>
+            <div type="letter">
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0103/" type="sheet"/>
+               <div type="poem">
+                  <head>
+                     <space extent="undefined quantity of characters plus minimum" min="7" unit="char"/><rs type="lit_work" ref="#lit_work_id_88"><hi rend="underline">AUGUST I<del>(</del>968</hi></rs>
+                  </head>
+                  <lg>
+                     <lb/><space extent="undefined quantity of characters"/><l>The ogre does what ogres can,</l>
+                     <lb/><space extent="undefined quantity of characters"/><l>Deeds quite impossible for man,</l>
+                     <lb/><space extent="undefined quantity of characters"/><l>but one prize is beyond his reach:</l>
+                     <lb/><space extent="undefined quantity of characters"/><l>The ogre cannot master Speech.</l>
+                     <lb/><space extent="undefined quantity of characters"/><l>About a subjugated plain,</l>
+                     <lb/><space extent="undefined quantity of characters"/><l>Among its desperate and slain,</l>
+                     <lb/><space extent="undefined quantity of characters"/><l>The ogre stalks with hands on hips,</l>
+                     <lb/><space extent="undefined quantity of characters"/><l>While drivel gushes from his lips.</l>
+                  </lg>
+                  <ab>
+                     <space extent="undefined quantity of characters plus minimum" min="9" unit="char"/>___
+                  </ab>
+               </div>
+               <div type="letter_message" hand="#handwritten">
+                  <opener>
+                     <salute>
+                        Dear <rs type="person" ref="#amp_person_2">Stell<unclear>a</unclear></rs>,
+                     </salute>
+                  </opener>
+                  <p>
+                     Terribly sorry about <unclear>l</unclear>ast Sunday.<lb/>
+                     Since I had no idea whe<unclear>n</unclear> we should be<lb/>
+                     a<unclear>b</unclear>le to get to you, I tho<unclear>u</unclear>g<unclear>ht</unclear> it was unfair<lb/>
+                     to t<unclear>he</unclear> kitchen not to cancel.
+                  </p>
+                  <p>
+                     Ha<unclear>ve</unclear> a ni<unclear>c</unclear>e <unclear>win</unclear>ter and <unclear>wi</unclear>ll see you, I hop<unclear>e</unclear>,<lb/>
+                     early in Apr<unclear>il</unclear>
+                  </p>
+                  <closer>
+                     <salute>
+                        love
+                     </salute>
+                     <signed>
+                        <rs type="person" ref="#amp_person_1">Wystan</rs>
+                     </signed>
+                  </closer>
+               </div>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0104/" type="sheet"/>
+               <div type="poem">
+                  <head>
+                     <space quantity="4" unit="char"/><rs type="lit_work" ref="#lit_work_id_58"><hi rend="underline">ELEGY</hi><lb/>
+                     (<hi rend="underline">In Memoriam <rs type="person" ref="#amp_person_16">Emma Eiermann</rs></hi>. <del>ob</del><lb/>
+                     <space quantity="1" unit="char"/><hi rend="underline">ob.Nov 4th,I967)</hi></rs>
+                  </head>
+                  <cb n="1"/>
+                  <lg>
+                     <lb/><space quantity="2" unit="char"/><l><hi rend="underline">Liebe <rs type="person" ref="#amp_person_16">Frau Emma</rs></hi>,</l>
+                     <lb/><space quantity="2" unit="char"/><l><hi rend="underline">na,was hast Du denn gemacht?</hi></l>
+                     <lb/><space quantity="2" unit="char"/><l>You who always made</l>
+                     <lb/><space quantity="2" unit="char"/><l>such conscience of our comfort,</l>
+                     <lb/><space quantity="2" unit="char"/><l>Oh,how could you go and <rs type="event" ref="#amp_event_id_1">die</rs>,</l>
+                  </lg>
+                  <lg>
+                     <lb/><space quantity="2" unit="char"/><l>as if you didn't know</l>
+                     <lb/><space quantity="2" unit="char"/><l>that in a permissive age,</l>
+                     <lb/><space quantity="2" unit="char"/><l>so rife with envy,</l>
+                     <lb/><space quantity="2" unit="char"/><l>a housekeeper is harder</l>
+                     <lb/><space quantity="2" unit="char"/><l>to replace than a lover,</l>
+                  </lg>
+                  <lg>   
+                     <lb/><space quantity="2" unit="char"/><l>and <rs type="event" ref="#amp_event_id_1">die</rs>,too,when we</l>
+                     <lb/><space quantity="2" unit="char"/><l>were thousands of miles away,</l>
+                     <lb/><space quantity="2" unit="char"/><l>leaving no one there</l>
+                     <lb/><space quantity="2" unit="char"/><l>to prune and transplant before</l>
+                     <lb/><space quantity="2" unit="char"/><l>the winter cold should set in.</l>
+                  </lg>
+                  <lg>   
+                     <lb/><space quantity="2" unit="char"/><l>Good witch that you were,</l>
+                     <lb/><space quantity="2" unit="char"/><l><del>S</del>surely you should have foreseen</l>
+                     <lb/><space quantity="2" unit="char"/><l>the doom that <rs type="event" ref="#amp_event_id_1">your death</rs></l>
+                     <lb/><space quantity="2" unit="char"/><l>would spell for your cats and ours:</l>
+                     <lb/><space quantity="2" unit="char"/><l>all had to be put away.</l>
+                  </lg>
+                  <lg>
+                     <lb/><space quantity="2" unit="char"/><l>You came with the house,</l>
+                     <lb/><space quantity="2" unit="char"/><l>you and your brother <rs type="person" ref="#amp_person_17">Josef</rs>,</l>
+                     <lb/><space quantity="1" unit="char"/><l><del> Sudeten deutsche,</del> <hi rend="underline">Sudetendeutsche</hi>,</l>
+                     <lb/><space quantity="2" unit="char"/><l>made homeless paupers when <rs type="event" ref="#amp_event_id_52">Czechs</rs></l>
+                     <lb/><space quantity="2" unit="char"/><l><rs type="event" ref="#amp_event_id_52">got their turn to be brutal</rs>:</l>
+                  </lg>
+                  <lg>
+                     <lb/><space quantity="2" unit="char"/><l>but catastrophe</l>
+                     <lb/><space quantity="2" unit="char"/><l>had failed to modernise you,</l>
+                     <lb/><space quantity="2" unit="char"/><l>Child of the Old World,</l>
+                     <lb/><space quantity="2" unit="char"/><l>in which to serve a master</l>
+                     <lb/><space quantity="2" unit="char"/><l>was never thought ignoble.</l>
+                  </lg>
+                  <lg>
+                     <lb/><space quantity="2" unit="char"/><l>Children of the New,</l>
+                     <lb/><space quantity="2" unit="char"/><l>we had to learn how to live</l>
+                     <lb/><space quantity="2" unit="char"/><l>in the older way,</l>
+                     <lb/><space quantity="2" unit="char"/><l>well tendered and observed by</l>
+                     <lb/><space quantity="2" unit="char"/><l>loyal but critical eyes.</l>
+                  </lg>
+                  <lg>
+                     <lb/><space quantity="2" unit="char"/><l>From the first,I think,</l>
+                     <lb/><space quantity="2" unit="char"/><l>you liked us but to the last</l>
+                     <lb/><space quantity="2" unit="char"/><l>assumed most callers</l>
+                     <lb/><space quantity="2" unit="char"/><l>knocked with some evil intent</l>
+                     <lb/><space quantity="2" unit="char"/><l>(now and again you were right).</l>
+                  </lg>
+                  <lg>
+                     <lb/><space quantity="2" unit="char"/><l>When guests were coming,</l>
+                     <lb/><space quantity="2" unit="char"/><l>there was always the worry:-</l>
+                     <lb/><space quantity="2" unit="char"/><l>would you disallow?</l>
+                     <lb/><space quantity="2" unit="char"/><l>Greeks,in your censure,were rogues,</l>
+                     <lb/><space quantity="2" unit="char"/><l>all teen-agers delinquent.</l>
+                  </lg>
+                  <lg>
+                     <lb/><space quantity="2" unit="char"/><l>Nor were you ever</l>
+                     <lb/><space quantity="2" unit="char"/><l>one <del>y</del>to behave your temper:</l>
+                     <lb/><space quantity="2" unit="char"/><l>let Youth pick a fruit</l>
+                     <lb/><space quantity="2" unit="char"/><l>or flower,out you would storm,</l>
+                     <lb/><space quantity="2" unit="char"/><l>arms whirling,screaming abuse</l>
+                  </lg>
+                  <cb n="2"/>
+                  <lg>
+                     <lb/><space quantity="42" unit="char"/><l>in peasant German</l>
+                     <lb/><space quantity="42" unit="char"/><l>at startled Americans</l>
+                     <lb/><space quantity="42" unit="char"/><l>who had meant no harm,</l>
+                     <lb/><space quantity="42" unit="char"/><l>and,after they'd gone,for days</l>
+                     <lb/><space quantity="42" unit="char"/><l>you would treat us to the sulks.</l>
+                  </lg>
+                  <lg>
+                     <lb/><space quantity="42" unit="char"/><l>But when in good form,</l>
+                     <lb/><space quantity="42" unit="char"/><l>how enchanting your shy grin,</l>
+                     <lb/><space quantity="42" unit="char"/><l>your soft cat-language:</l>
+                     <lb/><space quantity="42" unit="char"/><l>no,no,<rs type="person" ref="#amp_person_16">Frau E</rs>,dear oddling,</l>
+                     <lb/><space quantity="42" unit="char"/><l>we shall always be grateful.</l>
+                  </lg>
+                  <lg>
+                     <lb/><space quantity="42" unit="char"/><l><rs type="event" ref="#amp_event_id_51">After <rs type="person" ref="#amp_person_17">Josef</rs> died</rs></l>
+                     <lb/><space quantity="42" unit="char"/><l>(siblings can live in a bond</l>
+                     <lb/><space quantity="42" unit="char"/><l>as close as wedlock),</l>
+                     <lb/><space quantity="42" unit="char"/><l>you were all amort,your one</l>
+                     <lb/><space quantity="42" unit="char"/><l>wish to rejoin him quickly.</l>
+                  </lg>
+                  <lg>
+                     <lb/><space quantity="42" unit="char"/><l>You have,and we're left</l>
+                     <lb/><space quantity="42" unit="char"/><l>with ten years to consider,</l>
+                     <lb/><space quantity="42" unit="char"/><l>astonished at how</l>
+                     <lb/><space quantity="42" unit="char"/><l>vivid they are to recall:</l>
+                     <lb/><space quantity="42" unit="char"/><l><hi rend="underline">Du Gute,schlaf in Ruhe</hi>.</l>
+                  </lg>
+                  <ab>
+                     <space quantity="50" unit="char"/>___
+                  </ab>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

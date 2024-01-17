@@ -1,0 +1,257 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0031.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
+            <title level="a">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</title>
+            <author>Musulin, Stella</author>
+            <editor>
+               <name>Mayer, Sandra</name>
+               <name>Frühwirth, Timo</name>
+            </editor>
+            <funder>
+               <name>FWF Austrian Science Fund</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Vienna</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Vienna</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>AMP</edition>
+            <respStmt>
+               <resp>Transcription and commentary</resp>
+               <name>Mayer, Sandra</name>
+               <name>Frühwirth, Timo</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2021">2021</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
+                  <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
+for any purpose, even commercially.</p>
+                  <p>The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms:</p>
+                  <p>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p>
+                  <p>Notices:</p>
+                  <p>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</p>
+               </licence>
+               <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
+            </availability>
+         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C324-D</idno></publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>St. Pölten</settlement>
+                        <repository>State Collections of Lower Austria</repository>
+                        <collection>Stella Musulin (Depot)</collection>
+                        <idno>2, 11</idno>
+                     </msIdentifier>
+                     <history>
+                        <origin>
+                           <origDate notBefore-iso="1985-12-15T00:00:00+01:00" notAfter-iso="1985-12-15T23:59:59+01:00">1985-12-15</origDate>
+                           <origPlace ref="#amp_place_id_7">Fridau</origPlace>
+                        </origin>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
+         <change who="smayer" when="2021-12-14">text transcribed</change>
+         <change who="tfruehwirth" when="2021-12-14">text transcribed using Transkribus</change>
+         <change who="smayer tfruehwirth" when="2021-12-14">transcriptions collated</change>
+         <change who="dgrigoriou" when="2022-10-06">transcriptions updated v0.1</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2023-02-23">entities and correspDesc collated</change>
+         <change who="dgrigoriou" when="2023-08-18">container structure updated</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="5696" lry="7770">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0223/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="5700" lry="7766">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0224/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="5702" lry="7776">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0225/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="5698" lry="7766">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0226/"/>
+      </surface>
+   </facsimile>
+   <text type="letter" hand="#typed">
+      <body>
+         <div type="transcription" xml:id="transcription_amp_0031">
+            <div type="letter"> 
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0223/" type="sheet"/>
+               <div type="letter_message">
+                  <opener>
+                     <dateline>
+                        <placeName>
+                           <address>
+                              <space quantity="40" unit="char"/><rs type="place" ref="#amp_place_id_7">Fridau<lb/>
+                              <space quantity="36" unit="char"/>A-3200 Obergrafendorf<lb/>
+                              <space quantity="42" unit="char"/>bei St.Pölten, Austria.</rs><lb/>
+                           </address>
+                        </placeName>
+                        <space quantity="46" unit="char"/><date rend="#inline">15 De<del>d</del>cember 1985.</date>
+                     </dateline>
+                     <salute>Dear <rs type="person" ref="#amp_person_98">Ed</rs>,</salute>
+                  </opener>
+                  <p>
+                     <space quantity="4" unit="char"/>The time has come to send out a signal to you from <rs type="place" ref="#amp_place_id_10">this<lb/>
+                     ancient, scandal-ridden, provincial dump</rs>. <space quantity="1" unit="char"/><rs type="person" ref="#amp_person_119">Peter Müller</rs> has<lb/>
+                     not been sleeping over his plan to edit <rs type="lit_work" ref="#lit_work_id_114">a book</rs> on <rs type="person" ref="#amp_person_1">Auden</rs>´s<lb/>
+                     time <rs type="place" ref="#amp_place_id_10">here</rs>, he has been writing books himself in addition to<lb/>
+                     his full time profession. <space quantity="1" unit="char"/>Now - you may know this - it is<lb/>
+                     definite and the book is to come out in February 1987 in<lb/>
+                     time for <rs type="person" ref="#amp_person_1">A</rs>´s 80th.
+                  </p>
+                  <p>  
+                     <space quantity="4" unit="char"/>So he got me back to my desk, to, in his words, combine<lb/>
+                     <rs type="lit_work" ref="#lit_work_id_47 #lit_work_id_108 #lit_work_id_115">my English and German texts</rs>, and bring the whole thing up to<lb/>
+                     date. <space quantity="1" unit="char"/>"Write as fully as you can, double the length." <space quantity="1" unit="char"/>I<lb/>
+                     protested that a) I don´t wish to chatter more feebly than I<lb/>
+                     have already, b) I am ancient and frail, also lazy, c) the<lb/>
+                     first <rs type="lit_work" ref="#lit_work_id_47 #lit_work_id_108 #lit_work_id_115">MSS</rs> only approximate to each other while containing m<del><gap reason="illegible"/></del>kuch<lb/>
+                     the same material; <space quantity="1" unit="char"/>their tone differs. <space quantity="1" unit="char"/>But above all they<lb/>
+                     have, whether bad or indifferent, a certain shape or form and<lb/>
+                     you cannot just stuff more material into it which refers to<lb/>
+                     things which hap<del>e</del>pened subsequently. <space quantity="1" unit="char"/>So we agreed that we would<lb/>
+                     leave the texts to stand and that I would say, roughly, okay,<lb/>
+                     that was how it looked then; <space quantity="1" unit="char"/>what has happened since, what<lb/>
+                     is there still be said by us, who knew <rs type="person" ref="#amp_person_1">Auden</rs> in <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs><lb/>
+                     in view of the fact that <rs type="person" ref="#amp_person_100">Carpenter</rs> did no research on this<lb/>
+                     location<unclear>s</unclear>? <space quantity="1" unit="char"/>For a long time the idea was only to write a<lb/>
+                     German text, I mean that the book would be sol<del>t´</del>ely German<lb/>
+                     l<del>n</del>anguage production, and this I thought until quite recently.<lb/>
+                     Suddenly, <rs type="person" ref="#amp_person_119">Peter</rs> bounced me with the comment that he would<lb/>
+                     "like an English version as well." <space quantity="1" unit="char"/>I had thought my two <rs type="lit_work" ref="#lit_work_id_108 #lit_work_id_47">texts</rs><lb/>
+                     were only to be combined and the sequel written in German.<lb/>
+                     This presents technical problems. <space quantity="1" unit="char"/>For example, and now my<lb/>
+                     questions to you begin:
+                  </p>
+                  <p> 
+                     <space quantity="4" unit="char"/>We ihave here a copy of <rs type="lit_work" ref="#lit_work_id_103"><rs type="person" ref="#amp_person_1">Auden</rs>´s declaration</rs> to the tax<lb/>
+                     authorities. <space quantity="1" unit="char"/>(I have been determined all along that this<lb/>
+                     document should be published AND RIGHT <rs type="place" ref="#amp_place_id_10">HERE</rs>. <space quantity="1" unit="char"/>Apart from making<lb/>
+                     Them look stupid, it must be unique in literary history that a<lb/>
+                     great poet should explain to the tax authorities how poetry<lb/>
+                     comes to be written.) <space quantity="1" unit="char"/>Do you have the <rs type="lit_work" ref="#lit_work_id_99">English original</rs>, or where<lb/>
+                     is it;  did it ever exist or was <rs type="lit_work" ref="#lit_work_id_105">the German</rs> drafted by <rs type="person" ref="#amp_person_1">Auden</rs><lb/>
+                     and put together by, s<del>y</del>ay, <rs type="person" ref="#amp_person_194">his lawyer</rs>? <space quantity="1" unit="char"/>Or could this have been<lb/>
+                     done by <rs type="person" ref="#amp_person_157">whoever it was who wrote the <rs type="lit_work" ref="#lit_work_id_92">prose version</rs> of <rs type="lit_work" ref="#lit_work_id_60">the<lb/>
+                     Weinheber poem</rs></rs>? <space quantity="1" unit="char"/>I have that <rs type="lit_work" ref="#lit_work_id_103">text</rs> which <rs type="person" ref="#amp_person_1">A.</rs> gave me, but there<lb/>
+                     is no record of who wrote it. <space quantity="1" unit="char"/>In my first dr<del>s</del>aft of the <rs type="lit_work" ref="#lit_work_id_108">talk<lb/>
+                     given at the <rs type="org" ref="#amp_organization_47">PEN Club</rs></rs> in <rs type="place" ref="#amp_place_id_56">London</rs> in 1976 I wrote: "I have the<lb/>
+                     statement in <rs type="lit_work" ref="#lit_work_id_103">German translation</rs>, so that what I am reading is<lb/>
+                     <rs type="lit_work" ref="#lit_work_id_108">my own re-translation</rs> back into English and not the original.
+                  </p>
+                  <p>   
+                     <space quantity="4" unit="char"/>I should be very grateful if you could help me over the<lb/>
+                     <rs type="lit_work" ref="#lit_work_id_90">address which <rs type="person" ref="#amp_person_1">Auden</rs> held at <rs type="place" ref="#amp_place_id_47">Neulengbach</rs></rs>. <space quantity="1" unit="char"/>I have the original<lb/>
+                     <!--<rs type="letter" ref="#amp-transcript__0043.xml">-->English text which to my horror <rs type="person" ref="#amp_person_1">Auden</rs> asked me to translate:<lb/>
+                     although capable of creative writing in German, to deal with<lb/>
+                     this tough text was too m<del>k</del>uch and it was corrected by <rs type="person" ref="#amp_person_167">my husband</rs>.<lb/>
+                     <rs type="person" ref="#amp_person_119">Müller</rs> possesses the <rs type="lit_work" ref="#lit_work_id_91">German text</rs> taken from a tape. <space quantity="1" unit="char"/>Now this<lb/>
+                     <rs type="lit_work" ref="#lit_work_id_90">English text</rs> is so familia<del>s</del>rrto me that it deafens me to all<lb/>
+                     or any sources. <space quantity="1" unit="char"/>A digest of it is in the <rs type="lit_work" ref="#lit_work_id_108">PEN text</rs> but I wonder
+                  </p>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0224/" type="sheet"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0225/" type="sheet"/>
+                  <space quantity="28" unit="char"/>- 2 -<lb/>
+                  <p prev="true">
+                     to what extent <rs type="lit_work" ref="#lit_work_id_90"><rs type="person" ref="#amp_person_1">Auden</rs>´s speech</rs> contains hitherto unknown material,<lb/>
+                     if any. <space quantity="1" unit="char"/>I said air<del>l</del>ily that he had probably said i<del>a</del>t a<del>s</del>ll before,<lb/>
+                     in <rs type="lit_work" ref="#lit_work_id_116">Secondary Worlds</rs> and so on, but this is not true. <space quantity="1" unit="char"/>After a<lb/>
+                     preamble the speech begins:
+                     <seg>
+                        <space quantity="4" unit="char"/>Between the ages of six and twelve, I spent a great many of<lb/>
+                        <space quantity="4" unit="char"/>my waking hours in the fabrication of a private secondary<lb/>
+                        s <space quantity="2" unit="char"/>sacred world, the basic elements of which were a) a limestone<lb/>
+                        landscape mainly derived from the <rs type="place" ref="#amp_place_id_41">Pennine Moors</rs> in the North of<lb/>
+                        <space quantity="4" unit="char"/><rs type="place" ref="#amp_place_id_239">England</rs> and b) an industry - lead-mining.<lb/>
+                        <space quantity="4" unit="char"/>I<del>r</del>t is no doubt psychologically significant that my sacred<lb/>
+                        <space quantity="4" unit="char"/>world was autistic - that is to say I had no wish to share<lb/>
+                        <space quantity="4" unit="char"/>it with others ... <space quantity="2" unit="char"/>and so on.<lb/>
+                     </seg>
+                     He goes on to define the Primary and Secondary Worlds; <space quantity="1" unit="char"/>his<lb/>
+                     private world, the restrictions on the freedom of the artist;<lb/>
+                     water-turbines, his Platonic idea of a concentrating mill and<lb/>
+                     of his moral duty to sacrifice his aesthetic <del>princip </del>preference<lb/>
+                     to reality or truth.
+                  </p>
+                  <p> 
+                     <space quantity="4" unit="char"/>If you like I can have the <rs type="lit_work" ref="#lit_work_id_90">whole thing</rs> photo-copied and<lb/>
+                     send it along, but you see what it´s about. <space quantity="1" unit="char"/>I cannot believe<lb/>
+                     that <rs type="person" ref="#amp_person_1">Wystan</rs> <rs type="event" ref="#amp_event_id_37">chose <rs type="place" ref="#amp_place_id_47">Neulengbach</rs></rs> to make a one-time-only<lb/>
+                     statement of this length and weight, the idea is absurd and<lb/>
+                     the point of my quotation in <rs type="lit_work" ref="#lit_work_id_108">my talk in 1976</rs> was to show <rs type="person" ref="#amp_person_1">Auden</rs><lb/>
+                     in one aspect of his contact with the Austrians, not without<lb/>
+                     a touch of hilarity. <space quantity="1" unit="char"/>But this is not in <rs type="lit_work" ref="#lit_work_id_116">Secondary Worlds</rs>,<lb/>
+                     I have leafed through your <rs type="lit_work" ref="#lit_work_id_49">Early Auden</rs> page by page and finkd<lb/>
+                     no reference, nor can I find it anywhere else. <space quantity="1" unit="char"/>Can you<lb/>
+                     el<del>i</del>ucidate?
+                  </p>
+                  <p>   
+                     <space quantity="4" unit="char"/>M<del>Y</del>y worm´s eye view of the arrangements for the <rs type="event" ref="#amp_event_id_19">funeral</rs><lb/>
+                     goes iknto  <rs type="lit_work" ref="#lit_work_id_46">my new piece</rs>, and incidentally the contributions<lb/>
+                     will be looked over by a lawyer.
+                  </p>
+                  <p>   
+                     <space quantity="4" unit="char"/>Are you about to come out with a Middle Auden or whatever?<lb/>
+                     If so it would be nice to know about it so I can refer to it.
+                  </p>
+                  <p>   
+                     <space quantity="4" unit="char"/>The <rs type="person" ref="#amp_person_118">chaplain</rs> sto the <rs type="org" ref="#amp_organization_27">British Embassy in Vienna</rs> gave me the<lb/>
+                     name and addre<del>e</del>ss of the <rs type="person" ref="#amp_person_156">clergyman</rs> who took the service with the<lb/>
+                     <rs type="person" ref="#amp_person_">RC pasrish priest</rs> and I wrote to him to find o<del>iu</del>ut´whether he<lb/>
+                     can remember the form of service etc. but no answer so far.<lb/>
+                     This would be of interest here because though common practice<lb/>
+                     in <rs type="place" ref="#amp_place_id_239">England</rs> such an ecumenical service was a novelty here and<lb/>
+                     caused much comment.
+                  </p>
+                  <p>   
+                     <space quantity="4" unit="char"/>How are you and what are you doing apa<del>s</del>rt from teaching?<lb/>
+                     I had a lot of illness, hospitals etc. but am now stab<del>l</del>ilised<lb/>
+                     and am living now wholly in the <rs type="place" ref="#amp_place_id_7">country</rs> but am well looked<lb/>
+                     after and see plenty of people. <space quantity="1" unit="char"/>It´s Parkinson´s disease<lb/>
+                     which can be kept pretty well under control these days. <space quantity="1" unit="char"/>My<lb/>
+                     relations organised a splendid surprise party for my 70th<lb/>
+                     birthday which went on all day, at breakfast I didn´t yet<lb/>
+                     know <del>t</del>what lay ahead. <space quantity="1" unit="char"/><rs type="person" ref="#amp_person_94">My son</rs> plotted this and steered it from<lb/>
+                     <rs type="place" ref="#amp_place_id_28">New York</rs> but was there on the day. <space quantity="1" unit="char"/>He built up the Austrian<lb/>
+                     bank <rs type="org" ref="#amp_organization_11">Creditanstalt-Bankverein</rs> in <rs type="place" ref="#amp_place_id_28">NY</rs>, and if ever you need to<lb/>
+                     send me bulky papers or whatever - not that you will - contact<lb/>
+                     him at 212-702-9101. <space quantity="1" unit="char"/>His <del>m</del>name is <rs type="person" ref="#amp_person_94">Marko</rs>.
+                  </p>
+                  <closer>
+                     <space quantity="14" unit="char"/><salute>Good health and suc<unclear>c</unclear>ess i<del>j</del>n 1986,</salute>
+                  </closer>
+               </div>     
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0226/" type="sheet"/>
+         </div>
+      </div>
+      </body>
+   </text>
+</TEI>

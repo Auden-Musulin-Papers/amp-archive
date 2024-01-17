@@ -1,0 +1,163 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0030.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
+            <title level="a">Copy Typed Letter Stella Musulin to Bruce Duncan 1985-11-29</title>
+            <author>Musulin, Stella</author>
+            <editor>
+               <name>Mayer, Sandra</name>
+               <name>Frühwirth, Timo</name>
+            </editor>
+            <funder>
+               <name>FWF Austrian Science Fund</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Vienna</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Vienna</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>AMP</edition>
+            <respStmt>
+               <resp>Transcription and commentary</resp>
+               <name>Mayer, Sandra</name>
+               <name>Frühwirth, Timo</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2021">2021</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
+                  <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material for any purpose, even commercially.</p>
+                  <p>The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms:</p>
+                  <p>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p>
+                  <p>Notices:</p>
+                  <p>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</p>
+               </licence>
+               <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
+            </availability>
+         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C323-E</idno></publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>St. Pölten</settlement>
+                        <repository>State Collections of Lower Austria</repository>
+                        <collection>Stella Musulin (Depot)</collection>
+                        <idno>2, 10</idno>
+                     </msIdentifier>
+                     <history>
+                        <origin><!-- mark up certainty values -->
+                           <origDate notBefore-iso="1985-11-29T00:00:00+01:00" notAfter-iso="1985-11-29T23:59:59+01:00">1985-11-29</origDate>
+                           <origPlace ref="#amp_place_id_10">Austria</origPlace>
+                        </origin>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
+         <change who="smayer" when="2022-01-03">text transcribed</change>
+         <change who="tfruehwirth" when="2022-01-03">text transcribed using Transkribus</change>
+         <change who="smayer tfruehwirth" when="2022-01-03">transcriptions collated</change>
+         <change who="dgrigoriou" when="2022-10-06">transcriptions updated v0.1</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2023-02-23">entities and correspDesc collated</change>
+         <change who="dgrigoriou" when="2023-08-17">container structure updated</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="5700" lry="7772">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0221/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="5698" lry="7766">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0222/"/>
+      </surface>
+   </facsimile>
+   <text type="letter" hand="#typed">
+      <body>
+         <div type="transcription" xml:id="transcription_amp_0030">
+           <div type="letter">
+           <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0221/" type="sheet"/>
+               <div type="letter_message">
+                  <opener>
+                     <dateline>
+                        <space quantity="40" unit="char"/><date rend="#block">29th November 1985.</date>
+                        <persName><rs type="person" ref="#amp_person_156">The Revd. Br<del><unclear>i</unclear></del>uce Duncan,</rs></persName><lb/>
+                        <placeName>
+                           <address>
+                              <rs type="place" ref="#amp_place_id_170">The Vicarage,<lb/>
+                              Crediton<lb/>
+                              Devon <space quantity="1" unit="char"/>EX17 2AS.</rs>
+                           </address>
+                        </placeName>
+                     </dateline>
+                     <salute>Dear <rs type="person" ref="#amp_person_156">Mr. Duncan</rs>,</salute>
+                  </opener>
+                  <p>
+                     <space quantity="5" unit="char"/>I am a more or less retired journalist and author,<lb/>
+                     and am working on <rs type="lit_work" ref="#lit_work_id_46">a memoir of W.H. Auden´s years in Austria</rs><lb/>
+                     when I got to know him very well. <space quantity="2" unit="char"/>As he and <rs type="person" ref="#amp_person_4">Chester Kallman</rs><lb/>
+                     were used to involving me in domestic catastrophes of various<lb/>
+                     kinds, <rs type="person" ref="#amp_person_4"><del>C</del><del>t</del><unclear>T</unclear>hester</rs> asked me to bring order into the chaos which so<lb/>
+                     often follows upon a deathöand in <rs type="event" ref="#amp_event_id_18">this case</rs> was acute because<lb/>
+                     of the total lack of comprehension between the anglo-american<lb/>
+                     side and the local Austrian authorities. <space quantity="1" unit="char"/>Hence my approach<lb/>
+                     to you;  on enquiry I was given your name by the present<lb/>
+                     incumbent of the Chaplaincy to the <rs type="org" ref="#amp_organization_27">British Embassy in Vienna</rs>,<lb/>
+                     <rs type="person" ref="#amp_person_118">Canon Phillips</rs>.
+                  </p>
+                  <p>
+                     <space quantity="4" unit="char"/>Would you be so kind as to confirm that you took the<lb/>
+                     <rs type="event" ref="#amp_event_id_19">ecumenical service</rs> - shall I<del>S</del>scall it that? in the <rs type="place" ref="#amp_place_id_104">church at<lb/>
+                     Kirchstetten</rs> in October 1973, jointly with the <rs type="person" ref="#amp_person_">parish priest</rs>?
+                  </p>
+                  <p>    
+                     <space quantity="5" unit="char"/>Do you recall the form of service used, and did <rs type="person" ref="#amp_person_88">John Auden</rs><lb/>
+                     consult you about it? <space quantity="1" unit="char"/>I simply cannot remember, and al<del><gap reason="deleted"/></del>s<del>h</del>though<lb/>
+                     there was a long and magnificent passage from the <rs type="lit_work" ref="#lit_work_id_113">NT</rs> which I<lb/>
+                     could have sworn was from  <rs type="lit_work" ref="#lit_work_id_14 #lit_work_id_110">Corinthians</rs>, reading throu<del>t</del>gh <rs type="lit_work" ref="#lit_work_id_14">Cor.I</rs> &amp; <rs type="lit_work" ref="#lit_work_id_110">II</rs><lb/>
+                     nothing seems to ring the right bell. <space quantity="1" unit="char"/>Then there was the burial<lb/>
+                     service.  I am told that the whole occasion aroused a great deal<lb/>
+                     of interest here and was m<del>u</del>k<del>u</del>ch discussed:  so normal to the<lb/>
+                     British, in <rs type="place" ref="#amp_place_id_6">Lower Austria</rs> it was a sensation. <space quantity="1" unit="char"/>I should be<lb/>
+                     extremely grateful if you could find time to tell me anything<lb/>
+                     that you remember, and give me permission to quote you. <space quantity="1" unit="char"/>Not<lb/>
+                     everything about <rs type="person" ref="#amp_person_1">Wystan Auden</rs> was very appetising, his private<lb/>
+                     life was a mess. <space quantity="1" unit="char"/>But he was kind, generous and totally<lb/>
+                     unpreten<del>s</del>tious, and personally I was devoted to him. <space quantity="1" unit="char"/>It is
+                  </p>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0222/" type="sheet"/>
+                  <p prev="true">
+                     my dim recollection that some verse or other in the <rs type="lit_work" ref="#lit_work_id_59">Bible</rs><lb/>
+                     reading might help me to describe that amazing mixture of<lb/>
+                     awe-inspiring talent and high scholarship, wretchedness and squalor.
+                  </p>
+                  <closer>
+                     <space quantity="28" unit="char"/><salute>Yours sincerely,</salute>
+                     <space quantity="28" unit="char"/><signed><rs type="person" ref="#amp_person_2">Stella Musulin</rs>.</signed>
+                  </closer>
+               </div>
+            </div> 
+         </div>
+      </body>
+   </text>
+</TEI>

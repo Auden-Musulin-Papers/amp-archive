@@ -1,0 +1,172 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0054.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
+            <title level="a">Photographs [Stella Musulin] of W. H. Auden, Chester Kallman, and Elsa Musulin 1960-07-21--1960-11-02</title>
+            <author>[?]</author>
+            <editor>
+               <name>Mayer, Sandra</name>
+               <name>Frühwirth, Timo</name>
+               <name>Grigoriou, Dimitra</name>
+            </editor>
+            <funder>
+               <name>FWF Austrian Science Fund</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Vienna</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Vienna</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>AMP</edition>
+            <respStmt>
+               <resp>Transcription and commentary</resp>
+               <name>Mayer, Sandra</name>
+               <name>Frühwirth, Timo</name>
+               <name>Grigoriou, Dimitra</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2021">2021</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
+                  <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
+for any purpose, even commercially.</p>
+                  <p>The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms:</p>
+                  <p>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p>
+                  <p>Notices:</p>
+                  <p>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</p>
+               </licence>
+               <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
+            </availability>
+         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C33B-4</idno></publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>St. Pölten</settlement>
+                        <repository>State Collections of Lower Austria</repository>
+                        <collection>Stella Musulin (Depot)</collection>
+                        <idno>2, 17</idno>
+                     </msIdentifier>
+                     <history>
+                        <origin><origDate notBefore-iso="1960-07-21T00:00:00+01:00" notAfter-iso="1960-11-02T23:59:59+01:00">1960-07-21--1960-11-02</origDate></origin>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="de">German</language>
+         </langUsage>
+         <particDesc>
+           <listPerson type="identified">
+            <person role="participant" sameAs="amp_person_1">
+               <note type="description">front page: top right</note>
+            </person>  
+            <person role="participant" sameAs="amp_person_1">
+               <note type="description">front page: bottom left, left side</note>
+            </person> 
+            <person role="participant" sameAs="amp_person_93">
+               <note type="description">front page: bottom left, middle</note>
+            </person>
+            <person role="participant" sameAs="amp_person_4">
+               <note type="description">front page: bottom left, right side</note>
+            </person>
+            <person role="participant" sameAs="amp_person_93">
+               <note type="description">front page: bottom right, left side</note>
+            </person> 
+            <person role="participant" sameAs="amp_person_1">
+               <note type="description">front page: bottom right, right side</note>
+            </person>
+            <person role="participant" sameAs="amp_person_2">    
+               <note type="description">photographer</note>  
+            </person>
+            <person role="participant" sameAs="amp_person_192">
+               <note type="description">back page: top left, left side</note>
+            </person>
+            <person role="participant" sameAs="amp_person_172">
+               <note type="description">back page: top left, middle</note>
+            </person>
+            <person role="participant" sameAs="amp_person_193">
+               <note type="description">back page: top left, right side</note>
+            </person>
+            <person role="participant" sameAs="amp_person_93">
+               <note type="description">back page: top right, left side</note>
+            </person>
+            <person role="participant" sameAs="amp_person_193">
+               <note type="description">back page: top right, middle</note>
+            </person>
+            <person role="participant" sameAs="amp_person_172">
+               <note type="description">back page: top right, right side back</note>
+            </person>
+            <person role="participant" sameAs="amp_person_192">
+               <note type="description">back page: top right, right side front</note>
+            </person>
+            <person role="participant" sameAs="amp_person_192">
+               <note type="description">back page: bottom left, back</note>
+            </person>
+            <person role="participant" sameAs="amp_person_193">
+               <note type="description">back page: bottom left, front</note>
+            </person> 
+         </listPerson>
+         </particDesc>
+         <settingDesc>
+            <setting>
+               <name sameAs="amp_place_id_254">Loreto</name>
+               <date notBefore="1960-07-21" notAfter="1960-11-02">1960-07-21--1960-11-02</date>
+               <name sameAs="amp_place_id_7">Fridau, Ober-Grafendorf</name>
+               <date notBefore="1960-07-21" notAfter="1960-11-02">1960-07-21--1960-11-02</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
+         <change who="smayer tfruehwirth" when="2022-01-07">texts transcribed and captions created</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2023-03-01">entities collated, caption removed, renamed, date added</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="8528" lry="10073">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0240/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="8488" lry="10281">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0239/"/>
+      </surface>
+   </facsimile>
+   <text type="photograph">
+      <body>
+         <div xml:id="transcription">
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0240/" type="photograph"/>
+               <p>
+                  Baroque Pietà ,<rs type="place" ref="#amp_place_id_254">Loreto</rs>.<lb/>
+               </p>
+               <p>
+                  <rs type="person" ref="#amp_person_1">Wystan Auden</rs>
+               </p>
+               <p>
+                  <rs type="person" ref="#amp_person_1">W<unclear>.</unclear>H<unclear>.</unclear>A.</rs> <rs type="person" ref="#amp_person_162">Mama</rs>, <rs type="person" ref="#amp_person_4">Chester Kalmann</rs>.
+               </p>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0239/" type="photograph"/>
+               <p>
+                  Allerheiligen 1960 .
+               </p>
+         </div>
+      </body>
+   </text>
+</TEI>
