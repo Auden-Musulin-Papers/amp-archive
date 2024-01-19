@@ -1,1 +1,58 @@
-{}
+{
+  "1": {
+    "id": 1,
+    "order": "1.00000000000000000000",
+    "Name": "Kirchstetten",
+    "Predicate_uri": [
+      {
+        "id": 114,
+        "value": "hasTitle"
+      }
+    ],
+    "Literal": "Kirchstetten",
+    "Language": "de",
+    "Subject_uri": "https://sws.geonames.org/2774362/"
+  },
+  "2": {
+    "id": 2,
+    "order": "2.00000000000000000000",
+    "Name": "Hinterholz 6",
+    "Predicate_uri": [
+      {
+        "id": 114,
+        "value": "hasTitle"
+      }
+    ],
+    "Literal": "Hinterholz 6",
+    "Language": "de",
+    "Subject_uri": "https://sws.geonames.org/12503995/"
+  },
+  "3": {
+    "id": 3,
+    "order": "3.00000000000000000000",
+    "Name": "Neulinggasse 26",
+    "Predicate_uri": [
+      {
+        "id": 114,
+        "value": "hasTitle"
+      }
+    ],
+    "Literal": "Neulinggasse 26",
+    "Language": "de",
+    "Subject_uri": "https://sws.geonames.org/12504033/"
+  },
+  "4": {
+    "id": 4,
+    "order": "4.00000000000000000000",
+    "Name": "Vienna",
+    "Predicate_uri": [
+      {
+        "id": 114,
+        "value": "hasTitle"
+      }
+    ],
+    "Literal": "Vienna",
+    "Language": "en",
+    "Subject_uri": "https://sws.geonames.org/2761369/"
+  }
+}

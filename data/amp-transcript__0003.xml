@@ -1,13 +1,19 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transkript__0015.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="amp-transkript__0015.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29</title>
-            <author>Auden, W. H.</author>
+            <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
             <editor>
-               <name>Mayer, Sandra</name>
-               <name>Frühwirth, Timo</name>
+               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
                <name>FWF Austrian Science Fund</name>
@@ -27,8 +33,14 @@
             </edition>
             <respStmt>
                <resp>Transcription and commentary</resp>
-               <name>Mayer, Sandra</name>
-               <name>Frühwirth, Timo</name>
+               <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Schema, ODD/RNG</resp>
+               <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+               <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -46,7 +58,8 @@ for any purpose, even commercially.</p>
                </licence>
                <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
             </availability>
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C308-D</idno></publicationStmt>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C308-D</idno>
+         </publicationStmt>
          <seriesStmt>
             <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
          </seriesStmt>
@@ -63,7 +76,8 @@ for any purpose, even commercially.</p>
                      </msIdentifier>
                      <history>
                         <origin>
-                           <origDate notBefore-iso="1965-09-29T00:00:00+01:00" notAfter-iso="1965-09-29T23:59:59+01:00">1965-09-29</origDate>
+                           <origDate notBefore-iso="1965-09-29T00:00:00+01:00"
+                                     notAfter-iso="1965-09-29T23:59:59+01:00">1965-09-29</origDate>
                            <origPlace ref="#amp_place_id_2">Hinterholz 6</origPlace>
                         </origin>
                      </history>
@@ -81,12 +95,14 @@ for any purpose, even commercially.</p>
             <correspAction type="sent">
                <orgName ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</orgName>
                <placeName ref="#amp_place_id_5">Kirchstetten</placeName>
-               <date notBefore-iso="1965-09-29T17:00:01+01:00" notAfter-iso="1965-09-29T18:00:00+01:00">1965-09-29T17:00:01+01:00/1965-09-29T18:00:00+01:00</date>
+               <date notBefore-iso="1965-09-29T17:00:01+01:00"
+                     notAfter-iso="1965-09-29T18:00:00+01:00">1965-09-29T17:00:01+01:00/1965-09-29T18:00:00+01:00</date>
             </correspAction>
             <correspAction type="transmitted">
                <orgName ref="#amp_organization_73">Hauptpostamt 1030 (main post office 1030)</orgName>
                <placeName ref="#amp_place_id_1">Vienna</placeName>
-               <date notBefore-iso="1965-09-30T05:00:01+01:00" notAfter-iso="1965-09-30T06:00:00+01:00">1965-09-30T05:00:01+01:00/1965-09-30T06:00:00+01:00</date>
+               <date notBefore-iso="1965-09-30T05:00:01+01:00"
+                     notAfter-iso="1965-09-30T06:00:00+01:00">1965-09-30T05:00:01+01:00/1965-09-30T06:00:00+01:00</date>
             </correspAction>
             <correspAction type="received">
                <persName ref="#amp_person_2">Musulin, Stella</persName>
@@ -95,8 +111,12 @@ for any purpose, even commercially.</p>
             <correspContext>
                <ref type="belongsToCorrespondence" target="#amp_person_1">Auden, W. H.</ref>
                <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
-               <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0039.xml">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-04-28 and with Typescript W. H. Auden Translation "Joseph Weinheber"</ref>
-               <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0004.xml">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</ref>
+               <ref subtype="previous_letter"
+                    type="withinCollection"
+                    target="#amp-transcript__0039.xml">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-04-28 and with Typescript W. H. Auden Translation "Joseph Weinheber"</ref>
+               <ref subtype="next_letter"
+                    type="withinCollection"
+                    target="#amp-transcript__0004.xml">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</ref>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -129,38 +149,47 @@ for any purpose, even commercially.</p>
       <body>
          <div type="transcription" xml:id="transcription_amp_0003" xml:lang="en">
             <div type="envelope">
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0015/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0015/" type="envelope"/>
                <ab xml:lang="de">
                   <hi rend="underline">Eil-Post</hi>
                </ab>
                <ab xml:lang="de">
-                  <rs type="person" ref="#amp_person_2"><unclear>D</unclear>ie Baronin<lb/>
-                  Stella Musulin</rs><lb/>
+                  <rs type="person" ref="#amp_person_2">
+                     <unclear>D</unclear>ie Baronin<lb/>
+                  Stella Musulin</rs>
+                  <lb/>
                   <address>
                      <rs type="place" ref="#amp_place_id_11">Wien III<lb/>
                      Neu<unclear>l</unclear>ingg<unclear>a</unclear>sse 26 .</rs>
                   </address>
                </ab>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0016/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0016/" type="envelope"/>
                <ab hand="#printed">
-                  <rs type="person" ref="#amp_person_1">W. H. AUDEN</rs><lb/>
-                  <address>  
+                  <rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
+                  <lb/>
+                  <address>
                      <rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (<foreign xml:lang="de">WESTBAHN</foreign>)<lb/>
                      HINTERHOLZ 6<lb/>
-                     <hi rend="underline"><foreign xml:lang="de">N.-Ö.</foreign>, AUSTRIA</hi></rs>
-                  </address> 
+                        <hi rend="underline">
+                           <foreign xml:lang="de">N.-Ö.</foreign>, AUSTRIA</hi>
+                     </rs>
+                  </address>
                </ab>
                <ab xml:lang="de">
                   <unclear>1·</unclear> Buch <rs type="place" ref="#amp_place_id_11">Ne<unclear>u</unclear>linggasse<lb/>
-                  26/14</rs><lb/>
+                  26/14</rs>
+                  <lb/>
                   27.9.<lb/>
                   beigefügter Brief<lb/>
-                  schlamp<unclear>e</unclear>rte <rs type="org" ref="#amp_organization_40">Post</rs><lb/>
+                  schlamp<unclear>e</unclear>rte <rs type="org" ref="#amp_organization_40">Post</rs>
+                  <lb/>
                   feste Adresse
                </ab>
                <ab xml:lang="de">
-                  aus <rs type="place" ref="#amp_place_id_26">München</rs> a<unclear>m</unclear><lb/>
-                  4<unclear>:</unclear>5<unclear>:</unclear>6<unclear>:</unclear> <unclear>nic</unclear>ht<lb/>
+                  aus <rs type="place" ref="#amp_place_id_26">München</rs> a<unclear>m</unclear>
+                  <lb/>
+                  4<unclear>:</unclear>5<unclear>:</unclear>6<unclear>:</unclear>
+                  <unclear>nic</unclear>ht<lb/>
                   d<unclear>a</unclear>
                </ab>
                <ab>
@@ -168,10 +197,10 @@ for any purpose, even commercially.</p>
                </ab>
                <ab>
                   2<unclear>6</unclear>/
-               </ab>   
+               </ab>
             </div>
             <div type="letter">
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0017/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0017/" type="sheet"/>
                <div type="letter_message">
                   <opener>
                      <dateline>
@@ -181,50 +210,52 @@ for any purpose, even commercially.</p>
                               <address>
                                  <rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (<foreign xml:lang="de">WESTBAHN</foreign>)<lb/>
                                  HINTERHOLZ 6<lb/>
-                                 <foreign xml:lang="de">N.-Ö.</foreign>, AUSTRIA</rs>
+                                    <foreign xml:lang="de">N.-Ö.</foreign>, AUSTRIA</rs>
                               </address>
                            </seg>
                         </placeName>
-                  </dateline>
-                  <persName>
-                     <seg hand="#printed">
-                        <rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
-                     </seg>
-                  </persName>
-                  <salute>
+                     </dateline>
+                     <persName>
+                        <seg hand="#printed">
+                           <rs type="person" ref="#amp_person_1">W. H. AUDEN</rs>
+                        </seg>
+                     </persName>
+                     <salute>
                      Dear <rs type="person" ref="#amp_person_2">Stella</rs>:
                   </salute>
-               </opener>
-               <p>
+                  </opener>
+                  <p>
                   Many thanks for <rs type="event" ref="#amp_event_id_74">your letter</rs>. Shall be delighted to<lb/>
                   see <rs type="person" ref="#amp_person_2 #amp_person_179">you both</rs> anyday any time. I can't get<lb/>
                   to <rs type="place" ref="#amp_place_id_1">Vienna</rs> this week. Will you be there <rs type="event" ref="#amp_event_id_75">next<lb/>
                   T<unclear>u</unclear>esday? I have to go to a reception at<lb/>
-                  <rs type="place" ref="#amp_place_id_27">Amerika Haus</rs> 6-8</rs>. If you were free,it<lb/>
+                        <rs type="place" ref="#amp_place_id_27">Amerika Haus</rs> 6-8</rs>. If you were free,it<lb/>
                   woul<unclear>d</unclear> be fun t<unclear>o</unclear> have dinner to-gether. I<lb/>
                   certainly shan't stay at the do after <unclear>7</unclear>·30.
                </p>
-               <p>
+                  <p>
                   I ag<unclear>re</unclear>e about the cutting. Will keep it till<lb/>
                   you come or bring it with me next week.
                </p>
-               <closer>
-                 <salute>
+                  <closer>
+                     <salute>
                     love
                  </salute>
-                 <signed>
-                    <rs type="person" ref="#amp_person_1">Wystan</rs>
-                 </signed>   
-               </closer>
-               <postscript>
-                  <p>
+                     <signed>
+                        <rs type="person" ref="#amp_person_1">Wystan</rs>
+                     </signed>
+                  </closer>
+                  <postscript>
+                     <p>
                      P.S. The <rs type="org" ref="#amp_organization_41">N.D.R</rs> arri<unclear>ve</unclear>d. <rs type="lit_work" ref="#lit_work_id_89">Translation</rs> quite good,<lb/>
-                     but <hi rend="underline">why</hi> turn <hi rend="underline">bars</hi> into <hi rend="underline"><foreign xml:lang="de">Theke</foreign></hi>?
+                     but <hi rend="underline">why</hi> turn <hi rend="underline">bars</hi> into <hi rend="underline">
+                           <foreign xml:lang="de">Theke</foreign>
+                        </hi>?
                   </p>
-               </postscript>
-            </div>   
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0018/" type="sheet"/>
-         </div>
+                  </postscript>
+               </div>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0018/" type="sheet"/>
+            </div>
          </div>
       </body>
    </text>

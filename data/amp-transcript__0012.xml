@@ -1,13 +1,19 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0012.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="amp-transcript__0012.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</title>
-            <author>Auden, W. H.</author>
+            <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
             <editor>
-               <name>Mayer, Sandra</name>
-               <name>Frühwirth, Timo</name>
+               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
                <name>FWF Austrian Science Fund</name>
@@ -25,8 +31,14 @@
             <edition>AMP</edition>
             <respStmt>
                <resp>Transcription and commentary</resp>
-               <name>Mayer, Sandra</name>
-               <name>Frühwirth, Timo</name>
+               <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Schema, ODD/RNG</resp>
+               <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+               <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -44,7 +56,8 @@ for any purpose, even commercially.</p>
                </licence>
                <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
             </availability>
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C311-2</idno></publicationStmt>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C311-2</idno>
+         </publicationStmt>
          <seriesStmt>
             <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
          </seriesStmt>
@@ -61,7 +74,8 @@ for any purpose, even commercially.</p>
                      </msIdentifier>
                      <history>
                         <origin>
-                           <origDate notBefore-iso="1968-12-29T00:00:00-05:00" notAfter-iso="1968-12-29T23:59:59-05:00">1968-12-29</origDate>
+                           <origDate notBefore-iso="1968-12-29T00:00:00-05:00"
+                                     notAfter-iso="1968-12-29T23:59:59-05:00">1968-12-29</origDate>
                            <origPlace ref="#amp_place_id_29">77 St. Mark's Place</origPlace>
                         </origin>
                      </history>
@@ -79,7 +93,8 @@ for any purpose, even commercially.</p>
             <correspAction type="sent">
                <orgName ref="#amp_organization_85">United States General Post Office</orgName>
                <placeName ref="#amp_place_id_28">New York City</placeName>
-               <date notBefore-iso="1968-12-30T12:00:00-05:00" notAfter-iso="1968-12-30T23:59:59-05:00">1968-12-30T12:00:00-05:00/1968-12-30T23:59:59-05:00</date>
+               <date notBefore-iso="1968-12-30T12:00:00-05:00"
+                     notAfter-iso="1968-12-30T23:59:59-05:00">1968-12-30T12:00:00-05:00/1968-12-30T23:59:59-05:00</date>
             </correspAction>
             <correspAction type="redirected">
                <placeName ref="#amp_place_id_1">Vienna</placeName>
@@ -91,8 +106,12 @@ for any purpose, even commercially.</p>
             <correspContext>
                <ref type="belongsToCorrespondence" target="#amp_person_1">Auden, W. H.</ref>
                <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
-               <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0011.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</ref>
-               <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0013.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</ref>
+               <ref subtype="previous_letter"
+                    type="withinCollection"
+                    target="#amp-transcript__0011.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</ref>
+               <ref subtype="next_letter"
+                    type="withinCollection"
+                    target="#amp-transcript__0013.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</ref>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -124,9 +143,10 @@ for any purpose, even commercially.</p>
       <body>
          <div type="transcription" xml:id="transcription_amp_0012">
             <div type="envelope">
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0055/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0055/" type="envelope"/>
                <ab hand="#typed">
-                  <rs type="person" ref="#amp_person_1">W.H.Auden</rs><lb/>
+                  <rs type="person" ref="#amp_person_1">W.H.Auden</rs>
+                  <lb/>
                   <address>
                      <rs type="place" ref="#amp_place_id_29">77 St Mark's Place<lb/>
                      New York City<lb/>
@@ -139,7 +159,8 @@ for any purpose, even commercially.</p>
                </ab>
                <ab hand="#typed">
                   <rs type="person" ref="#amp_person_2">Die Baronin<lb/>
-                  Stella Musulin</rs><lb/>
+                  Stella Musulin</rs>
+                  <lb/>
                   <address>
                      <rs type="place" ref="#amp_place_id_11">Wien <del>IV</del>III<lb/>
                      Neulinggasse 26/I4<lb/>
@@ -147,12 +168,14 @@ for any purpose, even commercially.</p>
                   </address>
                </ab>
                <ab>
-                  <gap reason="illegible"/> <unclear>-</unclear><rs type="person" ref="#amp_person_23">B<unclear>ora</unclear>s</rs>
+                  <gap reason="illegible"/>
+                  <unclear>-</unclear>
+                  <rs type="person" ref="#amp_person_23">B<unclear>ora</unclear>s</rs>
                </ab>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0056/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0056/" type="envelope"/>
             </div>
             <div type="letter">
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0057/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0057/" type="sheet"/>
                <div type="letter_message">
                   <opener>
                      <dateline>
@@ -172,17 +195,21 @@ for any purpose, even commercially.</p>
                      </salute>
                   </opener>
                   <p>
-                     I am in despair. I wrote to <rs type="person" ref="#amp_person_">my lawyer</rs><lb/>
+                     I am in despair. I wrote to <rs type="person" ref="#amp_person_">my lawyer</rs>
+                     <lb/>
                      and to our factotum , <rs type="person" ref="#amp_person_21">Otto Ho<unclear>l</unclear>fmann</rs> to find<lb/>
                      out details about the <rs type="event" ref="#amp_event_id_13">accident</rs> and the<lb/>
                      whereabout<unclear>s</unclear> and condition of the car, but have<lb/>
-                     not heard a word. <rs type="person" ref="#amp_person_4">Chester</rs> postpones h<gap reason="illegible"/><lb/>
+                     not heard a word. <rs type="person" ref="#amp_person_4">Chester</rs> postpones h<gap reason="illegible"/>
+                     <lb/>
                      visit to <rs type="place" ref="#amp_place_id_1">Vienna</rs> and I dont know his plans.<lb/>
                      Could you possibly ring <rs type="person" ref="#amp_person_21">Ho<unclear>l</unclear>fmann</rs> to see if<lb/>
                      he knows anything .
                   </p>
                   <p>
-                     Adress. <rs type="place" ref="#amp_place_id_48"><unclear>W</unclear>ien VII, Schweighofergasse 4/21</rs><lb/>
+                     Adress. <rs type="place" ref="#amp_place_id_48">
+                        <unclear>W</unclear>ien VII, Schweighofergasse 4/21</rs>
+                     <lb/>
                      Tel : <unclear>9</unclear>3/88/155. .
                   </p>
                   <p>
@@ -197,7 +224,7 @@ for any purpose, even commercially.</p>
                      </signed>
                   </closer>
                </div>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0058/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0058/" type="sheet"/>
             </div>
          </div>
       </body>

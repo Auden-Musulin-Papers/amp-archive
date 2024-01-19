@@ -1,13 +1,19 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0050.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="amp-transcript__0050.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Photograph Otto Breicha of W. H. Auden and Mary McCarthy 1967-04-24--1967-04-26</title>
-            <author>Breicha, Otto</author>
+            <author ref="https://d-nb.info/gnd/115753761">Breicha, Otto</author>
             <editor>
-               <name>Mayer, Sandra</name>
-               <name>Frühwirth, Timo</name>
+               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
                <name>FWF Austrian Science Fund</name>
@@ -25,8 +31,14 @@
             <edition>AMP</edition>
             <respStmt>
                <resp>Transcription and commentary</resp>
-               <name>Mayer, Sandra</name>
-               <name>Frühwirth, Timo</name>
+               <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Schema, ODD/RNG</resp>
+               <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+               <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -45,9 +57,11 @@ for any purpose, even commercially.</p>
                <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
             </availability>
             <availability status="restricted">
-               <licence facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0247/" target="https://www.picturedesk.com/bild-disp/apa/de/bildrechte.html">Otto Breicha / brandstaetter images / picturedesk.com</licence>
+               <licence facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0247/"
+                        target="https://www.picturedesk.com/bild-disp/apa/de/bildrechte.html">Otto Breicha / brandstaetter images / picturedesk.com</licence>
             </availability>
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C337-8</idno></publicationStmt>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C337-8</idno>
+         </publicationStmt>
          <seriesStmt>
             <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
          </seriesStmt>
@@ -63,7 +77,10 @@ for any purpose, even commercially.</p>
                         <idno>2, 26</idno>
                      </msIdentifier>
                      <history>
-                        <origin><origDate notBefore-iso="1967-04-24T00:00:00+01:00" notAfter-iso="1967-04-26T23:59:59+01:00">1967-04-24--1967-04-26</origDate></origin>
+                        <origin>
+                           <origDate notBefore-iso="1967-04-24T00:00:00+01:00"
+                                     notAfter-iso="1967-04-26T23:59:59+01:00">1967-04-24--1967-04-26</origDate>
+                        </origin>
                      </history>
                   </msDesc>
                </witness>
@@ -75,20 +92,20 @@ for any purpose, even commercially.</p>
             <language ident="de">German</language>
          </langUsage>
          <particDesc>
-               <listPerson type="identified">
-                  <person role="participant" sameAs="amp_person_1">
-                     <note type="description">left side</note>
-                  </person>
-                  <person role="participant" sameAs="amp_person_72">    
-                     <note type="description">middle</note>
-                     </person>
-                  <person role="participant">    
-                     <note type="description">right side</note>
-                  </person>
-                     <person role="participant" sameAs="amp_person_152">    
-                       <note type="description">photographer</note>  
-                  </person>  
-               </listPerson>
+            <listPerson type="identified">
+               <person role="participant" sameAs="amp_person_1">
+                  <note type="description">left side</note>
+               </person>
+               <person role="participant" sameAs="amp_person_72">
+                  <note type="description">middle</note>
+               </person>
+               <person role="participant">
+                  <note type="description">right side</note>
+               </person>
+               <person role="participant" sameAs="amp_person_152">
+                  <note type="description">photographer</note>
+               </person>
+            </listPerson>
          </particDesc>
          <settingDesc>
             <setting>
@@ -116,15 +133,16 @@ for any purpose, even commercially.</p>
          <div xml:id="transcription">
             <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0247/" type="photograph"/>
             <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0248/" type="photograph"/>
-               <p hand="#handwritten">
-                  <unclear>Wien</unclear>, IV.67
+            <p hand="#handwritten">
+               <unclear>Wien</unclear>, IV.67
                </p>
-               <p hand="#stamp">
+            <p hand="#stamp">
                   AUFNAHME:<lb/>
-                  <rs type="person" ref="#amp_person_152">OTTO BREICHA</rs><lb/>
-                  <rs type="place" ref="#amp_place_id_217">ALSERSTRASSE 48/31<lb/>
+               <rs type="person" ref="#amp_person_152">OTTO BREICHA</rs>
+               <lb/>
+               <rs type="place" ref="#amp_place_id_217">ALSERSTRASSE 48/31<lb/>
                   WIEN 9</rs>
-               </p>
+            </p>
          </div>
       </body>
    </text>

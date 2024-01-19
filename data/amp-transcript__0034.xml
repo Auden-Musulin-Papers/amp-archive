@@ -1,13 +1,19 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0034.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="amp-transcript__0034.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Typed Letter Signed Michael O'Sullivan to Stella Musulin 1984-05-31</title>
-            <author>O'Sullivan, Michael</author>
+            <author ref="https://d-nb.info/gnd/1173017283">O'Sullivan, Michael</author>
             <editor>
-               <name>Mayer, Sandra</name>
-               <name>Frühwirth, Timo</name>
+               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
                <name>FWF Austrian Science Fund</name>
@@ -25,8 +31,14 @@
             <edition>AMP</edition>
             <respStmt>
                <resp>Transcription and commentary</resp>
-               <name>Mayer, Sandra</name>
-               <name>Frühwirth, Timo</name>
+               <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Schema, ODD/RNG</resp>
+               <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+               <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -44,7 +56,8 @@ for any purpose, even commercially.</p>
                </licence>
                <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
             </availability>
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C327-A</idno></publicationStmt>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C327-A</idno>
+         </publicationStmt>
          <seriesStmt>
             <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
          </seriesStmt>
@@ -61,8 +74,10 @@ for any purpose, even commercially.</p>
                      </msIdentifier>
                      <history>
                         <origin>
-                           <origDate notBefore-iso="1984-05-31T00:00:00+01:00" notAfter-iso="1984-05-31T23:59:59+01:00">1984-05-31</origDate>
-                           <origPlace ref="#amp_place_id_108">Dublin</origPlace><!-- uncertainty re multiple addresses -->
+                           <origDate notBefore-iso="1984-05-31T00:00:00+01:00"
+                                     notAfter-iso="1984-05-31T23:59:59+01:00">1984-05-31</origDate>
+                           <origPlace ref="#amp_place_id_108">Dublin</origPlace>
+                           <!-- uncertainty re multiple addresses -->
                         </origin>
                      </history>
                   </msDesc>
@@ -81,8 +96,12 @@ for any purpose, even commercially.</p>
             <correspContext>
                <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
                <ref type="belongsToCorrespondence" target="#amp_person_99">O'Sullivan, Michael</ref>
-               <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0033.xml">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</ref>
-               <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0036.xml">Autograph Note Michael O'Sullivan to Stella Musulin 1984-08-15</ref>
+               <ref subtype="previous_letter"
+                    type="withinCollection"
+                    target="#amp-transcript__0033.xml">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</ref>
+               <ref subtype="next_letter"
+                    type="withinCollection"
+                    target="#amp-transcript__0036.xml">Autograph Note Michael O'Sullivan to Stella Musulin 1984-08-15</ref>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -107,9 +126,9 @@ for any purpose, even commercially.</p>
    <text type="letter" hand="#typed">
       <body>
          <div type="transcription" xml:id="transcription_amp_0034">
-            <div type="letter"> 
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0231/" type="sheet"/>
-               <div type="letter_message"> 
+            <div type="letter">
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0231/" type="sheet"/>
+               <div type="letter_message">
                   <opener>
                      <dateline>
                         <placeName>
@@ -117,16 +136,20 @@ for any purpose, even commercially.</p>
                               <rs type="org" ref="#amp_organization_31">UNIVERSITY OF DUBLIN</rs>
                            </seg>
                            <seg hand="#printed">
-                              <rs type="org" ref="#amp_organization_32">TRINITY COLLEGE</rs><lb/>
+                              <rs type="org" ref="#amp_organization_32">TRINITY COLLEGE</rs>
+                              <lb/>
                               DUBLIN 2
                            </seg>
                            <seg>
                               <space quantity="60" unit="char"/>Home address :<lb/>
                               <lb/>
                               <address>
-                                 <space quantity="60" unit="char"/><rs type="place" ref="#amp_place_id_173">22, Kildare Street,<lb/>
-                                 <space quantity="60" unit="char"/>DUBLIN, 2.</rs><lb/>
-                                 <space quantity="60" unit="char"/><addrLine>Tel : 762662.</addrLine>
+                                 <space quantity="60" unit="char"/>
+                                 <rs type="place" ref="#amp_place_id_173">22, Kildare Street,<lb/>
+                                    <space quantity="60" unit="char"/>DUBLIN, 2.</rs>
+                                 <lb/>
+                                 <space quantity="60" unit="char"/>
+                                 <addrLine>Tel : 762662.</addrLine>
                               </address>
                            </seg>
                            <seg hand="#printed">
@@ -145,27 +168,39 @@ for any purpose, even commercially.</p>
                      <space quantity="21" unit="char"/>I remember you telling me that you liked the novels of<lb/>
                      <rs type="person" ref="#amp_person_122">Molly Keane</rs> when I visited you with <rs type="person" ref="#amp_person_119">Peter Muller</rs> in October of last year. I<lb/>
                      was delighted to see that <rs type="org" ref="#amp_organization_13">Virago Press</rs> have decided to reprint her early<lb/>
-                     novels and I thought of you when I saw them <del><unclear>o</unclear></del>in the bookshops.  I am sending<lb/>
-                     you herewith <hi rend="underline"><rs type='lit_work' ref="#lit_work_id_26">The Rising Tide</rs></hi> - the first in the series of reprints and I very<lb/>
+                     novels and I thought of you when I saw them <del>
+                        <unclear>o</unclear>
+                     </del>in the bookshops.  I am sending<lb/>
+                     you herewith <hi rend="underline">
+                        <rs type="lit_work" ref="#lit_work_id_26">The Rising Tide</rs>
+                     </hi> - the first in the series of reprints and I very<lb/>
                      much hope you enjoy reading it.
                   </p>
                   <p>
-                     <space quantity="21" unit="char"/>I remember with great affection our chat about <rs type="person" ref="#amp_person_1">W.H. Auden</rs><lb/>
+                     <space quantity="21" unit="char"/>I remember with great affection our chat about <rs type="person" ref="#amp_person_1">W.H. Auden</rs>
+                     <lb/>
                      and I am very grateful to you for sharing those memories with me.  Plans for<lb/>
-                     the <rs type="event" ref="#amp_event_id_21">Auden Exhibition in the <rs type="org" ref="#amp_organization_60">Kunstlerhaus</rs></rs> are now very far advanced.  I have<lb/>
+                     the <rs type="event" ref="#amp_event_id_21">Auden Exhibition in the <rs type="org" ref="#amp_organization_60">Kunstlerhaus</rs>
+                     </rs> are now very far advanced.  I have<lb/>
                      put togther a complete collection of <rs type="person" ref="#amp_person_1">Auden</rs>'s first editions, selections from<lb/>
-                     his contributions to periodicals, representative anthologies, <rs type='lit_work' ref="#lit_work_id_121 #lit_work_id_122">his films for<lb/>
-                     the <rs type="org" ref="#amp_organization_19">G.P.O Film Unit</rs></rs>, many items connected with his work for the <rs type="org" ref="#amp_organization_33">Group Theatre</rs>,<lb/>
-                     <rs type='lit_work' ref="#lit_work_id_16 #lit_work_id_17 #lit_work_id_18 #lit_work_id_20 #lit_work_id_148 #lit_work_id_149 #lit_work_id_150 #lit_work_id_151 #lit_work_id_152">all the opera libretti</rs>, <del>his</del><rs type="person" ref="#amp_person_136">Britten</rs>'s arrangements of his poems and many other items.<lb/>
+                     his contributions to periodicals, representative anthologies, <rs type="lit_work" ref="#lit_work_id_121 #lit_work_id_122">his films for<lb/>
+                     the <rs type="org" ref="#amp_organization_19">G.P.O Film Unit</rs>
+                     </rs>, many items connected with his work for the <rs type="org" ref="#amp_organization_33">Group Theatre</rs>,<lb/>
+                     <rs type="lit_work"
+                         ref="#lit_work_id_16 #lit_work_id_17 #lit_work_id_18 #lit_work_id_20 #lit_work_id_148 #lit_work_id_149 #lit_work_id_150 #lit_work_id_151 #lit_work_id_152">all the opera libretti</rs>, <del>his</del>
+                     <rs type="person" ref="#amp_person_136">Britten</rs>'s arrangements of his poems and many other items.<lb/>
                      I have also arranged for various portraits of <rs type="person" ref="#amp_person_1">Auden</rs> to be sent to <rs type="place" ref="#amp_place_id_1">Vienna</rs> ; they<lb/>
-                     include <rs type="person" ref="#amp_person_123">Sir William Coldstream</rs><unclear>'</unclear>s 1937 portrait, a portrait by <rs type="person" ref="#amp_person_124">Mervyn Peake</rs> painted<lb/>
+                     include <rs type="person" ref="#amp_person_123">Sir William Coldstream</rs>
+                     <unclear>'</unclear>s 1937 portrait, a portrait by <rs type="person" ref="#amp_person_124">Mervyn Peake</rs> painted<lb/>
                      in the same year, two drawings by <rs type="person" ref="#amp_person_125">Maurice Field</rs> and a portrait by <rs type="person" ref="#amp_person_126">Don Bachardy</rs>.<lb/>
                      I have also managed to get 26 lithographs by <rs type="person" ref="#amp_person_82">Henry Moore</rs> which he did in 1973 to<lb/>
                      illustrate <rs type="lit_work" ref="#lit_work_id_123">a selection of <rs type="person" ref="#amp_person_1">Auden</rs>'s poems</rs>.
                   </p>
                   <p>
-                     <space quantity="21" unit="char"/><rs type="person" ref="#amp_person_8">Stephen Spender</rs> has agreed to come to <rs type="place" ref="#amp_place_id_1">Vienna</rs> during the<lb/>
-                     period of <rs type="event" ref="#amp_event_id_21">the Exhibition</rs> - that is 11th October to 3rd November. <space quantity="1" unit="char"></space><rs type="person" ref="#amp_person_100">Humphrey<lb/>
+                     <space quantity="21" unit="char"/>
+                     <rs type="person" ref="#amp_person_8">Stephen Spender</rs> has agreed to come to <rs type="place" ref="#amp_place_id_1">Vienna</rs> during the<lb/>
+                     period of <rs type="event" ref="#amp_event_id_21">the Exhibition</rs> - that is 11th October to 3rd November. <space quantity="1" unit="char"/>
+                     <rs type="person" ref="#amp_person_100">Humphrey<lb/>
                      Carpenter</rs> will lecture on <rs type="person" ref="#amp_person_1">Auden</rs> at the invitation of the <rs type="org" ref="#amp_organization_16">British Council</rs>, so it<lb/>
                      all promises to be a splendid celebration of <rs type="person" ref="#amp_person_1">Auden</rs>'s life and work.
                   </p>
@@ -179,23 +214,31 @@ for any purpose, even commercially.</p>
                   <p>
                      <space quantity="21" unit="char"/>I had a letter from <rs type="person" ref="#amp_person_98">Edward Mendelson</rs> yesterday and he asked<lb/>
                      me to send you his very best wishes which I do along with my own.  I hope this<lb/>
-                     finds you in good spirits and that Summer is <del>being</del> better behaved in <rs type="place" ref="#amp_place_id_10">Austria</rs> <del><gap reason="deleted"/></del>than<lb/>
+                     finds you in good spirits and that Summer is <del>being</del> better behaved in <rs type="place" ref="#amp_place_id_10">Austria</rs>
+                     <del>
+                        <gap reason="deleted"/>
+                     </del>than<lb/>
                      it is here in <rs type="place" ref="#amp_place_id_249">Ireland</rs>.
                   </p>
                   <closer>
-                     <space quantity="21" unit="char"/><salute>With all good wishes,</salute>
-                     <space quantity="21" unit="char"/><salute>Yours very sincerely,</salute>
+                     <space quantity="21" unit="char"/>
+                     <salute>With all good wishes,</salute>
+                     <space quantity="21" unit="char"/>
+                     <salute>Yours very sincerely,</salute>
                      <signed>
                         <seg hand="#handwritten">
-                           <rs type="person" ref="#amp_person_99">Mich<unclear>ae</unclear>l <unclear>O'Sullivan</unclear></rs>
+                           <rs type="person" ref="#amp_person_99">Mich<unclear>ae</unclear>l <unclear>O'Sullivan</unclear>
+                           </rs>
                         </seg>
                      </signed>
-                     <space quantity="21" unit="char"/><signed><rs type="person" ref="#amp_person_99">MICHAEL O'SULLIVAN</rs>.</signed>
+                     <space quantity="21" unit="char"/>
+                     <signed>
+                        <rs type="person" ref="#amp_person_99">MICHAEL O'SULLIVAN</rs>.</signed>
                   </closer>
                </div>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0232/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0232/" type="sheet"/>
+            </div>
          </div>
-      </div>
       </body>
    </text>
 </TEI>

@@ -1,144 +1,173 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0053.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
-                <title level="a">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</title>
-                <author>Musulin, Stella</author>
-                <editor>
-                    <name>Mayer, Sandra</name>
-                    <name>Frühwirth, Timo</name>
-                </editor>
-                <funder>
-                    <name>FWF Austrian Science Fund</name>
-                    <address>
-                        <street>Sensengasse 1</street>
-                        <postCode>1090 Vienna</postCode>
-                        <placeName>
-                            <country>A</country>
-                            <settlement>Vienna</settlement>
-                        </placeName>
-                    </address>
-                </funder>
-            </titleStmt>
-            <editionStmt>
-                <edition>AMP</edition>
-                <respStmt>
-                    <resp>Transcription and commentary</resp>
-                    <name>Mayer, Sandra</name>
-                    <name>Frühwirth, Timo</name>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
-                <pubPlace>Vienna</pubPlace>
-                <date when="2021">2021</date>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
-                        <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="amp-transcript__0053.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
+            <title level="a">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</title>
+            <author ref="https://d-nb.info/gnd/127246711">Musulin, Stella</author>
+            <editor>
+               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
+            </editor>
+            <funder>
+               <name>FWF Austrian Science Fund</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Vienna</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Vienna</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>AMP</edition>
+            <respStmt>
+               <resp>Transcription and commentary</resp>
+               <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Schema, ODD/RNG</resp>
+               <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+               <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2021">2021</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
+                  <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
                             for any purpose, even commercially.</p>
-                        <p>The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms:</p>
-                        <p>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p>
-                        <p>Notices:</p>
-                        <p>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</p>
-                    </licence>
-                    <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
-                </availability>
-                <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C33A-5</idno></publicationStmt>
-            <seriesStmt>
-                <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness n="1">
-                        <msDesc>
-                            <msIdentifier>
-                                <country>A</country>
-                                <settlement>St. Pölten</settlement>
-                                <repository>State Collections of Lower Austria</repository>
-                                <collection>Stella Musulin (Depot)</collection>
-                                <idno>2, 9</idno>
-                            </msIdentifier>
-                            <history>
-                                <origin><!-- mark up certainty values -->
-                                    <origDate notBefore-iso="1969-05-29T00:00:00+01:00" notAfter-iso="1969-05-29T23:59:59+01:00">1969-05-29</origDate>
-                                    <origPlace ref="#amp_place_id_10">Austria</origPlace>
-                                </origin>
-                            </history>
-                        </msDesc>
-                    </witness>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de">German</language>
-            </langUsage>
-            <correspDesc>
-                <correspAction type="received">
-                    <persName ref="#amp_person_151">Silbermann, Edith</persName><!-- certainty value -->
-                </correspAction>
-                <correspContext>
-                    <ref type="belongsToCorrespondence" target="#amp_person_151">Silbermann, Edith</ref><!-- certainty value -->
-                    <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
-                    <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0014.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</ref>
-                    <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0040.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-06-10</ref>
-                </correspContext>
-            </correspDesc>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
-            <change who="smayer" when="2021-12-15">text transcribed</change>
-            <change who="tfruehwirth" when="2021-12-15">text transcribed using Transkribus</change>
-            <change who="smayer tfruehwirth" when="2021-12-15">transcriptions collated</change>
-            <change who="dgrigoriou" when="2022-10-06">transcriptions updated v0.1</change>
-            <change who="dgrigoriou smayer tfruehwirth" when="2023-03-01">and correspDesc collated</change>
-            <change who="dgrigoriou" when="2023-08-18">container structure updated</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <surface ulx="0" uly="0" lrx="5696" lry="7754">
-            <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0219/"/>
-        </surface>
-        <surface ulx="0" uly="0" lrx="5696" lry="7752">
-            <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0220/"/>
-        </surface>
-    </facsimile>
-    <text type="letter" hand="#typed">
-        <body>
-            <div type="transcription" xml:id="transcription_amp_0053">
-                <div type="letter">
-                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0219/" type="sheet"/>
-                   <div type="letter_message">
-                      <opener>
-                         <dateline>
-                            <space quantity="35" unit="char"/><date rend="#block"><space quantity="35" unit="char"/>29.Mai.</date>
-                         </dateline>
-                         <salute><del><rs type="person" ref="#amp_person_151">Liebling</rs>,</del></salute>
-                      </opener>
-                      <p>
-                         <space quantity="5" unit="char"/><rs type="person" ref="#amp_person_2">Ich</rs> habe schon sehr lange nicht geschrieben, Du wirst<lb/>
+                  <p>The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms:</p>
+                  <p>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p>
+                  <p>Notices:</p>
+                  <p>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</p>
+               </licence>
+               <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C33A-5</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>St. Pölten</settlement>
+                        <repository>State Collections of Lower Austria</repository>
+                        <collection>Stella Musulin (Depot)</collection>
+                        <idno>2, 9</idno>
+                     </msIdentifier>
+                     <history>
+                        <origin><!-- mark up certainty values -->
+                           <origDate notBefore-iso="1969-05-29T00:00:00+01:00"
+                                     notAfter-iso="1969-05-29T23:59:59+01:00">1969-05-29</origDate>
+                           <origPlace ref="#amp_place_id_10">Austria</origPlace>
+                        </origin>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">German</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="received">
+               <persName ref="#amp_person_151">Silbermann, Edith</persName>
+               <!-- certainty value -->
+            </correspAction>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#amp_person_151">Silbermann, Edith</ref>
+               <!-- certainty value -->
+               <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
+               <ref subtype="previous_letter"
+                    type="withinCollection"
+                    target="#amp-transcript__0014.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</ref>
+               <ref subtype="next_letter"
+                    type="withinCollection"
+                    target="#amp-transcript__0040.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-06-10</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
+         <change who="smayer" when="2021-12-15">text transcribed</change>
+         <change who="tfruehwirth" when="2021-12-15">text transcribed using Transkribus</change>
+         <change who="smayer tfruehwirth" when="2021-12-15">transcriptions collated</change>
+         <change who="dgrigoriou" when="2022-10-06">transcriptions updated v0.1</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2023-03-01">and correspDesc collated</change>
+         <change who="dgrigoriou" when="2023-08-18">container structure updated</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="5696" lry="7754">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0219/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="5696" lry="7752">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0220/"/>
+      </surface>
+   </facsimile>
+   <text type="letter" hand="#typed">
+      <body>
+         <div type="transcription" xml:id="transcription_amp_0053">
+            <div type="letter">
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0219/" type="sheet"/>
+               <div type="letter_message">
+                  <opener>
+                     <dateline>
+                        <space quantity="35" unit="char"/>
+                        <date rend="#block">
+                           <space quantity="35" unit="char"/>29.Mai.</date>
+                     </dateline>
+                     <salute>
+                        <del>
+                           <rs type="person" ref="#amp_person_151">Liebling</rs>,</del>
+                     </salute>
+                  </opener>
+                  <p>
+                     <space quantity="5" unit="char"/>
+                     <rs type="person" ref="#amp_person_2">Ich</rs> habe schon sehr lange nicht geschrieben, Du wirst<lb/>
                          Dich, fürchte ich, schon kränken. <space quantity="1" unit="char"/>Sehr schön war es, Deine<lb/>
                          Stimme zu hören, leider hattest Du nicht viel davon.
                       </p>
-                      <p>    
-                         <space quantity="5" unit="char"/>Heute stehe ich immer noch unter dem Eindruck des <rs type="event" ref="#amp_event_id_22">gest<del>ir</del>rigen<lb/>
+                  <p>
+                     <space quantity="5" unit="char"/>Heute stehe ich immer noch unter dem Eindruck des <rs type="event" ref="#amp_event_id_22">gest<del>ir</del>rigen<lb/>
                          Ausflugs</rs> nach <rs type="place" ref="#amp_place_id_2">Kirchstetten</rs> wohin ich <rs type="person" ref="#amp_person_54">Fritz Heer</rs> verabredeter-<lb/>
-                         maßen zum Essen mitnahm. <space quantity="1" unit="char"/>Diese manisch-depressive Genie,<del>und</del><lb/>
+                         maßen zum Essen mitnahm. <space quantity="1" unit="char"/>Diese manisch-depressive Genie,<del>und</del>
+                     <lb/>
                          dieser innerlich verschreckte Lausbub <rs type="person" ref="#amp_person_54">Friedrich Heer</rs>, und der<lb/>
                          grosse englische Dichter <rs type="person" ref="#amp_person_1">Auden</rs>, von <rs type="person" ref="#amp_person_4">Kallman</rs> ganz zu schweigen -<lb/>
-                         wie würde das gehen? <space quantity="1" unit="char"/>Es ging großartig. <space quantity="1" unit="char"/><rs type="person" ref="#amp_person_54">Fritz</rs> war wie ein aus<lb/>
+                         wie würde das gehen? <space quantity="1" unit="char"/>Es ging großartig. <space quantity="1" unit="char"/>
+                     <rs type="person" ref="#amp_person_54">Fritz</rs> war wie ein aus<lb/>
                          dem Gefängnis entlassener Mensch. <space quantity="1" unit="char"/>Monatelang kommt er nicht aus<lb/>
                          der Arbeitsroutine heraus, er freute sich so über das satte Grün<lb/>
                          des <rs type="place" ref="#amp_place_id_175">Wienerwalds</rs>, über die Akazienbäume die immer wieder silbern<lb/>
                          schimmernd aus dem dü<del>h</del>nkleren Hintergrund herausleuchteten, ü<del>v</del>ber<lb/>
                          die gute Luft, die klare Sicht nach dem Sturm vor zwei Tagen.<lb/>
-                         <rs type="person" ref="#amp_person_2">Ich</rs> habe ein wenig Angst gehabt, die <rs type="person" ref="#amp_person_54 #amp_person_1">beiden Großredner</rs> würden<lb/>
+                     <rs type="person" ref="#amp_person_2">Ich</rs> habe ein wenig Angst gehabt, die <rs type="person" ref="#amp_person_54 #amp_person_1">beiden Großredner</rs> würden<lb/>
                          gleichzeitig oder aneinander vorbeireden, aber das taten sie<lb/>
                          nur manchmal: <space quantity="1" unit="char"/>sie wollten von einander etwas erfahren,<lb/>
                          konnten aber natürlich nur immer wieder große Themen streifen,<lb/>
                          Anekdoten erzählen und so. <space quantity="1" unit="char"/>Jedenfalls war die Stimmung herrlich,<lb/>
-                         <rs type="person" ref="#amp_person_54">Fritz</rs> entpuppte sich als begabter "mimic", der nicht nur <rs type="person" ref="#amp_person_130">Hitler</rs><lb/>
+                     <rs type="person" ref="#amp_person_54">Fritz</rs> entpuppte sich als begabter "mimic", der nicht nur <rs type="person" ref="#amp_person_130">Hitler</rs>
+                     <lb/>
                          zum besten nachmachen konnte, das können viele, sondern auf<lb/>
                          ganz unheimliche Weise <rs type="person" ref="#amp_person_55">Mussolini</rs> dem er plötzlich unglaublich<lb/>
                          ähnlich sah. <space quantity="1" unit="char"/>Hatte er also die verdorbenen deutschen und<lb/>
@@ -146,7 +175,8 @@
                          französischen Intellektuellen los: <space quantity="1" unit="char"/>ein zimperlich-geschwollene<del>n</del>s<lb/>
                          Gespräch zwischen <rs type="person" ref="#amp_person_56">Gide</rs> und <rs type="person" ref="#amp_person_132">Claudel</rs>. <space quantity="1" unit="char"/>Es wurde über <rs type="person" ref="#amp_person_18">Wagner</rs>s<lb/>
                          Texte gesprochen, über Liturgie-Reform, über <rs type="person" ref="#amp_person_5">Weinheber</rs>, <rs type="person" ref="#amp_person_57">Rudolf<lb/>
-                         Kassner</rs> und <rs type="person" ref="#amp_person_58">Freud</rs> - über<del>d</del><unclear>i</unclear>diese drei hatte <rs type="person" ref="#amp_person_54">Fritz</rs> persönliche<lb/>
+                         Kassner</rs> und <rs type="person" ref="#amp_person_58">Freud</rs> - über<del>d</del>
+                     <unclear>i</unclear>diese drei hatte <rs type="person" ref="#amp_person_54">Fritz</rs> persönliche<lb/>
                          Erlebnisse zu berichten gehabt. <space quantity="1" unit="char"/>Wenn ich <rs type="person" ref="#amp_person_54">Fritz</rs> beobachte, kann<lb/>
                          es sehr oft vorkommen, daß ich sein Gehaben mit den Augen der<lb/>
                          Konvention sehe, ohne diese Vor<del>ein</del>urteile zu empfinden - wenn<lb/>
@@ -161,8 +191,9 @@
                          huldigen. <space quantity="1" unit="char"/>Interessant, daß <rs type="person" ref="#amp_person_54">Heer</rs> mit der <rs type="person" ref="#amp_person_133">Droste-Hülshoff</rs> und<lb/>
                          auch mit <rs type="person" ref="#amp_person_134">Bertha Suttner</rs> verwandt ist.
                       </p>
-                      <p>     
-                         <space quantity="5" unit="char"/>Ohne Zweifel liegt in und um das Wesen <rs type="person" ref="#amp_person_54">Heer</rs>s etwas Tragisches<unclear>.</unclear><lb/>
+                  <p>
+                     <space quantity="5" unit="char"/>Ohne Zweifel liegt in und um das Wesen <rs type="person" ref="#amp_person_54">Heer</rs>s etwas Tragisches<unclear>.</unclear>
+                     <lb/>
                          Er ist ebenso unentbehrlich wie unbrauchbar. <space quantity="1" unit="char"/>Seine große Linie<lb/>
                          stimmt, die Details nicht, das geht für seine geistige Arbeit<lb/>
                          wie für seine Persönlichkeit. <space quantity="1" unit="char"/>Die akademische Welt, wo immer<lb/>
@@ -170,41 +201,46 @@
                          beherrscht wird, empört sich und schiebt ihn von sich: er ist<lb/>
                          frivol, frevelhaft, frech, unorthodox, unberechenbar und - fast<lb/>
                          übertreibe ich da ein bißl - im soziologisch-biologischen Sinne<lb/>
-                         artfremd. <space quantity="1" unit="char"/>Aber nicht nur in <rs type="place" ref="#amp_place_id_10">Österreich</rs>: <space quantity="1" unit="char"/><rs type="person" ref="#amp_person_54">er</rs> sagte <rs type="person" ref="#amp_person_2">mir</rs>, vor<lb/>
+                         artfremd. <space quantity="1" unit="char"/>Aber nicht nur in <rs type="place" ref="#amp_place_id_10">Österreich</rs>: <space quantity="1" unit="char"/>
+                     <rs type="person" ref="#amp_person_54">er</rs> sagte <rs type="person" ref="#amp_person_2">mir</rs>, vor<lb/>
                          kurzem sagte ihm ein deutscher Universitätsprofessor ("er konnte<lb/>
                          es sagen, weiler Naturwissenschaftler ist"): <space quantity="1" unit="char"/>"<rs type="person" ref="#amp_person_2">Sie</rs> müssen es<lb/>
                          mir glauben, daß es sich kein deutsches Professorenkollegium<lb/>
                          leisten kann, Sie zu sich zu nehmen." Ist er einfach zu<lb/>
                          unbequem? <space quantity="1" unit="char"/>Was aber seine Person enbelangt, so empfindet er es
                       </p>
-                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0220/" type="sheet"/>
-                      <p prev="true">
+                  <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0220/" type="sheet"/>
+                  <p prev="true">
                          als weitaus schwieriger, mit sich selbst auszukommen, als<lb/>
                          dies für d<del>en</del>ie Mitmenschen der Fall ist. <space quantity="1" unit="char"/>"Ich bin noch immer das<lb/>
                          verschreckte, verheulte Kind, das sich irgendwie durchschlagen<lb/>
                          mußte. <space quantity="1" unit="char"/>Ich bin nie reif geworden. <space quantity="1" unit="char"/>Ich heiratete zu früh, für<lb/>
-                         die Ehe völlig unreif, mußte kämpfen, um meine F<del>q<gap reason ="deleted"/></del>amilie zu<lb/>
+                         die Ehe völlig unreif, mußte kämpfen, um meine F<del>q<gap reason="deleted"/>
+                     </del>amilie zu<lb/>
                          ernähren und hatte nie Zeit und Ruhe, um nachzudenken...<lb/>
                          ein völliges Versagen... <space quantity="1" unit="char"/>Mein Leben lang ringe ich mit dem<lb/>
                          Tod, kämpfe ich gegen Selbstmordgedanken... <space quantity="1" unit="char"/>Ich bin passé:<lb/>
                          man schreibt aus meinen alten Arbeiten kommentarlos ab"usw. usf.<lb/>
-                         Diese und <del><unclear>ü</unclear></del>ähnliche Dinge erzählte er mir auf der Rückfahrt,<lb/>
+                         Diese und <del>
+                        <unclear>ü</unclear>
+                     </del>ähnliche Dinge erzählte er mir auf der Rückfahrt,<lb/>
                          wo ich eine<del>n</del> ruhige<del>n</del> Nebenstrasse nach <rs type="place" ref="#amp_place_id_1">Wien</rs> wählte und langsam<lb/>
                          gefahren bin, aber inmitten dieser Depression war er immer wieder<lb/>
                          über die schöne Natur glücklich, über ruhige Dörfer und hübsche<lb/>
                          Häuser. sprach über diesen uralten Kulturboden, "wo die Leute<lb/>
-                         noch heute Sachen tun, die vier, fünf Jahrtausende zurück<del>liegen</del><lb/>
+                         noch heute Sachen tun, die vier, fünf Jahrtausende zurück<del>liegen</del>
+                     <lb/>
                          reichen, und sie wissen es nicht."
                       </p>
-                      <p>     
-                         <space quantity="5" unit="char"/>Des Rätsels Lösung, des fast überentwickelten Geistes neben<lb/>
+                  <p>
+                     <space quantity="5" unit="char"/>Des Rätsels Lösung, des fast überentwickelten Geistes neben<lb/>
                          der zerrissenen, ungleichmäßig ausgereiften Persönlichkeit,<lb/>
                          kennt er selbst, oder wenigstens zum Teil. <space quantity="1" unit="char"/>Es liegt i<del>n</del>m<lb/>
                          Entsetzen des 4-jährigen Kindes und in den seelischen<lb/>
                          Entbehrungen, die die Scheidung seiner Eltern verursachte.
                       </p>
-                      <p>      
-                         <space quantity="5" unit="char"/>Ärgerst Du Dich schon darüber, daß ich so viel über <rs type="person" ref="#amp_person_54">Fritz<lb/>
+                  <p>
+                     <space quantity="5" unit="char"/>Ärgerst Du Dich schon darüber, daß ich so viel über <rs type="person" ref="#amp_person_54">Fritz<lb/>
                          Heer</rs> schreibe und wahrscheinlich deshalb weniger über andere<lb/>
                          Dinge weil die Zeit fehlen wird? <space quantity="1" unit="char"/>Ich tue es teils weil <del>e</del> ich<lb/>
                          Dir darüber erzählen möchte, teils als eine Art von self-<lb/>
@@ -216,27 +252,33 @@
                          Dir gern Zeugnisse, daß es Menschen gibt - Österreicher! - dem<lb/>
                          die nötigen Eigenschaften, die Zutaten aus dem ein Faschist<lb/>
                          geformt werden kann, gänzlich fehlen. <space quantity="1" unit="char"/>Plötzlich sagte er mir<lb/>
-                         <del>stah</del> strahlend: <space quantity="1" unit="char"/>"<rs type="person" ref="#amp_person_4">Kallman</rs> hat mir er<del>äz</del>zählt, seine Vorfahren<lb/>
-                         waren Juden aus <rs type="place" ref="#amp_place_id_176">Riga</rs>... Juden aus <hi rend="underline"><rs type="place" ref="#amp_place_id_176">Riga</rs></hi>." <space quantity="1" unit="char"/>Aus irgend einen Grund<lb/>
-                         freute ihn das enorm, und gleich <del><unclear>k</unclear>rie</del> kreisten seine Gedanken<lb/>
-                         <del>u</del>in weiß Gott was für Konvolutionen. <space quantity="1" unit="char"/>Ach ja, jetzt weiß ich<lb/>
+                     <del>stah</del> strahlend: <space quantity="1" unit="char"/>"<rs type="person" ref="#amp_person_4">Kallman</rs> hat mir er<del>äz</del>zählt, seine Vorfahren<lb/>
+                         waren Juden aus <rs type="place" ref="#amp_place_id_176">Riga</rs>... Juden aus <hi rend="underline">
+                        <rs type="place" ref="#amp_place_id_176">Riga</rs>
+                     </hi>." <space quantity="1" unit="char"/>Aus irgend einen Grund<lb/>
+                         freute ihn das enorm, und gleich <del>
+                        <unclear>k</unclear>rie</del> kreisten seine Gedanken<lb/>
+                     <del>u</del>in weiß Gott was für Konvolutionen. <space quantity="1" unit="char"/>Ach ja, jetzt weiß ich<lb/>
                          warum, er hat in <rs type="place" ref="#amp_place_id_176">Riga</rs> studiert und kannte wahrscheinlich jüdische<lb/>
                          Menschen dort.
                       </p>
-                      <p>     
-                         <space quantity="5" unit="char"/>Also Schluß. <space quantity="1" unit="char"/>Pfingsten: <space quantity="1" unit="char"/>fast durchwegs herrliches Wetter,<lb/>
+                  <p>
+                     <space quantity="5" unit="char"/>Also Schluß. <space quantity="1" unit="char"/>Pfingsten: <space quantity="1" unit="char"/>fast durchwegs herrliches Wetter,<lb/>
                          es war zum T. Besuch draussen, u.a. <rs type="person" ref="#amp_person_141">Sony</rs>, <rs type="person" ref="#amp_person_146">ihre Mutter</rs> und die<lb/>
-                         <rs type="person" ref="#amp_person_142">Amélie</rs>. <space quantity="1" unit="char"/><rs type="person" ref="#amp_person_94">Marko</rs> und ich sind Samstag vormittag hinaus- und<lb/>
+                     <rs type="person" ref="#amp_person_142">Amélie</rs>. <space quantity="1" unit="char"/>
+                     <rs type="person" ref="#amp_person_94">Marko</rs> und ich sind Samstag vormittag hinaus- und<lb/>
                          erst Dienstag am späten Nachmittag hereingefahren. <space quantity="1" unit="char"/>Ich habe<lb/>
-                         einen sehr netten Brief vom <rs type="person" ref="#amp_person_199">foreign editor</rs> der <rs type="org" ref="#amp_organization_23">Financial Times</rs><lb/>
+                         einen sehr netten Brief vom <rs type="person" ref="#amp_person_199">foreign editor</rs> der <rs type="org" ref="#amp_organization_23">Financial Times</rs>
+                     <lb/>
                          bekommen, <del>um</del> in dem er sagt, er ist mit meiner Arbeit sehr<lb/>
                          zufrieden und war auch darüber freudig überrascht, daß ich<lb/>
                          imstande bin, in ih<del>e</del>rem Stil zu schreiben - "wenigen gelingt es".<lb/>
                          Jetzt will ich Deine Fragen beantworten und sonst noch schauen<lb/>
-                         was in Deinem letzten Brief steht. <space quantity="1" unit="char"/>Die grande toilette der <rs type="person" ref="#amp_person_147">Eva</rs><lb/>
+                         was in Deinem letzten Brief steht. <space quantity="1" unit="char"/>Die grande toilette der <rs type="person" ref="#amp_person_147">Eva</rs>
+                     <lb/>
                          für <rs type="place" ref="#amp_place_id_82">Schönbrunn</rs> war - ich kann Kleider so schlecht schildern -<lb/>
                          ein bis zum Boden reichendes Kleid in sanft grüner Farbe, aus<lb/>
-                         <del>einer</del> mit winzigen Perlen besticker, schwerer Seide. <space quantity="1" unit="char"/>Der Mantel<lb/>
+                     <del>einer</del> mit winzigen Perlen besticker, schwerer Seide. <space quantity="1" unit="char"/>Der Mantel<lb/>
                          mit ein wenig hochstehendem Kragen war aus dem gleichen aber<lb/>
                          unbesticktem Stoff. <space quantity="1" unit="char"/>Mein eigenes Kleid für die <rs type="place" ref="#amp_place_id_157">Oper</rs> war leider<lb/>
                          auch grün, ganz schlicht, gold-lurex Art, mit Seitenschlitz<lb/>
@@ -245,18 +287,19 @@
                          so herrlichen Teint gesehen wie seinerzeit <del>die</del> ihre <rs type="person" ref="#amp_person_139">Mutter</rs>,<lb/>
                          und diesen hat auch die <rs type="person" ref="#amp_person_140">Prinzessin Anne</rs> gee<del>h</del>rbt.
                       </p>
-                      <p>
-                         <space quantity="5" unit="char"/>Daß Deine Haut im Augenblick <del>k</del>in keinem guten Zustand ist,<lb/>
+                  <p>
+                     <space quantity="5" unit="char"/>Daß Deine Haut im Augenblick <del>k</del>in keinem guten Zustand ist,<lb/>
                          ist sehr ärgerlich und ich frage mich, was die Ursache sein<lb/>
                          könnte. <space quantity="1" unit="char"/>Daß Du Schuppen hast, habe ich nie gemerkt, aber nimm<lb/>
                          doch einen guten Schuppen-Schaumpon. <space quantity="1" unit="char"/>Freilich kann das alles<lb/>
-                         mit dem Alter zu tun <del><unclear>z</unclear></del>haben. <space quantity="1" unit="char"/>Freuen wir uns auf den Teint, den<lb/>
+                         mit dem Alter zu tun <del>
+                        <unclear>z</unclear>
+                     </del>haben. <space quantity="1" unit="char"/>Freuen wir uns auf den Teint, den<lb/>
                          Du nachher haben wirst... <space quantity="1" unit="char"/>Ich will mir <rs type="person" ref="#amp_person_148">Livia</rs>s Stimme, wie sie
                       </p>
-                   </div>
-                </div>    
+               </div>
             </div>
-        </body>
-    </text>
+         </div>
+      </body>
+   </text>
 </TEI>
-

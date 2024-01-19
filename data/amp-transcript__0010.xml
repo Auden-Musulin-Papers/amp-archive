@@ -1,13 +1,19 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0010.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="amp-transcript__0010.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-11-06</title>
-            <author>Auden, W. H.</author>
+            <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
             <editor>
-               <name>Mayer, Sandra</name>
-               <name>Frühwirth, Timo</name>
+               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
                <name>FWF Austrian Science Fund</name>
@@ -25,8 +31,14 @@
             <edition>AMP</edition>
             <respStmt>
                <resp>Transcription and commentary</resp>
-               <name>Mayer, Sandra</name>
-               <name>Frühwirth, Timo</name>
+               <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Schema, ODD/RNG</resp>
+               <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+               <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -44,7 +56,8 @@ for any purpose, even commercially.</p>
                </licence>
                <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
             </availability>
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C30F-6</idno></publicationStmt>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C30F-6</idno>
+         </publicationStmt>
          <seriesStmt>
             <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
          </seriesStmt>
@@ -61,7 +74,8 @@ for any purpose, even commercially.</p>
                      </msIdentifier>
                      <history>
                         <origin>
-                           <origDate notBefore-iso="1968-11-06T00:00:00-05:00" notAfter-iso="1968-11-06T23:59:59-05:00">1968-11-06</origDate>
+                           <origDate notBefore-iso="1968-11-06T00:00:00-05:00"
+                                     notAfter-iso="1968-11-06T23:59:59-05:00">1968-11-06</origDate>
                            <origPlace ref="#amp_place_id_29">77 St. Mark's Place</origPlace>
                         </origin>
                      </history>
@@ -79,7 +93,8 @@ for any purpose, even commercially.</p>
             <correspAction type="sent">
                <orgName ref="#amp_organization_85">United States General Post Office</orgName>
                <placeName ref="#amp_place_id_28">New York City</placeName>
-               <date notBefore-iso="1968-11-06T12:00:00-05:00" notAfter-iso="1968-11-06T23:59:59-05:00">1968-11-06T12:00:00-05:00/1968-11-06T23:59:59-05:00</date>
+               <date notBefore-iso="1968-11-06T12:00:00-05:00"
+                     notAfter-iso="1968-11-06T23:59:59-05:00">1968-11-06T12:00:00-05:00/1968-11-06T23:59:59-05:00</date>
             </correspAction>
             <correspAction type="received">
                <persName ref="#amp_person_2">Musulin, Stella</persName>
@@ -88,8 +103,12 @@ for any purpose, even commercially.</p>
             <correspContext>
                <ref type="belongsToCorrespondence" target="#amp_person_1">Auden, W. H.</ref>
                <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
-               <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0044.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</ref>
-               <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0011.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</ref>
+               <ref subtype="previous_letter"
+                    type="withinCollection"
+                    target="#amp-transcript__0044.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</ref>
+               <ref subtype="next_letter"
+                    type="withinCollection"
+                    target="#amp-transcript__0011.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</ref>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -121,14 +140,16 @@ for any purpose, even commercially.</p>
       <body>
          <div type="transcription" xml:id="transcription_amp_0010">
             <div type="envelope">
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0047/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0047/" type="envelope"/>
                <ab>
-                  <rs type="person" ref="#amp_person_1">WH Auden</rs><lb/>
+                  <rs type="person" ref="#amp_person_1">WH Auden</rs>
+                  <lb/>
                   <address>
                      <rs type="place" ref="#amp_place_id_29">77 St Mark's Place<lb/>
                      New York City<lb/>
                      N.Y. 10003<lb/>
-                     U.S.A<unclear>.</unclear></rs>
+                     U.S.A<unclear>.</unclear>
+                     </rs>
                   </address>
                </ab>
                <ab>
@@ -136,17 +157,18 @@ for any purpose, even commercially.</p>
                </ab>
                <ab>
                   <rs type="person" ref="#amp_person_2">Die Baronin<lb/>
-                  Stella Musulin</rs><lb/>
+                  Stella Musulin</rs>
+                  <lb/>
                   <address>
                      <rs type="place" ref="#amp_place_id_11">Wien A-1030<lb/>
                      Neulinggasse 26/14<lb/>
                      Austria</rs>
                   </address>
                </ab>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0048/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0048/" type="envelope"/>
             </div>
             <div type="letter">
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0049/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0049/" type="sheet"/>
                <div type="letter_message">
                   <opener>
                      <dateline>
@@ -167,7 +189,9 @@ for any purpose, even commercially.</p>
                   </opener>
                   <p>
                      Many thanks for your letter. Of course,<lb/>
-                     selfishly, I'm rather reli<unclear><del>v</del></unclear>eved. How horrid<lb/>
+                     selfishly, I'm rather reli<unclear>
+                        <del>v</del>
+                     </unclear>eved. How horrid<lb/>
                      one is !
                   </p>
                   <p>
@@ -178,11 +202,12 @@ for any purpose, even commercially.</p>
                         love
                      </salute>
                      <signed>
-                        <rs type="person" ref="#amp_person_1">Wystan</rs><unclear>.</unclear>
+                        <rs type="person" ref="#amp_person_1">Wystan</rs>
+                        <unclear>.</unclear>
                      </signed>
                   </closer>
                </div>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0050/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0050/" type="sheet"/>
             </div>
          </div>
       </body>

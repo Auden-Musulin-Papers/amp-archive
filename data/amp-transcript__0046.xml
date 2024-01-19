@@ -1,14 +1,20 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0046.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="amp-transcript__0046.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Autograph Notes Stella Musulin on Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</title>
-            <author>Musulin, Stella</author>
-            <author>Musulin, Elsa</author>
+            <author ref="https://d-nb.info/gnd/127246711">Musulin, Stella</author>
+            <author ref="https://id.acdh.oeaw.ac.at/emusulin">Musulin, Elsa</author>
             <editor>
-               <name>Mayer, Sandra</name>
-               <name>Frühwirth, Timo</name>
+               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
                <name>FWF Austrian Science Fund</name>
@@ -26,8 +32,14 @@
             <edition>AMP</edition>
             <respStmt>
                <resp>Transcription and commentary</resp>
-               <name>Mayer, Sandra</name>
-               <name>Frühwirth, Timo</name>
+               <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Schema, ODD/RNG</resp>
+               <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+               <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -45,7 +57,8 @@ for any purpose, even commercially.</p>
                </licence>
                <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
             </availability>
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C333-C</idno></publicationStmt>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C333-C</idno>
+         </publicationStmt>
          <seriesStmt>
             <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
          </seriesStmt>
@@ -61,7 +74,10 @@ for any purpose, even commercially.</p>
                         <idno>2, 2</idno>
                      </msIdentifier>
                      <history>
-                        <origin><origDate notBefore-iso="1965-04-28T00:00:00+01:00" notAfter-iso="1965-12-31T23:59:59+01:00">1965-04-28--1965-12-31</origDate></origin>
+                        <origin>
+                           <origDate notBefore-iso="1965-04-28T00:00:00+01:00"
+                                     notAfter-iso="1965-12-31T23:59:59+01:00">1965-04-28--1965-12-31</origDate>
+                        </origin>
                      </history>
                   </msDesc>
                </witness>
@@ -74,7 +90,6 @@ for any purpose, even commercially.</p>
             <language ident="en">English</language>
             <language ident="de">German</language>
          </langUsage>
-         
       </profileDesc>
       <revisionDesc status="draft">
          <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
@@ -97,76 +112,95 @@ for any purpose, even commercially.</p>
       <body>
          <div xml:id="transcription">
             <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0141/" type="sheet"/>
-               <p>
-                  1. In dem <hi rend="underline">man</hi><unclear>✓</unclear> dich — begrub ·
+            <p>
+                  1. In dem <hi rend="underline">man</hi>
+               <unclear>✓</unclear> dich — begrub ·
                </p>
-               <p>
-                  2. Kategorisiert<unclear>.</unclear><lb/>
+            <p>
+                  2. Kategorisiert<unclear>.</unclear>
+               <lb/>
                   Amb<unclear>it_</unclear>Umwelt is a bit wea<unclear>k</unclear> but pro<unclear>b</unclear>ably<lb/>
                   can't <unclear>b</unclear>e helped·
                </p>
-               <p>
-                  <unclear>3</unclear>. Grosses Unheil stifteten und Böses planten .<lb/>
-                  <del>Mem</del> men of great damage and malengine .<lb/>
-                  <hi rend="underline"><unclear>1</unclear></hi> the act<unclear>io</unclear>n<lb/>
-                  <hi rend="underline">2</hi> the intent.<lb/>
+            <p>
+               <unclear>3</unclear>. Grosses Unheil stifteten und Böses planten .<lb/>
+               <del>Mem</del> men of great damage and malengine .<lb/>
+               <hi rend="underline">
+                  <unclear>1</unclear>
+               </hi> the act<unclear>io</unclear>n<lb/>
+               <hi rend="underline">2</hi> the intent.<lb/>
                   Übelwollens?<lb/>
                   Männer<unclear>✓</unclear> grossen Unheils und Übelwol<unclear>l</unclear>ens<unclear>.</unclear> ?
                </p>
-               <p>
-                  <unclear>5</unclear>. Alpdruck.(vom nicht vor)<lb/>
+            <p>
+               <unclear>5</unclear>. Alpdruck.(vom nicht vor)<lb/>
                   Stümper .
                </p>
-               <p>
-                  <unclear>6.</unclear> <del><unclear>I</unclear>n str</del> Bei✓ strömendem Regen<lb/>
+            <p>
+               <unclear>6.</unclear>
+               <del>
+                  <unclear>I</unclear>n str</del> Bei✓ strömendem Regen<lb/>
+            </p>
+            <p>
+               <unclear>7.</unclear> Hope ever<unclear>y</unclear>one won't think <unclear>"</unclear>die Reiche<unclear>"</unclear>
+               <lb/>
+                  is a missprint for <unclear>"</unclear>die Reichen<unclear>".</unclear>prosais<unclear>c</unclear>h<hi rend="underline">e</hi>
+               <lb/>
+               <unclear>&amp;</unclear> privat<hi rend="underline">e</hi> Art
                </p>
-               <p>
-                  <unclear>7.</unclear> Hope ever<unclear>y</unclear>one won't think <unclear>"</unclear>die Reiche<unclear>"</unclear><lb/>
-                  is a missprint for <unclear>"</unclear>die Reichen<unclear>".</unclear>prosais<unclear>c</unclear>h<hi rend="underline">e</hi><lb/>
-                  <unclear>&amp;</unclear> privat<hi rend="underline">e</hi> Art
-               </p>
-               <p>
+            <p>
                   8. L<hi rend="underline">äch</hi>eln wir bei Hochzei<unclear>t</unclear>en , <hi rend="underline">auf</hi> denen ?<lb/>
                   Next sentence ungramm<unclear>a</unclear>t<unclear>ica</unclear>l <unclear>.</unclear> Verb <del>lacking</del>missing..<lb/>
-                  And perhaps<unclear>:</unclear> <unclear>"</unclear>Noch nie war die Erde ohne<lb/>
+                  And perhaps<unclear>:</unclear>
+               <unclear>"</unclear>Noch nie war die Erde ohne<lb/>
                   ihr<hi rend="underline">e</hi> faule<del>n</del> Stelle<del>n</del> (singular as in original),<lb/>
                   ein Uno<unclear>r</unclear>t mit <hi rend="underline">Posten</hi> fü<unclear>r</unclear> Folterer
                </p>
-               <p>
-                  <unclear>9.</unclear> Frieden oder Friede✓ ?
+            <p>
+               <unclear>9.</unclear> Frieden oder Friede✓ ?
                </p>
-               <p>
-                  10. An das Regime? Wie <unclear>w</unclear>u einst<unclear>✓</unclear> <unclear>·</unclear> W<hi rend="underline">ann</hi> bei jedem<lb/>
-                  <hi rend="underline">Wenn</hi> .
+            <p>
+                  10. An das Regime? Wie <unclear>w</unclear>u einst<unclear>✓</unclear>
+               <unclear>·</unclear> W<hi rend="underline">ann</hi> bei jedem<lb/>
+               <hi rend="underline">Wenn</hi> .
                </p>
-               <p>
-                  11. Bedeu<unclear>te</unclear>nd<hi rend="underline">ere</hi><hi rend="underline"><del><unclear>r</unclear></del>n </hi>Nachbarn<lb/> 
-                  Warum <hi rend="underline">des</hi> n<hi rend="underline">oblen</hi> <unclear>Fl</unclear>usses <unclear>?</unclear> <rs type="place" ref="#amp_place_id_251">die Perschling</rs>
-               </p>
-               <p>
+            <p>
+                  11. Bedeu<unclear>te</unclear>nd<hi rend="underline">ere</hi>
+               <hi rend="underline">
+                  <del>
+                     <unclear>r</unclear>
+                  </del>n </hi>Nachbarn<lb/> 
+                  Warum <hi rend="underline">des</hi> n<hi rend="underline">oblen</hi>
+               <unclear>Fl</unclear>usses <unclear>?</unclear>
+               <rs type="place" ref="#amp_place_id_251">die Perschling</rs>
+            </p>
+            <p>
                   12. W<hi rend="underline">as</hi> ist der Abgrund?<lb/>
                   statt Bratschen Violas oder Geigen
                </p>
-               <p>
-                  &#x2052;
+            <p>
+                  ⁒
                </p>
             <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0142/" type="sheet"/>
-               <p>
+            <p>
                   Heute lächeln wir bei Hochzeiten ,<lb/>
                   bei <unclear>d</unclear>enen Braut u. Bräutigam schon<lb/>
                   auf der Welt waren als sich der Schatten<lb/>
                   gehoben <unclear>oder</unclear> (vielmehr)✓ weiter<unclear>✓</unclear>gerückt war<unclear>.</unclear>
-               </p>
-               <p>
-                  1<unclear>2·</unclear><lb/>
-                  Anger wäre ev. besser als Rasen <unclear>.</unclear><lb/>
+            </p>
+            <p>
+                  1<unclear>2·</unclear>
+               <lb/>
+                  Anger wäre ev. besser als Rasen <unclear>.</unclear>
+               <lb/>
                   Try gepfählt
                </p>
-               <p>
+            <p>
                   d<hi rend="underline">ie</hi> ihn n<hi rend="underline">achher</hi> dazu ver<hi rend="underline">p</hi>f<unclear>l</unclear>ichteten, sie<lb/>
-                  den Abgrund zu nennen <unclear>·</unclear><lb/>
+                  den Abgrund zu nennen <unclear>·</unclear>
+               <lb/>
                   Look for old-fashioned wo<unclear>r</unclear>d for Streicher .<lb/>
-                  <unclear>(</unclear>Strin<unclear>g</unclear>end instruments genera<unclear>l</unclear>ly.)
+               <unclear>(</unclear>Strin<unclear>g</unclear>end instruments genera<unclear>l</unclear>ly.)
                </p>
          </div>
       </body>

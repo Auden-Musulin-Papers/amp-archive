@@ -1,13 +1,19 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0036.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="amp-transcript__0036.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Autograph Card Michael O'Sullivan to Stella Musulin 1984-08-15</title>
-            <author>O'Sullivan, Michael</author>
+            <author ref="https://d-nb.info/gnd/1173017283">O'Sullivan, Michael</author>
             <editor>
-               <name>Mayer, Sandra</name>
-               <name>Frühwirth, Timo</name>
+               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
                <name>FWF Austrian Science Fund</name>
@@ -25,8 +31,14 @@
             <edition>AMP</edition>
             <respStmt>
                <resp>Transcription and commentary</resp>
-               <name>Mayer, Sandra</name>
-               <name>Frühwirth, Timo</name>
+               <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Schema, ODD/RNG</resp>
+               <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+               <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -45,11 +57,13 @@ for any purpose, even commercially.</p>
                <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
             </availability>
             <availability>
-               <licence facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0242/" target="https://creativecommons.org/licenses/by/4.0/deed.en">
+               <licence facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0242/"
+                        target="https://creativecommons.org/licenses/by/4.0/deed.en">
                   <p>Image publication permission by the board of Trinity College, the University of Dublin.</p>
                </licence>
             </availability>
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C329-8</idno></publicationStmt>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C329-8</idno>
+         </publicationStmt>
          <seriesStmt>
             <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
          </seriesStmt>
@@ -65,7 +79,10 @@ for any purpose, even commercially.</p>
                         <idno>2, 20</idno>
                      </msIdentifier>
                      <history>
-                        <origin><origDate notBefore-iso="1984-08-15T00:00:00+01:00" notAfter-iso="1984-08-15T23:59:59+01:00">1984-08-15</origDate></origin>
+                        <origin>
+                           <origDate notBefore-iso="1984-08-15T00:00:00+01:00"
+                                     notAfter-iso="1984-08-15T23:59:59+01:00">1984-08-15</origDate>
+                        </origin>
                      </history>
                   </msDesc>
                </witness>
@@ -76,7 +93,6 @@ for any purpose, even commercially.</p>
          <langUsage>
             <language ident="en">English</language>
          </langUsage>
-           
          <correspDesc>
             <correspAction type="composed">
                <persName ref="#amp_person_99">O'Sullivan, Michael</persName>
@@ -96,11 +112,14 @@ for any purpose, even commercially.</p>
             <correspContext>
                <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
                <ref type="belongsToCorrespondence" target="#amp_person_99">O'Sullivan, Michael</ref>
-               <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0034.xml">Typed Letter Signed Michael O'Sullivan to Stella Musulin 1984-05-31</ref>
-               <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0037.xml">Autograph Note Signed Michael O'Sullivan to Stella Musulin [?]</ref>
+               <ref subtype="previous_letter"
+                    type="withinCollection"
+                    target="#amp-transcript__0034.xml">Typed Letter Signed Michael O'Sullivan to Stella Musulin 1984-05-31</ref>
+               <ref subtype="next_letter"
+                    type="withinCollection"
+                    target="#amp-transcript__0037.xml">Autograph Note Signed Michael O'Sullivan to Stella Musulin [?]</ref>
             </correspContext>
          </correspDesc>
-         
       </profileDesc>
       <revisionDesc status="draft">
          <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
@@ -123,25 +142,27 @@ for any purpose, even commercially.</p>
       <body>
          <div xml:id="transcription">
             <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0241/" type="card"/>
-               <p>
-                  <rs type="place" ref="#amp_place_id_173">22 Kildare Street,<lb/>
+            <p>
+               <rs type="place" ref="#amp_place_id_173">22 Kildare Street,<lb/>
                   Dublin<unclear>,</unclear> 2</rs>
-               </p>
-               <p>
+            </p>
+            <p>
                   15th August 1984
                </p>
-               <p>
+            <p>
                   Dear <rs type="person" ref="#amp_person_2">Barone<unclear>s</unclear>s Musulin</rs>,
                </p>
-               <p>
+            <p>
                   I shall<lb/>
                   be arriving in <rs type="place" ref="#amp_place_id_1">Vienna</rs> on 1st Sept.<lb/>
                   I have taken <rs type="person" ref="#amp_person_127">Prof. Hans Raimund</rs>'s<lb/>
-                  <unclear>F</unclear>lat at : <rs type="place" ref="#amp_place_id_174"><del>Z</del>LACKIERERGASSE 5</rs><lb/>
+               <unclear>F</unclear>lat at : <rs type="place" ref="#amp_place_id_174">
+                  <del>Z</del>LACKIERERGASSE 5</rs>
+               <lb/>
                   (<rs type="person" ref="#amp_person_119">Peter Müller</rs> has the telephone<lb/>
                   nu<unclear>m</unclear>ber). 4279 394
                </p>
-               <p>
+            <p>
                   I have your telephone<lb/>
                   number and I shall call you<lb/>
                   within a few days of my arri<unclear>v</unclear>al.

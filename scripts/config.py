@@ -38,9 +38,11 @@ USER_CONFIG = {
         "resource_file_path": "data",
         "file_format": "xml",
         "id": "//tei:TEI[@xml:id]/@xml:id",
+        "custom_lang": "en",
         "xpaths": {
             "hasTitle": "//tei:titleStmt/tei:title[@level='a']",
             "hasPid__nolang": "//tei:publicationStmt/tei:idno[@type='handle']",
+            "hasAuthor__nolang": "//tei:titleStmt/tei:author[@ref]/@ref"
         },
         "static_values": {
             "hasAccessRestrictions": "https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public",
@@ -49,38 +51,42 @@ USER_CONFIG = {
         },
         "vocabs_lookup": {}
     },
-    "auden-musulin-papers/facs": {
+    "auden-musulin-papers/facsimiles": {
         "resource_file_path": "data",
         "file_format": "xml",
-        "id": "//tei:pb/@facs",
+        "id": "//tei:pb/@facs[ancestor::tei:text[not(@type='photograph')]]",
+        "custom_lang": "en",
         "id_suffix": ".tif",
         "id_as_title": True,
-        "id_as_title_prefix": "High Resolution Facsimile:",
+        "id_as_title_prefix": "Facsimile:",
         "xpaths": {
-            "isSourceOf__prefix__nolang": "//tei:TEI/@xml:id"
+            "isSourceOf__prefix__nolang": "//tei:TEI[@xml:id]/@xml:id",
+            "hasAuthor__nolang": "//tei:titleStmt/tei:author[@ref]/@ref"
         },
         "static_values": {
             "hasAccessRestrictions": "https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public",
             "hasCategory": "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
-            "isPartOf": "https://id.acdh.oeaw.ac.at/auden-musulin-papers/facs",
+            "isPartOf": "https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles",
             "hasPid": "create"
         },
         "vocabs_lookup": {}
     },
-    "auden-musulin-papers/web-img": {
+    "auden-musulin-papers/photos": {
         "resource_file_path": "data",
         "file_format": "xml",
-        "id": "//tei:pb/@facs",
-        "id_suffix": ".png",
+        "id": "//tei:pb/@facs[ancestor::tei:text[@type='photograph']]",
+        "id_suffix": ".tif",
         "id_as_title": True,
-        "id_as_title_prefix": "Low Resultion Facsimile:",
+        "id_as_title_prefix": "Photo:",
+        "custom_lang": "en",
         "xpaths": {
-            "isSourceOf__prefix__nolang": "//tei:TEI/@xml:id"
+            "isSourceOf__prefix__nolang": "//tei:TEI[@xml:id]/@xml:id",
+            "hasCreator__nolang": "//tei:titleStmt/tei:author[@ref]/@ref"
         },
         "static_values": {
             "hasAccessRestrictions": "https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public",
             "hasCategory": "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
-            "isPartOf": "https://id.acdh.oeaw.ac.at/auden-musulin-papers/web-img",
+            "isPartOf": "https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos",
             "hasPid": "create"
         },
         "vocabs_lookup": {}

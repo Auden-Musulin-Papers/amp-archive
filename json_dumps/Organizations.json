@@ -2,7 +2,7 @@
   "10": {
     "id": 10,
     "order": "10.00000000000000000000",
-    "Name": "https://www.picturedesk.com/bild-disp/apa/de/prices.html",
+    "Name": "Austrian Press Agency",
     "Literal": "https://www.picturedesk.com/bild-disp/apa/de/prices.html",
     "Language": "na",
     "Predicate_uri": [
@@ -16,7 +16,7 @@
   "11": {
     "id": 11,
     "order": "11.00000000000000000000",
-    "Name": "https://www.tcd.ie/committeepapers/board/membersh",
+    "Name": "The board of Trinity College, the University of Dublin",
     "Literal": "https://www.tcd.ie/committeepapers/board/membersh",
     "Language": "na",
     "Predicate_uri": [
@@ -152,5 +152,19 @@
       }
     ],
     "Subject_uri": "https://id.acdh.oeaw.ac.at/org-trinitycollegeboard"
+  },
+  "21": {
+    "id": 21,
+    "order": "21.00000000000000000000",
+    "Name": "Österreichische Gesellschaft für Literatur",
+    "Literal": "Österreichische Gesellschaft für Literatur",
+    "Language": "en",
+    "Predicate_uri": [
+      {
+        "id": 114,
+        "value": "hasTitle"
+      }
+    ],
+    "Subject_uri": "https://d-nb.info/gnd/2175892-X"
   }
 }

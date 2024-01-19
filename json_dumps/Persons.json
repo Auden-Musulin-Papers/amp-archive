@@ -473,5 +473,65 @@
       }
     ],
     "Subject_uri": "https://d-nb.info/gnd/1043833846"
+  },
+  "51": {
+    "id": 51,
+    "order": "49.00000000000000000000",
+    "Name": "Kraus, Wolfgang",
+    "Literal": "Kraus, Wolfgang",
+    "Object_uri_organizations": [],
+    "Language": "und",
+    "Predicate_uri": [
+      {
+        "id": 114,
+        "value": "hasTitle"
+      }
+    ],
+    "Subject_uri": "https://d-nb.info/gnd/1141619857"
+  },
+  "52": {
+    "id": 52,
+    "order": "50.00000000000000000000",
+    "Name": "Breicha, Otto",
+    "Literal": "Breicha, Otto",
+    "Object_uri_organizations": [],
+    "Language": "und",
+    "Predicate_uri": [
+      {
+        "id": 114,
+        "value": "hasTitle"
+      }
+    ],
+    "Subject_uri": "https://d-nb.info/gnd/116469986"
+  },
+  "54": {
+    "id": 54,
+    "order": "51.00000000000000000000",
+    "Name": "Blaha, Rudof",
+    "Literal": "Blaha, Rudof",
+    "Object_uri_organizations": [],
+    "Language": "und",
+    "Predicate_uri": [
+      {
+        "id": 114,
+        "value": "hasTitle"
+      }
+    ],
+    "Subject_uri": "https://id.acdh.oeaw.ac.at/rblaha"
+  },
+  "55": {
+    "id": 55,
+    "order": "52.00000000000000000000",
+    "Name": "Musulin, Elsa",
+    "Literal": "Musulin, Elsa",
+    "Object_uri_organizations": [],
+    "Language": "und",
+    "Predicate_uri": [
+      {
+        "id": 114,
+        "value": "hasTitle"
+      }
+    ],
+    "Subject_uri": "https://id.acdh.oeaw.ac.at/emusulin"
   }
 }

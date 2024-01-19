@@ -1,149 +1,169 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0037.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
-                <title level="a">Autograph Card Signed Michael O'Sullivan to Stella Musulin 1984-08-15--1996-01-21</title>
-                <author>O'Sullivan, Michael</author>
-                <editor>
-                    <name>Mayer, Sandra</name>
-                    <name>Frühwirth, Timo</name>
-                </editor>
-                <funder>
-                    <name>FWF Austrian Science Fund</name>
-                    <address>
-                        <street>Sensengasse 1</street>
-                        <postCode>1090 Vienna</postCode>
-                        <placeName>
-                            <country>A</country>
-                            <settlement>Vienna</settlement>
-                        </placeName>
-                    </address>
-                </funder>
-            </titleStmt>
-            <editionStmt>
-                <edition>AMP</edition>
-                <respStmt>
-                    <resp>Transcription and commentary</resp>
-                    <name>Mayer, Sandra</name>
-                    <name>Frühwirth, Timo</name>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
-                <pubPlace>Vienna</pubPlace>
-                <date when="2021">2021</date>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
-                        <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="amp-transcript__0037.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
+            <title level="a">Autograph Card Signed Michael O'Sullivan to Stella Musulin 1984-08-15--1996-01-21</title>
+            <author ref="https://d-nb.info/gnd/1173017283">O'Sullivan, Michael</author>
+            <editor>
+               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
+            </editor>
+            <funder>
+               <name>FWF Austrian Science Fund</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Vienna</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Vienna</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>AMP</edition>
+            <respStmt>
+               <resp>Transcription and commentary</resp>
+               <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Schema, ODD/RNG</resp>
+               <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+               <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2021">2021</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
+                  <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
                             for any purpose, even commercially.</p>
-                        <p>The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms:</p>
-                        <p>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p>
-                        <p>Notices:</p>
-                        <p>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</p>
-                    </licence>
-                    <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
-                </availability>
-                <availability>
-                    <licence facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0246/" target="https://creativecommons.org/licenses/by/4.0/deed.en">
-                        <p>Image publication permission by The Carl Van Vechten Trust.</p>
-                    </licence>
-                </availability>
-                <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C32A-7</idno></publicationStmt>
-            <seriesStmt>
-                <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness n="1">
-                        <msDesc>
-                            <msIdentifier>
-                                <country>A</country>
-                                <settlement>St. Pölten</settlement>
-                                <repository>State Collections of Lower Austria</repository>
-                                <collection>Stella Musulin (Depot)</collection>
-                                <idno>2, 19</idno>
-                            </msIdentifier>
-                            <history>
-                                <origin><origDate notBefore-iso="1984-08-15T00:00:00+01:00" notAfter-iso="1996-01-21T23:59:59+00:00">1984-08-15--1996-01-21</origDate></origin>
-                            </history>
-                        </msDesc>
-                    </witness>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-            </langUsage> 
-            
-            <correspDesc>
-                <correspAction type="composed">
-                    <persName ref="#amp_person_99">O'Sullivan, Michael</persName>
-                    <placeName ref="#amp_place_id_173">22, Kildare Street</placeName>
-                    <date>unknown</date>
-                </correspAction>     
-                <correspAction type="sent">
-                    <persName ref="#amp_person_99">O'Sullivan, Michael</persName>
-                    <placeName>unknown</placeName>
-                    <date>unknown</date>
-                </correspAction>
-                <correspAction type="received">
-                    <persName ref="#amp_person_2">Musulin, Stella</persName>
-                    <placeName>unknown</placeName>
-                    <date>unknown</date>
-                </correspAction>
-                <correspContext>
-                    <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
-                    <ref type="belongsToCorrespondence" target="#amp_person_99">O'Sullivan, Michael</ref>
-                    <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0036.xml">Autograph Note Michael O'Sullivan to Stella Musulin 1984-08-15</ref>
-                </correspContext>
-            </correspDesc>
-            
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
-            <change who="tfruehwirth" when="2021-10-29">text transcribed</change>
-            <change who="smayer" when="2021-10-29">text transcribed</change>
-            <change who="smayer tfruehwirth" when="2021-10-29">transcriptions collated</change>
-            <change who="dgrigoriou" when="2022-10-06">transcriptions updated v0.1</change>
-            <change who="dgrigoriou smayer tfruehwirth" when="2023-02-27">entities and correspDesc collated</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <surface ulx="0" uly="0" lrx="4332" lry="3272">
-            <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0245/"/>
-        </surface>
-        <surface ulx="0" uly="0" lrx="3272" lry="4328">
-            <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0246/"/>
-        </surface>
-    </facsimile>
-    <text type="card" hand="#handwritten">
-        <body>
-            <div xml:id="transcription">
-                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0245/" type="card"/>
-                <p hand="#printed">
-                    <rs type="person" ref="#amp_person_1">W.H. AUDEN</rs> (1907-1973)<lb/>
+                  <p>The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms:</p>
+                  <p>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p>
+                  <p>Notices:</p>
+                  <p>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</p>
+               </licence>
+               <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
+            </availability>
+            <availability>
+               <licence facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0246/"
+                        target="https://creativecommons.org/licenses/by/4.0/deed.en">
+                  <p>Image publication permission by The Carl Van Vechten Trust.</p>
+               </licence>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C32A-7</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>St. Pölten</settlement>
+                        <repository>State Collections of Lower Austria</repository>
+                        <collection>Stella Musulin (Depot)</collection>
+                        <idno>2, 19</idno>
+                     </msIdentifier>
+                     <history>
+                        <origin>
+                           <origDate notBefore-iso="1984-08-15T00:00:00+01:00"
+                                     notAfter-iso="1996-01-21T23:59:59+00:00">1984-08-15--1996-01-21</origDate>
+                        </origin>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="composed">
+               <persName ref="#amp_person_99">O'Sullivan, Michael</persName>
+               <placeName ref="#amp_place_id_173">22, Kildare Street</placeName>
+               <date>unknown</date>
+            </correspAction>
+            <correspAction type="sent">
+               <persName ref="#amp_person_99">O'Sullivan, Michael</persName>
+               <placeName>unknown</placeName>
+               <date>unknown</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#amp_person_2">Musulin, Stella</persName>
+               <placeName>unknown</placeName>
+               <date>unknown</date>
+            </correspAction>
+            <correspContext>
+               <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
+               <ref type="belongsToCorrespondence" target="#amp_person_99">O'Sullivan, Michael</ref>
+               <ref subtype="previous_letter"
+                    type="withinCollection"
+                    target="#amp-transcript__0036.xml">Autograph Note Michael O'Sullivan to Stella Musulin 1984-08-15</ref>
+            </correspContext>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
+         <change who="tfruehwirth" when="2021-10-29">text transcribed</change>
+         <change who="smayer" when="2021-10-29">text transcribed</change>
+         <change who="smayer tfruehwirth" when="2021-10-29">transcriptions collated</change>
+         <change who="dgrigoriou" when="2022-10-06">transcriptions updated v0.1</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2023-02-27">entities and correspDesc collated</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="4332" lry="3272">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0245/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="3272" lry="4328">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0246/"/>
+      </surface>
+   </facsimile>
+   <text type="card" hand="#handwritten">
+      <body>
+         <div xml:id="transcription">
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0245/" type="card"/>
+            <p hand="#printed">
+               <rs type="person" ref="#amp_person_1">W.H. AUDEN</rs> (1907-1973)<lb/>
                     English poet, as a young man
                 </p>
-                <p>
-                    <rs type="place" ref="#amp_place_id_173">22 Kildare St.<lb/>
+            <p>
+               <rs type="place" ref="#amp_place_id_173">22 Kildare St.<lb/>
                     Dub<unclear>l</unclear>in 2</rs> .
                 </p>
-                <p>
-                    F<unclear>o</unclear>r <rs type="person" ref="#amp_person_2">Stella</rs><lb/>
-                    <unclear>W</unclear>ith e<unclear>v</unclear>ery good<lb/>
-                    <unclear>wi</unclear>sh<lb/>
-                    — <rs type="person" ref="#amp_person_99"><unclear>Mic</unclear>hael</rs>.
+            <p>
+                    F<unclear>o</unclear>r <rs type="person" ref="#amp_person_2">Stella</rs>
+               <lb/>
+               <unclear>W</unclear>ith e<unclear>v</unclear>ery good<lb/>
+               <unclear>wi</unclear>sh<lb/>
+                    — <rs type="person" ref="#amp_person_99">
+                  <unclear>Mic</unclear>hael</rs>.
                 </p>
-                <p hand="#printed">
+            <p hand="#printed">
                     Photograph by <rs type="person" ref="#amp_person_128">Carl Van Vechten</rs>/<rs type="org" ref="#amp_organization_17">Beinecke Library, Yale U</rs>.<lb/>
-                    © <rs type="org" ref="#amp_organization_22">Crossing Cards</rs><lb/>
-                    <rs type="place" ref="#amp_place_id_210">Trumansburg, N.Y. 14886<lb/>
+                    © <rs type="org" ref="#amp_organization_22">Crossing Cards</rs>
+               <lb/>
+               <rs type="place" ref="#amp_place_id_210">Trumansburg, N.Y. 14886<lb/>
                     No. 19</rs>
-                </p>
-                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0246/" type="card"/>
-            </div>
-        </body>
-    </text>
+            </p>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0246/" type="card"/>
+         </div>
+      </body>
+   </text>
 </TEI>

@@ -37,7 +37,7 @@ if isinstance(LATEST_RELEASE, str) and len(LATEST_RELEASE) != 0:
     else:
         dir = "*"
     if isinstance(PRMARY_FILE_FORMAT, str) and len(PRMARY_FILE_FORMAT) > 0:
-        file_format = PRMARY_FILE_FORMAT
+        file_format = PRMARY_FILE_FORMAT.lower()
     else:
         file_format = "xml"
     r = requests.get(LATEST_RELEASE)

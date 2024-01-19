@@ -1,13 +1,19 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0004.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="amp-transcript__0004.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</title>
-            <author>Auden, W. H.</author>
+            <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
             <editor>
-               <name>Mayer, Sandra</name>
-               <name>Frühwirth, Timo</name>
+               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
                <name>FWF Austrian Science Fund</name>
@@ -29,22 +35,30 @@
                      <desc>
                         In his <rs type="lit_work" ref="#lit_work_id_39">W. H. Auden: A Biography</rs>, <rs type="person" ref="#amp_person_100">Humphrey Carpenter</rs> reports that "[i]n about 1968 Auden began to look round for another composer with whom to write an opera" (428). <rs type="person" ref="#amp_person_19">Peter Heyworth</rs> arranged a meeting with composer <rs type="person" ref="#amp_person_234">Harrison Birtwistle</rs>, but nothing came of the intended collaboration. In <rs type="lit_work" ref="#lit_work_id_159">a 2014 interview</rs>, Birtwistle recalls that "[h]e was once approached by WH Auden, who wanted to write an operatic version of <rs type="lit_work" ref="#lit_work_id_6">Love's Labour's Lost</rs> with him", but refused. Auden and <rs type="person" ref="#amp_person_4">Kallman</rs> eventually realized <rs type="lit_work" ref="#lit_work_id_19">the project</rs> in collaboration with <rs type="person" ref="#amp_person_207">Nicolas Nabokov</rs>.
                         <listPerson>
-                           <person><persName ref="#amp_person_234"/></person>
+                           <person>
+                              <persName ref="#amp_person_234"/>
+                           </person>
                         </listPerson>
                         <listBibl>
                            <bibl sameAs="#lit_work_id_39"/>
                            <bibl sameAs="#lit_work_id_159"/>
                         </listBibl>
                      </desc>
-                     <respons resp="dgrigoriou smayer tfruehwirth" locus="value"></respons>
-                     <certainty cert="medium" locus="value"></certainty>
+                     <respons resp="dgrigoriou smayer tfruehwirth" locus="value"/>
+                     <certainty cert="medium" locus="value"/>
                   </interp>
                </interpGrp>
             </edition>
             <respStmt>
                <resp>Transcription and commentary</resp>
-               <name>Mayer, Sandra</name>
-               <name>Frühwirth, Timo</name>
+               <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Schema, ODD/RNG</resp>
+               <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+               <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -62,7 +76,8 @@ for any purpose, even commercially.</p>
                </licence>
                <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
             </availability>
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C309-C</idno></publicationStmt>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C309-C</idno>
+         </publicationStmt>
          <seriesStmt>
             <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
          </seriesStmt>
@@ -79,7 +94,8 @@ for any purpose, even commercially.</p>
                      </msIdentifier>
                      <history>
                         <origin>
-                           <origDate notBefore-iso="1966-02-03T00:00:00-05:00" notAfter-iso="1966-02-03T23:59:59-05:00">1966-02-03</origDate>
+                           <origDate notBefore-iso="1966-02-03T00:00:00-05:00"
+                                     notAfter-iso="1966-02-03T23:59:59-05:00">1966-02-03</origDate>
                            <origPlace ref="#amp_place_id_29">77 St. Mark's Place</origPlace>
                         </origin>
                      </history>
@@ -97,7 +113,8 @@ for any purpose, even commercially.</p>
             <correspAction type="sent">
                <orgName ref="#amp_organization_85">United States General Post Office</orgName>
                <placeName ref="#amp_place_id_28">New York City</placeName>
-               <date notBefore-iso="1966-02-03T12:00:00-05:00" notAfter-iso="1966-02-03T23:59:59-05:00">1966-02-03T12:00:00-05:00/1966-02-03T23:59:59-05:00</date>
+               <date notBefore-iso="1966-02-03T12:00:00-05:00"
+                     notAfter-iso="1966-02-03T23:59:59-05:00">1966-02-03T12:00:00-05:00/1966-02-03T23:59:59-05:00</date>
             </correspAction>
             <correspAction type="received">
                <persName ref="#amp_person_2">Musulin, Stella</persName>
@@ -106,8 +123,12 @@ for any purpose, even commercially.</p>
             <correspContext>
                <ref type="belongsToCorrespondence" target="#amp_person_1">Auden, W. H.</ref>
                <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
-               <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0003.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29</ref>
-               <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0005.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</ref>
+               <ref subtype="previous_letter"
+                    type="withinCollection"
+                    target="#amp-transcript__0003.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29</ref>
+               <ref subtype="next_letter"
+                    type="withinCollection"
+                    target="#amp-transcript__0005.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</ref>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -140,9 +161,10 @@ for any purpose, even commercially.</p>
       <body>
          <div type="transcription" xml:id="transcription_amp_0004" xml:lang="en">
             <div type="envelope">
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0019/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0019/" type="envelope"/>
                <ab>
-                  <rs type="person" ref="#amp_person_1">W.H.Auden</rs><lb/>
+                  <rs type="person" ref="#amp_person_1">W.H.Auden</rs>
+                  <lb/>
                   <address>
                      <rs type="place" ref="#amp_place_id_29">77 St Mark's Place<lb/>
                      New York City 3<lb/>
@@ -155,94 +177,105 @@ for any purpose, even commercially.</p>
                </ab>
                <ab xml:lang="de">
                   <rs type="person" ref="#amp_person_2">Die Baronin<lb/>
-                  <space quantity="3" unit="char"/>Stella Musulin</rs><lb/>
+                     <space quantity="3" unit="char"/>Stella Musulin</rs>
+                  <lb/>
                   <address>
-                     <space quantity="5" unit="char"/><rs type="place" ref="#amp_place_id_7">Fridau<lb/>
-                     <space quantity="6" unit="char"/>32<del>o</del>OO Obergrafendorf<lb/>
-                     <space quantity="8" unit="char"/>N.<unclear>Ö</unclear>.<lb/>
-                     <space quantity="9" unit="char"/><foreign xml:lang="en">Austria</foreign></rs>
+                     <space quantity="5" unit="char"/>
+                     <rs type="place" ref="#amp_place_id_7">Fridau<lb/>
+                        <space quantity="6" unit="char"/>32<del>o</del>OO Obergrafendorf<lb/>
+                        <space quantity="8" unit="char"/>N.<unclear>Ö</unclear>.<lb/>
+                        <space quantity="9" unit="char"/>
+                        <foreign xml:lang="en">Austria</foreign>
+                     </rs>
                   </address>
                </ab>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0020/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0020/" type="envelope"/>
             </div>
             <div type="letter">
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0021/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0021/" type="sheet"/>
                <div type="letter_message">
-               <opener>
-                  <dateline>
-                     <placeName>
-                        <address>
-                           <rs type="place" ref="#amp_place_id_29">77 St Mark's Place<lb/>
+                  <opener>
+                     <dateline>
+                        <placeName>
+                           <address>
+                              <rs type="place" ref="#amp_place_id_29">77 St Mark's Place<lb/>
                            New <space quantity="1" unit="char"/>York City 3<lb/>
                            New York IOOO3</rs>
-                        </address>
-                     </placeName>
-                     <date rend="#block">
+                           </address>
+                        </placeName>
+                        <date rend="#block">
                         Feb 3rd,I96<del>5</del>6
                      </date>
-                  </dateline>
-                  <salute>
-                     <space quantity="19" unit="char"/>Dear <rs type="person" ref="#amp_person_2">Stella</rs>:
+                     </dateline>
+                     <salute>
+                        <space quantity="19" unit="char"/>Dear <rs type="person" ref="#amp_person_2">Stella</rs>:
                   </salute>
-               </opener>
-               <p>
-                  <space quantity="7" unit="char"/>Many thanks for <rs type="event" ref="#amp_event_id_76">your nice long letter</rs>. <rs type="person" ref="#amp_person_8">Stephen</rs> has a genius for<lb/>
-                  <space quantity="4" unit="char"/>subtle misrepresentation. "Serious insistence on unseriousness'<lb/>
-                  <space quantity="4" unit="char"/>telescopes two <del>cnvictuons</del>distinct convictions of mine,falsifying both.
+                  </opener>
+                  <p>
+                     <space quantity="7" unit="char"/>Many thanks for <rs type="event" ref="#amp_event_id_76">your nice long letter</rs>. <rs type="person" ref="#amp_person_8">Stephen</rs> has a genius for<lb/>
+                     <space quantity="4" unit="char"/>subtle misrepresentation. "Serious insistence on unseriousness'<lb/>
+                     <space quantity="4" unit="char"/>telescopes two <del>cnvictuons</del>distinct convictions of mine,falsifying both.
                </p>
-               <p>
-                  <seg>
-                     <space quantity="5" unit="char"/>I) I believe it to be a serious moral error when an artist overestimates<lb/>
-                     <space quantity="8" unit="char"/>the importance of art and,by implication,of himself. One must admit<lb/>
-                     <space quantity="8" unit="char"/>that the <del>plotical</del> political history of <rs type="place" ref="#amp_place_id_30">Eur<del>i</del>ope</rs>,with <del>all its</del>the same horrors,<lb/>
-                     <space quantity="8" unit="char"/>would be what it has been,if <rs type="person" ref="#amp_person_9">Dante</rs>,<rs type="person" ref="#amp_person_10">Shakespeare</rs>,<rs type="person" ref="#amp_person_11">Goethe</rs>,<rs type="person" ref="#amp_person_12">Titian</rs>,<lb/>
-                     <space quantity="8" unit="char"/><rs type="person" ref="#amp_person_13">Mo<del>x</del>zart</rs>,et al,had never existed.
-                  </seg>
-                  <seg>
+                  <p>
                      <seg>
-                        <space quantity="4" unit="char"/>2) I believe that the only way in which,to-day at any rate,one can<lb/>
-                        <space quantity="7" unit="char"/>speak <del>seroiu</del> <del>s eriously</del> <hi rend="underline">seriously</hi> about serious matters(the alternati<del>c</del>ve<lb/>
-                        <space quantity="7" unit="char"/>is silence) is comically. I am surprised to hear from you that<lb/>
-                        <space quantity="7" unit="char"/>Jews find this hard to accept. I have enormously admired - and been<lb/>
-                        <space quantity="6" unit="char"/>influenced by - the tradition of Jewish humor. More than any other<lb/>
-                        <space quantity="6" unit="char"/>people,surely,they have seen in serious matters,that is to say,human<lb/>
-                        <space quantity="6" unit="char"/>suffering,<del>and</del> the contradictions of human existence,and the relation<lb/>
-                        <space quantity="6" unit="char"/>between man and God,occasions for humorous expression.
-                     </seg>
-                     <seg>
-                        <space quantity="7" unit="char"/>e.g,: "If the rich could hire other people to die for them,the poor<lb/>
-                        <space quantity="5" unit="char"/>cou<del>o</del>ld make a wonderful living", or "Truth rests with God alone,and<lb/>
-                        <space quantity="5" unit="char"/>a little bit with me",or "God will provide - ah,if only He wou<del>o</del>ld till<lb/>
-                        <space quantity="5" unit="char"/>He does so."
-                     </seg>
+                        <space quantity="5" unit="char"/>I) I believe it to be a serious moral error when an artist overestimates<lb/>
+                        <space quantity="8" unit="char"/>the importance of art and,by implication,of himself. One must admit<lb/>
+                        <space quantity="8" unit="char"/>that the <del>plotical</del> political history of <rs type="place" ref="#amp_place_id_30">Eur<del>i</del>ope</rs>,with <del>all its</del>the same horrors,<lb/>
+                        <space quantity="8" unit="char"/>would be what it has been,if <rs type="person" ref="#amp_person_9">Dante</rs>,<rs type="person" ref="#amp_person_10">Shakespeare</rs>,<rs type="person" ref="#amp_person_11">Goethe</rs>,<rs type="person" ref="#amp_person_12">Titian</rs>,<lb/>
+                        <space quantity="8" unit="char"/>
+                        <rs type="person" ref="#amp_person_13">Mo<del>x</del>zart</rs>,et al,had never existed.
                   </seg>
-               </p>   
-               <p>   
-                  <space quantity="2" unit="char"/>So! you encountered the <rs type="person" ref="#amp_person_175">one-whose-name-we-never-mention</rs>. Why <rs type="person" ref="#amp_person_4">Chest<del>r</del>er</rs> should<lb/>
-                  <space quantity="1" unit="char"/>have been so foolish as <space quantity="1" unit="char"/>to invite him to a <rs type="event" ref="#amp_event_id_38">p<del>e</del>arty</rs>,I cannot imagine. If he<lb/>
+                     <seg>
+                        <seg>
+                           <space quantity="4" unit="char"/>2) I believe that the only way in which,to-day at any rate,one can<lb/>
+                           <space quantity="7" unit="char"/>speak <del>seroiu</del>
+                           <del>s eriously</del>
+                           <hi rend="underline">seriously</hi> about serious matters(the alternati<del>c</del>ve<lb/>
+                           <space quantity="7" unit="char"/>is silence) is comically. I am surprised to hear from you that<lb/>
+                           <space quantity="7" unit="char"/>Jews find this hard to accept. I have enormously admired - and been<lb/>
+                           <space quantity="6" unit="char"/>influenced by - the tradition of Jewish humor. More than any other<lb/>
+                           <space quantity="6" unit="char"/>people,surely,they have seen in serious matters,that is to say,human<lb/>
+                           <space quantity="6" unit="char"/>suffering,<del>and</del> the contradictions of human existence,and the relation<lb/>
+                           <space quantity="6" unit="char"/>between man and God,occasions for humorous expression.
+                     </seg>
+                        <seg>
+                           <space quantity="7" unit="char"/>e.g,: "If the rich could hire other people to die for them,the poor<lb/>
+                           <space quantity="5" unit="char"/>cou<del>o</del>ld make a wonderful living", or "Truth rests with God alone,and<lb/>
+                           <space quantity="5" unit="char"/>a little bit with me",or "God will provide - ah,if only He wou<del>o</del>ld till<lb/>
+                           <space quantity="5" unit="char"/>He does so."
+                     </seg>
+                     </seg>
+                  </p>
+                  <p>
+                     <space quantity="2" unit="char"/>So! you encountered the <rs type="person" ref="#amp_person_175">one-whose-name-we-never-mention</rs>. Why <rs type="person" ref="#amp_person_4">Chest<del>r</del>er</rs> should<lb/>
+                     <space quantity="1" unit="char"/>have been so foolish as <space quantity="1" unit="char"/>to invite him to a <rs type="event" ref="#amp_event_id_38">p<del>e</del>arty</rs>,I cannot imagine. If he<lb/>
                   is to be seen at all,he <del>jy</del>must be seen alone. Incidentally,next time you see<lb/>
-                  <rs type="person" ref="#amp_person_4">Chester</rs>,scold him a) for not writing to me b) for not answering <rs type="event" ref="#amp_event_id_77"><rs type="person" ref="#amp_person_108" ana="#ana_010">Harrison</rs>'s<lb/>
+                     <rs type="person" ref="#amp_person_4">Chester</rs>,scold him a) for not writing to me b) for not answering <rs type="event" ref="#amp_event_id_77">
+                        <rs type="person" ref="#amp_person_108" ana="#ana_010">Harrison</rs>'s<lb/>
                   cable</rs>.
                </p>
-               <p>   
-                  <space quantity="1" unit="char"/>All well here.except for a leaking kit<del>v</del>chen roof. No doubt you read about<lb/>
+                  <p>
+                     <space quantity="1" unit="char"/>All well here.except for a leaking kit<del>v</del>chen roof. No doubt you read about<lb/>
                   our <rs type="event" ref="#amp_event_id_4">Black-Out</rs> and <rs type="event" ref="#amp_event_id_5">Transit Strike</rs>.(My typewriter is on the blink,hence the<lb/>
-                  hiatuses.) <space quantity="1" unit="char"/>A <del>firen</del> <rs type="person" ref="#amp_person_174">friend of mine who teaches schyzophrenics</rs>,has <rs type="person" ref="#amp_person_233">a seventeen<lb/>
+                  hiatuses.) <space quantity="1" unit="char"/>A <del>firen</del>
+                     <rs type="person" ref="#amp_person_174">friend of mine who teaches schyzophrenics</rs>,has <rs type="person" ref="#amp_person_233">a seventeen<lb/>
                   year old girl</rs> who is interested in poetry. Asked what poets she liked,she<lb/>
                   mentioned me. "<del>i</del>I happen to know him quite well",said <rs type="person" ref="#amp_person_174">my friend</rs>. To which the<lb/>
                   girl in astonishment:"You mean to say,he's still <hi rend="underline">alive</hi>!".
                </p>
-               <p>
-                  <space quantity="2" unit="char"/>Expect to get back to <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs> about April 20th.
+                  <p>
+                     <space quantity="2" unit="char"/>Expect to get back to <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs> about April 20th.
                </p>
-               <closer>
-                  <space quantity="21" unit="char"/><salute>much love <handShift new="#handwritten"/>and <unclear>g</unclear>reetings to <rs type="person" ref="#amp_person_94">son</rs> and <rs type="person" ref="#amp_person_93">mum-in-law</rs></salute>
-                  <signed hand="#handwritten">
-                     <rs type="person" ref="#amp_person_1">Wystan</rs>.
+                  <closer>
+                     <space quantity="21" unit="char"/>
+                     <salute>much love <handShift new="#handwritten"/>and <unclear>g</unclear>reetings to <rs type="person" ref="#amp_person_94">son</rs> and <rs type="person" ref="#amp_person_93">mum-in-law</rs>
+                     </salute>
+                     <signed hand="#handwritten">
+                        <rs type="person" ref="#amp_person_1">Wystan</rs>.
                   </signed>
-               </closer>
-               </div>      
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0022/" type="sheet"/>
+                  </closer>
+               </div>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0022/" type="sheet"/>
             </div>
          </div>
       </body>

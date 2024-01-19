@@ -1,145 +1,187 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0056.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
-                <title level="a">Autograph Notes [?] on Stella Musulin "Auden in Kirchstetten" and "In Retrospect" 1985-11-29--1990-03-28</title>
-                <author>[?]</author>
-                <editor>
-                    <name>Mayer, Sandra</name>
-                    <name>Frühwirth, Timo</name>
-                </editor>
-                <funder>
-                    <name>FWF Austrian Science Fund</name>
-                    <address>
-                        <street>Sensengasse 1</street>
-                        <postCode>1090 Vienna</postCode>
-                        <placeName>
-                            <country>A</country>
-                            <settlement>Vienna</settlement>
-                        </placeName>
-                    </address>
-                </funder>
-            </titleStmt>
-            <editionStmt>
-                <edition>AMP</edition>
-                <respStmt>
-                    <resp>Transcription and commentary</resp>
-                    <name>Mayer, Sandra</name>
-                    <name>Frühwirth, Timo</name>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
-                <pubPlace>Vienna</pubPlace>
-                <date when="2021">2021</date>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
-                        <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="amp-transcript__0056.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
+            <title level="a">Autograph Notes [?] on Stella Musulin "Auden in Kirchstetten" and "In Retrospect" 1985-11-29--1990-03-28</title>
+            <editor>
+               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
+            </editor>
+            <funder>
+               <name>FWF Austrian Science Fund</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Vienna</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Vienna</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>AMP</edition>
+            <respStmt>
+               <resp>Transcription and commentary</resp>
+               <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Schema, ODD/RNG</resp>
+               <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+               <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2021">2021</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
+                  <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
                             for any purpose, even commercially.</p>
-                        <p>The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms:</p>
-                        <p>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p>
-                        <p>Notices:</p>
-                        <p>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</p>
-                    </licence>
-                    <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
-                </availability>
-                <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C33D-2</idno></publicationStmt>
-            <seriesStmt>
-                <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness n="1">
-                        <msDesc>
-                            <msIdentifier>
-                                <country>A</country>
-                                <settlement>St. Pölten</settlement>
-                                <repository>State Collections of Lower Austria</repository>
-                                <collection>Stella Musulin (Depot)</collection>
-                                <idno>2, 7</idno>
-                            </msIdentifier>
-                            <history>
-                                <origin><origDate notBefore-iso="1985-11-29T00:00:00+01:00" notAfter-iso="1990-03-28T23:59:59+02:00">1985-11-29--1990-03-28</origDate></origin>
-                            </history>
-                        </msDesc>
-                    </witness>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="en">English</language>
-            </langUsage>
-        </profileDesc>
-        <revisionDesc status="draft">
-            <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
-            <change who="smayer" when="2022-01-05">text transcribed</change>
-            <change who="tfruehwirth" when="2022-01-05">text transcribed</change>
-            <change who="smayer tfruehwirth" when="2022-01-05">transcriptions collated</change>
-            <change who="dgrigoriou" when="2022-10-06">transcriptions updated v0.1</change>
-        </revisionDesc>
-    </teiHeader>
-    <facsimile>
-        <surface ulx="0" uly="0" lrx="5696" lry="7754">
-            <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0179/"/>
-        </surface>
-        <surface ulx="0" uly="0" lrx="5694" lry="7762">
-            <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0180/"/>
-        </surface>
-    </facsimile>
-    <text type="notes" hand="#handwritten">
-        <body>
-            <div xml:id="transcription">
-                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0179/" type="sheet"/>
-                <p>
-                    <hi rend="underline"><rs type="lit_work" ref="#lit_work_id_50">AUDEN IN KIRCHSTETTEN</rs></hi>
-                </p>
-                <p>
-                    <hi rend="underline">P. 7 Line 8</hi> "<rs type="person" ref="#amp_person_27">Eliot</rs> ha<unclear>r</unclear>dly deserved it<unclear>`:" </unclear> Does this mean that you dont<lb/>
+                  <p>The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms:</p>
+                  <p>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p>
+                  <p>Notices:</p>
+                  <p>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</p>
+               </licence>
+               <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C33D-2</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>St. Pölten</settlement>
+                        <repository>State Collections of Lower Austria</repository>
+                        <collection>Stella Musulin (Depot)</collection>
+                        <idno>2, 7</idno>
+                     </msIdentifier>
+                     <history>
+                        <origin>
+                           <origDate notBefore-iso="1985-11-29T00:00:00+01:00"
+                                     notAfter-iso="1990-03-28T23:59:59+02:00">1985-11-29--1990-03-28</origDate>
+                        </origin>
+                     </history>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
+         <change who="smayer" when="2022-01-05">text transcribed</change>
+         <change who="tfruehwirth" when="2022-01-05">text transcribed</change>
+         <change who="smayer tfruehwirth" when="2022-01-05">transcriptions collated</change>
+         <change who="dgrigoriou" when="2022-10-06">transcriptions updated v0.1</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="5696" lry="7754">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0179/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="5694" lry="7762">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0180/"/>
+      </surface>
+   </facsimile>
+   <text type="notes" hand="#handwritten">
+      <body>
+         <div xml:id="transcription">
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0179/" type="sheet"/>
+            <p>
+               <hi rend="underline">
+                  <rs type="lit_work" ref="#lit_work_id_50">AUDEN IN KIRCHSTETTEN</rs>
+               </hi>
+            </p>
+            <p>
+               <hi rend="underline">P. 7 Line 8</hi> "<rs type="person" ref="#amp_person_27">Eliot</rs> ha<unclear>r</unclear>dly deserved it<unclear>`:" </unclear> Does this mean that you dont<lb/>
                     think <rs type="person" ref="#amp_person_27">Eliot</rs> w<unclear>a</unclear>s worth translating? Or that <rs type="person" ref="#amp_person_1">Auden</rs> didnt? Or what?<lb/>
                     (see p<unclear>.</unclear> 16-17)
                 </p>
-                <p>
-                    <hi rend="underline"><unclear>R. 2</unclear> Line <del><gap reason="deleted"/></del>7</hi> <del>Would</del> '<rs type="person" ref="#amp_person_4">Chester</rs>'. Would it <unclear>be</unclear> helpful <unclear>a</unclear>t this<lb/>
+            <p>
+               <hi rend="underline">
+                  <unclear>R. 2</unclear> Line <del>
+                     <gap reason="deleted"/>
+                  </del>7</hi>
+               <del>Would</del> '<rs type="person" ref="#amp_person_4">Chester</rs>'. Would it <unclear>be</unclear> helpful <unclear>a</unclear>t this<lb/>
                     ✓<unclear>f</unclear>irst mention of <rs type="person" ref="#amp_person_4">him</rs> to add the sur<unclear>n</unclear>ame , i.e.<lb/>
                     '<rs type="person" ref="#amp_person_4">Chester Kallman</rs>'. ?
                 </p>
-                <p>
-                    <hi rend="underline"><rs type="lit_work" ref="#lit_work_id_46">IN RETROSPECT</rs>.</hi>
-                </p>
-                <p>
-                    <hi rend="underline">P1.</hi> <hi rend="underline">Line <unclear>6</unclear></hi> from bottom<unclear>:</unclear><lb/>
+            <p>
+               <hi rend="underline">
+                  <rs type="lit_work" ref="#lit_work_id_46">IN RETROSPECT</rs>.</hi>
+            </p>
+            <p>
+               <hi rend="underline">P1.</hi>
+               <hi rend="underline">Line <unclear>6</unclear>
+               </hi> from bottom<unclear>:</unclear>
+               <lb/>
                     "if his life as a". Sh<unclear>ou</unclear>ld this be "if his<lb/>
                     life as one" or "if his life as a whole" ?
                 </p>
-                <p>
-                    <hi rend="underline">p·3</hi> <hi rend="underline">Para 2</hi> Money pinched from <rs type="person" ref="#amp_person_4">Chester</rs>s jacket at party.<lb/>
-                    <unclear>I</unclear>ncident already referred to in bottom par<unclear>a</unclear> P·13<lb/>
+            <p>
+               <hi rend="underline">p·3</hi>
+               <hi rend="underline">Para 2</hi> Money pinched from <rs type="person" ref="#amp_person_4">Chester</rs>s jacket at party.<lb/>
+               <unclear>I</unclear>ncident already referred to in bottom par<unclear>a</unclear> P·13<lb/>
                     of <rs type="lit_work" ref="#lit_work_id_50">" Auden in Kirchs<unclear>t</unclear>etten "</rs>. Since this para is<lb/>
-                    in brackets perhaps this is an indicatio<unclear>n</unclear> <unclear>t</unclear>hat<lb/>
-                    <rs type="person" ref="#amp_person_2">you</rs> in<unclear>t</unclear>ended to omit it<unclear>?</unclear>
-                </p>
-                <p>
-                    Chec<unclear>k</unclear> wi<unclear>th</unclear> <unclear><rs type="person" ref="#amp_person_119">Müller</rs></unclear> <lb/>
+                    in brackets perhaps this is an indicatio<unclear>n</unclear>
+               <unclear>t</unclear>hat<lb/>
+               <rs type="person" ref="#amp_person_2">you</rs> in<unclear>t</unclear>ended to omit it<unclear>?</unclear>
+            </p>
+            <p>
+                    Chec<unclear>k</unclear> wi<unclear>th</unclear>
+               <unclear>
+                  <rs type="person" ref="#amp_person_119">Müller</rs>
+               </unclear>
+               <lb/>
                     wh<unclear>a</unclear>t is in his mṣ .
                 </p>
-                <p>
-                    <hi rend="underline">p3</hi> <hi rend="underline">Line <unclear>4</unclear> fr<unclear>om</unclear> bottom</hi><lb/>
+            <p>
+               <hi rend="underline">p3</hi>
+               <hi rend="underline">Line <unclear>4</unclear> fr<unclear>om</unclear> bottom</hi>
+               <lb/>
                     " at <rs type="place" ref="#amp_place_id_2">Hinterholz 6</rs>" ?? Desirabl<unclear>e</unclear> to add<lb/>
-                    <rs type="place" ref="#amp_place_id_5"><unclear>`</unclear>Kirchstetten<unclear>'</unclear></rs> for <unclear>s</unclear>ake of clari<unclear>t</unclear>y ?
+               <rs type="place" ref="#amp_place_id_5">
+                  <unclear>`</unclear>Kirchstetten<unclear>'</unclear>
+               </rs> for <unclear>s</unclear>ake of clari<unclear>t</unclear>y ?
                 </p>
-                <p>
-                    <hi rend="underline">P· 16.</hi> <hi rend="underline"><del>Bottom <gap reason="deleted"/></del></hi><lb/>
-                    <hi rend="underline">Last sentence <gap reason="illegible"/></hi><lb/> 
-                    <hi rend="underline">o<unclear>v</unclear>er <unclear>to</unclear> t<unclear>o</unclear>p P.17</hi>✓<lb/>
-                    <unclear>I</unclear>ncident of "<rs type="person" ref="#amp_person_175">he who<unclear>s</unclear>e name w<unclear>e</unclear> never mention<unclear>'</unclear></rs> at<lb/>
-                    <rs type="event" ref="#amp_event_id_19">funeral</rs>. ? Repe<unclear>ti</unclear>tion of mention of this on<lb/>
-                    <hi rend="underline">P·14</hi> , to<unclear>p</unclear> para, of <rs type="lit_work" ref="#lit_work_id_50">"Auden in Kirchstetten</rs>"<unclear>.</unclear>
-                </p>
-                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0180/" type="sheet"/>
-            </div>
-        </body>
-    </text>
+            <p>
+               <hi rend="underline">P· 16.</hi>
+               <hi rend="underline">
+                  <del>Bottom <gap reason="deleted"/>
+                  </del>
+               </hi>
+               <lb/>
+               <hi rend="underline">Last sentence <gap reason="illegible"/>
+               </hi>
+               <lb/>
+               <hi rend="underline">o<unclear>v</unclear>er <unclear>to</unclear> t<unclear>o</unclear>p P.17</hi>✓<lb/>
+               <unclear>I</unclear>ncident of "<rs type="person" ref="#amp_person_175">he who<unclear>s</unclear>e name w<unclear>e</unclear> never mention<unclear>'</unclear>
+               </rs> at<lb/>
+               <rs type="event" ref="#amp_event_id_19">funeral</rs>. ? Repe<unclear>ti</unclear>tion of mention of this on<lb/>
+               <hi rend="underline">P·14</hi> , to<unclear>p</unclear> para, of <rs type="lit_work" ref="#lit_work_id_50">"Auden in Kirchstetten</rs>"<unclear>.</unclear>
+            </p>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0180/" type="sheet"/>
+         </div>
+      </body>
+   </text>
 </TEI>
-

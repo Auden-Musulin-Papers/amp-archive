@@ -1,14 +1,19 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0002.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="amp-transcript__0002.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23</title>
-            <author>Auden, W. H.</author>
+            <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
             <editor>
-               <name>Mayer, Sandra</name>
-               <name>Frühwirth, Timo</name>
-               <name>Grigoriou, Dimitra</name>
+               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
                <name>FWF Austrian Science Fund</name>
@@ -28,15 +33,21 @@
                <interpGrp>
                   <interp xml:id="ana_007" source="ph_007"><!-- link to nanopub -->
                      <desc>In her memoirs ("Auden in Kirchstetten" 210, <ref target="https://hdl.handle.net/21.11115/0000-000F-7452-2">"The Years in Austria"</ref> 14), Stella Musulin refers to her own previous letter to Berlin, in which she had mentioned <rs type="person" ref="#amp_person_70">Brian Bunting</rs>'s non-fiction book <rs type="lit_work" ref="#lit_work_id_72">The Rise of the South African Reich</rs> in relation to the issue of torture.</desc>
-                     <respons resp="dgrigoriou smayer tfruehwirth" locus="value"></respons>
-                     <certainty cert="high" locus="value"></certainty>
+                     <respons resp="dgrigoriou smayer tfruehwirth" locus="value"/>
+                     <certainty cert="high" locus="value"/>
                   </interp>
                </interpGrp>
             </edition>
             <respStmt>
                <resp>Transcription and commentary</resp>
-               <name>Mayer, Sandra</name>
-               <name>Frühwirth, Timo</name>
+               <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Schema, ODD/RNG</resp>
+               <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+               <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -54,7 +65,8 @@ for any purpose, even commercially.</p>
                </licence>
                <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
             </availability>
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C307-E</idno></publicationStmt>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C307-E</idno>
+         </publicationStmt>
          <seriesStmt>
             <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
          </seriesStmt>
@@ -71,7 +83,8 @@ for any purpose, even commercially.</p>
                      </msIdentifier>
                      <history>
                         <origin>
-                           <origDate notBefore-iso="1964-12-23T00:00:00+01:00" notAfter-iso="1964-12-23T23:59:59+01:00">1964-12-23</origDate>
+                           <origDate notBefore-iso="1964-12-23T00:00:00+01:00"
+                                     notAfter-iso="1964-12-23T23:59:59+01:00">1964-12-23</origDate>
                            <origPlace ref="#amp_place_id_19">Hubertusbader Straße 43</origPlace>
                         </origin>
                      </history>
@@ -89,16 +102,19 @@ for any purpose, even commercially.</p>
             <correspAction type="sent">
                <orgName ref="#amp_organization_78">Postamt Berlin 33 (post office Berlin 33)</orgName>
                <placeName ref="#amp_place_id_17">Berlin</placeName>
-               <date notBefore-iso="1964-12-23T14:00:01+01:00" notAfter-iso="1964-12-23T15:00:00+01:00">1964-12-23T14:00:01+01:00/1964-12-23T15:00:00+01:00</date>
+               <date notBefore-iso="1964-12-23T14:00:01+01:00"
+                     notAfter-iso="1964-12-23T15:00:00+01:00">1964-12-23T14:00:01+01:00/1964-12-23T15:00:00+01:00</date>
             </correspAction>
             <correspAction type="transmitted">
-               <orgName ref="#amp_organization_71">Postamt Ober-Grafendorf (post office Ober-Grafendorf)</orgName><!-- info from backstamp -->
+               <orgName ref="#amp_organization_71">Postamt Ober-Grafendorf (post office Ober-Grafendorf)</orgName>
+               <!-- info from backstamp -->
                <placeName ref="#amp_place_id_8">Ober-Grafendorf</placeName>
-               <date notBefore-iso="1964-12-28T17:00:01+01:00" notAfter-iso="1964-12-28T18:00:00+01:00">1964-12-28T17:00:01+01:00/1964-12-28T18:00:00+01:00</date>
+               <date notBefore-iso="1964-12-28T17:00:01+01:00"
+                     notAfter-iso="1964-12-28T18:00:00+01:00">1964-12-28T17:00:01+01:00/1964-12-28T18:00:00+01:00</date>
             </correspAction>
             <correspAction type="redirected">
                <persName ref="#amp_person_93">Musulin, Elsa von</persName>
-               <placeName ref="#amp_place_id_7">Fridau</placeName>  
+               <placeName ref="#amp_place_id_7">Fridau</placeName>
             </correspAction>
             <correspAction type="received">
                <persName ref="#amp_person_2">Musulin, Stella</persName>
@@ -107,8 +123,12 @@ for any purpose, even commercially.</p>
             <correspContext>
                <ref type="belongsToCorrespondence" target="#amp_person_1">Auden, W. H.</ref>
                <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
-               <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0001.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</ref>
-               <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0038.xml">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</ref>
+               <ref subtype="previous_letter"
+                    type="withinCollection"
+                    target="#amp-transcript__0001.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</ref>
+               <ref subtype="next_letter"
+                    type="withinCollection"
+                    target="#amp-transcript__0038.xml">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</ref>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -141,7 +161,7 @@ for any purpose, even commercially.</p>
       <body>
          <div type="transcription" xml:id="transcription_amp_0002" xml:lang="en">
             <div type="envelope" xml:lang="de">
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0007/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0007/" type="envelope"/>
                <ab>
                   <hi rend="underline">mit Luft Post</hi>
                </ab>
@@ -150,12 +170,19 @@ for any purpose, even commercially.</p>
                </ab>
                <ab>
                   <rs type="person" ref="#amp_person_2">Die Baronin<lb/>
-                  Stella Musulin</rs><lb/>
+                  Stella Musulin</rs>
+                  <lb/>
                   <address>
-                     <rs type="place" ref="#amp_place_id_7"><del>Fridau</del><lb/>
-                     <del>Obergrafendorf</del><lb/>
-                     <del>bei<unclear>.</unclear> S. Pölten</del><lb/>
-                     <del>NÖ</del></rs><lb/>
+                     <rs type="place" ref="#amp_place_id_7">
+                        <del>Fridau</del>
+                        <lb/>
+                        <del>Obergrafendorf</del>
+                        <lb/>
+                        <del>bei<unclear>.</unclear> S. Pölten</del>
+                        <lb/>
+                        <del>NÖ</del>
+                     </rs>
+                     <lb/>
                      <rs type="place" ref="#amp_place_id_10">Osterreich</rs>
                   </address>
                </ab>
@@ -165,18 +192,20 @@ for any purpose, even commercially.</p>
                      Neulinggasse 26/14</rs>
                   </address>
                </ab>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0008/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0008/" type="envelope"/>
                <ab>
-                  <rs type="person" ref="#amp_person_1">W H Auden</rs><lb/>
+                  <rs type="person" ref="#amp_person_1">W H Auden</rs>
+                  <lb/>
                   <address>
                      <rs type="place" ref="#amp_place_id_19">Berlin<unclear>-</unclear>Dahlem<lb/>
                      Hubertusbaderstrasse 43<lb/>
-                     Deut<unclear>s</unclear>c<unclear>h</unclear>land<unclear>·</unclear></rs>
+                     Deut<unclear>s</unclear>c<unclear>h</unclear>land<unclear>·</unclear>
+                     </rs>
                   </address>
                </ab>
             </div>
             <div type="letter">
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0005/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0005/" type="sheet"/>
                <div type="letter_message">
                   <opener>
                      <dateline>
@@ -194,15 +223,27 @@ for any purpose, even commercially.</p>
                      <rs type="event" ref="#amp_event_id_70" ana="#ana_007">It <hi rend="underline">was</hi> sweet of you to think of me at<lb/>
                      Christmas</rs> ,especially since it's a little <foreign xml:lang="de">einsam</foreign> here.<lb/>
                      Am beginning to know some local inhabitants. Oddly enough,<lb/>
-                     the ones I can talk to most easily ar from <rs type="place" ref="#amp_place_id_21"><foreign xml:lang="de"><unclear>O</unclear>st-Berlin</foreign></rs><unclear>,</unclear><lb/>
+                     the ones I can talk to most easily ar from <rs type="place" ref="#amp_place_id_21">
+                        <foreign xml:lang="de">
+                           <unclear>O</unclear>st-Berlin</foreign>
+                     </rs>
+                     <unclear>,</unclear>
+                     <lb/>
                      The most awful thi<unclear>ng</unclear> about the <foreign xml:lang="de">Bifk<unclear>e</unclear>s</foreign> is that<lb/>
-                     they are so much nicer under a little <hi rend="underline"><foreign xml:lang="de">Druck</foreign></hi>.<lb/>
+                     they are so much nicer under a little <hi rend="underline">
+                        <foreign xml:lang="de">Druck</foreign>
+                     </hi>.<lb/>
                      When they feel their oats they are so apt to become<lb/>
                      uppish.
                   </p>
                   <p>
-                     If I'd known,I'd have warned you about <rs type="org" ref="#amp_organization_24"><hi rend="underline"><unclear>T</unclear>he</hi><lb/>
-                     <hi rend="underline">National Review</hi></rs>. I once <rs type="lit_work" ref="#lit_work_id_96">reviewed</rs> a <rs type="person" ref="#amp_person_6">Charles Williams</rs><lb/>
+                     If I'd known,I'd have warned you about <rs type="org" ref="#amp_organization_24">
+                        <hi rend="underline">
+                           <unclear>T</unclear>he</hi>
+                        <lb/>
+                        <hi rend="underline">National Review</hi>
+                     </rs>. I once <rs type="lit_work" ref="#lit_work_id_96">reviewed</rs> a <rs type="person" ref="#amp_person_6">Charles Williams</rs>
+                     <lb/>
                      <rs type="lit_work" ref="#lit_work_id_95">book</rs> for them - never again. Of course <unclear>y</unclear>ou're right<lb/>
                      about the lib-labs ostrich attitude to those who<lb/>
                      wish to destroy them, but one cannot let one's name<lb/>
@@ -211,17 +252,23 @@ for any purpose, even commercially.</p>
                   <p>
                      Torture is the iniquity which utterly bewilders me.<lb/>
                      I know something about the evil in my own heart and<lb/>
-                     <del><gap reason="deleted"/></del><unclear>i</unclear>n the <unclear>s</unclear>o<unclear>r</unclear>t of people I <del>know</del>meet, but I cannot conceive of myself<lb/>
+                     <del>
+                        <gap reason="deleted"/>
+                     </del>
+                     <unclear>i</unclear>n the <unclear>s</unclear>o<unclear>r</unclear>t of people I <del>know</del>meet, but I cannot conceive of myself<lb/>
                      or them torturing anybody. Where do the torturers<lb/>
                      come from? What class? Whom do they marry?<lb/>
-                     <del>Have you ever met one<unclear>?</unclear></del> To what pubs do they go?
+                     <del>Have you ever met one<unclear>?</unclear>
+                     </del> To what pubs do they go?
                   </p>
                   <closer>
                      <salute>much love and best wishes for 1<unclear>9</unclear>65</salute>
-                     <signed><rs type="person" ref="#amp_person_1">Wystan</rs></signed>
+                     <signed>
+                        <rs type="person" ref="#amp_person_1">Wystan</rs>
+                     </signed>
                   </closer>
                </div>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0006/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0006/" type="sheet"/>
             </div>
          </div>
       </body>

@@ -1714,7 +1714,12 @@
         "value": "eng"
       }
     ],
-    "Inherit": []
+    "Inherit": [
+      {
+        "id": 46,
+        "value": "Resource"
+      }
+    ]
   },
   "92": {
     "id": 92,
@@ -1787,7 +1792,7 @@
   "94": {
     "id": 94,
     "order": "84.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/facs",
+    "Subject_uri": "auden-musulin-papers/facsimiles",
     "Class": [
       {
         "id": 12,
@@ -1804,7 +1809,7 @@
     "Object_uri_places": [],
     "Object_uri_organizations": [],
     "Object_uri_resource": [],
-    "Literal": "Facsimiles (Highest Resolution)",
+    "Literal": "Facsimiles",
     "Language": "en",
     "Date": null,
     "Number": null,
@@ -1814,7 +1819,7 @@
   "95": {
     "id": 95,
     "order": "85.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/facs",
+    "Subject_uri": "auden-musulin-papers/facsimiles",
     "Class": [
       {
         "id": 12,
@@ -1831,7 +1836,7 @@
     "Object_uri_places": [],
     "Object_uri_organizations": [],
     "Object_uri_resource": [],
-    "Literal": "Highest-resolution digital facsimiles of the Auden Musulin Papers: digital images of the letters and literary papers sent by British-American poet W. H. Auden to Welsh-Austrian writer Stella Musulin in the period 1960-1973; private photographs of W. H. Auden and Chester Kallman; correspondence and papers related to Stella Musulin's biographical work on W. H. Auden; Stella Musulin's Auden memoirs \"In Retrospect\" and \"The Years in Austria\".",
+    "Literal": "Digital facsimiles of the Auden Musulin Papers: digital images of the letters and literary papers sent by British-American poet W. H. Auden to Welsh-Austrian writer Stella Musulin in the period 1960-1973; private photographs of W. H. Auden and Chester Kallman; correspondence and papers related to Stella Musulin's biographical work on W. H. Auden; Stella Musulin's Auden memoirs \"In Retrospect\" and \"The Years in Austria\".",
     "Language": "en",
     "Date": null,
     "Number": null,
@@ -1868,7 +1873,7 @@
   "97": {
     "id": 97,
     "order": "87.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/facs",
+    "Subject_uri": "auden-musulin-papers/facsimiles",
     "Class": [
       {
         "id": 12,
@@ -1885,7 +1890,7 @@
     "Object_uri_places": [],
     "Object_uri_organizations": [],
     "Object_uri_resource": [],
-    "Literal": "digital edition, Auden, Musulin, letters, facsimile, photograph, high-resolution",
+    "Literal": "digital edition, Auden, Musulin, letters, facsimile",
     "Language": "en",
     "Date": null,
     "Number": null,
@@ -1895,7 +1900,7 @@
   "98": {
     "id": 98,
     "order": "88.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/facs",
+    "Subject_uri": "auden-musulin-papers/facsimiles",
     "Class": [
       {
         "id": 12,
@@ -1922,7 +1927,7 @@
   "99": {
     "id": 99,
     "order": "89.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/facs",
+    "Subject_uri": "auden-musulin-papers/facsimiles",
     "Class": [
       {
         "id": 12,
@@ -1954,7 +1959,7 @@
   "100": {
     "id": 100,
     "order": "90.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/web-img",
+    "Subject_uri": "auden-musulin-papers/photos",
     "Class": [
       {
         "id": 12,
@@ -1971,7 +1976,7 @@
     "Object_uri_places": [],
     "Object_uri_organizations": [],
     "Object_uri_resource": [],
-    "Literal": "Facsimiles (Lower-Resolution Web Images)",
+    "Literal": "Photos",
     "Language": "en",
     "Date": null,
     "Number": null,
@@ -1981,7 +1986,7 @@
   "101": {
     "id": 101,
     "order": "91.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/web-img",
+    "Subject_uri": "auden-musulin-papers/photos",
     "Class": [
       {
         "id": 12,
@@ -1998,7 +2003,7 @@
     "Object_uri_places": [],
     "Object_uri_organizations": [],
     "Object_uri_resource": [],
-    "Literal": "Lower-resolution digital facsimiles of the Auden Musulin Papers intended for web display: digital images of the letters and literary papers sent by British-American poet W. H. Auden to Welsh-Austrian writer Stella Musulin in the period 1960-1973; private photographs of W. H. Auden and Chester Kallman; correspondence and papers related to Stella Musulin's biographical work on W. H. Auden; Stella Musulin's Auden memoirs \"In Retrospect\" and \"The Years in Austria\".",
+    "Literal": "Digital Scans of Photos and Images: Private photographs of W. H. Auden and Chester Kallman.",
     "Language": "en",
     "Date": null,
     "Number": null,
@@ -2008,7 +2013,7 @@
   "102": {
     "id": 102,
     "order": "92.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/web-img",
+    "Subject_uri": "auden-musulin-papers/photos",
     "Class": [
       {
         "id": 12,
@@ -2025,7 +2030,7 @@
     "Object_uri_places": [],
     "Object_uri_organizations": [],
     "Object_uri_resource": [],
-    "Literal": "digital edition, Auden, Musulin, letters, facsimile, photograph, low-resolution",
+    "Literal": "digital edition, Auden, Musulin, letters, photograph",
     "Language": "en",
     "Date": null,
     "Number": null,
@@ -2035,7 +2040,7 @@
   "103": {
     "id": 103,
     "order": "93.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/web-img",
+    "Subject_uri": "auden-musulin-papers/photos",
     "Class": [
       {
         "id": 12,
@@ -2062,7 +2067,7 @@
   "104": {
     "id": 104,
     "order": "94.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/web-img",
+    "Subject_uri": "auden-musulin-papers/photos",
     "Class": [
       {
         "id": 12,
@@ -2094,7 +2099,7 @@
   "106": {
     "id": 106,
     "order": "95.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/web-img",
+    "Subject_uri": "auden-musulin-papers/photos",
     "Class": [
       {
         "id": 12,
@@ -2143,7 +2148,7 @@
   "107": {
     "id": 107,
     "order": "96.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/facs",
+    "Subject_uri": "auden-musulin-papers/facsimiles",
     "Class": [
       {
         "id": 12,
@@ -2192,7 +2197,7 @@
   "108": {
     "id": 108,
     "order": "97.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/web-img",
+    "Subject_uri": "auden-musulin-papers/photos",
     "Class": [
       {
         "id": 12,
@@ -2246,7 +2251,7 @@
   "109": {
     "id": 109,
     "order": "98.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/facs",
+    "Subject_uri": "auden-musulin-papers/facsimiles",
     "Class": [
       {
         "id": 12,
@@ -2300,7 +2305,7 @@
   "110": {
     "id": 110,
     "order": "99.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/facs",
+    "Subject_uri": "auden-musulin-papers/facsimiles",
     "Class": [
       {
         "id": 12,
@@ -2321,10 +2326,6 @@
     ],
     "Object_uri_places": [],
     "Object_uri_organizations": [
-      {
-        "id": 14,
-        "value": "Austrian Press Agency"
-      },
       {
         "id": 16,
         "value": "Carl Van Vechten Estate"
@@ -2350,7 +2351,7 @@
   "111": {
     "id": 111,
     "order": "100.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/web-img",
+    "Subject_uri": "auden-musulin-papers/photos",
     "Class": [
       {
         "id": 12,
@@ -2400,7 +2401,7 @@
   "112": {
     "id": 112,
     "order": "101.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/facs",
+    "Subject_uri": "auden-musulin-papers/facsimiles",
     "Class": [
       {
         "id": 12,
@@ -2442,10 +2443,6 @@
     "Object_uri_places": [],
     "Object_uri_organizations": [
       {
-        "id": 14,
-        "value": "Austrian Press Agency"
-      },
-      {
         "id": 17,
         "value": "Austrian Academy of Sciences"
       },
@@ -2478,7 +2475,7 @@
   "113": {
     "id": 113,
     "order": "102.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/web-img",
+    "Subject_uri": "auden-musulin-papers/photos",
     "Class": [
       {
         "id": 12,
@@ -3205,7 +3202,7 @@
   "136": {
     "id": 136,
     "order": "125.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/web-img",
+    "Subject_uri": "auden-musulin-papers/photos",
     "Class": [
       {
         "id": 12,
@@ -3242,7 +3239,7 @@
   "137": {
     "id": 137,
     "order": "126.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/facs",
+    "Subject_uri": "auden-musulin-papers/facsimiles",
     "Class": [
       {
         "id": 12,
@@ -3327,7 +3324,7 @@
   "139": {
     "id": 139,
     "order": "128.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/web-img",
+    "Subject_uri": "auden-musulin-papers/photos",
     "Class": [
       {
         "id": 12,
@@ -3380,7 +3377,7 @@
   "140": {
     "id": 140,
     "order": "129.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/facs",
+    "Subject_uri": "auden-musulin-papers/facsimiles",
     "Class": [
       {
         "id": 12,
@@ -3433,7 +3430,7 @@
   "141": {
     "id": 141,
     "order": "130.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/web-img",
+    "Subject_uri": "auden-musulin-papers/photos",
     "Class": [
       {
         "id": 12,
@@ -3482,7 +3479,7 @@
   "142": {
     "id": 142,
     "order": "131.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/facs",
+    "Subject_uri": "auden-musulin-papers/facsimiles",
     "Class": [
       {
         "id": 12,
@@ -3580,7 +3577,7 @@
   "144": {
     "id": 144,
     "order": "133.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/web-img",
+    "Subject_uri": "auden-musulin-papers/photos",
     "Class": [
       {
         "id": 12,
@@ -3649,7 +3646,7 @@
   "148": {
     "id": 148,
     "order": "137.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/facs",
+    "Subject_uri": "auden-musulin-papers/facsimiles",
     "Class": [
       {
         "id": 12,
@@ -3758,7 +3755,7 @@
   "151": {
     "id": 151,
     "order": "140.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/web-img",
+    "Subject_uri": "auden-musulin-papers/photos",
     "Class": [
       {
         "id": 12,
@@ -3840,7 +3837,7 @@
   "153": {
     "id": 153,
     "order": "142.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/facs",
+    "Subject_uri": "auden-musulin-papers/facsimiles",
     "Class": [
       {
         "id": 12,
@@ -3991,7 +3988,7 @@
   "157": {
     "id": 157,
     "order": "146.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/facs",
+    "Subject_uri": "auden-musulin-papers/facsimiles",
     "Class": [
       {
         "id": 12,
@@ -4028,7 +4025,7 @@
   "158": {
     "id": 158,
     "order": "147.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/facs",
+    "Subject_uri": "auden-musulin-papers/facsimiles",
     "Class": [
       {
         "id": 12,
@@ -4065,7 +4062,7 @@
   "159": {
     "id": 159,
     "order": "148.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/web-img",
+    "Subject_uri": "auden-musulin-papers/photos",
     "Class": [
       {
         "id": 12,
@@ -4102,7 +4099,7 @@
   "160": {
     "id": 160,
     "order": "149.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/web-img",
+    "Subject_uri": "auden-musulin-papers/photos",
     "Class": [
       {
         "id": 12,
@@ -4135,5 +4132,307 @@
         "value": "Resource"
       }
     ]
+  },
+  "161": {
+    "id": 161,
+    "order": "150.00000000000000000000",
+    "Subject_uri": "auden-musulin-papers",
+    "Class": [
+      {
+        "id": 48,
+        "value": "TopCollection"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 4,
+        "value": "hasActor"
+      }
+    ],
+    "Object_uri_persons": [
+      {
+        "id": 33,
+        "value": "Auden, W. H."
+      },
+      {
+        "id": 43,
+        "value": "Mendelson, Eduard"
+      },
+      {
+        "id": 44,
+        "value": "Musulin, Janko"
+      },
+      {
+        "id": 45,
+        "value": "Musulin, Stella"
+      },
+      {
+        "id": 47,
+        "value": "O'Sullivan, Michael"
+      },
+      {
+        "id": 49,
+        "value": "Spiel, Hilde"
+      },
+      {
+        "id": 51,
+        "value": "Kraus, Wolfgang"
+      },
+      {
+        "id": 52,
+        "value": "Breicha, Otto"
+      },
+      {
+        "id": 54,
+        "value": "Blaha, Rudof"
+      },
+      {
+        "id": 55,
+        "value": "Musulin, Elsa"
+      }
+    ],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [
+      {
+        "id": 21,
+        "value": "Österreichische Gesellschaft für Literatur"
+      }
+    ],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "162": {
+    "id": 162,
+    "order": "151.00000000000000000000",
+    "Subject_uri": "auden-musulin-papers/edition",
+    "Class": [
+      {
+        "id": 12,
+        "value": "Collection"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 4,
+        "value": "hasActor"
+      }
+    ],
+    "Object_uri_persons": [
+      {
+        "id": 33,
+        "value": "Auden, W. H."
+      },
+      {
+        "id": 43,
+        "value": "Mendelson, Eduard"
+      },
+      {
+        "id": 44,
+        "value": "Musulin, Janko"
+      },
+      {
+        "id": 45,
+        "value": "Musulin, Stella"
+      },
+      {
+        "id": 47,
+        "value": "O'Sullivan, Michael"
+      },
+      {
+        "id": 49,
+        "value": "Spiel, Hilde"
+      },
+      {
+        "id": 51,
+        "value": "Kraus, Wolfgang"
+      },
+      {
+        "id": 52,
+        "value": "Breicha, Otto"
+      },
+      {
+        "id": 54,
+        "value": "Blaha, Rudof"
+      },
+      {
+        "id": 55,
+        "value": "Musulin, Elsa"
+      }
+    ],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [
+      {
+        "id": 21,
+        "value": "Österreichische Gesellschaft für Literatur"
+      }
+    ],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "163": {
+    "id": 163,
+    "order": "152.00000000000000000000",
+    "Subject_uri": "auden-musulin-papers/facsimiles",
+    "Class": [
+      {
+        "id": 12,
+        "value": "Collection"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 18,
+        "value": "hasLanguage"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [
+      {
+        "id": 3943,
+        "value": "deu"
+      },
+      {
+        "id": 4953,
+        "value": "eng"
+      }
+    ],
+    "Inherit": [
+      {
+        "id": 46,
+        "value": "Resource"
+      }
+    ]
+  },
+  "164": {
+    "id": 164,
+    "order": "153.00000000000000000000",
+    "Subject_uri": "auden-musulin-papers",
+    "Class": [
+      {
+        "id": 48,
+        "value": "TopCollection"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 119,
+        "value": "hasUrl"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "https://amp.acdh.oeaw.ac.at/",
+    "Language": "na",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "165": {
+    "id": 165,
+    "order": "154.00000000000000000000",
+    "Subject_uri": "auden-musulin-papers",
+    "Class": [
+      {
+        "id": 48,
+        "value": "TopCollection"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 30,
+        "value": "hasSpatialCoverage"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [
+      {
+        "id": 1,
+        "value": "Kirchstetten"
+      },
+      {
+        "id": 2,
+        "value": "Hinterholz 6"
+      },
+      {
+        "id": 3,
+        "value": "Neulinggasse 26"
+      },
+      {
+        "id": 4,
+        "value": "Vienna"
+      }
+    ],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "166": {
+    "id": 166,
+    "order": "155.00000000000000000000",
+    "Subject_uri": "",
+    "Class": [],
+    "Predicate_uri": [],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "167": {
+    "id": 167,
+    "order": "156.00000000000000000000",
+    "Subject_uri": "auden-musulin-papers",
+    "Class": [
+      {
+        "id": 48,
+        "value": "TopCollection"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 112,
+        "value": "hasTemporalCoverage"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "1959-1996",
+    "Language": "und",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
   }
 }

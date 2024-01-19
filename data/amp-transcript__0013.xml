@@ -1,13 +1,19 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0013.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="amp-transcript__0013.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</title>
-            <author>Auden, W. H.</author>
+            <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
             <editor>
-               <name>Mayer, Sandra</name>
-               <name>Frühwirth, Timo</name>
+               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
                <name>FWF Austrian Science Fund</name>
@@ -25,8 +31,14 @@
             <edition>AMP</edition>
             <respStmt>
                <resp>Transcription and commentary</resp>
-               <name>Mayer, Sandra</name>
-               <name>Frühwirth, Timo</name>
+               <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Schema, ODD/RNG</resp>
+               <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+               <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -44,7 +56,8 @@ for any purpose, even commercially.</p>
                </licence>
                <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
             </availability>
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C312-1</idno></publicationStmt>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C312-1</idno>
+         </publicationStmt>
          <seriesStmt>
             <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
          </seriesStmt>
@@ -61,7 +74,8 @@ for any purpose, even commercially.</p>
                      </msIdentifier>
                      <history>
                         <origin>
-                           <origDate notBefore-iso="1969-01-04T00:00:00-05:00" notAfter-iso="1969-01-04T23:59:59-05:00">1969-01-04</origDate>
+                           <origDate notBefore-iso="1969-01-04T00:00:00-05:00"
+                                     notAfter-iso="1969-01-04T23:59:59-05:00">1969-01-04</origDate>
                            <origPlace ref="#amp_place_id_29">77 St. Mark's Place</origPlace>
                         </origin>
                      </history>
@@ -79,12 +93,14 @@ for any purpose, even commercially.</p>
             <correspAction type="sent">
                <orgName ref="#amp_organization_85">United States General Post Office</orgName>
                <placeName ref="#amp_place_id_28">New York City</placeName>
-               <date notBefore-iso="1969-01-04T12:00:00-05:00" notAfter-iso="1969-01-04T23:59:59-05:00">1969-01-04T12:00:00-05:00/1969-01-04T23:59:59-05:00</date>
+               <date notBefore-iso="1969-01-04T12:00:00-05:00"
+                     notAfter-iso="1969-01-04T23:59:59-05:00">1969-01-04T12:00:00-05:00/1969-01-04T23:59:59-05:00</date>
             </correspAction>
             <correspAction type="transmitted">
                <orgName ref="#amp_organization_74">Hauptpostamt 1040 (main post office 1040)</orgName>
                <placeName ref="#amp_place_id_1">Vienna</placeName>
-               <date notBefore-iso="1969-01-07T11:00:01+01:00" notAfter-iso="1969-01-07T12:00:00+01:00">1969-01-07T11:00:01+01:00/1969-01-07T12:00:00+01:00</date>
+               <date notBefore-iso="1969-01-07T11:00:01+01:00"
+                     notAfter-iso="1969-01-07T12:00:00+01:00">1969-01-07T11:00:01+01:00/1969-01-07T12:00:00+01:00</date>
             </correspAction>
             <correspAction type="redirected">
                <orgName ref="#amp_organization_74">Hauptpostamt 1040 (main post office 1040)</orgName>
@@ -97,8 +113,12 @@ for any purpose, even commercially.</p>
             <correspContext>
                <ref type="belongsToCorrespondence" target="#amp_person_1">Auden, W. H.</ref>
                <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
-               <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0012.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</ref>
-               <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0014.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</ref>
+               <ref subtype="previous_letter"
+                    type="withinCollection"
+                    target="#amp-transcript__0012.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</ref>
+               <ref subtype="next_letter"
+                    type="withinCollection"
+                    target="#amp-transcript__0014.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</ref>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -130,12 +150,13 @@ for any purpose, even commercially.</p>
       <body>
          <div type="transcription" xml:id="transcription_amp_0013">
             <div type="envelope">
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0059/" type="envelope"/>    
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0059/" type="envelope"/>
                <ab>
                   <hi rend="underline">Air<unclear>∼</unclear>Mail</hi>
                </ab>
                <ab>
-                  <rs type="person" ref="#amp_person_1">W<unclear>.</unclear>H.Auden</rs><lb/>
+                  <rs type="person" ref="#amp_person_1">W<unclear>.</unclear>H.Auden</rs>
+                  <lb/>
                   <address>
                      <rs type="place" ref="#amp_place_id_29">77 St Mark's Place<lb/>
                      New York City<lb/>
@@ -148,11 +169,14 @@ for any purpose, even commercially.</p>
                </ab>
                <ab>
                   <rs type="person" ref="#amp_person_2">Die Baronin<lb/>
-                  Stella M<unclear>u</unclear>sulin</rs><lb/>
+                  Stella M<unclear>u</unclear>sulin</rs>
+                  <lb/>
                   <address>
-                     <rs type="place" ref="#amp_place_id_11">Wien <del>IV</del><lb/>
+                     <rs type="place" ref="#amp_place_id_11">Wien <del>IV</del>
+                        <lb/>
                      Neulinggasse 2<unclear>6</unclear>/14<lb/>
-                     Austria<unclear>,</unclear></rs>
+                     Austria<unclear>,</unclear>
+                     </rs>
                   </address>
                </ab>
                <ab>
@@ -160,16 +184,17 @@ for any purpose, even commercially.</p>
                      <rs type="place" ref="#amp_place_id_156">1030</rs>
                   </address>
                </ab>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0060/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0060/" type="envelope"/>
             </div>
             <div type="letter">
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0061/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0061/" type="sheet"/>
                <div type="letter_message">
                   <opener>
                      <dateline>
                         <placeName>
                            <address>
-                              <rs type="place" ref="#amp_place_id_29"><unclear>7</unclear>7 St Mark's Place<lb/>
+                              <rs type="place" ref="#amp_place_id_29">
+                                 <unclear>7</unclear>7 St Mark's Place<lb/>
                               New York City<lb/>
                               New Y<unclear>or</unclear>k 10003<lb/>
                               U.S.A.</rs>
@@ -185,13 +210,15 @@ for any purpose, even commercially.</p>
                   </opener>
                   <p>
                      Many thanks for your letter. I gather<lb/>
-                     that,in the end, <rs type="person" ref="#amp_person_4">Chester</rs> deci<unclear>de</unclear>d not t<unclear>o</unclear><lb/>
+                     that,in the end, <rs type="person" ref="#amp_person_4">Chester</rs> deci<unclear>de</unclear>d not t<unclear>o</unclear>
+                     <lb/>
                      go to <rs type="place" ref="#amp_place_id_1">Vienna</rs>.
                   </p>
                   <p>
                      Meanwhile, I am in despair about the<lb/>
                      practical matter of the whereabouts and<lb/>
-                     condition of the car<unclear>.</unclear> <unclear>N</unclear>o answer from <rs type="person" ref="#amp_person_21">Ho<unclear>l</unclear>fman</rs>.<lb/>
+                     condition of the car<unclear>.</unclear>
+                     <unclear>N</unclear>o answer from <rs type="person" ref="#amp_person_21">Ho<unclear>l</unclear>fman</rs>.<lb/>
                      Can he be dead, too<unclear>?</unclear> I shoul<unclear>d</unclear> be most<lb/>
                      grateful if you would call him or on h<unclear>i</unclear>m.<lb/>
                      to find out what is the matter. Among other<lb/>
@@ -200,12 +227,16 @@ for any purpose, even commercially.</p>
                      4/21</rs>. Tel. 93/88/155.
                   </p>
                   <p>
-                     I hear that my <rs type="person" ref="#amp_person_14">old lawyer</rs> <del><gap reason="deleted"/></del> is supervising<lb/>
+                     I hear that my <rs type="person" ref="#amp_person_14">old lawyer</rs>
+                     <del>
+                        <gap reason="deleted"/>
+                     </del> is supervising<lb/>
                      <rs type="event" ref="#amp_event_id_13">the case</rs> but have till now heard nothing from<lb/>
                      him. Again coul<unclear>d</unclear> you call hi<unclear>m</unclear> for me.
                   </p>
                   <p>
-                     <rs type="person" ref="#amp_person_14">Dr Walter Redlich</rs>. <rs type="place" ref="#amp_place_id_49">Wien <unclear>X</unclear>IX . Paradisgasse 55.</rs><lb/>
+                     <rs type="person" ref="#amp_person_14">Dr Walter Redlich</rs>. <rs type="place" ref="#amp_place_id_49">Wien <unclear>X</unclear>IX . Paradisgasse 55.</rs>
+                     <lb/>
                      Tel: 36/43/83.
                   </p>
                   <p>
@@ -218,11 +249,12 @@ for any purpose, even commercially.</p>
                         love
                      </salute>
                      <signed>
-                        <rs type="person" ref="#amp_person_1">Wystan</rs><unclear>-·</unclear>
+                        <rs type="person" ref="#amp_person_1">Wystan</rs>
+                        <unclear>-·</unclear>
                      </signed>
                   </closer>
                </div>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0062/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0062/" type="sheet"/>
             </div>
          </div>
       </body>

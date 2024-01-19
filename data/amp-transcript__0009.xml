@@ -1,13 +1,19 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0009.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xml:id="amp-transcript__0009.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</title>
-            <author>Auden, W. H.</author>
+            <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
             <editor>
-               <name>Mayer, Sandra</name>
-               <name>Frühwirth, Timo</name>
+               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
                <name>FWF Austrian Science Fund</name>
@@ -25,8 +31,14 @@
             <edition>AMP</edition>
             <respStmt>
                <resp>Transcription and commentary</resp>
-               <name>Mayer, Sandra</name>
-               <name>Frühwirth, Timo</name>
+               <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Schema, ODD/RNG</resp>
+               <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
+               <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -44,7 +56,8 @@ for any purpose, even commercially.</p>
                </licence>
                <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
             </availability>
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C30E-7</idno></publicationStmt>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C30E-7</idno>
+         </publicationStmt>
          <seriesStmt>
             <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
          </seriesStmt>
@@ -61,7 +74,8 @@ for any purpose, even commercially.</p>
                      </msIdentifier>
                      <history>
                         <origin>
-                           <origDate notBefore-iso="1968-10-15T00:00:00+01:00" notAfter-iso="1968-10-15T23:59:59+01:00">1968-10-15</origDate>
+                           <origDate notBefore-iso="1968-10-15T00:00:00+01:00"
+                                     notAfter-iso="1968-10-15T23:59:59+01:00">1968-10-15</origDate>
                            <origPlace ref="#amp_place_id_45">32 Bryanston Square</origPlace>
                         </origin>
                      </history>
@@ -79,7 +93,8 @@ for any purpose, even commercially.</p>
             <correspAction type="sent">
                <orgName ref="#amp_organization_82">London Western District Office</orgName>
                <placeName ref="#amp_place_id_56">London</placeName>
-               <date notBefore-iso="1968-10-15T13:15:01+01:00" notAfter-iso="1968-10-15T13:44:59+01:00">1968-10-15T13:15:01+01:00/1968-10-15T13:44:59+01:00</date>
+               <date notBefore-iso="1968-10-15T13:15:01+01:00"
+                     notAfter-iso="1968-10-15T13:44:59+01:00">1968-10-15T13:15:01+01:00/1968-10-15T13:44:59+01:00</date>
             </correspAction>
             <correspAction type="redirected">
                <placeName ref="#amp_place_id_1">Vienna</placeName>
@@ -91,8 +106,12 @@ for any purpose, even commercially.</p>
             <correspContext>
                <ref type="belongsToCorrespondence" target="#amp_person_1">Auden, W. H.</ref>
                <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
-               <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0008.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-12</ref>
-               <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0044.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</ref>
+               <ref subtype="previous_letter"
+                    type="withinCollection"
+                    target="#amp-transcript__0008.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-12</ref>
+               <ref subtype="next_letter"
+                    type="withinCollection"
+                    target="#amp-transcript__0044.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</ref>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -124,10 +143,12 @@ for any purpose, even commercially.</p>
       <body>
          <div type="transcription" xml:id="transcription_amp_0009">
             <div type="envelope">
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0043/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0043/" type="envelope"/>
                <ab>
-                  <rs type="person" ref="#amp_person_1">W<unclear>.</unclear>H<unclear>.</unclear>Auden</rs><lb/>
-                  ℅ <rs type="person" ref="#amp_person_19">Heyworth</rs><lb/>
+                  <rs type="person" ref="#amp_person_1">W<unclear>.</unclear>H<unclear>.</unclear>Auden</rs>
+                  <lb/>
+                  ℅ <rs type="person" ref="#amp_person_19">Heyworth</rs>
+                  <lb/>
                   <address>
                      <rs type="place" ref="#amp_place_id_45">32 Bryanston Square<lb/>
                      London. W.I.<lb/>
@@ -135,11 +156,15 @@ for any purpose, even commercially.</p>
                   </address>
                </ab>
                <ab>
-                  <del><gap reason="deleted"/></del>A<hi rend="underline">ir-M<unclear>ail</unclear></hi>
+                  <del>
+                     <gap reason="deleted"/>
+                  </del>A<hi rend="underline">ir-M<unclear>ail</unclear>
+                  </hi>
                </ab>
                <ab>
                   <rs type="person" ref="#amp_person_2">Die Baronin<lb/>
-                  Stella Musulin</rs><lb/>
+                  Stella Musulin</rs>
+                  <lb/>
                   <address>
                      <rs type="place" ref="#amp_place_id_11">Wien <del>IV</del>III<lb/>
                      Neulinggasse 26<lb/>
@@ -149,17 +174,18 @@ for any purpose, even commercially.</p>
                <ab>
                   Re <rs type="person" ref="#amp_person_155 #amp_person_171">Czech refugees</rs> .
                </ab>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0044/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0044/" type="envelope"/>
             </div>
             <div type="letter">
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0045/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0045/" type="sheet"/>
                <div type="letter_message">
                   <opener>
                      <dateline>
                         <placeName>
                            <seg hand="#printed">
                               <address>
-                                 <addrLine>℅ <rs type="person" ref="#amp_person_19">Heyworth</rs></addrLine>
+                                 <addrLine>℅ <rs type="person" ref="#amp_person_19">Heyworth</rs>
+                                 </addrLine>
                                  <rs type="place" ref="#amp_place_id_45">32 BRYANSTON SQUARE <space quantity="1" unit="char"/>LONDON W1 · AMBASSADOR 8906</rs>
                               </address>
                            </seg>
@@ -180,7 +206,8 @@ for any purpose, even commercially.</p>
                      <seg>
                         1) I think I ought to take the <rs type="person" ref="#amp_person_155 #amp_person_171">couple</rs> in , but<lb/>
                         I must leave it to you to decide whether<lb/>
-                        they are O.K. If they are , <rs type="place" ref="#amp_place_id_2">all rooms</rs>, includi<unclear>ng</unclear><lb/>
+                        they are O.K. If they are , <rs type="place" ref="#amp_place_id_2">all rooms</rs>, includi<unclear>ng</unclear>
+                        <lb/>
                         my study ( which can't be heated are open to them<unclear>.</unclear>
                      </seg>
                      <seg>
@@ -196,7 +223,8 @@ for any purpose, even commercially.</p>
                               Wien VII<lb/>
                               Karl Schweighofgasse<lb/>
                               4/21
-                           </rs><lb/>
+                           </rs>
+                           <lb/>
                            Tel. 93/88/155.
                         </seg>
                      </seg>
@@ -208,7 +236,8 @@ for any purpose, even commercially.</p>
                      <seg>
                         4) I'm worried about how they will get gas-cylinders<lb/>
                         for cooking from <rs type="place" ref="#amp_place_id_47">Neulengbach</rs> ,since, presumably <unclear>.</unclear> they<lb/>
-                        have no car. I expect someone in the <rs type="place" ref="#amp_place_id_5">village</rs><lb/>
+                        have no car. I expect someone in the <rs type="place" ref="#amp_place_id_5">village</rs>
+                        <lb/>
                         will help.
                      </seg>
                      <seg>
@@ -230,7 +259,7 @@ for any purpose, even commercially.</p>
                      </signed>
                   </closer>
                </div>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0046/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0046/" type="sheet"/>
             </div>
          </div>
       </body>
