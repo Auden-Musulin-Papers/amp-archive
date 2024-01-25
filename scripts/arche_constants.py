@@ -230,6 +230,8 @@ def create_resource_triples(
     id_suffix: str = "",
     id_as_title: bool = False,
     id_as_title_prefix: str = "",
+    id_as_filename: bool = False,
+    createTitle_xpaths: str = None,
     custom_lang: str = "en",
     init: bool = False,
     xpaths: dict = None,
@@ -264,7 +266,41 @@ def create_resource_triples(
                                 g,
                                 subject=subject_uri,
                                 predicate=ARCHE["hasTitle"],
-                                object=Literal(f'{id_as_title_prefix} {resource_id}'.strip(), lang="en")
+                                object=Literal(f'{id_as_title_prefix} {resource_id}'.strip(), lang=custom_lang)
+                            )
+                        if id_as_filename:
+                            create_custom_triple(
+                                g,
+                                subject=subject_uri,
+                                predicate=ARCHE["hasFilename"],
+                                object=Literal(f"{resource_id}{id_suffix}".strip())
+                            )
+                        if isinstance(createTitle_xpaths, str) and len(createTitle_xpaths) != 0:
+                            titleparts = createTitle_xpaths.split("|")
+                            title = []
+                            for part in titleparts:
+                                attr = ""
+                                if "__@" in part:
+                                    try:
+                                        attr = part.split("__")[-1]
+                                    except IndexError:
+                                        attr = ""
+                                    part = part.split("__@")[0]
+                                part_xpath = f"{part}[@facs='{x}']/{attr}"
+                                titlepart = doc.any_xpath(part_xpath)
+                                if isinstance(titlepart, list) and len(titlepart) > 0:
+                                    titlepart = titlepart[0]
+                                elif isinstance(titlepart, str) and len(titlepart) > 0:
+                                    titlepart = titlepart
+                                else:
+                                    titlepart = ""
+                                title.append(titlepart)
+                            create_custom_triple(
+                                g,
+                                subject=subject_uri,
+                                predicate=ARCHE["hasTitle"],
+                                object=Literal(f"{' '.join(title)} file {resource_id}".strip().capitalize(),
+                                               lang=custom_lang)
                             )
                     else:
                         get_entity_uri(
@@ -338,6 +374,8 @@ if isinstance(LATEST_RELEASE, str) and len(LATEST_RELEASE) > 0:
                 id_suffix=verify_config_keys("id_suffix", ""),
                 id_as_title=verify_config_keys("id_as_title", False),
                 id_as_title_prefix=verify_config_keys("id_as_title_prefix", ""),
+                id_as_filename=verify_config_keys("id_as_filename", False),
+                createTitle_xpaths=verify_config_keys("createTitle_xpaths", None),
                 custom_lang=verify_config_keys("custom_lang", "en"),
                 init=True,
                 xpaths=verify_config_keys("xpaths", None),
@@ -429,6 +467,8 @@ for meta in tqdm(metadata.values(), total=len(metadata)):
                                 id_suffix=verify_config_keys("id_suffix", ""),
                                 id_as_title=verify_config_keys("id_as_title", ""),
                                 id_as_title_prefix=verify_config_keys("id_as_title_prefix", ""),
+                                id_as_filename=verify_config_keys("id_as_filename", False),
+                                createTitle_xpaths=verify_config_keys("createTitle_xpaths", None),
                                 custom_lang=verify_config_keys("custom_lang", "en")
                             )
                         except KeyError:

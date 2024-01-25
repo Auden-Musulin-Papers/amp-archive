@@ -30,8 +30,8 @@
   "12": {
     "id": 12,
     "order": "12.00000000000000000000",
-    "Name": "Austrian Centre for Digital Humanities an Cultural Hertage",
-    "Literal": "Austrian Centre for Digital Humanities an Cultural Hertage",
+    "Name": "Austrian Centre for Digital Humanities and Cultural Heritage",
+    "Literal": "Austrian Centre for Digital Humanities and Cultural Heritage",
     "Language": "en",
     "Predicate_uri": [
       {
@@ -86,8 +86,8 @@
   "16": {
     "id": 16,
     "order": "16.00000000000000000000",
-    "Name": "Carl Van Vechten Estate",
-    "Literal": "Carl Van Vechten Estate",
+    "Name": "The Carl Van Vechten Trust",
+    "Literal": "The Carl Van Vechten Trust",
     "Language": "en",
     "Predicate_uri": [
       {

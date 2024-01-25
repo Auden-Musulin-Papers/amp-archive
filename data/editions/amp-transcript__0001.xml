@@ -153,7 +153,7 @@ for any purpose, even commercially.</p>
       <body>
          <div type="transcription" xml:id="transcription_amp_0001" xml:lang="en">
             <div type="envelope">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0001/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0001/" type="envelope" ed="1"/>
                <ab>
                   <rs type="person" ref="#amp_person_4">
                      <unclear>Ch</unclear>ester</rs> in <rs type="place" ref="#amp_place_id_14">Florence</rs>
@@ -179,7 +179,7 @@ for any purpose, even commercially.</p>
                      NÖ</rs>
                   </address>
                </ab>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0002/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0002/" type="envelope" ed="2"/>
                <ab>
                   <rs type="person" ref="#amp_person_1">W.H.Auden</rs>
                   <unclear>,</unclear>
@@ -194,7 +194,7 @@ for any purpose, even commercially.</p>
                </ab>
             </div>
             <div type="letter">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0003/" type="letter"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0003/" type="letter" ed="3"/>
                <div type="letter_message">
                   <opener>
                      <dateline>
@@ -237,7 +237,7 @@ for any purpose, even commercially.</p>
                      </signed>
                   </closer>
                </div>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0004/" type="letter"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0004/" type="letter" ed="4"/>
             </div>
          </div>
       </body>

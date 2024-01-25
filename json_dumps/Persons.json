@@ -22,7 +22,7 @@
     "Object_uri_organizations": [
       {
         "id": 12,
-        "value": "Austrian Centre for Digital Humanities an Cultural Hertage"
+        "value": "Austrian Centre for Digital Humanities and Cultural Heritage"
       }
     ],
     "Language": "",
@@ -37,7 +37,7 @@
   "22": {
     "id": 22,
     "order": "20.00000000000000000000",
-    "Name": "Burns, Eduard M.",
+    "Name": "Burns, Edward M.",
     "Literal": "Dr.",
     "Object_uri_organizations": [],
     "Language": "na",
@@ -72,7 +72,7 @@
     "Object_uri_organizations": [
       {
         "id": 12,
-        "value": "Austrian Centre for Digital Humanities an Cultural Hertage"
+        "value": "Austrian Centre for Digital Humanities and Cultural Heritage"
       }
     ],
     "Language": "",
@@ -107,7 +107,7 @@
     "Object_uri_organizations": [
       {
         "id": 12,
-        "value": "Austrian Centre for Digital Humanities an Cultural Hertage"
+        "value": "Austrian Centre for Digital Humanities and Cultural Heritage"
       }
     ],
     "Language": "",
@@ -142,7 +142,7 @@
     "Object_uri_organizations": [
       {
         "id": 12,
-        "value": "Austrian Centre for Digital Humanities an Cultural Hertage"
+        "value": "Austrian Centre for Digital Humanities and Cultural Heritage"
       }
     ],
     "Language": "",
@@ -177,7 +177,7 @@
     "Object_uri_organizations": [
       {
         "id": 12,
-        "value": "Austrian Centre for Digital Humanities an Cultural Hertage"
+        "value": "Austrian Centre for Digital Humanities and Cultural Heritage"
       }
     ],
     "Language": "",
@@ -237,8 +237,8 @@
   "35": {
     "id": 35,
     "order": "33.00000000000000000000",
-    "Name": "Burns, Eduard M.",
-    "Literal": "Burns, Eduard M.",
+    "Name": "Burns, Edward M.",
+    "Literal": "Burns, Edward M.",
     "Object_uri_organizations": [],
     "Language": "und",
     "Predicate_uri": [
@@ -357,8 +357,8 @@
   "43": {
     "id": 43,
     "order": "41.00000000000000000000",
-    "Name": "Mendelson, Eduard",
-    "Literal": "Mendelson, Eduard",
+    "Name": "Mendelson, Edward",
+    "Literal": "Mendelson, Edward",
     "Object_uri_organizations": [],
     "Language": "und",
     "Predicate_uri": [

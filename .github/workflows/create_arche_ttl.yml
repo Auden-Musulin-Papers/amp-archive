@@ -28,6 +28,21 @@ on:
         description: '(Optional) Primary File Format as string'
         required: false
         default: 'xml'
+      resource_files_url_2:
+        type: string
+        description: '(Optional) Latest Release of Additional Resource Files as URL'
+        required: false
+        default: ''
+      secondary_data_directory:
+        type: string
+        description: '(Optional) Secondary Data Directory Path as string'
+        required: false
+        default: ''
+      secondary_file_format:
+        type: string
+        description: '(Optional) Secondary File Format as string'
+        required: false
+        default: 'xml'
       
 
 jobs:
@@ -38,6 +53,9 @@ jobs:
       PRIMARY_FILE_FORMAT: ${{ github.event.inputs.primary_file_format }}
       LATEST_RELEASE: ${{ github.event.inputs.resource_files_url }}
       PRIMARY_DATA_DIRECTORY: ${{ github.event.inputs.primary_data_directory }}
+      ADDITIONAL_FILE_FORMAT: ${{ github.event.inputs.secondary_file_format }}
+      ADDITIONAL_RESOURCES: ${{ github.event.inputs.resource_files_url_2 }}
+      ADDITIONAL_DATA_DIRECTORY: ${{ github.event.inputs.secondary_data_directory }}
       PROJECT_NAME: ${{ github.event.inputs.project_name }}
       BASEROW_TOKEN: ${{ secrets.BASEROW_TOKEN }}
       BASEROW_DB_ID: ${{ github.event.inputs.database_id }}
