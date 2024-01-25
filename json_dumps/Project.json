@@ -2140,6 +2140,10 @@
     "Object_uri_vocabs": [],
     "Inherit": [
       {
+        "id": 12,
+        "value": "Collection"
+      },
+      {
         "id": 46,
         "value": "Resource"
       }
@@ -2188,6 +2192,10 @@
     "Number": null,
     "Object_uri_vocabs": [],
     "Inherit": [
+      {
+        "id": 12,
+        "value": "Collection"
+      },
       {
         "id": 46,
         "value": "Resource"
@@ -2243,6 +2251,10 @@
     "Object_uri_vocabs": [],
     "Inherit": [
       {
+        "id": 12,
+        "value": "Collection"
+      },
+      {
         "id": 46,
         "value": "Resource"
       }
@@ -2297,6 +2309,10 @@
     "Object_uri_vocabs": [],
     "Inherit": [
       {
+        "id": 12,
+        "value": "Collection"
+      },
+      {
         "id": 46,
         "value": "Resource"
       }
@@ -2342,6 +2358,10 @@
     "Number": null,
     "Object_uri_vocabs": [],
     "Inherit": [
+      {
+        "id": 12,
+        "value": "Collection"
+      },
       {
         "id": 46,
         "value": "Resource"
@@ -2392,6 +2412,10 @@
     "Number": null,
     "Object_uri_vocabs": [],
     "Inherit": [
+      {
+        "id": 12,
+        "value": "Collection"
+      },
       {
         "id": 46,
         "value": "Resource"
@@ -2466,6 +2490,10 @@
     "Number": null,
     "Object_uri_vocabs": [],
     "Inherit": [
+      {
+        "id": 12,
+        "value": "Collection"
+      },
       {
         "id": 46,
         "value": "Resource"
@@ -2544,6 +2572,10 @@
     "Number": null,
     "Object_uri_vocabs": [],
     "Inherit": [
+      {
+        "id": 12,
+        "value": "Collection"
+      },
       {
         "id": 46,
         "value": "Resource"
@@ -3257,6 +3289,10 @@
     ],
     "Inherit": [
       {
+        "id": 12,
+        "value": "Collection"
+      },
+      {
         "id": 46,
         "value": "Resource"
       }
@@ -3293,6 +3329,10 @@
       }
     ],
     "Inherit": [
+      {
+        "id": 12,
+        "value": "Collection"
+      },
       {
         "id": 46,
         "value": "Resource"
@@ -3395,6 +3435,10 @@
     ],
     "Inherit": [
       {
+        "id": 12,
+        "value": "Collection"
+      },
+      {
         "id": 46,
         "value": "Resource"
       }
@@ -3448,6 +3492,10 @@
     ],
     "Inherit": [
       {
+        "id": 12,
+        "value": "Collection"
+      },
+      {
         "id": 46,
         "value": "Resource"
       }
@@ -3497,6 +3545,10 @@
     "Object_uri_vocabs": [],
     "Inherit": [
       {
+        "id": 12,
+        "value": "Collection"
+      },
+      {
         "id": 46,
         "value": "Resource"
       }
@@ -3545,6 +3597,10 @@
     "Number": null,
     "Object_uri_vocabs": [],
     "Inherit": [
+      {
+        "id": 12,
+        "value": "Collection"
+      },
       {
         "id": 46,
         "value": "Resource"
@@ -3632,6 +3688,10 @@
     "Object_uri_vocabs": [],
     "Inherit": [
       {
+        "id": 12,
+        "value": "Collection"
+      },
+      {
         "id": 46,
         "value": "Resource"
       }
@@ -3700,6 +3760,10 @@
     "Number": null,
     "Object_uri_vocabs": [],
     "Inherit": [
+      {
+        "id": 12,
+        "value": "Collection"
+      },
       {
         "id": 46,
         "value": "Resource"
@@ -3772,7 +3836,16 @@
     "Date": null,
     "Number": null,
     "Object_uri_vocabs": [],
-    "Inherit": []
+    "Inherit": [
+      {
+        "id": 12,
+        "value": "Collection"
+      },
+      {
+        "id": 46,
+        "value": "Resource"
+      }
+    ]
   },
   "151": {
     "id": 151,
@@ -3809,6 +3882,10 @@
     "Number": null,
     "Object_uri_vocabs": [],
     "Inherit": [
+      {
+        "id": 12,
+        "value": "Collection"
+      },
       {
         "id": 46,
         "value": "Resource"
@@ -3891,6 +3968,10 @@
     "Number": null,
     "Object_uri_vocabs": [],
     "Inherit": [
+      {
+        "id": 12,
+        "value": "Collection"
+      },
       {
         "id": 46,
         "value": "Resource"
@@ -4037,12 +4118,7 @@
         "value": "cc-by-4-0"
       }
     ],
-    "Inherit": [
-      {
-        "id": 46,
-        "value": "Resource"
-      }
-    ]
+    "Inherit": []
   },
   "158": {
     "id": 158,
@@ -4075,6 +4151,10 @@
     "Number": null,
     "Object_uri_vocabs": [],
     "Inherit": [
+      {
+        "id": 12,
+        "value": "Collection"
+      },
       {
         "id": 46,
         "value": "Resource"
@@ -4342,6 +4422,10 @@
       }
     ],
     "Inherit": [
+      {
+        "id": 12,
+        "value": "Collection"
+      },
       {
         "id": 46,
         "value": "Resource"
@@ -5068,6 +5152,38 @@
     "Date": null,
     "Number": null,
     "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "189": {
+    "id": 189,
+    "order": "175.00000000000000000000",
+    "Subject_uri": "auden-musulin-papers/photos",
+    "Class": [
+      {
+        "id": 12,
+        "value": "Collection"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 19,
+        "value": "hasLicense"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [
+      {
+        "id": 73,
+        "value": "cc-by-4-0"
+      }
+    ],
     "Inherit": []
   }
 }

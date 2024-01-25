@@ -2,7 +2,7 @@ import json
 import re
 import glob
 import os
-from config import USER_CONFIG, PROJECT_NAME, LATEST_RELEASE, PRMARY_FILE_FORMAT
+from config import USER_CONFIG, PROJECT_NAME, LATEST_RELEASE, PRMARY_FILE_FORMAT, custom_function
 from acdh_tei_pyutils.tei import TeiReader
 from tqdm import tqdm
 from acdh_graph_pyutils.graph import (
@@ -154,18 +154,24 @@ def get_resource_triple_from_xpath(
     doc: TeiReader,
     subject_uri: URIRef,
     xpaths: dict,
-    custom_lang: str = "en"
+    custom_lang: str = "en",
+    title_prefix: str = ""
 ) -> None:
     print("Getting triples from xpath.")
     if isinstance(xpaths, dict) and len(xpaths) > 0:
         for key, value in xpaths.items():
             lang = custom_lang
             prefix = ""
+            custom_suffix = ""
             if "__nolang" in key:
                 key = key.replace("__nolang", "")
                 lang = "na"
             if "__prefix" in key:
                 key = key.replace("__prefix", "")
+                prefix = f"https://id.acdh.oeaw.ac.at/{COLLECTION_NAME}/"
+            if "__custom-suffix" in key:
+                custom_suffix = key.replace("__custom-suffix", "").split("__")[-1]
+                key = key.replace("__custom-suffix", "").split("__")[0]
                 prefix = f"https://id.acdh.oeaw.ac.at/{COLLECTION_NAME}/"
             predicate_uri = URIRef(ARCHE[key])
             object_uri = doc.any_xpath(value)
@@ -183,17 +189,19 @@ def get_resource_triple_from_xpath(
                             literal_lang=lang
                         )
                     elif f"{prefix}{obj_text}".startswith("http"):
+                        if isinstance(custom_suffix, str) and len(custom_suffix) > 0:
+                            obj_text = obj_text.replace(".xml", "")
                         create_custom_triple(
                             g,
                             subject=subject_uri,
                             predicate=predicate_uri,
-                            object=URIRef(f"{prefix}{obj_text}")
+                            object=URIRef(f"{prefix}{obj_text}{custom_suffix}")
                         )
                     else:
                         get_literal(
                             subject_uri=subject_uri,
                             predicate_uri=predicate_uri,
-                            literal=f"{prefix}{obj_text}",
+                            literal=f"{title_prefix} {prefix}{obj_text}",
                             literal_lang=lang
                         )
     return print("Triples from xpaths created.")
@@ -231,12 +239,13 @@ def create_resource_triples(
     id_as_title: bool = False,
     id_as_title_prefix: str = "",
     id_as_filename: bool = False,
-    createTitle_xpaths: str = None,
+    custom_def: bool = False,
     custom_lang: str = "en",
     init: bool = False,
     xpaths: dict = None,
     static_values: dict = None,
-    vocabs_lookup: dict = None
+    vocabs_lookup: dict = None,
+    inherit_class: str = None
 ) -> None:
     """
     Create an URIRef from a string.
@@ -255,11 +264,16 @@ def create_resource_triples(
                 elif resource_id.startswith("http") and not resource_id.endswith("/"):
                     resource_id = resource_id.split("/")[-1]
                 if len(resource_id) != 0:
-                    item_id = f'{arche_id}{COLLECTION_NAME}/{resource_id}{id_suffix}'
+                    if isinstance(inherit_class, str) and len(inherit_class) > 0:
+                        if inherit_class == "Collection":
+                            item_id = f'{arche_id}{COLLECTION_NAME}/{resource_id.replace(".xml", "")}{id_suffix}'
+                        else:
+                            item_id = f'{arche_id}{COLLECTION_NAME}/{resource_id}{id_suffix}'
+                    else:
+                        item_id = f'{arche_id}{COLLECTION_NAME}/{resource_id}{id_suffix}'
                     subject_uri = URIRef(item_id)
                     if init:
-                        create_type_triple(g, subject_uri, ARCHE["Resource"])
-                        get_resource_triple_from_xpath(doc, subject_uri, xpaths, custom_lang)
+                        get_resource_triple_from_xpath(doc, subject_uri, xpaths, custom_lang, id_as_title_prefix)
                         create_static_resource_triples(subject_uri, static_values)
                         if id_as_title:
                             create_custom_triple(
@@ -275,34 +289,23 @@ def create_resource_triples(
                                 predicate=ARCHE["hasFilename"],
                                 object=Literal(f"{resource_id}{id_suffix}".strip())
                             )
-                        if isinstance(createTitle_xpaths, str) and len(createTitle_xpaths) != 0:
-                            titleparts = createTitle_xpaths.split("|")
-                            title = []
-                            for part in titleparts:
-                                attr = ""
-                                if "__@" in part:
-                                    try:
-                                        attr = part.split("__")[-1]
-                                    except IndexError:
-                                        attr = ""
-                                    part = part.split("__@")[0]
-                                part_xpath = f"{part}[@facs='{x}']/{attr}"
-                                titlepart = doc.any_xpath(part_xpath)
-                                if isinstance(titlepart, list) and len(titlepart) > 0:
-                                    titlepart = titlepart[0]
-                                elif isinstance(titlepart, str) and len(titlepart) > 0:
-                                    titlepart = titlepart
-                                else:
-                                    titlepart = ""
-                                title.append(titlepart)
-                            create_custom_triple(
-                                g,
-                                subject=subject_uri,
-                                predicate=ARCHE["hasTitle"],
-                                object=Literal(f"{' '.join(title)} file {resource_id}".strip().capitalize(),
-                                               lang=custom_lang)
+                        if custom_def:
+                            print("custom function called")
+                            custom_uris = custom_function(
+                                subject_uri=subject_uri,
+                                doc=doc,
                             )
+                            for key, value in custom_uris.items():
+                                print(key, value)
+                                create_custom_triple(
+                                    g,
+                                    subject=subject_uri,
+                                    predicate=URIRef(ARCHE[key]),
+                                    object=Literal(value, lang=custom_lang)
+                                )
                     else:
+                        if isinstance(inherit_class, str) and len(inherit_class) > 0:
+                            create_type_triple(g, subject_uri, ARCHE[inherit_class])
                         get_entity_uri(
                             subject_uri=subject_uri,
                             predicate_uri=predicate_uri,
@@ -366,7 +369,8 @@ g = create_empty_graph(
 # initialize resource URIs (lookup USER_CONFIG)
 if isinstance(LATEST_RELEASE, str) and len(LATEST_RELEASE) > 0:
     if PRMARY_FILE_FORMAT.lower() == "xml":
-        for CONFIG in USER_CONFIG.values():
+        for key, CONFIG in USER_CONFIG.items():
+            inherit_class = key.split("__")[-1].capitalize()
             create_resource_triples(
                 file_path=verify_config_keys("resource_file_path", "raise"),
                 file_format=verify_config_keys("file_format", "raise"),
@@ -375,12 +379,13 @@ if isinstance(LATEST_RELEASE, str) and len(LATEST_RELEASE) > 0:
                 id_as_title=verify_config_keys("id_as_title", False),
                 id_as_title_prefix=verify_config_keys("id_as_title_prefix", ""),
                 id_as_filename=verify_config_keys("id_as_filename", False),
-                createTitle_xpaths=verify_config_keys("createTitle_xpaths", None),
                 custom_lang=verify_config_keys("custom_lang", "en"),
+                custom_def=verify_config_keys("custom_def", False),
                 init=True,
                 xpaths=verify_config_keys("xpaths", None),
                 static_values=verify_config_keys("static_values", None),
-                vocabs_lookup=verify_config_keys("vocabs_lookup", None)
+                vocabs_lookup=verify_config_keys("vocabs_lookup", None),
+                inherit_class=inherit_class,
             )
 
 for meta in tqdm(metadata.values(), total=len(metadata)):
@@ -458,8 +463,9 @@ for meta in tqdm(metadata.values(), total=len(metadata)):
             if PRMARY_FILE_FORMAT.lower() == "xml":
                 if isinstance(meta["Inherit"], list) and len(meta["Inherit"]) > 0:
                     for inherit in meta["Inherit"]:
+                        inherit_class = inherit["value"]
                         try:
-                            CONFIG = USER_CONFIG[subject_string]
+                            CONFIG = USER_CONFIG[f"{subject_string}__{inherit_class.lower()}"]
                             create_resource_triples(
                                 file_path=verify_config_keys("resource_file_path", "raise"),
                                 file_format=verify_config_keys("file_format", "raise"),
@@ -468,8 +474,9 @@ for meta in tqdm(metadata.values(), total=len(metadata)):
                                 id_as_title=verify_config_keys("id_as_title", ""),
                                 id_as_title_prefix=verify_config_keys("id_as_title_prefix", ""),
                                 id_as_filename=verify_config_keys("id_as_filename", False),
-                                createTitle_xpaths=verify_config_keys("createTitle_xpaths", None),
-                                custom_lang=verify_config_keys("custom_lang", "en")
+                                custom_def=verify_config_keys("custom_def", False),
+                                custom_lang=verify_config_keys("custom_lang", "en"),
+                                inherit_class=inherit_class,
                             )
                         except KeyError:
                             print("No config for this resource.")
