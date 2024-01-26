@@ -27,6 +27,7 @@ NAMESPACES["arche"] = "https://vocabs.acdh.oeaw.ac.at/schema#"
 arche_id = URIRef("https://id.acdh.oeaw.ac.at/")
 ARCHE = Namespace(NAMESPACES["arche"])
 COLLECTION_NAME = PROJECT_NAME
+LANG_SPECIAL_TOKEN = "na"
 
 
 def create_entity_uri_from_string(string: str) -> URIRef:
@@ -120,7 +121,7 @@ def get_literal(
     """
     if isinstance(literal, str) and len(literal) > 0:
         if isinstance(literal_lang, str) and len(literal_lang) > 0:
-            if literal_lang != "na":
+            if literal_lang != LANG_SPECIAL_TOKEN:
                 create_custom_triple(g, subject_uri, predicate_uri, Literal(literal, lang=literal_lang))
             else:
                 create_custom_triple(g, subject_uri, predicate_uri, Literal(literal))
@@ -154,25 +155,11 @@ def get_resource_triple_from_xpath(
     doc: TeiReader,
     subject_uri: URIRef,
     xpaths: dict,
-    custom_lang: str = "en",
-    title_prefix: str = ""
+    vocabs_lookup: dict
 ) -> None:
     print("Getting triples from xpath.")
     if isinstance(xpaths, dict) and len(xpaths) > 0:
         for key, value in xpaths.items():
-            lang = custom_lang
-            prefix = ""
-            custom_suffix = ""
-            if "__nolang" in key:
-                key = key.replace("__nolang", "")
-                lang = "na"
-            if "__prefix" in key:
-                key = key.replace("__prefix", "")
-                prefix = f"https://id.acdh.oeaw.ac.at/{COLLECTION_NAME}/"
-            if "__custom-suffix" in key:
-                custom_suffix = key.replace("__custom-suffix", "").split("__")[-1]
-                key = key.replace("__custom-suffix", "").split("__")[0]
-                prefix = f"https://id.acdh.oeaw.ac.at/{COLLECTION_NAME}/"
             predicate_uri = URIRef(ARCHE[key])
             object_uri = doc.any_xpath(value)
             if isinstance(object_uri, list) and len(object_uri) > 0:
@@ -181,28 +168,24 @@ def get_resource_triple_from_xpath(
                         obj_text = obj.text
                     except AttributeError:
                         obj_text = obj
-                    if "hdl.handle" in f"{prefix}{obj_text}":
+                    enriched_obj_text = vocab_lookup(
+                        vocabs_lookup=vocabs_lookup,
+                        key=key,
+                        value=obj_text
+                    )
+                    if "hdl.handle" in enriched_obj_text:
                         get_literal(
                             subject_uri=subject_uri,
                             predicate_uri=predicate_uri,
-                            literal=f"{prefix}{obj_text}",
-                            literal_lang=lang
+                            literal=enriched_obj_text,
+                            literal_lang=LANG_SPECIAL_TOKEN
                         )
-                    elif f"{prefix}{obj_text}".startswith("http"):
-                        if isinstance(custom_suffix, str) and len(custom_suffix) > 0:
-                            obj_text = obj_text.replace(".xml", "")
+                    else:
                         create_custom_triple(
                             g,
                             subject=subject_uri,
                             predicate=predicate_uri,
-                            object=URIRef(f"{prefix}{obj_text}{custom_suffix}")
-                        )
-                    else:
-                        get_literal(
-                            subject_uri=subject_uri,
-                            predicate_uri=predicate_uri,
-                            literal=f"{title_prefix} {prefix}{obj_text}",
-                            literal_lang=lang
+                            object=enriched_obj_text
                         )
     return print("Triples from xpaths created.")
 
@@ -231,6 +214,37 @@ def create_static_resource_triples(
                 )
 
 
+def vocab_lookup(
+    vocabs_lookup: dict,
+    key: str,
+    value: str
+) -> URIRef | Literal:
+    if isinstance(vocabs_lookup, dict) and len(vocabs_lookup) > 0:
+        try:
+            lang = vocabs_lookup[key]["lang"]
+            prefix = vocabs_lookup[key]["prefix"]
+            custom_suffix = vocabs_lookup[key]["custom_suffix"]
+        except KeyError:
+            lang = False
+            prefix = False
+            custom_suffix = False
+        if prefix and not custom_suffix:
+            val_prefix = f"{arche_id}{COLLECTION_NAME}/"
+            value = URIRef(f"{val_prefix}{value}")
+        if custom_suffix and not prefix:
+            value = URIRef(f"{value}{custom_suffix}")
+        if prefix and custom_suffix:
+            val_prefix = f"{arche_id}{COLLECTION_NAME}/"
+            value = URIRef(f"{val_prefix}{value}{custom_suffix}")
+        if lang and lang != LANG_SPECIAL_TOKEN:
+            obj_uri = Literal(value, lang=lang)
+        else:
+            obj_uri = URIRef(value)
+    else:
+        obj_uri = URIRef(value)
+    return obj_uri
+
+
 def create_resource_triples(
     file_path: str,
     file_format: str,
@@ -255,7 +269,7 @@ def create_resource_triples(
         doc = TeiReader(file)
         xml_id = doc.any_xpath(subject_id)
         if isinstance(xml_id, list) and len(xml_id) > 0:
-            for x in xml_id:
+            for x in tqdm(xml_id, total=len(xml_id)):
                 resource_id = x.strip()
                 if resource_id.startswith("#"):
                     resource_id = resource_id.replace("#", "")
@@ -264,23 +278,30 @@ def create_resource_triples(
                 elif resource_id.startswith("http") and not resource_id.endswith("/"):
                     resource_id = resource_id.split("/")[-1]
                 if len(resource_id) != 0:
-                    if isinstance(inherit_class, str) and len(inherit_class) > 0:
-                        if inherit_class == "Collection":
-                            item_id = f'{arche_id}{COLLECTION_NAME}/{resource_id.replace(".xml", "")}{id_suffix}'
-                        else:
-                            item_id = f'{arche_id}{COLLECTION_NAME}/{resource_id}{id_suffix}'
-                    else:
-                        item_id = f'{arche_id}{COLLECTION_NAME}/{resource_id}{id_suffix}'
+                    # if isinstance(inherit_class, str) and len(inherit_class) > 0:
+                    #     if inherit_class == "Collection":
+                    #         item_id = f'{arche_id}{COLLECTION_NAME}/{resource_id.replace(".xml", "")}{id_suffix}'
+                    #     else:
+                    #         item_id = f'{arche_id}{COLLECTION_NAME}/{resource_id}{id_suffix}'
+                    # else:
+                    #     item_id = f'{arche_id}{COLLECTION_NAME}/{resource_id}{id_suffix}'
+                    item_id = f'{arche_id}{COLLECTION_NAME}/{resource_id}{id_suffix}'
                     subject_uri = URIRef(item_id)
                     if init:
-                        get_resource_triple_from_xpath(doc, subject_uri, xpaths, custom_lang, id_as_title_prefix)
+                        get_resource_triple_from_xpath(
+                            doc,
+                            subject_uri,
+                            xpaths,
+                            vocabs_lookup
+                        )
                         create_static_resource_triples(subject_uri, static_values)
                         if id_as_title:
                             create_custom_triple(
                                 g,
                                 subject=subject_uri,
                                 predicate=ARCHE["hasTitle"],
-                                object=Literal(f'{id_as_title_prefix} {resource_id}'.strip(), lang=custom_lang)
+                                object=Literal(f'{id_as_title_prefix} {resource_id}'.strip(),
+                                               lang=custom_lang)
                             )
                         if id_as_filename:
                             create_custom_triple(
@@ -296,12 +317,16 @@ def create_resource_triples(
                                 doc=doc,
                             )
                             for key, value in custom_uris.items():
-                                print(key, value)
+                                obj_uri = vocab_lookup(
+                                    vocabs_lookup=vocabs_lookup,
+                                    key=key,
+                                    value=value
+                                )
                                 create_custom_triple(
                                     g,
                                     subject=subject_uri,
                                     predicate=URIRef(ARCHE[key]),
-                                    object=Literal(value, lang=custom_lang)
+                                    object=obj_uri
                                 )
                     else:
                         if isinstance(inherit_class, str) and len(inherit_class) > 0:
@@ -385,7 +410,7 @@ if isinstance(LATEST_RELEASE, str) and len(LATEST_RELEASE) > 0:
                 xpaths=verify_config_keys("xpaths", None),
                 static_values=verify_config_keys("static_values", None),
                 vocabs_lookup=verify_config_keys("vocabs_lookup", None),
-                inherit_class=inherit_class,
+                inherit_class=inherit_class
             )
 
 for meta in tqdm(metadata.values(), total=len(metadata)):
@@ -477,6 +502,7 @@ for meta in tqdm(metadata.values(), total=len(metadata)):
                                 custom_def=verify_config_keys("custom_def", False),
                                 custom_lang=verify_config_keys("custom_lang", "en"),
                                 inherit_class=inherit_class,
+                                vocabs_lookup=verify_config_keys("vocabs_lookup", None),
                             )
                         except KeyError:
                             print("No config for this resource.")

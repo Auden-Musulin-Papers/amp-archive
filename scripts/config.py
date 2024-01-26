@@ -34,6 +34,7 @@ MAPPING_ORGS = {
 MAPPING_PLACES = {
     "Predicate_uri": "Properties.json"
 }
+LANG_SPECIAL_TOKEN = "na"
 
 
 def custom_function(subject_uri, doc) -> dict:
@@ -42,13 +43,9 @@ def custom_function(subject_uri, doc) -> dict:
     Add your custom function here.
     Expected return is a dict were the key is the predicate and the value is the object.
     """
-    title = dict()
-    xpath = "//tei:pb[ancestor::tei:text[not(@type='photograph')]]"
+    object_uri = dict()
+    xpath = "//tei:pb"
     pb = doc.any_xpath(xpath)
-    # try:
-    #     from_document = doc.any_xpath("//tei:titleStmt/tei:title[@level='a']/text()")[0]
-    # except IndexError:
-    #     from_document = ""
     if isinstance(pb, list) and len(pb) > 0:
         for p in pb:
             try:
@@ -65,12 +62,40 @@ def custom_function(subject_uri, doc) -> dict:
                 pb_ed = None
             if conditional is not None and conditional in subject_uri:
                 if pb_type is not None and pb_ed is not None:
-                    title["hasTitle"] = f"{pb_type.capitalize()} {pb_ed}"
+                    object_uri["hasTitle"] = f"{pb_type.capitalize()} {pb_ed}"
                 elif pb_type is not None and pb_ed is None:
-                    title["hasTitle"] = f"{pb_type.capitalize()}"
+                    object_uri["hasTitle"] = f"{pb_type.capitalize()}"
                 elif pb_type is None and pb_ed is not None:
-                    title["hasTitle"] = f"{pb_ed}"
-    return title
+                    object_uri["hasTitle"] = f"{pb_ed}"
+    xpath = "//tei:availability"
+    availability = doc.any_xpath(xpath)
+    if isinstance(availability, list) and len(availability) > 0:
+        vocabs_ns = "https://vocabs.acdh.oeaw.ac.at"
+        for a in availability:
+            try:
+                status = a.xpath("@status")[0]
+            except IndexError:
+                status = None
+            if status is not None:
+                if status == "restricted":
+                    try:
+                        facs = a.xpath("./tei:licence/@facs", namespaces={"tei": "http://www.tei-c.org/ns/1.0"})[0]
+                        facs = facs.split("/")[-2]
+                    except IndexError:
+                        facs = False
+                    if facs and facs in subject_uri:
+                        object_uri["hasAccessRestrictions"] = f"{vocabs_ns}/archeaccessrestrictions/public"
+                        object_uri["hasLicense"] = f"{vocabs_ns}/archelicenses/inc"
+                    else:
+                        object_uri["hasAccessRestrictions"] = f"{vocabs_ns}/archeaccessrestrictions/public"
+                        object_uri["hasLicense"] = f"{vocabs_ns}/archelicenses/cc-by-4-0"
+                elif status == "free":
+                    object_uri["hasAccessRestrictions"] = f"{vocabs_ns}/archeaccessrestrictions/public"
+                    object_uri["hasLicense"] = f"{vocabs_ns}/archelicenses/cc-by-4-0"
+            else:
+                object_uri["hasAccessRestrictions"] = f"{vocabs_ns}/archeaccessrestrictions/public"
+                object_uri["hasLicense"] = f"{vocabs_ns}/archelicenses/cc-by-4-0"
+    return object_uri
 
 
 # user configuration of provided data
@@ -82,44 +107,37 @@ USER_CONFIG = {
         "custom_lang": "en",
         "xpaths": {
             "hasTitle": "//tei:titleStmt/tei:title[@level='a']",
-            "hasPid__nolang": "//tei:publicationStmt/tei:idno[@type='handle']",
-            "hasAuthor__nolang": "//tei:titleStmt/tei:author[@ref]/@ref"
+            "hasPid": "//tei:publicationStmt/tei:idno[@type='handle']",
+            "hasAuthor": "//tei:titleStmt/tei:author[@ref]/@ref"
         },
         "static_values": {
             "hasAccessRestrictions": "https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public",
             "hasCategory": "https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei",
             "isPartOf": "https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition",
         },
-        "vocabs_lookup": {}
-    },
-    "auden-musulin-papers/facsimiles__resource": {
-        "resource_file_path": "data/editions",
-        "file_format": "xml",
-        "id": "//tei:pb/@facs[ancestor::tei:text[not(@type='photograph')]]",
-        "custom_lang": "en",
-        "id_suffix": ".tif",
-        "id_as_title": False,
-        "id_as_title_prefix": "Facsimile:",
-        "id_as_filename": True,
-        "xpaths": {
-            "isSourceOf__prefix__nolang": "//tei:TEI[@xml:id]/@xml:id",
-            "hasAuthor__nolang": "//tei:titleStmt/tei:author[@ref]/@ref",
-            "isPartOf__nolang__custom-suffix__-facsimiles": "//tei:TEI[@xml:id]/@xml:id",
+        "vocabs_lookup": {
+            "hasTitle": {
+                "lang": "en",
+                "prefix": False,
+                "custom_suffix": False
+            },
+            "hasPid": {
+                "lang": LANG_SPECIAL_TOKEN,
+                "prefix": False,
+                "custom_suffix": False
+            },
+            "hasAuthor": {
+                "lang": LANG_SPECIAL_TOKEN,
+                "prefix": False,
+                "custom_suffix": False
+            },
         },
-        "static_values": {
-            "hasAccessRestrictions": "https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public",
-            "hasCategory": "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
-            "hasPid": "create"
-        },
-        "vocabs_lookup": {},
-        "custom_def": True
     },
     "auden-musulin-papers/facsimiles__collection": {
         "resource_file_path": "data/editions",
         "file_format": "xml",
-        "id": "//tei:TEI[@xml:id]/@xml:id",
+        "id": "//tei:TEI[@xml:id][child::tei:text[not(@type='photograph')]]/@xml:id",
         "id_suffix": "-facsimiles",
-        "id_as_title_prefix": "Facsimiles:",
         "custom_lang": "en",
         "xpaths": {
             "hasTitle": "//tei:titleStmt/tei:title[@level='a']"
@@ -127,6 +145,86 @@ USER_CONFIG = {
         "static_values": {
             "isPartOf": "https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles",
             "hasPid": "create"
+        },
+        "vocabs_lookup": {
+            "hasTitle": {
+                "lang": "en",
+                "prefix": False,
+                "custom_suffix": False
+            }
+        }
+    },
+    "auden-musulin-papers/facsimiles__resource": {
+        "resource_file_path": "data/editions",
+        "file_format": "xml",
+        "id": "//tei:pb/@facs[ancestor::tei:text[not(@type='photograph')]]",
+        "custom_lang": "en",
+        "id_suffix": ".tif",
+        "id_as_filename": True,
+        "xpaths": {
+            "isSourceOf": "//tei:TEI[@xml:id]/@xml:id",
+            "hasAuthor": "//tei:titleStmt/tei:author[@ref]/@ref",
+            "isPartOf": "//tei:TEI[@xml:id][child::tei:text[not(@type='photograph')]]/@xml:id",
+        },
+        "static_values": {
+            "hasAccessRestrictions": "https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public",
+            "hasCategory": "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
+            "hasPid": "create",
+            "hasLincense": "https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"
+        },
+        "vocabs_lookup": {
+            "hasLicense": {
+                "lang": LANG_SPECIAL_TOKEN,
+                "prefix": False,
+                "custom_suffix": False
+            },
+            "hasAccessRestrictions": {
+                "lang": LANG_SPECIAL_TOKEN,
+                "prefix": False,
+                "custom_suffix": False
+            },
+            "isSourceOf": {
+                "lang": LANG_SPECIAL_TOKEN,
+                "prefix": True,
+                "custom_suffix": False
+            },
+            "hasCreator": {
+                "lang": LANG_SPECIAL_TOKEN,
+                "prefix": False,
+                "custom_suffix": False
+            },
+            "isPartOf": {
+                "lang": LANG_SPECIAL_TOKEN,
+                "prefix": True,
+                "custom_suffix": "/facsimiles"
+            },
+            "hasTitle": {
+                "lang": "en",
+                "prefix": False,
+                "custom_suffix": False
+            },
+        },
+        "custom_def": True
+    },
+    "auden-musulin-papers/photos__collection": {
+        "resource_file_path": "data/editions",
+        "file_format": "xml",
+        "id": "//tei:TEI[@xml:id][child::tei:text[@type='photograph']]/@xml:id",
+        "id_suffix": "-photos",
+        "custom_lang": "en",
+        "xpaths": {
+            "hasTitle": "//tei:titleStmt/tei:title[@level='a']"
+        },
+        "static_values": {
+            "isPartOf": "https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos",
+            "hasPid": "create"
+        },
+        "vocabs_lookup": {
+            "hasTitle": {
+                "lang": "en",
+                "prefix": False,
+                "custom_suffix": False
+            }
         }
     },
     "auden-musulin-papers/photos__resource": {
@@ -137,16 +235,46 @@ USER_CONFIG = {
         "id_as_filename": True,
         "custom_lang": "en",
         "xpaths": {
-            "isSourceOf__prefix__nolang": "//tei:TEI[@xml:id]/@xml:id",
-            "hasCreator__nolang": "//tei:titleStmt/tei:author[@ref]/@ref"
+            "isSourceOf": "//tei:TEI[@xml:id]/@xml:id",
+            "hasCreator": "//tei:titleStmt/tei:author[@ref]/@ref",
+            "isPartOf": "//tei:TEI[@xml:id][child::tei:text[@type='photograph']]/@xml:id"
         },
         "static_values": {
-            "hasAccessRestrictions": "https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public",
             "hasCategory": "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
-            "isPartOf": "https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos",
             "hasPid": "create"
         },
-        "vocabs_lookup": {},
+        "vocabs_lookup": {
+            "hasLicense": {
+                "lang": LANG_SPECIAL_TOKEN,
+                "prefix": False,
+                "custom_suffix": False
+            },
+            "hasAccessRestrictions": {
+                "lang": LANG_SPECIAL_TOKEN,
+                "prefix": False,
+                "custom_suffix": False
+            },
+            "isSourceOf": {
+                "lang": LANG_SPECIAL_TOKEN,
+                "prefix": True,
+                "custom_suffix": False
+            },
+            "hasCreator": {
+                "lang": LANG_SPECIAL_TOKEN,
+                "prefix": False,
+                "custom_suffix": False
+            },
+            "isPartOf": {
+                "lang": LANG_SPECIAL_TOKEN,
+                "prefix": True,
+                "custom_suffix": "/photos"
+            },
+            "hasTitle": {
+                "lang": "en",
+                "prefix": False,
+                "custom_suffix": False
+            },
+        },
         "custom_def": True
     },
     "auden-musulin-papers/indexes__resource": {
@@ -163,7 +291,13 @@ USER_CONFIG = {
             "isPartOf": "https://id.acdh.oeaw.ac.at/auden-musulin-papers/indexes",
             "hasPid": "create"
         },
-        "vocabs_lookup": {}
+        "vocabs_lookup": {
+            "hasTitle": {
+                "lang": "en",
+                "prefix": False,
+                "custom_suffix": False
+            }
+        }
     }
 }
 
