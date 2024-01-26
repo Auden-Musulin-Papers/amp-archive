@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xml:id="amp-transcript__0030.xml"
-     xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0030.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0029.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0031.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -73,8 +69,7 @@
                      </msIdentifier>
                      <history>
                         <origin><!-- mark up certainty values -->
-                           <origDate notBefore-iso="1985-11-29T00:00:00+01:00"
-                                     notAfter-iso="1985-11-29T23:59:59+01:00">1985-11-29</origDate>
+                           <origDate notBefore-iso="1985-11-29T00:00:00+01:00" notAfter-iso="1985-11-29T23:59:59+01:00">1985-11-29</origDate>
                            <origPlace ref="#amp_place_id_10">Austria</origPlace>
                         </origin>
                      </history>

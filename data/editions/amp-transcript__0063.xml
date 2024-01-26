@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xml:id="amp-transcript__0063.xml"
-     xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0063.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0062.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0064.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -77,8 +73,7 @@
                      </msIdentifier>
                      <history>
                         <origin>
-                           <origDate notBefore-iso="1962-05-23T00:00:00+01:00"
-                                     notAfter-iso="1962-05-23T23:59:59+01:00">1962-05-23</origDate>
+                           <origDate notBefore-iso="1962-05-23T00:00:00+01:00" notAfter-iso="1962-05-23T23:59:59+01:00">1962-05-23</origDate>
                            <origPlace ana="amp-transcript__0058.xml#ana_003"/>
                         </origin>
                      </history>
@@ -99,12 +94,8 @@
             <correspContext>
                <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
                <ref type="belongsToCorrespondence" target="#amp_person_204">Busta, Christine</ref>
-               <ref subtype="previous_letter"
-                    type="withinCollection"
-                    target="#amp-transcript__0059.xml">Envelope W. H. Auden to Stella Musulin 1962-04-30</ref>
-               <ref subtype="next_letter"
-                    type="withinCollection"
-                    target="#amp-transcript__0023.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-07-23</ref>
+               <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0059.xml">Envelope W. H. Auden to Stella Musulin 1962-04-30</ref>
+               <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0023.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-07-23</ref>
             </correspContext>
          </correspDesc>
       </profileDesc>

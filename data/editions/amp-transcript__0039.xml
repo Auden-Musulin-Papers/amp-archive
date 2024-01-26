@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xml:id="amp-transcript__0039.xml"
-     xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0039.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0038.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0040.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -35,10 +31,7 @@
                      <desc>
                         The Berg Collection of the New York Public Library (W. H. Auden Collection of Papers 1809-1979, Folder 18, 69 ALS, etc. to Elizabeth Mayer) includes a letter sent to <rs type="person" ref="#amp_person_157">Mayer</rs> by <rs type="person" ref="#amp_person_1">Auden</rs> from <rs type="place" ref="#amp_place_id_19">Berlin</rs> on 1 March 1965, which contains an early typescript, with manuscript revisions and notes, of his poem "<rs type="lit_work" ref="#lit_work_id_60">Joseph Weinheber</rs>". In the letter, he asks Mayer for a "literal prose translation into German, stanza by stanza, which I can have mimeographed ..." He intended the copies of this translation to be handed out to the audience of the <rs type="event" ref="#amp_event_id_49">Kirchstetten commemorative event on the occasion of the twentieth anniversary of Josef Weinheber's death</rs>.
                         <listEvent>
-                           <event notBefore-iso="1965-03-01T00:00:00+01:00"
-                                  notAfter-iso="1965-03-01T23:59:59+01:00"
-                                  type="communicative"
-                                  subtype="letter"><!-- do we need event entity id? -->
+                           <event notBefore-iso="1965-03-01T00:00:00+01:00" notAfter-iso="1965-03-01T23:59:59+01:00" type="communicative" subtype="letter"><!-- do we need event entity id? -->
                               <listPerson>
                                  <person>
                                     <persName role="sender" ref="#amp_person_1"/>
@@ -113,8 +106,7 @@ for any purpose, even commercially.</p>
                      </msIdentifier>
                      <history>
                         <origin>
-                           <origDate notBefore-iso="1965-04-28T00:00:00+01:00"
-                                     notAfter-iso="1965-04-28T23:59:59+01:00">1965-04-28</origDate>
+                           <origDate notBefore-iso="1965-04-28T00:00:00+01:00" notAfter-iso="1965-04-28T23:59:59+01:00">1965-04-28</origDate>
                            <origPlace ref="#amp_place_id_2">Hinterholz 6</origPlace>
                         </origin>
                      </history>
@@ -132,8 +124,7 @@ for any purpose, even commercially.</p>
             <correspAction type="sent">
                <orgName ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</orgName>
                <placeName ref="#amp_place_id_5">Kirchstetten</placeName>
-               <date notBefore-iso="1965-04-28T17:00:01+01:00"
-                     notAfter-iso="1965-04-28T18:00:00+01:00">1965-04-28T17:00:01+01:00/1965-04-28T18:00:00+01:00</date>
+               <date notBefore-iso="1965-04-28T17:00:01+01:00" notAfter-iso="1965-04-28T18:00:00+01:00">1965-04-28T17:00:01+01:00/1965-04-28T18:00:00+01:00</date>
             </correspAction>
             <correspAction type="received">
                <persName ref="#amp_person_2">Musulin, Stella</persName>
@@ -142,12 +133,8 @@ for any purpose, even commercially.</p>
             <correspContext>
                <ref type="belongsToCorrespondence" target="#amp_person_1">Auden, W. H.</ref>
                <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
-               <ref subtype="previous_letter"
-                    type="withinCollection"
-                    target="#amp-transcript__0038.xml">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</ref>
-               <ref subtype="next_letter"
-                    type="withinCollection"
-                    target="#amp-transcript__0003.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29</ref>
+               <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0038.xml">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</ref>
+               <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0003.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29</ref>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -224,16 +211,12 @@ for any purpose, even commercially.</p>
                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0009/" type="sheet"/>
                <div type="poem">
                   <head>
-                     <space extent="undefined quantity of characters plus minimum"
-                            min="5"
-                            unit="char"/>
+                     <space extent="undefined quantity of characters plus minimum" min="5" unit="char"/>
                      <rs type="lit_work" ref="#lit_work_id_62">
                         <rs type="person" ref="#amp_person_5">
                            <hi rend="underline">JOSEPH WEINHEBER</hi>
                            <lb/>
-                           <space extent="undefined quantity of characters plus minimum"
-                                  min="7"
-                                  unit="char"/>(<hi rend="underline">I892-I945)</hi>
+                           <space extent="undefined quantity of characters plus minimum" min="7" unit="char"/>(<hi rend="underline">I892-I945)</hi>
                         </rs>
                      </rs>
                   </head>

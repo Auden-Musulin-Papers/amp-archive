@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xml:id="amp-transcript__0062.xml"
-     xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0062.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0061.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0063.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -74,8 +70,7 @@ for any purpose, even commercially.</p>
                      </msIdentifier>
                      <history>
                         <origin>
-                           <origDate notBefore-iso="1976-09-04T00:00:00+01:00"
-                                     notAfter-iso="1980-12-01T23:59:59+01:00">1976-09-04--1980-12-01</origDate>
+                           <origDate notBefore-iso="1976-09-04T00:00:00+01:00" notAfter-iso="1980-12-01T23:59:59+01:00">1976-09-04--1980-12-01</origDate>
                         </origin>
                      </history>
                   </msDesc>
@@ -555,8 +550,7 @@ for any purpose, even commercially.</p>
                <rs type="person" ref="#amp_person_181">Ledebur</rs> and the dancer and choreographer <rs type="person" ref="#amp_person_49">Grete Wiesenthal</rs>. <space quantity="1" unit="char"/>Gradually, a well-<lb/>
                   worn track developed between <rs type="place" ref="#amp_place_id_75">Prielau</rs> and <rs type="place" ref="#amp_place_id_258">our house</rs> at the upper<lb/>
                   end of the <rs type="place" ref="#amp_place_id_76">Schmittenhöhe valley</rs>, and friendships <del>developed</del>grew between<lb/>
-               <rs type="person" ref="#amp_person_94 #amp_person_93 #amp_person_2">my family</rs> and the <rs type="person"
-                   ref="#amp_person_44 #amp_place_45 #amp_person_46 #amp_person_47 #amp_person_42 #amp_person_43 #amp_person_3">Hofmannsthals</rs> and several of their friends<lb/>
+               <rs type="person" ref="#amp_person_94 #amp_person_93 #amp_person_2">my family</rs> and the <rs type="person" ref="#amp_person_44 #amp_place_45 #amp_person_46 #amp_person_47 #amp_person_42 #amp_person_43 #amp_person_3">Hofmannsthals</rs> and several of their friends<lb/>
                   which have survived and have been continued by our children.<lb/>
                <rs type="event" ref="#amp_event_id_24">My marriage broke up</rs> during 1957-58 and my son <rs type="person" ref="#amp_person_94">Marko</rs> and I went<lb/>
                   to live with my mother-in-law <rs type="person" ref="#amp_person_93">Els<del>e</del>a Musulin</rs> at her home <rs type="place" ref="#amp_place_id_7">Schloss Fridau</rs>,<lb/>
@@ -1881,8 +1875,7 @@ for any purpose, even commercially.</p>
                   household leave it altogether to us to remember that in the<lb/>
                   last dozen years of his life, <rs type="person" ref="#amp_person_1">Auden</rs> was writing several volumes<lb/>
                   of poetry, opera libretti, translating the <rs type="lit_work" ref="#lit_work_id_27">Elder Ed<del>e</del>da</rs>, the<lb/>
-               <rs type="lit_work" ref="#lit_work_id_70">"Italian Journey "</rs>, <rs type="person" ref="#amp_person_131">Dag Hammarskjöld</rs>'s <rs type="lit_work" ref="#lit_work_id_30">"Markings"</rs> and <rs type="lit_work"
-                   ref="#lit_work_id_2 #lit_work_id_137 #lit_work_id_135 #lit_work_id_136 #lit_work_id_137 #lit_work_id_138">other<lb/>
+               <rs type="lit_work" ref="#lit_work_id_70">"Italian Journey "</rs>, <rs type="person" ref="#amp_person_131">Dag Hammarskjöld</rs>'s <rs type="lit_work" ref="#lit_work_id_30">"Markings"</rs> and <rs type="lit_work" ref="#lit_work_id_2 #lit_work_id_137 #lit_work_id_135 #lit_work_id_136 #lit_work_id_137 #lit_work_id_138">other<lb/>
                   works</rs>, editing <rs type="lit_work" ref="#lit_work_id_31">"The Dyer's Hand"</rs>, the <rs type="lit_work" ref="#lit_work_id_32">"Faber Book of Aphorisms"</rs>,<lb/>
                   his <rs type="lit_work" ref="#lit_work_id_33">Commonplace Book</rs>, <rs type="lit_work" ref="#lit_work_id_53">"Forewords and Afterwords"</rs>, and that<lb/>
                   heavenly compilation the "<rs type="lit_work" ref="#lit_work_id_34">Nineteenth Century Book of Minor Poets"</rs>.<lb/>

@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xml:id="amp-transcript__0033.xml"
-     xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0033.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0032.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0034.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -74,8 +70,7 @@ for any purpose, even commercially.</p>
                      </msIdentifier>
                      <history>
                         <origin>
-                           <origDate notBefore-iso="1981-11-21T00:00:00-05:00"
-                                     notAfter-iso="1981-11-21T23:59:59-05:00">1981-11-21</origDate>
+                           <origDate notBefore-iso="1981-11-21T00:00:00-05:00" notAfter-iso="1981-11-21T23:59:59-05:00">1981-11-21</origDate>
                         </origin>
                      </history>
                   </msDesc>
@@ -107,12 +102,8 @@ for any purpose, even commercially.</p>
             <correspContext>
                <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
                <ref type="belongsToCorrespondence" target="#amp_person_98">Mendelson, Edward</ref>
-               <ref subtype="previous_letter"
-                    type="withinCollection"
-                    target="#amp-transcript__0032.xml">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</ref>
-               <ref subtype="next_letter"
-                    type="withinCollection"
-                    target="#amp-transcript__0034.xml">Typed Letter Signed Michael O'Sullivan to Stella Musulin 1984-05-31</ref>
+               <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0032.xml">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</ref>
+               <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0034.xml">Typed Letter Signed Michael O'Sullivan to Stella Musulin 1984-05-31</ref>
             </correspContext>
          </correspDesc>
       </profileDesc>

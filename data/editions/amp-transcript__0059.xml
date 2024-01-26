@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xml:id="amp-transcript__0059.xml"
-     xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0059.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0058.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0060.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -76,8 +72,7 @@ for any purpose, even commercially.</p>
                      </msIdentifier>
                      <history>
                         <origin>
-                           <origDate notBefore-iso="1962-04-30T00:00:00+01:00"
-                                     notAfter-iso="1962-04-30T23:59:59+01:00">1962-04-30</origDate>
+                           <origDate notBefore-iso="1962-04-30T00:00:00+01:00" notAfter-iso="1962-04-30T23:59:59+01:00">1962-04-30</origDate>
                            <origPlace ref="#amp_place_id_2">Hinterholz 6</origPlace>
                         </origin>
                      </history>
@@ -95,8 +90,7 @@ for any purpose, even commercially.</p>
             <correspAction type="sent">
                <orgName ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</orgName>
                <placeName ref="#amp_place_id_5">Kirchstetten</placeName>
-               <date notBefore-iso="1962-04-30T17:00:01+01:00"
-                     notAfter-iso="1962-04-30T18:00:00+01:00">1962-04-30T17:00:01+01:00/1962-04-30T18:00:00+01:00</date>
+               <date notBefore-iso="1962-04-30T17:00:01+01:00" notAfter-iso="1962-04-30T18:00:00+01:00">1962-04-30T17:00:01+01:00/1962-04-30T18:00:00+01:00</date>
             </correspAction>
             <correspAction type="received">
                <persName ref="#amp_person_2">Musulin, Stella</persName>
@@ -105,12 +99,8 @@ for any purpose, even commercially.</p>
             <correspContext>
                <ref type="belongsToCorrespondence" target="#amp_person_1">Auden, W. H.</ref>
                <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
-               <ref subtype="previous_letter"
-                    type="withinCollection"
-                    target="#amp-transcript__0071.xml">Typed Letter Signed Stella Musulin to W. H. Auden 1962-04-16--1973-04-16</ref>
-               <ref subtype="next_letter"
-                    type="withinCollection"
-                    target="#amp-transcript__0063.xml">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</ref>
+               <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0071.xml">Typed Letter Signed Stella Musulin to W. H. Auden 1962-04-16--1973-04-16</ref>
+               <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0063.xml">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</ref>
             </correspContext>
          </correspDesc>
       </profileDesc>

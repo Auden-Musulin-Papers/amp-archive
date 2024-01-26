@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xml:id="amp-transcript__0002.xml"
-     xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0002.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0001.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0003.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -83,8 +79,7 @@ for any purpose, even commercially.</p>
                      </msIdentifier>
                      <history>
                         <origin>
-                           <origDate notBefore-iso="1964-12-23T00:00:00+01:00"
-                                     notAfter-iso="1964-12-23T23:59:59+01:00">1964-12-23</origDate>
+                           <origDate notBefore-iso="1964-12-23T00:00:00+01:00" notAfter-iso="1964-12-23T23:59:59+01:00">1964-12-23</origDate>
                            <origPlace ref="#amp_place_id_19">Hubertusbader Straße 43</origPlace>
                         </origin>
                      </history>
@@ -102,15 +97,13 @@ for any purpose, even commercially.</p>
             <correspAction type="sent">
                <orgName ref="#amp_organization_78">Postamt Berlin 33 (post office Berlin 33)</orgName>
                <placeName ref="#amp_place_id_17">Berlin</placeName>
-               <date notBefore-iso="1964-12-23T14:00:01+01:00"
-                     notAfter-iso="1964-12-23T15:00:00+01:00">1964-12-23T14:00:01+01:00/1964-12-23T15:00:00+01:00</date>
+               <date notBefore-iso="1964-12-23T14:00:01+01:00" notAfter-iso="1964-12-23T15:00:00+01:00">1964-12-23T14:00:01+01:00/1964-12-23T15:00:00+01:00</date>
             </correspAction>
             <correspAction type="transmitted">
                <orgName ref="#amp_organization_71">Postamt Ober-Grafendorf (post office Ober-Grafendorf)</orgName>
                <!-- info from backstamp -->
                <placeName ref="#amp_place_id_8">Ober-Grafendorf</placeName>
-               <date notBefore-iso="1964-12-28T17:00:01+01:00"
-                     notAfter-iso="1964-12-28T18:00:00+01:00">1964-12-28T17:00:01+01:00/1964-12-28T18:00:00+01:00</date>
+               <date notBefore-iso="1964-12-28T17:00:01+01:00" notAfter-iso="1964-12-28T18:00:00+01:00">1964-12-28T17:00:01+01:00/1964-12-28T18:00:00+01:00</date>
             </correspAction>
             <correspAction type="redirected">
                <persName ref="#amp_person_93">Musulin, Elsa von</persName>
@@ -123,12 +116,8 @@ for any purpose, even commercially.</p>
             <correspContext>
                <ref type="belongsToCorrespondence" target="#amp_person_1">Auden, W. H.</ref>
                <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
-               <ref subtype="previous_letter"
-                    type="withinCollection"
-                    target="#amp-transcript__0001.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</ref>
-               <ref subtype="next_letter"
-                    type="withinCollection"
-                    target="#amp-transcript__0038.xml">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</ref>
+               <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0001.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</ref>
+               <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0038.xml">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</ref>
             </correspContext>
          </correspDesc>
       </profileDesc>

@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xml:id="amp-transcript__0037.xml"
-     xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0037.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0036.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0038.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -57,8 +53,7 @@
                <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
             </availability>
             <availability>
-               <licence facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0246/"
-                        target="https://creativecommons.org/licenses/by/4.0/deed.en">
+               <licence facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0246/" target="https://creativecommons.org/licenses/by/4.0/deed.en">
                   <p>Image publication permission by The Carl Van Vechten Trust.</p>
                </licence>
             </availability>
@@ -80,8 +75,7 @@
                      </msIdentifier>
                      <history>
                         <origin>
-                           <origDate notBefore-iso="1984-08-15T00:00:00+01:00"
-                                     notAfter-iso="1996-01-21T23:59:59+00:00">1984-08-15--1996-01-21</origDate>
+                           <origDate notBefore-iso="1984-08-15T00:00:00+01:00" notAfter-iso="1996-01-21T23:59:59+00:00">1984-08-15--1996-01-21</origDate>
                         </origin>
                      </history>
                   </msDesc>
@@ -112,9 +106,7 @@
             <correspContext>
                <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
                <ref type="belongsToCorrespondence" target="#amp_person_99">O'Sullivan, Michael</ref>
-               <ref subtype="previous_letter"
-                    type="withinCollection"
-                    target="#amp-transcript__0036.xml">Autograph Note Michael O'Sullivan to Stella Musulin 1984-08-15</ref>
+               <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0036.xml">Autograph Note Michael O'Sullivan to Stella Musulin 1984-08-15</ref>
             </correspContext>
          </correspDesc>
       </profileDesc>

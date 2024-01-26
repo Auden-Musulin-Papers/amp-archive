@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xml:id="amp-transcript__0038.xml"
-     xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0038.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0037.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0039.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -83,8 +79,7 @@ for any purpose, even commercially.</p>
                      </msIdentifier>
                      <history>
                         <origin>
-                           <origDate notBefore-iso="1965-03-15T00:00:00+01:00"
-                                     notAfter-iso="1965-03-15T23:59:59+01:00">1965-03-15</origDate>
+                           <origDate notBefore-iso="1965-03-15T00:00:00+01:00" notAfter-iso="1965-03-15T23:59:59+01:00">1965-03-15</origDate>
                            <origPlace ref="#amp_place_id_19">Hubertusbader Straße 43</origPlace>
                         </origin>
                      </history>
@@ -102,14 +97,12 @@ for any purpose, even commercially.</p>
             <correspAction type="sent">
                <orgName ref="#amp_organization_79">Postamt Berlin 11 (post office Berlin 11)</orgName>
                <placeName ref="#amp_place_id_17">Berlin</placeName>
-               <date notBefore-iso="1965-03-15T13:00:01+01:00"
-                     notAfter-iso="1965-03-15T14:00:00+01:00">1965-03-15T13:00:01+01:00/1965-03-15T14:00:00+01:00</date>
+               <date notBefore-iso="1965-03-15T13:00:01+01:00" notAfter-iso="1965-03-15T14:00:00+01:00">1965-03-15T13:00:01+01:00/1965-03-15T14:00:00+01:00</date>
             </correspAction>
             <correspAction type="transmitted">
                <orgName ref="#amp_organization_71">Postamt Ober-Grafendorf (post office Ober-Grafendorf))</orgName>
                <placeName ref="#amp_place_id_8">Ober-Grafendorf</placeName>
-               <date notBefore-iso="1965-03-20T09:00:01+01:00"
-                     notAfter-iso="1965-03-20T19:00:00+01:00">1965-03-20T09:00:01+01:00/1965-03-20T19:00:00+01:00</date>
+               <date notBefore-iso="1965-03-20T09:00:01+01:00" notAfter-iso="1965-03-20T19:00:00+01:00">1965-03-20T09:00:01+01:00/1965-03-20T19:00:00+01:00</date>
                <!-- uncertain time in postmark -->
             </correspAction>
             <correspAction type="redirected">
@@ -123,12 +116,8 @@ for any purpose, even commercially.</p>
             <correspContext>
                <ref type="belongsToCorrespondence" target="#amp_person_1">Auden, W. H.</ref>
                <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
-               <ref subtype="previous_letter"
-                    type="withinCollection"
-                    target="#amp-transcript__0002.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23</ref>
-               <ref subtype="next_letter"
-                    type="withinCollection"
-                    target="#amp-transcript__0039.xml">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-04-28 and with Typescript W. H. Auden Translation "Joseph Weinheber"</ref>
+               <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0002.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23</ref>
+               <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0039.xml">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-04-28 and with Typescript W. H. Auden Translation "Joseph Weinheber"</ref>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -215,17 +204,13 @@ for any purpose, even commercially.</p>
                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0133/" type="sheet"/>
                <div type="poem">
                   <head>
-                     <space extent="undefined quantity of characters plus minimum"
-                            min="5"
-                            unit="char"/>
+                     <space extent="undefined quantity of characters plus minimum" min="5" unit="char"/>
                      <rs type="lit_work" ref="#lit_work_id_61">
                         <hi rend="underline">
                            <rs type="person" ref="#amp_person_5">JOSEPH WEINHEBER</rs>
                         </hi>
                         <lb/>
-                        <space extent="undefined quantity of characters plus minimum"
-                               min="7"
-                               unit="char"/>(<hi rend="underline">I892-I945)</hi>
+                        <space extent="undefined quantity of characters plus minimum" min="7" unit="char"/>(<hi rend="underline">I892-I945)</hi>
                      </rs>
                   </head>
                   <lg>
@@ -404,9 +389,7 @@ for any purpose, even commercially.</p>
                   <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0134/" type="sheet"/>
                   <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0135/" type="sheet"/>
                   <ab>
-                     <space extent="undefined quantity of characters plus minimum"
-                            min="39"
-                            unit="char"/>(2
+                     <space extent="undefined quantity of characters plus minimum" min="39" unit="char"/>(2
                   </ab>
                   <lg>
                      <lb/>

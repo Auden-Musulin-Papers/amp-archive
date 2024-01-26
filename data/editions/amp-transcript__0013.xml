@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xml:id="amp-transcript__0013.xml"
-     xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0013.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0012.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0014.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -74,8 +70,7 @@ for any purpose, even commercially.</p>
                      </msIdentifier>
                      <history>
                         <origin>
-                           <origDate notBefore-iso="1969-01-04T00:00:00-05:00"
-                                     notAfter-iso="1969-01-04T23:59:59-05:00">1969-01-04</origDate>
+                           <origDate notBefore-iso="1969-01-04T00:00:00-05:00" notAfter-iso="1969-01-04T23:59:59-05:00">1969-01-04</origDate>
                            <origPlace ref="#amp_place_id_29">77 St. Mark's Place</origPlace>
                         </origin>
                      </history>
@@ -93,14 +88,12 @@ for any purpose, even commercially.</p>
             <correspAction type="sent">
                <orgName ref="#amp_organization_85">United States General Post Office</orgName>
                <placeName ref="#amp_place_id_28">New York City</placeName>
-               <date notBefore-iso="1969-01-04T12:00:00-05:00"
-                     notAfter-iso="1969-01-04T23:59:59-05:00">1969-01-04T12:00:00-05:00/1969-01-04T23:59:59-05:00</date>
+               <date notBefore-iso="1969-01-04T12:00:00-05:00" notAfter-iso="1969-01-04T23:59:59-05:00">1969-01-04T12:00:00-05:00/1969-01-04T23:59:59-05:00</date>
             </correspAction>
             <correspAction type="transmitted">
                <orgName ref="#amp_organization_74">Hauptpostamt 1040 (main post office 1040)</orgName>
                <placeName ref="#amp_place_id_1">Vienna</placeName>
-               <date notBefore-iso="1969-01-07T11:00:01+01:00"
-                     notAfter-iso="1969-01-07T12:00:00+01:00">1969-01-07T11:00:01+01:00/1969-01-07T12:00:00+01:00</date>
+               <date notBefore-iso="1969-01-07T11:00:01+01:00" notAfter-iso="1969-01-07T12:00:00+01:00">1969-01-07T11:00:01+01:00/1969-01-07T12:00:00+01:00</date>
             </correspAction>
             <correspAction type="redirected">
                <orgName ref="#amp_organization_74">Hauptpostamt 1040 (main post office 1040)</orgName>
@@ -113,12 +106,8 @@ for any purpose, even commercially.</p>
             <correspContext>
                <ref type="belongsToCorrespondence" target="#amp_person_1">Auden, W. H.</ref>
                <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
-               <ref subtype="previous_letter"
-                    type="withinCollection"
-                    target="#amp-transcript__0012.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</ref>
-               <ref subtype="next_letter"
-                    type="withinCollection"
-                    target="#amp-transcript__0014.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</ref>
+               <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0012.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</ref>
+               <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0014.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</ref>
             </correspContext>
          </correspDesc>
       </profileDesc>
