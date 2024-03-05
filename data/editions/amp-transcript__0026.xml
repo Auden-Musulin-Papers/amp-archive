@@ -13,10 +13,10 @@
                <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
-               <name>FWF Austrian Science Fund</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Vienna</postCode>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
                   <placeName>
                      <country>A</country>
                      <settlement>Vienna</settlement>

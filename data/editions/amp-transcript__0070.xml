@@ -12,10 +12,10 @@
                <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
-               <name>FWF Austrian Science Fund</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Vienna</postCode>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
                   <placeName>
                      <country>A</country>
                      <settlement>Vienna</settlement>
@@ -29,7 +29,7 @@
                <interpGrp>
                   <interp xml:id="ana_001" source="ph_001"><!-- link to nanopub -->
                      <desc>
-                        According to the map of Austria provided by the Austrian Federal Office of Metrology and Surveying (https://maps.bev.gv.at, accessed 10 November 2023), there are six settlements named Kirchstetten on Austrian territory. In addition to Marktgemeinde Kirchstetten in St. Pölten district, Lower Austria, there are: Kirchstetten village in Mistelbach district, Lower Austria; Kirchstetten village in Amstetten district, Lower Austria; Kirchstetten village in Linz-Land district, Upper Austria; Kirchstetten village in Vöcklabruck district, Upper Austria; Kirchstetten village in Perg district, Upper Austria.
+                        According to <ref target="https://maps.bev.gv.at">the map of Austria provided by the Austrian Federal Office of Metrology and Surveying</ref>, there are six settlements named Kirchstetten on Austrian territory. In addition to Marktgemeinde Kirchstetten in St. Pölten district, Lower Austria, there are: <ref target="https://sws.geonames.org/2774360/">Kirchstetten village in Mistelbach district, Lower Austria</ref>; <ref target="https://sws.geonames.org/2774363/">Kirchstetten village in Amstetten district, Lower Austria</ref>; <ref target="https://sws.geonames.org/2774361/">Kirchstetten village in Linz-Land district, Upper Austria</ref>; <ref target="https://sws.geonames.org/12626230/">Kirchstetten village in Vöcklabruck district, Upper Austria</ref>; <ref target="https://sws.geonames.org/2774365/">Kirchstetten village in Perg district, Upper Austria</ref>.
                         <listPlace type="choice">
                            <place source="https://sws.geonames.org/2774360/"/>
                            <place source="https://sws.geonames.org/2774363/"/>
@@ -37,6 +37,10 @@
                            <place source="https://sws.geonames.org/2774361/"/>
                            <place source="https://sws.geonames.org/2774365/"/>
                         </listPlace>
+                        <bibl sameAs="https://maps.bev.gv.at">
+                           <title xml:lang="en">Austrian Map</title>
+                           <pubPlace ref="acdh:amp-index-places.xml#amp_place_id_1"/>
+                        </bibl>
                      </desc>
                      <respons locus="value" resp="#tfruehwirth #dgrigoriou #smayer"/>
                      <certainty locus="value" cert="high"/>
@@ -98,6 +102,13 @@ for any purpose, even commercially.</p>
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+               <p>Edition Documents Prefix</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -105,7 +116,9 @@ for any purpose, even commercially.</p>
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <orgName ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</orgName>
+               <orgName>
+                  <rs type="org" ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</rs>
+               </orgName>
                <placeName ref="#amp_place_id_5">Kirchstetten</placeName>
                <date notBefore-iso="1959-10-10T11:00:01+01:00" notAfter-iso="1959-10-10T12:00:00+01:00">1959-10-10T11:00:01+01:00/1959-10-10T12:00:00+01:00</date>
                <!-- mark up certainty value -->
@@ -147,7 +160,7 @@ for any purpose, even commercially.</p>
       <body>
          <div type="transcription" xml:id="transcription_amp_0070" xml:lang="en">
             <div type="envelope">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0465/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0465/" type="envelope" ed="1r"/>
                <ab xml:lang="de">
                   <rs type="person" ref="#amp_person_1">W.H.Auden</rs>
                   <lb/>
@@ -168,10 +181,10 @@ for any purpose, even commercially.</p>
                         <space quantity="31" unit="char"/>Fillgradegasse I2</rs>
                   </address>
                </ab>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0466/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0466/" type="envelope" ed="1v"/>
             </div>
             <div type="letter">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0467/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0467/" type="sheet" ed="2r"/>
                <div type="letter_message">
                   <opener>
                      <dateline xml:lang="de">
@@ -212,7 +225,7 @@ for any purpose, even commercially.</p>
                      </signed>
                   </closer>
                </div>
-               <pb facs="https://iiif.acdh.oeaw.ac.at//amp/amp_0468/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at//amp/amp_0468/" type="sheet" ed="2v"/>
             </div>
          </div>
       </body>

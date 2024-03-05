@@ -12,10 +12,10 @@
                <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
-               <name>FWF Austrian Science Fund</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Vienna</postCode>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
                   <placeName>
                      <country>A</country>
                      <settlement>Vienna</settlement>
@@ -24,7 +24,9 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>AMP</edition>
+            <edition>
+               <title>Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</title>
+            </edition>
             <respStmt>
                <resp>Transcription and commentary</resp>
                <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
@@ -79,6 +81,13 @@ for any purpose, even commercially.</p>
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+               <p>Edition Documents Prefix</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -86,12 +95,16 @@ for any purpose, even commercially.</p>
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <orgName ref="amp_organization_76">Hauptpostamt 1150 (main post office 1150)</orgName>
+               <orgName>
+                  <rs type="org" ref="#amp_organization_76">Hauptpostamt 1150 (main post office 1150)</rs>
+               </orgName>
                <placeName ref="#amp_place_id_1">Vienna</placeName>
                <date notBefore-iso="1969-05-22T00:00:00+01:00" notAfter-iso="1969-05-22T15:00:00+01:00">1969-05-22T00:00:00+01:00/1969-05-22T15:00:00+01:00</date>
             </correspAction>
             <correspAction type="transmitted">
-               <orgName ref="amp_organization_73">Hauptpostamt 1030 (main post office 1030)</orgName>
+               <orgName>
+                  <rs type="org" ref="#amp_organization_73">Hauptpostamt 1030 (main post office 1030)</rs>
+               </orgName>
                <placeName ref="#amp_place_id_1">Vienna</placeName>
                <date notBefore-iso="1969-05-22T14:00:01+01:00" notAfter-iso="1969-05-22T15:00:00+01:00">1969-05-22T14:00:01+01:00/1969-05-22T15:00:00+01:00</date>
             </correspAction>
@@ -114,6 +127,7 @@ for any purpose, even commercially.</p>
          <change who="smayer tfruehwirth" when="2021-10-11">transcriptions collated</change>
          <change who="smayer tfruehwirth" when="2022-03-16">transcription reviewed, `space` element and `hand` attributes added, date format in `origDate` and `correspAction`/`date` modified</change>
          <change who="dgrigoriou smayer tfruehwirth" when="2023-02-21">entities and correspDesc collated</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2024-01-09">entities updated, events created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -132,9 +146,9 @@ for any purpose, even commercially.</p>
    </facsimile>
    <text type="letter" hand="#handwritten">
       <body>
-         <div type="transcription" xml:id="transcription_amp_0014">
+         <div type="transcription" xml:id="transcription_amp_0014" xml:lang="en">
             <div type="envelope">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0063/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0063/" type="envelope" ed="1r"/>
                <ab>
                   <hi rend="underline">Express</hi>
                </ab>
@@ -143,7 +157,7 @@ for any purpose, even commercially.</p>
                   <rs type="event" ref="#amp_event_id_7">royal visi<unclear>t</unclear>
                   </rs> .<unclear>"</unclear>
                </ab>
-               <ab>
+               <ab xml:lang="de">
                   <rs type="person" ref="#amp_person_2">Die Baronin<lb/>
                   Stella Musuli<unclear>m</unclear>
                   </rs>
@@ -153,30 +167,32 @@ for any purpose, even commercially.</p>
                      Neulinggasse 26/14</rs>
                   </address>
                </ab>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0064/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0064/" type="envelope" ed="1v"/>
                <ab>
                   <rs type="person" ref="#amp_person_1">W<unclear>H.</unclear> Auden</rs>
                   <lb/>
                   <seg type="#printed">
-                     <address>
+                     <address xml:lang="de">
                         <rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN, BEZ. ST. PÖLTEN<lb/>
                         HINTERHOLZ 6<lb/>
-                        N.-Ö., AUSTRIA</rs>
+                        N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign>
+                        </rs>
                      </address>
                   </seg>
                </ab>
             </div>
             <div type="letter">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0065/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0065/" type="sheet" ed="2r"/>
                <div type="letter_message">
                   <opener>
                      <dateline>
                         <placeName>
                            <seg hand="#printed">
-                              <address>
+                              <address xml:lang="de">
                                  <rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN, BEZ. ST. PÖLTEN<lb/>
                                  HINTERHOLZ 6<lb/>
-                                 N.-Ö., AUSTRIA</rs>
+                                 N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign>
+                                 </rs>
                               </address>
                            </seg>
                         </placeName>
@@ -190,14 +206,18 @@ for any purpose, even commercially.</p>
                      </salute>
                   </opener>
                   <p>
-                     Ma<unclear>n</unclear>y thank f<unclear>o</unclear> your card<unclear>,</unclear> Had<lb/>
+                     Ma<unclear>n</unclear>y thank f<unclear>o</unclear>
+                     <rs type="event" ref="#amp_event_id_94">your card</rs>
+                     <unclear>,</unclear>
+                     <rs type="event" ref="#amp_event_id_95">Had<lb/>
                      tried several <unclear>ti</unclear>mes t<unclear>o</unclear> reach you<lb/>
-                     by phone,but w<unclear>ithou</unclear>t succ<unclear>e</unclear>ss  
+                     by phone,but w<unclear>ithou</unclear>t succ<unclear>e</unclear>ss</rs>
                   </p>
                   <p>
-                     Wed<unclear>n</unclear>esday <del>lunch</del> May 28th is fine<lb/>
+                     <rs type="event" ref="#amp_event_id_22" ana="acdh:amp-transcript__0053.xml#ana_024">Wed<unclear>n</unclear>esday <del>lunch</del> May 28th is fine<lb/>
                      for <rs type="person" ref="#amp_person_1 #amp_person_4">us</rs>,and we shall much look<lb/>
                      forward to seeing you <rs type="person" ref="#amp_person_2 #amp_person_54">both</rs>
+                     </rs>
                      <unclear>-</unclear>
                   </p>
                   <p>
@@ -214,7 +234,7 @@ for any purpose, even commercially.</p>
                      </signed>
                   </closer>
                </div>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0066/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0066/" type="sheet" ed="2v"/>
             </div>
          </div>
       </body>

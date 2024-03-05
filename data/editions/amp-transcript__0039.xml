@@ -6,16 +6,19 @@
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-04-28 and with Typescript W. H. Auden Translation "Joseph Weinheber"</title>
             <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
+            <author ref="https://id.acdh.oeaw.ac.at/emusulin">Musulin, Elsa von</author>
+            <!-- point to ana="acdh:amp-transcript__0002.xml#ana_027" at some point, either author or hand -->
+            <author ref="https://d-nb.info/gnd/117542784">Mayer, Elizabeth</author>
             <editor>
                <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
                <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
                <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
-               <name>FWF Austrian Science Fund</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Vienna</postCode>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
                   <placeName>
                      <country>A</country>
                      <settlement>Vienna</settlement>
@@ -29,21 +32,14 @@
                <interpGrp>
                   <interp xml:id="ana_009" source="ph_009"><!-- link to nanopub -->
                      <desc>
-                        The Berg Collection of the New York Public Library (W. H. Auden Collection of Papers 1809-1979, Folder 18, 69 ALS, etc. to Elizabeth Mayer) includes a letter sent to <rs type="person" ref="#amp_person_157">Mayer</rs> by <rs type="person" ref="#amp_person_1">Auden</rs> from <rs type="place" ref="#amp_place_id_19">Berlin</rs> on 1 March 1965, which contains an early typescript, with manuscript revisions and notes, of his poem "<rs type="lit_work" ref="#lit_work_id_60">Joseph Weinheber</rs>". In the letter, he asks Mayer for a "literal prose translation into German, stanza by stanza, which I can have mimeographed ..." He intended the copies of this translation to be handed out to the audience of the <rs type="event" ref="#amp_event_id_49">Kirchstetten commemorative event on the occasion of the twentieth anniversary of Josef Weinheber's death</rs>.
+                        The Berg Collection of the New York Public Library (W. H. Auden Collection of Papers 1809-1979, Folder 18, 69 ALS, etc. to Elizabeth Mayer) includes a letter sent to <rs type="person" ref="#amp_person_157">Mayer</rs> by <rs type="person" ref="#amp_person_1">Auden</rs> from <rs type="place" ref="#amp_place_id_19">Berlin</rs> on 1 March 1965, which contains an early typescript, with manuscript revisions and notes, of his poem <rs type="lit_work" ref="#lit_work_id_60">"Joseph Weinheber"</rs>. In the letter, he asks Mayer for a "literal prose translation into German, stanza by stanza, which I can have mimeographed ..." He intended the copies of this translation to be handed out to the audience of the <rs type="event" ref="#amp_event_id_49">Kirchstetten commemorative event on the occasion of the twentieth anniversary of Josef Weinheber's death</rs>.
                         <listEvent>
-                           <event notBefore-iso="1965-03-01T00:00:00+01:00" notAfter-iso="1965-03-01T23:59:59+01:00" type="communicative" subtype="letter"><!-- do we need event entity id? -->
-                              <listPerson>
-                                 <person>
-                                    <persName role="sender" ref="#amp_person_1"/>
-                                 </person>
-                                 <person>
-                                    <persName role="receiver" ref="#amp_person_157"/>
-                                 </person>
-                              </listPerson>
+                           <event ref="acdh:amp-index-events.xml#amp_event_id_104">
+                              <label>Letter W. H. Auden to Elizabeth Mayer 1965-03-01</label>
                               <bibl>
                                  <msIdentifier>
-                                    <country ref="#amp_place_id_15">US</country>
-                                    <settlement ref="#amp_place_id_28">New York City</settlement>
+                                    <country ref="acdh:amp-index-places.xml#amp_place_id_15"/>
+                                    <settlement ref="acdh:amp-index-places.xml#amp_place_id_28"/>
                                     <repository>New York Public Library</repository>
                                     <collection>W. H. Auden collection of papers 1809-1979</collection>
                                     <idno>69 ALS, etc. to Elizabeth Mayer. Folder 18</idno>
@@ -51,6 +47,26 @@
                               </bibl>
                            </event>
                         </listEvent>
+                     </desc>
+                     <respons resp="dgrigoriou smayer tfruehwirth" locus="value"/>
+                     <certainty cert="high" locus="value"/>
+                  </interp>
+                  <interp source="ph_022" xml:id="ana_022">
+                     <desc>
+                        The <rs type="lit_work" ref="#lit_work_id_169">poem</rs> was published under the title "Ephithalamium" and dedicated to <rs type="person" ref="#amp_person_1">W. H. Auden</rs>'s niece Rita Auden and Peter Mudford on the occasion of their wedding on 15 May 1965.
+                        <bibl>
+                           <author ref="acdh:amp-index-persons.xml#amp_person_98"/>
+                           <title level="a">Textual Notes</title>
+                           <title level="m">Poems: Volume II: 1940-1973</title>
+                           <title level="s">The Complete Works of W. H. Auden</title>
+                           <editor ref="acdh:amp-index-persons.xml#amp_person_98"/>
+                           <publisher>Princeton University Press</publisher>
+                           <pubPlace>Princeton</pubPlace>
+                           <date when-iso="2022"/>
+                           <idno type="ISBN">978-0-691-21930-1</idno>
+                           <biblScope unit="page" from="782" to="1094"/>
+                           <citedRange unit="page" from="1027" to="1027"/>
+                        </bibl>
                      </desc>
                      <respons resp="dgrigoriou smayer tfruehwirth" locus="value"/>
                      <certainty cert="high" locus="value"/>
@@ -65,7 +81,7 @@
             </respStmt>
             <respStmt>
                <resp>Generation of computer-vision visualizations</resp>
-               <name xml:id="sbrenner" ref="https://orcid.org/0000-0002-2915-5888">Brenner, Simon</name>
+               <name xml:id="sbrenner" ref="https://orcid.org/0000-0001-6909-7099">Brenner, Simon</name>
             </respStmt>
             <respStmt>
                <resp>TEI Schema, ODD/RNG</resp>
@@ -115,6 +131,13 @@ for any purpose, even commercially.</p>
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+               <p>Edition Documents Prefix</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -122,7 +145,9 @@ for any purpose, even commercially.</p>
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <orgName ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</orgName>
+               <orgName>
+                  <rs type="org" ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</rs>
+               </orgName>
                <placeName ref="#amp_place_id_5">Kirchstetten</placeName>
                <date notBefore-iso="1965-04-28T17:00:01+01:00" notAfter-iso="1965-04-28T18:00:00+01:00">1965-04-28T17:00:01+01:00/1965-04-28T18:00:00+01:00</date>
             </correspAction>
@@ -180,7 +205,7 @@ for any purpose, even commercially.</p>
       <body>
          <div type="transcription" xml:id="transcription_amp_0039" xml:lang="en">
             <div type="envelope" xml:lang="de">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0013/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0013/" type="envelope" ed="1r"/>
                <ab hand="#handwritten">
                   <rs type="person" ref="#amp_person_2">Die Baronin<lb/>
                   Stella Musulin</rs>
@@ -195,7 +220,7 @@ for any purpose, even commercially.</p>
                      N.Ö.</rs>
                   </address>
                </ab>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0014/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0014/" type="envelope" ed="1v"/>
                <ab hand="#handwritten">
                   <rs type="person" ref="#amp_person_1">W<unclear>.</unclear>H<unclear>.</unclear> Auden</rs>
                   <lb/>
@@ -208,119 +233,119 @@ for any purpose, even commercially.</p>
                </ab>
             </div>
             <div type="letter">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0009/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0009/" type="sheet" ed="2r"/>
                <div type="poem">
                   <head>
-                     <space extent="undefined quantity of characters plus minimum" min="5" unit="char"/>
+                     <space extent="undefined quantity of characters plus minimum" min="6" unit="char"/>
                      <rs type="lit_work" ref="#lit_work_id_62">
                         <rs type="person" ref="#amp_person_5">
                            <hi rend="underline">JOSEPH WEINHEBER</hi>
                            <lb/>
-                           <space extent="undefined quantity of characters plus minimum" min="7" unit="char"/>(<hi rend="underline">I892-I945)</hi>
+                           <space extent="undefined quantity of characters plus minimum" min="8" unit="char"/>(<hi rend="underline">I892-I945)</hi>
                         </rs>
                      </rs>
                   </head>
                   <lg>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>Reaching my gate a narrow</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>Lane from the village</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>Passes on into a wood:</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>When I walk that way,</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>It seems befitting to stop</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>And look through the fence</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>Of your garden where(under</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>The circs they had to)</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>They buried you like a loved</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>Old family dog.</l>
                   </lg>
                   <lg>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>Categorised enemies</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>Twenty years ago,</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>Now next-door neighbors,we might</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>Have become good friends,</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>Sharing a common ambit</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>And love of the word,</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>Over a golden Kremser</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>Had many a long</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>Language on syntax,commas,</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>Versification.</l>
                   </lg>
                   <lg>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>Yes,yes,it has to be said:</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>Men of great damage</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>And malengine took you up.</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>Did they for long,though,</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>Take you in,who to <rs type="person" ref="#amp_person_196">Goebbel<del>l</del>s</rs>'</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>Offer of culture</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>Countered <hi rend="underline">
                            <foreign xml:lang="de">In Ruah lassen</foreign>
                         </hi>!?</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>But Rag,Tag,Bobtail</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>Prefer a stink,and the young</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>Condemn you unread.</l>
                   </lg>
                   <lg>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>What,had you ever heard of <space quantity="1" unit="char"/>etc</l>
                   </lg>
                   <ab hand="#handwritten">
@@ -366,10 +391,10 @@ for any purpose, even commercially.</p>
                         <rs type="person" ref="#amp_person_1">Wystan</rs>.</signed>
                   </closer>
                </div>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0010/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0010/" type="sheet" ed="2v"/>
             </div>
             <div type="enclosure">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0139/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0139/" type="sheet" ed="3r"/>
                <div type="prose_translation" xml:lang="de">
                   <head>
                      <space quantity="26" unit="char"/>
@@ -517,13 +542,15 @@ for any purpose, even commercially.</p>
                      I<unclear>s</unclear> that right<unclear>?</unclear>
                   </ab>
                </div>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0459/" type="cv_sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0459/" type="cv_sheet" ed="3r-cv"/>
                <div type="poem">
                   <lg>
                      <lb/>
                      <space quantity="1" unit="char"/>
                      <l>
-                        <unclear>A</unclear>ll folk-t<unclear>a</unclear>les mean that end with</l>
+                        <rs type="lit_work" ref="#lit_work_id_168" ana="#ana_022">
+                           <unclear>A</unclear>ll folk-t<unclear>a</unclear>les mean that end with</rs>
+                     </l>
                      <lb/>
                      <space quantity="4" unit="char"/>
                      <l>A palace wed<unclear>d</unclear>ing,</l>
@@ -715,8 +742,8 @@ for any purpose, even commercially.</p>
                         <gap quantity="1" unit="char" reason="illegible"/>ermi<gap quantity="1" unit="char" reason="illegible"/>n <gap quantity="1" unit="char" reason="illegible"/>urg<unclear>e</unclear>s.</l>
                   </lg>
                </div>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0140/" type="sheet"/>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0460/" type="cv_sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0140/" type="sheet" ed="3v"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0460/" type="cv_sheet" ed="3v-cv"/>
             </div>
          </div>
       </body>

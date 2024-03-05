@@ -12,10 +12,10 @@
                <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
-               <name>FWF Austrian Science Fund</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Vienna</postCode>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
                   <placeName>
                      <country>A</country>
                      <settlement>Vienna</settlement>
@@ -24,7 +24,9 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>AMP</edition>
+            <edition>
+               <title>Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark Bewölkt" 1971-10-19</title>
+            </edition>
             <respStmt>
                <resp>Transcription and commentary</resp>
                <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
@@ -79,6 +81,13 @@ for any purpose, even commercially.</p>
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+               <p>Edition Documents Prefix</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -86,7 +95,9 @@ for any purpose, even commercially.</p>
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <orgName ref="#amp_organization_83">St John's Wood district office</orgName>
+               <orgName>
+                  <rs type="org" ref="#amp_organization_83">St John's Wood district office</rs>
+               </orgName>
                <placeName ref="#amp_place_id_56">London</placeName>
                <date notBefore-iso="1971-10-19T14:00:01+00:00" notAfter-iso="1971-10-19T14:29:59+00:00">1971-10-19T14:00:01+00:00/1971-10-19T14:29:59+00:00</date>
             </correspAction>
@@ -113,6 +124,7 @@ for any purpose, even commercially.</p>
          <change who="smayer tfruehwirth" when="2022-03-15">transcription reviewed, `space` element and `hand` attributes added, date format in `origDate` and `correspAction`/`date` modified</change>
          <change who="dgrigoriou smayer tfruehwirth" when="2023-02-21">entities and correspDesc collated</change>
          <change who="dgrigoriou" when="2023-08-17">container structure updated</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2024-01-17">entities updated, events created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -131,30 +143,31 @@ for any purpose, even commercially.</p>
    </facsimile>
    <text type="letter" hand="#handwritten">
       <body>
-         <div type="transcription" xml:id="transcription_amp_0018">
+         <div type="transcription" xml:id="transcription_amp_0018" xml:lang="en">
             <div type="envelope">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0087/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0087/" type="envelope" ed="1r"/>
                <ab>
                   Air<unclear>_</unclear>Mail
                </ab>
                <ab>
-                  <rs type="lit_work" ref="#lit_work_id_43">Poem</rs> dedicated to <rs type="person" ref="#amp_person_2">S<unclear>_</unclear>M<unclear>_</unclear>
+                  <rs type="lit_work" ref="#lit_work_id_165">Poem</rs> dedicated to <rs type="person" ref="#amp_person_2">S<unclear>_</unclear>M<unclear>_</unclear>
                   </rs>
                </ab>
-               <ab>
+               <ab xml:lang="de">
                   <rs type="person" ref="#amp_person_2">Die Baro<unclear>n</unclear>in<lb/>
                   Stella Musulin</rs>
                   <lb/>
                   <address>
                      <rs type="place" ref="#amp_place_id_11">Wien <del>IV</del> 1030<lb/>
                      Neulinggasse 26/14<lb/>
-                     Austria</rs>
+                        <foreign xml:lang="en">Austria</foreign>
+                     </rs>
                   </address>
                </ab>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0088/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0088/" type="envelope" ed="1v"/>
             </div>
             <div type="letter">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0089/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0089/" type="sheet" ed="2r"/>
                <div type="letter_message">
                   <opener>
                      <dateline>
@@ -196,7 +209,7 @@ for any purpose, even commercially.</p>
                      </hi>
                   </p>
                   <p>
-                     Return to <rs type="place" ref="#amp_place_id_28">New York</rs> on N<unclear>Ov</unclear> 1st.
+                     <rs type="event" ref="#amp_event_id_101">Return to <rs type="place" ref="#amp_place_id_28">New York</rs> on N<unclear>Ov</unclear> 1st</rs>.
                   </p>
                   <closer>
                      <salute>love</salute>
@@ -206,12 +219,14 @@ for any purpose, even commercially.</p>
                      </signed>
                   </closer>
                </div>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0090/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0090/" type="sheet" ed="2v"/>
                <div type="poem" hand="#typed">
                   <head>
                      <space quantity="26" unit="char"/>
                      <rs type="lit_work" ref="#lit_work_id_43">
-                        <hi rend="underline">STARK BEW<unclear>Ö</unclear>LKT</hi>
+                        <hi rend="underline">
+                           <foreign xml:lang="de">STARK BEW<unclear>Ö</unclear>LKT</foreign>
+                        </hi>
                      </rs>
                      <lb/>
                      <space quantity="22" unit="char"/>(<hi rend="underline">for <rs type="person" ref="#amp_person_2">Stella Musulin</rs>
@@ -320,21 +335,27 @@ for any purpose, even commercially.</p>
                      <lb/>
                      <l>to draw such disapproval?</l>
                      <lb/>
-                     <l>The <hi rend="underline">Beamterei</hi>,it's true,</l>
+                     <l>The <hi rend="underline">
+                           <foreign xml:lang="de">Beamterei</foreign>
+                        </hi>,it's true,</l>
                      <lb/>
                      <l>is as awful as ever,</l>
                      <lb/>
                      <l>the drivers are dangerous,</l>
                      <lb/>
                      <l>standards at the <rs type="place" ref="#amp_place_id_157">
-                           <hi rend="underline">Staatsoper</hi>
+                           <hi rend="underline">
+                              <foreign xml:lang="de">Staatsoper</foreign>
+                           </hi>
                         </rs>
                      </l>
                      <lb/>
                      <l>steadily decline each year,</l>
                      <lb/>
                      <l>and <hi rend="underline">
-                           <rs type="place" ref="#amp_place_id_1">Wien</rs>
+                           <rs type="place" ref="#amp_place_id_1">
+                              <foreign xml:lang="de">Wien</foreign>
+                           </rs>
                         </hi>'s become provincial</l>
                      <lb/>
                      <l>compared to the pride she was.</l>

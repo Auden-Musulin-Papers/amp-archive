@@ -5,16 +5,17 @@
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Photograph [Stella Musulin] of Edward Mendelson, Sonia Orwell, Charles Osborne, David Luke, Lisa Clark, Thekla Clark, Marny Yates, Michael Yates, Hella Bronold, Wolfgang Kraus, and Friedrich Heer at W. H. Auden's Funeral 1973-10-04</title>
+            <author ref="https://d-nb.info/gnd/127246711">Musulin, Stella</author>
             <editor>
                <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
                <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
                <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
-               <name>FWF Austrian Science Fund</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Vienna</postCode>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
                   <placeName>
                      <country>A</country>
                      <settlement>Vienna</settlement>

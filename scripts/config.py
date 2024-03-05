@@ -93,17 +93,32 @@ def custom_function(subject_uri, doc) -> dict:
                     except IndexError:
                         facs = False
                     if facs and facs in subject_uri:
-                        object_uri["hasAccessRestrictions"] = f"{vocabs_ns}/archeaccessrestrictions/public"
+                        object_uri["hasAccessRestriction"] = f"{vocabs_ns}/archeaccessrestrictions/public"
                         object_uri["hasLicense"] = f"{vocabs_ns}/archelicenses/inc"
                     else:
-                        object_uri["hasAccessRestrictions"] = f"{vocabs_ns}/archeaccessrestrictions/public"
+                        object_uri["hasAccessRestriction"] = f"{vocabs_ns}/archeaccessrestrictions/public"
                         object_uri["hasLicense"] = f"{vocabs_ns}/archelicenses/cc-by-4-0"
                 elif status == "free":
-                    object_uri["hasAccessRestrictions"] = f"{vocabs_ns}/archeaccessrestrictions/public"
+                    object_uri["hasAccessRestriction"] = f"{vocabs_ns}/archeaccessrestrictions/public"
                     object_uri["hasLicense"] = f"{vocabs_ns}/archelicenses/cc-by-4-0"
             else:
-                object_uri["hasAccessRestrictions"] = f"{vocabs_ns}/archeaccessrestrictions/public"
+                object_uri["hasAccessRestriction"] = f"{vocabs_ns}/archeaccessrestrictions/public"
                 object_uri["hasLicense"] = f"{vocabs_ns}/archelicenses/cc-by-4-0"
+    default_rights = [
+        "amp_0001"
+    ]
+    other_rights = [
+        "amp_0002"
+    ]
+    subject_uri_split = subject_uri.split("/")[-1].split(".")[0]
+    if subject_uri_split in default_rights:
+        object_uri["hasRightsHolder"] = ["some-uri", "another-uri"]
+        object_uri["hasLicensor"] = ["some-uri", "another-uri"]
+        object_uri["hasOwner"] = ["some-uri", "another-uri"]
+    elif subject_uri_split in other_rights:
+        object_uri["hasRightsHolder"] = ["some-uri", "another-uri"]
+        object_uri["hasLicensor"] = ["some-uri", "another-uri"]
+        object_uri["hasOwner"] = ["some-uri", "another-uri"]
     return object_uri
 
 
@@ -120,7 +135,7 @@ USER_CONFIG = {
             "hasAuthor": "//tei:titleStmt/tei:author[@ref]/@ref"
         },
         "static_values": {
-            "hasAccessRestrictions": "https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public",
+            "hasAccessRestriction": "https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public",
             "hasCategory": "https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei",
             "isPartOf": "https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition",
         },
@@ -175,10 +190,10 @@ USER_CONFIG = {
             "hasCreator": "//tei:titleStmt/tei:author[@ref]/@ref"
         },
         "static_values": {
-            "hasAccessRestrictions": "https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public",
+            "hasAccessRestriction": "https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public",
             "hasCategory": "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
             "hasPid": "create",
-            "hasLincense": "https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0",
+            "hasLicense": "https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0",
             "isPartOf": "https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles"
         },
         "vocabs_lookup": {
@@ -187,7 +202,7 @@ USER_CONFIG = {
                 "prefix": False,
                 "custom_suffix": False
             },
-            "hasAccessRestrictions": {
+            "hasAccessRestriction": {
                 "lang": LANG_SPECIAL_TOKEN,
                 "prefix": False,
                 "custom_suffix": False
@@ -253,7 +268,7 @@ USER_CONFIG = {
                 "prefix": False,
                 "custom_suffix": False
             },
-            "hasAccessRestrictions": {
+            "hasAccessRestriction": {
                 "lang": LANG_SPECIAL_TOKEN,
                 "prefix": False,
                 "custom_suffix": False
@@ -290,7 +305,7 @@ USER_CONFIG = {
             "hasTitle": "//tei:titleStmt/tei:title[1]"
         },
         "static_values": {
-            "hasAccessRestrictions": "https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public",
+            "hasAccessRestriction": "https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public",
             "hasCategory": "https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei",
             "isPartOf": "https://id.acdh.oeaw.ac.at/auden-musulin-papers/indexes",
             "hasPid": "create"

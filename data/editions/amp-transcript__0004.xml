@@ -12,10 +12,10 @@
                <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
-               <name>FWF Austrian Science Fund</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Vienna</postCode>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
                   <placeName>
                      <country>A</country>
                      <settlement>Vienna</settlement>
@@ -29,15 +29,37 @@
                <interpGrp>
                   <interp xml:id="ana_010" source="ph_010"><!-- link to nanopub -->
                      <desc>
-                        In his <rs type="lit_work" ref="#lit_work_id_39">W. H. Auden: A Biography</rs>, <rs type="person" ref="#amp_person_100">Humphrey Carpenter</rs> reports that "[i]n about 1968 Auden began to look round for another composer with whom to write an opera" (428). <rs type="person" ref="#amp_person_19">Peter Heyworth</rs> arranged a meeting with composer <rs type="person" ref="#amp_person_234">Harrison Birtwistle</rs>, but nothing came of the intended collaboration. In <rs type="lit_work" ref="#lit_work_id_159">a 2014 interview</rs>, Birtwistle recalls that "[h]e was once approached by WH Auden, who wanted to write an operatic version of <rs type="lit_work" ref="#lit_work_id_6">Love's Labour's Lost</rs> with him", but refused. Auden and <rs type="person" ref="#amp_person_4">Kallman</rs> eventually realized <rs type="lit_work" ref="#lit_work_id_19">the project</rs> in collaboration with <rs type="person" ref="#amp_person_207">Nicolas Nabokov</rs>.
+                        In his <hi rend="italic">
+                           <rs type="lit_work" ref="#lit_work_id_39">W. H. Auden: A Biography</rs>
+                        </hi>, <rs type="person" ref="#amp_person_100">Humphrey Carpenter</rs> reports that "[i]n about 1968 Auden began to look round for another composer with whom to write an opera" (428). <rs type="person" ref="#amp_person_19">Peter Heyworth</rs> arranged a meeting with composer <rs type="person" ref="#amp_person_234">Harrison Birtwistle</rs>, but nothing came of the intended collaboration. In a <rs type="lit_work" ref="#lit_work_id_159">2014 interview</rs>, Birtwistle recalls that "[h]e was once approached by WH Auden, who wanted to write an operatic version of <rs type="lit_work" ref="#lit_work_id_6">Love's Labour's Lost</rs> with him", but refused. Auden and <rs type="person" ref="#amp_person_4">Kallman</rs> eventually realized <rs type="lit_work" ref="#lit_work_id_19">the project</rs> in collaboration with <rs type="person" ref="#amp_person_207">Nicolas Nabokov</rs>.
                         <listPerson>
                            <person>
-                              <persName ref="#amp_person_234"/>
+                              <persName ref="acdh:amp-index-persons.xml#amp_person_234"/>
                            </person>
                         </listPerson>
                         <listBibl>
-                           <bibl sameAs="#lit_work_id_39"/>
-                           <bibl sameAs="#lit_work_id_159"/>
+                           <bibl>
+                              <author ref="acdh:amp-index-persons.xml#amp_person_100"/>
+                              <title>W. H. Auden: A Biography</title>
+                              <publisher>George Allen &amp; Unwin</publisher>
+                              <pubPlace ref="acdh:amp-index-places.xml#amp_place_id_56"/>
+                              <date when-iso="1981"/>
+                              <idno type="ISBN">0-04-928044-9</idno>
+                              <citedRange unit="page" from="428" to="428"/>
+                           </bibl>
+                           <bibl source="https://www.telegraph.co.uk/culture/books/ways-with-words/10963821/Harrison-Birtwistle-Writing-music-is-like-knitting.html">
+                              <author ref="acdh:amp-index-persons.xml#amp_person_234"/>
+                              <author>
+                                 <persName>
+                                    <surname>Rahim</surname>
+                                    <forename>Sameer</forename>
+                                 </persName>
+                              </author>
+                              <title>Harrison Birtwistle: Writing Music is Like Knitting</title>
+                              <orgName>The Telegraph</orgName>
+                              <pubPlace ref="acdh:amp-index-places.xml#amp_place_id_56"/>
+                              <date when-iso="2014-07-12"/>
+                           </bibl>
                         </listBibl>
                      </desc>
                      <respons resp="dgrigoriou smayer tfruehwirth" locus="value"/>
@@ -99,6 +121,13 @@ for any purpose, even commercially.</p>
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+               <p>Edition Documents Prefix</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -106,7 +135,9 @@ for any purpose, even commercially.</p>
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <orgName ref="#amp_organization_85">United States General Post Office</orgName>
+               <orgName>
+                  <rs type="org" ref="#amp_organization_85">United States General Post Office</rs>
+               </orgName>
                <placeName ref="#amp_place_id_28">New York City</placeName>
                <date notBefore-iso="1966-02-03T12:00:00-05:00" notAfter-iso="1966-02-03T23:59:59-05:00">1966-02-03T12:00:00-05:00/1966-02-03T23:59:59-05:00</date>
             </correspAction>
@@ -151,7 +182,7 @@ for any purpose, even commercially.</p>
       <body>
          <div type="transcription" xml:id="transcription_amp_0004" xml:lang="en">
             <div type="envelope">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0019/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0019/" type="envelope" ed="1r"/>
                <ab>
                   <rs type="person" ref="#amp_person_1">W.H.Auden</rs>
                   <lb/>
@@ -179,10 +210,10 @@ for any purpose, even commercially.</p>
                      </rs>
                   </address>
                </ab>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0020/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0020/" type="envelope" ed="1v"/>
             </div>
             <div type="letter">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0021/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0021/" type="sheet" ed="2r"/>
                <div type="letter_message">
                   <opener>
                      <dateline>
@@ -203,7 +234,8 @@ for any purpose, even commercially.</p>
                   </opener>
                   <p>
                      <space quantity="7" unit="char"/>Many thanks for <rs type="event" ref="#amp_event_id_76">your nice long letter</rs>. <rs type="person" ref="#amp_person_8">Stephen</rs> has a genius for<lb/>
-                     <space quantity="4" unit="char"/>subtle misrepresentation. "Serious insistence on unseriousness'<lb/>
+                     <space quantity="4" unit="char"/>subtle misrepresentation. <quote source="#lit_work_id_157">"Serious insistence on unseriousness'</quote>
+                     <lb/>
                      <space quantity="4" unit="char"/>telescopes two <del>cnvictuons</del>distinct convictions of mine,falsifying both.
                </p>
                   <p>
@@ -217,6 +249,7 @@ for any purpose, even commercially.</p>
                   </seg>
                      <seg>
                         <seg>
+                           <lb/>
                            <space quantity="4" unit="char"/>2) I believe that the only way in which,to-day at any rate,one can<lb/>
                            <space quantity="7" unit="char"/>speak <del>seroiu</del>
                            <del>s eriously</del>
@@ -229,6 +262,7 @@ for any purpose, even commercially.</p>
                            <space quantity="6" unit="char"/>between man and God,occasions for humorous expression.
                      </seg>
                         <seg>
+                           <lb/>
                            <space quantity="7" unit="char"/>e.g,: "If the rich could hire other people to die for them,the poor<lb/>
                            <space quantity="5" unit="char"/>cou<del>o</del>ld make a wonderful living", or "Truth rests with God alone,and<lb/>
                            <space quantity="5" unit="char"/>a little bit with me",or "God will provide - ah,if only He wou<del>o</del>ld till<lb/>
@@ -254,7 +288,8 @@ for any purpose, even commercially.</p>
                   girl in astonishment:"You mean to say,he's still <hi rend="underline">alive</hi>!".
                </p>
                   <p>
-                     <space quantity="2" unit="char"/>Expect to get back to <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs> about April 20th.
+                     <space quantity="2" unit="char"/>
+                     <rs type="event" ref="#amp_event_id_86">Expect to get back to <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs> about April 20th</rs>.
                </p>
                   <closer>
                      <space quantity="21" unit="char"/>
@@ -265,7 +300,7 @@ for any purpose, even commercially.</p>
                   </signed>
                   </closer>
                </div>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0022/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0022/" type="sheet" ed="2v"/>
             </div>
          </div>
       </body>

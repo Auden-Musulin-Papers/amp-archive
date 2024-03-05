@@ -72,12 +72,14 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+      - name: Baserow Dump and TEI/XML Download
+        run: |
+          python scripts/baserow_dump.py
       - name: Adding attributes to TEI root node
         run: |
           ./shellscripts/add_attributes.sh
-      - name: Creating JSON Files and uploading Arche Schema to Baserow
+      - name: Creating ARCHE constants ttl file
         run: |
-          python scripts/baserow_dump.py
           python scripts/arche_constants.py
       - name: Commit data
         uses: stefanzweifel/git-auto-commit-action@v4

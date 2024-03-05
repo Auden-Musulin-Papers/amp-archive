@@ -12,10 +12,10 @@
                <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
-               <name>FWF Austrian Science Fund</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Vienna</postCode>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
                   <placeName>
                      <country>A</country>
                      <settlement>Vienna</settlement>
@@ -24,7 +24,9 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>AMP</edition>
+            <edition>
+               <title>Autograph Letter Signed W. H. Auden to Stella Musulin with Typescripts W. H. Auden "August 1968" and "Elegy" 1968-10-04</title>
+            </edition>
             <respStmt>
                <resp>Transcription and commentary</resp>
                <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
@@ -79,6 +81,13 @@ for any purpose, even commercially.</p>
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+               <p>Edition Documents Prefix</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -86,17 +95,23 @@ for any purpose, even commercially.</p>
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <orgName ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</orgName>
+               <orgName>
+                  <rs type="org" ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</rs>
+               </orgName>
                <placeName ref="#amp_place_id_5">Kirchstetten</placeName>
                <date notBefore-iso="1968-10-04T17:00:01+01:00" notAfter-iso="1968-10-04T18:00:00+01:00">1968-10-04T17:00:01+01:00/1968-10-04T18:00:00+01:00</date>
             </correspAction>
             <correspAction type="transmitted">
-               <orgName ref="#amp_organization_74">Hauptpostamt 1040 (main post office 1040)</orgName>
+               <orgName>
+                  <rs type="org" ref="#amp_organization_74">Hauptpostamt 1040 (main post office 1040)</rs>
+               </orgName>
                <placeName ref="#amp_place_id_1">Vienna</placeName>
                <date notBefore-iso="1968-10-05T11:00:01+01:00" notAfter-iso="1968-10-05T12:00:00+01:00">1968-10-05T11:00:01+01:00/1968-10-05T12:00:00+01:00</date>
             </correspAction>
             <correspAction type="redirected">
-               <orgName ref="#amp_organization_74">Hauptpostamt 1040 (main post office 1040)</orgName>
+               <orgName>
+                  <rs type="org" ref="#amp_organization_74">Hauptpostamt 1040 (main post office 1040)</rs>
+               </orgName>
                <placeName ref="#amp_place_id_1">Vienna</placeName>
             </correspAction>
             <correspAction type="received">
@@ -119,6 +134,7 @@ for any purpose, even commercially.</p>
          <change who="smayer tfruehwirth" when="2022-05-30">transcription reviewed, `space` element and `hand` attributes added, date format in `origDate` and `correspAction`/`date` modified</change>
          <change who="dgrigoriou smayer tfruehwirth" when="2023-02-28">entities and correspDesc collated</change>
          <change who="smayer tfruehwirth" when="2023-08-08">container structure updated</change>
+         <change who="smayer tfruehwirth" when="2024-01-02">entities updated, event created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -137,9 +153,9 @@ for any purpose, even commercially.</p>
    </facsimile>
    <text type="letter" hand="#typed">
       <body>
-         <div type="transcription" xml:id="transcription_amp_0042">
-            <div type="envelope">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0033/" type="envelope"/>
+         <div type="transcription" xml:id="transcription_amp_0042" xml:lang="en">
+            <div type="envelope" xml:lang="de">
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0033/" type="envelope" ed="1r"/>
                <ab hand="#handwritten">
                   <rs type="person" ref="#amp_person_2">Die Baronin<lb/>
                   S<del>
@@ -153,52 +169,53 @@ for any purpose, even commercially.</p>
                      Neulingasse 26</rs>
                   </address>
                </ab>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0034/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0034/" type="envelope" ed="1v"/>
                <ab hand="#printed">
                   <address>
                      <rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN, BEZ. ST. PÖLTEN<lb/>
                      HINTERHOLZ 6<lb/>
-                     N.-Ö., AUSTRIA</rs>
+                     N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign>
+                     </rs>
                   </address>
                </ab>
             </div>
             <div type="letter">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0103/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0103/" type="sheet" ed="2r"/>
                <div type="poem">
                   <head>
-                     <space extent="undefined quantity of characters plus minimum" min="7" unit="char"/>
+                     <space extent="undefined quantity of characters plus minimum" min="8" unit="char"/>
                      <rs type="lit_work" ref="#lit_work_id_88">
                         <hi rend="underline">AUGUST I<del>(</del>968</hi>
                      </rs>
                   </head>
                   <lg>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>The ogre does what ogres can,</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>Deeds quite impossible for man,</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>but one prize is beyond his reach:</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>The ogre cannot master Speech.</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>About a subjugated plain,</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>Among its desperate and slain,</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>The ogre stalks with hands on hips,</l>
                      <lb/>
-                     <space extent="undefined quantity of characters"/>
+                     <space extent="undefined quantity of characters" min="1" unit="char"/>
                      <l>While drivel gushes from his lips.</l>
                   </lg>
                   <ab>
-                     <space extent="undefined quantity of characters plus minimum" min="9" unit="char"/>___
+                     <space extent="undefined quantity of characters plus minimum" min="10" unit="char"/>___
                   </ab>
                </div>
                <div type="letter_message" hand="#handwritten">
@@ -209,7 +226,8 @@ for any purpose, even commercially.</p>
                      </salute>
                   </opener>
                   <p>
-                     Terribly sorry about <unclear>l</unclear>ast Sunday.<lb/>
+                     Terribly sorry about <rs type="event" ref="#amp_event_id_78">
+                        <unclear>l</unclear>ast Sunday</rs>.<lb/>
                      Since I had no idea whe<unclear>n</unclear> we should be<lb/>
                      a<unclear>b</unclear>le to get to you, I tho<unclear>u</unclear>g<unclear>ht</unclear> it was unfair<lb/>
                      to t<unclear>he</unclear> kitchen not to cancel.
@@ -227,7 +245,7 @@ for any purpose, even commercially.</p>
                      </signed>
                   </closer>
                </div>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0104/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0104/" type="sheet" ed="2v"/>
                <div type="poem">
                   <head>
                      <space quantity="4" unit="char"/>

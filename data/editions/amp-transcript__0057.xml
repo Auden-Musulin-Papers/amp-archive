@@ -12,10 +12,10 @@
                <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
-               <name>FWF Austrian Science Fund</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Vienna</postCode>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
                   <placeName>
                      <country>A</country>
                      <settlement>Vienna</settlement>
@@ -29,7 +29,8 @@
                <interpGrp>
                   <interp xml:id="ana_004" source="ph_004"><!-- link to nanopub -->
                      <desc>
-                        The postmark is illegible in the place where the month of dispatch is indicated; the day and the year can be deciphered as "25" and "61", respectively. The letter must have been sent between the months of April and October, when Auden was present in Kirchstetten, where the letter was posted.
+                        The postmark is illegible in the place where the month of dispatch is indicated; the day and the year can be deciphered as "25" and "61", respectively. The letter must have been sent between the months of April and October, when <rs type="person" ref="#amp_person_1">Auden</rs> was present in <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs>, where the letter was posted.
+                        <stamp>25<gap reason="illegible"/>61<unclear>.</unclear>13</stamp>
                      </desc>
                      <respons resp="dgrigoriou smayer tfruehwirth" locus="value"/>
                      <certainty cert="high" locus="value"/>
@@ -90,6 +91,13 @@ for any purpose, even commercially.</p>
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+               <p>Edition Documents Prefix</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -97,7 +105,9 @@ for any purpose, even commercially.</p>
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <orgName ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</orgName>
+               <orgName>
+                  <rs type="org" ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</rs>
+               </orgName>
                <placeName ref="#amp_place_id_5">Kirchstetten</placeName>
                <date notBefore-iso="1961-04-25T12:00:01+01:00" notAfter-iso="1961-10-25T18:00:00+01:00">1961-04-25T12:00:01+01:00/1961-10-25T18:00:00+01:00</date>
             </correspAction>
@@ -139,7 +149,7 @@ for any purpose, even commercially.</p>
       <body>
          <div type="transcription" xml:id="transcription_amp_0057" xml:lang="en">
             <div type="envelope">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0105/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0105/" type="envelope" ed="1r"/>
                <ab xml:lang="de">
                   <rs type="person" ref="#amp_person_2">Die Baronin<lb/>
                   Stella Mussolin</rs>
@@ -160,7 +170,7 @@ for any purpose, even commercially.</p>
                      N.Ö.</rs>
                   </address>
                </ab>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0106/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0106/" type="envelope" ed="1v"/>
                <ab>
                   <rs type="person" ref="#amp_person_1">W.H.Auden</rs>
                   <seg hand="#printed">

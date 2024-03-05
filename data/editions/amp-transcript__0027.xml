@@ -13,10 +13,10 @@
                <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
-               <name>FWF Austrian Science Fund</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Vienna</postCode>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
                   <placeName>
                      <country>A</country>
                      <settlement>Vienna</settlement>
@@ -83,6 +83,7 @@ for any purpose, even commercially.</p>
          <langUsage>
             <language ident="en">English</language>
             <language ident="de">German</language>
+            <language ident="fr">French</language>
          </langUsage>
       </profileDesc>
       <revisionDesc status="draft">
@@ -128,7 +129,7 @@ for any purpose, even commercially.</p>
    </facsimile>
    <text type="notes speech" hand="#typed">
       <body>
-         <div xml:id="transcription">
+         <div xml:id="transcription" xml:lang="en">
             <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0155/" type="sheet"/>
             <p hand="#handwritten">
                   Sunday <unclear>J</unclear>une 1<unclear>4t.</unclear>
@@ -167,9 +168,10 @@ for any purpose, even commercially.</p>
                   it
                </p>
             <p>
-               <space quantity="17" unit="char"/>Sehr vee<del>rh</del>hrter <rs type="person" ref="#amp_person_112">Herr Landeshauptman<unclear>n</unclear>
-               </rs>
-               <unclear>,</unclear>meine Damen und Herren:<lb/>
+               <space quantity="17" unit="char"/>
+               <foreign xml:lang="de">Sehr vee<del>rh</del>hrter <rs type="person" ref="#amp_person_112">Herr Landeshauptman<unclear>n</unclear>
+                  </rs>
+                  <unclear>,</unclear>meine Damen und Herren</foreign>:<lb/>
                <space quantity="10" unit="char"/>I hope you will pardon me if I speak somewhat personally. I do so,<lb/>
                   not out of vanity,but bec<del>ua</del>ause <space quantity="1" unit="char"/>I do <del>j</del>not wish to give the impression that I<lb/>
                   am attempting to lay down absolute laws which are valid for all. I give you my<lb/>
@@ -205,7 +207,7 @@ for any purpose, even commercially.</p>
                   is an imperative,that is to<unclear>´</unclear> say,one is not free to choose the object or the event<lb/>
                   that arouses it. Though every work of art is a secondary world,it cannot be<lb/>
                   constructed <hi rend="underline">ex nihilo</hi>,but is a selection from and a recombination of the contents of<lb/>
-                  the Primary World. Even the 'purest' poem,in the French Symboliste sense,is<lb/>
+                  the Primary World. Even the 'purest' poem,in the French <foreign xml:lang="fr">Symboliste</foreign> sense,is<lb/>
                   made of words which are not the poet's private property,but the communal creation<lb/>
                   of the linguistic group to whom he belongs,so that their meaning can be looked up<lb/>
                   in a dictionary.<lb/>
@@ -218,15 +220,19 @@ for any purpose, even commercially.</p>
                   only difference being that in the world of games one is free to decide what its<lb/>
                   laws shall be. But to all games as to real life,<rs type="person" ref="#amp_person_11">Goethe</rs>'s lines apply.
                </p>
-            <lg>
-               <l>
+            <quote source="#lit_work_id_170">
+               <lg xml:lang="de">
+                  <lb/>
                   <space quantity="14" unit="char"/>
-                  <hi rend="underline">In der Beschr<unclear>ä</unclear>nkung zeigt sich erst der Meister</hi>,</l>
-               <l>
+                  <l>
+                     <hi rend="underline">In der Beschr<unclear>ä</unclear>nkung zeigt sich erst der Meister</hi>,</l>
+                  <lb/>
                   <space quantity="14" unit="char"/>
-                  <hi rend="underline">Und d<del>s</del>as Gesetz nur kann uns Freiheit geben.</hi>
-               </l>
-            </lg>
+                  <l>
+                     <hi rend="underline">Und d<del>s</del>as Gesetz nur kann uns Freiheit geben.</hi>
+                  </l>
+               </lg>
+            </quote>
             <p hand="#handwritten">
                   Check<lb/>
                   Quote<lb/>
@@ -332,19 +338,21 @@ for any purpose, even commercially.</p>
                   Change colon to<lb/>
                   semi<unclear>.col</unclear>on ?
                </p>
-            <p>
-               <space quantity="12" unit="char"/>
-               <hi rend="underline">The truth is neither mine nor his nor another's;but belongs</hi>
-               <lb/>
-               <space quantity="12" unit="char"/>
-               <hi rend="underline">to us all whom Thou callest to partake of it: warning us</hi>
-               <lb/>
-               <space quantity="12" unit="char"/>
-               <hi rend="underline">terribly,not to account it private to ourselves,lest we be</hi>
-               <lb/>
-               <space quantity="12" unit="char"/>
-               <hi rend="underline">deprived of it.</hi>
-            </p>
+            <quote source="#lit_work_id_171">
+               <p>
+                  <space quantity="12" unit="char"/>
+                  <hi rend="underline">The truth is neither mine nor his nor another's;but belongs</hi>
+                  <lb/>
+                  <space quantity="12" unit="char"/>
+                  <hi rend="underline">to us all whom Thou callest to partake of it: warning us</hi>
+                  <lb/>
+                  <space quantity="12" unit="char"/>
+                  <hi rend="underline">terribly,not to account it private to ourselves,lest we be</hi>
+                  <lb/>
+                  <space quantity="12" unit="char"/>
+                  <hi rend="underline">deprived of it.</hi>
+               </p>
+            </quote>
             <p hand="#handwritten">
                   Check qu<unclear>ot</unclear>e<lb/>
                   and<lb/>
@@ -430,32 +438,34 @@ for any purpose, even commercially.</p>
                   artists or critics,would do well to listen and <del>pknde </del> ponder over.
                </p>
             <p>
-               <space quantity="11" unit="char"/>
-               <hi rend="underline">In my youth the new music grew out of,and in reaction to,traditions</hi>,<lb/>
-               <space quantity="11" unit="char"/>
-               <hi rend="underline">whereas it appears to be evolving to-day as much from social needs</hi>
-               <lb/>
-               <space quantity="11" unit="char"/>
-               <hi rend="underline">as interior artistic ones...The status of <del>the</del> new music as a</hi>
-               <lb/>
-               <space quantity="11" unit="char"/>
-               <hi rend="underline">category is another incomparable. It had none at all in my early</hi>
-               <lb/>
-               <space quantity="12" unit="char"/>
-               <hi rend="underline">years,being in fact categorically opposed,and often with real</hi>
-               <lb/>
-               <space quantity="10" unit="char"/>
-               <hi rend="underline">hostility. But the unsuccess of composers o<del>n</del>f my generation at</hi>
-               <lb/>
-               <space quantity="10" unit="char"/>
-               <hi rend="underline">least kept them from trading on success,and our unsuccess may have</hi>
-               <lb/>
-               <space quantity="11" unit="char"/>
-               <hi rend="underline">been less insidious than the automatic superlatives which nowadays</hi>
-               <lb/>
-               <space quantity="10" unit="char"/>
-               <hi rend="underline">kill the new by absorbing it t<del>i</del>o de</hi>a<hi rend="underline">th.</hi>
-               <lb/>
+               <quote source="#lit_work_id_172">
+                  <space quantity="11" unit="char"/>
+                  <hi rend="underline">In my youth the new music grew out of,and in reaction to,traditions</hi>,<lb/>
+                  <space quantity="11" unit="char"/>
+                  <hi rend="underline">whereas it appears to be evolving to-day as much from social needs</hi>
+                  <lb/>
+                  <space quantity="11" unit="char"/>
+                  <hi rend="underline">as interior artistic ones...The status of <del>the</del> new music as a</hi>
+                  <lb/>
+                  <space quantity="11" unit="char"/>
+                  <hi rend="underline">category is another incomparable. It had none at all in my early</hi>
+                  <lb/>
+                  <space quantity="12" unit="char"/>
+                  <hi rend="underline">years,being in fact categorically opposed,and often with real</hi>
+                  <lb/>
+                  <space quantity="10" unit="char"/>
+                  <hi rend="underline">hostility. But the unsuccess of composers o<del>n</del>f my generation at</hi>
+                  <lb/>
+                  <space quantity="10" unit="char"/>
+                  <hi rend="underline">least kept them from trading on success,and our unsuccess may have</hi>
+                  <lb/>
+                  <space quantity="11" unit="char"/>
+                  <hi rend="underline">been less insidious than the automatic superlatives which nowadays</hi>
+                  <lb/>
+                  <space quantity="10" unit="char"/>
+                  <hi rend="underline">kill the new by absorbing it t<del>i</del>o de</hi>a<hi rend="underline">th.</hi>
+                  <lb/>
+               </quote>
                <space quantity="33" unit="char"/>***
                </p>
             <p hand="#handwritten">
@@ -470,16 +480,18 @@ for any purpose, even commercially.</p>
                   sourc<unclear>e</unclear> if possible
                </p>
             <p>
-               <space quantity="10" unit="char"/>
-               <hi rend="underline">The use of the new hardware naturally appears to the new musician</hi>
-               <lb/>
-               <space quantity="10" unit="char"/>a<hi rend="underline">s <del>"</del>'historically imperative<del>"</del>'; but music is made out of musical</hi>
-               <lb/>
-               <space quantity="10" unit="char"/>
-               <hi rend="underline">imperatives,and the awareness of historical processes is probably</hi>
-               <lb/>
-               <space quantity="10" unit="char"/>
-               <hi rend="underline">best left to future and different kinds of wage-earners</hi>.<lb/>
+               <quote source="#lit_work_id_172">
+                  <space quantity="10" unit="char"/>
+                  <hi rend="underline">The use of the new hardware naturally appears to the new musician</hi>
+                  <lb/>
+                  <space quantity="10" unit="char"/>a<hi rend="underline">s "historically imperative"; but music is made out of musical</hi>
+                  <lb/>
+                  <space quantity="10" unit="char"/>
+                  <hi rend="underline">imperatives,and the awareness of historical processes is probably</hi>
+                  <lb/>
+                  <space quantity="10" unit="char"/>
+                  <hi rend="underline">best left to future and different kinds of wage-earners</hi>.<lb/>
+               </quote>
                <space quantity="34" unit="char"/>***
                </p>
             <p hand="#handwritten">
@@ -501,13 +513,15 @@ for any purpose, even commercially.</p>
                   has only one political function. Since lang<del>i</del>uage is his medium,it is his duty,<lb/>
                   by his own example,to defend his <del>mot<del>eh</del>her</del>mothermother-tongue against corruption by demagogues,<lb/>
                   journalists,the mass-media,etc. As <rs type="person" ref="#amp_person_81">Karl Kraus<del>s</del>
-               </rs> said:<del>"</del>'D<hi rend="underline">ie Sprache ist die</hi>
-               <del>Muuet</del>
-               <lb/>
-               <space quantity="1" unit="char"/>
-               <hi rend="underline">Mutter,nicht das Magd,des <del>d</del>
-                  <del>g</del>Gedankens<del>"</del>
-               </hi>',and when language loses its meaning,<lb/>
+               </rs> said:<quote source="#lit_work_id_173">
+                  <del>"</del>'<foreign xml:lang="de">D<hi rend="underline">ie Sprache ist die</hi>
+                     <del>Muuet</del>
+                     <lb/>
+                     <space quantity="1" unit="char"/>
+                     <hi rend="underline">Mutter,nicht das Magd,des <del>d</del>
+                        <del>g</del>Gedankens<del>"</del>
+                     </hi>
+                  </foreign>'</quote>,and when language loses its meaning,<lb/>
                   its <del>palce</del> place is taken by violence. Of course,the poet may use political and<lb/>
                   social events as subject-matter for poems - they <unclear>a</unclear>re as much a part of human<lb/>
                   experience as love or nature - but he must never imagine that his poems have<lb/>
@@ -566,8 +580,8 @@ for any purpose, even commercially.</p>
                </p>
             <p>
                <space quantity="3" unit="char"/>What then,can the Arts do for us? In my opi<del>o</del>nion,they can do two things.<lb/>
-                  They can,as <rs type="person" ref="#amp_person_33">Dr Johns<del>t</del>on</rs> said,'enable us a little better to enjoy life or a<lb/>
-                  little better to <del>enjoy</del>endure it<del>"</del>'. And,<del>bec<unclear>aas</unclear>e</del> because they are objects <del>permant</del>
+                  They can,as <rs type="person" ref="#amp_person_33">Dr Johns<del>t</del>on</rs> said,<quote source="#lit_work_id_174">'enable us a little better to enjoy life or a<lb/>
+                  little better to <del>enjoy</del>endure it<del>"</del>'</quote>. And,<del>bec<unclear>aas</unclear>e</del> because they are objects <del>permant</del>
                <lb/>
                   permanently on hand in the world,they are the chief means by which the <del>lvi</del>
                <lb/>

@@ -12,10 +12,10 @@
                <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
-               <name>FWF Austrian Science Fund</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Vienna</postCode>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
                   <placeName>
                      <country>A</country>
                      <settlement>Vienna</settlement>
@@ -29,7 +29,30 @@
                <interpGrp>
                   <interp xml:id="ana_005" source="ph_005"><!-- link to nanopub -->
                      <desc>
-                        The date range has been delimited on the basis of research into the mention of "Easter" in relation to the indicated date of "16th April": 1962 is the first year in the Auden-Musulin correspondence in which the Easter weekend follows after the date of composition. Auden did not usually keep his acquaintances' correspondence (Colburn 2004: 240); the presence of this letter (the sole letter by Stella Musulin kept by Auden) among his papers might suggest a date of composition toward the end of Auden's life.
+                        The date range has been delimited on the basis of research into the mention of "Easter" in relation to the indicated date of "16th April": 1962 is the first year in the <rs type="person" ref="#amp_person_1">Auden</rs>-<rs type="person" ref="#amp_person_2">Musulin</rs> correspondence in which the Easter weekend follows after the date of composition. Auden did not usually keep his acquaintances' correspondence (Colburn, Nadia Herman. "Bibliographic Essay and Review of Auden Studies." <hi rend="italic">The Cambridge Companion to W. H. Auden</hi>, edited by Stan Smith, Cambridge UP, 2004 pp. 240-246, 240); the presence of this letter (the sole letter by Stella Musulin kept by Auden) among his papers might suggest a date of composition toward the end of Auden's life.
+                        <bibl>
+                           <author>
+                              <persName>
+                                 <surname>Colburn</surname>
+                                 <forename>Nadia</forename>
+                                 <forename>Herman</forename>
+                              </persName>
+                           </author>
+                           <title level="a">Bibliographic Essay and Review of Auden Studies</title>
+                           <title level="m">The Cambridge Companion to W. H. Auden</title>
+                           <editor>
+                              <persName>
+                                 <surname>Smith</surname>
+                                 <forename>Stan</forename>
+                              </persName>
+                           </editor>
+                           <publisher>Cambridge University Press</publisher>
+                           <pubPlace ref="acdh:amp-index-places.xml#amp_place_id_40"/>
+                           <date when-iso="2004"/>
+                           <idno type="ISBN">978-0-521-53647-9</idno>
+                           <biblScope unit="page" from="240" to="246"/>
+                           <citedRange unit="page" from="240" to="240"/>
+                        </bibl>
                      </desc>
                      <respons resp="dgrigoriou smayer tfruehwirth" locus="value"/>
                      <certainty cert="high" locus="value"/>
@@ -82,7 +105,7 @@ for any purpose, even commercially.</p>
                      <history>
                         <origin>
                            <origDate notBefore-iso="1962-04-16T00:00:00+01:00" notAfter-iso="1973-04-16T23:59:59+01:00" ana="#ana_005">1962-04-16--1973-04-16</origDate>
-                           <origPlace ana="#ana_003"/>
+                           <origPlace ana="acdh:amp-transcript__0058.xml#ana_003"/>
                         </origin>
                      </history>
                   </msDesc>
@@ -90,6 +113,13 @@ for any purpose, even commercially.</p>
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+               <p>Edition Documents Prefix</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -128,7 +158,7 @@ for any purpose, even commercially.</p>
       <body>
          <div type="transcription" xml:id="transcription_amp_0071" xml:lang="en">
             <div type="letter">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0469/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0469/" type="sheet" ed="1r"/>
                <div type="letter_message">
                   <opener>
                      <dateline>
@@ -181,7 +211,7 @@ for any purpose, even commercially.</p>
                      </signed>
                   </closer>
                </div>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0470/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0470/" type="sheet" ed="1v"/>
                <div>
                   <ab hand="#handwritten">50</ab>
                </div>

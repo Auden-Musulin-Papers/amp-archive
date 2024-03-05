@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0035.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0034.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0036.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0035.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0034.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0038.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -12,10 +12,10 @@
                <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
-               <name>FWF Austrian Science Fund</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Vienna</postCode>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
                   <placeName>
                      <country>A</country>
                      <settlement>Vienna</settlement>
@@ -24,7 +24,9 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>AMP</edition>
+            <edition>
+               <title>Telegram W. H. Auden to Stella Musulin 1971-05-13</title>
+            </edition>
             <respStmt>
                <resp>Transcription and commentary</resp>
                <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
@@ -71,6 +73,7 @@ for any purpose, even commercially.</p>
                      <history>
                         <origin>
                            <origDate notBefore-iso="1971-05-13T00:00:00+01:00" notAfter-iso="1971-05-13T23:59:59+01:00">1971-05-13</origDate>
+                           <origPlace ref="#amp_place_id_5">Kirchstetten</origPlace>
                         </origin>
                      </history>
                   </msDesc>
@@ -78,26 +81,41 @@ for any purpose, even commercially.</p>
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+               <p>Edition Documents Prefix</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="de">German</language>
          </langUsage>
          <correspDesc>
-            <correspAction type="composed">
-               <persName ref="#amp_person_1">Auden, W. H.</persName>
-               <placeName ref="#amp_place_id_5">Kirchstetten</placeName>
-               <date notBefore="1971-05-13" notAfter="1971-05-13">1971-05-13</date>
-            </correspAction>
             <correspAction type="sent">
-               <persName ref="#amp_person_1">Auden, W. H.</persName>
+               <orgName>
+                  <rs type="org" ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</rs>
+               </orgName>
                <placeName ref="#amp_place_id_5">Kirchstetten</placeName>
-               <date notBefore="1971-05-13" notAfter="1971-05-13">1971-05-13</date>
+               <date notBefore-iso="1971-05-13T15:30:01+01:00" notAfter-iso="1971-05-13T15:45:00+01:00">1971-05-13T15:30:01+01:00/1971-05-13T15:45:00+01:00</date>
+            </correspAction>
+            <correspAction type="transmitted">
+               <orgName>
+                  <rs type="org" ref="#amp_organization_73">Hauptpostamt 1030 (main post office 1030)</rs>
+               </orgName>
+               <placeName ref="#amp_place_id_1">Vienna</placeName>
+               <date notBefore-iso="1971-05-13T16:20:00+01:00" notAfter-iso="1971-05-13T16:20:59+01:00">1971-05-13T16:20:00+01:00/1971-05-13T16:20:59+01:00</date>
+            </correspAction>
+            <correspAction type="transmitted"><!-- ingested into postal system at Vienna post office -->
+               <orgName ref="#amp_organization_73">Hauptpostamt 1030 (main post office 1030)</orgName>
+               <placeName ref="#amp_place_id_1">Vienna</placeName>
+               <date notBefore-iso="1971-05-13T16:20:01+01:00" notAfter-iso="1971-05-13T17:00:00+01:00">1971-05-13T16:20:01+01:00/1971-05-13T17:00:00+01:00</date>
             </correspAction>
             <correspAction type="received">
                <persName ref="#amp_person_2">Musulin, Stella</persName>
                <placeName ref="#amp_place_id_11">Neulinggasse 26</placeName>
-               <date>unknown</date>
             </correspAction>
             <correspContext>
                <ref type="belongsToCorrespondence" target="#amp_person_1">Auden, W. H.</ref>
@@ -114,6 +132,7 @@ for any purpose, even commercially.</p>
          <change who="smayer tfruehwirth" when="2022-01-05">transcriptions collated</change>
          <change who="smayer tfruehwirth" when="2022-05-31">transcription reviewed, `space` element and `hand` attributes added, date format in `origDate` and `correspAction`/`date` modified</change>
          <change who="dgrigoriou smayer tfruehwirth" when="2023-02-27">entities and correspDesc collated</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2024-01-16">correspDesc updated; entities updated, events created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -126,17 +145,20 @@ for any purpose, even commercially.</p>
    </facsimile>
    <text type="telegram" hand="#typed">
       <body>
-         <div xml:id="transcription">
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0233/" type="sheet"/>
+         <div type="transcription" xml:id="transcription_amp_0035" xml:lang="de">
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0233/" type="sheet" ed="1r"/>
             <p>
                <rs type="person" ref="#amp_person_2">MUSULIN</rs>
                <rs type="place" ref="#amp_place_id_11">NEULINGGASSE <space quantity="1" unit="char"/>26/14 <space quantity="1" unit="char"/>1030/WIEN</rs>
             </p>
             <p>
-                  = <space quantity="1" unit="char"/>KOMMEN SAMSTAG = <space quantity="1" unit="char"/>LOVE <space quantity="1" unit="char"/>
+                  = <space quantity="1" unit="char"/>
+               <rs type="event" ref="#amp_event_id_100" ana="acdh:amp-transcript__0058.xml#ana_003">KOMMEN SAMSTAG</rs> = <space quantity="1" unit="char"/>
+               <foreign xml:lang="en">LOVE</foreign>
+               <space quantity="1" unit="char"/>
                <rs type="person" ref="#amp_person_1">WYSTAN</rs>
             </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0234/" type="sheet"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0234/" type="sheet" ed="1v"/>
          </div>
       </body>
    </text>

@@ -12,10 +12,10 @@
                <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
-               <name>FWF Austrian Science Fund</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Vienna</postCode>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
                   <placeName>
                      <country>A</country>
                      <settlement>Vienna</settlement>
@@ -24,7 +24,11 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>AMP</edition>
+            <edition>
+               <title>
+                  Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10
+               </title>
+            </edition>
             <respStmt>
                <resp>Transcription and commentary</resp>
                <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
@@ -79,6 +83,13 @@ for any purpose, even commercially.</p>
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+               <p>Edition Documents Prefix</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -86,7 +97,9 @@ for any purpose, even commercially.</p>
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <orgName ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</orgName>
+               <orgName>
+                  <rs type="org" ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</rs>
+               </orgName>
                <placeName ref="#amp_place_id_5">Kirchstetten</placeName>
                <date notBefore-iso="1970-06-10T16:00:01+01:00" notAfter-iso="1970-06-10T17:00:00+01:00">1970-06-10T16:00:01+01:00/1970-06-10T17:00:00+01:00</date>
             </correspAction>
@@ -110,6 +123,7 @@ for any purpose, even commercially.</p>
          <change who="smayer tfruehwirth" when="2022-03-15">transcription reviewed, `space` element and `hand` attributes added, date format in `origDate` and `correspAction`/`date` modified</change>
          <change who="dgrigoriou smayer tfruehwirth" when="2023-02-21">entities and correspDesc collated</change>
          <change who="dgrigoriou smayer" when="2023-08-17">container structure updated</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2024-01-15">entities updated, internal events created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -128,9 +142,9 @@ for any purpose, even commercially.</p>
    </facsimile>
    <text type="letter" hand="#handwritten">
       <body>
-         <div type="transcription" xml:id="transcription_amp_0015">
+         <div type="transcription" xml:id="transcription_amp_0015" xml:lang="en">
             <div type="envelope">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0071/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0071/" type="envelope" ed="1r"/>
                <ab>
                   <rs type="lit_work" ref="#lit_work_id_91">Translation</rs> rec<unclear>d.</unclear>
                   <lb/>
@@ -138,7 +152,7 @@ for any purpose, even commercially.</p>
                   </rs>
                   <lb/>
                </ab>
-               <ab>
+               <ab xml:lang="de">
                   <rs type="person" ref="#amp_person_2">Die Baronin<lb/>
                   Stella Musulin</rs>
                   <lb/>
@@ -147,22 +161,23 @@ for any purpose, even commercially.</p>
                      Neulinggasse 26/14</rs>
                   </address>
                </ab>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0072/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0072/" type="envelope" ed="1v"/>
                <ab>
                   <rs type="person" ref="#amp_person_1">WH Auden</rs>
                   <lb/>
                   <seg hand="#printed">
-                     <address>
+                     <address xml:lang="de">
                         <rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN<lb/>
                         BEZ. ST. PÖLTEN<lb/>
                         HINTERHOLZ 6<lb/>
-                        N.-Ö., AUSTRIA</rs>
+                        N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign>
+                        </rs>
                      </address>
                   </seg>
                </ab>
             </div>
             <div type="letter">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0073/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0073/" type="sheet" ed="2r"/>
                <div type="letter_message">
                   <opener>
                      <dateline>
@@ -171,11 +186,12 @@ for any purpose, even commercially.</p>
                         </date>
                         <placeName>
                            <seg hand="#printed">
-                              <address>
+                              <address xml:lang="de">
                                  <rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN<lb/>
                               BEZ. ST. PÖLTEN<lb/>
                               HINTERHOLZ 6<lb/>
-                              N.-Ö., AUSTRIA</rs>
+                              N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign>
+                                 </rs>
                               </address>
                            </seg>
                         </placeName>
@@ -185,7 +201,8 @@ for any purpose, even commercially.</p>
                      </salute>
                   </opener>
                   <p>
-                     <rs type="lit_work" ref="#lit_work_id_91">Translation</rs> just received. Thanks<lb/>
+                     <rs type="event" ref="#amp_event_id_98">
+                        <rs type="lit_work" ref="#lit_work_id_91" ana="acdh:amp-transcript__0043.xml#ana_025">Translation</rs> just received</rs>. Thanks<lb/>
                      <unclear>e</unclear> million.
                   </p>
                   <p>
@@ -194,7 +211,7 @@ for any purpose, even commercially.</p>
                            <unclear>in</unclear>
                         </del>near<lb/>
                         <rs type="place" ref="#amp_place_id_62">Kr<unclear>e</unclear>ms</rs>
-                     </rs>  at 3<unclear>·</unclear>0.p.m,which means<lb/>
+                     </rs> at 3<unclear>·</unclear>0.p.m,which means<lb/>
                      we shall have to lunch at 12<unclear>·</unclear>0<unclear>,</unclear>
                      <lb/>
                      Could you possibly make that<unclear>?</unclear>
@@ -216,7 +233,7 @@ for any purpose, even commercially.</p>
                      </signed>
                   </closer>
                </div>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0074/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0074/" type="sheet" ed="2v"/>
             </div>
          </div>
       </body>

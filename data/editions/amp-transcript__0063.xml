@@ -5,17 +5,19 @@
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</title>
-            <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
+            <author ref="https://d-nb.info/gnd/127246711">Musulin, Stella</author>
+            <author ref="https://d-nb.info/gnd/119022354">Busta, Christine</author>
+            <!-- add hand and handshift -->
             <editor>
                <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
                <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
                <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
-               <name>FWF Austrian Science Fund</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Vienna</postCode>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
                   <placeName>
                      <country>A</country>
                      <settlement>Vienna</settlement>
@@ -74,7 +76,7 @@
                      <history>
                         <origin>
                            <origDate notBefore-iso="1962-05-23T00:00:00+01:00" notAfter-iso="1962-05-23T23:59:59+01:00">1962-05-23</origDate>
-                           <origPlace ana="amp-transcript__0058.xml#ana_003"/>
+                           <origPlace ana="acdh:amp-transcript__0058.xml#ana_003"/>
                         </origin>
                      </history>
                   </msDesc>
@@ -82,6 +84,13 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+               <p>Edition Documents Prefix</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="de">German</language>
@@ -119,7 +128,7 @@
       <body>
          <div type="transcription" xml:id="transcription_amp_0063" xml:lang="de">
             <div type="letter">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0463/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0463/" type="sheet" ed="1r"/>
                <div type="letter_message">
                   <opener>
                      <dateline>
@@ -180,7 +189,7 @@
                      <rs type="person" ref="#amp_person_79">Henze</rs>, <rs type="person" ref="#amp_person_115">Brecht</rs> u.s.w.) Er versteht zu wenig<lb/>
                                 Deutsch, es hat mich aber interessiert,
                             </p>
-                  <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0464/" type="sheet"/>
+                  <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0464/" type="sheet" ed="1v"/>
                   <p prev="true">
                                 daß er imstande war, von der Technik<lb/>
                                 Ihrer Dichtung eine Menge herauszuhören<lb/>

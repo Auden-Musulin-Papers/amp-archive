@@ -12,10 +12,10 @@
                <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
-               <name>FWF Austrian Science Fund</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Vienna</postCode>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
                   <placeName>
                      <country>A</country>
                      <settlement>Vienna</settlement>
@@ -24,7 +24,9 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>AMP</edition>
+            <edition>
+               <title>Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</title>
+            </edition>
             <respStmt>
                <resp>Transcription and commentary</resp>
                <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
@@ -200,7 +202,14 @@ for any purpose, even commercially.</p>
    <text type="memoir" hand="#typed">
       <body>
          <div xml:id="transcription">
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0181/" type="sheet"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0181/" type="sheet" ed="1r"/>
+            <div>
+               <ab>
+                     STELLA MUSULIN
+                     <lb/>FRIDAU
+                     <lb/>A<unclear>-</unclear>3200 OB<unclear>E</unclear>RGRA<unclear>FE</unclear>N<unclear>D</unclear>OR<unclear>F</unclear>
+               </ab>
+            </div>
             <p>
                <hi rend="underline">
                   <rs type="lit_work" ref="#lit_work_id_46">In Retrospect</rs>.</hi>
@@ -225,8 +234,7 @@ for any purpose, even commercially.</p>
                   it seemed to us all that there remain certain aspects of <rs type="person" ref="#amp_person_1">Auden</rs>´s<lb/>
                   life in <rs type="place" ref="#amp_place_id_6">Lower Austria</rs> which are not on record, or where they are,<lb/>
                   not from the worm´s eye view. <space quantity="1" unit="char"/>As an older man <rs type="person" ref="#amp_person_1">he</rs> was happier<lb/>
-                  here than anywhere else: <space quantity="1" unit="char"/>he felt at home. <space quantity="1" unit="char"/>He was at <rs type="place" ref="#amp_place_id_5">Kirchstette<unclear>n</unclear>
-               </rs>
+                  here than anywhere else: <space quantity="1" unit="char"/>he felt at home. <space quantity="1" unit="char"/>He was at <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs>
                <lb/>
                   not only during the summer, <del>i</del>as is often said, but with<lb/>
                   interruptions for five months, depending on his engagements.<lb/>
@@ -246,8 +254,8 @@ for any purpose, even commercially.</p>
                   were, as <rs type="person" ref="#amp_person_100">Humphrey Carpenter</rs> pointed out, highly contradictory.<lb/>
                   Again and again he said that the private life of poets and other<lb/>
                   people engaged in creative work is none of the public´s business<lb/>
-                  but he also said<unclear>:</unclear>´`The biography of an artist, if his life as a w<unclear>hole</unclear>
-               <lb/>
+                  but he also said<unclear>:</unclear>
+               <del>´</del>`The biography of an artist, if his life as a man<lb/>
                   was sufficiently interesting, is permissible, provided that the<lb/>
                   biographer and his readers realise that such an account throws no<lb/>
                   light whatsoever upon the artist´s work." <space quantity="1" unit="char"/>And "I do believe,<lb/>
@@ -255,12 +263,18 @@ for any purpose, even commercially.</p>
                   may throw light upon his life."
                </p>
             <p>
-                  1 <rs type="person" ref="#amp_person_100">Hum<del>ö</del>phrey Carpenter</rs>: <rs type="lit_work" ref="#lit_work_id_39">W.H. Auden, a Biography</rs> (<rs type="org" ref="#amp_organization_7">Houghton Miffli<unclear>n</unclear>
-                  <lb/>
+                  1 <rs type="person" ref="#amp_person_100">Hum<del>ö</del>phrey Carpenter</rs>: <rs type="lit_work" ref="#lit_work_id_39">W.H. Auden, a Biography</rs> (<rs type="org" ref="#amp_organization_7">Houghton Mifflin<lb/>
                   Company, Boston</rs> 1981.)
                </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0182/" type="sheet"/>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0183/" type="sheet"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0182/" type="sheet" ed="1v"/>
+            <div>
+               <ab>
+                     NEULINGGASSE 26/14
+                     <lb/>1030 WIEN
+                     <lb/>TEL. 73 94 015
+                  </ab>
+            </div>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0183/" type="sheet" ed="2r"/>
             <p>
                <space quantity="29" unit="char"/>- 2 -
                </p>
@@ -284,17 +298,15 @@ for any purpose, even commercially.</p>
                   Love"</rs> was a model of compression: <space quantity="1" unit="char"/>"emetic but compulsive".<lb/>
                   I more than once came up against <rs type="person" ref="#amp_person_1">Auden</rs>´s idée fixe about the<lb/>
                   irrelevance of the poet´s private self, and asked him one day:<lb/>
-                  "So no rotting apples in the desk drawer?" <space quantity="1" unit="char"/>"No, no rotting apples<lb/>
+                  "So no rotting apples in the desk drawer?" <space quantity="1" unit="char"/>"No, no rotting apples."<lb/>
                   "And if you have an attack of the trots and interrupt your work?"<lb/>
                   "That would make no difference at all." <space quantity="1" unit="char"/>
-               <rs type="person" ref="#amp_person_4">Chester</rs>´s sole explanatio<gap reason="illegible"/>
-               <lb/>
+               <rs type="person" ref="#amp_person_4">Chester</rs>´s sole explanation<lb/>
                   was that it was "a tick like any other", and that in any case he<lb/>
                   was totally inconsistent. <space quantity="1" unit="char"/>Be that as it may, if the effect on the<lb/>
                   general public was judged as emetic, <rs type="person" ref="#amp_person_1">Auden</rs>´s nausea can be<lb/>
                   imagined. <space quantity="1" unit="char"/>All the same, it is a fascinating book, and for people<lb/>
-                  who knew the two men only in <del>r</del>the later years of their lives, does thro<gap reason="illegible"/>
-               <lb/>
+                  who knew the two men only in <del>r</del>the later years of their lives, does throw<lb/>
                   light on apparently conflicting phenomena and makes their actions,<lb/>
                   and <rs type="person" ref="#amp_person_4">Chester</rs>´s character in particular, more comprehensible.<lb/>
                <space quantity="4" unit="char"/>When <rs type="person" ref="#amp_person_1">Auden</rs> first met <rs type="person" ref="#amp_person_4">Kallman</rs> he was just 32 and already a poet<lb/>
@@ -309,12 +321,12 @@ for any purpose, even commercially.</p>
             <p>
                   1<rs type="person" ref="#amp_person_98">Edward Mendelson</rs>: <rs type="lit_work" ref="#lit_work_id_49">Early Auden</rs>, <rs type="org" ref="#amp_organization_5">Faber and Faber</rs> 1981. Also:<lb/>
                <rs type="lit_work" ref="#lit_work_id_28">W.H. Auden: Collected Poems</rs>, ed.by <rs type="person" ref="#amp_person_98">E.Mendelson</rs>, <rs type="org" ref="#amp_organization_7">Faber</rs> 1976, and<lb/>
-               <rs type="lit_work" ref="#lit_work_id_80">The English Auden</rs>, <rs type="person" ref="#amp_person_98">same Editor</rs>, <rs type="org" ref="#amp_organization_7">Faber</rs> 1977.
+               <rs type="lit_work" ref="#lit_work_id_80">The English Auden</rs>, <rs type="person" ref="#amp_person_98">same Editor</rs>, <rs type="org" ref="#amp_organization_7">Faber</rs> 1977.<lb/>
                   2<rs type="person" ref="#amp_person_150">Dorothy J Farnon</rs>: <rs type="lit_work" ref="#lit_work_id_48">Auden in Love</rs>. <rs type="org" ref="#amp_organization_8">Simon &amp; Schuster, NY</rs>, <rs type="org" ref="#amp_organization_5">Faber<lb/>
-                  London 1</rs>
+                  <space quantity="56" unit="char"/>London 1984.</rs>
             </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0184/" type="sheet"/>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0185/" type="sheet"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0184/" type="sheet" ed="2v"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0185/" type="sheet" ed="3r"/>
             <p>
                <space quantity="28" unit="char"/>- 3 -
                </p>
@@ -333,16 +345,24 @@ for any purpose, even commercially.</p>
                   perpetually being robbed by se<del>ö</del>amen picked up on the wharfs of<lb/>
                <rs type="place" ref="#amp_place_id_28">New York</rs>. <space quantity="1" unit="char"/>By one of them he was robbed of three months´ income<lb/>
                   in succession. <space quantity="1" unit="char"/>Or else he gave it away: <space quantity="1" unit="char"/>no matter what actually<lb/>
-                  happened, the money left his pocket.<lb/>
-               <space quantity="5" unit="char"/>The scene shifts to a flat in the <rs type="place" ref="#amp_place_id_71">Esslingasse in Vienna´s<lb/>
+                  happened, the money left his pocket.<del>
+                  <lb/>
+                  <space quantity="5" unit="char"/>The scene shifts to a flat in the <rs type="place" ref="#amp_place_id_71">Esslingasse in Vienna´s<lb/>
                   3rd District</rs>, where <rs type="person" ref="#amp_person_4">Kallman</rs> once spent the winter. <space quantity="1" unit="char"/>He gave a<lb/>
-               <rs type="event" ref="#amp_event_id_38">party</rs> one evening, and afterwards I took two or three of the men<lb/>
+                  <rs type="event" ref="#amp_event_id_38">party</rs> one evening, and afterwards I took two or three of the men<lb/>
                   part of t<del>i</del>heir way home in my car. <space quantity="1" unit="char"/>When <rs type="person" ref="#amp_person_4">Chester</rs> told me later on<lb/>
                   that the m<del>s</del>an who, as it chanced, had been sitting beside me, had<lb/>
                   gone off with 2,000 schillings taken out of the pocket of a<lb/>
                   jacket hanging on the bedroom door, I could not know that this<lb/>
-                  was not a mere incident but almost a matter of routine. <space quantity="1" unit="char"/>When,<lb/>
-                  ultimately, he took with him to <rs type="place" ref="#amp_place_id_13">Athens</rs> 80,000 sch. in cash<lb/>
+                  was not a mere incident but almost a matter of routine. <space quantity="1" unit="char"/>
+               </del>
+               <lb/>
+                  That winter evening in the Esslingasse when one of Chester's<lb/>
+                  "friends" went off with what cash he could put his hands on, was,<lb/>
+                  I realised much later <del>on</del>, no isolated occasi<del>n</del>on but routine, as it<lb/>
+                  were a calculated hazard.<lb/>
+                  When,<lb/>
+                  ultimately, he took with him to <rs type="place" ref="#amp_place_id_13">Athens</rs> 80,000 sch. in <del>cash</del> notes<lb/>
                   (proceeds of the sale of a building plot) and lost it all on the<lb/>
                   way, this mishap was almost a foregone conclusion.<lb/>
                <space quantity="4" unit="char"/>That the sexual relationship between <rs type="person" ref="#amp_person_1">Auden</rs> and <rs type="person" ref="#amp_person_4">Kallman</rs>
@@ -356,19 +376,23 @@ for any purpose, even commercially.</p>
                   wholly indispensable to him.<lb/>
                <space quantity="5" unit="char"/>Like it or not, this statement has to be accepted with all<lb/>
                   the weight it carries. <space quantity="1" unit="char"/>It was never possible, even in the<lb/>
-                  Austrian era, to keep <rs type="person" ref="#amp_person_4">Chester</rs> in purdah for long, and when ther<unclear>e</unclear>
-               <lb/>
-                  was a visitor from <rs type="place" ref="#amp_place_id_13">Athens</rs> at <rs type="place" ref="#amp_place_id_2">Hinterholz 6</rs> there could be tensio<del>
-                  <gap reason="illegible"/>
-               </del>n.<lb/>
-               <rs type="person" ref="#amp_person_1">Auden</rs> gave orders to <rs type="person" ref="#amp_person_23">Yannis Boras</rs> in the abrupt tones of a<lb/>
+                  Austrian era, to keep <rs type="person" ref="#amp_person_4">Chester</rs> in purdah for long, and when there<lb/>
+                  was a visitor from <rs type="place" ref="#amp_place_id_13">Athens</rs> at <rs type="place" ref="#amp_place_id_2">Hinterholz 6</rs> there could be tension.<lb/>
+               <rs type="person" ref="#amp_person_1">A<del>S</del>uden</rs> gave orders to <rs type="person" ref="#amp_person_23">Yannis Boras</rs> in the abrupt tones of a<lb/>
                   colonial Englishman of yore speaking to the "boy", and when I<lb/>
                   asked one day at lu<del>
                   <unclear>c</unclear>
                </del>nch: "Where is, er....?" he said with a
                </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0186/" type="sheet"/>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0187/" type="sheet"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0186/" type="sheet" ed="3v"/>
+            <div>
+               <ab>
+                     NEULINGGASSE 26/14
+                     <lb/>1030 WIEN
+                     <lb/>TEL. 73 94 015
+                  </ab>
+            </div>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0187/" type="sheet" ed="4r"/>
             <p>
                <space quantity="30" unit="char"/>- 4 -
                </p>
@@ -383,35 +407,34 @@ for any purpose, even commercially.</p>
                   would become of him, distraught and alone? <space quantity="1" unit="char"/>(He had in fact not<lb/>
                   go<del>en</del>ne to <rs type="place" ref="#amp_place_id_10">Austria</rs> after all, but had not let <rs type="person" ref="#amp_person_1">Auden</rs> know.) There<lb/>
                   followed the gloomy summer <del>l</del>of 1969 when <rs type="person" ref="#amp_person_4">Chester</rs> was sunk in deep<lb/>
-                  depression while <rs type="person" ref="#amp_person_1">Wyśtan</rs> had a full work programme, and when he<lb/>
+                  depression while <rs type="person" ref="#amp_person_1">W<del>
+                     <unclear>E</unclear>
+                  </del>yśtan</rs> had a full work programme, and when he<lb/>
                   told me he could hardly think how <rs type="person" ref="#amp_person_4">Chester</rs> would get through the<lb/>
                   summer1 this was indeed Mother speaking.<lb/>
                <space quantity="5" unit="char"/>What was it in <rs type="person" ref="#amp_person_4">Chester Kallman</rs> that made him so entirely<lb/>
                   indispensable to <rs type="person" ref="#amp_person_1">Auden</rs>? <space quantity="1" unit="char"/>Perhaps the question is impossible to<lb/>
                   answer; <space quantity="1" unit="char"/>some may hold it to be inadmissible, or attempts to find<lb/>
                   points of reference impertinent. <space quantity="1" unit="char"/>Others again may find the whole<lb/>
-                  subject unappetising. <space quantity="1" unit="char"/>But to anyone with an interest in psycholog<unclear>y</unclear>
-               <lb/>
-                  in the processes of cre<del>w</del>
-               <unclear>a</unclear>tivity in general and in those of <rs type="person" ref="#amp_person_1">Auden</rs>
+                  subject unappetising. <space quantity="1" unit="char"/>But to anyone with an interest in psychology,<lb/>
+                  in the processes of cre<del>w</del>ativity in general and in those of <rs type="person" ref="#amp_person_1">Auden</rs>
                <lb/>
                   in particular, there is no way of getting round this essential<lb/>
                   relationship. <space quantity="1" unit="char"/>It may, after all, come to be seen as one of the<lb/>
                   most curious in the history of English literature.<lb/>
-               <space quantity="5" unit="char"/>In their love of music, of opera above all, <rs type="person" ref="#amp_person_4">Kallma<del>n</del>n</rs>was in<lb/>
-                  the lead. <space quantity="1" unit="char"/>He was a minor poet who wrote because he needed to do s<unclear>o</unclear>
-               <lb/>
+               <space quantity="5" unit="char"/>In their love of music, of opera above all, <rs type="person" ref="#amp_person_4">Kallman<del>n</del>
+               </rs>was in<lb/>
+                  the lead. <space quantity="1" unit="char"/>He was a minor poet who wrote because he needed to do so,<lb/>
                   but his output was slight. <space quantity="1" unit="char"/>Yet in many spheres which were of<lb/>
-                  intense interest to <rs type="person" ref="#amp_person_1">Auden</rs> he had little, sometimes nothing to offe<unclear>r:</unclear>
-               <lb/>
-                  German literature (though <rs type="person" ref="#amp_person_4">Chester</rs> picked <del>i</del>up languages with uncomm<unclear>o</unclear>n<lb/>
+                  intense interest to <rs type="person" ref="#amp_person_1">Auden</rs> he had little, sometimes nothing to offer:<lb/>
+                  German literature (though <rs type="person" ref="#amp_person_4">Chester</rs> picked <del>i</del>up languages with uncommon<lb/>
                   facility; <rs type="person" ref="#amp_person_1">Wystan</rs>´s <del>G</del> spoken German was execrable but his compre-<lb/>
                   hension unerring), the history of cultures, religion and liturgy,<lb/>
                   translation. <space quantity="1" unit="char"/>When I was with <rs type="person" ref="#amp_person_1 #amp_person_4">them</rs>
                <rs type="person" ref="#amp_person_1">Wystan</rs> did not only most of the<lb/>
                   talking, but of the asking as well; his great charm lay in his<lb/>
                   alert interest in other people´s work, and he would draw one out<lb/>
-                  on the odder backwaters of Austrian history. <space quantity="1" unit="char"/>This side of him com<unclear>e</unclear>s<lb/>
+                  on the odder backwaters of Austrian history. <space quantity="1" unit="char"/>This side of him comes<lb/>
                   out in a letter dated 6 July 1970. <space quantity="1" unit="char"/>When the historian <rs type="person" ref="#amp_person_54">Friedrich<lb/>
                   Heer</rs> and <del>Y</del>
                <rs type="person" ref="#amp_person_1">Auden</rs>, both entranced, struck sparks off one another all<lb/>
@@ -423,8 +446,15 @@ for any purpose, even commercially.</p>
             <p>
                   1 refers to <rs type="lit_work" ref="#lit_work_id_108">1976 text</rs>.
                </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0188/" type="sheet"/>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0189/" type="sheet"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0188/" type="sheet" ed="4v"/>
+            <div>
+               <ab>
+                     NEULINGGASSE 26/14
+                     <lb/>1030 WIEN
+                     <lb/>TEL. 73 94 015
+                  </ab>
+            </div>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0189/" type="sheet" ed="5r"/>
             <p>
                <space quantity="25" unit="char"/>- 5 -
                </p>
@@ -432,8 +462,11 @@ for any purpose, even commercially.</p>
                   lost his roots in <rs type="place" ref="#amp_place_id_30">Europe</rs>.<lb/>
                <space quantity="4" unit="char"/>On his own ground, operatic libretti, <rs type="person" ref="#amp_person_4">Chester Kallman</rs> was<lb/>
                   still in good running order, and when the <rs type="lit_work" ref="#lit_work_id_3">Rake´s Progress</rs> was put<lb/>
-                  on in <rs type="place" ref="#amp_place_id_1">Vienna</rs> he wrote a letter to <rs type="org" ref="#amp_organization_39">Die Presse</rs> protesting sharply<lb/>
-               <del>over</del>against the cuts <del>which had been</del> made by the <rs type="person" ref="#amp_person_">producer</rs>. <space quantity="1" unit="char"/>But of that<lb/>
+                  on in <rs type="place" ref="#amp_place_id_1">Vienna</rs> he wrote a letter to <hi rend="underline">
+                  <rs type="org" ref="#amp_organization_39">Die Presse</rs>
+               </hi> protesting sharply<lb/>
+               <del>over</del>
+               <del>AGAINST</del>against the cuts <del>which had been</del> made by the <rs type="person" ref="#amp_person_">producer</rs>. <space quantity="1" unit="char"/>But of that<lb/>
                   conversational brilliance which old friends have described there<lb/>
                   was little sign. <space quantity="1" unit="char"/>A scene comes to mind: <rs type="person" ref="#amp_person_1">Auden</rs> was away, and <rs type="person" ref="#amp_person_4">Chester</rs>
                <lb/>
@@ -469,15 +502,19 @@ for any purpose, even commercially.</p>
                   meet him and <rs type="person" ref="#amp_person_4">Chester</rs> at the <rs type="place" ref="#amp_place_id_92">Operncafé</rs> - the much-missed café-<lb/>
                   restaurant next to the <rs type="place" ref="#amp_place_id_157">Opera</rs>, now a car salesroom. <space quantity="1" unit="char"/>They were waiting<lb/>
                   for <rs type="person" ref="#amp_person_86">Balanchine</rs> to join them after the performance, but we waited in<lb/>
-                  vain and fi<del>kn</del>
-               <unclear>na</unclear>lly gave up and went home. <space quantity="1" unit="char"/>There was a fourth at our<lb/>
+                  vain and fi<del>kn</del>n<unclear>a</unclear>lly gave up and went home. <space quantity="1" unit="char"/>There was a fourth at our<lb/>
                   table, a silent young man who, <rs type="person" ref="#amp_person_4">Chester</rs> said in an undertone, was<lb/>
-                  a student of technology and <rs type="person" ref="#amp_person_1">Wyst<del>sa</del>
-                  <unclear>an</unclear>
-               </rs> was helping with his studies.
+                  a student of technology and <rs type="person" ref="#amp_person_1">Wyst<del>sa</del>an</rs> was helping with his studies.
                </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0190/" type="sheet"/>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0191/" type="sheet"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0190/" type="sheet" ed="5v"/>
+            <div>
+               <ab>
+                     NEULINGGASSE 26/14
+                     <lb/>1030 WIEN
+                     <lb/>TEL. 73 94 015
+                  </ab>
+            </div>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0191/" type="sheet" ed="5ar"/>
             <p>
                <space quantity="23" unit="char"/>- 5a -
                </p>
@@ -489,8 +526,18 @@ for any purpose, even commercially.</p>
                   <rs type="place" ref="#amp_place_id_100">Czechoslovakia</rs>
                </rs>. <space quantity="1" unit="char"/>Towards the end of <rs type="person" ref="#amp_person_1">Auden</rs>´s summer residence at
                </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0192/" type="sheet"/>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0193/" type="sheet"/>
+            <div>
+                   →
+               </div>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0192/" type="sheet" ed="5av"/>
+            <div>
+               <ab>
+                  <del>NEULINGGASSE 26/14
+                     <lb/>1030 WIEN
+                     <lb/>TEL. 73 94 015</del>
+               </ab>
+            </div>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0193/" type="sheet" ed="6r"/>
             <p>
                <space quantity="28" unit="char"/>- 6 -
                </p>
@@ -505,8 +552,7 @@ for any purpose, even commercially.</p>
                   letter waiting. <space quantity="1" unit="char"/>1) I think I ought to take the <rs type="person" ref="#amp_person_155 #amp_person_171">couple</rs> in,<lb/>
                   but I m<del>k</del>ust leave it to you to decide whether they are O.K.<lb/>
                   If they are, <rs type="place" ref="#amp_place_id_5">all rooms</rs>, including my study (which can´t be<lb/>
-                  heated) are open to them. <space quantity="2" unit="char"/>2) <space quantity="1" unit="char"/>How m<del>k<unclear>u</unclear>
-               </del>uch money will they need<lb/>
+                  heated) are open to them. <space quantity="2" unit="char"/>2) <space quantity="1" unit="char"/>How m<del>ku</del>uch money will they need<lb/>
                   to keep going? <space quantity="1" unit="char"/>And how shall I make the arrangements for<lb/>
                   payment. <space quantity="1" unit="char"/>3) Will they be able to find work or emigrate<lb/>
                   before I return in April, when I´m afraid there will not<lb/>
@@ -543,13 +589,12 @@ for any purpose, even commercially.</p>
                <rs type="person" ref="#amp_person_1">Wystan</rs>.
                </p>
             <p>
-               <space quantity="5" unit="char"/>Great generosity (these facts, even separately, are known<lb/>
+               <space quantity="5" unit="char"/>Great generosity (these facts<del>, even separately</del>are known<lb/>
                   to no more than two or three people) <del>ed <space quantity="1" unit="char"/>e<unclear>xi</unclear>sted</del>combined in <rs type="person" ref="#amp_person_1">Auden</rs>´s<lb/>
                   character quite readily with his legendary stinginess in the<lb/>
                   small things of everyday life such as stamps or cigarettes.<lb/>
                <rs type="org" ref="#amp_organization_15">"Life" magazine</rs>, he told me one day with a beaming smile, had<lb/>
-                  just paid him 5,000 dolla<del>sr</del>
-               <unclear>r</unclear>s for an article. <space quantity="1" unit="char"/>"I´m thinking<lb/>
+                  just paid him 5,000 dolla<del>sr</del>rs for an article. <space quantity="1" unit="char"/>"I´m thinking<lb/>
                   of building on a diningroom." <space quantity="1" unit="char"/>"Very good idea" I said,<lb/>
                   "but for a start I shall smoke your cigarettes for the rest of<lb/>
                   the afternoon." <space quantity="1" unit="char"/>I very much doubt whether I did. <space quantity="1" unit="char"/>On the other<lb/>
@@ -560,8 +605,8 @@ for any purpose, even commercially.</p>
                   It´s a curious thing, he said, but the first chap <del>you see</del> who<lb/>
                   takes any notice of you when you´re carried into hospital is not
                </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0194/" type="sheet"/>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0195/" type="sheet"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0194/" type="sheet" ed="6v"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0195/" type="sheet" ed="7r"/>
             <p>
                <space quantity="26" unit="char"/>- 7 -
                </p>
@@ -580,15 +625,14 @@ for any purpose, even commercially.</p>
                   cost him a packet - you can buy that brand of gin in <rs type="place" ref="#amp_place_id_79">Böheimkirchen</rs>!"<lb/>
                   "Certainly you can" said the voice which now sounded amused,<lb/>
                   "but why do we have to worry our heads over the way a Herr<lb/>
-                  Profess<del>s</del>
-               <unclear>o</unclear>r flings his money around?" <space quantity="1" unit="char"/>I liked the "we".<lb/>
-               <space quantity="4" unit="char"/>What was so American about the kitchen? <lb/>
-               <space quantity="4" unit="char"/>When fitted kitchens first came in the Austrians calle<del>s</del>d<unclear>d</unclear>
+                  Profess<del>s</del>or flings his money around?" <space quantity="1" unit="char"/>I liked the "we".<lb/>
+               <space quantity="4" unit="char"/>What was so American about the kitchen?1<lb/>
+               <space quantity="4" unit="char"/>When fitted kitchens first came in the Austrians calle<del>s</del>d<del>d</del>
                <lb/>
                   them "American" - the term is now as ex<del>d</del>tinct as "Russian" tea<lb/>
                   but m<del>k</del>ust still have been common parlance in <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs>.<lb/>
                <space quantity="5" unit="char"/>There was a tidy line-up consisting of fridge, sink, low<lb/>
-                  cupboards providing a good working surface,,a corner <del>f</del>cupboard<lb/>
+                  cupboards providing a good working surface,<del>,</del>a corner <del>f</del>cupboard<lb/>
                   the interior of which s<del>x</del>wung out, and a gas stove. <space quantity="1" unit="char"/>
                <rs type="person" ref="#amp_person_4 #amp_person_1">Both men</rs> were<lb/>
                   very proud of the kitchen and it became <rs type="person" ref="#amp_person_4">Chester</rs>´s habitat.<lb/>
@@ -611,35 +655,41 @@ for any purpose, even commercially.</p>
                   1 <space quantity="1" unit="char"/>
                <rs type="person" ref="#amp_person_1">Wystan Auden</rs>, <del>A</del>
                <rs type="lit_work" ref="#lit_work_id_101">On Installing an American Kitchen in Lower<lb/>
-                  Austria</rs>, in <rs type="lit_work" ref="#lit_work_id_2">Homage to Clio</rs>, (<rs type="org" ref="#amp_organization_5">Faber and Faber</rs> 1960).
+                  <space quantity="3" unit="char"/>Austria</rs>, in <rs type="lit_work" ref="#lit_work_id_2">Homage to Clio</rs>, (<rs type="org" ref="#amp_organization_5">Faber and Faber</rs> 1960).
                </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0196/" type="sheet"/>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0197/" type="sheet"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0196/" type="sheet" ed="7v"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0197/" type="sheet" ed="8r"/>
             <p>
                <space quantity="27" unit="char"/>- 8 -
                </p>
             <p>
                   to the enormous fat content of some of the dishes. <space quantity="1" unit="char"/>I remember<lb/>
-                  my horror as I watched a sauce being prepared in the mixer befor<unclear>e</unclear>
-               <lb/>
+                  my horror as I watched a sauce being prepared in the mixer before<lb/>
                   it was re-heated to accompany the roast duck. <space quantity="1" unit="char"/>It consisted of<lb/>
-                  equal parts of rendered down duck <del>v</del>fat and cream, and would have<lb/>
+                  equal parts of rendered down duck <del>v</del>fat, and cream, and would have<lb/>
                   sustained a miner at the <del>cola</del> coal face for an indefinite period<lb/>
                   of time. <space quantity="1" unit="char"/>If they could possibly help<del>i</del>it, of course, neither<lb/>
                <rs type="person" ref="#amp_person_1">Wystan</rs> nor <rs type="person" ref="#amp_person_4">Chester</rs> ever walked a yard.
                </p>
             <p>
+                  x x x x
+               </p>
+            <p>
                <space quantity="5" unit="char"/>Whether or not - and <rs type="person" ref="#amp_person_4">Chester</rs> was convinced that this was so -<lb/>
                   the business about <rs type="event" ref="#amp_event_id_45">alleged arrears of income tax</rs> shortened <rs type="person" ref="#amp_person_1">Auden</rs>´s<lb/>
-                  life must be left open. <space quantity="1" unit="char"/>The <rs type="lit_work" ref="#lit_work_id_105">"Declaration"</rs> to the tax authorities<lb/>
+                  life, must be left open. <space quantity="1" unit="char"/>The <rs type="lit_work" ref="#lit_work_id_105">"Declaration"</rs> to the tax authorities<lb/>
                   in which a great poet patiently explains how poetry comes to be<lb/>
-                  written must be unique and deserves a place in the history of<lb/>
-                  literature.
-               </p>
+                  written must be unique.<del>and deserves a place in the history of <space quantity="1" unit="char"/>
+               </del>
+               <lb/>
+               <del>literature. <space quantity="1" unit="char"/>
+               </del>
+            </p>
             <p>
                <space quantity="21" unit="char"/>
                <hi rend="underline">
-                  <rs type="lit_work" ref="#lit_work_id_106">Declaration</rs>.</hi>1 <lb/>
+                  <rs type="lit_work" ref="#lit_work_id_106">Declaration</rs>. 1 </hi>
+               <lb/>
                   Gentlemen,<lb/>
                <space quantity="5" unit="char"/>My position is very simple: one pays income tax where one<lb/>
                   earns money, that is to say in my case, as a writer writing in<lb/>
@@ -657,12 +707,10 @@ for any purpose, even commercially.</p>
                   I should not come here. <space quantity="1" unit="char"/>The landscape is pleasing, and I find<lb/>
                   the Austrians whose acquaintance I have made, friendly ansd<lb/>
                   charming.<lb/>
-               <space quantity="4" unit="char"/>You say correctly that I once <rs type="event" ref="#amp_event_id_46">received <del>
-                     <unclear>n</unclear>
-                  </del>an Austrian prize<lb/>
-                  for lieterature.</rs>
+               <space quantity="4" unit="char"/>You say correctly that I once <rs type="event" ref="#amp_event_id_46">received <del>n</del>an Austrian prize<lb/>
+                  for li<del>e</del>terature.</rs>
                <space quantity="1" unit="char"/>This was a great honour of which I am very<lb/>
-                  proud. <space quantity="1" unit="char"/>You cannot however serioiusly believe, Gentlemen, that I<lb/>
+                  proud. <space quantity="1" unit="char"/>You cannot however serio<del>i</del>usly believe, Gentlemen, that I<lb/>
                   calculated: <space quantity="1" unit="char"/>"If I continue to go to <rs type="place" ref="#amp_place_id_10">Austria</rs> maybe I shall be<lb/>
                   given a prize"? <space quantity="1" unit="char"/>Until it was awarded to me I had never heard<lb/>
                   of <del>the</del>this prize. <space quantity="1" unit="char"/>It is equally clear that I cannot receive it a
@@ -672,8 +720,8 @@ for any purpose, even commercially.</p>
                   letter. <space quantity="1" unit="char"/>An <rs type="lit_work" ref="#lit_work_id_99">English original</rs> is not known to exist and it is<lb/>
                   assumed that <rs type="person" ref="#amp_person_1">Auden</rs> destroyed his draft.
                </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0198/" type="sheet"/>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0199/" type="sheet"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0198/" type="sheet" ed="8v"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0199/" type="sheet" ed="9r"/>
             <p>
                <space quantity="31" unit="char"/>- 9 -
                </p>
@@ -681,7 +729,8 @@ for any purpose, even commercially.</p>
                   second time. <space quantity="1" unit="char"/>You also go on to say that a road in <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs>
                <lb/>
                   has been named <rs type="place" ref="#amp_place_id_255">Audenstraße</rs> after me. <space quantity="1" unit="char"/>That was a very kind gesture<lb/>
-                  on the part of the local council, but it cannot be maintaine<del>s</del>dd<lb/>
+                  on the part of the local council, but it cannot be maintaine<del>s</del>d<del>d</del>
+               <lb/>
                   that I profit from it <del>i</del>financially.<lb/>
                <space quantity="4" unit="char"/>Further, you say with truth that I have written several poems<lb/>
                <del>in A</del>
@@ -717,9 +766,9 @@ for any purpose, even commercially.</p>
                <space quantity="10" unit="char"/>what, for a Christian, is the meaning of the Feast of<lb/>
                <space quantity="10" unit="char"/>Pentecost. <space quantity="1" unit="char"/>And this is valid for all countries in the<lb/>
                <space quantity="10" unit="char"/>same way.<lb/>
-               <space quantity="10" unit="char"/>3. <space quantity="1" unit="char"/>I believe you do not clearly recognize a poet´s (Dichter)<lb/>
-               <space quantity="10" unit="char"/>financial s<del>k</del>ituation. <space quantity="1" unit="char"/>If he is suc<del>e</del>
-               <unclear>c</unclear>essful, a novelist<lb/>
+               <space quantity="10" unit="char"/>3. <space quantity="1" unit="char"/>I believe you do not clearly recognize a poet´s (Dichter<gap quantity="1" unit="char"/>
+               <lb/>
+               <space quantity="10" unit="char"/>financial s<del>k</del>ituation. <space quantity="1" unit="char"/>If he is suc<del>e</del>cessful, a novelist<lb/>
                <space quantity="10" unit="char"/>can ma<del>,</del>ke a good deal of money. <space quantity="1" unit="char"/>A poet (Lyriker) cannot,<lb/>
                <space quantity="10" unit="char"/>even if he is very well known, because he is only read<lb/>
                <space quantity="10" unit="char"/>by a minority. <space quantity="1" unit="char"/>By far the greater part of my income<lb/>
@@ -728,25 +777,25 @@ for any purpose, even commercially.</p>
                <space quantity="10" unit="char"/>which have nothing to do with <rs type="place" ref="#amp_place_id_10">Austria</rs>. <space quantity="1" unit="char"/>A<del>m</del>
                <unclear>n</unclear>d while we are
                </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0200/" type="sheet"/>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0201/" type="sheet"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0200/" type="sheet" ed="9v"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0201/" type="sheet" ed="10r"/>
             <p>
                <space quantity="25" unit="char"/>- 10 -
                </p>
             <p>
-               <space quantity="10" unit="char"/>on the subject of translation<del>
-                  <unclear>:</unclear>
-               </del>s <space quantity="1" unit="char"/>you rightly say that<lb/>
-               <space quantity="10" unit="char"/>I have a great int<del>r</del>erest in German and Austrian literatu<unclear>r</unclear>
-               <lb/>
+               <space quantity="10" unit="char"/>on the subject of translation<del>s</del>: <space quantity="1" unit="char"/>you rightly say that<lb/>
+               <space quantity="10" unit="char"/>I have a great int<del>r</del>erest in German and Austrian literature -<lb/>
                <space quantity="10" unit="char"/>I may add in music as well - but I do not have to come<lb/>
                <space quantity="10" unit="char"/>to <rs type="place" ref="#amp_place_id_10">Austria</rs> in order to read or to hear them.<lb/>
-               <space quantity="5" unit="char"/>You see f<del>er<unclear>o</unclear>
-               </del>r<unclear>o</unclear>m all <del>the above</del> this that the arguments brought<lb/>
+               <space quantity="5" unit="char"/>You see f<del>e</del>r<unclear>
+                  <del>
+                     <del>e</del>r</del>
+               </unclear>o<del>o</del>m all <del>the above</del> this that the arguments brought<lb/>
                   forward by you for subjecting me to payment of income tax are not<lb/>
                   valid. <space quantity="1" unit="char"/>The most pertinent argument against it is that in the<lb/>
                   course of one year I always stay under six months in <rs type="place" ref="#amp_place_id_10">Austri<del>sa</del>
-                  <unclear>aa</unclear>
+                  <unclear>a</unclear>
+                  <del>a</del>
                </rs>
                <lb/>
                   and never spend more than three months here consecutively.<lb/>
@@ -766,8 +815,8 @@ for any purpose, even commercially.</p>
                   he has been my literary collaborator. <space quantity="1" unit="char"/>
                <del>s</del>Jointly, we have written<lb/>
                   five new opera libretti, <rs type="lit_work" ref="#lit_work_id_16">"The Rake´s Progress</rs>, <rs type="lit_work" ref="#lit_work_id_17">"Elegy for Young<lb/>
-                  Lovers</rs>", <rs type="lit_work" ref="#lit_work_id_18">"The Bassarids_"</rs> and <rs type="lit_work" ref="#lit_work_id_20">"Love´s Labours Lost"</rs>. <space quantity="1" unit="char"/>And<lb/>
-                  together we have made new translations of <rs type="lit_work" ref="#lit_work_id_142">"The MagiccFlute"</rs>,<lb/>
+                  Lovers</rs>", <rs type="lit_work" ref="#lit_work_id_18">"The Bassarids<del>_</del>"</rs> and <rs type="lit_work" ref="#lit_work_id_20">"Love´s Labours Lost"</rs>. <space quantity="1" unit="char"/>And<lb/>
+                  together we have made new translations of <rs type="lit_work" ref="#lit_work_id_142">"The Magic<del>c</del>Flute"</rs>,<lb/>
                <rs type="lit_work" ref="#lit_work_id_143">"Don Giovanni"</rs>, <rs type="lit_work" ref="#lit_work_id_23">"Die Sieben Todsünden"</rs>, <rs type="lit_work" ref="#lit_work_id_24">"Mahagonny"</rs> and<lb/>
                <rs type="lit_work" ref="#lit_work_id_25">"Archifanfaro"</rs>. <space quantity="1" unit="char"/>I am now 65 years old and must reckon with all<lb/>
                   eventualities such as a heart attack. <space quantity="1" unit="char"/>As you know better than<lb/>
@@ -775,19 +824,12 @@ for any purpose, even commercially.</p>
                   heirs to landed property, particularly in a foreign country.
                </p>
             <p>
-                  1 The German text was typ<unclear>e</unclear>d on a different machine, and the<lb/>
+                  1 The German text was typed on a different machine, and the<lb/>
                   separate page joined to the <rs type="lit_work" ref="#lit_work_id_103">
-                  <hi rend="underline">
-                     <del>D</del>
-                  </hi>
-                  <del>
-                     <unclear>
-                        <del>d</del>D</unclear>
-                  </del>
-                  <unclear>e</unclear>claration</rs>.  
+                  <del>_D</del>Declaration</rs>.  
                </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0202/" type="sheet"/>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0203/" type="sheet"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0202/" type="sheet" ed="10v"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0203/" type="sheet" ed="11r"/>
             <p>
                <space quantity="22" unit="char"/>- 11 -
                </p>
@@ -811,11 +853,7 @@ for any purpose, even commercially.</p>
                   is ragged.<lb/>
                <space quantity="5" unit="char"/>
                <rs type="place" ref="#amp_place_id_66">Linz</rs> already lay far behind, the car radio went on m<del>k</del>uttering<lb/>
-                  to itself unheeded until the familiar voice of <rs type="person" ref="#amp_person_54">Friedrich Hee<del>e</del>
-                  <del>r</del>
-                  <unclear>r</unclear>
-                  <unclear>
-                     <del>r</del>e</unclear>
+                  to itself unheeded until the familiar voice of <rs type="person" ref="#amp_person_54">Friedrich Hee<del>e</del>r<del>r</del>
                </rs>
                <lb/>
                   came through, reading one of his book reviews. <space quantity="1" unit="char"/>It was consoling<lb/>
@@ -837,8 +875,15 @@ for any purpose, even commercially.</p>
                <rs type="person" ref="#amp_person_4">Herr Kallman</rs> said, would I come over to tea the next day?<lb/>
                <space quantity="5" unit="char"/>That was the Sunday.
                </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0204/" type="sheet"/>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0205/" type="sheet"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0204/" type="sheet" ed="11v"/>
+            <div>
+               <ab>
+                     SCHLÖSSELGASSE 8/17
+                     <lb/>1080 WIEN
+                     <lb/>TEL. 42 17 175
+                  </ab>
+            </div>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0205/" type="sheet" ed="12r"/>
             <p>
                <unclear>-1</unclear>2-
                </p>
@@ -857,8 +902,9 @@ for any purpose, even commercially.</p>
                <rs type="person" ref="#amp_person_96">Mrs. Thekla Clark</rs> and <rs type="person" ref="#amp_person_169">her<lb/>
                   daughter</rs> had come up from <rs type="place" ref="#amp_place_id_14">Florence</rs> as soon<del>a</del>as t<del>e</del>hey heard the<lb/>
                   news; <space quantity="1" unit="char"/>there was <rs type="person" ref="#amp_person_97">Frau Maria Seitz</rs>, headmistress of the high school;<lb/>
-               <del>in <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs>, the <rs type="person" ref="#amp_person_22">mayor Herr Enzinge</rs>
-               </del>r <rs type="person" ref="#amp_person_22">Herr Enzinger</rs> the mayor<lb/>
+               <del>in <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs>, the <rs type="person" ref="#amp_person_22">mayor Herr Enzinger</rs>
+               </del>
+               <rs type="person" ref="#amp_person_22">Herr Enzinger</rs> the mayor<lb/>
                   of <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs>, <del>a</del>the film scriptwriter <rs type="person" ref="#amp_person_87">Adolf Opel</rs>, and the young men.<lb/>
                   Clearly, the meeting to discuss the funeral arra<del>g</del>ngements was<lb/>
                   not proceeding smoothly. <space quantity="1" unit="char"/>The <rs type="person" ref="#amp_person_22">mayor</rs> looked annoyed, <rs type="person" ref="#amp_person_97">Frau Seitz</rs>
@@ -871,22 +917,20 @@ for any purpose, even commercially.</p>
                </del>English and the <rs type="person" ref="#amp_person_96 #amp_person_95">Clarks</rs> no German, while the <rs type="person" ref="#amp_person_97">headmistress</rs> had a<lb/>
                   certain command of English but did not feel up to acting as<lb/>
                   interpreter and adviser in one; <space quantity="1" unit="char"/>
-               <rs type="person" ref="#amp_person_4">Chester</rs>´a German was perfect<del>k</del>
-               <unclear>l</unclear>y<lb/>
+               <rs type="person" ref="#amp_person_4">Chester</rs>´<del>a</del>s German was <del>o</del>perfect<del>k</del>ly<lb/>
                   adequate.<lb/>
                <space quantity="4" unit="char"/>The root of the problem lay on a deeper level, where two<lb/>
                   separate cultures collided head on. <space quantity="1" unit="char"/>
                <rs type="person" ref="#amp_person_4">Chester</rs> was barely coherent,<lb/>
-                  but he managed to explain his point of view. <space quantity="1" unit="char"/>He loathed, from<lb/>
+                  but he managed to explain his point of view. <space quantity="1" unit="char"/>He loathed<del>,</del> from<lb/>
                   the bottom of his hearteverything in the way of <hi rend="underline">pompes funèbres</hi>.<lb/>
-                  He wanted to bury <rs type="person" ref="#amp_person_4">Aud<del>s</del>
-                  <unclear>e</unclear>n</rs>, he said, quietly and privately and, if<lb/>
+                  He wanted to bury <rs type="person" ref="#amp_person_4">Aud<del>s</del>en</rs>, he said, quietly and privately and, if<lb/>
                   it could possibly be managed, on Tuesday. <space quantity="1" unit="char"/>He had already informed<lb/>
-               <rs type="person" ref="#amp_person_1">Wyst<del>s</del>an</rs>´s brother <rs type="person" ref="#amp_person_88">Dr. John Auden</rs>, <rs type="person" ref="#amp_person_8">Stephen Spender</rs> and <del>o</del>o<del>s</del>thers<lb/>
+               <rs type="person" ref="#amp_person_1">Wyst<del>s</del>an</rs>´s brother <rs type="person" ref="#amp_person_88">Dr. John Auden</rs>, <rs type="person" ref="#amp_person_8">Stephen Spender</rs> and <del>os</del>others<lb/>
                   of the arran<del>t</del>gements and asked them to arrive, if not tomorrow,<lb/>
                   then on Tuesday morning at the latest. <space quantity="1" unit="char"/>On the other hand <rs type="person" ref="#amp_person_22">the<lb/>
                   mayor of Kirchstetten</rs>, he went on, wanted to lay on a really big<lb/>
-                  show with brass bands and all the rest of it, and what was more<lb/>
+                  show with brass bands and all the rest of it, and what was more,<lb/>
                   on the Saturday to give as many people as possible the chance to<lb/>
                   come. <space quantity="1" unit="char"/>
                <rs type="org" ref="#amp_organization_43">The Ministry of Education</rs> and the <rs type="org" ref="#amp_organization_44">provincial council of<lb/>
@@ -898,20 +942,18 @@ for any purpose, even commercially.</p>
                <rs type="person" ref="#amp_person_22">Mayor Enzinger</rs> drew a deep breath. <space quantity="1" unit="char"/>The first thing we ha<del>e</del>d<lb/>
                   to realise, he pointed out, was that the body had not yet been
                </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0206/" type="sheet"/>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0207/" type="sheet"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0206/" type="sheet" ed="12v"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0207/" type="sheet" ed="13r"/>
             <p>
                   -13-
                </p>
             <p>
                   released by the authorities. <space quantity="1" unit="char"/>In all cases where the cause of death<lb/>
-                  is not wholly clear certain<unclear>k</unclear>formalities are obligatory, and even<lb/>
+                  is not wholly clear certain<del>k</del>formalities are obligatory, and even<lb/>
                   intervention at a high level would not work miracles. <space quantity="1" unit="char"/>Everything<lb/>
-                  takes time. <space quantity="1" unit="char"/>And how could anyone expect it of him, the <rs type="person" ref="#amp_person_22">Bürgermeister</rs>
-               <unclear>,</unclear>
-               <lb/>
+                  takes time. <space quantity="1" unit="char"/>And how could anyone expect it of him, the <rs type="person" ref="#amp_person_22">Bürgermeister</rs>,<lb/>
                   that he should refrain from notifying the <rs type="org" ref="#amp_organization_43">Ministry</rs> and the Cultural<lb/>
-                  department of <rs type="org" ref="#amp_organization_44">the Council</rs> of the <del>e</del>death of <rs type="person" ref="#amp_person_1">Professor _Auden</rs> ?<space quantity="1" unit="char"/>It<lb/>
+                  department of <rs type="org" ref="#amp_organization_44">the Council</rs> of the <del>e</del>death of <rs type="person" ref="#amp_person_1">Professor _Auden</rs>? <space quantity="1" unit="char"/>It<lb/>
                   was as much as his job was worth. <space quantity="1" unit="char"/>Now <rs type="person" ref="#amp_person_97">Frau Seitz</rs> spoke. <space quantity="1" unit="char"/>The<lb/>
                   inhabitants of <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs>, she believed, would hardly bury a dog<lb/>
                   in the manner proposed by <rs type="person" ref="#amp_person_4">Herr Kallman</rs>, let alone a great poet.<lb/>
@@ -920,7 +962,7 @@ for any purpose, even commercially.</p>
                   some of us. <space quantity="1" unit="char"/>To him, an <del>E</del>American of Jewish origin and a non-believer,<lb/>
                   the whole pomp and circumstance of a traditional Austrian funeral<lb/>
                   was abhorrent. <space quantity="1" unit="char"/>Where prominent personages are concerned, there<lb/>
-                  would certainly be the local brass band, and where appropr<unclear>i</unclear>a<unclear>te</unclear> delegations representing<lb/>
+                  would certainly be the local brass band, and delegations representing<lb/>
                   the voluntary fire brigade, the federal railways, the veterans´<lb/>
                   association and others besides, and the gamekeepers would blow<lb/>
                   their horns and wish him good hunting in the Elysian fields.<lb/>
@@ -935,11 +977,16 @@ for any purpose, even commercially.</p>
                   trimmings - one can almost hear his Olympian laughter - followed<lb/>
                   by a hearty meal at the inn where he had so often <del>ate</del>had his l<del>i</del>unch.<lb/>
                   As it turned out, <rs type="person" ref="#amp_person_4">Chester</rs> got no marks in local opinion for this<lb/>
-                  finale either, as the meal consisted of <hi rend="underline">Leberkäs</hi> with vegetables:<lb/>
-               <unclear>T</unclear>his consisted of fried slices off a loaf of a flabby substance which is neither liver nor cheese related to the<lb/>
+                  finale either, as the meal consisted of <hi rend="underline">Leberkäs</hi> with vegetables:<del>
+                  <lb/>
+                  fried slices off a loaf of a flabby substance which is neither liver nor cheese related to the<lb/>
+                  Frankfurter sausage. <space quantity="1" unit="char"/>It is a</del>
+               <lb/>
+                  this consisted of fried slices off a loaf made of a flabby substance<lb/>
+                  which is neither liver nor cheese, <del>but</del> vaguely related to the<lb/>
                   Frankfurter sausage. <space quantity="1" unit="char"/>It is a<lb/>
                   homely, juicy meal all too familiar to every Austrian; <space quantity="1" unit="char"/>a<del>b</del>nd it is<lb/>
-                  cheap.<del>n</del> There would be <del>mkuc</del> much talk of this also after all was ove<unclear>r</unclear>
+                  cheap.<del>n</del> There would be <del>mkuc</del> much talk of this also after all was over<unclear>.</unclear>
                <lb/>
                   For their part, the local people were forgetting that <rs type="person" ref="#amp_person_4">Chester</rs> was<lb/>
                   probably in financial straits - not that this would have been taken<lb/>
@@ -947,8 +994,8 @@ for any purpose, even commercially.</p>
                <space quantity="5" unit="char"/>For a moment the discussion had come to a standstill.<lb/>
                <del>XT</del>The young men who took no part in it and conversed in whispers,
                </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0208/" type="sheet"/>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0209/" type="sheet"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0208/" type="sheet" ed="13v"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0209/" type="sheet" ed="14r"/>
             <p>
                <space quantity="30" unit="char"/>- 14 -
                </p>
@@ -957,10 +1004,10 @@ for any purpose, even commercially.</p>
                   baleful eye on us as she spoke into <rs type="person" ref="#amp_person_4">Chester</rs>´s ear.<lb/>
                <space quantity="4" unit="char"/>The points at issue were not only When and How Much; <space quantity="1" unit="char"/>there<lb/>
                   was also the matter of the church service and the prayers at the<lb/>
-                  graveside. <space quantity="1" unit="char"/>Many people in <rs type="place" ref="#amp_place_id_10">Akustria</rs> had assumed <rs type="person" ref="#amp_person_1">Auden</rs> to be of the<lb/>
-               <rs type="org" ref="#amp_organization_46">Roman Catholic</rs> faith; <space quantity="1" unit="char"/>he had of course remained <hi rend="underline">
-                  <del>a</del>
-               </hi>:<del>s</del>member of the<lb/>
+                  graveside. <space quantity="1" unit="char"/>Many people in <rs type="place" ref="#amp_place_id_10">A<del>k</del>ustria</rs> had assumed <rs type="person" ref="#amp_person_1">Auden</rs> to be of the<lb/>
+               <rs type="org" ref="#amp_organization_46">Roman Catholic</rs> faith; <space quantity="1" unit="char"/>he had of course remained <del>_</del>a<del>:</del>
+               <del>s</del>member of the<lb/>
+               <!-- develop solution for deletion of signs to be substituted by space -->
                <rs type="org" ref="#amp_organization_4">Anglican</rs> and <rs type="org" ref="#amp_organization_45">Episcopalian churche<del>
                      <unclear>e</unclear>
                   </del>s</rs>. <space quantity="1" unit="char"/>The misunderstanding arose<lb/>
@@ -969,15 +1016,14 @@ for any purpose, even commercially.</p>
                   referred to in <rs type="lit_work" ref="#lit_work_id_79">"Whitsunday in Kirchstetten"</rs>. <space quantity="1" unit="char"/>
                <rs type="person" ref="#amp_person_1">Auden</rs> asked<lb/>
                <rs type="person" ref="#amp_person_109">Lustkandl</rs>´s <rs type="person" ref="#amp_person_">sucessor</rs> for permission to be buried in the churchyard,<lb/>
-                  and his wish was accede<del>o</del>
-               <unclear>d</unclear> to. <space quantity="2" unit="char"/>Evid<del>n</del>ently<unclear>,</unclear>
-               <del>T</del>the next logical thing to do, then,<lb/>
+                  and his wish was accede<del>ö</del>d to. <space quantity="2" unit="char"/>Evid<del>n</del>ently, <del>T</del>the next logical thing to do<del>, then,</del>
+               <lb/>
                   was to approach the chaplain to the <rs type="org" ref="#amp_organization_27">British Embassy in Vienna</rs>,´<lb/>
                   the <rs type="person" ref="#amp_person_156">Revd. Bruce Duncan</rs>, and ask him to officiate. <space quantity="1" unit="char"/>What form of<lb/>
                   service this should be - there could be no question of a funeral<lb/>
                   mass - left everyone present at a loss. <space quantity="1" unit="char"/>We agreed at last that<lb/>
                   it ought to be some kind of ecumenical ceremony held jointly by<lb/>
-                  the <rs type="person" ref="#amp_person_ #amp_person_156">two clergymen</rs>, but that first of all, the plan must be put<lb/>
+                  the <rs type="person" ref="#amp_person_230 #amp_person_156">two clergymen</rs>, but that first of all, the plan must be put<lb/>
                   before <rs type="person" ref="#amp_person_88">
                   <hi rend="underline">D</hi>
                   <del>D</del>r John Auden</rs>.<lb/>
@@ -986,9 +1032,10 @@ for any purpose, even commercially.</p>
                <space quantity="1" unit="char"/>the impossibly early date for the<lb/>
                   funeral. <space quantity="1" unit="char"/>The room had become much too warm, the oxygen was<lb/>
                   running out and <rs type="person" ref="#amp_person_4">Chester</rs> would not be able to stand much more<lb/>
-                  pressure. <space quantity="1" unit="char"/>The most urgent <del>step</del> objective waslquite simply to<lb/>
+                  pressure. <space quantity="1" unit="char"/>The most urgent <del>step</del> objective was<del>l</del>quite simply to<lb/>
                   free him from our burdensome presence. <space quantity="1" unit="char"/>Once everyone had agreed<lb/>
-                  that <rs type="person" ref="#amp_person_1">Auden</rs>´s relations must be told immediately that the <rs type="event" ref="#amp_event_id_19">funeral</rs>
+               <del>that</del>
+               <rs type="person" ref="#amp_person_1">Auden</rs>´s relations must be told immediately that the <rs type="event" ref="#amp_event_id_19">funeral</rs>
                <lb/>
                <del>ah</del>had been postponed, the moment had come to dissolve the meeting.<lb/>
                <rs type="person" ref="#amp_person_96">Mrs Clark</rs> undertook to telephone to <rs type="place" ref="#amp_place_id_56">London</rs> and <rs type="person" ref="#amp_person_32">Frau Strobl</rs> would<lb/>
@@ -1003,8 +1050,128 @@ for any purpose, even commercially.</p>
                   "It´ll be all right, I´m crammed full of tranquillizers, all I<lb/>
                   need is a bit of a rest." <space quantity="1" unit="char"/>He embraced me warmly and left the room.
                </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0210/" type="sheet"/>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0211/" type="sheet"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0210/" type="sheet" ed="14v"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_XXXX/" type="sheet" ed="15r"/>
+            <p>
+               <space quantity="31" unit="char"/>- 15 -
+               </p>
+            <p>
+               <space quantity="5" unit="char"/>
+               <rs type="person" ref="#amp_person_97">Frau Seitz</rs> drove the <rs type="person" ref="#amp_person_22">mayor</rs> and <rs type="person" ref="#amp_person_2">myself</rs> to her house at the<lb/>
+                  other end of <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs>, and we settled down to talk things over.<lb/> 
+                  I remember that I brought up<del>p</del>the subject of <rs type="person" ref="#amp_person_4">Chester Kallman</rs>'s<lb/>
+                  phobia about hearses. <space quantity="1" unit="char"/>He would have preferred the hearse not to<lb/>
+                  reverse up the lane to the garden gate, but that <del>h</del>the coffin be<lb/>
+                  carried down to the road, and he would have liked it still better<lb/>
+                  if the undertaker's men could have carried it most of the wa<del>s</del>
+               <handShift new="#handwritten"/>y <handShift new="#typed"/>to<lb/> 
+                  the church. <space quantity="1" unit="char"/>But I flinched from the very thought of the heavy<lb/>
+                  coffin being borne <del>over</del> along a steep downhill lane over uneven,<lb/>
+                  stony ground; <space quantity="1" unit="char"/>the hearse must be brought up the lane so that the<lb/>
+                  bearers only had to cross the small garden. 
+               </p>
+            <p>
+               <space quantity="5" unit="char"/>
+               <rs type="person" ref="#amp_person_22">Herr Enzinger</rs> had an entirely different problem on his mind,<lb/>
+                  concerning <del>r</del>the safety of the property of the deceased <rs type="person" ref="#amp_person_1">poet</rs>.<lb/>
+                  We all know of cases, he said, where after someone has died objects<lb/>
+                  of greater or less value mysteriously disappear from their usual<lb/>
+                  place and no o<del>b</del>ne is able to suggest where they got to? <space quantity="1" unit="char"/>Quite so,<lb/>
+                  I agreed, particularly in a case like this where it would be hard<lb/>
+                  to say where anything had its usual place. <space quantity="1" unit="char"/>The <rs type="person" ref="#amp_person_22">mayor</rs> asked me<lb/>
+               <del>at anyrate</del> to make sure that at least the upstairs room where <rs type="person" ref="#amp_person_1">Auden</rs>
+               <lb/>
+                  worked was locked to protect the manuscripts.. <space quantity="1" unit="char"/>It was in fact locked and sealed by a notary<lb/>
+                  public, but subsequently <rs type="person" ref="#amp_person_22">Herr Enzinger</rs>'s forebodings were justified.<lb/>
+                  A Cheshire cat-like process of gradual disappearance of half-<lb/>
+                  remembered objects began which has continued, if sporadically, ever<lb/>
+                  since. <space quantity="1" unit="char"/>Books, supplied from time to time <del>so as</del> to replenish the<lb/>
+                  depleted stock in the "cave of making", have vanished.
+               </p>
+            <p>
+               <space quantity="5" unit="char"/>
+               <rs type="person" ref="#amp_person_22">Bürgermeister Enzinger</rs> now for his part gave up his insistence<lb/>
+                  on the Saturday, and Thursday was settled upon so as to avoid<lb/>
+                  attracting too much public attention. <space quantity="1" unit="char"/>Unnecessary civic display<lb/>
+                  was struck off the programme. <space quantity="1" unit="char"/>Slowly, the arrangements began to<lb/>
+                  take shape, and on my return to the <rs type="place" ref="#amp_place_id_2">house</rs> I was able to tell<lb/>
+               <rs type="person" ref="#amp_person_4">Chester</rs> that a compormise had been found: <space quantity="1" unit="char"/>
+               <rs type="event" ref="#amp_event_id_19">funeral</rs> on Thursday;<lb/>
+                  brass band as irreducible token of civic (self)-respect; <space quantity="1" unit="char"/>hearse<lb/>
+                  to back up to the garden gate. <space quantity="1" unit="char"/>Not one of us, however, thought of<lb/>
+                  asking who was to pay for the band, and this omission was to bring<lb/>
+                  trouble in its train. <space quantity="1" unit="char"/>In due course the local council sent a b<del>a</del>i<del>i</del>ll<del>l</del>
+               <lb/>
+                  to <rs type="person" ref="#amp_person_4">Chester</rs>, who was <del>fusri</del> furious. <space quantity="1" unit="char"/>His view was that the brass<lb/>
+                  band had been forced upon him, consequently he could not be
+               </p>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_XXXX/" type="sheet" ed="15v"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_XXXX/" type="sheet" ed="16r"/>
+            <p>
+               <space quantity="31" unit="char"/>- 16 -
+               </p>
+            <p>
+                  expected to pay for it. <space quantity="1" unit="char"/>He was so enraged that he could not wait<lb/>
+                  to see the last of <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs>. <space quantity="1" unit="char"/>With little pause for thought<lb/>
+                  or for consultation - with, for example, the <rs type="org" ref="#amp_organization_9">Austrian Society for<lb/>
+                  Literature</rs> - he sold the house and garden against annuity.
+               </p>
+            <p>
+               <space quantity="5" unit="char"/>On the eve of the <rs type="event" ref="#amp_event_id_19">funeral</rs> the party from <rs type="place" ref="#amp_place_id_239">England</rs> kept <rs type="person" ref="#amp_person_4">Chester</rs>
+               <lb/>
+                  and each other company in <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs>. <space quantity="1" unit="char"/>
+               <rs type="person" ref="#amp_person_88">Dr John Auden</rs> was there,<lb/>
+               <rs type="person" ref="#amp_person_8">Sir Stephen Spender</rs>, <rs type="person" ref="#amp_person_89">David Luke</rs> from <rs type="org" ref="#amp_organization_6">Christ Church, Oxford</rs>, <rs type="person" ref="#amp_person_90">Sonia<lb/>
+                  Orwell</rs>, the <rs type="person" ref="#amp_person_96 #amp_person_169">Clarks</rs> and <rs type="person" ref="#amp_person_4">Chester</rs>'s current Greek<del>f</del>friend, a warm-<lb/>
+                  hearted creature exuding tongue-tied sympathy with all around him.<lb/>
+               <rs type="person" ref="#amp_person_120">Charles Monteith</rs>, Chairman of <rs type="org" ref="#amp_organization_5">Faber and Faber</rs>, arrived next<lb/>
+                  morning.
+               </p>
+            <p>
+               <space quantity="5" unit="char"/>Partly in the <rs type="place" ref="#amp_place_id_2">house</rs>, partly in the garden, the gradually<lb/>
+                  assembling crowd of mourners stood about waiting. <space quantity="1" unit="char"/>
+               <rs type="person" ref="#amp_person_4">Chester</rs> was<lb/>
+                  composed and wore his grief with a certain dignity.
+               </p>
+            <p>
+               <space quantity="5" unit="char"/>The coffin, its head end raised, was in <rs type="person" ref="#amp_person_1">Auden</rs>'s bedroom.<lb/>
+                  As I went in, his spiritual presence struck me with great force.<lb/>
+                  It was <rs type="person" ref="#amp_person_1">Wystan Auden</rs>, out-distancing now all his human frailty,<lb/>
+                  remote and unknowable as perhaps he always was. <space quantity="1" unit="char"/>He had written the<lb/>
+                  finest love poem of the century, and it might have been <del>said</del> of<lb/>
+                  him that <rs type="person" ref="#amp_person_8">Spender</rs> wrote: <space quantity="1" unit="char"/>
+               <rs type="lit_work" ref="#lit_work_id_177">"I think continually of those who were<lb/>
+                  truly great."</rs>
+            </p>
+            <p>
+               <space quantity="4" unit="char"/>
+               <rs type="person" ref="#amp_person_4">Chester</rs> shut the sittingroom door. <space quantity="1" unit="char"/>Surprised and <del>ö</del>slightly<lb/>
+                  embarrassed we stood and listened to the <rs type="lit_work" ref="#lit_work_id_176">"Death of Siegfried"</rs>.<lb/>
+                  Then we left the ho<del>k</del>use.
+               </p>
+            <p>
+               <space quantity="5" unit="char"/>The rich variety among the human contacts of <rs type="person" ref="#amp_person_1">Auden</rs> and <rs type="person" ref="#amp_person_4">Kallman</rs>,<lb/>
+                  public and private<handShift new="#handwritten"/>, <handShift new="#typed"/>was quite adequately reflected in the long<lb/>
+                  defile now slowly winding its way through the village to the church.<lb/>
+                  English and Austrian cultural institutions were represented,<lb/>
+                  but <rs type="place" ref="#amp_person_239">England</rs> would <handShift new="#handwritten"/>only <handShift new="#typed"/>turn up in force at the <rs type="place" ref="#amp_place_id_331">Poet's Corner in<lb/>
+                  Westminster Abbey</rs>. <space quantity="1" unit="char"/>Among the local population the sense of<lb/>
+                  occasion may have been patchy. <space quantity="1" unit="char"/>A nobleman who had often exchanged<lb/>
+                  hospitality with the <rs type="person" ref="#amp_person_1 #amp_person_4">two poets</rs> asked me over lunch to fill in his<lb/>
+                  very vague picture of who and what <rs type="person" ref="#amp_person_1">Auden</rs> was. <space quantity="1" unit="char"/>The underworld of<lb/>
+               <rs type="place" ref="#amp_place_id_13">Athens</rs> had sent one of its own, but so had <rs type="place" ref="#amp_place_id_1">Vienna</rs>: <space quantity="1" unit="char"/>
+               <rs type="person" ref="#amp_person_107">Hugi</rs>, or<lb/>
+               <rs type="person" ref="#amp_person_107">H<del>ü</del>ugerl</rs>1, callboy and reformed convict was there too; <space quantity="1" unit="char"/>wearing a<lb/>
+                  tidy suit, he was accompanied by his <rs type="person" ref="#amp_person_240">wife</rs>. <space quantity="1" unit="char"/>From a position about<lb/>
+                  halfway down the procession a male figure could be observed<lb/>
+                  weaving <del>it</del>his way with determination and skill row by row <del>w</del>towards<lb/>
+                  the front until the desired place was reached immediately behind
+               </p>
+            <p>
+                  1<rs type="lit_work" ref="#lit_work_id_178">"Glad"</rs>, March 1965.
+               </p>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_02XX/" type="sheet" ed="16v"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0211/" type="sheet" ed="17r"/>
             <p>
                <space quantity="27" unit="char"/>- 17 -
                </p>
@@ -1012,24 +1179,26 @@ for any purpose, even commercially.</p>
                   the chief mourners. <space quantity="1" unit="char"/>It was <rs type="person" ref="#amp_person_175">"he-whose-name-we-never-mention"</rs>;<lb/>
                   or if it was, <rs type="person" ref="#amp_person_4">Chester</rs> had said, <rs type="person" ref="#amp_person_1">Auden</rs> crossed himself.<lb/>
                <space quantity="5" unit="char"/>At the lowest point in <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs> where the roads divide<lb/>
-                  thr procession halted while the coffin was transferred from the<lb/>
+                  th<del>r</del>e procession halted while the coffin was transferred from the<lb/>
                   hearse to a hand-drawn bier. <space quantity="1" unit="char"/>At this point the Church took charge<lb/>
                   and the procession resumed its steady pace; <space quantity="1" unit="char"/>photographs exist<lb/>
                   which were taken during the brief interval.<lb/>
                <space quantity="5" unit="char"/>To British ears quite unremarkable, the <rs type="event" ref="#amp_event_id_19">ecumenic<del>la</del>al service</rs>
                <lb/>
-                  was much ta<del>o</del>Iked about in A<del>ku</del>ustrian circles because nothing of the<lb/>
-                  kind had been known <del>n</del>before. <space quantity="1" unit="char"/>The <rs type="person" ref="#amp_person_156">Revd. Bruce Du<del>
-                     <unclear>c</unclear>
-                  </del>ncan</rs>, today Rector<lb/>
+                  was much ta<del>ö</del>lked about in A<del>ku</del>ustrian circles because nothing of the<lb/>
+                  kind had been known <del>n</del>before. <space quantity="1" unit="char"/>The <rs type="person" ref="#amp_person_156">Revd. Bruce Du<del>c</del>ncan</rs>, today Rector<lb/>
                   of Crediton in Devon, can remember little <del>more</del> about the general<lb/>
                   circumstances but confirms that he used the <rs type="lit_work" ref="#lit_work_id_13">Book of Common Prayer</rs>
                <lb/>
                   and the long reading from the first <del>book</del>
                <rs type="lit_work" ref="#lit_work_id_14">Letter of <rs type="person" ref="#amp_person_190">St.Paul</rs> to the<lb/>
-                  Corin<del>g</del>thians</rs>, chapter 15, verses 20-58. Beyond that, all he recalls<lb/>
-               <del>is the hysterical behaviour </del> is his difficulties with <rs type="person" ref="#amp_person_4">Chester</rs>.<lb/>
+                  Corin<del>g</del>thians</rs>, chapter 15, verses 20-58. <space quantity="1" unit="char"/>Beyond that, all he recalls<lb/>
+               <del>is the hysterical behaviour<space quantity="1" unit="char"/>
+               </del> is his difficulties with <rs type="person" ref="#amp_person_4">Chester</rs>.<lb/>
             </p>
+            <p>
+                  ↕ ↕
+               </p>
             <p>
                <space quantity="5" unit="char"/>Reaching for my <rs type="lit_work" ref="#lit_work_id_82">Authorised Version</rs>, for surely no one would<lb/>
                   have dared to use any other, on second thoughts I also took out the<lb/>
@@ -1041,20 +1210,28 @@ for any purpose, even commercially.</p>
                   white garden chairs with the red covers, "it´s a bit <hi rend="underline">einsam</hi> here.<lb/>
                   And I wanted to write and tell you that the technical word for<lb/>
                <hi rend="underline">buddle</hi> is <hi rend="underline">Erzwaschtrog</hi>. <space quantity="1" unit="char"/>I hope there is an equivalent German<lb/>
-                  euphemism for `senior citizen´. <space quantity="1" unit="char"/>Oh and <hi rend="underline">adit</hi> is <hi rend="underline">stollen,</hi> and although<lb/>
+                  euphemism for `senior citizen´. <space quantity="1" unit="char"/>Oh and <hi rend="underline">adit</hi> is <hi rend="underline">
+                  <del>s</del>Stollen,</hi> and although<lb/>
                   I may be wrong, I guess <hi rend="underline">concentrating mill</hi> is <hi rend="underline">Vereinigungsmühle.</hi>"<lb/>
                <space quantity="5" unit="char"/>"What a mercy you´ve told me" I said, relieved. <space quantity="1" unit="char"/>"I should have<lb/>
-                  to have dug up such frightful words in the British Council library.<lb/>
+                  had to <del>have</del> d<del>u</del>ig up such frightful words in the British Council library.<lb/>
                   But do you think people will understand all that about the primary<lb/>
                   and secondary worlds, or will they get muddled?"<lb/>
                <space quantity="5" unit="char"/>"It´s perfectly simple" said <rs type="person" ref="#amp_person_1">Auden</rs>. <space quantity="1" unit="char"/>"The initial impulse to<lb/>
                   create a secondary world is a feeling of awe aroused by encounters,<lb/>
                   in the primary world, with sacred beings or events."<lb/>
                <space quantity="5" unit="char"/>"There is one glory of the sun" I heard myself say, "and<lb/>
-                  another glory of the moon, and another glory of the stars: <space quantity="1" unit="char"/>for on
+                  another glory of the moon, and another glory of the stars: <space quantity="1" unit="char"/>for one
                </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0212/" type="sheet"/>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0213/" type="sheet"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0212/" type="sheet" ed="17v"/>
+            <div>
+               <ab>
+                     NEULINGGASSE 26/14
+                     <lb/>1030 WIEN
+                     <lb/>TEL. 73 94 015
+                  </ab>
+            </div>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0213/" type="sheet" ed="18r"/>
             <p>
                <space quantity="30" unit="char"/>- 18 -
                </p>
@@ -1074,16 +1251,13 @@ for any purpose, even commercially.</p>
                <space quantity="6" unit="char"/>"Very neat" said <rs type="person" ref="#amp_person_1">Auden</rs> happily. <space quantity="1" unit="char"/>I like `evil chatter´<lb/>
                   better than `comm<del>k</del>unications´."<lb/>
                <space quantity="6" unit="char"/>"The publishers" Isaid "have a rather heavy-handed way of<lb/>
-                  printing the more quotable bits in bold-face. <space quantity="1" unit="char"/>But in the next<lb/>
+                  printing the more quotable bits in bold-face<del>.</del>d type <space quantity="1" unit="char"/>But in the next<lb/>
                   verse <rs type="person" ref="#amp_person_102">Luther</rs> seems to flounder. <space quantity="1" unit="char"/>`Werdet doch einmal recht nüchtern<lb/>
                   und sündiget nicht!´" Do be a bit sober for once, he pleads. <space quantity="1" unit="char"/>And<lb/>
                   sin not. <space quantity="1" unit="char"/>
                <rs type="person" ref="#amp_person_170">King James</rs>´s translators fancied that <rs type="person" ref="#amp_person_190">St Paul</rs> cried out<lb/>
-               <del>
-                  <unclear>
-                     <del>s</del>S</unclear>
-               </del>`Awake to righteousness!"<lb/>
-               <space quantity="5" unit="char"/>"Who knows what he really said."<lb/>
+               <del>S</del>`Awake to righteousness!"<lb/>
+               <space quantity="5" unit="char"/>"Who knows what he really said<del>.</del>?"<lb/>
                <space quantity="5" unit="char"/>"<rs type="person" ref="#amp_person_102">Luther</rs>´s language is very fine as he reaches the clim<del>x</del>ax:<lb/>
                   `Siehe, ich sage euch ein Geheimnis... ´"<lb/>
                <space quantity="5" unit="char"/>But <rs type="person" ref="#amp_person_1">Auden</rs> was speaking. <space quantity="1" unit="char"/>"Behold, I shew you a mystery:<lb/>
@@ -1099,7 +1273,7 @@ for any purpose, even commercially.</p>
                   I hope you will pardon me if I speak somewhat personally. <space quantity="1" unit="char"/>I do so,<lb/>
                   not out of vanity...
                </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0214/" type="sheet"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0214/" type="sheet" ed="18v"/>
          </div>
       </body>
    </text>

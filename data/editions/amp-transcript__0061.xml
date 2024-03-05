@@ -12,10 +12,10 @@
                <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
-               <name>FWF Austrian Science Fund</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Vienna</postCode>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
                   <placeName>
                      <country>A</country>
                      <settlement>Vienna</settlement>
@@ -24,7 +24,9 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>AMP</edition>
+            <edition>
+               <title>Typed Letter Signed Stella Musulin to Wolfgang Kraus 1977-04-05</title>
+            </edition>
             <respStmt>
                <resp>Transcription and commentary</resp>
                <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
@@ -79,6 +81,13 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+               <p>Edition Documents Prefix</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="de">German</language>
@@ -91,6 +100,7 @@
             <correspContext>
                <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
                <ref type="belongsToCorrespondence" target="#amp_person_137">Kraus, Wolfgang</ref>
+               <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0020.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1973-09-24</ref>
                <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0032.xml">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</ref>
             </correspContext>
          </correspDesc>
@@ -103,6 +113,7 @@
          <change who="dgrigoriou" when="2022-10-06">transcriptions updated v0.1</change>
          <change who="dgrigoriou smayer tfruehwirth" when="2023-03-02">entities and correspDesc collated</change>
          <change who="dgrigoriou" when="2023-08-18">container structure updated</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2024-03-04">container structure updated, entities updated</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -115,9 +126,9 @@
    </facsimile>
    <text type="letter" hand="#typed">
       <body>
-         <div type="transcription" xml:id="transcription_amp_0061">
+         <div type="transcription" xml:id="transcription_amp_0061" xml:lang="de">
             <div type="letter">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0251/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0251/" type="sheet" ed="1r"/>
                <div type="letter_message">
                   <opener>
                      <dateline>
@@ -141,20 +152,20 @@
                      <unclear>A2</unclear>
                   </ab>
                </div>
-               <div>
-                  <ab>
-                     <rs type="person" ref="#amp_person_137">Herrn Dr. Wolfgang Kraus</rs>,<lb/>
-                     <address>
-                        <rs type="org" ref="#amp_organization_9">Österreichische Gesellschaft<lb/>
-                           <space quantity="6" unit="char"/>für Literatur</rs>
-                        <lb/>
-                        <rs type="place" ref="#amp_place_id_177">1010 Wien,<lb/>
-                            Palais Wilczek, He<del>e</del>rrengasse 5.</rs>
-                     </address>
-                  </ab>
-               </div>
                <div type="letter_message">
                   <opener>
+                     <dateline>
+                        <rs type="person" ref="#amp_person_137">Herrn Dr. Wolfgang Kraus</rs>,<lb/>
+                        <placeName>
+                           <address>
+                              <rs type="org" ref="#amp_organization_9">Österreichische Gesellschaft<lb/>
+                                 <space quantity="6" unit="char"/>für Literatur</rs>
+                              <lb/>
+                              <rs type="place" ref="#amp_place_id_177">1010 Wien,<lb/>
+                                    Palais Wilczek, He<del>e</del>rrengasse 5.</rs>
+                           </address>
+                        </placeName>
+                     </dateline>
                      <salute>Sehr geehrter, lieber <rs type="person" ref="#amp_person_137">Herr Doktor</rs> !</salute>
                   </opener>
                   <p>
@@ -179,7 +190,7 @@
                         <rs type="person" ref="#amp_person_2">Stella Musulin</rs>.</signed>
                   </closer>
                </div>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0252/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0252/" type="sheet" ed="1v"/>
             </div>
          </div>
       </body>

@@ -12,10 +12,10 @@
                <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
-               <name>FWF Austrian Science Fund</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Vienna</postCode>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
                   <placeName>
                      <country>A</country>
                      <settlement>Vienna</settlement>
@@ -28,7 +28,13 @@
                <title>Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</title>
                <interpGrp>
                   <interp xml:id="ana_006" source="ph_006"><!-- link to nanopub -->
-                     <desc>According to the online archive of the Austrian Society for Literature (https://www.ogl.at/programm/aktuelles-programm/archiv/1963/5), Auden participated in the Internationales Kassner-Symposium (International Rudolf Kassner Symposium), which opened on Sunday, 12 May 1963. Auden gave a talk on "Begegnung mit dem Werk Rudolf Kassners" ("Encounter with the Work of Rudolf Kassner") on Friday, 17 May 1963.</desc>
+                     <desc>
+                        According to the online archive of the <rs type="org" ref="#amp_organization_9">Austrian Society for Literature</rs> (https://www.ogl.at/programm/aktuelles-programm/archiv/1963/5), <rs type="person" ref="#amp_person_1">Auden</rs> participated in the Internationales Kassner-Symposium (International Rudolf Kassner Symposium), which opened on Sunday, 12 May 1963. Auden gave a talk on "Begegnung mit dem Werk Rudolf Kassners" ("Encounter with the Work of Rudolf Kassner") on Friday, 17 May 1963.
+                        <bibl source="https://www.ogl.at/programm/aktuelles-programm/archiv/1963/5">
+                           <title>Programm</title>
+                           <orgName ref="acdh:amp-index-organizations.xml#amp_organization_9"/>
+                        </bibl>
+                     </desc>
                      <respons resp="dgrigoriou smayer tfruehwirth" locus="value"/>
                      <certainty cert="high" locus="value"/>
                   </interp>
@@ -88,6 +94,13 @@ for any purpose, even commercially.</p>
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+               <p>Edition Documents Prefix</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -95,7 +108,9 @@ for any purpose, even commercially.</p>
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <orgName ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</orgName>
+               <orgName>
+                  <rs type="org" ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</rs>
+               </orgName>
                <placeName ref="#amp_place_id_5">Kirchstetten</placeName>
                <date notBefore-iso="1963-05-13T11:00:01+01:00" notAfter-iso="1963-05-13T12:00:00+01:00">1963-05-13T11:00:01+01:00/1963-05-13T12:00:00+01:00</date>
             </correspAction>
@@ -143,7 +158,7 @@ for any purpose, even commercially.</p>
       <body>
          <div type="transcription" xml:id="transcription_amp_0001" xml:lang="en">
             <div type="envelope">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0001/" type="envelope" ed="1"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0001/" type="envelope" ed="1r"/>
                <ab>
                   <rs type="person" ref="#amp_person_4">
                      <unclear>Ch</unclear>ester</rs> in <rs type="place" ref="#amp_place_id_14">Florence</rs>
@@ -169,7 +184,7 @@ for any purpose, even commercially.</p>
                      NÖ</rs>
                   </address>
                </ab>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0002/" type="envelope" ed="2"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0002/" type="envelope" ed="1v"/>
                <ab>
                   <rs type="person" ref="#amp_person_1">W.H.Auden</rs>
                   <unclear>,</unclear>
@@ -184,7 +199,7 @@ for any purpose, even commercially.</p>
                </ab>
             </div>
             <div type="letter">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0003/" type="letter" ed="3"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0003/" type="letter" ed="2r"/>
                <div type="letter_message">
                   <opener>
                      <dateline>
@@ -218,7 +233,7 @@ for any purpose, even commercially.</p>
                   </p>
                   <p>
                      <rs type="person" ref="#amp_person_4">Chester</rs> is at the moment in <rs type="place" ref="#amp_place_id_14">Florence</rs>,but<lb/>
-                     I expect him back on Tuesday.
+                     I <rs type="event" ref="#amp_event_id_84">expect him back on Tuesday</rs>.
                   </p>
                   <closer>
                      <salute>love</salute>
@@ -227,7 +242,7 @@ for any purpose, even commercially.</p>
                      </signed>
                   </closer>
                </div>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0004/" type="letter" ed="4"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0004/" type="letter" ed="2v"/>
             </div>
          </div>
       </body>

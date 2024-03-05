@@ -12,10 +12,10 @@
                <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
-               <name>FWF Austrian Science Fund</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Vienna</postCode>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
                   <placeName>
                      <country>A</country>
                      <settlement>Vienna</settlement>
@@ -24,7 +24,32 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>AMP</edition>
+            <edition>
+               <title>Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</title>
+               <interpGrp>
+                  <interp xml:id="ana_018" source="ph_018"><!-- link to nanopub -->
+                     <desc>
+                        According to Richard Davenport-Hines's <hi rend="italic">Auden</hi> biography, <rs type="person" ref="#amp_person_1">W. H. Auden</rs> took leave from his friends in <rs type="place" ref="#amp_place_id_28">New York City</rs> on 15 April 1972, and, after briefly returning to the <rs type="place" ref="#amp_place_id_15">US</rs>, ultimately left for <rs type="place" ref="#amp_place_id_46">Oxford</rs> on 30 September 1972.
+                        <bibl>
+                           <author>
+                              <persName>
+                                 <surname>Davenport-Hines</surname>
+                                 <forename>Richard</forename>
+                              </persName>
+                           </author>
+                           <title>Auden</title>
+                           <publisher>Heinemann</publisher>
+                           <pubPlace ref="acdh:amp-index-places.xml#amp_place_id_56"/>
+                           <date when-iso="1995"/>
+                           <idno type="ISBN">0-434-17507-2</idno>
+                           <citedRange unit="page" from="336" to="337"/>
+                        </bibl>
+                     </desc>
+                     <respons resp="dgrigoriou smayer tfruehwirth" locus="value"/>
+                     <certainty cert="high" locus="value"/>
+                  </interp>
+               </interpGrp>
+            </edition>
             <respStmt>
                <resp>Transcription and commentary</resp>
                <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
@@ -79,6 +104,13 @@ for any purpose, even commercially.</p>
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+               <p>Edition Documents Prefix</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -86,17 +118,23 @@ for any purpose, even commercially.</p>
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <orgName ref="#amp_organization_85">United States General Post Office</orgName>
+               <orgName>
+                  <rs type="org" ref="#amp_organization_85">United States General Post Office</rs>
+               </orgName>
                <placeName ref="#amp_place_id_28">New York City</placeName>
                <date notBefore-iso="1972-02-23T12:00:00-05:00" notAfter-iso="1972-02-23T23:59:59-05:00">1972-02-23T12:00:00-05:00/1972-02-23T23:59:59-05:00</date>
             </correspAction>
             <correspAction type="transmitted">
-               <orgName ref="amp_organization_72">Postamt Oberndorf an der Melk (post office Oberndorf an der Melk)</orgName>
+               <orgName>
+                  <rs type="org" ref="#amp_organization_72">Postamt Oberndorf an der Melk (post office Oberndorf an der Melk)</rs>
+               </orgName>
                <placeName ref="#amp_place_id_311">Oberndorf an der Melk</placeName>
                <date notBefore-iso="1972-02-28T13:00:01+01:00" notAfter-iso="1972-02-28T14:00:00+01:00">1972-02-28T13:00:01+01:00/1972-02-28T14:00:00+01:00</date>
             </correspAction>
             <correspAction type="redirected">
-               <orgName ref="amp_organization_72">Postamt Oberndorf an der Melk (post office Oberndorf an der Melk)</orgName>
+               <orgName>
+                  <rs type="org" ref="#amp_organization_72">Postamt Oberndorf an der Melk (post office Oberndorf an der Melk)</rs>
+               </orgName>
                <placeName ref="#amp_place_id_311">Oberndorf an der Melk</placeName>
             </correspAction>
             <correspAction type="received">
@@ -119,6 +157,7 @@ for any purpose, even commercially.</p>
          <change who="smayer tfruehwirth" when="2022-03-16">transcription reviewed, `space` element and `hand` attributes added, date format in `origDate` and `correspAction`/`date` modified</change>
          <change who="dgrigoriou smayer tfruehwirth" when="2023-02-21">entities and correspDesc collated</change>
          <change who="dgrigoriou" when="2023-08-17">container structure updated</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2024-01-17">entities updated, events created, interpGrp added</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -137,9 +176,9 @@ for any purpose, even commercially.</p>
    </facsimile>
    <text type="letter" hand="#handwritten">
       <body>
-         <div type="transcription" xml:id="transcription_amp_0019">
+         <div type="transcription" xml:id="transcription_amp_0019" xml:lang="en">
             <div type="envelope">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0091/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0091/" type="envelope" ed="1r"/>
                <ab>
                   <rs type="person" ref="#amp_person_1">W<unclear>.</unclear>H.Auden</rs>
                   <lb/>
@@ -154,7 +193,7 @@ for any purpose, even commercially.</p>
                   Not <unclear>q</unclear>uitti<unclear>n</unclear>g <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs>
                   <unclear>·</unclear>
                </ab>
-               <ab>
+               <ab xml:lang="de">
                   <rs type="person" ref="#amp_person_2">Die Baronin<lb/>
                   Stella Musulin</rs>
                   <lb/>
@@ -162,13 +201,14 @@ for any purpose, even commercially.</p>
                      <rs type="place" ref="#amp_place_id_7">Fridau<lb/>
                      3200 Obergrabendorf<lb/>
                      N. Ö<lb/>
-                     Austria</rs>
+                        <foreign xml:lang="en">Austria</foreign>
+                     </rs>
                   </address>
                </ab>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0092/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0092/" type="envelope" ed="1v"/>
             </div>
             <div type="letter">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0093/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0093/" type="sheet" ed="2r"/>
                <div type="letter_message">
                   <opener>
                      <dateline>
@@ -187,11 +227,12 @@ for any purpose, even commercially.</p>
                      </salute>
                   </opener>
                   <p>
-                     Many thanks for your letter<unclear>,</unclear> Whate<unclear>ve</unclear>r<lb/>
+                     <rs type="event" ref="#amp_event_id_102">Many thanks for your letter</rs>
+                     <unclear>,</unclear> Whate<unclear>ve</unclear>r<lb/>
                      ma<unclear>d</unclear>e you imagine I was quitting <rs type="place" ref="#amp_place_id_5">Kirchst<unclear>e</unclear>tten</rs>
                      <unclear>?</unclear>
                      <lb/>
-                     Of course I'm not<unclear>,</unclear> The <rs type="event" ref="#amp_event_id_43">change</rs> is that I<lb/>
+                     Of course I'm not<unclear>,</unclear> The <rs type="event" ref="#amp_event_id_43" ana="#ana_018">change</rs> is that I<lb/>
                      shall be spending my winters in <rs type="place" ref="#amp_place_id_46">Oxford</rs>
                      <lb/>
                      not in <rs type="place" ref="#amp_place_id_28">New York</rs>.
@@ -203,7 +244,7 @@ for any purpose, even commercially.</p>
                      </signed>
                   </closer>
                </div>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0094/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0094/" type="sheet" ed="2v"/>
             </div>
          </div>
       </body>

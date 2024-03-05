@@ -73,7 +73,7 @@
                   <death>
                      <date when-iso="1973-09-29">1973-09-29</date>
                      <settlement key="amp_place_id_225">
-                        <placeName>Hotel "Altenburger Hof"</placeName>
+                        <placeName>Hotel Altenburgerhof</placeName>
                      </settlement>
                   </death>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/118650963</idno>
@@ -82,10 +82,10 @@
                      <bibl n="lit_work_id_2">Homage to Clio</bibl>
                      <bibl n="lit_work_id_3">The Rake's Progress</bibl>
                      <bibl n="lit_work_id_4">Elegy for Young Lovers</bibl>
-                     <bibl n="lit_work_id_5">The Bassarids: Opera Seria with Intermezzo in One Act Based on The Bacchae of Euripides</bibl>
+                     <bibl n="lit_work_id_5">The Bassarids: Opera Seria with Intermezzo in One Act Based on "The Bacchae" of Euripides</bibl>
                      <bibl n="lit_work_id_16">The Rake's Progress</bibl>
                      <bibl n="lit_work_id_17">Elegy for Young Lovers</bibl>
-                     <bibl n="lit_work_id_18">The Bassarids: Opera Seria with Intermezzo in One Act Based on The Bacchae of Euripides</bibl>
+                     <bibl n="lit_work_id_18">The Bassarids: Opera Seria with Intermezzo in One Act Based on "The Bacchae" of Euripides</bibl>
                      <bibl n="lit_work_id_19">Love's Labour's Lost</bibl>
                      <bibl n="lit_work_id_20">Love's Labour's Lost</bibl>
                      <bibl n="lit_work_id_28">W. H. Auden: Collected Poems</bibl>
@@ -136,15 +136,24 @@
                      <bibl n="lit_work_id_149">Don Giovanni</bibl>
                      <bibl n="lit_work_id_150">The Seven Deadly Sins</bibl>
                      <bibl n="lit_work_id_151">Rise and Fall of the City of Mahagonny</bibl>
-                     <bibl n="lit_work_id_152">Arcifanfano (It's Always too Late to Learn)</bibl>
+                     <bibl n="lit_work_id_152">Arcifanfano, King of Fools; or, It's Always Too Late to Learn</bibl>
                      <bibl n="lit_work_id_158">Nones</bibl>
                      <bibl n="lit_work_id_161">August 1968</bibl>
                      <bibl n="lit_work_id_165">Stark bewölkt</bibl>
+                     <bibl n="lit_work_id_166">Epistle to a Godson (version 1969-06-10)</bibl>
+                     <bibl n="lit_work_id_167">Epistle to a Godson</bibl>
+                     <bibl n="lit_work_id_168">Epithalamium (version 1965-04-28)</bibl>
+                     <bibl n="lit_work_id_169">Epithalamium</bibl>
+                     <bibl n="lit_work_id_175">Foreword</bibl>
+                     <bibl n="lit_work_id_178">Glad</bibl>
+                     <bibl n="lit_work_id_179">Paul Bunyan</bibl>
+                     <bibl n="lit_work_id_180">Delia</bibl>
+                     <bibl n="lit_work_id_181">The Entertainment of the Senses</bibl>
                   </listBibl>
                </person>
                <person xml:id="amp_person_2">
                   <persName>
-                     <forename>Stella</forename>
+                     <forename>Stella Mary Bellairs</forename>
                      <surname>Musulin</surname>
                   </persName>
                   <birth>
@@ -225,17 +234,19 @@
                   <listBibl>
                      <bibl n="lit_work_id_3">The Rake's Progress</bibl>
                      <bibl n="lit_work_id_4">Elegy for Young Lovers</bibl>
-                     <bibl n="lit_work_id_5">The Bassarids: Opera Seria with Intermezzo in One Act Based on The Bacchae of Euripides</bibl>
+                     <bibl n="lit_work_id_5">The Bassarids: Opera Seria with Intermezzo in One Act Based on "The Bacchae" of Euripides</bibl>
                      <bibl n="lit_work_id_16">The Rake's Progress</bibl>
                      <bibl n="lit_work_id_17">Elegy for Young Lovers</bibl>
-                     <bibl n="lit_work_id_18">The Bassarids: Opera Seria with Intermezzo in One Act Based on The Bacchae of Euripides</bibl>
+                     <bibl n="lit_work_id_18">The Bassarids: Opera Seria with Intermezzo in One Act Based on "The Bacchae" of Euripides</bibl>
                      <bibl n="lit_work_id_19">Love's Labour's Lost</bibl>
                      <bibl n="lit_work_id_20">Love's Labour's Lost</bibl>
                      <bibl n="lit_work_id_148">The Magic Flute</bibl>
                      <bibl n="lit_work_id_149">Don Giovanni</bibl>
                      <bibl n="lit_work_id_150">The Seven Deadly Sins</bibl>
                      <bibl n="lit_work_id_151">Rise and Fall of the City of Mahagonny</bibl>
-                     <bibl n="lit_work_id_152">Arcifanfano (It's Always too Late to Learn)</bibl>
+                     <bibl n="lit_work_id_152">Arcifanfano, King of Fools; or, It's Always Too Late to Learn</bibl>
+                     <bibl n="lit_work_id_180">Delia</bibl>
+                     <bibl n="lit_work_id_181">The Entertainment of the Senses</bibl>
                   </listBibl>
                </person>
                <person xml:id="amp_person_5">
@@ -327,6 +338,7 @@
                   <listBibl>
                      <bibl n="lit_work_id_117">Unpublished volume on W. H. Auden</bibl>
                      <bibl n="lit_work_id_157">Seriously Unserious</bibl>
+                     <bibl n="lit_work_id_177">The Truly Great</bibl>
                   </listBibl>
                </person>
                <person xml:id="amp_person_9">
@@ -381,6 +393,7 @@
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q5879</idno>
                   <listBibl>
                      <bibl n="lit_work_id_70">Italienische Reise (Italian Journey)</bibl>
+                     <bibl n="lit_work_id_170">Das Sonett</bibl>
                   </listBibl>
                </person>
                <person xml:id="amp_person_12">
@@ -452,6 +465,12 @@
                      <forename>Emma</forename>
                      <surname>Eiermann</surname>
                   </persName>
+                  <birth>
+                     <date when-iso="1895-07-19">1895-07-19</date>
+                     <settlement key="amp_place_id_333">
+                        <placeName>Reichenau</placeName>
+                     </settlement>
+                  </birth>
                   <death>
                      <date when-iso="1967-11-04">1967-11-04</date>
                   </death>
@@ -461,6 +480,15 @@
                      <forename>Josef</forename>
                      <surname>Eiermann</surname>
                   </persName>
+                  <birth>
+                     <date when-iso="1885-08-05">1885-08-05</date>
+                     <settlement key="amp_place_id_333">
+                        <placeName>Reichenau</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1964-02-21">1964-02-21</date>
+                  </death>
                </person>
                <person xml:id="amp_person_18">
                   <persName>
@@ -481,6 +509,9 @@
                   </death>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/118594117</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1511</idno>
+                  <listBibl>
+                     <bibl n="lit_work_id_176">Götterdämmerung: Siegfried's Death &amp; Funeral March</bibl>
+                  </listBibl>
                </person>
                <person xml:id="amp_person_19">
                   <persName>
@@ -599,6 +630,7 @@
                   <listBibl>
                      <bibl n="lit_work_id_3">The Rake's Progress</bibl>
                      <bibl n="lit_work_id_35">Le Sacre du Printemps (The Rite of Spring)</bibl>
+                     <bibl n="lit_work_id_172">Retrospectives and Conclusions</bibl>
                   </listBibl>
                </person>
                <person xml:id="amp_person_26">
@@ -717,6 +749,12 @@
                      <forename>Josefa</forename>
                      <surname>Strobl</surname>
                   </persName>
+                  <birth>
+                     <date when-iso="1916-12-12">1916-12-12</date>
+                  </birth>
+                  <death>
+                     <date when-iso="1984-12-22">1984-12-22</date>
+                  </death>
                </person>
                <person xml:id="amp_person_33">
                   <persName>
@@ -737,6 +775,9 @@
                   </death>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/118558161</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q183266</idno>
+                  <listBibl>
+                     <bibl n="lit_work_id_174">Review of a Free Enquiry into the Nature and Origin of Evil</bibl>
+                  </listBibl>
                </person>
                <person xml:id="amp_person_34">
                   <persName>
@@ -1627,7 +1668,7 @@
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q76915</idno>
                   <listBibl>
                      <bibl n="lit_work_id_4">Elegy for Young Lovers</bibl>
-                     <bibl n="lit_work_id_5">The Bassarids: Opera Seria with Intermezzo in One Act Based on The Bacchae of Euripides</bibl>
+                     <bibl n="lit_work_id_5">The Bassarids: Opera Seria with Intermezzo in One Act Based on "The Bacchae" of Euripides</bibl>
                   </listBibl>
                </person>
                <person xml:id="amp_person_80">
@@ -1669,6 +1710,9 @@
                   </death>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/118566288</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q44328</idno>
+                  <listBibl>
+                     <bibl n="lit_work_id_173">Aphorismen</bibl>
+                  </listBibl>
                </person>
                <person xml:id="amp_person_82">
                   <persName>
@@ -1866,14 +1910,20 @@
                </person>
                <person xml:id="amp_person_93">
                   <persName>
-                     <forename>Elsa von</forename>
+                     <forename>Elsa Gerda Maria Louise Pauline von</forename>
                      <surname>Musulin</surname>
                   </persName>
                   <birth>
                      <date when-iso="1889-01-05">1889-01-05</date>
+                     <settlement key="amp_place_id_1">
+                        <placeName>Vienna</placeName>
+                     </settlement>
                   </birth>
                   <death>
                      <date when-iso="1976-12-20">1976-12-20</date>
+                     <settlement key="amp_place_id_7">
+                        <placeName>Schloss Fridau</placeName>
+                     </settlement>
                   </death>
                   <listBibl>
                      <bibl n="lit_work_id_93">Joseph Weinheber (prose translation Elsa Musulin and Stella Musulin)</bibl>
@@ -2107,6 +2157,9 @@
                   </death>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/118505114</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q8018</idno>
+                  <listBibl>
+                     <bibl n="lit_work_id_171">Confessiones (Confessions)</bibl>
+                  </listBibl>
                </person>
                <person xml:id="amp_person_112">
                   <persName>
@@ -2256,9 +2309,6 @@
                   </persName>
                   <birth>
                      <date when-iso="1904-07-20">1904-07-20</date>
-                     <settlement key="amp_place_id_179">
-                        <placeName>Kildare</placeName>
-                     </settlement>
                      <settlement key="amp_place_id_278">
                         <placeName>Newbridge</placeName>
                      </settlement>
@@ -2381,6 +2431,12 @@
                         <placeName>Magdeburg</placeName>
                      </settlement>
                   </birth>
+                  <death>
+                     <date when-iso="2024-01-30">2024-01-30</date>
+                     <settlement key="amp_place_id_1">
+                        <placeName>Vienna</placeName>
+                     </settlement>
+                  </death>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/119289075</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q104573</idno>
                </person>
@@ -2511,7 +2567,7 @@
                      </settlement>
                   </death>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/118515527</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q150767</idno>
+                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q150767</idno>
                   <listBibl>
                      <bibl n="lit_work_id_121">Night Mail</bibl>
                      <bibl n="lit_work_id_122">Coal Face</bibl>
@@ -3083,9 +3139,21 @@
                </person>
                <person xml:id="amp_person_176">
                   <persName>
-                     <forename>N/A_3</forename>
+                     <forename>Franz</forename>
                      <surname>Strobl</surname>
                   </persName>
+                  <birth>
+                     <date when-iso="1919-12-15">1919-12-15</date>
+                     <settlement key="amp_place_id_335">
+                        <placeName>Höbersdorf</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1974-06-24">1974-06-24</date>
+                     <settlement key="amp_place_id_9">
+                        <placeName>St. Pölten</placeName>
+                     </settlement>
+                  </death>
                </person>
                <person xml:id="amp_person_177">
                   <persName>
@@ -3513,14 +3581,14 @@
                   </persName>
                   <birth>
                      <date when-iso="1906-10-18">1906-10-18</date>
-                     <settlement key="amp_place_id_287">
-                        <placeName>Amersham</placeName>
+                     <settlement key="amp_place_id_204">
+                        <placeName>Edinburgh</placeName>
                      </settlement>
                   </birth>
                   <death>
                      <date when-iso="1987-04-02">1987-04-02</date>
-                     <settlement key="amp_place_id_204">
-                        <placeName>Edinburgh</placeName>
+                     <settlement key="amp_place_id_287">
+                        <placeName>Amersham</placeName>
                      </settlement>
                   </death>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/134067584</idno>
@@ -3531,7 +3599,7 @@
                </person>
                <person xml:id="amp_person_210">
                   <persName>
-                     <forename>Basil</forename>
+                     <forename>Basil Charles</forename>
                      <surname>Wright</surname>
                   </persName>
                   <birth>
@@ -3542,8 +3610,8 @@
                   </birth>
                   <death>
                      <date when-iso="1987-10-14">1987-10-14</date>
-                     <settlement key="amp_place_id_56">
-                        <placeName>London</placeName>
+                     <settlement key="amp_place_id_337">
+                        <placeName>Frieth</placeName>
                      </settlement>
                   </death>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/134067606</idno>
@@ -3829,13 +3897,16 @@
                </person>
                <person xml:id="amp_person_225">
                   <persName>
-                     <forename>Margaret</forename>
+                     <forename>Margaret Elinor</forename>
                      <surname>Lloyd-Philipps</surname>
                   </persName>
+                  <birth>
+                     <date when-iso="1890-11-20">1890-11-20</date>
+                  </birth>
                </person>
                <person xml:id="amp_person_226">
                   <persName>
-                     <forename>Friedrich Graf von Colloredo-Mannsfeld</forename>
+                     <forename>Friedrich Graf von</forename>
                      <surname>Colloredo-Mansfeld</surname>
                   </persName>
                   <birth>
@@ -3973,16 +4044,45 @@
                      </settlement>
                   </death>
                </person>
-               <person xml:id="amp_person_236">
-                  <persName>
-                     <forename/>
-                     <surname>"my lawyer"</surname>
-                  </persName>
-               </person>
                <person xml:id="amp_person_237">
                   <persName>
                      <forename/>
                      <surname>"Liebling"</surname>
+                  </persName>
+               </person>
+               <person xml:id="amp_person_238">
+                  <persName>
+                     <forename>Rhodri Vaughan Lloyd</forename>
+                     <surname>Lloyd-Philipps</surname>
+                  </persName>
+               </person>
+               <person xml:id="amp_person_239">
+                  <persName>
+                     <forename>Robert</forename>
+                     <surname>Craft</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1923-10-20">1923-10-20</date>
+                     <settlement key="amp_place_id_329">
+                        <placeName>Kingston, New York</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="2015-11-10">2015-11-10</date>
+                     <settlement key="amp_place_id_330">
+                        <placeName>Gulf Stream, Florida</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118677225</idno>
+                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q1380024</idno>
+                  <listBibl>
+                     <bibl n="lit_work_id_172">Retrospectives and Conclusions</bibl>
+                  </listBibl>
+               </person>
+               <person xml:id="amp_person_240">
+                  <persName>
+                     <forename>Christa</forename>
+                     <surname>K.</surname>
                   </persName>
                </person>
             </listPerson>

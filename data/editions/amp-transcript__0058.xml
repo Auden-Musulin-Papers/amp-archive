@@ -12,10 +12,10 @@
                <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
-               <name>FWF Austrian Science Fund</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Vienna</postCode>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
                   <placeName>
                      <country>A</country>
                      <settlement>Vienna</settlement>
@@ -29,21 +29,22 @@
                <interpGrp>
                   <interp xml:id="ana_002" source="ph_002"><!-- link to nanopub -->
                      <desc>
-                        The date of creation has been delimited based on considerations related to material aspects, Auden's salutatory practice, and letter contents. As suggested by the documents in our collection, Auden would use his off-white Kirchstetten stationery from at least September 1965 onward; the last extant message in the AMP collection that is written on the bluish grey letter paper, used in this document, dates from 12 May 1963. Furthermore, whereas, in his letter from 21 July 1960, Auden addresses Stella Musulin as "Dear Baroness Musulin", he would call her by her first name from at least August 1961 onward. The specific range provided for the date of creation results from investigation into the date of writing as indicated in Auden's message ("Sonntag") in relation to the date of a proposed meeting mentioned in Auden's message: 1 October 1961 is the date of the Sunday that precedes the first "Thursday (19th)" during Auden's residence at Kirchstetten after July 1960; 15 August 1965 is the date of the Sunday that precedes the last "Thursday (19th)" during Auden's stay in his Austrian home before September 1965.
+                        The date of creation has been delimited based on considerations related to material aspects, <rs type="person" ref="#amp_person_1">Auden</rs>'s salutatory practice, and letter contents. As suggested by the documents in our collection, Auden would use his off-white Kirchstetten stationery from at least September 1965 onward; the <ref target="acdh:amp-transcript__0001.xml">last extant message</ref> in the AMP collection that is written on the bluish grey letter paper, used in this document, dates from 12 May 1963. Furthermore, whereas, in <ref target="acdh:amp-transcript__0045.xml">his letter from 21 July 1960</ref>, Auden addresses <rs type="person" ref="#amp_person_2">Stella Musulin</rs> as "Dear Baroness Musulin", he would call her by her first name from at least August 1961 onward. The specific range provided for the date of creation results from investigation into the date of writing as indicated in <ref target="acdh:amp-transcript__0058.xml">Auden's message</ref> ("Sonntag") in relation to the date of a proposed meeting mentioned in that same message: 1 October 1961 is the date of the Sunday that precedes the first "Thursday (19th)" during Auden's residence at Kirchstetten after July 1960; 15 August 1965 is the date of the Sunday that precedes the last "Thursday (19th)" during Auden's stay in his Austrian home before September 1965.
+                        <listBibl>
+                           <bibl sameAs="acdh:amp-transcript__0001.xml"/>
+                           <bibl sameAs="acdh:amp-transcript__0045.xml"/>
+                           <bibl sameAs="acdh:amp-transcript__0058.xml"/>
+                        </listBibl>
                      </desc>
                      <respons locus="value" resp="#tfruehwirth #smayer"/>
                      <certainty locus="value" cert="high"/>
                   </interp>
                   <interp xml:id="ana_003" source="ph_003"><!-- link to nanopub -->
                      <desc>
-                        In this period of time, Stella Musulin lived either at <rs type="place" ref="#amp_place_id_7">Schloss Fridau</rs> in Ober-Grafendorf or in <rs type="place" ref="#amp_place_id_11">Neulinggasse 26</rs> in Vienna.
+                        In this period of time, <rs type="person" ref="#amp_person_2">Stella Musulin</rs> lived either at <rs type="place" ref="#amp_place_id_7">Schloss Fridau</rs> in Ober-Grafendorf or in <rs type="place" ref="#amp_place_id_11">Neulinggasse 26</rs> in Vienna.
                         <listPlace type="choice">
-                           <place>
-                              <placeName ref="#amp_place_id_7"/>
-                           </place>
-                           <place>
-                              <placeName ref="#amp_place_id_11"/>
-                           </place>
+                           <place sameAs="acdh:amp-index-places.xml#amp_place_id_7"/>
+                           <place sameAs="acdh:amp-index-places.xml#amp_place_id_11"/>
                         </listPlace>
                      </desc>
                      <respons locus="value" resp="#tfruehwirth #dgrigoriou #smayer"/>
@@ -107,6 +108,13 @@ for any purpose, even commercially.</p>
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+               <p>Edition Documents Prefix</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -147,7 +155,7 @@ for any purpose, even commercially.</p>
       <body>
          <div type="transcription" xml:id="transcription_amp_0058" xml:lang="en">
             <div type="letter">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0107/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0107/" type="sheet" ed="1r"/>
                <div>
                   <ab xml:lang="de">
                      K<unclear>ö</unclear>nnen Sie Mittwoch<lb/>
@@ -187,7 +195,7 @@ for any purpose, even commercially.</p>
                      </signed>
                   </closer>
                </div>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0108/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0108/" type="sheet" ed="1v"/>
             </div>
          </div>
       </body>

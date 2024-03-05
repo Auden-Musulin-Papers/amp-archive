@@ -12,10 +12,10 @@
                <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
-               <name>FWF Austrian Science Fund</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Vienna</postCode>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
                   <placeName>
                      <country>A</country>
                      <settlement>Vienna</settlement>
@@ -24,7 +24,9 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>AMP</edition>
+            <edition>
+               <title>Typed Letter Signed Michael O'Sullivan to Stella Musulin 1984-05-31</title>
+            </edition>
             <respStmt>
                <resp>Transcription and commentary</resp>
                <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
@@ -72,7 +74,6 @@ for any purpose, even commercially.</p>
                         <origin>
                            <origDate notBefore-iso="1984-05-31T00:00:00+01:00" notAfter-iso="1984-05-31T23:59:59+01:00">1984-05-31</origDate>
                            <origPlace ref="#amp_place_id_108">Dublin</origPlace>
-                           <!-- uncertainty re multiple addresses -->
                         </origin>
                      </history>
                   </msDesc>
@@ -92,7 +93,6 @@ for any purpose, even commercially.</p>
                <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
                <ref type="belongsToCorrespondence" target="#amp_person_99">O'Sullivan, Michael</ref>
                <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0033.xml">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</ref>
-               <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0036.xml">Autograph Note Michael O'Sullivan to Stella Musulin 1984-08-15</ref>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -116,7 +116,7 @@ for any purpose, even commercially.</p>
    </facsimile>
    <text type="letter" hand="#typed">
       <body>
-         <div type="transcription" xml:id="transcription_amp_0034">
+         <div type="transcription" xml:id="transcription_amp_0034" xml:lang="en">
             <div type="letter">
                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0231/" type="sheet"/>
                <div type="letter_message">
@@ -124,14 +124,19 @@ for any purpose, even commercially.</p>
                      <dateline>
                         <placeName>
                            <seg hand="#printed">
+                              <lb/>
                               <rs type="org" ref="#amp_organization_31">UNIVERSITY OF DUBLIN</rs>
                            </seg>
                            <seg hand="#printed">
-                              <rs type="org" ref="#amp_organization_32">TRINITY COLLEGE</rs>
                               <lb/>
+                              <rs type="org" ref="#amp_organization_32">TRINITY COLLEGE</rs>
                               DUBLIN 2
                            </seg>
+                           <seg hand="#printed"><!-- markup of pictorial element -->
+                              Tel. 772941
+                           </seg>
                            <seg>
+                              <lb/>
                               <space quantity="60" unit="char"/>Home address :<lb/>
                               <lb/>
                               <address>
@@ -142,9 +147,6 @@ for any purpose, even commercially.</p>
                                  <space quantity="60" unit="char"/>
                                  <addrLine>Tel : 762662.</addrLine>
                               </address>
-                           </seg>
-                           <seg hand="#printed">
-                              <space quantity="60" unit="char"/>Tel. 772941
                            </seg>
                         </placeName>
                         <date rend="#block">
@@ -177,7 +179,7 @@ for any purpose, even commercially.</p>
                      his contributions to periodicals, representative anthologies, <rs type="lit_work" ref="#lit_work_id_121 #lit_work_id_122">his films for<lb/>
                      the <rs type="org" ref="#amp_organization_19">G.P.O Film Unit</rs>
                      </rs>, many items connected with his work for the <rs type="org" ref="#amp_organization_33">Group Theatre</rs>,<lb/>
-                     <rs type="lit_work" ref="#lit_work_id_16 #lit_work_id_17 #lit_work_id_18 #lit_work_id_20 #lit_work_id_148 #lit_work_id_149 #lit_work_id_150 #lit_work_id_151 #lit_work_id_152">all the opera libretti</rs>, <del>his</del>
+                     <rs type="lit_work" ref="#lit_work_id_16 #lit_work_id_17 #lit_work_id_18 #lit_work_id_20 #lit_work_id_148 #lit_work_id_149 #lit_work_id_150 #lit_work_id_151 #lit_work_id_152 #lit_work_id_179 #lit_work_id_180 #lit_work_id_181">all the opera libretti</rs>, <del>his</del>
                      <rs type="person" ref="#amp_person_136">Britten</rs>'s arrangements of his poems and many other items.<lb/>
                      I have also arranged for various portraits of <rs type="person" ref="#amp_person_1">Auden</rs> to be sent to <rs type="place" ref="#amp_place_id_1">Vienna</rs> ; they<lb/>
                      include <rs type="person" ref="#amp_person_123">Sir William Coldstream</rs>

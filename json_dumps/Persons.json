@@ -225,7 +225,7 @@
     "Name": "Brenner, Simon",
     "Literal": "Brenner, Simon",
     "Object_uri_organizations": [],
-    "Language": "na",
+    "Language": "und",
     "Predicate_uri": [
       {
         "id": 114,
@@ -533,5 +533,60 @@
       }
     ],
     "Subject_uri": "https://id.acdh.oeaw.ac.at/emusulin"
+  },
+  "57": {
+    "id": 57,
+    "order": "54.00000000000000000000",
+    "Name": "Busta, Christine",
+    "Literal": "Busta, Christine",
+    "Object_uri_organizations": [],
+    "Language": "und",
+    "Predicate_uri": [
+      {
+        "id": 114,
+        "value": "hasTitle"
+      }
+    ],
+    "Subject_uri": "https://d-nb.info/gnd/119022354"
+  },
+  "59": {
+    "id": 59,
+    "order": "55.00000000000000000000",
+    "Name": "Lehecka, Sandra",
+    "Literal": "Lehecka, Sandra",
+    "Object_uri_organizations": [],
+    "Language": "und",
+    "Predicate_uri": [
+      {
+        "id": 114,
+        "value": "hasTitle"
+      }
+    ],
+    "Subject_uri": "https://id.acdh.oeaw.ac.at/slehecka"
+  },
+  "60": {
+    "id": 60,
+    "order": "56.00000000000000000000",
+    "Name": "",
+    "Literal": "",
+    "Object_uri_organizations": [],
+    "Language": "",
+    "Predicate_uri": [],
+    "Subject_uri": ""
+  },
+  "61": {
+    "id": 61,
+    "order": "57.00000000000000000000",
+    "Name": "Angerer, Thomas",
+    "Literal": "Angerer, Thomas",
+    "Object_uri_organizations": [],
+    "Language": "und",
+    "Predicate_uri": [
+      {
+        "id": 114,
+        "value": "hasTitle"
+      }
+    ],
+    "Subject_uri": "https://d-nb.info/gnd/121076261"
   }
 }

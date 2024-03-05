@@ -6,16 +6,17 @@
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23</title>
             <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
+            <author ref="https://id.acdh.oeaw.ac.at/emusulin">Musulin, Elsa von</author>
             <editor>
                <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
                <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
                <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
-               <name>FWF Austrian Science Fund</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Vienna</postCode>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
                   <placeName>
                      <country>A</country>
                      <settlement>Vienna</settlement>
@@ -28,7 +29,57 @@
                <title>Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23</title>
                <interpGrp>
                   <interp xml:id="ana_007" source="ph_007"><!-- link to nanopub -->
-                     <desc>In her memoirs ("Auden in Kirchstetten" 210, <ref target="https://hdl.handle.net/21.11115/0000-000F-7452-2">"The Years in Austria"</ref> 14), Stella Musulin refers to her own previous letter to Berlin, in which she had mentioned <rs type="person" ref="#amp_person_70">Brian Bunting</rs>'s non-fiction book <rs type="lit_work" ref="#lit_work_id_72">The Rise of the South African Reich</rs> in relation to the issue of torture.</desc>
+                     <desc>
+                        In her memoirs (<rs type="lit_work" ref="#lit_work_id_162">"Auden in Kirchstetten"</rs> 210, <ref target="acdh:amp-transcript__0062.xml">"The Years in Austria"</ref> 14-15), <rs type="person" ref="#amp_person_2">Stella Musulin</rs> refers to her own previous letter to Berlin, in which she had mentioned <rs type="person" ref="#amp_person_70">Brian Bunting</rs>'s non-fiction book <rs type="lit_work" ref="#lit_work_id_72">The Rise of the South African Reich</rs> in relation to the issue of torture.
+                        <listEvent>
+                           <event ref="acdh:amp-index-events.xml#amp_event_id_70">
+                              <label>Letter Stella Musulin to W. H. Auden 1964-09-01--1964-12-23</label>
+                           </event>
+                        </listEvent>
+                        <listBibl>
+                           <bibl>
+                              <author ref="acdh:amp-index-persons.xml#amp_person_2"/>
+                              <title level="a">Auden in Kirchstetten</title>
+                              <title level="m">W.H. Auden: 'In Solitude, for Company': W.H. Auden After 1940</title>
+                              <editor>
+                                 <persName ref="acdh:amp-index-persons.xml#amp_person_231"/>
+                              </editor>
+                              <editor>
+                                 <persName>
+                                    <surname>Jenkins</surname>
+                                    <forename>Nicholas</forename>
+                                 </persName>
+                              </editor>
+                              <publisher>Clarendon Press</publisher>
+                              <pubPlace ref="acdh:amp-index-places.xml#amp_place_id_46"/>
+                              <date when-iso="1995"/>
+                              <idno type="ISBN">0-19-818294-5</idno>
+                              <biblScope unit="page" from="207" to="233"/>
+                              <citedRange unit="page" from="210" to="210"/>
+                           </bibl>
+                           <bibl sameAs="acdh:amp-transcript__0062.xml">
+                              <citedRange unit="page" from="14" to="15"/>
+                           </bibl>
+                        </listBibl>
+                     </desc>
+                     <respons resp="dgrigoriou smayer tfruehwirth" locus="value"/>
+                     <certainty cert="high" locus="value"/>
+                  </interp>
+                  <interp source="ph_023" xml:id="ana_023">
+                     <desc>
+                        In her memoir <ref target="acdh:amp-transcript__0062.xml">"The Years in Austria"</ref> (14-15), <rs type="person" ref="#amp_person_2">Stella Musulin</rs> relates the lines <quote source="acdh:amp-transcript__0038.xml">"(In what bars are they welcome? / What girls marry them?)"</quote> in the version of <rs type="person" ref="#amp_person_1">W. H. Auden</rs>'s poem <rs type="lit_work" ref="#lit_work_id_61">"Joseph Weinheber"</rs> from 15 March 1965 to a passage (<quote source="acdh:amp-transcript__0002.xml">"Where do the torturers come from? What class? Whom do they marry? <del>Have you ever met one<unclear>?</unclear>
+                           </del> To what pubs do they go?"</quote>) in the poet's <ref target="acdh:amp-transcript__0002.xml">letter to her from 23 December 1964</ref>: "When I told <rs type="person" ref="#amp_person_4">Chester</rs> about how Auden's letter to me had made its own infinitesimal contribution to English literature, Chester snapped: 'Wystan never wastes anything!'"
+                        <bibl sameAs="acdh:amp-transcript__0062.xml">
+                           <citedRange unit="page" from="14" to="15"/>
+                        </bibl>
+                     </desc>
+                     <respons resp="dgrigoriou smayer tfruehwrith" locus="value"/>
+                     <certainty cert="high" locus="value"/>
+                  </interp>
+                  <interp source="ph_027" xml:id="ana_027">
+                     <desc>
+                        The handwriting has been identified as <rs type="person" ref="#amp_person_93">Elsa von Musulin</rs>'s by her grandson <rs type="person" ref="#amp_person_94">Marko Musulin</rs>.
+                     </desc>
                      <respons resp="dgrigoriou smayer tfruehwirth" locus="value"/>
                      <certainty cert="high" locus="value"/>
                   </interp>
@@ -88,6 +139,13 @@ for any purpose, even commercially.</p>
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+               <p>Edition Documents Prefix</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -95,18 +153,22 @@ for any purpose, even commercially.</p>
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <orgName ref="#amp_organization_78">Postamt Berlin 33 (post office Berlin 33)</orgName>
+               <orgName>
+                  <rs type="org" ref="#amp_organization_78">Postamt Berlin 33 (post office Berlin 33)</rs>
+               </orgName>
                <placeName ref="#amp_place_id_17">Berlin</placeName>
                <date notBefore-iso="1964-12-23T14:00:01+01:00" notAfter-iso="1964-12-23T15:00:00+01:00">1964-12-23T14:00:01+01:00/1964-12-23T15:00:00+01:00</date>
             </correspAction>
             <correspAction type="transmitted">
-               <orgName ref="#amp_organization_71">Postamt Ober-Grafendorf (post office Ober-Grafendorf)</orgName>
+               <orgName>
+                  <rs type="org" ref="#amp_organization_71">Postamt Ober-Grafendorf (post office Ober-Grafendorf)</rs>
+               </orgName>
                <!-- info from backstamp -->
                <placeName ref="#amp_place_id_8">Ober-Grafendorf</placeName>
                <date notBefore-iso="1964-12-28T17:00:01+01:00" notAfter-iso="1964-12-28T18:00:00+01:00">1964-12-28T17:00:01+01:00/1964-12-28T18:00:00+01:00</date>
             </correspAction>
             <correspAction type="redirected">
-               <persName ref="#amp_person_93">Musulin, Elsa von</persName>
+               <persName ref="#amp_person_93" ana="#ana_027">Musulin, Elsa von</persName>
                <placeName ref="#amp_place_id_7">Fridau</placeName>
             </correspAction>
             <correspAction type="received">
@@ -150,7 +212,7 @@ for any purpose, even commercially.</p>
       <body>
          <div type="transcription" xml:id="transcription_amp_0002" xml:lang="en">
             <div type="envelope" xml:lang="de">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0007/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0007/" type="envelope" ed="1r"/>
                <ab>
                   <hi rend="underline">mit Luft Post</hi>
                </ab>
@@ -181,7 +243,7 @@ for any purpose, even commercially.</p>
                      Neulinggasse 26/14</rs>
                   </address>
                </ab>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0008/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0008/" type="envelope" ed="1v"/>
                <ab>
                   <rs type="person" ref="#amp_person_1">W H Auden</rs>
                   <lb/>
@@ -194,7 +256,7 @@ for any purpose, even commercially.</p>
                </ab>
             </div>
             <div type="letter">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0005/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0005/" type="sheet" ed="2r"/>
                <div type="letter_message">
                   <opener>
                      <dateline>
@@ -245,10 +307,10 @@ for any purpose, even commercially.</p>
                         <gap reason="deleted"/>
                      </del>
                      <unclear>i</unclear>n the <unclear>s</unclear>o<unclear>r</unclear>t of people I <del>know</del>meet, but I cannot conceive of myself<lb/>
-                     or them torturing anybody. Where do the torturers<lb/>
+                     or them torturing anybody. <rs type="note" ana="#ana_023">Where do the torturers<lb/>
                      come from? What class? Whom do they marry?<lb/>
-                     <del>Have you ever met one<unclear>?</unclear>
-                     </del> To what pubs do they go?
+                        <del>Have you ever met one<unclear>?</unclear>
+                        </del> To what pubs do they go?</rs>
                   </p>
                   <closer>
                      <salute>much love and best wishes for 1<unclear>9</unclear>65</salute>
@@ -257,7 +319,7 @@ for any purpose, even commercially.</p>
                      </signed>
                   </closer>
                </div>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0006/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0006/" type="sheet" ed="2v"/>
             </div>
          </div>
       </body>

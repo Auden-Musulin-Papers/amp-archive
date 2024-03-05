@@ -12,10 +12,10 @@
                <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
-               <name>FWF Austrian Science Fund</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Vienna</postCode>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
                   <placeName>
                      <country>A</country>
                      <settlement>Vienna</settlement>
@@ -24,7 +24,30 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>AMP</edition>
+            <edition>
+               <title>Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</title>
+               <interpGrp>
+                  <interp xml:id="ana_013" source="ph_013"><!-- link to nanopub -->
+                     <desc>
+                        In <ref target="acdh:amp-transcript__0013.xml">his letter from 4 January 1969</ref>, Auden refers to his "old lawyer", <rs type="person" ref="#amp_person_14">Walter Redlich</rs>, as "supervising the case". Among the Auden papers held by the Archiv der Zeitgenossen, there is a letter to <rs type="person" ref="#amp_person_107">Hugo K.</rs> from 11 January 1969, in which Auden informs him that <rs type="person" ref="#amp_person_14">Redlich</rs> had retired and the case would be handled by a new lawyer, <rs type="person" ref="#amp_person_235">Erich Mikesch</rs>.
+                        <listBibl>
+                           <bibl sameAs="acdh:amp-transcript__0013.xml"/>
+                           <bibl>
+                              <title>Typed Letter Signed W. H. Auden to Hugo K. 1969-01-11</title>
+                              <msIdentifier>
+                                 <country ref="acdh:amp-index-places.xml#amp_place_id_10"/>
+                                 <settlement ref="acdh:amp-index-places.xml#amp_place_id_62"/>
+                                 <repository>Archiv der Zeitgenossen</repository>
+                                 <collection>NL W. H. Auden</collection>
+                              </msIdentifier>
+                           </bibl>
+                        </listBibl>
+                     </desc>
+                     <respons resp="dgrigoriou smayer tfruehwirth" locus="value"/>
+                     <certainty cert="high" locus="value"/>
+                  </interp>
+               </interpGrp>
+            </edition>
             <respStmt>
                <resp>Transcription and commentary</resp>
                <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
@@ -79,6 +102,13 @@ for any purpose, even commercially.</p>
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+               <p>Edition Documents Prefix</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -86,7 +116,9 @@ for any purpose, even commercially.</p>
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <orgName ref="#amp_organization_85">United States General Post Office</orgName>
+               <orgName>
+                  <rs type="org" ref="#amp_organization_85">United States General Post Office</rs>
+               </orgName>
                <placeName ref="#amp_place_id_28">New York City</placeName>
                <date notBefore-iso="1968-12-30T12:00:00-05:00" notAfter-iso="1968-12-30T23:59:59-05:00">1968-12-30T12:00:00-05:00/1968-12-30T23:59:59-05:00</date>
             </correspAction>
@@ -113,6 +145,7 @@ for any purpose, even commercially.</p>
          <change who="smayer tfruehwirth" when="2022-03-15">transcription reviewed, `space` element and `hand` attributes added, date format in `origDate` and `correspAction`/`date` modified</change>
          <change who="dgrigoriou smayer tfruehwirth" when="2023-02-21">entities and correspDesc collated</change>
          <change who="smayer tfruehwirth" when="2023-08-08">container structure updated</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2024-01-08">entities updated, interpGrp added</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -131,9 +164,9 @@ for any purpose, even commercially.</p>
    </facsimile>
    <text type="letter" hand="#handwritten">
       <body>
-         <div type="transcription" xml:id="transcription_amp_0012">
+         <div type="transcription" xml:id="transcription_amp_0012" xml:lang="en">
             <div type="envelope">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0055/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0055/" type="envelope" ed="1r"/>
                <ab hand="#typed">
                   <rs type="person" ref="#amp_person_1">W.H.Auden</rs>
                   <lb/>
@@ -147,14 +180,15 @@ for any purpose, even commercially.</p>
                <ab hand="#typed">
                   Air-Mail
                </ab>
-               <ab hand="#typed">
+               <ab hand="#typed" xml:lang="de">
                   <rs type="person" ref="#amp_person_2">Die Baronin<lb/>
                   Stella Musulin</rs>
                   <lb/>
                   <address>
                      <rs type="place" ref="#amp_place_id_11">Wien <del>IV</del>III<lb/>
                      Neulinggasse 26/I4<lb/>
-                     Austria</rs>
+                        <foreign xml:lang="en">Austria</foreign>
+                     </rs>
                   </address>
                </ab>
                <ab>
@@ -162,10 +196,10 @@ for any purpose, even commercially.</p>
                   <unclear>-</unclear>
                   <rs type="person" ref="#amp_person_23">B<unclear>ora</unclear>s</rs>
                </ab>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0056/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0056/" type="envelope" ed="1v"/>
             </div>
             <div type="letter">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0057/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0057/" type="sheet" ed="2r"/>
                <div type="letter_message">
                   <opener>
                      <dateline>
@@ -185,10 +219,10 @@ for any purpose, even commercially.</p>
                      </salute>
                   </opener>
                   <p>
-                     I am in despair. I wrote to <rs type="person" ref="#amp_person_">my lawyer</rs>
+                     I am in despair. I wrote to <rs type="person" ref="#amp_person_14" ana="#ana_013">my lawyer</rs>
                      <lb/>
                      and to our factotum , <rs type="person" ref="#amp_person_21">Otto Ho<unclear>l</unclear>fmann</rs> to find<lb/>
-                     out details about the <rs type="event" ref="#amp_event_id_13">accident</rs> and the<lb/>
+                     out details about the <rs type="event" ref="#amp_event_id_2">accident</rs> and the<lb/>
                      whereabout<unclear>s</unclear> and condition of the car, but have<lb/>
                      not heard a word. <rs type="person" ref="#amp_person_4">Chester</rs> postpones h<gap reason="illegible"/>
                      <lb/>
@@ -198,7 +232,8 @@ for any purpose, even commercially.</p>
                   </p>
                   <p>
                      Adress. <rs type="place" ref="#amp_place_id_48">
-                        <unclear>W</unclear>ien VII, Schweighofergasse 4/21</rs>
+                        <foreign xml:lang="de">
+                           <unclear>W</unclear>ien</foreign> VII, Schweighofergasse 4/21</rs>
                      <lb/>
                      Tel : <unclear>9</unclear>3/88/155. .
                   </p>
@@ -214,7 +249,7 @@ for any purpose, even commercially.</p>
                      </signed>
                   </closer>
                </div>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0058/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0058/" type="sheet" ed="2v"/>
             </div>
          </div>
       </body>

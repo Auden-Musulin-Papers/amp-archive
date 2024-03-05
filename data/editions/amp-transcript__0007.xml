@@ -12,10 +12,10 @@
                <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
-               <name>FWF Austrian Science Fund</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Vienna</postCode>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
                   <placeName>
                      <country>A</country>
                      <settlement>Vienna</settlement>
@@ -24,7 +24,9 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>AMP</edition>
+            <edition>
+               <title>Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-06</title>
+            </edition>
             <respStmt>
                <resp>Transcription and commentary</resp>
                <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
@@ -79,6 +81,13 @@ for any purpose, even commercially.</p>
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+               <p>Edition Documents Prefix</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -86,21 +95,29 @@ for any purpose, even commercially.</p>
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <orgName ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</orgName>
+               <orgName>
+                  <rs type="org" ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</rs>
+               </orgName>
                <placeName ref="#amp_place_id_5">Kirchstetten</placeName>
                <date notBefore-iso="1968-10-07T16:00:01+01:00" notAfter-iso="1968-10-07T17:00:00+01:00">1968-10-07T16:00:01+01:00/1968-10-07T17:00:00+01:00</date>
             </correspAction>
             <correspAction type="transmitted">
-               <orgName ref="#amp_organization_74">Hauptpostamt 1040 (main post office 1040)</orgName>
+               <orgName>
+                  <rs type="org" ref="#amp_organization_74">Hauptpostamt 1040 (main post office 1040)</rs>
+               </orgName>
                <placeName ref="#amp_place_id_1">Vienna</placeName>
                <date notBefore-iso="1968-10-08T06:00:01+01:00" notAfter-iso="1968-10-08T07:00:00+01:00">1968-10-08T06:00:01+01:00/1968-10-08T07:00:00+01:00</date>
             </correspAction>
             <correspAction type="redirected">
-               <orgName ref="#amp_organization_74">Hauptpostamt 1040 (main post office 1040)</orgName>
+               <orgName>
+                  <rs type="org" ref="#amp_organization_74">Hauptpostamt 1040 (main post office 1040)</rs>
+               </orgName>
                <placeName ref="#amp_place_id_1">Vienna</placeName>
             </correspAction>
             <correspAction type="transmitted">
-               <orgName ref="#amp_organization_73">Hauptpostamt 1030 (main post office 1030)</orgName>
+               <orgName>
+                  <rs type="org" ref="#amp_organization_73">Hauptpostamt 1030 (main post office 1030)</rs>
+               </orgName>
                <placeName ref="#amp_place_id_1">Vienna</placeName>
                <date notBefore-iso="1968-10-08T10:00:01+01:00" notAfter-iso="1968-10-08T11:00:00+01:00">1968-10-08T10:00:01+01:00/1968-10-08T11:00:00+01:00</date>
             </correspAction>
@@ -124,6 +141,7 @@ for any purpose, even commercially.</p>
          <change who="smayer tfruehwirth" when="2022-03-15">transcription reviewed, `space` element and `hand` attributes added, date format in `origDate` and `correspAction`/`date` modified</change>
          <change who="dgrigoriou smayer tfruehwirth" when="2023-02-20">entities and correspDesc collated</change>
          <change who="smayer tfruehwirth" when="2023-08-03">container structure updated</change>
+         <change who="smayer tfruehwirth" when="2024-01-02">entities updated, events created</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -142,9 +160,9 @@ for any purpose, even commercially.</p>
    </facsimile>
    <text type="letter" hand="#handwritten">
       <body>
-         <div type="transcription" xml:id="transcription_amp_0007">
-            <div type="envelope">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0035/" type="envelope"/>
+         <div type="transcription" xml:id="transcription_amp_0007" xml:lang="en">
+            <div type="envelope" xml:lang="de">
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0035/" type="envelope" ed="1r"/>
                <ab>
                   <hi rend="underline">Eil<unclear>·</unclear>Brief</hi>
                </ab>
@@ -159,29 +177,31 @@ for any purpose, even commercially.</p>
                      Neulingasse 26</rs>
                   </address>
                </ab>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0036/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0036/" type="envelope" ed="1v"/>
                <ab hand="#printed">
                   <address>
                      <rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN, BEZ. ST. PÖLTEN<lb/>
                      HINTERHOLZ 6<lb/>
-                     N.-Ö., AUSTRIA</rs>
+                     N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign>
+                     </rs>
                   </address>
                </ab>
                <ab>
-                  A<unclear>rri</unclear>val, <rs type="person" ref="#amp_person_3">Christiane</rs>
+                  <foreign xml:lang="en">A<unclear>rri</unclear>val</foreign>, Christiane
                </ab>
             </div>
             <div type="letter">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0037/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0037/" type="sheet" ed="2r"/>
                <div type="letter_message">
                   <opener>
                      <dateline>
                         <placeName>
-                           <seg hand="#printed">
+                           <seg hand="#printed" xml:lang="de">
                               <address>
                                  <rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN, BEZ. ST. PÖLTEN<lb/>
                                  HINTERHOLZ 6<lb/>
-                                 N.-Ö., AUSTRIA</rs>
+                                 N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign>
+                                 </rs>
                               </address>
                            </seg>
                         </placeName>
@@ -190,12 +210,12 @@ for any purpose, even commercially.</p>
                      <salute>Dear <rs type="person" ref="#amp_person_2">Stella</rs>:</salute>
                   </opener>
                   <p>
-                  I got your telegram yesterday just before<lb/>
-                  lu<unclear>n</unclear>ch. Tried twice in the afternoon and once<lb/>
-                  this morning to reach you , but umsonst.
+                  I got <rs type="event" ref="#amp_event_id_79">your telegram yesterday</rs> just before<lb/>
+                  lu<unclear>n</unclear>ch. <rs type="event" ref="#amp_event_id_80">Tried twice in the afternoon</rs> and <rs type="event" ref="#amp_event_id_81">once<lb/>
+                  this morning</rs> to reach you , but <foreign xml:lang="de">umsonst</foreign>.
                </p>
-                  <p>   
-                  Am off to <rs type="place" ref="#amp_place_id_239">England</rs> to-morrow, s<unclear>o</unclear> don't see how<lb/>
+                  <p>
+                     <rs type="event" ref="#amp_event_id_83">Am off to <rs type="place" ref="#amp_place_id_239">England</rs> to-morrow</rs>, s<unclear>o</unclear> don't see how<lb/>
                   anything can now be arranged<unclear>.</unclear>
                   </p>
                   <p>   
@@ -215,7 +235,7 @@ for any purpose, even commercially.</p>
                   </signed>
                   </closer>
                </div>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0038/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0038/" type="sheet" ed="2v"/>
             </div>
          </div>
       </body>

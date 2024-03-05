@@ -12,10 +12,10 @@
                <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
-               <name>FWF Austrian Science Fund</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Vienna</postCode>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
                   <placeName>
                      <country>A</country>
                      <settlement>Vienna</settlement>
@@ -81,6 +81,13 @@ for any purpose, even commercially.</p>
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+               <p>Edition Documents Prefix</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -88,7 +95,9 @@ for any purpose, even commercially.</p>
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <orgName ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</orgName>
+               <orgName>
+                  <rs type="org" ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</rs>
+               </orgName>
                <placeName ref="#amp_place_id_5">Kirchstetten</placeName>
                <date notBefore-iso="1962-04-30T17:00:01+01:00" notAfter-iso="1962-04-30T18:00:00+01:00">1962-04-30T17:00:01+01:00/1962-04-30T18:00:00+01:00</date>
             </correspAction>
@@ -122,12 +131,18 @@ for any purpose, even commercially.</p>
       <surface ulx="0" uly="0" lrx="4556" lry="3454">
          <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0032/"/>
       </surface>
+      <surface ulx="0" uly="0" lrx="7762" lry="5686">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0471/"/>
+      </surface>
+      <surface ulx="0" uly="0" lrx="7754" lry="5670">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0472/"/>
+      </surface>
    </facsimile>
    <text type="letter" hand="#handwritten">
       <body>
          <div type="transcription" xml:id="transcription_amp_0059" xml:lang="en">
             <div type="envelope">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0031/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0031/" type="envelope" ed="1r"/>
                <ab>
                   <gap reason="illegible"/>
                </ab>
@@ -139,7 +154,7 @@ for any purpose, even commercially.</p>
                      Neulingasse 26.</rs>
                   </address>
                </ab>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0032/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0032/" type="envelope" ed="1v"/>
                <ab>
                   <rs type="person" ref="#amp_person_1">W<unclear>.</unclear>H<unclear>.</unclear> Auden</rs>
                   <seg hand="#printed">
@@ -152,8 +167,7 @@ for any purpose, even commercially.</p>
                </ab>
             </div>
             <div type="letter">
-               <pb facs="" type="sheet"/>
-               <!-- facs uri missing -->
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0471/" type="sheet" ed="2r"/>
                <div type="letter_message">
                   <opener>
                      <dateline>
@@ -179,8 +193,7 @@ for any purpose, even commercially.</p>
                      </signed>
                   </closer>
                </div>
-               <pb facs="" type="sheet"/>
-               <!-- facs uri missing -->
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0472/" type="sheet" ed="2v"/>
             </div>
          </div>
       </body>

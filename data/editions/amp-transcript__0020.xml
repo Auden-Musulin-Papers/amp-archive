@@ -12,10 +12,10 @@
                <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </editor>
             <funder>
-               <name>FWF Austrian Science Fund</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Vienna</postCode>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
                   <placeName>
                      <country>A</country>
                      <settlement>Vienna</settlement>
@@ -24,7 +24,9 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>AMP</edition>
+            <edition>
+               <title>Autograph Letter Signed W. H. Auden to Stella Musulin 1973-09-24</title>
+            </edition>
             <respStmt>
                <resp>Transcription and commentary</resp>
                <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
@@ -79,6 +81,13 @@ for any purpose, even commercially.</p>
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+               <p>Edition Documents Prefix</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -86,7 +95,9 @@ for any purpose, even commercially.</p>
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <orgName ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</orgName>
+               <orgName>
+                  <rs type="org" ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</rs>
+               </orgName>
                <placeName ref="#amp_place_id_5">Kirchstetten</placeName>
                <date notBefore-iso="1973-09-24T16:00:01+01:00" notAfter-iso="1973-09-24T17:00:00+01:00">1973-09-24T16:00:01+01:00/1973-09-24T17:00:00+01:00</date>
             </correspAction>
@@ -98,6 +109,7 @@ for any purpose, even commercially.</p>
                <ref type="belongsToCorrespondence" target="#amp_person_1">Auden, W. H.</ref>
                <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
                <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0019.xml">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</ref>
+               <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0061.xml">Typed Letter Signed Stella Musulin to Wolfgang Kraus 1977-04-05</ref>
             </correspContext>
          </correspDesc>
       </profileDesc>
@@ -109,6 +121,7 @@ for any purpose, even commercially.</p>
          <change who="smayer tfruehwirth" when="2022-03-16">transcription reviewed, `space` element and `hand` attributes added, date format in `origDate` and `correspAction`/`date` modified</change>
          <change who="dgrigoriou smayer tfruehwirth" when="2023-02-21">entities and correspDesc collated</change>
          <change who="dgrigoriou" when="2023-08-17">container structure updated</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2024-01-17">entities updated</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -127,13 +140,13 @@ for any purpose, even commercially.</p>
    </facsimile>
    <text type="letter" hand="#handwritten">
       <body>
-         <div type="transcription" xml:id="transcription_amp_0020">
+         <div type="transcription" xml:id="transcription_amp_0020" xml:lang="en">
             <div type="envelope">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0095/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0095/" type="envelope" ed="1r"/>
                <ab>
                   L<hi rend="underline">ast letter</hi> .
                </ab>
-               <ab>
+               <ab xml:lang="de">
                   <rs type="person" ref="#amp_person_2">Die B<unclear>a</unclear>ronin<lb/>
                   Stella <unclear>M</unclear>usulin</rs>
                   <lb/>
@@ -142,33 +155,35 @@ for any purpose, even commercially.</p>
                      Neulingasse 26/14</rs>
                   </address>
                </ab>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0096/" type="envelope"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0096/" type="envelope" ed="1v"/>
                <ab>
                   <rs type="person" ref="#amp_person_1">
                      <unclear>W.H.</unclear>Auden</rs>
                   <lb/>
                   <seg hand="#printed">
-                     <address>
+                     <address xml:lang="de">
                         <rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN<lb/>
                         BEZ. ST. PÖLTEN<lb/>
                         HINTERHOLZ 6<lb/>
-                        N.-Ö., AUSTRIA</rs>
+                        N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign>
+                        </rs>
                      </address>
                   </seg>
                </ab>
             </div>
             <div type="letter">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0097/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0097/" type="sheet" ed="2r"/>
                <div type="letter_message">
                   <opener>
                      <dateline>
                         <placeName>
                            <seg hand="#printed">
-                              <address>
+                              <address xml:lang="de">
                                  <rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN<lb/>
-                                    BEZ. ST. PÖLTEN<lb/>
-                                    HINTERHOLZ 6<lb/>
-                                    N.-Ö., AUSTRIA</rs>
+                                 BEZ. ST. PÖLTEN<lb/>
+                                 HINTERHOLZ 6<lb/>
+                                 N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign>
+                                 </rs>
                               </address>
                            </seg>
                         </placeName>
@@ -181,7 +196,6 @@ for any purpose, even commercially.</p>
                      <salute>Dear <rs type="person" ref="#amp_person_2">Stella</rs>:</salute>
                   </opener>
                   <p>
-                     Dear <rs type="person" ref="#amp_person_2">Stella</rs>:<lb/>
                      I dont yet <unclear>k</unclear>now a<unclear>t</unclear> w<unclear>h</unclear>at time<lb/>
                      the <rs type="event" ref="#amp_event_id_3">re<unclear>a</unclear>ding</rs> is to be. If not until 8<unclear>·o</unclear>.p.<lb/>
                      I shall eat first,beca<unclear>u</unclear>se I like to go<lb/>
@@ -195,9 +209,7 @@ for any purpose, even commercially.</p>
                      booked a roo<unclear>m</unclear>
                      <unclear>a</unclear>t t<unclear>h</unclear>e <rs type="place" ref="#amp_place_id_225">
                         <unclear>H</unclear>otel <del>Altburg<gap reason="deleted"/>
-                        </del>
-                     </rs>
-                     <rs type="place" ref="#amp_place_id_225">hof<lb/>
+                        </del>hof<lb/>
                      Altburgenhof</rs>
                      <unclear>,</unclear>
                   </p>
@@ -209,7 +221,7 @@ for any purpose, even commercially.</p>
                      </signed>
                   </closer>
                </div>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0098/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0098/" type="sheet" ed="2v"/>
             </div>
          </div>
       </body>

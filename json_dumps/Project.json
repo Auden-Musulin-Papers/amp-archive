@@ -194,16 +194,12 @@
         "value": "Austrian National Library"
       },
       {
-        "id": 14,
-        "value": "Austrian Press Agency"
-      },
-      {
-        "id": 16,
-        "value": "The Carl Van Vechten Trust"
-      },
-      {
         "id": 18,
         "value": "Landessammlungen Niederösterreich"
+      },
+      {
+        "id": 21,
+        "value": "Österreichische Gesellschaft für Literatur"
       }
     ],
     "Object_uri_resource": [],
@@ -232,10 +228,6 @@
     ],
     "Object_uri_persons": [
       {
-        "id": 35,
-        "value": "Burns, Edward M."
-      },
-      {
         "id": 40,
         "value": "Kubaczek, Karl"
       },
@@ -254,6 +246,10 @@
       {
         "id": 48,
         "value": "Rohringer, Wolfgang"
+      },
+      {
+        "id": 61,
+        "value": "Angerer, Thomas"
       }
     ],
     "Object_uri_places": [],
@@ -267,16 +263,8 @@
         "value": "Austrian Academy of Sciences"
       },
       {
-        "id": 18,
-        "value": "Landessammlungen Niederösterreich"
-      },
-      {
         "id": 19,
         "value": "The Estate of W. H. Auden"
-      },
-      {
-        "id": 20,
-        "value": "The board of Trinity College, the University of Dublin"
       }
     ],
     "Object_uri_resource": [],
@@ -305,8 +293,28 @@
     ],
     "Object_uri_persons": [
       {
+        "id": 40,
+        "value": "Kubaczek, Karl"
+      },
+      {
+        "id": 43,
+        "value": "Mendelson, Edward"
+      },
+      {
         "id": 46,
         "value": "Musulin, Marko"
+      },
+      {
+        "id": 47,
+        "value": "O'Sullivan, Michael"
+      },
+      {
+        "id": 48,
+        "value": "Rohringer, Wolfgang"
+      },
+      {
+        "id": 61,
+        "value": "Angerer, Thomas"
       }
     ],
     "Object_uri_places": [],
@@ -316,28 +324,12 @@
         "value": "Austrian Centre for Digital Humanities and Cultural Heritage"
       },
       {
-        "id": 13,
-        "value": "Austrian National Library"
-      },
-      {
         "id": 14,
         "value": "Austrian Press Agency"
       },
       {
-        "id": 16,
-        "value": "The Carl Van Vechten Trust"
-      },
-      {
-        "id": 18,
-        "value": "Landessammlungen Niederösterreich"
-      },
-      {
         "id": 19,
         "value": "The Estate of W. H. Auden"
-      },
-      {
-        "id": 20,
-        "value": "The board of Trinity College, the University of Dublin"
       }
     ],
     "Object_uri_resource": [],
@@ -2124,10 +2116,6 @@
       {
         "id": 29,
         "value": "Mayer, Sandra"
-      },
-      {
-        "id": 34,
-        "value": "Brenner, Simon"
       }
     ],
     "Object_uri_places": [],
@@ -2184,7 +2172,12 @@
       }
     ],
     "Object_uri_places": [],
-    "Object_uri_organizations": [],
+    "Object_uri_organizations": [
+      {
+        "id": 13,
+        "value": "Austrian National Library"
+      }
+    ],
     "Object_uri_resource": [],
     "Literal": "",
     "Language": "",
@@ -2231,14 +2224,6 @@
         "value": "Austrian Centre for Digital Humanities and Cultural Heritage"
       },
       {
-        "id": 13,
-        "value": "Austrian National Library"
-      },
-      {
-        "id": 18,
-        "value": "Landessammlungen Niederösterreich"
-      },
-      {
         "id": 19,
         "value": "The Estate of W. H. Auden"
       }
@@ -2249,16 +2234,7 @@
     "Date": null,
     "Number": null,
     "Object_uri_vocabs": [],
-    "Inherit": [
-      {
-        "id": 12,
-        "value": "Collection"
-      },
-      {
-        "id": 46,
-        "value": "Resource"
-      }
-    ]
+    "Inherit": []
   },
   "109": {
     "id": 109,
@@ -2278,8 +2254,24 @@
     ],
     "Object_uri_persons": [
       {
-        "id": 46,
-        "value": "Musulin, Marko"
+        "id": 40,
+        "value": "Kubaczek, Karl"
+      },
+      {
+        "id": 43,
+        "value": "Mendelson, Edward"
+      },
+      {
+        "id": 47,
+        "value": "O'Sullivan, Michael"
+      },
+      {
+        "id": 48,
+        "value": "Rohringer, Wolfgang"
+      },
+      {
+        "id": 61,
+        "value": "Angerer, Thomas"
       }
     ],
     "Object_uri_places": [],
@@ -2307,16 +2299,7 @@
     "Date": null,
     "Number": null,
     "Object_uri_vocabs": [],
-    "Inherit": [
-      {
-        "id": 12,
-        "value": "Collection"
-      },
-      {
-        "id": 46,
-        "value": "Resource"
-      }
-    ]
+    "Inherit": []
   },
   "110": {
     "id": 110,
@@ -2343,12 +2326,16 @@
     "Object_uri_places": [],
     "Object_uri_organizations": [
       {
-        "id": 16,
-        "value": "The Carl Van Vechten Trust"
+        "id": 13,
+        "value": "Austrian National Library"
       },
       {
         "id": 18,
         "value": "Landessammlungen Niederösterreich"
+      },
+      {
+        "id": 21,
+        "value": "Österreichische Gesellschaft für Literatur"
       }
     ],
     "Object_uri_resource": [],
@@ -2357,16 +2344,7 @@
     "Date": null,
     "Number": null,
     "Object_uri_vocabs": [],
-    "Inherit": [
-      {
-        "id": 12,
-        "value": "Collection"
-      },
-      {
-        "id": 46,
-        "value": "Resource"
-      }
-    ]
+    "Inherit": []
   },
   "111": {
     "id": 111,
@@ -2393,14 +2371,6 @@
     "Object_uri_places": [],
     "Object_uri_organizations": [
       {
-        "id": 14,
-        "value": "Austrian Press Agency"
-      },
-      {
-        "id": 16,
-        "value": "The Carl Van Vechten Trust"
-      },
-      {
         "id": 18,
         "value": "Landessammlungen Niederösterreich"
       }
@@ -2411,16 +2381,7 @@
     "Date": null,
     "Number": null,
     "Object_uri_vocabs": [],
-    "Inherit": [
-      {
-        "id": 12,
-        "value": "Collection"
-      },
-      {
-        "id": 46,
-        "value": "Resource"
-      }
-    ]
+    "Inherit": []
   },
   "112": {
     "id": 112,
@@ -2440,10 +2401,6 @@
     ],
     "Object_uri_persons": [
       {
-        "id": 35,
-        "value": "Burns, Edward M."
-      },
-      {
         "id": 40,
         "value": "Kubaczek, Karl"
       },
@@ -2452,20 +2409,24 @@
         "value": "Mendelson, Edward"
       },
       {
-        "id": 46,
-        "value": "Musulin, Marko"
-      },
-      {
         "id": 47,
         "value": "O'Sullivan, Michael"
       },
       {
         "id": 48,
         "value": "Rohringer, Wolfgang"
+      },
+      {
+        "id": 61,
+        "value": "Angerer, Thomas"
       }
     ],
     "Object_uri_places": [],
     "Object_uri_organizations": [
+      {
+        "id": 13,
+        "value": "Austrian National Library"
+      },
       {
         "id": 17,
         "value": "Austrian Academy of Sciences"
@@ -2477,10 +2438,6 @@
       {
         "id": 19,
         "value": "The Estate of W. H. Auden"
-      },
-      {
-        "id": 20,
-        "value": "The board of Trinity College, the University of Dublin"
       }
     ],
     "Object_uri_resource": [],
@@ -2489,16 +2446,7 @@
     "Date": null,
     "Number": null,
     "Object_uri_vocabs": [],
-    "Inherit": [
-      {
-        "id": 12,
-        "value": "Collection"
-      },
-      {
-        "id": 46,
-        "value": "Resource"
-      }
-    ]
+    "Inherit": []
   },
   "113": {
     "id": 113,
@@ -2518,28 +2466,8 @@
     ],
     "Object_uri_persons": [
       {
-        "id": 35,
-        "value": "Burns, Edward M."
-      },
-      {
-        "id": 40,
-        "value": "Kubaczek, Karl"
-      },
-      {
-        "id": 43,
-        "value": "Mendelson, Edward"
-      },
-      {
         "id": 46,
         "value": "Musulin, Marko"
-      },
-      {
-        "id": 47,
-        "value": "O'Sullivan, Michael"
-      },
-      {
-        "id": 48,
-        "value": "Rohringer, Wolfgang"
       }
     ],
     "Object_uri_places": [],
@@ -2559,10 +2487,6 @@
       {
         "id": 19,
         "value": "The Estate of W. H. Auden"
-      },
-      {
-        "id": 20,
-        "value": "The board of Trinity College, the University of Dublin"
       }
     ],
     "Object_uri_resource": [],
@@ -2571,16 +2495,7 @@
     "Date": null,
     "Number": null,
     "Object_uri_vocabs": [],
-    "Inherit": [
-      {
-        "id": 12,
-        "value": "Collection"
-      },
-      {
-        "id": 46,
-        "value": "Resource"
-      }
-    ]
+    "Inherit": []
   },
   "114": {
     "id": 114,
@@ -3160,11 +3075,16 @@
         "value": "hasCreator"
       }
     ],
-    "Object_uri_persons": [],
+    "Object_uri_persons": [
+      {
+        "id": 59,
+        "value": "Lehecka, Sandra"
+      }
+    ],
     "Object_uri_places": [],
     "Object_uri_organizations": [],
     "Object_uri_resource": [],
-    "Literal": "Creator?",
+    "Literal": "",
     "Language": "",
     "Date": null,
     "Number": null,
@@ -4297,6 +4217,10 @@
       {
         "id": 55,
         "value": "Musulin, Elsa"
+      },
+      {
+        "id": 57,
+        "value": "Busta, Christine"
       }
     ],
     "Object_uri_places": [],
@@ -4370,6 +4294,10 @@
       {
         "id": 55,
         "value": "Musulin, Elsa"
+      },
+      {
+        "id": 57,
+        "value": "Busta, Christine"
       }
     ],
     "Object_uri_places": [],
@@ -5179,6 +5107,10 @@
     "Date": null,
     "Number": null,
     "Object_uri_vocabs": [
+      {
+        "id": 42,
+        "value": "inc"
+      },
       {
         "id": 73,
         "value": "cc-by-4-0"

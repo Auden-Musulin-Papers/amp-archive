@@ -317,17 +317,31 @@ def create_resource_triples(
                                 doc=doc,
                             )
                             for key, value in custom_uris.items():
-                                obj_uri = vocab_lookup(
-                                    vocabs_lookup=vocabs_lookup,
-                                    key=key,
-                                    value=value
-                                )
-                                create_custom_triple(
-                                    g,
-                                    subject=subject_uri,
-                                    predicate=URIRef(ARCHE[key]),
-                                    object=obj_uri
-                                )
+                                if isinstance(value, list) and len(value) > 0:
+                                    for v in value:
+                                        obj_uri = vocab_lookup(
+                                            vocabs_lookup=vocabs_lookup,
+                                            key=key,
+                                            value=v
+                                        )
+                                        create_custom_triple(
+                                            g,
+                                            subject=subject_uri,
+                                            predicate=URIRef(ARCHE[key]),
+                                            object=obj_uri
+                                        )
+                                else:
+                                    obj_uri = vocab_lookup(
+                                        vocabs_lookup=vocabs_lookup,
+                                        key=key,
+                                        value=value
+                                    )
+                                    create_custom_triple(
+                                        g,
+                                        subject=subject_uri,
+                                        predicate=URIRef(ARCHE[key]),
+                                        object=obj_uri
+                                    )
                     else:
                         if isinstance(inherit_class, str) and len(inherit_class) > 0:
                             create_type_triple(g, subject_uri, ARCHE[inherit_class])
