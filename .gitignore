@@ -132,3 +132,10 @@ dmypy.json
 # project specific
 *.ipynb
 .secret
+
+requirements_php.txt
+/vendor
+composer.*
+/filechecker
+/to_ingest
+/data/images
