@@ -126,7 +126,7 @@
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
         <https://orcid.org/0000-0002-0636-4476> ;
     arche:hasDepositor <https://d-nb.info/gnd/1024881253> ;
-    arche:hasFilename "amp_logo.png" ;
+    arche:hasFilename "amp-logo.png" ;
     arche:hasFormat "image/png" ;
     arche:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0> ;
     arche:hasLicensor <https://d-nb.info/gnd/1123037736> ;
