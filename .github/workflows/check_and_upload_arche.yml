@@ -38,6 +38,7 @@ jobs:
         find -path "./${INDICES_DIR}/*.xml" -exec cp -prv '{}' './to_ingest' ';'
         find -path "./${META_DIR}/*.odd" -exec cp -prv '{}' './to_ingest' ';'
         find -path "./${META_DIR}/*.rng" -exec cp -prv '{}' './to_ingest' ';'
+        find -path "./data/amp-logo.png" -exec cp -prv '{}' './to_ingest' ';'
     - name: cache AV database
       id: avdb
       uses: actions/cache@v3
