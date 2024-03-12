@@ -11,21 +11,7 @@
         "value": "hasUrl"
       }
     ],
-    "Subject_uri": "https://id.acdh.oeaw.ac.at/org-apa"
-  },
-  "11": {
-    "id": 11,
-    "order": "11.00000000000000000000",
-    "Name": "The board of Trinity College, the University of Dublin",
-    "Literal": "https://www.tcd.ie/committeepapers/board/membersh",
-    "Language": "na",
-    "Predicate_uri": [
-      {
-        "id": 119,
-        "value": "hasUrl"
-      }
-    ],
-    "Subject_uri": "https://id.acdh.oeaw.ac.at/org-trinitycollegeboard"
+    "Subject_uri": "https://www.wikidata.org/wiki/Q680662"
   },
   "12": {
     "id": 12,
@@ -67,7 +53,7 @@
         "value": "hasTitle"
       }
     ],
-    "Subject_uri": "https://id.acdh.oeaw.ac.at/org-apa"
+    "Subject_uri": "https://www.wikidata.org/wiki/Q680662"
   },
   "15": {
     "id": 15,
@@ -82,20 +68,6 @@
       }
     ],
     "Subject_uri": "https://d-nb.info/gnd/2054142-9"
-  },
-  "16": {
-    "id": 16,
-    "order": "16.00000000000000000000",
-    "Name": "The Carl Van Vechten Trust",
-    "Literal": "The Carl Van Vechten Trust",
-    "Language": "en",
-    "Predicate_uri": [
-      {
-        "id": 114,
-        "value": "hasTitle"
-      }
-    ],
-    "Subject_uri": "https://www.wikidata.org/wiki/Q258464"
   },
   "17": {
     "id": 17,
@@ -139,26 +111,12 @@
     ],
     "Subject_uri": "https://id.acdh.oeaw.ac.at/org-whaudenestate"
   },
-  "20": {
-    "id": 20,
-    "order": "20.00000000000000000000",
-    "Name": "The board of Trinity College, the University of Dublin",
-    "Literal": "The board of Trinity College, the University of Dublin",
-    "Language": "en",
-    "Predicate_uri": [
-      {
-        "id": 114,
-        "value": "hasTitle"
-      }
-    ],
-    "Subject_uri": "https://id.acdh.oeaw.ac.at/org-trinitycollegeboard"
-  },
   "21": {
     "id": 21,
     "order": "21.00000000000000000000",
     "Name": "Österreichische Gesellschaft für Literatur",
     "Literal": "Österreichische Gesellschaft für Literatur",
-    "Language": "en",
+    "Language": "de",
     "Predicate_uri": [
       {
         "id": 114,

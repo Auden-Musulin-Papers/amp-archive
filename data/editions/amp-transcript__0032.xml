@@ -1,16 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0032.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0031.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0033.xml">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0032.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0031.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0033.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</title>
             <author ref="https://d-nb.info/gnd/14000761X">Mendelson, Edward</author>
-            <editor>
-               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
-               <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
-               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
-            </editor>
+            <editor><name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></editor>
             <funder>
                <name>Austrian Science Fund (FWF)</name>
                <address>
@@ -25,18 +20,8 @@
          </titleStmt>
          <editionStmt>
             <edition>AMP</edition>
-            <respStmt>
-               <resp>Transcription and commentary</resp>
-               <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
-               <name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
-               <name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
-            </respStmt>
-            <respStmt>
-               <resp>TEI Schema, ODD/RNG</resp>
-               <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
-               <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
-            </respStmt>
-         </editionStmt>
+            <respStmt><resp>Transcription and commentary</resp><name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></respStmt>
+         <respStmt><resp>TEI Schema, ODD/RNG</resp><name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name><name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name></respStmt></editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
@@ -52,8 +37,7 @@ for any purpose, even commercially.</p>
                </licence>
                <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
             </availability>
-            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C325-C</idno>
-         </publicationStmt>
+         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C325-C</idno></publicationStmt>
          <seriesStmt>
             <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
          </seriesStmt>
@@ -69,9 +53,7 @@ for any purpose, even commercially.</p>
                         <idno>2, 12</idno>
                      </msIdentifier>
                      <history>
-                        <origin>
-                           <origDate notBefore-iso="1980-12-01T00:00:00-05:00" notAfter-iso="1980-12-01T23:59:59-05:00">1980-12-01</origDate>
-                        </origin>
+                        <origin><origDate notBefore-iso="1980-12-01T00:00:00-05:00" notAfter-iso="1980-12-01T23:59:59-05:00">1980-12-01</origDate></origin>
                      </history>
                   </msDesc>
                </witness>
@@ -83,6 +65,7 @@ for any purpose, even commercially.</p>
             <language ident="en">English</language>
             <language ident="de">German</language>
          </langUsage>
+         
          <correspDesc>
             <correspAction type="composed">
                <persName ref="#amp_person_98">Mendelson, Edward</persName>
@@ -106,6 +89,7 @@ for any purpose, even commercially.</p>
                <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0033.xml">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</ref>
             </correspContext>
          </correspDesc>
+         
       </profileDesc>
       <revisionDesc status="draft">
          <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
@@ -128,19 +112,18 @@ for any purpose, even commercially.</p>
       <body>
          <div xml:id="transcription">
             <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0227/" type="sheet"/>
-            <p>
-               <space quantity="41" unit="char"/>
-               <rs type="place" ref="#amp_place_id_171">39 Claremont Ave, apt 32<lb/>
+               <p>
+                  <space quantity="41" unit="char"/><rs type="place" ref="#amp_place_id_171">39 Claremont Ave, apt 32<lb/>
                   <space quantity="41" unit="char"/>New York NY  10027<lb/>
                   <space quantity="41" unit="char"/>USA</rs>
-            </p>
-            <p>
-               <space quantity="41" unit="char"/>1 December 1980 
                </p>
-            <p>
+               <p>
+                  <space quantity="41" unit="char"/>1 December 1980 
+               </p>
+               <p>
                   Dear <rs type="person" ref="#amp_person_2">Stella</rs>,
                </p>
-            <p>
+               <p>
                   I just got back from a month in <rs type="place" ref="#amp_place_id_293">England</rs> to find your letter.  I was<lb/>
                   rather worried as to how you were, and am delighted to hear that<lb/>
                   you're on the ascent after a "decline." <space quantity="1" unit="char"/>I'm also abashed not to have<lb/>
@@ -149,8 +132,7 @@ for any purpose, even commercially.</p>
                   the basics. <space quantity="1" unit="char"/>First, there should be no need to repay any of the<lb/>
                   advance (I haven't spoken with <rs type="org" ref="#amp_organization_12">Random House</rs> about this, except with<lb/>
                   an ill-informed assitant, but there shouldn't be any problem), and<lb/>
-                  second, I hope you haven't gone out of your way to work on <rs type="lit_work" ref="#lit_work_id_47">the thing</rs>
-               <lb/>
+                  second, I hope you haven't gone out of your way to work on <rs type="lit_work" ref="#lit_work_id_47">the thing</rs><lb/>
                   again. <space quantity="1" unit="char"/>The structure collapsed in two or three stages. <space quantity="1" unit="char"/>First <rs type="person" ref="#amp_person_114">Lincoln<lb/>
                   Kirstein</rs> read the forthcoming <rs type="lit_work" ref="#lit_work_id_39">biography</rs> by <rs type="person" ref="#amp_person_100">Humphrey Carpenter</rs> (not bad,<lb/>
                   not spectacularly good), and decided he didn't know enough <rs type="person" ref="#amp_person_1">Auden</rs> to<lb/>
@@ -159,12 +141,11 @@ for any purpose, even commercially.</p>
                   He managed to persuade me, in September, that <rs type="lit_work" ref="#lit_work_id_117">the book</rs> should at least<lb/>
                   be left to stew for a while. <space quantity="1" unit="char"/>Then <rs type="person" ref="#amp_person_8">Spender</rs> finally sent in a first<lb/>
                   draft of his piece, which, between us, was a disaster. <space quantity="1" unit="char"/>At this time<lb/>
-               <rs type="person" ref="#amp_person_120">Charles Monteith</rs> had a look at it, and agreed. <space quantity="1" unit="char"/>When I saw <rs type="person" ref="#amp_person_120">Charles</rs>
-               <lb/>
+                  <rs type="person" ref="#amp_person_120">Charles Monteith</rs> had a look at it, and agreed. <space quantity="1" unit="char"/>When I saw <rs type="person" ref="#amp_person_120">Charles</rs><lb/>
                   in <rs type="place" ref="#amp_place_id_56">London</rs> a couple of weeks ago, we formally let <rs type="lit_work" ref="#lit_work_id_117">the thing</rs> drop, and<lb/>
                   I think he already wrote you about it.
                </p>
-            <p>
+               <p>
                   I still think <rs type="lit_work" ref="#lit_work_id_47">your piece</rs> is first-rate (the copyright is yours, by the<lb/>
                   way), and I hope you'll publish it, perhaps with a word or two of<lb/>
                   information from <rs type="person" ref="#amp_person_121">Christa Esders</rs> if that's possible. <space quantity="1" unit="char"/>(Did you learn<lb/>
@@ -173,41 +154,38 @@ for any purpose, even commercially.</p>
                   went to all this trouble for--up to now--nothing, and for many reasons<lb/>
                   I should like to see <rs type="lit_work" ref="#lit_work_id_47">the piece</rs> in print.
                </p>
-            <p>
+               <p>
                   No, I haven't got to <rs type="place" ref="#amp_place_id_1">Vienna</rs> for five years now, and couldn't afford<lb/>
                   a visit this year. <space quantity="1" unit="char"/>Next summer, if my job is sorted out, I would very<lb/>
                   much like to come over again. <space quantity="1" unit="char"/>This past summer I tried ringing you a<lb/>
                   few times at 4217175, but got no reply. <space quantity="1" unit="char"/>Is that your number? <space quantity="1" unit="char"/>Mine here<lb/>
                   is 212 222-0679 if there's ever a reason to need it.
                </p>
-            <p>
+               <p>
                   Please do forgive me for the muddle over <rs type="lit_work" ref="#lit_work_id_117">the book</rs>. <space quantity="1" unit="char"/>And please do keep<lb/>
                   in touch. <space quantity="1" unit="char"/>Incidentally I finished that <rs type="lit_work" ref="#lit_work_id_49">critical book</rs>--to be published<lb/>
                   in the spring--after doing nothing but work on it for a year. <space quantity="1" unit="char"/>My "summer"<lb/>
                   trip to <rs type="place" ref="#amp_place_id_93">England</rs> got postponed to November while I revised.
                </p>
-            <p>
-               <space quantity="45" unit="char"/>Yours ever,
+               <p>
+                  <space quantity="45" unit="char"/>Yours ever,
                </p>
-            <p hand="#handwritten">
-               <rs type="person" ref="#amp_person_98">Ed</rs>
-            </p>
+               <p hand="#handwritten">
+                  <rs type="person" ref="#amp_person_98">Ed</rs>
+                </p>
             <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0228/" type="sheet"/>
-            <p>
-               <rs type="person" ref="#amp_person_98">Edward Mendelson</rs>
-               <lb/>
-               <rs type="place" ref="#amp_place_id_171">39 Claremont Ave apt 32<lb/>
+               <p>
+                  <rs type="person" ref="#amp_person_98">Edward Mendelson</rs><lb/>
+                  <rs type="place" ref="#amp_place_id_171">39 Claremont Ave apt 32<lb/>
                   New York NY  10027</rs>
-            </p>
-            <p>
-               <space quantity="41" unit="char"/>Frl <rs type="person" ref="#amp_person_98">Baronin<lb/>
-                  <space quantity="41" unit="char"/>Stella Musulin</rs>
-               <lb/>
-               <space quantity="41" unit="char"/>
-               <rs type="place" ref="#amp_place_id_172">Schlösselgasse 8/17<lb/>
+              </p>
+              <p>
+                  <space quantity="41" unit="char"/>Frl <rs type="person" ref="#amp_person_98">Baronin<lb/>
+                  <space quantity="41" unit="char"/>Stella Musulin</rs><lb/>
+                  <space quantity="41" unit="char"/><rs type="place" ref="#amp_place_id_172">Schlösselgasse 8/17<lb/>
                   <space quantity="41" unit="char"/>A-1080 Wien<lb/>
-                  <space quantity="41" unit="char"/>Austria</rs>
-            </p>
+                  <space quantity="41" unit="char"/>Austria</rs> 
+              </p>
          </div>
       </body>
    </text>

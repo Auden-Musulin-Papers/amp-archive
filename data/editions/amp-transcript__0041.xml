@@ -1,16 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0041.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0040.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0042.xml">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0041.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0040.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0042.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</title>
             <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
-            <editor>
-               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
-               <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
-               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
-            </editor>
+            <editor><name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></editor>
             <funder>
                <name>Austrian Science Fund (FWF)</name>
                <address>
@@ -29,8 +24,7 @@
                <interpGrp>
                   <interp xml:id="ana_017" source="ph_017"><!-- link to nanopub -->
                      <desc>
-                        In the <rs type="lit_work" ref="#lit_work_id_45">published version of her book <hi rend="italic">Austria: People and Landscape</hi>
-                        </rs>, <rs type="person" ref="#amp_person_2">Stella Musulin</rs> writes: "South of <rs type="place" ref="#amp_place_id_62">Krems</rs>, we can follow the <hi rend="italic">Barockstrasse</hi>, and carry on over the Riederberg in the direction of <rs type="place" ref="#amp_place_id_1">Vienna</rs>, or perhaps join the autobahn at <rs type="place" ref="#amp_place_id_9">St. Pölten</rs>. This section of the autobahn offers a very fine view of <rs type="person" ref="#amp_person_1">W. H. Auden</rs>'s <rs type="place" ref="#amp_place_id_2">garage</rs>, and, from the next hill, of <rs type="place" ref="#amp_place_id_47">Neulengbach</rs> Castle where the artist Egon Schiele was jailed for pornography in 1912" (197).
+                        In the <rs type="lit_work" ref="#lit_work_id_45">published version of her book <hi rend="italic">Austria: People and Landscape</hi></rs>, <rs type="person" ref="#amp_person_2">Stella Musulin</rs> writes: "South of <rs type="place" ref="#amp_place_id_62">Krems</rs>, we can follow the <hi rend="italic">Barockstrasse</hi>, and carry on over the Riederberg in the direction of <rs type="place" ref="#amp_place_id_1">Vienna</rs>, or perhaps join the autobahn at <rs type="place" ref="#amp_place_id_9">St. Pölten</rs>. This section of the autobahn offers a very fine view of <rs type="person" ref="#amp_person_1">W. H. Auden</rs>'s <rs type="place" ref="#amp_place_id_2">garage</rs>, and, from the next hill, of <rs type="place" ref="#amp_place_id_47">Neulengbach</rs> Castle where the artist Egon Schiele was jailed for pornography in 1912" (197).
                         <bibl>
                            <author ref="acdh:amp-index-persons.xml#amp_person_2"/>
                            <title>Austria: People and Landscape</title>
@@ -46,8 +40,7 @@
                   </interp>
                   <interp source="ph_026" xml:id="ana_026"><!-- link -->
                      <desc>
-                        In his <rs type="lit_work" ref="#lit_work_id_175">foreword</rs> to <rs type="person" ref="#amp_person_2">Stella Musulin</rs>'s <rs type="lit_work" ref="#lit_work_id_45">book <hi rend="italic">Austria: People and Landscape</hi>
-                        </rs>, <rs type="person" ref="#amp_person_1">Auden</rs> writes: "Even more extraordinary in my opinion were the artistic achievements of men like <rs type="person" ref="#amp_person_38">Nestroy</rs> and <rs type="person" ref="#amp_person_36">Adalbert Stifter</rs> living in <rs type="person" ref="#amp_person_178">Metternich</rs>'s police state. More than that, I cannot help wondering if they could have written what they did under a more liberal regime" (20).
+                        In his <rs type="lit_work" ref="#lit_work_id_175">foreword</rs> to <rs type="person" ref="#amp_person_2">Stella Musulin</rs>'s <rs type="lit_work" ref="#lit_work_id_45">book <hi rend="italic">Austria: People and Landscape</hi></rs>, <rs type="person" ref="#amp_person_1">Auden</rs> writes: "Even more extraordinary in my opinion were the artistic achievements of men like <rs type="person" ref="#amp_person_38">Nestroy</rs> and <rs type="person" ref="#amp_person_36">Adalbert Stifter</rs> living in <rs type="person" ref="#amp_person_178">Metternich</rs>'s police state. More than that, I cannot help wondering if they could have written what they did under a more liberal regime" (20).
                         <bibl>
                            <author ref="acdh:amp-index-persons.xml#amp_person_1"/>
                            <title level="a">Foreword</title>
@@ -65,18 +58,8 @@
                   </interp>
                </interpGrp>
             </edition>
-            <respStmt>
-               <resp>Transcription and commentary</resp>
-               <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
-               <name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
-               <name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
-            </respStmt>
-            <respStmt>
-               <resp>TEI Schema, ODD/RNG</resp>
-               <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
-               <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
-            </respStmt>
-         </editionStmt>
+            <respStmt><resp>Transcription and commentary</resp><name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></respStmt>
+         <respStmt><resp>TEI Schema, ODD/RNG</resp><name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name><name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name></respStmt></editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
@@ -92,8 +75,7 @@ for any purpose, even commercially.</p>
                </licence>
                <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
             </availability>
-            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C32E-3</idno>
-         </publicationStmt>
+         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C32E-3</idno></publicationStmt>
          <seriesStmt>
             <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
          </seriesStmt>
@@ -133,22 +115,18 @@ for any purpose, even commercially.</p>
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <orgName>
-                  <rs type="org" ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</rs>
-               </orgName>
+               <orgName><rs type="org" ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</rs></orgName>
                <placeName ref="#amp_place_id_5">Kirchstetten</placeName>
                <date notBefore-iso="1970-07-06T16:00:01+01:00" notAfter-iso="1970-07-06T17:00:00+01:00">1970-07-06T16:00:01+01:00/1970-07-06T17:00:00+01:00</date>
             </correspAction>
             <correspAction type="redirected">
                <placeName ref="#amp_place_id_11">Neulinggasse 26</placeName>
-            </correspAction>
+            </correspAction> 
             <correspAction type="transmitted">
-               <orgName>
-                  <rs type="org" ref="#amp_organization_73">Hauptpostamt 1030 (main post office 1030)</rs>
-               </orgName>
+               <orgName><rs type="org" ref="#amp_organization_73">Hauptpostamt 1030 (main post office 1030)</rs></orgName>
                <placeName ref="#amp_place_id_1">Vienna</placeName>
                <date notBefore-iso="1970-07-11T08:00:01+01:00" notAfter-iso="1970-07-11T09:00:00+01:00">1970-07-11T08:00:01+01:00/1970-07-11T09:00:00+01:00</date>
-            </correspAction>
+            </correspAction> 
             <correspAction type="received">
                <persName ref="#amp_person_2">Musulin, Stella</persName>
                <placeName ref="#amp_place_id_215">St Julian's Street</placeName>
@@ -189,8 +167,8 @@ for any purpose, even commercially.</p>
    <text type="letter" hand="#handwritten">
       <body>
          <div type="transcription" xml:id="transcription_amp_0041" xml:lang="en">
-            <div type="envelope">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0075/" type="envelope" ed="1r"/>
+            <div type="envelope"> 
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0075/" type="envelope" ed="1r"/>
                <ab xml:lang="de">
                   M<unclear>i</unclear>t Fl<unclear>u</unclear>g-P<unclear>os</unclear>t
                </ab>
@@ -202,117 +180,91 @@ for any purpose, even commercially.</p>
                </ab>
                <ab xml:lang="de">
                   <rs type="person" ref="#amp_person_2">Die Baronin<lb/>
-                  Stella Mus<unclear>u</unclear>l<unclear>in</unclear>
-                  </rs>
-                  <lb/>
+                  Stella Mus<unclear>u</unclear>l<unclear>in</unclear></rs><lb/>
                   <address>
-                     <rs type="place" ref="#amp_place_id_11">
-                        <del>W<gap reason="deleted"/>en IV</del>
-                        <del>Wien III</del>
-                        <lb/>
-                        <del>Neuling gasse 26/14</del>.</rs>
+                     <rs type="place" ref="#amp_place_id_11"><del>W<gap reason="deleted"/>en IV</del> <del>Wien III</del><lb/>
+                     <del>Neuling gasse 26/14</del>.</rs>
                   </address>
                </ab>
                <ab>
                   <address>
                      <rs type="place" ref="#amp_place_id_215">2 Seag<unclear>a</unclear>rth<lb/>
                      St. <unclear>J</unclear>ulian's Street<lb/>
-                        <hi rend="underline">TENBY</hi>
-                        <lb/>
+                     <hi rend="underline">TENBY</hi><lb/>
                      Pembrokeshire</rs>
                   </address>
                </ab>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0076/" type="envelope" ed="1v"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0076/" type="envelope" ed="1v"/>
                <ab>
                   <rs type="person" ref="#amp_person_1">W<unclear>.</unclear>H.Auden</rs>
                   <seg hand="#printed">
-                     <address xml:lang="de">
+                     <address xml:lang="de">  
                         <rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN<lb/>
                         BEZ. ST. PÖLTEN<lb/>
                         HINTERHOLZ 6<lb/>
-                        N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign>
-                        </rs>
+                        N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
                      </address>
                   </seg>
                </ab>
             </div>
             <div type="letter">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0077/" type="sheet" ed="2r"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0077/" type="sheet" ed="2r"/>
                <div type="letter_message">
                   <opener>
                      <dateline>
-                        <date rend="#block">July 6th<unclear>.</unclear>
-                        </date>
+                        <date rend="#block">July 6th<unclear>.</unclear></date>
                         <placeName>
                            <seg hand="#printed">
                               <address xml:lang="de">
                                  <rs type="place" ref="#amp_place_id_2">3062 KIRCHSTETTEN<lb/>
                                  BEZ. ST. PÖLTEN<lb/>
                                  HINTERHOLZ 6<lb/>
-                                 N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign>
-                                 </rs>
+                                 N.-Ö., <foreign xml:lang="en">AUSTRIA</foreign></rs>
                               </address>
                            </seg>
-                        </placeName>
+                        </placeName>  
                      </dateline>
                      <salute>Dear <rs type="person" ref="#amp_person_2">Stella</rs>:</salute>
                   </opener>
-                  <p>
-                  Have just f<unclear>in</unclear>ish<unclear>e</unclear>d reading <hi rend="underline">
-                        <rs type="lit_work" ref="#lit_work_id_163">Aust<unclear>ria"</unclear>
-                        </rs>
-                     </hi>
-                     <lb/>
-                     <!-- eventually link to Monteith corresp to document Auden's foreword to the book -->
+                <p>
+                  Have just f<unclear>in</unclear>ish<unclear>e</unclear>d reading <hi rend="underline"><rs type="lit_work" ref="#lit_work_id_163">Aust<unclear>ria"</unclear></rs></hi><lb/><!-- eventually link to Monteith corresp to document Auden's foreword to the book -->
                   by which I was enchanted a<unclear>s</unclear> w<unclear>e</unclear>ll as<lb/>
-                     <unclear>i</unclear>nstructed. My<unclear>!</unclear> how er<unclear>u</unclear>dit<unclear>e</unclear> you are<unclear>,</unclear> Where <hi rend="underline">did</hi>
-                     <lb/>
+                  <unclear>i</unclear>nstructed. My<unclear>!</unclear> how er<unclear>u</unclear>dit<unclear>e</unclear> you are<unclear>,</unclear> Where <hi rend="underline">did</hi><lb/>
                   you dig up all th<unclear>os</unclear>e stories ?
                </p>
-                  <p>
+               <p>
                   A trifle alarmed that it may attract more<lb/>
                   to<unclear>u</unclear>rist<unclear>s</unclear>,which I'<unclear>m</unclear> sure you don't welco<unclear>m</unclear>e<lb/>
                   any m<unclear>or</unclear>e than I do. (Thanks , by t<unclear>he</unclear> way,<lb/>
                   for the <rs type="note" ana="#ana_017">reference to my garage</rs>.)<unclear>.</unclear>
-                  </p>
-                  <p>
-                  Am very cur<unclear>iou</unclear>s to learn mor<unclear>e</unclear> about <rs type="lit_work" ref="#lit_work_id_44">"<hi rend="underline">The L<unclear>i</unclear>fe</hi>
-                        <lb/>
-                        <hi rend="underline">and A<unclear>d</unclear>venture s of <rs type="person" ref="#amp_person_34">Peter Prosch</rs>
-                        </hi>.<unclear>"</unclear>
-                     </rs> Is it in print?<lb/>
+               </p>
+               <p>
+                  Am very cur<unclear>iou</unclear>s to learn mor<unclear>e</unclear> about <rs type="lit_work" ref="#lit_work_id_44">"<hi rend="underline">The L<unclear>i</unclear>fe</hi><lb/>
+                  <hi rend="underline">and A<unclear>d</unclear>venture s of <rs type="person" ref="#amp_person_34">Peter Prosch</rs></hi>.<unclear>"</unclear></rs> Is it in print?<lb/>
                   Shoul<unclear>d</unclear>n't it be translated?
                </p>
-                  <p>
-                  As you say, the relati<unclear>on</unclear>
-                     <unclear>b</unclear>etw<unclear>e</unclear>n art and society<lb/>
-                     <unclear>i</unclear>s <unclear>v</unclear>ery odd. Why should <unclear>th</unclear>e <rs type="place" ref="#amp_place_id_1">Vienna</rs> of 1<unclear>8</unclear>90-1918<lb/>
+               <p>
+                  As you say, the relati<unclear>on</unclear> <unclear>b</unclear>etw<unclear>e</unclear>n art and society<lb/>
+                  <unclear>i</unclear>s <unclear>v</unclear>ery odd. Why should <unclear>th</unclear>e <rs type="place" ref="#amp_place_id_1">Vienna</rs> of 1<unclear>8</unclear>90-1918<lb/>
                   ha<unclear>ve</unclear> pro<unclear>d</unclear>uced such a florescence<unclear>,</unclear>? (<rs type="person" ref="#amp_person_4">Chester</rs> can<lb/>
                   appreciate <rs type="person" ref="#amp_person_35">Bruckner</rs> better than I)<unclear>.</unclear>. <rs type="note" ana="#ana_026">Even odder to<lb/>
-                  me is the <rs type="event" ref="#amp_event_id_8">Biedermayer peri<unclear>od,</unclear>
-                        </rs> No one can<lb/>
+                  me is the <rs type="event" ref="#amp_event_id_8">Biedermayer peri<unclear>od,</unclear></rs> No one can<lb/>
                   possibly approv<unclear>e</unclear> of <rs type="person" ref="#amp_person_178">Metternich</rs>'s police state,yet,<lb/>
                   in a more liberal mil<del>e</del>ieu, could <rs type="person" ref="#amp_person_36">St<unclear>i</unclear>fter</rs>,<lb/>
-                        <rs type="person" ref="#amp_person_37">Rai<unclear>m</unclear>und</rs>, <rs type="person" ref="#amp_person_38">Nestroy</rs>, have <unclear>wr</unclear>itten what they did?</rs>
-                  </p>
-                  <p>
-                  Hope this reaches yo<unclear>u.</unclear> Loo<unclear>k</unclear>ing forw<unclear>ar</unclear>d to se<unclear>e</unclear>ing yo<unclear>u</unclear>
-                     <lb/>
-                  in Sept<unclear>
-                        <gap reason="illegible"/>
-                     </unclear>
-                  </p>
-                  <closer>
-                     <salute>love and ad<unclear>m</unclear>irat<unclear>ion</unclear>
-                     </salute>
-                     <signed>
-                        <rs type="person" ref="#amp_person_1">Wystan</rs>
-                     </signed>
-                  </closer>
-               </div>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0078/" type="sheet" ed="2v"/>
+                  <rs type="person" ref="#amp_person_37">Rai<unclear>m</unclear>und</rs>, <rs type="person" ref="#amp_person_38">Nestroy</rs>, have <unclear>wr</unclear>itten what they did?</rs>
+               </p>
+               <p>
+                  Hope this reaches yo<unclear>u.</unclear> Loo<unclear>k</unclear>ing forw<unclear>ar</unclear>d to se<unclear>e</unclear>ing yo<unclear>u</unclear><lb/>
+                  in Sept<unclear><gap reason="illegible"/></unclear>
+              </p> 
+              <closer>
+                 <salute>love and ad<unclear>m</unclear>irat<unclear>ion</unclear></salute>
+                 <signed><rs type="person" ref="#amp_person_1">Wystan</rs></signed>
+               </closer>
             </div>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0078/" type="sheet" ed="2v"/>
          </div>
+      </div>
       </body>
    </text>
 </TEI>

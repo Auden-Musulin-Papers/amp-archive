@@ -1,16 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0035.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0034.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0038.xml">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0035.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0034.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0038.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Telegram W. H. Auden to Stella Musulin 1971-05-13</title>
             <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
-            <editor>
-               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
-               <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
-               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
-            </editor>
+            <editor><name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></editor>
             <funder>
                <name>Austrian Science Fund (FWF)</name>
                <address>
@@ -27,18 +22,8 @@
             <edition>
                <title>Telegram W. H. Auden to Stella Musulin 1971-05-13</title>
             </edition>
-            <respStmt>
-               <resp>Transcription and commentary</resp>
-               <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
-               <name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
-               <name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
-            </respStmt>
-            <respStmt>
-               <resp>TEI Schema, ODD/RNG</resp>
-               <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
-               <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
-            </respStmt>
-         </editionStmt>
+            <respStmt><resp>Transcription and commentary</resp><name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></respStmt>
+         <respStmt><resp>TEI Schema, ODD/RNG</resp><name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name><name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name></respStmt></editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
@@ -54,8 +39,7 @@ for any purpose, even commercially.</p>
                </licence>
                <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
             </availability>
-            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C328-9</idno>
-         </publicationStmt>
+         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C328-9</idno></publicationStmt>
          <seriesStmt>
             <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
          </seriesStmt>
@@ -95,16 +79,12 @@ for any purpose, even commercially.</p>
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <orgName>
-                  <rs type="org" ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</rs>
-               </orgName>
+               <orgName><rs type="org" ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</rs></orgName>
                <placeName ref="#amp_place_id_5">Kirchstetten</placeName>
                <date notBefore-iso="1971-05-13T15:30:01+01:00" notAfter-iso="1971-05-13T15:45:00+01:00">1971-05-13T15:30:01+01:00/1971-05-13T15:45:00+01:00</date>
             </correspAction>
             <correspAction type="transmitted">
-               <orgName>
-                  <rs type="org" ref="#amp_organization_73">Hauptpostamt 1030 (main post office 1030)</rs>
-               </orgName>
+               <orgName><rs type="org" ref="#amp_organization_73">Hauptpostamt 1030 (main post office 1030)</rs></orgName>
                <placeName ref="#amp_place_id_1">Vienna</placeName>
                <date notBefore-iso="1971-05-13T16:20:00+01:00" notAfter-iso="1971-05-13T16:20:59+01:00">1971-05-13T16:20:00+01:00/1971-05-13T16:20:59+01:00</date>
             </correspAction>
@@ -112,7 +92,7 @@ for any purpose, even commercially.</p>
                <orgName ref="#amp_organization_73">Hauptpostamt 1030 (main post office 1030)</orgName>
                <placeName ref="#amp_place_id_1">Vienna</placeName>
                <date notBefore-iso="1971-05-13T16:20:01+01:00" notAfter-iso="1971-05-13T17:00:00+01:00">1971-05-13T16:20:01+01:00/1971-05-13T17:00:00+01:00</date>
-            </correspAction>
+            </correspAction> 
             <correspAction type="received">
                <persName ref="#amp_person_2">Musulin, Stella</persName>
                <placeName ref="#amp_place_id_11">Neulinggasse 26</placeName>
@@ -147,17 +127,12 @@ for any purpose, even commercially.</p>
       <body>
          <div type="transcription" xml:id="transcription_amp_0035" xml:lang="de">
             <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0233/" type="sheet" ed="1r"/>
-            <p>
-               <rs type="person" ref="#amp_person_2">MUSULIN</rs>
-               <rs type="place" ref="#amp_place_id_11">NEULINGGASSE <space quantity="1" unit="char"/>26/14 <space quantity="1" unit="char"/>1030/WIEN</rs>
-            </p>
-            <p>
-                  = <space quantity="1" unit="char"/>
-               <rs type="event" ref="#amp_event_id_100" ana="acdh:amp-transcript__0058.xml#ana_003">KOMMEN SAMSTAG</rs> = <space quantity="1" unit="char"/>
-               <foreign xml:lang="en">LOVE</foreign>
-               <space quantity="1" unit="char"/>
-               <rs type="person" ref="#amp_person_1">WYSTAN</rs>
-            </p>
+               <p>
+                  <rs type="person" ref="#amp_person_2">MUSULIN</rs> <rs type="place" ref="#amp_place_id_11">NEULINGGASSE <space quantity="1" unit="char"/>26/14 <space quantity="1" unit="char"/>1030/WIEN</rs>
+               </p>
+               <p>
+                  = <space quantity="1" unit="char"/><rs type="event" ref="#amp_event_id_100" ana="acdh:amp-transcript__0058.xml#ana_003">KOMMEN SAMSTAG</rs> = <space quantity="1" unit="char"/><foreign xml:lang="en">LOVE</foreign> <space quantity="1" unit="char"/><rs type="person" ref="#amp_person_1">WYSTAN</rs>
+               </p>
             <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0234/" type="sheet" ed="1v"/>
          </div>
       </body>

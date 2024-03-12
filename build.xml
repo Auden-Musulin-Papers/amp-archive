@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." name="tei2html">
+    <property name="xsl_preprocess" value="${basedir}/preprocess.xsl"/>
+    <property name="editions" value="${basedir}/data/editions"/>
+    <property name="indexes" value="${basedir}/data/indexes"/>
+    <property name="target" value="${basedir}/data/tmp"/>
+    <property name="target_id" value="${basedir}/data/tmp_id"/>
+    
+    <mkdir dir="${target}"/>
+    <mkdir dir="${target_id}"/>
+
+    <xslt style="${xsl_preprocess}" basedir="${editions}" destdir="${target}" includes="*.xml" extension=".xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+    <xslt style="${xsl_preprocess}" basedir="${indexes}" destdir="${target_id}" includes="*.xml" extension=".xml">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+        <classpath location="${basedir}/saxon/saxon9he.jar"/>
+    </xslt>
+
+    <copy todir="${editions}">
+        <fileset dir="${target}" includes="*.xml"/>
+    </copy>
+    <copy todir="${indexes}">
+        <fileset dir="${target_id}" includes="*.xml"/>
+    </copy>
+    <delete dir="${target}"/>
+    <delete dir="${target_id}"/>
+ 
+</project>

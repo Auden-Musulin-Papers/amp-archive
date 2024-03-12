@@ -1,16 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0051.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0050.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0052.xml">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0051.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0050.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0052.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Typed Notes [Janko Musulin] Translation W. H. Auden "Freedom and Necessity in the Arts" 1970-05-19--1970-06-10</title>
             <author ref="https://d-nb.info/gnd/115753761">Janko Musulin</author>
-            <editor>
-               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
-               <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
-               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
-            </editor>
+            <editor><name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></editor>
             <funder>
                <name>Austrian Science Fund (FWF)</name>
                <address>
@@ -25,18 +20,8 @@
          </titleStmt>
          <editionStmt>
             <edition>AMP</edition>
-            <respStmt>
-               <resp>Transcription and commentary</resp>
-               <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
-               <name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
-               <name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
-            </respStmt>
-            <respStmt>
-               <resp>TEI Schema, ODD/RNG</resp>
-               <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
-               <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
-            </respStmt>
-         </editionStmt>
+            <respStmt><resp>Transcription and commentary</resp><name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></respStmt>
+         <respStmt><resp>TEI Schema, ODD/RNG</resp><name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name><name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name></respStmt></editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
@@ -52,8 +37,7 @@ for any purpose, even commercially.</p>
                </licence>
                <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
             </availability>
-            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C338-7</idno>
-         </publicationStmt>
+         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C338-7</idno></publicationStmt>
          <seriesStmt>
             <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
          </seriesStmt>
@@ -69,9 +53,7 @@ for any purpose, even commercially.</p>
                         <idno>2, 5</idno>
                      </msIdentifier>
                      <history>
-                        <origin>
-                           <origDate notBefore-iso="1970-05-19T00:00:00+01:00" notAfter-iso="1970-06-10T23:59:59+01:00">1970-05-19--1970-06-10</origDate>
-                        </origin>
+                        <origin><origDate notBefore-iso="1970-05-19T00:00:00+01:00" notAfter-iso="1970-06-10T23:59:59+01:00">1970-05-19--1970-06-10</origDate></origin>
                      </history>
                   </msDesc>
                </witness>
@@ -84,6 +66,7 @@ for any purpose, even commercially.</p>
             <language ident="en">English</language>
             <language ident="de">German</language>
          </langUsage>
+         
       </profileDesc>
       <revisionDesc status="draft">
          <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
@@ -118,110 +101,99 @@ for any purpose, even commercially.</p>
       <body>
          <div xml:id="transcription">
             <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0165/" type="sheet"/>
-            <p>
+               <p>
                   Einschub 1 ,<lb/>
-               <space quantity="7" unit="char"/>
-               <del>
-                  <gap reason="deleted"/>
-               </del>Als <rs type="person" ref="#amp_person_1">ich</rs> zwischen sechs und zwölf Jahre alt war verbrachte ich<lb/>
+                  <space quantity="7" unit="char"/><del><gap reason="deleted"/></del>Als <rs type="person" ref="#amp_person_1">ich</rs> zwischen sechs und zwölf Jahre alt war verbrachte ich<lb/>
                   viele meiner wachen Stunden damit mir eine heilsame zweite Welt zu<lb/>
                   schaffen . Ihre <del>Grundelemente</del> Bausteine waren erstens eine<lb/>
-                  Karlksteinlandschaft , die hauptsächlich .<del>.....</del>von der <rs type="place" ref="#amp_place_id_41">Pennine Heide</rs>
-               <lb/>
+                  Karlksteinlandschaft , die hauptsächlich .<del>.....</del>von der <rs type="place" ref="#amp_place_id_41">Pennine Heide</rs><lb/>
                   herrührte und zweitens ein Werk - die Bleigruben .
                </p>
-            <p>
-               <space quantity="27" unit="char"/>Einschub 2<lb/>
-               <space quantity="7" unit="char"/>Zweitens , während ich meine höchst-eigene Welt aufbaute ,<lb/>
+               <p>
+                  <space quantity="27" unit="char"/>Einschub 2<lb/>
+                  <space quantity="7" unit="char"/>Zweitens , während ich meine höchst-eigene Welt aufbaute ,<lb/>
                   musste ich feststellen , dass hier nicht ohne Regeln <del>gespielt</del>vorgegangen werden konnte<lb/>
-               <del>werden konnte</del> - obwohl, oder gerade weil es hier um ein Spiel<lb/>
+                  <del>werden konnte</del> - obwohl, oder gerade weil es hier um ein Spiel<lb/>
                   ging , nicht eine Notwendigkeit wie essen oder schlafen , um etwas, das<lb/>
                   mir frei stand , das ich tun oder lassen konnte, wie es mir<lb/>
                   passte
                </p>
-            <p>
-               <space quantity="25" unit="char"/>Eimschub 3<lb/>
-               <space quantity="5" unit="char"/>Während ich meine <del>Pläne</del>Vorstellungen für einen <del>zentral-Meiler</del>Anreicherungs-Meiler entwarf, stiess<lb/>
+               <p>
+                  <space quantity="25" unit="char"/>Eimschub 3<lb/>
+                  <space quantity="5" unit="char"/>Während ich meine <del>Pläne</del>Vorstellungen für einen <del>zentral-Meiler</del>Anreicherungs-Meiler entwarf, stiess<lb/>
                   ich auf Schwierigkeiten: Ich musste zwischen zwei Arten von<lb/>
-                  Maschienen wählen , die d<del>ie</del>er Absonderung des Schlamms d<del>urchführen</del>
-               <lb/>
+                  Maschienen wählen , die d<del>ie</del>er Absonderung des Schlamms d<del>urchführen</del><lb/>
                   dienen , sie werden ' buddle ' genannt , Der eine Typ kam mir<lb/>
                   ' heilsamer ' , schöner vor aber der andere, das wusste ich bereits aus<lb/>
                   meiner <unclear>L</unclear>ekture funktionierte besser <space quantity="2" unit="char"/>....................<lb/>
-               <space quantity="6" unit="char"/>Als ich später <space quantity="3" unit="char"/>Gedichte zu schreiben begann stellte ich fest ,<lb/>
+                  <space quantity="6" unit="char"/>Als ich später <space quantity="3" unit="char"/>Gedichte zu schreiben begann stellte ich fest ,<lb/>
                   dass für mich genau die gleiche Verpflichtung gültig war . Das<lb/>
-                  heisst, ich ich kann die Do<del>
-                  <unclear>j</unclear>
-               </del>ktrin nicht akzeptieren derzufolge man<lb/>
+                  heisst, ich ich kann die Do<del><unclear>j</unclear></del>ktrin nicht akzeptieren derzufolge man<lb/>
                   in der Poesie <del>vom Zwang der Glaubwürdigkeit</del> vorübergehend vom Zwang<lb/>
                   zur Glaubwürdigkeit entbunden werden kann <space quantity="1" unit="char"/>.
                </p>
-            <p>
+               <p>
                   Einschub 4<lb/>
-               <space quantity="7" unit="char"/>Eine eigene Phantasiewelt für sich <del>selbst aufbauen</del> allein
+                  <space quantity="7" unit="char"/>Eine eigene Phantasiewelt für sich <del>selbst aufbauen</del> allein
                </p>
             <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0166/" type="sheet"/>
             <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0167/" type="sheet"/>
-            <p>
-               <space quantity="27" unit="char"/>- 2 -
+               <p>
+                  <space quantity="27" unit="char"/>- 2 -
                </p>
-            <p>
+               <p>
                   aufbauen und Gedichte schreiben , das ist gewiss auf profunde Weise etwas<lb/>
                   anderes. "
                </p>
-            <p>
-               <space quantity="6" unit="char"/>Einschub 5<lb/>
-               <space quantity="4" unit="char"/>" Die Wissenschaften früherer Tage sind nur für die Studenten der<lb/>
-               <space quantity="1" unit="char"/>Wissenschaftsgeschichte von Interesse , sie haben keinen Bezug auf das ,<lb/>
-               <space quantity="1" unit="char"/>was Wissenschaftler in diesem Augenblick tun "
+               <p>
+                  <space quantity="6" unit="char"/>Einschub 5<lb/>
+                  <space quantity="4" unit="char"/>" Die Wissenschaften früherer Tage sind nur für die Studenten der<lb/>
+                  <space quantity="1" unit="char"/>Wissenschaftsgeschichte von Interesse , sie haben keinen Bezug auf das ,<lb/>
+                  <space quantity="1" unit="char"/>was Wissenschaftler in diesem Augenblick tun "
                </p>
-            <p>
-               <space quantity="5" unit="char"/>Einschub 6<lb/>
-               <space quantity="6" unit="char"/>Gründer der " modernen Kunst " ansehen , Glück, weil sie just in<lb/>
-               <space quantity="1" unit="char"/>diesem Augenblick auf die Welt kamen , mithin vor 1914 erwachsene<lb/>
-               <space quantity="1" unit="char"/>Männer waren .
+               <p>
+                  <space quantity="5" unit="char"/>Einschub 6<lb/>
+                  <space quantity="6" unit="char"/>Gründer der " modernen Kunst " ansehen , Glück, weil sie just in<lb/>
+                  <space quantity="1" unit="char"/>diesem Augenblick auf die Welt kamen , mithin vor 1914 erwachsene<lb/>
+                  <space quantity="1" unit="char"/>Männer waren .
                </p>
-            <p>
-               <space quantity="5" unit="char"/>Einschub 7<lb/>
-               <space quantity="9" unit="char"/>In meinen jungen Jahren hatte sie gar keinen , sie befand sich im<lb/>
-               <space quantity="5" unit="char"/>Zustand kategorischen Gegensatzes , häufig in wirk<del>
-                  <unclear>o</unclear>
-               </del>licher<lb/>
-               <space quantity="5" unit="char"/>Feindschaft
+               <p>
+                  <space quantity="5" unit="char"/>Einschub 7<lb/>
+                  <space quantity="9" unit="char"/>In meinen jungen Jahren hatte sie gar keinen , sie befand sich im<lb/>
+                  <space quantity="5" unit="char"/>Zustand kategorischen Gegensatzes , häufig in wirk<del><unclear>o</unclear></del>licher<lb/>
+                  <space quantity="5" unit="char"/>Feindschaft
                </p>
-            <p>
-               <space quantity="5" unit="char"/>Einschub 8<lb/>
-               <space quantity="10" unit="char"/>In Zeiten wie der unseren , in Zeiten rascher sozialer Veränderungen<lb/>
-               <space quantity="5" unit="char"/>und politischer Krise , besteht immer die Gefahr die auf<lb/>
-               <space quantity="5" unit="char"/>politische Aktion anwendbaren Prinzipien mit jenen zu verwechseln ,<lb/>
-               <space quantity="5" unit="char"/>die das künstlerische Schaffen bestimmen.
+               <p>   
+                  <space quantity="5" unit="char"/>Einschub 8<lb/>
+                  <space quantity="10" unit="char"/>In Zeiten wie der unseren , in Zeiten rascher sozialer Veränderungen<lb/>
+                  <space quantity="5" unit="char"/>und politischer Krise , besteht immer die Gefahr die auf<lb/>
+                  <space quantity="5" unit="char"/>politische Aktion anwendbaren Prinzipien mit jenen zu verwechseln ,<lb/>
+                  <space quantity="5" unit="char"/>die das künstlerische Schaffen bestimmen.
                </p>
-            <p>
-               <space quantity="5" unit="char"/>Einschub 9<lb/>
-               <space quantity="10" unit="char"/>heisst auf verantwortliche Weise am richtigen Funktionieren<lb/>
-               <space quantity="5" unit="char"/>der Gesellschaft, der er angehört, wie an ihrer Verbesserung ,<lb/>
-               <space quantity="5" unit="char"/>mitzuwirken . "
+               <p>
+                  <space quantity="5" unit="char"/>Einschub 9<lb/>
+                  <space quantity="10" unit="char"/>heisst auf verantwortliche Weise am richtigen Funktionieren<lb/>
+                  <space quantity="5" unit="char"/>der Gesellschaft, der er angehört, wie an ihrer Verbesserung ,<lb/>
+                  <space quantity="5" unit="char"/>mitzuwirken . "
                </p>
             <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0168/" type="sheet"/>
             <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0169/" type="sheet"/>
-            <p>
-               <space quantity="25" unit="char"/>- 3 -
+               <p>
+                  <space quantity="25" unit="char"/>- 3 -
                </p>
-            <p>
-               <space quantity="1" unit="char"/>Einschub 1o<lb/>
-               <space quantity="12" unit="char"/>Politisches <del>
-                  <unclear>h</unclear>
-               </del>Handel<del>t</del>n kommt aus Notwendigkeit , das<lb/>
-               <space quantity="4" unit="char"/>heisst : In jedem Augenblick muss etwas getan werden , für den<lb/>
-               <space quantity="4" unit="char"/>Augenblick - der Aktion des Augenblickes folgt die des nächsten<lb/>
-               <space quantity="4" unit="char"/>Augenblicks .
+               <p>
+                  <space quantity="1" unit="char"/>Einschub 1o<lb/>
+                  <space quantity="12" unit="char"/>Politisches <del><unclear>h</unclear></del>Handel<del>t</del>n kommt aus Notwendigkeit , das<lb/>
+                  <space quantity="4" unit="char"/>heisst : In jedem Augenblick muss etwas getan werden , für den<lb/>
+                  <space quantity="4" unit="char"/>Augenblick - der Aktion des Augenblickes folgt die des nächsten<lb/>
+                  <space quantity="4" unit="char"/>Augenblicks .
                </p>
-            <p>
+               <p>
                   E<del>u</del>inschub 11<lb/>
-               <space quantity="7" unit="char"/>Noch eine weitere Erfahrung, dieich gemacht habe : Im Gegensatz<lb/>
-               <space quantity="4" unit="char"/>zu dem, was man erwarten würde,klingen die freien Verse viel<lb/>
-               <space quantity="4" unit="char"/>ähnlicher als <del>jene</del> die Verse von Dichtern , die in vorgegebenen<lb/>
-               <space quantity="4" unit="char"/>Formen schreiben "
+                  <space quantity="7" unit="char"/>Noch eine weitere Erfahrung, dieich gemacht habe : Im Gegensatz<lb/>
+                  <space quantity="4" unit="char"/>zu dem, was man erwarten würde,klingen die freien Verse viel<lb/>
+                  <space quantity="4" unit="char"/>ähnlicher als <del>jene</del> die Verse von Dichtern , die in vorgegebenen<lb/>
+                  <space quantity="4" unit="char"/>Formen schreiben "
                </p>
             <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0170/" type="sheet"/>
          </div>

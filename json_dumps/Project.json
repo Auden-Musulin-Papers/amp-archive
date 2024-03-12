@@ -250,6 +250,10 @@
       {
         "id": 61,
         "value": "Angerer, Thomas"
+      },
+      {
+        "id": 62,
+        "value": "Mendelssohn, Anna"
       }
     ],
     "Object_uri_places": [],
@@ -315,6 +319,10 @@
       {
         "id": 61,
         "value": "Angerer, Thomas"
+      },
+      {
+        "id": 62,
+        "value": "Mendelssohn, Anna"
       }
     ],
     "Object_uri_places": [],
@@ -2126,16 +2134,7 @@
     "Date": null,
     "Number": null,
     "Object_uri_vocabs": [],
-    "Inherit": [
-      {
-        "id": 12,
-        "value": "Collection"
-      },
-      {
-        "id": 46,
-        "value": "Resource"
-      }
-    ]
+    "Inherit": []
   },
   "107": {
     "id": 107,
@@ -2184,16 +2183,7 @@
     "Date": null,
     "Number": null,
     "Object_uri_vocabs": [],
-    "Inherit": [
-      {
-        "id": 12,
-        "value": "Collection"
-      },
-      {
-        "id": 46,
-        "value": "Resource"
-      }
-    ]
+    "Inherit": []
   },
   "108": {
     "id": 108,
@@ -2222,6 +2212,10 @@
       {
         "id": 12,
         "value": "Austrian Centre for Digital Humanities and Cultural Heritage"
+      },
+      {
+        "id": 14,
+        "value": "Austrian Press Agency"
       },
       {
         "id": 19,
@@ -2479,10 +2473,6 @@
       {
         "id": 17,
         "value": "Austrian Academy of Sciences"
-      },
-      {
-        "id": 18,
-        "value": "Landessammlungen Niederösterreich"
       },
       {
         "id": 19,

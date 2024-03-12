@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at" xml:id="amp-index-persons.xml" prev="https://id.acdh.oeaw.ac.at/amp-index-organizations.xml" next="https://id.acdh.oeaw.ac.at/amp-index-places.xml">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at" xml:id="amp-index-persons.xml" prev="https://id.acdh.oeaw.ac.at/amp-index-organizations.xml" next="https://id.acdh.oeaw.ac.at/amp-index-places.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -14,7 +13,7 @@
                <resp>converted to XML encoding</resp>
                <name>Daniel Stoxreiter</name>
             </respStmt>
-            <funder xmlns="http://www.tei-c.org/ns/1.0">
+            <funder>
                <name>FWF Der Wissenschaftsfond.</name>
                <address>
                      <street>Sensengasse 1</street>
@@ -149,6 +148,13 @@
                      <bibl n="lit_work_id_179">Paul Bunyan</bibl>
                      <bibl n="lit_work_id_180">Delia</bibl>
                      <bibl n="lit_work_id_181">The Entertainment of the Senses</bibl>
+                     <bibl n="lit_work_id_182">On This Island</bibl>
+                     <bibl n="lit_work_id_183">What's in your mind, my dove, my coney</bibl>
+                     <bibl n="lit_work_id_184">Three Songs for St. Cecilia's Day</bibl>
+                     <bibl n="lit_work_id_186">O Tell Me the Truth About Love</bibl>
+                     <bibl n="lit_work_id_187">Funeral Blues</bibl>
+                     <bibl n="lit_work_id_188">Johnny</bibl>
+                     <bibl n="lit_work_id_189">Calypso</bibl>
                   </listBibl>
                </person>
                <person xml:id="amp_person_2">

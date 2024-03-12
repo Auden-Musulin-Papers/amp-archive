@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at" xml:id="amp-index-places.xml" prev="https://id.acdh.oeaw.ac.at/amp-index-persons.xml" next="https://id.acdh.oeaw.ac.at/amp-index-works.xml">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at" xml:id="amp-index-places.xml" prev="https://id.acdh.oeaw.ac.at/amp-index-persons.xml" next="https://id.acdh.oeaw.ac.at/amp-index-works.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -14,7 +13,7 @@
                <resp>converted to XML encoding</resp>
                <name>Daniel Stoxreiter</name>
             </respStmt>
-            <funder xmlns="http://www.tei-c.org/ns/1.0">
+            <funder>
                <name>FWF Der Wissenschaftsfond.</name>
                <address>
                      <street>Sensengasse 1</street>
@@ -2099,7 +2098,7 @@
                   <desc type="entity_type">city, village,...</desc>
                   <country>GB, United Kingdom</country>
                   <location type="located_in_place">
-                     <placeName key="amp_place_id_93">United Kingdom</placeName>
+                     <placeName key="amp_place_id_239">England</placeName>
                   </location>
                   <location type="coords">
                      <geo>53.72587, -1.36256</geo>
@@ -2116,7 +2115,7 @@
                   <desc type="entity_type">city, village,...</desc>
                   <country>GB, United Kingdom</country>
                   <location type="located_in_place">
-                     <placeName key="amp_place_id_93">United Kingdom</placeName>
+                     <placeName key="amp_place_id_239">England</placeName>
                   </location>
                   <location type="coords">
                      <geo>51.85407, 0.07188</geo>
@@ -2687,12 +2686,12 @@
                   <desc type="entity_type">country, state, region,...</desc>
                   <country>GB, United Kingdom</country>
                   <location type="located_in_place">
-                     <placeName key="amp_place_id_93">United Kingdom</placeName>
+                     <placeName key="amp_place_id_239">England</placeName>
                   </location>
                   <location type="coords">
                      <geo>55.58131, -1.83744</geo>
                   </location>
-                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/7300675/</idno>
+                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2655981/</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1617115</idno>
                   <note/>
                </place>
@@ -2716,7 +2715,7 @@
                   <desc type="entity_type">city, village,...</desc>
                   <country>GB, United Kingdom</country>
                   <location type="located_in_place">
-                     <placeName key="amp_place_id_93">United Kingdom</placeName>
+                     <placeName key="amp_place_id_239">England</placeName>
                   </location>
                   <location type="coords">
                      <geo>51.65855, -1.18112</geo>
@@ -3617,9 +3616,6 @@
                   </settlement>
                   <desc type="entity_type">country, state, region,...</desc>
                   <country>IE, Ireland</country>
-                  <location type="located_in_place">
-                     <placeName key="amp_place_id_93">United Kingdom</placeName>
-                  </location>
                   <location type="coords">
                      <geo>53, -8</geo>
                   </location>

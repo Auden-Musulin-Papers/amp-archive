@@ -1,167 +1,141 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0060.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0059.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0061.xml">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
-            <title level="a">Copy Typed Letter Wolfgang Kraus to Stella Musulin 1977-03-22</title>
-            <author ref="https://d-nb.info/gnd/116413298">Kraus, Wolfgang</author>
-            <editor>
-               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
-               <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
-               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
-            </editor>
-            <funder>
-               <name>Austrian Science Fund (FWF)</name>
-               <address>
-                  <street>Georg-Coch-Platz 2</street>
-                  <postCode>1010 Vienna</postCode>
-                  <placeName>
-                     <country>A</country>
-                     <settlement>Vienna</settlement>
-                  </placeName>
-               </address>
-            </funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>AMP</edition>
-            <respStmt>
-               <resp>Transcription and commentary</resp>
-               <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
-               <name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
-               <name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
-            </respStmt>
-            <respStmt>
-               <resp>TEI Schema, ODD/RNG</resp>
-               <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
-               <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
-            </respStmt>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
-            <pubPlace>Vienna</pubPlace>
-            <date when="2021">2021</date>
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
-                  <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
-                            for any purpose, even commercially.</p>
-                  <p>The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms:</p>
-                  <p>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p>
-                  <p>Notices:</p>
-                  <p>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</p>
-               </licence>
-               <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
-            </availability>
-            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C341-C</idno>
-         </publicationStmt>
-         <seriesStmt>
-            <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
-         </seriesStmt>
-         <sourceDesc>
-            <listWit>
-               <witness n="1">
-                  <msDesc>
-                     <msIdentifier>
-                        <country>A</country>
-                        <settlement>Vienna</settlement>
-                        <repository>Österreichische Gesellschaft für Literatur, Austrian Society for Literature</repository>
-                        <collection>Correspondence Wolfgang Kraus</collection>
-                        <idno>A2</idno>
-                     </msIdentifier>
-                     <history>
-                        <origin>
-                           <origDate notBefore-iso="1977-03-22T00:00:00+01:00" notAfter-iso="1977-03-22T23:59:59+01:00">1977-03-22</origDate>
-                           <origPlace ref="#amp_place_id_211">Herrengasse 5</origPlace>
-                           <!-- mark up certainty value -->
-                        </origin>
-                     </history>
-                  </msDesc>
-               </witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="de">German</language>
-         </langUsage>
-      </profileDesc>
-      <revisionDesc status="draft">
-         <change who="pandorfer" when="2022-01-25">template populated with script "create_templates.py"</change>
-         <change who="smayer" when="2022-01-27">text transcribed</change>
-         <change who="tfruehwirth" when="2022-01-28">text transcribed</change>
-         <change who="smayer tfruehwirth" when="2022-02-28">transcriptions collated</change>
-         <change who="dgrigoriou" when="2022-10-06">transcriptions updated v0.1</change>
-         <change who="dgrigoriou smayer tfruehwirth" when="2023-03-02">entities and correspDesc collated</change>
-         <change who="dgrigoriou" when="2023-08-18">container structure updated</change>
-      </revisionDesc>
-   </teiHeader>
-   <facsimile>
-      <surface ulx="0" uly="0" lrx="5698" lry="7764">
-         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0253/"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="5694" lry="7754">
-         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0254/"/>
-      </surface>
-   </facsimile>
-   <text type="letter" hand="#typed">
-      <body>
-         <div type="transcription" xml:id="transcription_amp_0060">
-            <div type="letter">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0253/" type="sheet"/>
-               <div>
-                  <ab hand="#handwritten">
-                     <unclear>A2</unclear>
-                  </ab>
-               </div>
-               <div>
-                  <ab>
-                     <rs type="person" ref="#amp_person_2">Frau<lb/>
-                              Stella von Musulin</rs>
-                     <lb/>
-                     <address>
-                        <rs type="place" ref="#amp_place_id_7">Friedau<lb/>
-                                  3200 Obergrafendorf</rs>
-                     </address>
-                  </ab>
-               </div>
-               <div type="letter_message">
-                  <opener>
-                     <dateline>
-                        <space quantity="34" unit="char"/>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0060.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0059.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0061.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
+                <title level="a">Copy Typed Letter Wolfgang Kraus to Stella Musulin 1977-03-22</title>
+                <author ref="https://d-nb.info/gnd/116413298">Kraus, Wolfgang</author>
+                <editor><name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></editor>
+                <funder>
+                    <name>Austrian Science Fund (FWF)</name>
+                    <address>
+                        <street>Georg-Coch-Platz 2</street>
+                        <postCode>1010 Vienna</postCode>
                         <placeName>
-                           <rs type="place" ref="#amp_place_id_1">Wien</rs>, </placeName>
-                        <date rend="#inline">22.März 1977</date>
-                     </dateline>
-                     <salute>
+                            <country>A</country>
+                            <settlement>Vienna</settlement>
+                        </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>AMP</edition>
+                <respStmt><resp>Transcription and commentary</resp><name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></respStmt>
+            <respStmt><resp>TEI Schema, ODD/RNG</resp><name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name><name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name></respStmt></editionStmt>
+            <publicationStmt>
+                <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
+                <pubPlace>Vienna</pubPlace>
+                <date when="2021">2021</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
+                        <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
+                            for any purpose, even commercially.</p>
+                        <p>The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms:</p>
+                        <p>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p>
+                        <p>Notices:</p>
+                        <p>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</p>
+                    </licence>
+                    <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
+                </availability>
+                <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C341-C</idno></publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>A</country>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Gesellschaft für Literatur, Austrian Society for Literature</repository>
+                                <collection>Correspondence Wolfgang Kraus</collection>
+                                <idno>A2</idno>
+                            </msIdentifier>
+                            <history>
+                                <origin>
+                                    <origDate notBefore-iso="1977-03-22T00:00:00+01:00" notAfter-iso="1977-03-22T23:59:59+01:00">1977-03-22</origDate>
+                                    <origPlace ref="#amp_place_id_211">Herrengasse 5</origPlace><!-- mark up certainty value -->
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de">German</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="draft">
+            <change who="pandorfer" when="2022-01-25">template populated with script "create_templates.py"</change>
+            <change who="smayer" when="2022-01-27">text transcribed</change>
+            <change who="tfruehwirth" when="2022-01-28">text transcribed</change>
+            <change who="smayer tfruehwirth" when="2022-02-28">transcriptions collated</change>
+            <change who="dgrigoriou" when="2022-10-06">transcriptions updated v0.1</change>
+            <change who="dgrigoriou smayer tfruehwirth" when="2023-03-02">entities and correspDesc collated</change>
+            <change who="dgrigoriou" when="2023-08-18">container structure updated</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface ulx="0" uly="0" lrx="5698" lry="7764">
+            <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0253/"/>
+        </surface>
+        <surface ulx="0" uly="0" lrx="5694" lry="7754">
+            <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0254/"/>
+        </surface>
+    </facsimile>
+    <text type="letter" hand="#typed">
+        <body>
+            <div type="transcription" xml:id="transcription_amp_0060">
+               <div type="letter"> 
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0253/" type="sheet"/>
+                  <div>
+                      <ab hand="#handwritten">
+                          <unclear>A2</unclear>
+                      </ab>
+                  </div>
+                  <div>
+                      <ab>
+                          <rs type="person" ref="#amp_person_2">Frau<lb/>
+                              Stella von Musulin</rs><lb/>
+                          <address>
+                              <rs type="place" ref="#amp_place_id_7">Friedau<lb/>
+                                  3200 Obergrafendorf</rs>
+                          </address>
+                      </ab>
+                  </div>
+                  <div type="letter_message">
+                     <opener>
+                        <dateline>
+                            <space quantity="34" unit="char"/><placeName><rs type="place" ref="#amp_place_id_1">Wien</rs>, </placeName><date rend="#inline">22.März 1977</date>
+                        </dateline>
+                        <salute>
                             Sehr verehrte, liebe <rs type="person" ref="#amp_person_2">gnädige Frau</rs>,
                         </salute>
-                  </opener>
-                  <p>
+                     </opener>
+                     <p>
                         wie mit <rs type="person" ref="#amp_person_135">Frau Bronold</rs> mündlich vereinbart, möchte ich nun<lb/>
                         auch schriftlich festhalten, daß wir Sie sehr herzlich<lb/>
-                        einladen, Ihren <rs type="event" ref="#amp_event_id_23">
-                        <rs type="lit_work" ref="#lit_work_id_126">Vortrag über <rs type="person" ref="#amp_person_1">W.H.Auden</rs>
-                        </rs>
-                     </rs> am Donnerstag, den<lb/>
+                        einladen, Ihren <rs type="event" ref="#amp_event_id_23"><rs type="lit_work" ref="#lit_work_id_126">Vortrag über <rs type="person" ref="#amp_person_1">W.H.Auden</rs></rs></rs> am Donnerstag, den<lb/>
                         5.Mai, bei uns zu halten. Wir haben dafür den Figaro-Saal<lb/>
                         im <rs type="place" ref="#amp_place_id_85">Palais Palffy</rs> reserviert, Zeit 20 Uhr. Als Honorar<lb/>
                         können wir 1.500 Schilling anbieten.
                      </p>
-                  <p>
+                     <p>
                         Ich wäre Ihnen nur sehr dankbar, wenn Sie uns umgehend<lb/>
                         den genauen Titel bekanntgeben könnten.
                      </p>
-                  <closer>
-                     <salute>Mit herzlichen Empfehlungen und Wünschen</salute>
-                     <space quantity="42" unit="char"/>
-                     <salute>Ihr</salute>
-                     <space quantity="32" unit="char"/>
-                     <signed>(<rs type="person" ref="#amp_person_137">Dr.Wolfgang Kraus</rs>)</signed>
-                  </closer>
-               </div>
+                     <closer>
+                        <salute>Mit herzlichen Empfehlungen und Wünschen</salute>
+                        <space quantity="42" unit="char"/><salute>Ihr</salute>
+                        <space quantity="32" unit="char"/><signed>(<rs type="person" ref="#amp_person_137">Dr.Wolfgang Kraus</rs>)</signed>
+                     </closer>
+                  </div>
                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0254/" type="sheet"/>
             </div>
-         </div>
-      </body>
-   </text>
+        </div>
+        </body>
+    </text>
 </TEI>

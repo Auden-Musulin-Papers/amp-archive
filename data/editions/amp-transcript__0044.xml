@@ -1,16 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0044.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0043.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0045.xml">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0044.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0043.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0045.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</title>
             <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
-            <editor>
-               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
-               <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
-               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
-            </editor>
+            <editor><name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></editor>
             <funder>
                <name>Austrian Science Fund (FWF)</name>
                <address>
@@ -27,18 +22,8 @@
             <edition>
                <title>Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</title>
             </edition>
-            <respStmt>
-               <resp>Transcription and commentary</resp>
-               <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
-               <name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
-               <name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
-            </respStmt>
-            <respStmt>
-               <resp>TEI Schema, ODD/RNG</resp>
-               <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
-               <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
-            </respStmt>
-         </editionStmt>
+            <respStmt><resp>Transcription and commentary</resp><name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></respStmt>
+         <respStmt><resp>TEI Schema, ODD/RNG</resp><name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name><name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name></respStmt></editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
@@ -54,8 +39,7 @@ for any purpose, even commercially.</p>
                </licence>
                <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
             </availability>
-            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C331-E</idno>
-         </publicationStmt>
+         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C331-E</idno></publicationStmt>
          <seriesStmt>
             <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
          </seriesStmt>
@@ -127,61 +111,51 @@ for any purpose, even commercially.</p>
       <body>
          <div type="transcription" xml:id="transcription_amp_0044" xml:lang="en">
             <div type="letter">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0101/" type="sheet" ed="1r"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0101/" type="sheet" ed="1r"/>
                <div type="letter_message">
                   <opener>
                      <dateline>
                         <placeName>
                            <seg hand="#printed">
                               <address>
-                                 <addrLine>from <rs type="person" ref="#amp_person_19">Peter Heyworth</rs>
-                                    <lb/>
-                                 </addrLine>
+                                 <addrLine>from <rs type="person" ref="#amp_person_19">Peter Heyworth</rs><lb/></addrLine>
                                  <rs type="place" ref="#amp_place_id_45">32 BRYANSTON SQUARE <space quantity="1" unit="char"/>LONDON W1 <space quantity="1" unit="char"/>· <space quantity="1" unit="char"/>AMBASSADOR 8906</rs>
                               </address>
                            </seg>
                         </placeName>
                         <date rend="#block">Oct 24th</date>
                      </dateline>
-                     <salute>Dear <rs type="person" ref="#amp_person_2">Stella</rs>:</salute>
-                  </opener>
-                  <p>
-                  Many thanks for <rs type="event" ref="#amp_event_id_90">your lette<unclear>r</unclear>
-                     </rs> and the<lb/>
+                     <salute>Dear <rs type="person" ref="#amp_person_2">Stella</rs>:</salute>  
+                  </opener>                  
+               <p>
+                  Many thanks for <rs type="event" ref="#amp_event_id_90">your lette<unclear>r</unclear></rs> and the<lb/>
                   Dr<unclear>viv</unclear>ing li<unclear>c</unclear>ence <unclear>w</unclear>hich I am mu<unclear>c</unclear>h relieved<lb/>
                   to get.
                </p>
-                  <p>
-                  I can't possibly have the <rs type="person" ref="#amp_person_155 #amp_person_171" ana="acdh:amp-transcript__0009.xml#ana_012">Langers</rs>
-                     <lb/>
+               <p>
+                  I can't possibly have the <rs type="person" ref="#amp_person_155 #amp_person_171" ana="acdh:amp-transcript__0009.xml#ana_012">Langers</rs><lb/>
                   shivering,so I enclose a cheque for<lb/>
                   S.2000 for extra fuel,and will send<lb/>
                   more if and when needed.
                </p>
-                  <p>
+               <p>
                   Wh<unclear>a</unclear>t is <rs type="person" ref="#amp_person_155">Mr Langer</rs>s first name.? Does<lb/>
                   he underst<unclear>a</unclear>nd English? I <unclear>m</unclear>u<unclear>s</unclear>t w<unclear>ri</unclear>te<lb/>
                   him a note of welcome.
                </p>
-                  <p>
-                     <rs type="event" ref="#amp_event_id_89">I leave <unclear>
-                           <del>
-                              <gap reason="deleted"/>
-                           </del>to-</unclear>day week for <rs type="place" ref="#amp_place_id_28">Ne<unclear>w</unclear> York</rs>
-                     </rs>.<lb/>
-                     <unclear>A</unclear>ddress. <rs type="place" ref="#amp_place_id_29">77 St Mark's Place. New<lb/>
+               <p>
+                  <rs type="event" ref="#amp_event_id_89">I leave <unclear><del><gap reason="deleted"/></del>to-</unclear>day week for <rs type="place" ref="#amp_place_id_28">Ne<unclear>w</unclear> York</rs></rs>.<lb/>
+                  <unclear>A</unclear>ddress. <rs type="place" ref="#amp_place_id_29">77 St Mark's Place. New<lb/>
                   York City. New York 10003.</rs>
-                  </p>
-                  <closer>
-                     <salute>much love and thanks</salute>
-                     <signed>
-                        <rs type="person" ref="#amp_person_1">Wystan</rs>
-                     </signed>
-                  </closer>
-               </div>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0102/" type="sheet" ed="1v"/>
+               </p>
+               <closer>
+                  <salute>much love and thanks</salute>
+                  <signed><rs type="person" ref="#amp_person_1">Wystan</rs></signed>
+               </closer>
             </div>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0102/" type="sheet" ed="1v"/>
          </div>
+      </div>
       </body>
    </text>
 </TEI>

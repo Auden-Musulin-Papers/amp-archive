@@ -1,16 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0001.xml" xml:base="https://id.acdh.oeaw.ac.at" next="https://id.acdh.oeaw.ac.at/amp-transcript__0002.xml">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0001.xml" xml:base="https://id.acdh.oeaw.ac.at" next="https://id.acdh.oeaw.ac.at/amp-transcript__0002.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</title>
             <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
-            <editor>
-               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
-               <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
-               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
-            </editor>
+            <editor><name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></editor>
             <funder>
                <name>Austrian Science Fund (FWF)</name>
                <address>
@@ -40,18 +35,8 @@
                   </interp>
                </interpGrp>
             </edition>
-            <respStmt>
-               <resp>Transcription and commentary</resp>
-               <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
-               <name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
-               <name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
-            </respStmt>
-            <respStmt>
-               <resp>TEI Schema, ODD/RNG</resp>
-               <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
-               <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
-            </respStmt>
-         </editionStmt>
+            <respStmt><resp>Transcription and commentary</resp><name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></respStmt>
+         <respStmt><resp>TEI Schema, ODD/RNG</resp><name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name><name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name></respStmt></editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
@@ -67,8 +52,7 @@ for any purpose, even commercially.</p>
                </licence>
                <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
             </availability>
-            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C306-F</idno>
-         </publicationStmt>
+         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C306-F</idno></publicationStmt>
          <seriesStmt>
             <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
          </seriesStmt>
@@ -108,9 +92,7 @@ for any purpose, even commercially.</p>
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <orgName>
-                  <rs type="org" ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</rs>
-               </orgName>
+               <orgName><rs type="org" ref="#amp_organization_70">Postamt Kirchstetten (post office Kirchstetten)</rs></orgName>
                <placeName ref="#amp_place_id_5">Kirchstetten</placeName>
                <date notBefore-iso="1963-05-13T11:00:01+01:00" notAfter-iso="1963-05-13T12:00:00+01:00">1963-05-13T11:00:01+01:00/1963-05-13T12:00:00+01:00</date>
             </correspAction>
@@ -159,22 +141,14 @@ for any purpose, even commercially.</p>
          <div type="transcription" xml:id="transcription_amp_0001" xml:lang="en">
             <div type="envelope">
                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0001/" type="envelope" ed="1r"/>
-               <ab>
-                  <rs type="person" ref="#amp_person_4">
-                     <unclear>Ch</unclear>ester</rs> in <rs type="place" ref="#amp_place_id_14">Florence</rs>
-                  <unclear>.</unclear>
-               </ab>
+               <ab><rs type="person" ref="#amp_person_4"><unclear>Ch</unclear>ester</rs> in <rs type="place" ref="#amp_place_id_14">Florence</rs><unclear>.</unclear></ab>
                <ab xml:lang="de">
                   <rs type="person" ref="#amp_person_2">Die Ba<unclear>ron</unclear>in<lb/>
-                  Stella M<unclear>eu</unclear>ss<unclear>u</unclear>lin</rs>
-                  <lb/>
+                  Stella M<unclear>eu</unclear>ss<unclear>u</unclear>lin</rs><lb/>
                   <address>
-                     <rs type="place" ref="#amp_place_id_11">
-                        <del>Wien III</del>
-                        <lb/>
-                        <del>Neulinggasse 26</del>
-                     </rs>
-                  </address>
+                     <rs type="place" ref="#amp_place_id_11"><del>Wien III</del><lb/>
+                     <del>Neulinggasse 26</del></rs>
+                  </address>   
                </ab>
                <ab xml:lang="de">
                   <address>
@@ -185,18 +159,16 @@ for any purpose, even commercially.</p>
                   </address>
                </ab>
                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0002/" type="envelope" ed="1v"/>
-               <ab>
-                  <rs type="person" ref="#amp_person_1">W.H.Auden</rs>
-                  <unclear>,</unclear>
-                  <lb/>
-                  <seg hand="#printed">
-                     <address>
-                        <rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (<foreign xml:lang="de">WESTBAHN</foreign>)<lb/>
+                  <ab>
+                     <rs type="person" ref="#amp_person_1">W.H.Auden</rs><unclear>,</unclear><lb/>
+                     <seg hand="#printed">
+                        <address>
+                           <rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (<foreign xml:lang="de">WESTBAHN</foreign>)<lb/>
                            HINTERHOLZ 6<lb/>
                            <foreign xml:lang="de">N.-Ö.</foreign>, AUSTRIA</rs>
-                     </address>
-                  </seg>
-               </ab>
+                        </address>
+                     </seg>
+                  </ab>
             </div>
             <div type="letter">
                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0003/" type="letter" ed="2r"/>
@@ -209,7 +181,7 @@ for any purpose, even commercially.</p>
                               <address>
                                  <rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (<foreign xml:lang="de">WESTBAHN</foreign>)<lb/>
                                  HINTERHOLZ 6<lb/>
-                                    <foreign xml:lang="de">N.-Ö.</foreign>, AUSTRIA</rs>
+                                 <foreign xml:lang="de">N.-Ö.</foreign>, AUSTRIA</rs>
                               </address>
                            </seg>
                         </placeName>
@@ -217,18 +189,11 @@ for any purpose, even commercially.</p>
                      <salute>Dear <rs type="person" ref="#amp_person_2">Stella</rs>:</salute>
                   </opener>
                   <p>
-                     Delighted to hear you are <rs type="place" ref="#amp_place_id_11">
-                        <foreign xml:lang="de">zu Haus</foreign>
-                     </rs>.<lb/>
+                     Delighted to hear you are <rs type="place" ref="#amp_place_id_11"><foreign xml:lang="de">zu Haus</foreign></rs>.<lb/>
                      No, I d<unclear>i</unclear>dnt get any letter from you. <unclear>Pe</unclear>rhaps<lb/>
-                     it is in the <unclear>.</unclear>
-                     <rs type="place" ref="#amp_place_id_15">U.S.</rs>
-                     <unclear>,</unclear>
-                     <rs type="event" ref="#amp_event_id_69" ana="#ana_006">I shall be in <rs type="place" ref="#amp_place_id_1">Vienna</rs> this<lb/>
-                     coming week on Monday, <del>T<unclear>hur</unclear>
-                        </del> Wednesday and Friday</rs>.<lb/>
-                     <rs type="event" ref="#amp_event_id_71">Wi<unclear>ll</unclear> try to call you to-mo<unclear>rrow</unclear>
-                     </rs> to arrange<lb/>
+                     it is in the <unclear>.</unclear><rs type="place" ref="#amp_place_id_15">U.S.</rs><unclear>,</unclear> <rs type="event" ref="#amp_event_id_69" ana="#ana_006">I shall be in <rs type="place" ref="#amp_place_id_1">Vienna</rs> this<lb/>
+                     coming week on Monday, <del>T<unclear>hur</unclear></del> Wednesday and Friday</rs>.<lb/>
+                     <rs type="event" ref="#amp_event_id_71">Wi<unclear>ll</unclear> try to call you to-mo<unclear>rrow</unclear></rs> to arrange<lb/>
                      a meeting.
                   </p>
                   <p>
@@ -237,9 +202,7 @@ for any purpose, even commercially.</p>
                   </p>
                   <closer>
                      <salute>love</salute>
-                     <signed>
-                        <rs type="person" ref="#amp_person_1">Wystan</rs>
-                     </signed>
+                     <signed><rs type="person" ref="#amp_person_1">Wystan</rs></signed>
                   </closer>
                </div>
                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0004/" type="letter" ed="2v"/>

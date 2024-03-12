@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0047.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0046.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0048.xml">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0047.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0046.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0048.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -7,11 +6,7 @@
             <title level="a">Typescript Stella Musulin Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</title>
             <author ref="https://d-nb.info/gnd/127246711">Musulin, Stella</author>
             <author ref="https://id.acdh.oeaw.ac.at/emusulin">Musulin, Elsa</author>
-            <editor>
-               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
-               <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
-               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
-            </editor>
+            <editor><name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></editor>
             <funder>
                <name>Austrian Science Fund (FWF)</name>
                <address>
@@ -26,18 +21,8 @@
          </titleStmt>
          <editionStmt>
             <edition>AMP</edition>
-            <respStmt>
-               <resp>Transcription and commentary</resp>
-               <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
-               <name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
-               <name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
-            </respStmt>
-            <respStmt>
-               <resp>TEI Schema, ODD/RNG</resp>
-               <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
-               <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
-            </respStmt>
-         </editionStmt>
+            <respStmt><resp>Transcription and commentary</resp><name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></respStmt>
+         <respStmt><resp>TEI Schema, ODD/RNG</resp><name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name><name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name></respStmt></editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
@@ -53,8 +38,7 @@ for any purpose, even commercially.</p>
                </licence>
                <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
             </availability>
-            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C334-B</idno>
-         </publicationStmt>
+         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C334-B</idno></publicationStmt>
          <seriesStmt>
             <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
          </seriesStmt>
@@ -70,9 +54,7 @@ for any purpose, even commercially.</p>
                         <idno>2, 2</idno>
                      </msIdentifier>
                      <history>
-                        <origin>
-                           <origDate notBefore-iso="1965-04-28T00:00:00+01:00" notAfter-iso="1965-12-31T23:59:59+01:00">1965-04-28--1965-12-31</origDate>
-                        </origin>
+                        <origin><origDate notBefore-iso="1965-04-28T00:00:00+01:00" notAfter-iso="1965-12-31T23:59:59+01:00">1965-04-28--1965-12-31</origDate></origin>
                      </history>
                   </msDesc>
                </witness>
@@ -84,6 +66,7 @@ for any purpose, even commercially.</p>
             <language ident="en">English</language>
             <language ident="de">German</language>
          </langUsage>
+         
       </profileDesc>
       <revisionDesc status="draft">
          <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
@@ -106,85 +89,72 @@ for any purpose, even commercially.</p>
       <body>
          <div xml:id="transcription">
             <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0143/" type="sheet"/>
-            <p>
-               <space quantity="21" unit="char"/>
-               <head>
-                  <rs type="lit_work" ref="#lit_work_id_93">
-                     <rs type="person" ref="#amp_person_5">JOSEPH WEINHEBER<lb/>
-                        <space quantity="22" unit="char"/>(1892-1945)</rs>
-                  </rs>
-               </head>
-               <lb/>
-               <space quantity="5" unit="char"/>Von meiner Garten<del>n</del>tür führt ein schmaler Pfad vom Dorf weiter<lb/>
+               <p>
+                  <space quantity="21" unit="char"/><head><rs type="lit_work" ref="#lit_work_id_93"><rs type="person" ref="#amp_person_5">JOSEPH WEINHEBER<lb/>
+                  <space quantity="22" unit="char"/>(1892-1945)</rs></rs></head><lb/>
+                  <space quantity="5" unit="char"/>Von meiner Garten<del>n</del>tür führt ein schmaler Pfad vom Dorf weiter<lb/>
                   einen Wald. <space quantity="1" unit="char"/>Auf meinen Gängen dorthin scheint es gehörig, stehen z<lb/>
                   bleiben und durch den Zaun deines Gartens zu schauen, in dem man<lb/>
-                  dich (die Umstände verlangten es) wie einen alten geliebten <unclear>
-                  <del>H</del>F</unclear>amilien<lb/>
+                  dich (die Umstände verlangten es) wie einen alten geliebten <unclear><del>H</del>F</unclear>amilien<lb/>
                   hund begrub.<lb/>
-               <space quantity="5" unit="char"/>Vor zwanzig Jahren kategorisierte Feinde, jetzt nah benachbart,<lb/>
+                  <space quantity="5" unit="char"/>Vor zwanzig Jahren kategorisierte Feinde, jetzt nah benachbart,<lb/>
                   wären wir vielleicht gute Freunde geworden, die eine gemeinsame<lb/>
                   Umwelt und Liebe für das Wort teilten, und hätten bei einem gold-<lb/>
                   hellen Kremser lange Gespräche über Syntax, Kommas und Verskunst<lb/>
                   geführt.<lb/>
-               <space quantity="5" unit="char"/>Ja, ja, es muss gesagt werden, Machthaber, Männer grossen<lb/>
+                  <space quantity="5" unit="char"/>Ja, ja, es muss gesagt werden, Machthaber, Männer grossen<lb/>
                   Unheils und Übelwollens, nahmen dich auf; <space quantity="1" unit="char"/>für wie lang, doch,<lb/>
                   wickelten sie dich ein, dich, der auf <rs type="person" ref="#amp_person_196">Goebbels</rs> Angebot von Kultur<lb/>
                   "In Ruah lassen!" entgegnetest? <space quantity="1" unit="char"/>Aber Krethi und Plethi ziehen<lb/>
                   einen Stunk vor, und die Jungen verdammen dich ungelesen.<lb/>
-               <space quantity="5" unit="char"/>Was wohl würde dir, dem Österreicher, dem Dichter, dein Herz<lb/>
+                  <space quantity="5" unit="char"/>Was wohl würde dir, dem Österreicher, dem Dichter, dein Herz<lb/>
                   gesagt haben, hättest du je von <rs type="person" ref="#amp_person_7">Franz Jägerstätter</rs>, dem <rs type="place" ref="#amp_place_id_22">Sankt<lb/>
                   Radegund</rs>er Bauern, gehört, der sein einsames Nein zu dem Ariersta<del>t</del>at<lb/>
                   sagte und geköpft wurde? <space quantity="1" unit="char"/>Natürlich sorgte man dafür, daß nichts<lb/>
                   davon zu Ohren kam,<lb/>
-               <space quantity="5" unit="char"/>dass du unvorbereitet auf einen Tag sein solltest, der kommen<lb/>
+                  <space quantity="5" unit="char"/>dass du unvorbereitet auf einen Tag sein solltest, der kommen<lb/>
                   musste, eine Zeit, voller Schrecken, Tränen und Auflösung, in dem<lb/>
                   du, der vom Albdruck erstarrt, dich selbst vernichtet<unclear>e</unclear>st?<lb/>
                   Vergeltung ging immer wie ein Stümper vor. <space quantity="1" unit="char"/>"Dies alles ist<lb/>
                   furchtbar, hier nur Schweigen gemäss."<lb/>
-               <space quantity="5" unit="char"/>Unbemerkt und <del>b</del>unbetrauert von mir die Stunde deines Todes,<lb/>
+                  <space quantity="5" unit="char"/>Unbemerkt und <del>b</del>unbetrauert von mir die Stunde deines Todes,<lb/>
                   unbegrüsst von dir war der Augenblick, als ich, von der Vorsehung<lb/>
-                  geleitet, <del>R</del>
-               <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs> zuerst erblickte, an einem Oktobertag <del>in</del> bei<lb/>
+                  geleitet, <del>R</del><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs> zuerst erblickte, an einem Oktobertag <del>in</del> bei<lb/>
                   strömendem Regen, in einem Jahr, das unsern Kosmos veränderte,<lb/>
                   dem <hi rend="underline">annus mirabilis</hi> als die Parität gestürzt wurde.<lb/>
-               <del>Schon</del>
-               <space quantity="5" unit="char"/>Schon waren die Reiche, die verloren ha<del>b</del>tten, genügend warm und<lb/>
+                  <del>Schon</del><space quantity="5" unit="char"/>Schon waren die Reiche, die verloren ha<del>b</del>tten, genügend warm und<lb/>
                   sattgegessen, ihre Verbrechen waren auf prosaische und private Art,<lb/>
                   jene Ärgernisse, Tote und Schutt, längst weggeschafft: <space quantity="1" unit="char"/>für ihre<lb/>
                   Geschändeten verblasste der Schock, ihre gewaltsam entführten<lb/>
                   Physiker hatten kein Heimweh mehr.<lb/>
-               <space quantity="5" unit="char"/>Heute lächeln wir bei Hochzeiten, bei denen Braut und Bräutigam<lb/>
+                  <space quantity="5" unit="char"/>Heute lächeln wir bei Hochzeiten, bei denen Braut und Bräutigam<lb/>
                   schon auf der Welt waren als sich der Schatten gehoben hatte oder<lb/>
-                  vielmehr weitergerückt war. <space quantity="1" unit="char"/>
-               <del>
-                  <unclear>B</unclear>
-               </del>Noch nie war die Erde ohne ihre faule<lb/>
+                  vielmehr weitergerückt war. <space quantity="1" unit="char"/><del><unclear>B</unclear></del>Noch nie war die Erde ohne ihre faule<lb/>
                   Stelle, einen Unort mit Posten für Folterer, (In welchen Bars sind<lb/>
                   sie willkommen? <space quantity="1" unit="char"/>Welch<del>e</del>Mädchen heiraten sie?)<lb/>
-               <space quantity="5" unit="char"/>noch nie war überall Friede auf ihrer nährenden Oberfläche:<lb/>
+                  <space quantity="5" unit="char"/>noch nie war überall Friede auf ihrer nährenden Oberfläche:<lb/>
                   so viel wir wissen, ist niemand je sicher gewesen, und deshalb<lb/>
                   überwachen brave Familienväter, mit der Hingebung von Mönchen, in<lb/>
                   geheimen Zonen, Geräte, in denen harmlose Substanz menschenmörderisc<lb/>
                   wird.<lb/>
-               <space quantity="5" unit="char"/>Doch hier fühl ich mich <del>t</del>zuhause, wie du einst: <space quantity="1" unit="char"/>dieselben kurz-<lb/>
+                  <space quantity="5" unit="char"/>Doch hier fühl ich mich <del>t</del>zuhause, wie du einst: <space quantity="1" unit="char"/>dieselben kurz-<lb/>
                   lebigen Geschöpfe stimmen wieder dieselben sorglosen Lieder an;<lb/>
                   Pbstgärten halten fest an dem Regime, das sie kennen, von des April<lb/>
                   rasch zunehmenden Farbtönen bis zum ungestümen Herbst, wenn bei<lb/>
                   jedem stotternden Windstoss Äpfel auf den Boden plumpsen.<lb/>
-               <space quantity="4" unit="char"/>
-               <unclear>W</unclear>enn ich über unser Tal - human bescheiden und sanft im Umris<lb/>
+                  <space quantity="4" unit="char"/><unclear>W</unclear>enn ich über unser Tal - human bescheiden und sanft im Umris<lb/>
                   schaue, in dem der <rs type="place" ref="#amp_place_id_252">Sichelbach</rs> westwärts gurgelt, um sich mit der<lb/>
-               <rs type="place" ref="#amp_place_id_251">Perschling</rs> zu vereinigen, bin ich mir bedeutenderen Nachbarn<lb/>
+                  <rs type="place" ref="#amp_place_id_251">Perschling</rs> zu vereinigen, bin ich mir bedeutenderen Nachbarn<lb/>
                   ehrfürchtig bewusst, der Berge, die hinter mir aufragen, vor mi<lb/>
                   des noblen Flusses,<lb/>
-               <space quantity="4" unit="char"/>doch möcht ich auch dir Achtung erweisen, Nachbar und Kolle<lb/>
-               <del>de</del>
-            </p>
-            <p>
-               <space quantity="57" unit="char"/>⁒
+                  <space quantity="4" unit="char"/>doch möcht ich auch dir Achtung erweisen, Nachbar und Kolle<lb/>
+                  <del>de</del>
+               </p>
+               <p>
+                  <space quantity="57" unit="char"/>⁒
                </p>
             <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0144/" type="sheet"/>
-            <p>
+               <p>
                   denn selbst mein englisches Ohr erfasst in deinem Deutsch die<lb/>
                   Meisterschaft und den Tonfall einen dem es vergönnt war, auf dem<lb/>
                   gepfählten Anger die Violas zu hören, die ihn nachher dazu<lb/>

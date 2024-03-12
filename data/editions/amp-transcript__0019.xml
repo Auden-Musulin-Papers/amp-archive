@@ -1,16 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0019.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0018.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0020.xml">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0019.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0018.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0020.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</title>
             <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
-            <editor>
-               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
-               <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
-               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
-            </editor>
+            <editor><name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></editor>
             <funder>
                <name>Austrian Science Fund (FWF)</name>
                <address>
@@ -50,18 +45,8 @@
                   </interp>
                </interpGrp>
             </edition>
-            <respStmt>
-               <resp>Transcription and commentary</resp>
-               <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
-               <name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
-               <name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
-            </respStmt>
-            <respStmt>
-               <resp>TEI Schema, ODD/RNG</resp>
-               <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
-               <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
-            </respStmt>
-         </editionStmt>
+            <respStmt><resp>Transcription and commentary</resp><name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></respStmt>
+         <respStmt><resp>TEI Schema, ODD/RNG</resp><name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name><name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name></respStmt></editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
@@ -77,8 +62,7 @@ for any purpose, even commercially.</p>
                </licence>
                <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
             </availability>
-            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C318-B</idno>
-         </publicationStmt>
+         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C318-B</idno></publicationStmt>
          <seriesStmt>
             <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
          </seriesStmt>
@@ -118,23 +102,17 @@ for any purpose, even commercially.</p>
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <orgName>
-                  <rs type="org" ref="#amp_organization_85">United States General Post Office</rs>
-               </orgName>
+               <orgName><rs type="org" ref="#amp_organization_85">United States General Post Office</rs></orgName>
                <placeName ref="#amp_place_id_28">New York City</placeName>
                <date notBefore-iso="1972-02-23T12:00:00-05:00" notAfter-iso="1972-02-23T23:59:59-05:00">1972-02-23T12:00:00-05:00/1972-02-23T23:59:59-05:00</date>
             </correspAction>
             <correspAction type="transmitted">
-               <orgName>
-                  <rs type="org" ref="#amp_organization_72">Postamt Oberndorf an der Melk (post office Oberndorf an der Melk)</rs>
-               </orgName>
+               <orgName><rs type="org" ref="#amp_organization_72">Postamt Oberndorf an der Melk (post office Oberndorf an der Melk)</rs></orgName>
                <placeName ref="#amp_place_id_311">Oberndorf an der Melk</placeName>
                <date notBefore-iso="1972-02-28T13:00:01+01:00" notAfter-iso="1972-02-28T14:00:00+01:00">1972-02-28T13:00:01+01:00/1972-02-28T14:00:00+01:00</date>
             </correspAction>
             <correspAction type="redirected">
-               <orgName>
-                  <rs type="org" ref="#amp_organization_72">Postamt Oberndorf an der Melk (post office Oberndorf an der Melk)</rs>
-               </orgName>
+               <orgName><rs type="org" ref="#amp_organization_72">Postamt Oberndorf an der Melk (post office Oberndorf an der Melk)</rs></orgName>
                <placeName ref="#amp_place_id_311">Oberndorf an der Melk</placeName>
             </correspAction>
             <correspAction type="received">
@@ -178,37 +156,33 @@ for any purpose, even commercially.</p>
       <body>
          <div type="transcription" xml:id="transcription_amp_0019" xml:lang="en">
             <div type="envelope">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0091/" type="envelope" ed="1r"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0091/" type="envelope" ed="1r"/>
                <ab>
-                  <rs type="person" ref="#amp_person_1">W<unclear>.</unclear>H.Auden</rs>
-                  <lb/>
-                  <address>
+                  <rs type="person" ref="#amp_person_1">W<unclear>.</unclear>H.Auden</rs><lb/>
+                  <address>  
                      <rs type="place" ref="#amp_place_id_29">77 St Mark's Place<lb/>
                      New York City<lb/>
                      N.Y . 10003<lb/>
                      U.S.A</rs>
-                  </address>
+                  </address>    
                </ab>
                <ab>
-                  Not <unclear>q</unclear>uitti<unclear>n</unclear>g <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs>
-                  <unclear>·</unclear>
+                  Not <unclear>q</unclear>uitti<unclear>n</unclear>g <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs> <unclear>·</unclear>
                </ab>
                <ab xml:lang="de">
                   <rs type="person" ref="#amp_person_2">Die Baronin<lb/>
-                  Stella Musulin</rs>
-                  <lb/>
-                  <address>
+                  Stella Musulin</rs><lb/>
+                  <address> 
                      <rs type="place" ref="#amp_place_id_7">Fridau<lb/>
                      3200 Obergrabendorf<lb/>
                      N. Ö<lb/>
-                        <foreign xml:lang="en">Austria</foreign>
-                     </rs>
+                     <foreign xml:lang="en">Austria</foreign></rs>
                   </address>
-               </ab>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0092/" type="envelope" ed="1v"/>
+               </ab>   
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0092/" type="envelope" ed="1v"/>
             </div>
             <div type="letter">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0093/" type="sheet" ed="2r"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0093/" type="sheet" ed="2r"/>
                <div type="letter_message">
                   <opener>
                      <dateline>
@@ -222,31 +196,24 @@ for any purpose, even commercially.</p>
                         </placeName>
                      </dateline>
                      <salute>
-                        Dear <rs type="person" ref="#amp_person_2">Stella</rs>
-                        <unclear>;</unclear>
+                        Dear <rs type="person" ref="#amp_person_2">Stella</rs><unclear>;</unclear>
                      </salute>
                   </opener>
                   <p>
-                     <rs type="event" ref="#amp_event_id_102">Many thanks for your letter</rs>
-                     <unclear>,</unclear> Whate<unclear>ve</unclear>r<lb/>
-                     ma<unclear>d</unclear>e you imagine I was quitting <rs type="place" ref="#amp_place_id_5">Kirchst<unclear>e</unclear>tten</rs>
-                     <unclear>?</unclear>
-                     <lb/>
+                     <rs type="event" ref="#amp_event_id_102">Many thanks for your letter</rs><unclear>,</unclear> Whate<unclear>ve</unclear>r<lb/>
+                     ma<unclear>d</unclear>e you imagine I was quitting <rs type="place" ref="#amp_place_id_5">Kirchst<unclear>e</unclear>tten</rs><unclear>?</unclear><lb/>
                      Of course I'm not<unclear>,</unclear> The <rs type="event" ref="#amp_event_id_43" ana="#ana_018">change</rs> is that I<lb/>
-                     shall be spending my winters in <rs type="place" ref="#amp_place_id_46">Oxford</rs>
-                     <lb/>
+                     shall be spending my winters in <rs type="place" ref="#amp_place_id_46">Oxford</rs><lb/>
                      not in <rs type="place" ref="#amp_place_id_28">New York</rs>.
                   </p>
                   <closer>
                      <salute>love</salute>
-                     <signed>
-                        <rs type="person" ref="#amp_person_1">Wystan</rs>
-                     </signed>
+                     <signed><rs type="person" ref="#amp_person_1">Wystan</rs></signed>
                   </closer>
-               </div>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0094/" type="sheet" ed="2v"/>
-            </div>
+               </div>     
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0094/" type="sheet" ed="2v"/>
          </div>
+      </div>
       </body>
    </text>
 </TEI>

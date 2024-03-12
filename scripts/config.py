@@ -1,5 +1,6 @@
 import os
 from acdh_baserow_pyutils import BaseRowClient
+from acdh_tei_pyutils.tei import TeiReader
 
 # Baserow config
 BASEROW_DB_ID = os.environ.get("BASEROW_DB_ID")
@@ -41,7 +42,7 @@ def custom_function(subject_uri, doc) -> dict:
     """
     Custom function to be called during the mapping process.
     Add your custom function here.
-    Expected return is a dict were the key is the predicate and the value is the object.
+    Expected return is a dict were the key is the ARCHE vocabs predicate and the value is the object as string.
     """
     object_uri = dict()
     xpath = "//tei:pb"
@@ -65,9 +66,9 @@ def custom_function(subject_uri, doc) -> dict:
             except IndexError:
                 pb_type = None
             try:
-                pb_ed = f'{p.xpath("@ed")[0]:0>3}'
+                pb_ed = f'{p.xpath("@ed")[0]}'
             except IndexError:
-                pb_ed = f"{count:0>4}"
+                pb_ed = f"{count}"
                 count += 1
             if conditional is not None and conditional in subject_uri:
                 if pb_type is not None and pb_ed is not None:
@@ -104,21 +105,232 @@ def custom_function(subject_uri, doc) -> dict:
             else:
                 object_uri["hasAccessRestriction"] = f"{vocabs_ns}/archeaccessrestrictions/public"
                 object_uri["hasLicense"] = f"{vocabs_ns}/archelicenses/cc-by-4-0"
-    default_rights = [
-        "amp_0001"
-    ]
-    other_rights = [
-        "amp_0002"
-    ]
+    rights = {
+        "default_rights": {
+            "hasRightsHolder": ["https://id.acdh.oeaw.ac.at/org-whaudenestate"],
+            "hasLicensor": ["https://id.acdh.oeaw.ac.at/org-whaudenestate"],
+            "hasOwner": ["https://d-nb.info/gnd/1108283586"],
+            "hasDigitisingAgent": [
+                "https://orcid.org/0000-0002-0914-9245",
+                "https://orcid.org/0000-0002-3997-5193",
+                "https://d-nb.info/gnd/1024881253"
+            ],
+            "documents": [
+                "amp_0001",
+                "amp_0002",
+                "amp_0003",
+                "amp_0004",
+                "amp_0005",
+                "amp_0006",
+                "amp_0007",
+                "amp_0008",
+                "amp_0009",
+                "amp_0010",
+                "amp_0011",
+                "amp_0012",
+                "amp_0013",
+                "amp_0014",
+                "amp_0015",
+                "amp_0016",
+                "amp_0017",
+                "amp_0018",
+                "amp_0019",
+                "amp_0020",
+                "amp_0021",
+                "amp_0022",
+                "amp_0023",
+                "amp_0024",
+                "amp_0025",
+                "amp_0026",
+                "amp_0035",
+                "amp_0038",
+                "amp_0041",
+                "amp_0042",
+                "amp_0043",
+                "amp_0044",
+                "amp_0045",
+                "amp_0057",
+                "amp_0058",
+                "amp_0059",
+                "amp_0070"
+            ]
+        },
+        "default_rights1": {
+            "hasRightsHolder": ["https://d-nb.info/gnd/137925816"],
+            "hasLicensor": ["https://d-nb.info/gnd/137925816"],
+            "hasOwner": ["https://d-nb.info/gnd/1108283586"],
+            "hasDigitisingAgent": [
+                "https://orcid.org/0000-0002-0914-9245",
+                "https://orcid.org/0000-0002-3997-5193",
+                "https://d-nb.info/gnd/1024881253"
+            ],
+            "documents": [
+                "amp_0028",
+                "amp_0029",
+                "amp_0030",
+                "amp_0031",
+                "amp_0046",
+                "amp_0047",
+                "amp_0048",
+                "amp_0051",
+                "amp_0053",
+                "amp_0054",
+                "amp_0055",
+                "amp_0062",
+                "amp_0071"
+            ]
+        },
+        "default_rights2": {
+            "hasRightsHolder": ["https://d-nb.info/gnd/14000761X"],
+            "hasLicensor": ["https://d-nb.info/gnd/14000761X"],
+            "hasOwner": ["https://d-nb.info/gnd/1108283586"],
+            "hasDigitisingAgent": [
+                "https://orcid.org/0000-0002-0914-9245",
+                "https://orcid.org/0000-0002-3997-5193",
+                "https://d-nb.info/gnd/1024881253"
+            ],
+            "documents": [
+                "amp_0032",
+                "amp_0033"
+            ]
+        },
+        "default_rights3": {
+            "hasRightsHolder": ["https://d-nb.info/gnd/1173017283"],
+            "hasLicensor": ["https://d-nb.info/gnd/1173017283"],
+            "hasOwner": ["https://d-nb.info/gnd/1108283586"],
+            "hasDigitisingAgent": [
+                "https://orcid.org/0000-0002-0914-9245",
+                "https://orcid.org/0000-0002-3997-5193",
+                "https://d-nb.info/gnd/1024881253"
+            ],
+            "documents": [
+                "amp_0034"
+            ]
+        },
+        "default_rights4": {
+            "hasRightsHolder": ["https://d-nb.info/gnd/2175892-X"],
+            "hasLicensor": ["https://d-nb.info/gnd/2175892-X"],
+            "hasOwner": ["https://d-nb.info/gnd/1108283586"],
+            "hasDigitisingAgent": [
+                "https://orcid.org/0000-0002-0914-9245",
+                "https://orcid.org/0000-0002-3997-5193",
+                "https://d-nb.info/gnd/1024881253"
+            ],
+            "documents": [
+                "amp_0049"
+            ]
+        },
+        "default_rights5": {
+            "hasRightsHolder": ["https://www.wikidata.org/wiki/Q680662"],
+            "hasLicensor": ["https://www.wikidata.org/wiki/Q680662"],
+            "hasOwner": ["https://d-nb.info/gnd/1108283586"],
+            "hasDigitisingAgent": [
+                "https://orcid.org/0000-0002-0914-9245",
+                "https://orcid.org/0000-0002-3997-5193",
+                "https://d-nb.info/gnd/1024881253"
+            ],
+            "documents": [
+                "amp_0050"
+            ]
+        },
+        "default_rights6": {
+            "hasRightsHolder": ["https://id.acdh.oeaw.ac.at/amendelssohn"],
+            "hasLicensor": ["https://id.acdh.oeaw.ac.at/amendelssohn"],
+            "hasOwner": ["https://d-nb.info/gnd/1108283586"],
+            "hasDigitisingAgent": [
+                "https://orcid.org/0000-0002-0914-9245",
+                "https://orcid.org/0000-0002-3997-5193",
+                "https://d-nb.info/gnd/1024881253"
+            ],
+            "documents": [
+                "amp_0052"
+            ]
+        },
+        "default_rights7": {
+            "hasRightsHolder": ["https://d-nb.info/gnd/121076261"],
+            "hasLicensor": ["https://d-nb.info/gnd/121076261"],
+            "hasOwner": ["https://d-nb.info/gnd/2175892-X"],
+            "hasDigitisingAgent": [
+                "https://orcid.org/0000-0002-0914-9245",
+                "https://orcid.org/0000-0002-3997-5193",
+                "https://d-nb.info/gnd/1024881253"
+            ],
+            "documents": [
+                "amp_0060"
+            ]
+        },
+        "default_rights8": {
+            "hasRightsHolder": ["https://d-nb.info/gnd/121076261"],
+            "hasLicensor": ["https://d-nb.info/gnd/137925816"],
+            "hasOwner": ["https://d-nb.info/gnd/2175892-X"],
+            "hasDigitisingAgent": [
+                "https://orcid.org/0000-0002-0914-9245",
+                "https://orcid.org/0000-0002-3997-5193",
+                "https://d-nb.info/gnd/1024881253"
+            ],
+            "documents": [
+                "amp_0061"
+            ]
+        },
+        "default_rights9": {
+            "hasRightsHolder": ["https://id.acdh.oeaw.ac.at/kkubaczek", "https://id.acdh.oeaw.ac.at/wrohringer"],
+            "hasLicensor": ["https://id.acdh.oeaw.ac.at/kkubaczek", "https://id.acdh.oeaw.ac.at/wrohringer"],
+            "hasOwner": ["https://d-nb.info/gnd/2020893-5"],
+            "hasDigitisingAgent": ["https://d-nb.info/gnd/2020893-5"],
+            "documents": [
+                "amp_0063"
+            ]
+        },
+        "default_rights10": {
+            "hasRightsHolder": ["https://d-nb.info/gnd/137925816"],
+            "hasLicensor": ["https://d-nb.info/gnd/137925816"],
+            "hasOwner": ["https://d-nb.info/gnd/137925816"],
+            "hasDigitisingAgent": [
+                "https://orcid.org/0000-0002-0914-9245",
+                "https://orcid.org/0000-0002-3997-5193",
+                "https://d-nb.info/gnd/1024881253"
+            ],
+            "documents": [
+                "amp_0064",
+                "amp_0065",
+                "amp_0066",
+                "amp_0067",
+                "amp_0068",
+                "amp_0069",
+                "amp_0072",
+                "amp_0073",
+                "amp_0074",
+                "amp_0075"
+            ]
+        },
+        "default_rights11": {
+            "hasRightsHolder": ["https://id.acdh.oeaw.ac.at/org-whaudenestate"],
+            "hasLicensor": ["https://id.acdh.oeaw.ac.at/org-whaudenestate"],
+            "hasOwner": ["https://d-nb.info/gnd/1108283586"],
+            "hasDigitisingAgent": [
+                "https://orcid.org/0000-0002-0914-9245",
+                "https://orcid.org/0000-0002-3997-5193",
+                "https://d-nb.info/gnd/1024881253"
+            ],
+            "documents": [
+                "amp_0039",
+                "amp_0040"
+            ]
+        },
+    }
     subject_uri_split = subject_uri.split("/")[-1].split(".")[0]
-    if subject_uri_split in default_rights:
-        object_uri["hasRightsHolder"] = ["some-uri", "another-uri"]
-        object_uri["hasLicensor"] = ["some-uri", "another-uri"]
-        object_uri["hasOwner"] = ["some-uri", "another-uri"]
-    elif subject_uri_split in other_rights:
-        object_uri["hasRightsHolder"] = ["some-uri", "another-uri"]
-        object_uri["hasLicensor"] = ["some-uri", "another-uri"]
-        object_uri["hasOwner"] = ["some-uri", "another-uri"]
+    for key, value in rights.items():
+        docs = value["documents"]
+        for x in docs:
+            file = x.replace("amp_", "")
+            doc = TeiReader(f"data/editions/amp-transcript__{file}.xml")
+            facs = doc.any_xpath("//tei:pb/@facs")
+            if f"https://iiif.acdh.oeaw.ac.at/amp/{subject_uri_split}/" in facs:
+                print(subject_uri_split, "in", file)
+                object_uri["hasRightsHolder"] = value["hasRightsHolder"]
+                object_uri["hasLicensor"] = value["hasLicensor"]
+                object_uri["hasOwner"] = value["hasOwner"]
+                object_uri["hasDigitisingAgent"] = value["hasDigitisingAgent"]
     return object_uri
 
 

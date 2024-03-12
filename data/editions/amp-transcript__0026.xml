@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0026.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0025.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0027.xml">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0026.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0025.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0028.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -7,11 +6,7 @@
             <title level="a">Autograph Notes W. H. Auden Stella Musulin 1959-06-01--1973-09-28</title>
             <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
             <author ref="https://d-nb.info/gnd/127246711">Musulin, Stella</author>
-            <editor>
-               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
-               <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
-               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
-            </editor>
+            <editor><name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></editor>
             <funder>
                <name>Austrian Science Fund (FWF)</name>
                <address>
@@ -26,18 +21,8 @@
          </titleStmt>
          <editionStmt>
             <edition>AMP</edition>
-            <respStmt>
-               <resp>Transcription and commentary</resp>
-               <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
-               <name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
-               <name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
-            </respStmt>
-            <respStmt>
-               <resp>TEI Schema, ODD/RNG</resp>
-               <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
-               <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
-            </respStmt>
-         </editionStmt>
+            <respStmt><resp>Transcription and commentary</resp><name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></respStmt>
+         <respStmt><resp>TEI Schema, ODD/RNG</resp><name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name><name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name></respStmt></editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
@@ -53,8 +38,7 @@ for any purpose, even commercially.</p>
                </licence>
                <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
             </availability>
-            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C31F-4</idno>
-         </publicationStmt>
+         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C31F-4</idno></publicationStmt>
          <seriesStmt>
             <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
          </seriesStmt>
@@ -70,9 +54,7 @@ for any purpose, even commercially.</p>
                         <idno>2, 21</idno>
                      </msIdentifier>
                      <history>
-                        <origin>
-                           <origDate notBefore-iso="1959-06-01T00:00:00+01:00" notAfter-iso="1973-09-28T23:59:59+01:00">1959-06-01--1973-09-28</origDate>
-                        </origin>
+                        <origin><origDate notBefore-iso="1959-06-01T00:00:00+01:00" notAfter-iso="1973-09-28T23:59:59+01:00">1959-06-01--1973-09-28</origDate></origin>
                      </history>
                   </msDesc>
                </witness>
@@ -84,6 +66,7 @@ for any purpose, even commercially.</p>
             <language ident="en">English</language>
             <language ident="de">German</language>
          </langUsage>
+         
       </profileDesc>
       <revisionDesc status="draft">
          <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
@@ -105,23 +88,19 @@ for any purpose, even commercially.</p>
    <text type="letter" hand="#handwritten">
       <body>
          <div xml:id="transcription">
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0249/" type="nan"/>
-            <p>
-               <rs type="person" ref="#amp_person_1">W<unclear>,</unclear>H.Auden</rs>
-               <lb/>
-                  ℅ <rs type="person" ref="#amp_person_8 #amp_person_191">Spender</rs>
-               <lb/>
-               <rs type="place" ref="#amp_place_id_69">15 Loudoun Rd<lb/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0249/" type="sheet"/>
+               <p>
+                  <rs type="person" ref="#amp_person_1">W<unclear>,</unclear>H.Auden</rs><lb/>
+                  ℅ <rs type="person" ref="#amp_person_8 #amp_person_191">Spender</rs><lb/>
+                  <rs type="place" ref="#amp_place_id_69">15 Loudoun Rd<lb/>
                   St John's Wood<lb/>
-                  London. N.W. <unclear>8</unclear>
-               </rs>
-            </p>
-            <p>
-               <rs type="place" ref="#amp_place_id_224">Johann-Strauß-Gasse 28 <unclear>.</unclear>
-                  <lb/>
+                  London. N.W. <unclear>8</unclear></rs>
+               </p>
+               <p>
+                  <rs type="place" ref="#amp_place_id_224">Johann-Strauß-Gasse 28 <unclear>.</unclear><lb/>
                   1040 Wien .</rs>
-            </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0250/" type="nan"/>
+               </p>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0250/" type="sheet"/>
          </div>
       </body>
    </text>

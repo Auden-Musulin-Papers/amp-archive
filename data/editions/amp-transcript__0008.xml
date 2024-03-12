@@ -1,16 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0008.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0007.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0009.xml">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0008.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0007.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0009.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-12</title>
             <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
-            <editor>
-               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
-               <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
-               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
-            </editor>
+            <editor><name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></editor>
             <funder>
                <name>Austrian Science Fund (FWF)</name>
                <address>
@@ -27,18 +22,8 @@
             <edition>
                <title>Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-12</title>
             </edition>
-            <respStmt>
-               <resp>Transcription and commentary</resp>
-               <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
-               <name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
-               <name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
-            </respStmt>
-            <respStmt>
-               <resp>TEI Schema, ODD/RNG</resp>
-               <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
-               <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
-            </respStmt>
-         </editionStmt>
+            <respStmt><resp>Transcription and commentary</resp><name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></respStmt>
+         <respStmt><resp>TEI Schema, ODD/RNG</resp><name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name><name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name></respStmt></editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
@@ -54,8 +39,7 @@ for any purpose, even commercially.</p>
                </licence>
                <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
             </availability>
-            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C30D-8</idno>
-         </publicationStmt>
+         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C30D-8</idno></publicationStmt>
          <seriesStmt>
             <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
          </seriesStmt>
@@ -95,23 +79,17 @@ for any purpose, even commercially.</p>
          </langUsage>
          <correspDesc>
             <correspAction type="sent">
-               <orgName>
-                  <rs type="org" ref="#amp_organization_81">Post office Oxford</rs>
-               </orgName>
+               <orgName><rs type="org" ref="#amp_organization_81">Post office Oxford</rs></orgName>
                <placeName ref="#amp_place_id_46">Oxford</placeName>
                <date notBefore-iso="1968-10-12T13:00:01+01:00" notAfter-iso="1968-10-12T13:29:59+01:00">1968-10-12T13:00:01+00:00/1968-10-12T13:29:59+00:00</date>
             </correspAction>
             <correspAction type="transmitted">
-               <orgName>
-                  <rs type="org" ref="#amp_organization_74">Hauptpostamt 1040 (main post office 1040)</rs>
-               </orgName>
+               <orgName><rs type="org" ref="#amp_organization_74">Hauptpostamt 1040 (main post office 1040)</rs></orgName>
                <placeName ref="#amp_place_id_1">Vienna</placeName>
                <date notBefore-iso="1968-10-16T11:00:01+01:00" notAfter-iso="1968-10-16T12:00:00+01:00">1968-10-16T11:00:01+01:00/1968-10-16T12:00:00+01:00</date>
             </correspAction>
             <correspAction type="redirected">
-               <orgName>
-                  <rs type="org" ref="#amp_organization_74">Hauptpostamt 1040 (main post office 1040)</rs>
-               </orgName>
+               <orgName><rs type="org" ref="#amp_organization_74">Hauptpostamt 1040 (main post office 1040)</rs></orgName>
                <placeName ref="#amp_place_id_1">Vienna</placeName>
             </correspAction>
             <correspAction type="received">
@@ -155,44 +133,36 @@ for any purpose, even commercially.</p>
       <body>
          <div type="transcription" xml:id="transcription_amp_0008" xml:lang="en">
             <div type="envelope">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0039/" type="envelope" ed="1r"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0039/" type="envelope" ed="1r"/>
                <ab>
                   <hi rend="underline">Air-Mail</hi>
                </ab>
                <ab>
                   <unclear>L</unclear>eft US driving<lb/>
-                  licence <rs type="place" ref="#amp_place_id_2">behind</rs>
-                  <unclear>·</unclear>
+                  licence <rs type="place" ref="#amp_place_id_2">behind</rs> <unclear>·</unclear>
                </ab>
                <ab xml:lang="de">
                   <rs type="person" ref="#amp_person_2">Die Baroninin<lb/>
-                  Stella Musulin</rs>
-                  <lb/>
+                  Stella Musulin</rs><lb/>
                   <address>
-                     <rs type="place" ref="#amp_place_id_11">
-                        <del>Vi</del> Wien I<del>V</del>II<lb/>
+                     <rs type="place" ref="#amp_place_id_11"><del>Vi</del> Wien I<del>V</del>II<lb/>
                      Neulinggasse 26<lb/>
-                        <foreign xml:lang="en">Au<hi rend="underline">str</hi>ia</foreign>
-                     </rs>
+                     <foreign xml:lang="en">Au<hi rend="underline">str</hi>ia</foreign></rs>
                   </address>
                </ab>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0040/" type="envelope" ed="1v"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0040/" type="envelope" ed="1v"/>
                <ab>
-                  <rs type="person" ref="#amp_person_1">WH<unclear>_</unclear>Auden</rs>
-                  <lb/>
-                  ℅ <rs type="person" ref="#amp_person_19">Heyworth</rs>
-                  <lb/>
+                  <rs type="person" ref="#amp_person_1">WH<unclear>_</unclear>Auden</rs><lb/>
+                  ℅ <rs type="person" ref="#amp_person_19">Heyworth</rs><lb/>
                   <address>
                      <rs type="place" ref="#amp_place_id_45">32 Bryanston Sq<unclear>u</unclear>are<lb/>
-                     London. <del>
-                           <unclear>N.,</unclear>
-                        </del> W.I<lb/>
+                     London. <del><unclear>N.,</unclear></del> W.I<lb/>
                      England</rs>
                   </address>
                </ab>
             </div>
             <div type="letter">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0041/" type="sheet" ed="2r"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0041/" type="sheet" ed="2r"/>
                <div type="letter_message">
                   <opener>
                      <dateline>
@@ -204,46 +174,36 @@ for any purpose, even commercially.</p>
                         </placeName>
                         <date rend="#block">Oct 12 th</date>
                      </dateline>
-                     <salute>Dear <rs type="person" ref="#amp_person_2">Stella</rs>
-                        <unclear>.</unclear>
-                     </salute>
+                     <salute>Dear <rs type="person" ref="#amp_person_2">Stella</rs><unclear>.</unclear></salute>
                   </opener>
-                  <p>
-                  Like an idiot<unclear>,</unclear> I<unclear>v</unclear>e<del>
-                        <gap reason="deleted"/>
-                     </del> gone and<lb/>
-                  left my American Dr<del>
-                        <gap reason="deleted"/>
-                     </del>iving Licence<lb/>
-                     <rs type="place" ref="#amp_place_id_2">behind</rs>.
+               <p>
+                  Like an idiot<unclear>,</unclear> I<unclear>v</unclear>e<del><gap reason="deleted"/></del> gone and<lb/>
+                  left my American Dr<del><gap reason="deleted"/></del>iving Licence<lb/>
+                  <rs type="place" ref="#amp_place_id_2">behind</rs>.
                </p>
-                  <p>   
+               <p>   
                   It sh<unclear>ou</unclear>ld be in an envelope in<lb/>
                   the drawer of my bed-table upstairs.
                </p>
-                  <p>   
+               <p>   
                   Could you be an angel and look for<lb/>
-                  it next time you ar<unclear>e</unclear> going to <rs type="place" ref="#amp_place_id_7">Fridau</rs>
-                     <lb/>
+                  it next time you ar<unclear>e</unclear> going to <rs type="place" ref="#amp_place_id_7">Fridau</rs><lb/>
                   and air-mail to me
                </p>
-                  <p>   
-                  ℅ <rs type="person" ref="#amp_person_19">Mr Peter Heyworth</rs>
-                     <lb/>
-                     <rs type="place" ref="#amp_place_id_45">32 Bryanston Square<lb/>
+               <p>   
+                  ℅ <rs type="person" ref="#amp_person_19">Mr Peter Heyworth</rs><lb/>
+                  <rs type="place" ref="#amp_place_id_45">32 Bryanston Square<lb/>
                   London . W .I .</rs>
-                  </p>
-                  <p>   
+               </p>
+               <p>   
                   So sorry to be such a nuisance.
                </p>
-                  <closer>
-                     <salute>love</salute>
-                     <signed>
-                        <rs type="person" ref="#amp_person_1">Wystan</rs>
-                     </signed>
-                  </closer>
+               <closer>
+                  <salute>love</salute>
+                  <signed><rs type="person" ref="#amp_person_1">Wystan</rs></signed>
+               </closer>
                </div>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0042/" type="sheet" ed="2v"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0042/" type="sheet" ed="2v"/>
             </div>
          </div>
       </body>

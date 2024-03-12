@@ -564,16 +564,6 @@
     ],
     "Subject_uri": "https://id.acdh.oeaw.ac.at/slehecka"
   },
-  "60": {
-    "id": 60,
-    "order": "56.00000000000000000000",
-    "Name": "",
-    "Literal": "",
-    "Object_uri_organizations": [],
-    "Language": "",
-    "Predicate_uri": [],
-    "Subject_uri": ""
-  },
   "61": {
     "id": 61,
     "order": "57.00000000000000000000",
@@ -588,5 +578,20 @@
       }
     ],
     "Subject_uri": "https://d-nb.info/gnd/121076261"
+  },
+  "62": {
+    "id": 62,
+    "order": "58.00000000000000000000",
+    "Name": "Mendelssohn, Anna",
+    "Literal": "Mendelssohn, Anna",
+    "Object_uri_organizations": [],
+    "Language": "und",
+    "Predicate_uri": [
+      {
+        "id": 114,
+        "value": "hasTitle"
+      }
+    ],
+    "Subject_uri": "https://id.acdh.oeaw.ac.at/amendelssohn"
   }
 }

@@ -1,16 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0058.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0057.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0059.xml">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0058.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0057.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0059.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-10-01--1965-08-15</title>
             <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
-            <editor>
-               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
-               <name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
-               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
-            </editor>
+            <editor><name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></editor>
             <funder>
                <name>Austrian Science Fund (FWF)</name>
                <address>
@@ -27,7 +22,7 @@
             <edition>
                <title>Autograph Letter Signed W. H. Auden to Stella Musulin 1961-10-01--1965-08-15</title>
                <interpGrp>
-                  <interp xml:id="ana_002" source="ph_002"><!-- link to nanopub -->
+                  <interp xml:id="ana_002" source="ph_002"><!-- link to nanopub -->    
                      <desc>
                         The date of creation has been delimited based on considerations related to material aspects, <rs type="person" ref="#amp_person_1">Auden</rs>'s salutatory practice, and letter contents. As suggested by the documents in our collection, Auden would use his off-white Kirchstetten stationery from at least September 1965 onward; the <ref target="acdh:amp-transcript__0001.xml">last extant message</ref> in the AMP collection that is written on the bluish grey letter paper, used in this document, dates from 12 May 1963. Furthermore, whereas, in <ref target="acdh:amp-transcript__0045.xml">his letter from 21 July 1960</ref>, Auden addresses <rs type="person" ref="#amp_person_2">Stella Musulin</rs> as "Dear Baroness Musulin", he would call her by her first name from at least August 1961 onward. The specific range provided for the date of creation results from investigation into the date of writing as indicated in <ref target="acdh:amp-transcript__0058.xml">Auden's message</ref> ("Sonntag") in relation to the date of a proposed meeting mentioned in that same message: 1 October 1961 is the date of the Sunday that precedes the first "Thursday (19th)" during Auden's residence at Kirchstetten after July 1960; 15 August 1965 is the date of the Sunday that precedes the last "Thursday (19th)" during Auden's stay in his Austrian home before September 1965.
                         <listBibl>
@@ -52,18 +47,8 @@
                   </interp>
                </interpGrp>
             </edition>
-            <respStmt>
-               <resp>Transcription and commentary</resp>
-               <name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
-               <name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
-               <name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
-            </respStmt>
-            <respStmt>
-               <resp>TEI Schema, ODD/RNG</resp>
-               <name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name>
-               <name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name>
-            </respStmt>
-         </editionStmt>
+            <respStmt><resp>Transcription and commentary</resp><name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></respStmt>
+         <respStmt><resp>TEI Schema, ODD/RNG</resp><name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name><name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name></respStmt></editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
@@ -79,8 +64,7 @@ for any purpose, even commercially.</p>
                </licence>
                <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
             </availability>
-            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C33F-0</idno>
-         </publicationStmt>
+         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C33F-0</idno></publicationStmt>
          <seriesStmt>
             <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
          </seriesStmt>
@@ -154,9 +138,9 @@ for any purpose, even commercially.</p>
    <text type="letter" hand="#handwritten">
       <body>
          <div type="transcription" xml:id="transcription_amp_0058" xml:lang="en">
-            <div type="letter">
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0107/" type="sheet" ed="1r"/>
-               <div>
+            <div type="letter"> 
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0107/" type="sheet" ed="1r"/>
+               <div> 
                   <ab xml:lang="de">
                      K<unclear>ö</unclear>nnen Sie Mittwoch<lb/>
                      <unclear>a</unclear>ns<unclear>t</unclear>att Donnerstag zum Abend<unclear>e</unclear>ssen kommen<lb/>
@@ -173,7 +157,7 @@ for any purpose, even commercially.</p>
                               <address>
                                  <rs type="place" ref="#amp_place_id_2">KIRCHSTETTEN (<foreign xml:lang="de">WESTBAHN</foreign>)<lb/>
                                  HINTERHOLZ 6<lb/>
-                                    <foreign xml:lang="de">N.-Ö.</foreign>, AUSTRIA</rs>
+                                 <foreign xml:lang="de">N.-Ö.</foreign>, AUSTRIA</rs>
                               </address>
                            </seg>
                         </placeName>
@@ -184,20 +168,16 @@ for any purpose, even commercially.</p>
                      <salute>Dear <rs type="person" ref="#amp_person_2">Stella</rs>:</salute>
                   </opener>
                   <p>
-                     Good. <rs type="event" ref="#amp_event_id_64">Will be at <rs type="place" ref="#amp_place_id_315" ana="#ana_003">your place</rs>
-                        <lb/>
-                     on Thu<unclear>r</unclear>sday (19th) at 6.p.m<unclear>.</unclear>
-                     </rs>
+                     Good. <rs type="event" ref="#amp_event_id_64">Will be at <rs type="place" ref="#amp_place_id_315" ana="#ana_003">your place</rs><lb/>
+                     on Thu<unclear>r</unclear>sday (19th) at 6.p.m<unclear>.</unclear></rs>
                   </p>
                   <closer>
-                     <signed>
-                        <rs type="person" ref="#amp_person_1">Wystan</rs>
-                     </signed>
+                     <signed><rs type="person" ref="#amp_person_1">Wystan</rs></signed>
                   </closer>
-               </div>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0108/" type="sheet" ed="1v"/>
-            </div>
+               </div>         
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0108/" type="sheet" ed="1v"/>
          </div>
+      </div>     
       </body>
    </text>
 </TEI>

@@ -78,6 +78,11 @@ jobs:
       - name: Adding attributes to TEI root node
         run: |
           ./shellscripts/add_attributes.sh
+      - name: Run ant to add xml-model schema
+        run: |
+          apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommend
+          ./shellscripts/dl_saxon.sh
+          ant
       - name: Creating ARCHE constants ttl file
         run: |
           python scripts/arche_constants.py
@@ -85,3 +90,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Downloaded/Updated Data
+      
