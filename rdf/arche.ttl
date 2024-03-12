@@ -26,7 +26,6 @@
 
 <https://www.wikidata.org/wiki/Q680662> a arche:Organisation ;
     arche:hasTitle "Austrian Press Agency"@en ;
-    arche:hasUrl "https://www.picturedesk.com/bild-disp/apa/de/prices.html" .
 
 <https://d-nb.info/gnd/115753761> a arche:Person ;
     arche:hasTitle "Musulin, Janko"@und .
@@ -119,7 +118,7 @@
 <https://d-nb.info/gnd/1141619857> a arche:Person ;
     arche:hasTitle "Kraus, Wolfgang"@und .
 
-<https://id.acdh.oeaw.ac.at/amp-logo.png> a arche:Resource ;
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-logo.png> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasCreator <https://id.acdh.oeaw.ac.at/slehecka> ;
