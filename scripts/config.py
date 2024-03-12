@@ -350,6 +350,7 @@ USER_CONFIG = {
             "hasAccessRestriction": "https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public",
             "hasCategory": "https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei",
             "isPartOf": "https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition",
+            "hasLicense": "https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0",
         },
         "vocabs_lookup": {
             "hasTitle": {
@@ -520,7 +521,8 @@ USER_CONFIG = {
             "hasAccessRestriction": "https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public",
             "hasCategory": "https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei",
             "isPartOf": "https://id.acdh.oeaw.ac.at/auden-musulin-papers/indexes",
-            "hasPid": "create"
+            "hasPid": "create",
+            "hasLicense": "https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0",
         },
         "vocabs_lookup": {
             "hasTitle": {
