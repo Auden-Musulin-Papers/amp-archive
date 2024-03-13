@@ -34,21 +34,6 @@
     ],
     "Subject_uri": "https://d-nb.info/gnd/1043833846"
   },
-  "22": {
-    "id": 22,
-    "order": "20.00000000000000000000",
-    "Name": "Burns, Edward M.",
-    "Literal": "Dr.",
-    "Object_uri_organizations": [],
-    "Language": "na",
-    "Predicate_uri": [
-      {
-        "id": 96,
-        "value": "hasPersonalTitle"
-      }
-    ],
-    "Subject_uri": "https://id.acdh.oeaw.ac.at/eburns"
-  },
   "23": {
     "id": 23,
     "order": "21.00000000000000000000",
@@ -234,36 +219,6 @@
     ],
     "Subject_uri": "https://orcid.org/0000-0001-6909-7099"
   },
-  "35": {
-    "id": 35,
-    "order": "33.00000000000000000000",
-    "Name": "Burns, Edward M.",
-    "Literal": "Burns, Edward M.",
-    "Object_uri_organizations": [],
-    "Language": "und",
-    "Predicate_uri": [
-      {
-        "id": 114,
-        "value": "hasTitle"
-      }
-    ],
-    "Subject_uri": "https://id.acdh.oeaw.ac.at/eburns"
-  },
-  "36": {
-    "id": 36,
-    "order": "34.00000000000000000000",
-    "Name": "Duncan, Bruce",
-    "Literal": "Duncan, Bruce",
-    "Object_uri_organizations": [],
-    "Language": "und",
-    "Predicate_uri": [
-      {
-        "id": 114,
-        "value": "hasTitle"
-      }
-    ],
-    "Subject_uri": "https://www.wikidata.org/entity/Q39073705"
-  },
   "37": {
     "id": 37,
     "order": "35.00000000000000000000",
@@ -323,21 +278,6 @@
       }
     ],
     "Subject_uri": "https://id.acdh.oeaw.ac.at/kkubaczek"
-  },
-  "41": {
-    "id": 41,
-    "order": "39.00000000000000000000",
-    "Name": "Mayer, Elizabeth",
-    "Literal": "Mayer, Elizabeth",
-    "Object_uri_organizations": [],
-    "Language": "und",
-    "Predicate_uri": [
-      {
-        "id": 114,
-        "value": "hasTitle"
-      }
-    ],
-    "Subject_uri": "https://d-nb.info/gnd/117542784"
   },
   "42": {
     "id": 42,
@@ -593,5 +533,20 @@
       }
     ],
     "Subject_uri": "https://id.acdh.oeaw.ac.at/amendelssohn"
+  },
+  "63": {
+    "id": 63,
+    "order": "59.00000000000000000000",
+    "Name": "Mayer, Elizabeth",
+    "Literal": "Mayer, Elizabeth",
+    "Object_uri_organizations": [],
+    "Language": "und",
+    "Predicate_uri": [
+      {
+        "id": 114,
+        "value": "hasTitle"
+      }
+    ],
+    "Subject_uri": "https://d-nb.info/gnd/117542784"
   }
 }
