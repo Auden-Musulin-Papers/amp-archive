@@ -1,124 +1,7 @@
 @prefix arche: <https://vocabs.acdh.oeaw.ac.at/schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-
-<https://d-nb.info/gnd/116469986> a arche:Person ;
-    arche:hasTitle "Breicha, Otto"@und .
-
-<https://d-nb.info/gnd/119022354> a arche:Person ;
-    arche:hasTitle "Busta, Christine"@und .
-
-<https://id.acdh.oeaw.ac.at/rblaha> a arche:Person ;
-    arche:hasTitle "Blaha, Rudof"@und .
-
-<https://d-nb.info/gnd/14000761X> a arche:Person ;
-    arche:hasTitle "Mendelson, Edward"@und .
-
-<https://id.acdh.oeaw.ac.at/emusulin> a arche:Person ;
-    arche:hasTitle "Musulin, Elsa"@und .
-
-<https://id.acdh.oeaw.ac.at/kkubaczek> a arche:Person ;
-    arche:hasTitle "Kubaczek, Karl"@und .
-
-<https://id.acdh.oeaw.ac.at/wrohringer> a arche:Person ;
-    arche:hasPersonalTitle "Dr." ;
-    arche:hasTitle "Rohringer, Wolfgang"@und .
-
-<https://www.wikidata.org/wiki/Q680662> a arche:Organisation ;
-    arche:hasTitle "Austrian Press Agency"@en ;
-
-<https://d-nb.info/gnd/115753761> a arche:Person ;
-    arche:hasTitle "Musulin, Janko"@und .
-
-<https://d-nb.info/gnd/2020893-5> a arche:Organisation ;
-    arche:hasTitle "Austrian National Library"@en .
-
-<https://d-nb.info/gnd/121076261> a arche:Person ;
-    arche:hasTitle "Angerer, Thomas"@und .
-
-<https://d-nb.info/gnd/118751980> a arche:Person ;
-    arche:hasTitle "Spiel, Hilde"@und .
-
-<https://d-nb.info/gnd/1173017283> a arche:Person ;
-    arche:hasTitle "O'Sullivan, Michael"@und .
-
-<https://d-nb.info/gnd/2175892-X> a arche:Organisation ;
-    arche:hasTitle "Österreichische Gesellschaft für Literatur"@de .
-
-<https://id.acdh.oeaw.ac.at/amendelssohn> a arche:Person ;
-    arche:hasTitle "Mendelssohn, Anna"@und .
-
-<https://d-nb.info/gnd/1001454-8> a arche:Organisation ;
-    arche:hasTitle "Austrian Academy of Sciences"@en .
-
-<https://d-nb.info/gnd/1123037736> a arche:Organisation ;
-    arche:hasTitle "Austrian Centre for Digital Humanities and Cultural Heritage"@en .
-
-<https://d-nb.info/gnd/127246711> a arche:Person ;
-    arche:hasTitle "Musulin, Stella"@und .
-
-<https://d-nb.info/gnd/118650963> a arche:Person ;
-    arche:hasTitle "Auden, W. H."@und .
-
-<https://id.acdh.oeaw.ac.at/org-whaudenestate> a arche:Organisation ;
-    arche:hasTitle "The Estate of W. H. Auden"@en .
-
-<https://d-nb.info/gnd/2054142-9> a arche:Organisation ;
-    arche:hasTitle "Austrian Science Fund"@en .
-
-<https://d-nb.info/gnd/1108283586> a arche:Organisation ;
-    arche:hasTitle "Landessammlungen Niederösterreich"@de .
-
-<https://d-nb.info/gnd/137925816> a arche:Person ;
-    arche:hasTitle "Musulin, Marko"@und .
-
-<https://d-nb.info/gnd/1043833846> a arche:Person ;
-    arche:hasPersonalTitle "Mag. Dr." ;
-    arche:hasTitle "Andorfer, Peter"@und ;
-    arche:isMemberOf <https://d-nb.info/gnd/1123037736> .
-
-<https://orcid.org/0000-0002-0914-9245> a arche:Person ;
-    arche:hasPersonalTitle "BA MMA" ;
-    arche:hasTitle "Grigoriou, Dimitra"@und ;
-    arche:isMemberOf <https://d-nb.info/gnd/1123037736> .
-
-<https://orcid.org/0000-0002-3997-5193> a arche:Person ;
-    arche:hasPersonalTitle "Mag." ;
-    arche:hasTitle "Frühwirth, Timo"@und ;
-    arche:isMemberOf <https://d-nb.info/gnd/1123037736> .
-
-<https://orcid.org/0000-0002-0636-4476> a arche:Person ;
-    arche:hasPersonalTitle "BA MA" ;
-    arche:hasTitle "Elsner, Daniel"@und ;
-    arche:isMemberOf <https://d-nb.info/gnd/1123037736> .
-
-<https://d-nb.info/gnd/1024881253> a arche:Person ;
-    arche:hasPersonalTitle "Mag. Dr." ;
-    arche:hasTitle "Mayer, Sandra"@und ;
-    arche:isMemberOf <https://d-nb.info/gnd/1123037736> .
-
-<https://id.acdh.oeaw.ac.at/slehecka> a arche:Person ;
-    arche:hasTitle "Lehecka, Sandra"@und .
-
-<https://orcid.org/0000-0001-6909-7099> a arche:Person ;
-    arche:hasTitle "Brenner, Simon"@und .
-
-<https://sws.geonames.org/12503995/> a arche:Place ;
-    arche:hasTitle "Hinterholz 6"@de .
-
-<https://sws.geonames.org/12504033/> a arche:Place ;
-    arche:hasTitle "Neulinggasse 26"@de .
-
-<https://sws.geonames.org/2761369/> a arche:Place ;
-    arche:hasTitle "Vienna"@en .
-
-<https://sws.geonames.org/2774362/> a arche:Place ;
-    arche:hasTitle "Kirchstetten"@de .
-
-<https://d-nb.info/gnd/1141619857> a arche:Person ;
-    arche:hasTitle "Kraus, Wolfgang"@und .
-
-<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-logo.png> a arche:Resource ;
+<https://id.acdh.oeaw.ac.at/amp-logo.png> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasCreator <https://id.acdh.oeaw.ac.at/slehecka> ;
@@ -334,7 +217,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0001)"@en ;
+    arche:hasTitle "0001 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0001.xml> .
 
@@ -367,7 +250,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0001)"@en ;
+    arche:hasTitle "0001 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0001.xml> .
 
@@ -400,7 +283,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Letter 2r (0001)"@en ;
+    arche:hasTitle "0001 Letter 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0001.xml> .
 
@@ -433,7 +316,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Letter 2v (0001)"@en ;
+    arche:hasTitle "0001 Letter 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0001.xml> .
 
@@ -467,7 +350,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0002)"@en ;
+    arche:hasTitle "0002 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0002.xml> .
 
@@ -501,7 +384,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0002)"@en ;
+    arche:hasTitle "0002 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0002.xml> .
 
@@ -535,7 +418,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0002)"@en ;
+    arche:hasTitle "0002 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0002.xml> .
 
@@ -569,7 +452,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0002)"@en ;
+    arche:hasTitle "0002 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0002.xml> .
 
@@ -604,7 +487,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0039)"@en ;
+    arche:hasTitle "0039 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0039.xml> .
 
@@ -639,7 +522,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0039)"@en ;
+    arche:hasTitle "0039 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0039.xml> .
 
@@ -672,7 +555,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0038)"@en ;
+    arche:hasTitle "0038 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0038.xml> .
 
@@ -705,7 +588,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0038)"@en ;
+    arche:hasTitle "0038 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0038.xml> .
 
@@ -740,7 +623,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0039)"@en ;
+    arche:hasTitle "0039 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0039.xml> .
 
@@ -775,7 +658,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0039)"@en ;
+    arche:hasTitle "0039 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0039.xml> .
 
@@ -808,7 +691,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0003)"@en ;
+    arche:hasTitle "0003 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0003.xml> .
 
@@ -841,7 +724,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0003)"@en ;
+    arche:hasTitle "0003 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0003.xml> .
 
@@ -874,7 +757,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0003)"@en ;
+    arche:hasTitle "0003 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0003.xml> .
 
@@ -907,7 +790,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0003)"@en ;
+    arche:hasTitle "0003 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0003.xml> .
 
@@ -940,7 +823,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0004)"@en ;
+    arche:hasTitle "0004 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0004.xml> .
 
@@ -973,7 +856,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0004)"@en ;
+    arche:hasTitle "0004 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0004.xml> .
 
@@ -1006,7 +889,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0004)"@en ;
+    arche:hasTitle "0004 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0004.xml> .
 
@@ -1039,7 +922,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0004)"@en ;
+    arche:hasTitle "0004 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0004.xml> .
 
@@ -1072,7 +955,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0005)"@en ;
+    arche:hasTitle "0005 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0005.xml> .
 
@@ -1105,7 +988,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0005)"@en ;
+    arche:hasTitle "0005 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0005.xml> .
 
@@ -1138,7 +1021,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0005)"@en ;
+    arche:hasTitle "0005 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0005.xml> .
 
@@ -1171,7 +1054,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0005)"@en ;
+    arche:hasTitle "0005 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0005.xml> .
 
@@ -1204,7 +1087,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0006)"@en ;
+    arche:hasTitle "0006 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0006.xml> .
 
@@ -1237,7 +1120,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0006)"@en ;
+    arche:hasTitle "0006 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0006.xml> .
 
@@ -1270,7 +1153,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0006)"@en ;
+    arche:hasTitle "0006 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0006.xml> .
 
@@ -1303,7 +1186,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0006)"@en ;
+    arche:hasTitle "0006 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0006.xml> .
 
@@ -1336,7 +1219,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0059)"@en ;
+    arche:hasTitle "0059 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0059.xml> .
 
@@ -1369,7 +1252,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0059)"@en ;
+    arche:hasTitle "0059 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0059.xml> .
 
@@ -1402,7 +1285,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0042)"@en ;
+    arche:hasTitle "0042 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0042.xml> .
 
@@ -1435,7 +1318,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0042)"@en ;
+    arche:hasTitle "0042 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0042.xml> .
 
@@ -1468,7 +1351,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0007)"@en ;
+    arche:hasTitle "0007 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0007.xml> .
 
@@ -1501,7 +1384,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0007)"@en ;
+    arche:hasTitle "0007 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0007.xml> .
 
@@ -1534,7 +1417,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0007)"@en ;
+    arche:hasTitle "0007 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0007.xml> .
 
@@ -1567,7 +1450,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0007)"@en ;
+    arche:hasTitle "0007 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0007.xml> .
 
@@ -1600,7 +1483,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0008)"@en ;
+    arche:hasTitle "0008 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0008.xml> .
 
@@ -1633,7 +1516,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0008)"@en ;
+    arche:hasTitle "0008 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0008.xml> .
 
@@ -1666,7 +1549,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0008)"@en ;
+    arche:hasTitle "0008 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0008.xml> .
 
@@ -1699,7 +1582,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0008)"@en ;
+    arche:hasTitle "0008 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0008.xml> .
 
@@ -1732,7 +1615,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0009)"@en ;
+    arche:hasTitle "0009 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0009.xml> .
 
@@ -1765,7 +1648,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0009)"@en ;
+    arche:hasTitle "0009 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0009.xml> .
 
@@ -1798,7 +1681,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0009)"@en ;
+    arche:hasTitle "0009 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0009.xml> .
 
@@ -1831,7 +1714,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0009)"@en ;
+    arche:hasTitle "0009 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0009.xml> .
 
@@ -1864,7 +1747,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0010)"@en ;
+    arche:hasTitle "0010 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0010.xml> .
 
@@ -1897,7 +1780,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0010)"@en ;
+    arche:hasTitle "0010 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0010.xml> .
 
@@ -1930,7 +1813,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0010)"@en ;
+    arche:hasTitle "0010 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0010.xml> .
 
@@ -1963,7 +1846,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0010)"@en ;
+    arche:hasTitle "0010 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0010.xml> .
 
@@ -1996,7 +1879,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0011)"@en ;
+    arche:hasTitle "0011 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0011.xml> .
 
@@ -2029,7 +1912,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0011)"@en ;
+    arche:hasTitle "0011 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0011.xml> .
 
@@ -2062,7 +1945,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0011)"@en ;
+    arche:hasTitle "0011 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0011.xml> .
 
@@ -2095,7 +1978,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0011)"@en ;
+    arche:hasTitle "0011 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0011.xml> .
 
@@ -2128,7 +2011,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0012)"@en ;
+    arche:hasTitle "0012 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0012.xml> .
 
@@ -2161,7 +2044,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0012)"@en ;
+    arche:hasTitle "0012 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0012.xml> .
 
@@ -2194,7 +2077,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0012)"@en ;
+    arche:hasTitle "0012 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0012.xml> .
 
@@ -2227,7 +2110,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0012)"@en ;
+    arche:hasTitle "0012 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0012.xml> .
 
@@ -2260,7 +2143,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0013)"@en ;
+    arche:hasTitle "0013 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0013.xml> .
 
@@ -2293,7 +2176,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0013)"@en ;
+    arche:hasTitle "0013 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0013.xml> .
 
@@ -2326,7 +2209,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0013)"@en ;
+    arche:hasTitle "0013 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0013.xml> .
 
@@ -2359,7 +2242,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0013)"@en ;
+    arche:hasTitle "0013 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0013.xml> .
 
@@ -2392,7 +2275,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0014)"@en ;
+    arche:hasTitle "0014 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0014.xml> .
 
@@ -2425,7 +2308,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0014)"@en ;
+    arche:hasTitle "0014 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0014.xml> .
 
@@ -2458,7 +2341,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0014)"@en ;
+    arche:hasTitle "0014 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0014.xml> .
 
@@ -2491,7 +2374,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0014)"@en ;
+    arche:hasTitle "0014 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0014.xml> .
 
@@ -2524,7 +2407,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0040)"@en ;
+    arche:hasTitle "0040 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0040.xml> .
 
@@ -2557,7 +2440,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0040)"@en ;
+    arche:hasTitle "0040 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0040.xml> .
 
@@ -2590,7 +2473,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0040)"@en ;
+    arche:hasTitle "0040 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0040.xml> .
 
@@ -2623,7 +2506,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0040)"@en ;
+    arche:hasTitle "0040 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0040.xml> .
 
@@ -2656,7 +2539,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0015)"@en ;
+    arche:hasTitle "0015 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0015.xml> .
 
@@ -2689,7 +2572,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0015)"@en ;
+    arche:hasTitle "0015 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0015.xml> .
 
@@ -2722,7 +2605,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0015)"@en ;
+    arche:hasTitle "0015 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0015.xml> .
 
@@ -2755,7 +2638,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0015)"@en ;
+    arche:hasTitle "0015 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0015.xml> .
 
@@ -2788,7 +2671,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0041)"@en ;
+    arche:hasTitle "0041 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0041.xml> .
 
@@ -2821,7 +2704,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0041)"@en ;
+    arche:hasTitle "0041 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0041.xml> .
 
@@ -2854,7 +2737,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0041)"@en ;
+    arche:hasTitle "0041 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0041.xml> .
 
@@ -2887,7 +2770,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0041)"@en ;
+    arche:hasTitle "0041 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0041.xml> .
 
@@ -2920,7 +2803,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0016)"@en ;
+    arche:hasTitle "0016 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0016.xml> .
 
@@ -2953,7 +2836,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0016)"@en ;
+    arche:hasTitle "0016 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0016.xml> .
 
@@ -2986,7 +2869,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0016)"@en ;
+    arche:hasTitle "0016 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0016.xml> .
 
@@ -3019,7 +2902,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0016)"@en ;
+    arche:hasTitle "0016 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0016.xml> .
 
@@ -3052,7 +2935,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0017)"@en ;
+    arche:hasTitle "0017 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0017.xml> .
 
@@ -3085,7 +2968,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0017)"@en ;
+    arche:hasTitle "0017 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0017.xml> .
 
@@ -3118,7 +3001,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0017)"@en ;
+    arche:hasTitle "0017 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0017.xml> .
 
@@ -3151,7 +3034,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0017)"@en ;
+    arche:hasTitle "0017 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0017.xml> .
 
@@ -3184,7 +3067,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0018)"@en ;
+    arche:hasTitle "0018 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0018.xml> .
 
@@ -3217,7 +3100,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0018)"@en ;
+    arche:hasTitle "0018 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0018.xml> .
 
@@ -3250,7 +3133,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0018)"@en ;
+    arche:hasTitle "0018 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0018.xml> .
 
@@ -3283,7 +3166,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0018)"@en ;
+    arche:hasTitle "0018 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0018.xml> .
 
@@ -3316,7 +3199,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0019)"@en ;
+    arche:hasTitle "0019 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0019.xml> .
 
@@ -3349,7 +3232,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0019)"@en ;
+    arche:hasTitle "0019 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0019.xml> .
 
@@ -3382,7 +3265,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0019)"@en ;
+    arche:hasTitle "0019 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0019.xml> .
 
@@ -3415,7 +3298,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0019)"@en ;
+    arche:hasTitle "0019 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0019.xml> .
 
@@ -3448,7 +3331,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0020)"@en ;
+    arche:hasTitle "0020 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0020.xml> .
 
@@ -3481,7 +3364,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0020)"@en ;
+    arche:hasTitle "0020 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0020.xml> .
 
@@ -3514,7 +3397,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0020)"@en ;
+    arche:hasTitle "0020 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0020.xml> .
 
@@ -3547,7 +3430,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0020)"@en ;
+    arche:hasTitle "0020 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0020.xml> .
 
@@ -3580,7 +3463,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 1r (0043)"@en ;
+    arche:hasTitle "0043 Sheet 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0043.xml> .
 
@@ -3613,7 +3496,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 1v (0043)"@en ;
+    arche:hasTitle "0043 Sheet 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0043.xml> .
 
@@ -3646,7 +3529,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 1r (0044)"@en ;
+    arche:hasTitle "0044 Sheet 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0044.xml> .
 
@@ -3679,7 +3562,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 1v (0044)"@en ;
+    arche:hasTitle "0044 Sheet 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0044.xml> .
 
@@ -3712,7 +3595,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0042)"@en ;
+    arche:hasTitle "0042 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0042.xml> .
 
@@ -3745,7 +3628,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0042)"@en ;
+    arche:hasTitle "0042 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0042.xml> .
 
@@ -3778,7 +3661,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0057)"@en ;
+    arche:hasTitle "0057 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0057.xml> .
 
@@ -3811,7 +3694,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0057)"@en ;
+    arche:hasTitle "0057 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0057.xml> .
 
@@ -3844,7 +3727,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 1r (0058)"@en ;
+    arche:hasTitle "0058 Sheet 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0058.xml> .
 
@@ -3877,7 +3760,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 1v (0058)"@en ;
+    arche:hasTitle "0058 Sheet 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0058.xml> .
 
@@ -3910,7 +3793,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0045)"@en ;
+    arche:hasTitle "0045 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0045.xml> .
 
@@ -3943,7 +3826,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0045)"@en ;
+    arche:hasTitle "0045 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0045.xml> .
 
@@ -3976,7 +3859,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0045)"@en ;
+    arche:hasTitle "0045 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0045.xml> .
 
@@ -4009,7 +3892,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0045)"@en ;
+    arche:hasTitle "0045 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0045.xml> .
 
@@ -4042,7 +3925,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0021)"@en ;
+    arche:hasTitle "0021 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0021.xml> .
 
@@ -4075,7 +3958,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0021)"@en ;
+    arche:hasTitle "0021 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0021.xml> .
 
@@ -4108,7 +3991,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0021)"@en ;
+    arche:hasTitle "0021 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0021.xml> .
 
@@ -4141,7 +4024,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0021)"@en ;
+    arche:hasTitle "0021 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0021.xml> .
 
@@ -4174,7 +4057,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0022)"@en ;
+    arche:hasTitle "0022 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0022.xml> .
 
@@ -4207,7 +4090,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0022)"@en ;
+    arche:hasTitle "0022 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0022.xml> .
 
@@ -4240,7 +4123,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0022)"@en ;
+    arche:hasTitle "0022 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0022.xml> .
 
@@ -4273,7 +4156,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0022)"@en ;
+    arche:hasTitle "0022 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0022.xml> .
 
@@ -4306,7 +4189,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0023)"@en ;
+    arche:hasTitle "0023 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0023.xml> .
 
@@ -4339,7 +4222,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0023)"@en ;
+    arche:hasTitle "0023 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0023.xml> .
 
@@ -4372,7 +4255,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0023)"@en ;
+    arche:hasTitle "0023 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0023.xml> .
 
@@ -4405,7 +4288,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0023)"@en ;
+    arche:hasTitle "0023 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0023.xml> .
 
@@ -4438,7 +4321,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0024)"@en ;
+    arche:hasTitle "0024 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0024.xml> .
 
@@ -4471,7 +4354,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0024)"@en ;
+    arche:hasTitle "0024 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0024.xml> .
 
@@ -4504,7 +4387,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0024)"@en ;
+    arche:hasTitle "0024 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0024.xml> .
 
@@ -4537,7 +4420,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0024)"@en ;
+    arche:hasTitle "0024 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0024.xml> .
 
@@ -4570,7 +4453,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0025)"@en ;
+    arche:hasTitle "0025 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0025.xml> .
 
@@ -4603,7 +4486,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0025)"@en ;
+    arche:hasTitle "0025 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0025.xml> .
 
@@ -4636,7 +4519,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0025)"@en ;
+    arche:hasTitle "0025 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0025.xml> .
 
@@ -4669,7 +4552,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0025)"@en ;
+    arche:hasTitle "0025 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0025.xml> .
 
@@ -4702,7 +4585,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0038)"@en ;
+    arche:hasTitle "0038 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0038.xml> .
 
@@ -4735,7 +4618,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0038)"@en ;
+    arche:hasTitle "0038 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0038.xml> .
 
@@ -4768,7 +4651,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 3r (0038)"@en ;
+    arche:hasTitle "0038 Sheet 3 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0038.xml> .
 
@@ -4801,7 +4684,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 3v (0038)"@en ;
+    arche:hasTitle "0038 Sheet 3 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0038.xml> .
 
@@ -4834,7 +4717,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 4r (0038)"@en ;
+    arche:hasTitle "0038 Sheet 4 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0038.xml> .
 
@@ -4867,7 +4750,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 4v (0038)"@en ;
+    arche:hasTitle "0038 Sheet 4 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0038.xml> .
 
@@ -4902,7 +4785,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 3r (0039)"@en ;
+    arche:hasTitle "0039 Sheet 3 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0039.xml> .
 
@@ -4937,7 +4820,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 3v (0039)"@en ;
+    arche:hasTitle "0039 Sheet 3 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0039.xml> .
 
@@ -4971,7 +4854,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 1 (0046)"@en ;
+    arche:hasTitle "0046 Sheet 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0046.xml> .
 
@@ -5005,7 +4888,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 2 (0046)"@en ;
+    arche:hasTitle "0046 Sheet 2"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0046.xml> .
 
@@ -5039,7 +4922,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 1 (0047)"@en ;
+    arche:hasTitle "0047 Sheet 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0047.xml> .
 
@@ -5073,7 +4956,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 2 (0047)"@en ;
+    arche:hasTitle "0047 Sheet 2"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0047.xml> .
 
@@ -5106,7 +4989,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0043)"@en ;
+    arche:hasTitle "0043 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0043.xml> .
 
@@ -5139,7 +5022,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0043)"@en ;
+    arche:hasTitle "0043 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0043.xml> .
 
@@ -5172,7 +5055,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 3r (0043)"@en ;
+    arche:hasTitle "0043 Sheet 3 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0043.xml> .
 
@@ -5205,7 +5088,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 3v (0043)"@en ;
+    arche:hasTitle "0043 Sheet 3 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0043.xml> .
 
@@ -5238,7 +5121,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 4r (0043)"@en ;
+    arche:hasTitle "0043 Sheet 4 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0043.xml> .
 
@@ -5271,7 +5154,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 4v (0043)"@en ;
+    arche:hasTitle "0043 Sheet 4 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0043.xml> .
 
@@ -5304,7 +5187,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 5r (0043)"@en ;
+    arche:hasTitle "0043 Sheet 5 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0043.xml> .
 
@@ -5337,7 +5220,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 5v (0043)"@en ;
+    arche:hasTitle "0043 Sheet 5 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0043.xml> .
 
@@ -5370,7 +5253,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 6r (0043)"@en ;
+    arche:hasTitle "0043 Sheet 6 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0043.xml> .
 
@@ -5403,7 +5286,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 6v (0043)"@en ;
+    arche:hasTitle "0043 Sheet 6 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0043.xml> .
 
@@ -5436,7 +5319,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 1 (0051)"@en ;
+    arche:hasTitle "0051 Sheet 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0051.xml> .
 
@@ -5469,7 +5352,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 2 (0051)"@en ;
+    arche:hasTitle "0051 Sheet 2"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0051.xml> .
 
@@ -5502,7 +5385,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 3 (0051)"@en ;
+    arche:hasTitle "0051 Sheet 3"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0051.xml> .
 
@@ -5535,7 +5418,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 4 (0051)"@en ;
+    arche:hasTitle "0051 Sheet 4"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0051.xml> .
 
@@ -5568,7 +5451,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 5 (0051)"@en ;
+    arche:hasTitle "0051 Sheet 5"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0051.xml> .
 
@@ -5601,7 +5484,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 6 (0051)"@en ;
+    arche:hasTitle "0051 Sheet 6"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0051.xml> .
 
@@ -5634,7 +5517,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/amendelssohn> ;
-    arche:hasTitle "Sheet 1 (0052)"@en ;
+    arche:hasTitle "0052 Sheet 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0052.xml> .
 
@@ -5667,7 +5550,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/amendelssohn> ;
-    arche:hasTitle "Sheet 2 (0052)"@en ;
+    arche:hasTitle "0052 Sheet 2"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0052.xml> .
 
@@ -5700,7 +5583,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/amendelssohn> ;
-    arche:hasTitle "Sheet 3 (0052)"@en ;
+    arche:hasTitle "0052 Sheet 3"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0052.xml> .
 
@@ -5733,7 +5616,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/amendelssohn> ;
-    arche:hasTitle "Sheet 4 (0052)"@en ;
+    arche:hasTitle "0052 Sheet 4"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0052.xml> .
 
@@ -5766,7 +5649,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/amendelssohn> ;
-    arche:hasTitle "Sheet 5 (0052)"@en ;
+    arche:hasTitle "0052 Sheet 5"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0052.xml> .
 
@@ -5799,7 +5682,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/amendelssohn> ;
-    arche:hasTitle "Sheet 6 (0052)"@en ;
+    arche:hasTitle "0052 Sheet 6"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0052.xml> .
 
@@ -5832,7 +5715,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/amendelssohn> ;
-    arche:hasTitle "Sheet 7 (0052)"@en ;
+    arche:hasTitle "0052 Sheet 7"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0052.xml> .
 
@@ -5865,7 +5748,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/amendelssohn> ;
-    arche:hasTitle "Sheet 8 (0052)"@en ;
+    arche:hasTitle "0052 Sheet 8"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0052.xml> .
 
@@ -5898,7 +5781,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 1 (0029)"@en ;
+    arche:hasTitle "0029 Sheet 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0029.xml> .
 
@@ -5931,7 +5814,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 2 (0029)"@en ;
+    arche:hasTitle "0029 Sheet 2"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0029.xml> .
 
@@ -5964,7 +5847,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 3 (0029)"@en ;
+    arche:hasTitle "0029 Sheet 3"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0029.xml> .
 
@@ -5997,7 +5880,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 4 (0029)"@en ;
+    arche:hasTitle "0029 Sheet 4"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0029.xml> .
 
@@ -6030,7 +5913,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 1r (0053)"@en ;
+    arche:hasTitle "0053 Sheet 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0053.xml> .
 
@@ -6063,7 +5946,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 1v (0053)"@en ;
+    arche:hasTitle "0053 Sheet 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0053.xml> .
 
@@ -6096,7 +5979,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 1 (0030)"@en ;
+    arche:hasTitle "0030 Sheet 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0030.xml> .
 
@@ -6129,7 +6012,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 2 (0030)"@en ;
+    arche:hasTitle "0030 Sheet 2"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0030.xml> .
 
@@ -6162,7 +6045,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 1 (0031)"@en ;
+    arche:hasTitle "0031 Sheet 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0031.xml> .
 
@@ -6195,7 +6078,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 2 (0031)"@en ;
+    arche:hasTitle "0031 Sheet 2"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0031.xml> .
 
@@ -6228,7 +6111,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 3 (0031)"@en ;
+    arche:hasTitle "0031 Sheet 3"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0031.xml> .
 
@@ -6261,7 +6144,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 4 (0031)"@en ;
+    arche:hasTitle "0031 Sheet 4"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0031.xml> .
 
@@ -6294,7 +6177,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/14000761X> ;
-    arche:hasTitle "Sheet 1 (0032)"@en ;
+    arche:hasTitle "0032 Sheet 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0032.xml> .
 
@@ -6327,7 +6210,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/14000761X> ;
-    arche:hasTitle "Sheet 2 (0032)"@en ;
+    arche:hasTitle "0032 Sheet 2"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0032.xml> .
 
@@ -6360,7 +6243,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/14000761X> ;
-    arche:hasTitle "Sheet 1 (0033)"@en ;
+    arche:hasTitle "0033 Sheet 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0033.xml> .
 
@@ -6393,7 +6276,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/14000761X> ;
-    arche:hasTitle "Sheet 2 (0033)"@en ;
+    arche:hasTitle "0033 Sheet 2"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0033.xml> .
 
@@ -6426,7 +6309,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/1173017283> ;
-    arche:hasTitle "Sheet 1 (0034)"@en ;
+    arche:hasTitle "0034 Sheet 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0034.xml> .
 
@@ -6459,7 +6342,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/1173017283> ;
-    arche:hasTitle "Sheet 2 (0034)"@en ;
+    arche:hasTitle "0034 Sheet 2"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0034.xml> .
 
@@ -6492,7 +6375,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 1r (0035)"@en ;
+    arche:hasTitle "0035 Sheet 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0035.xml> .
 
@@ -6525,7 +6408,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 1v (0035)"@en ;
+    arche:hasTitle "0035 Sheet 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0035.xml> .
 
@@ -6556,7 +6439,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Photograph 1 (0055)"@en ;
+    arche:hasTitle "0055 Photograph 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0055.xml> .
 
@@ -6587,7 +6470,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Photograph 2 (0055)"@en ;
+    arche:hasTitle "0055 Photograph 2"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0055.xml> .
 
@@ -6618,7 +6501,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Photograph 1 (0048)"@en ;
+    arche:hasTitle "0048 Photograph 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0048.xml> .
 
@@ -6649,7 +6532,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Photograph 2 (0048)"@en ;
+    arche:hasTitle "0048 Photograph 2"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0048.xml> .
 
@@ -6680,7 +6563,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Photograph 2 (0054)"@en ;
+    arche:hasTitle "0054 Photograph 2"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0054.xml> .
 
@@ -6711,7 +6594,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Photograph 1 (0054)"@en ;
+    arche:hasTitle "0054 Photograph 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0054.xml> .
 
@@ -6744,7 +6627,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/2175892-X> ;
-    arche:hasTitle "Card 1 (0049)"@en ;
+    arche:hasTitle "0049 Card 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0049.xml> .
 
@@ -6777,7 +6660,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/2175892-X> ;
-    arche:hasTitle "Card 2 (0049)"@en ;
+    arche:hasTitle "0049 Card 2"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0049.xml> .
 
@@ -6808,7 +6691,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://www.wikidata.org/wiki/Q680662> ;
-    arche:hasTitle "Photograph 1 (0050)"@en ;
+    arche:hasTitle "0050 Photograph 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0050.xml> .
 
@@ -6839,7 +6722,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://www.wikidata.org/wiki/Q680662> ;
-    arche:hasTitle "Photograph 2 (0050)"@en ;
+    arche:hasTitle "0050 Photograph 2"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0050.xml> .
 
@@ -6873,7 +6756,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 1 (0026)"@en ;
+    arche:hasTitle "0026 Sheet 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0026.xml> .
 
@@ -6907,7 +6790,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2 (0026)"@en ;
+    arche:hasTitle "0026 Sheet 2"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0026.xml> .
 
@@ -6940,7 +6823,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/121076261> ;
-    arche:hasTitle "Sheet 1r (0061)"@en ;
+    arche:hasTitle "0061 Sheet 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0061.xml> .
 
@@ -6973,7 +6856,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/121076261> ;
-    arche:hasTitle "Sheet 1v (0061)"@en ;
+    arche:hasTitle "0061 Sheet 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0061.xml> .
 
@@ -7006,7 +6889,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/121076261> ;
-    arche:hasTitle "Sheet 1 (0060)"@en ;
+    arche:hasTitle "0060 Sheet 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0060.xml> .
 
@@ -7039,7 +6922,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/121076261> ;
-    arche:hasTitle "Sheet 2 (0060)"@en ;
+    arche:hasTitle "0060 Sheet 2"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0060.xml> .
 
@@ -7072,7 +6955,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 1 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7105,7 +6988,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 2 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 2"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7138,7 +7021,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 3 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 3"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7171,7 +7054,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 4 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 4"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7204,7 +7087,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 5 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 5"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7237,7 +7120,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 6 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 6"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7270,7 +7153,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 7 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 7"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7303,7 +7186,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 8 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 8"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7336,7 +7219,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 9 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 9"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7369,7 +7252,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 10 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 10"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7402,7 +7285,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 11 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 11"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7435,7 +7318,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 12 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 12"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7468,7 +7351,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 13 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 13"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7501,7 +7384,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 14 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 14"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7534,7 +7417,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 15 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 15"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7567,7 +7450,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 16 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 16"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7600,7 +7483,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 17 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 17"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7633,7 +7516,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 18 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 18"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7666,7 +7549,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 19 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 19"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7699,7 +7582,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 20 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 20"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7732,7 +7615,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 21 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 21"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7765,7 +7648,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 22 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 22"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7798,7 +7681,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 23 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 23"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7831,7 +7714,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 24 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 24"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7864,7 +7747,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 25 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 25"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7897,7 +7780,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 26 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 26"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7930,7 +7813,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 27 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 27"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7963,7 +7846,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 28 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 28"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -7996,7 +7879,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 29 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 29"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8029,7 +7912,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 30 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 30"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8062,7 +7945,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 31 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 31"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8095,7 +7978,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 32 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 32"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8128,7 +8011,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 33 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 33"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8161,7 +8044,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 34 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 34"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8194,7 +8077,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 35 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 35"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8227,7 +8110,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 36 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 36"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8260,7 +8143,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 37 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 37"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8293,7 +8176,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 38 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 38"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8326,7 +8209,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 39 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 39"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8359,7 +8242,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 40 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 40"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8392,7 +8275,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 41 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 41"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8425,7 +8308,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 42 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 42"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8458,7 +8341,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 43 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 43"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8491,7 +8374,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 44 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 44"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8524,7 +8407,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 45 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 45"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8557,7 +8440,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 46 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 46"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8590,7 +8473,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 47 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 47"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8623,7 +8506,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 48 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 48"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8656,7 +8539,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 49 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 49"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8689,7 +8572,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 50 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 50"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8722,7 +8605,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 51 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 51"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8755,7 +8638,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 52 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 52"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8788,7 +8671,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 53 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 53"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8821,7 +8704,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 54 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 54"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8854,7 +8737,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 55 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 55"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8887,7 +8770,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 56 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 56"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8920,7 +8803,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 57 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 57"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8953,7 +8836,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 58 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 58"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -8986,7 +8869,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 59 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 59"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9019,7 +8902,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 60 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 60"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9052,7 +8935,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 61 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 61"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9085,7 +8968,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 62 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 62"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9118,7 +9001,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 63 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 63"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9151,7 +9034,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 64 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 64"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9184,7 +9067,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 65 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 65"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9217,7 +9100,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 66 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 66"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9250,7 +9133,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 67 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 67"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9283,7 +9166,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 68 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 68"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9316,7 +9199,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 69 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 69"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9349,7 +9232,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 70 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 70"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9382,7 +9265,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 71 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 71"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9415,7 +9298,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 72 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 72"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9448,7 +9331,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 73 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 73"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9481,7 +9364,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 74 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 74"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9514,7 +9397,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 75 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 75"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9547,7 +9430,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 76 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 76"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9580,7 +9463,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 77 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 77"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9613,7 +9496,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 78 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 78"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9646,7 +9529,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 79 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 79"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9679,7 +9562,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 80 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 80"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9712,7 +9595,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 81 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 81"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9745,7 +9628,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 82 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 82"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9778,7 +9661,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 83 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 83"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9811,7 +9694,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 84 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 84"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9844,7 +9727,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 85 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 85"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9877,7 +9760,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 86 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 86"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9910,7 +9793,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 87 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 87"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9943,7 +9826,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 88 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 88"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -9976,7 +9859,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 89 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 89"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -10009,7 +9892,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 90 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 90"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -10042,7 +9925,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 91 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 91"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -10075,7 +9958,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 92 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 92"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -10108,7 +9991,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 93 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 93"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -10141,7 +10024,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 94 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 94"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -10174,7 +10057,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 95 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 95"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -10207,7 +10090,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 96 (0062)"@en ;
+    arche:hasTitle "0062 Sheet 96"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> .
 
@@ -10238,7 +10121,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Photograph 1 (0064)"@en ;
+    arche:hasTitle "0064 Photograph 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0064.xml> .
 
@@ -10269,7 +10152,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Photograph 1 (0065)"@en ;
+    arche:hasTitle "0065 Photograph 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0065.xml> .
 
@@ -10300,7 +10183,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Photograph 1 (0066)"@en ;
+    arche:hasTitle "0066 Photograph 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0066.xml> .
 
@@ -10331,7 +10214,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Photograph 1 (0067)"@en ;
+    arche:hasTitle "0067 Photograph 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0067.xml> .
 
@@ -10362,7 +10245,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Photograph 1 (0068)"@en ;
+    arche:hasTitle "0068 Photograph 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0068.xml> .
 
@@ -10393,7 +10276,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Photograph 1 (0069)"@en ;
+    arche:hasTitle "0069 Photograph 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0069.xml> .
 
@@ -10424,7 +10307,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Photograph 1 (0072)"@en ;
+    arche:hasTitle "0072 Photograph 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0072.xml> .
 
@@ -10455,7 +10338,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Photograph 1 (0073)"@en ;
+    arche:hasTitle "0073 Photograph 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0073.xml> .
 
@@ -10486,7 +10369,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Photograph 1 (0074)"@en ;
+    arche:hasTitle "0074 Photograph 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0074.xml> .
 
@@ -10517,7 +10400,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Photograph 1 (0075)"@en ;
+    arche:hasTitle "0075 Photograph 1"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0075.xml> .
 
@@ -10552,7 +10435,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Cv_sheet 3r-cv (0039)"@en ;
+    arche:hasTitle "0039 Cv_sheet 3 [recto]-c [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0039.xml> .
 
@@ -10587,7 +10470,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Cv_sheet 3v-cv (0039)"@en ;
+    arche:hasTitle "0039 Cv_sheet 3 [verso]-c [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0039.xml> .
 
@@ -10620,7 +10503,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Cv_sheet 2r-cv (0040)"@en ;
+    arche:hasTitle "0040 Cv_sheet 2 [recto]-c [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0040.xml> .
 
@@ -10653,7 +10536,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Cv_sheet 2v-cv (0040)"@en ;
+    arche:hasTitle "0040 Cv_sheet 2 [verso]-c [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0040.xml> .
 
@@ -10687,7 +10570,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/kkubaczek>,
         <https://id.acdh.oeaw.ac.at/wrohringer> ;
-    arche:hasTitle "Sheet 1r (0063)"@en ;
+    arche:hasTitle "0063 Sheet 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0063.xml> .
 
@@ -10721,7 +10604,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/kkubaczek>,
         <https://id.acdh.oeaw.ac.at/wrohringer> ;
-    arche:hasTitle "Sheet 1v (0063)"@en ;
+    arche:hasTitle "0063 Sheet 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0063.xml> .
 
@@ -10754,7 +10637,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1r (0070)"@en ;
+    arche:hasTitle "0070 Envelope 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0070.xml> .
 
@@ -10787,7 +10670,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Envelope 1v (0070)"@en ;
+    arche:hasTitle "0070 Envelope 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0070.xml> .
 
@@ -10820,7 +10703,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0070)"@en ;
+    arche:hasTitle "0070 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0070.xml> .
 
@@ -10853,7 +10736,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0070)"@en ;
+    arche:hasTitle "0070 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0070.xml> .
 
@@ -10886,7 +10769,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 1r (0071)"@en ;
+    arche:hasTitle "0071 Sheet 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0071.xml> .
 
@@ -10919,7 +10802,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 1v (0071)"@en ;
+    arche:hasTitle "0071 Sheet 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0071.xml> .
 
@@ -10952,7 +10835,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2r (0059)"@en ;
+    arche:hasTitle "0059 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0059.xml> .
 
@@ -10985,7 +10868,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://id.acdh.oeaw.ac.at/org-whaudenestate> ;
-    arche:hasTitle "Sheet 2v (0059)"@en ;
+    arche:hasTitle "0059 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0059.xml> .
 
@@ -11018,7 +10901,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 1r (0028)"@en ;
+    arche:hasTitle "0028 Sheet 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11051,7 +10934,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 1v (0028)"@en ;
+    arche:hasTitle "0028 Sheet 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11084,7 +10967,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 2r (0028)"@en ;
+    arche:hasTitle "0028 Sheet 2 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11117,7 +11000,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 2v (0028)"@en ;
+    arche:hasTitle "0028 Sheet 2 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11150,7 +11033,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 3r (0028)"@en ;
+    arche:hasTitle "0028 Sheet 3 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11183,7 +11066,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 3v (0028)"@en ;
+    arche:hasTitle "0028 Sheet 3 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11216,7 +11099,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 4r (0028)"@en ;
+    arche:hasTitle "0028 Sheet 4 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11249,7 +11132,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 4v (0028)"@en ;
+    arche:hasTitle "0028 Sheet 4 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11282,7 +11165,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 5r (0028)"@en ;
+    arche:hasTitle "0028 Sheet 5 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11315,7 +11198,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 5v (0028)"@en ;
+    arche:hasTitle "0028 Sheet 5 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11348,7 +11231,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 5ar (0028)"@en ;
+    arche:hasTitle "0028 Sheet 5a [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11381,7 +11264,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 5av (0028)"@en ;
+    arche:hasTitle "0028 Sheet 5a [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11414,7 +11297,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 6r (0028)"@en ;
+    arche:hasTitle "0028 Sheet 6 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11447,7 +11330,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 6v (0028)"@en ;
+    arche:hasTitle "0028 Sheet 6 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11480,7 +11363,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 7r (0028)"@en ;
+    arche:hasTitle "0028 Sheet 7 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11513,7 +11396,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 7v (0028)"@en ;
+    arche:hasTitle "0028 Sheet 7 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11546,7 +11429,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 8r (0028)"@en ;
+    arche:hasTitle "0028 Sheet 8 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11579,7 +11462,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 8v (0028)"@en ;
+    arche:hasTitle "0028 Sheet 8 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11612,7 +11495,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 9r (0028)"@en ;
+    arche:hasTitle "0028 Sheet 9 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11645,7 +11528,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 9v (0028)"@en ;
+    arche:hasTitle "0028 Sheet 9 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11678,7 +11561,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 10r (0028)"@en ;
+    arche:hasTitle "0028 Sheet 10 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11711,7 +11594,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 10v (0028)"@en ;
+    arche:hasTitle "0028 Sheet 10 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11744,7 +11627,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 11r (0028)"@en ;
+    arche:hasTitle "0028 Sheet 11 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11777,7 +11660,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 11v (0028)"@en ;
+    arche:hasTitle "0028 Sheet 11 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11810,7 +11693,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 12r (0028)"@en ;
+    arche:hasTitle "0028 Sheet 12 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11843,7 +11726,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 12v (0028)"@en ;
+    arche:hasTitle "0028 Sheet 12 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11876,7 +11759,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 13r (0028)"@en ;
+    arche:hasTitle "0028 Sheet 13 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11909,7 +11792,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 13v (0028)"@en ;
+    arche:hasTitle "0028 Sheet 13 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11942,7 +11825,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 14r (0028)"@en ;
+    arche:hasTitle "0028 Sheet 14 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -11975,7 +11858,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 14v (0028)"@en ;
+    arche:hasTitle "0028 Sheet 14 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -12008,7 +11891,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 15r (0028)"@en ;
+    arche:hasTitle "0028 Sheet 15 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -12041,7 +11924,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 15v (0028)"@en ;
+    arche:hasTitle "0028 Sheet 15 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -12074,7 +11957,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 16r (0028)"@en ;
+    arche:hasTitle "0028 Sheet 16 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -12107,7 +11990,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 16v (0028)"@en ;
+    arche:hasTitle "0028 Sheet 16 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -12140,7 +12023,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 17r (0028)"@en ;
+    arche:hasTitle "0028 Sheet 17 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -12173,7 +12056,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 17v (0028)"@en ;
+    arche:hasTitle "0028 Sheet 17 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -12206,7 +12089,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 18r (0028)"@en ;
+    arche:hasTitle "0028 Sheet 18 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -12239,7 +12122,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "Sheet 18v (0028)"@en ;
+    arche:hasTitle "0028 Sheet 18 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
@@ -12284,6 +12167,14 @@
     arche:hasTitle "TEI/XML Schema RNG for \"Auden Musulin Papers\" Edition Documents"@en ;
     arche:isMetadataFor <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition> ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition> .
+
+<https://id.acdh.oeaw.ac.at/eburns> arche:hasPersonalTitle "Dr." ;
+    arche:hasTitle "Burns, Edward M."@und .
+
+<https://www.wikidata.org/entity/Q39073705> arche:hasTitle "Duncan, Bruce"@und .
+
+<https://d-nb.info/gnd/2054142-9> a arche:Organisation ;
+    arche:hasTitle "Austrian Science Fund"@en .
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0064.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
@@ -12624,6 +12515,27 @@
     arche:hasRightsHolder <https://d-nb.info/gnd/1001454-8> ;
     arche:hasTitle "Photograph [Stella Musulin] of Anton Schickelgruber and Bruce Duncan at W. H. Auden's Funeral 1973-10-04"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition> .
+
+<https://id.acdh.oeaw.ac.at/slehecka> a arche:Person ;
+    arche:hasTitle "Lehecka, Sandra"@und .
+
+<https://orcid.org/0000-0001-6909-7099> a arche:Person ;
+    arche:hasTitle "Brenner, Simon"@und .
+
+<https://sws.geonames.org/12503995/> a arche:Place ;
+    arche:hasTitle "Hinterholz 6"@de .
+
+<https://sws.geonames.org/12504033/> a arche:Place ;
+    arche:hasTitle "Neulinggasse 26"@de .
+
+<https://sws.geonames.org/2761369/> a arche:Place ;
+    arche:hasTitle "Vienna"@en .
+
+<https://sws.geonames.org/2774362/> a arche:Place ;
+    arche:hasTitle "Kirchstetten"@de .
+
+<https://d-nb.info/gnd/1141619857> a arche:Person ;
+    arche:hasTitle "Kraus, Wolfgang"@und .
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0026.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
@@ -14432,6 +14344,12 @@
     arche:hasTitle "Typed Letter Signed W. H. Auden to Stella Musulin 1959-10-10"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition> .
 
+<https://d-nb.info/gnd/116469986> a arche:Person ;
+    arche:hasTitle "Breicha, Otto"@und .
+
+<https://d-nb.info/gnd/119022354> a arche:Person ;
+    arche:hasTitle "Busta, Christine"@und .
+
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/indexes> a arche:Collection ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCreator <https://d-nb.info/gnd/1024881253>,
@@ -14445,6 +14363,7 @@
     arche:hasDescription "Indexes of mentioned persons, places, organizations and events by Authors of Auden Musulin Papers."@en ;
     arche:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/deu>,
         <https://vocabs.acdh.oeaw.ac.at/iso6393/eng> ;
+    arche:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0> ;
     arche:hasLicensor <https://d-nb.info/gnd/1123037736> ;
     arche:hasMetadataCreator <https://d-nb.info/gnd/1024881253>,
         <https://orcid.org/0000-0002-0636-4476>,
@@ -14463,6 +14382,9 @@
     arche:hasSubject "digital edition, Auden, Musulin, entities, persons, places, organizations, events, xml, tei"@en ;
     arche:hasTitle "Indexes"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers> .
+
+<https://id.acdh.oeaw.ac.at/rblaha> a arche:Person ;
+    arche:hasTitle "Blaha, Rudof"@und .
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers> a arche:TopCollection ;
     arche:hasActor <https://d-nb.info/gnd/1141619857>,
@@ -14706,6 +14628,31 @@
     arche:hasTitle "Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-07-26--1972-08-25"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition> .
 
+<https://id.acdh.oeaw.ac.at/kkubaczek> a arche:Person ;
+    arche:hasTitle "Kubaczek, Karl"@und .
+
+<https://id.acdh.oeaw.ac.at/wrohringer> a arche:Person ;
+    arche:hasPersonalTitle "Dr." ;
+    arche:hasTitle "Rohringer, Wolfgang"@und .
+
+<https://www.wikidata.org/wiki/Q680662> a arche:Organisation ;
+    arche:hasTitle "Austrian Press Agency"@en ;
+    arche:hasUrl "https://www.picturedesk.com/bild-disp/apa/de/prices.html" .
+
+<https://d-nb.info/gnd/115753761> a arche:Person ;
+    arche:hasTitle "Musulin, Janko"@und .
+
+<https://d-nb.info/gnd/117542784> arche:hasTitle "Mayer, Elizabeth"@und .
+
+<https://d-nb.info/gnd/2020893-5> a arche:Organisation ;
+    arche:hasTitle "Austrian National Library"@en .
+
+<https://d-nb.info/gnd/121076261> a arche:Person ;
+    arche:hasTitle "Angerer, Thomas"@und .
+
+<https://d-nb.info/gnd/118751980> a arche:Person ;
+    arche:hasTitle "Spiel, Hilde"@und .
+
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0043.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
     arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
@@ -14740,6 +14687,15 @@
     arche:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden \"Freedom and Necessity in the Arts\" 1970-05-21"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition> .
 
+<https://d-nb.info/gnd/1173017283> a arche:Person ;
+    arche:hasTitle "O'Sullivan, Michael"@und .
+
+<https://d-nb.info/gnd/2175892-X> a arche:Organisation ;
+    arche:hasTitle "Österreichische Gesellschaft für Literatur"@de .
+
+<https://id.acdh.oeaw.ac.at/amendelssohn> a arche:Person ;
+    arche:hasTitle "Mendelssohn, Anna"@und .
+
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> a arche:Collection ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -14749,6 +14705,8 @@
     arche:hasDigitisingAgent <https://d-nb.info/gnd/1024881253>,
         <https://orcid.org/0000-0002-0914-9245>,
         <https://orcid.org/0000-0002-3997-5193> ;
+    arche:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>,
+        <https://vocabs.acdh.oeaw.ac.at/archelicenses/inc> ;
     arche:hasLicensor <https://d-nb.info/gnd/1123037736>,
         <https://d-nb.info/gnd/137925816>,
         <https://id.acdh.oeaw.ac.at/org-whaudenestate>,
@@ -14773,6 +14731,12 @@
     arche:hasSubject "digital edition, Auden, Musulin, letters, photograph"@en ;
     arche:hasTitle "Photos"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers> .
+
+<https://d-nb.info/gnd/14000761X> a arche:Person ;
+    arche:hasTitle "Mendelson, Edward"@und .
+
+<https://id.acdh.oeaw.ac.at/emusulin> a arche:Person ;
+    arche:hasTitle "Musulin, Elsa"@und .
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
@@ -14833,6 +14797,7 @@
     arche:hasDescription "Edition documents in XML/TEI format, containing transcriptions, markup, and metadata of the letters and literary papers sent by British-American poet W. H. Auden to Welsh-Austrian writer Stella Musulin in the period 1960-1973; correspondence and papers related to Stella Musulin's biographical work on W. H. Auden; Stella Musulin's Auden memoirs \"In Retrospect\" and \"The Years in Austria\"."@en ;
     arche:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/deu>,
         <https://vocabs.acdh.oeaw.ac.at/iso6393/eng> ;
+    arche:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0> ;
     arche:hasLicensor <https://d-nb.info/gnd/1123037736> ;
     arche:hasMetadataCreator <https://d-nb.info/gnd/1024881253>,
         <https://orcid.org/0000-0002-0636-4476>,
@@ -14851,6 +14816,9 @@
     arche:hasSubject "digital edition, Auden, Musulin, letters, correspondence, literature, poetry, photographs, xml, tei"@en ;
     arche:hasTitle "Edition Documents"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers> .
+
+<https://d-nb.info/gnd/1001454-8> a arche:Organisation ;
+    arche:hasTitle "Austrian Academy of Sciences"@en .
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
@@ -14886,6 +14854,18 @@
     arche:hasTitle "Typescript Memoir Stella Musulin \"The Years in Austria\" 1976-09-04--1980-12-01"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition> .
 
+<https://d-nb.info/gnd/1123037736> a arche:Organisation ;
+    arche:hasTitle "Austrian Centre for Digital Humanities and Cultural Heritage"@en .
+
+<https://d-nb.info/gnd/127246711> a arche:Person ;
+    arche:hasTitle "Musulin, Stella"@und .
+
+<https://d-nb.info/gnd/118650963> a arche:Person ;
+    arche:hasTitle "Auden, W. H."@und .
+
+<https://id.acdh.oeaw.ac.at/org-whaudenestate> a arche:Organisation ;
+    arche:hasTitle "The Estate of W. H. Auden"@en .
+
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> a arche:Collection ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -14899,6 +14879,7 @@
         <https://orcid.org/0000-0002-3997-5193> ;
     arche:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/deu>,
         <https://vocabs.acdh.oeaw.ac.at/iso6393/eng> ;
+    arche:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0> ;
     arche:hasLicensor <https://d-nb.info/gnd/1108283586>,
         <https://d-nb.info/gnd/1123037736>,
         <https://d-nb.info/gnd/1173017283>,
@@ -14935,3 +14916,35 @@
     arche:hasSubject "digital edition, Auden, Musulin, letters, facsimile"@en ;
     arche:hasTitle "Facsimiles"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers> .
+
+<https://d-nb.info/gnd/1108283586> a arche:Organisation ;
+    arche:hasTitle "Landessammlungen Niederösterreich"@de .
+
+<https://d-nb.info/gnd/137925816> a arche:Person ;
+    arche:hasTitle "Musulin, Marko"@und .
+
+<https://d-nb.info/gnd/1043833846> a arche:Person ;
+    arche:hasPersonalTitle "Mag. Dr." ;
+    arche:hasTitle "Andorfer, Peter"@und ;
+    arche:isMemberOf <https://d-nb.info/gnd/1123037736> .
+
+<https://orcid.org/0000-0002-0914-9245> a arche:Person ;
+    arche:hasPersonalTitle "BA MMA" ;
+    arche:hasTitle "Grigoriou, Dimitra"@und ;
+    arche:isMemberOf <https://d-nb.info/gnd/1123037736> .
+
+<https://orcid.org/0000-0002-3997-5193> a arche:Person ;
+    arche:hasPersonalTitle "Mag." ;
+    arche:hasTitle "Frühwirth, Timo"@und ;
+    arche:isMemberOf <https://d-nb.info/gnd/1123037736> .
+
+<https://orcid.org/0000-0002-0636-4476> a arche:Person ;
+    arche:hasPersonalTitle "BA MA" ;
+    arche:hasTitle "Elsner, Daniel"@und ;
+    arche:isMemberOf <https://d-nb.info/gnd/1123037736> .
+
+<https://d-nb.info/gnd/1024881253> a arche:Person ;
+    arche:hasPersonalTitle "Mag. Dr." ;
+    arche:hasTitle "Mayer, Sandra"@und ;
+    arche:isMemberOf <https://d-nb.info/gnd/1123037736> .
+

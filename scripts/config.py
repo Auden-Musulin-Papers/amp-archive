@@ -72,11 +72,13 @@ def custom_function(subject_uri, doc) -> dict:
                 count += 1
             if conditional is not None and conditional in subject_uri:
                 if pb_type is not None and pb_ed is not None:
-                    object_uri["hasTitle"] = f"{pb_type.capitalize()} {pb_ed} ({doc_name})"
+                    object_uri["hasTitle"] = f"""{doc_name} {pb_type.capitalize()} {pb_ed
+                        .replace("r", ' [recto]')
+                        .replace('v', ' [verso]')}"""
                 elif pb_type is not None and pb_ed is None:
-                    object_uri["hasTitle"] = f"{pb_type.capitalize()} ({doc_name})"
+                    object_uri["hasTitle"] = f"{doc_name} {pb_type.capitalize()}"
                 elif pb_type is None and pb_ed is not None:
-                    object_uri["hasTitle"] = f"{pb_ed} ({doc_name})"
+                    object_uri["hasTitle"] = f"{doc_name} {pb_ed}"
     xpath = "//tei:availability"
     availability = doc.any_xpath(xpath)
     if isinstance(availability, list) and len(availability) > 0:
@@ -406,7 +408,6 @@ USER_CONFIG = {
             "hasAccessRestriction": "https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public",
             "hasCategory": "https://vocabs.acdh.oeaw.ac.at/archecategory/image",
             "hasPid": "create",
-            "hasLicense": "https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0",
             "isPartOf": "https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles"
         },
         "vocabs_lookup": {
