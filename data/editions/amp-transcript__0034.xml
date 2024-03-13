@@ -65,6 +65,13 @@ for any purpose, even commercially.</p>
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+               <p>Edition Documents Prefix</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -88,6 +95,7 @@ for any purpose, even commercially.</p>
          <change who="dgrigoriou" when="2022-10-06">transcriptions updated v0.1</change>
          <change who="dgrigoriou smayer tfruehwirth" when="2023-02-27">entities and correspDesc collated</change>
          <change who="dgrigoriou" when="2023-08-18">container structure updated</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2024-03-13">entities updated</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -102,7 +110,7 @@ for any purpose, even commercially.</p>
       <body>
          <div type="transcription" xml:id="transcription_amp_0034" xml:lang="en">
             <div type="letter"> 
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0231/" type="sheet"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0231/" type="sheet" ed="1r"/>
                <div type="letter_message"> 
                   <opener>
                      <dateline>
@@ -146,7 +154,7 @@ for any purpose, even commercially.</p>
                   <p>
                      <space quantity="21" unit="char"/>I remember with great affection our chat about <rs type="person" ref="#amp_person_1">W.H. Auden</rs><lb/>
                      and I am very grateful to you for sharing those memories with me.  Plans for<lb/>
-                     the <rs type="event" ref="#amp_event_id_21">Auden Exhibition in the <rs type="org" ref="#amp_organization_60">Kunstlerhaus</rs></rs> are now very far advanced.  I have<lb/>
+                     the <rs type="event" ref="#amp_event_id_105">Auden Exhibition in the <rs type="org" ref="#amp_organization_60">Kunstlerhaus</rs></rs> are now very far advanced.  I have<lb/>
                      put togther a complete collection of <rs type="person" ref="#amp_person_1">Auden</rs>'s first editions, selections from<lb/>
                      his contributions to periodicals, representative anthologies, <rs type="lit_work" ref="#lit_work_id_121 #lit_work_id_122">his films for<lb/>
                      the <rs type="org" ref="#amp_organization_19">G.P.O Film Unit</rs></rs>, many items connected with his work for the <rs type="org" ref="#amp_organization_33">Group Theatre</rs>,<lb/>
@@ -159,7 +167,7 @@ for any purpose, even commercially.</p>
                   </p>
                   <p>
                      <space quantity="21" unit="char"/><rs type="person" ref="#amp_person_8">Stephen Spender</rs> has agreed to come to <rs type="place" ref="#amp_place_id_1">Vienna</rs> during the<lb/>
-                     period of <rs type="event" ref="#amp_event_id_21">the Exhibition</rs> - that is 11th October to 3rd November. <space quantity="1" unit="char"/><rs type="person" ref="#amp_person_100">Humphrey<lb/>
+                     period of <rs type="event" ref="#amp_event_id_105">the Exhibition</rs> - that is 11th October to 3rd November. <space quantity="1" unit="char"/><rs type="person" ref="#amp_person_100">Humphrey<lb/>
                      Carpenter</rs> will lecture on <rs type="person" ref="#amp_person_1">Auden</rs> at the invitation of the <rs type="org" ref="#amp_organization_16">British Council</rs>, so it<lb/>
                      all promises to be a splendid celebration of <rs type="person" ref="#amp_person_1">Auden</rs>'s life and work.
                   </p>
@@ -187,7 +195,7 @@ for any purpose, even commercially.</p>
                      <space quantity="21" unit="char"/><signed><rs type="person" ref="#amp_person_99">MICHAEL O'SULLIVAN</rs>.</signed>
                   </closer>
                </div>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0232/" type="sheet"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0232/" type="sheet" ed="1v"/>
          </div>
       </div>
       </body>

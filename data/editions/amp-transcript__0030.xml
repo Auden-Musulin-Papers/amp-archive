@@ -19,7 +19,9 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>AMP</edition>
+            <edition>
+               <title>Copy Typed Letter Stella Musulin to Bruce Duncan 1985-11-29</title>
+            </edition>
             <respStmt><resp>Transcription and commentary</resp><name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></respStmt>
          <respStmt><resp>TEI Schema, ODD/RNG</resp><name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name><name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name></respStmt></editionStmt>
          <publicationStmt>
@@ -87,7 +89,7 @@
    </facsimile>
    <text type="letter" hand="#typed">
       <body>
-         <div type="transcription" xml:id="transcription_amp_0030">
+         <div type="transcription" xml:id="transcription_amp_0030" xml:lang="en">
            <div type="letter">
            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0221/" type="sheet"/>
                <div type="letter_message">
@@ -107,10 +109,10 @@
                   </opener>
                   <p>
                      <space quantity="5" unit="char"/>I am a more or less retired journalist and author,<lb/>
-                     and am working on <rs type="lit_work" ref="#lit_work_id_46">a memoir of W.H. Auden´s years in Austria</rs><lb/>
+                     and am working on <rs type="lit_work" ref="#lit_work_id_46">a memoir of <rs type="person" ref="#amp_person_1">W.H. Auden</rs>´s years in Austria</rs><lb/>
                      when I got to know him very well. <space quantity="2" unit="char"/>As he and <rs type="person" ref="#amp_person_4">Chester Kallman</rs><lb/>
                      were used to involving me in domestic catastrophes of various<lb/>
-                     kinds, <rs type="person" ref="#amp_person_4"><del>C</del><del>t</del><unclear>T</unclear>hester</rs> asked me to bring order into the chaos which so<lb/>
+                     kinds, <del>C</del><del>t</del><unclear>T</unclear>hester asked me to bring order into the chaos which so<lb/>
                      often follows upon a deathöand in <rs type="event" ref="#amp_event_id_18">this case</rs> was acute because<lb/>
                      of the total lack of comprehension between the anglo-american<lb/>
                      side and the local Austrian authorities. <space quantity="1" unit="char"/>Hence my approach<lb/>
@@ -120,8 +122,8 @@
                   </p>
                   <p>
                      <space quantity="4" unit="char"/>Would you be so kind as to confirm that you took the<lb/>
-                     <rs type="event" ref="#amp_event_id_19">ecumenical service</rs> - shall I<del>S</del>scall it that? in the <rs type="place" ref="#amp_place_id_104">church at<lb/>
-                     Kirchstetten</rs> in October 1973, jointly with the <rs type="person" ref="#amp_person_">parish priest</rs>?
+                     <rs type="event" ref="#amp_event_id_19">ecumenical service</rs> - shall I<del>S</del>scall it that? in the <rs type="place" ref="#amp_place_id_332">church at<lb/>
+                     Kirchstetten</rs> in October 1973, jointly with the <rs type="person" ref="#amp_person_230">parish priest</rs>?
                   </p>
                   <p>    
                      <space quantity="5" unit="char"/>Do you recall the form of service used, and did <rs type="person" ref="#amp_person_88">John Auden</rs><lb/>

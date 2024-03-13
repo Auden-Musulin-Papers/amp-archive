@@ -548,5 +548,35 @@
       }
     ],
     "Subject_uri": "https://d-nb.info/gnd/117542784"
+  },
+  "64": {
+    "id": 64,
+    "order": "60.00000000000000000000",
+    "Name": "Elsner, Daniel",
+    "Literal": "https://www.oeaw.ac.at/acdh/team/current-team/daniel-elsner",
+    "Object_uri_organizations": [],
+    "Language": "na",
+    "Predicate_uri": [
+      {
+        "id": 119,
+        "value": "hasUrl"
+      }
+    ],
+    "Subject_uri": "https://orcid.org/0000-0002-0636-4476"
+  },
+  "65": {
+    "id": 65,
+    "order": "61.00000000000000000000",
+    "Name": "Elsner, Daniel",
+    "Literal": "daniel.elsner@oeaw.ac.at",
+    "Object_uri_organizations": [],
+    "Language": "na",
+    "Predicate_uri": [
+      {
+        "id": 76,
+        "value": "hasEmail"
+      }
+    ],
+    "Subject_uri": "https://orcid.org/0000-0002-0636-4476"
   }
 }
