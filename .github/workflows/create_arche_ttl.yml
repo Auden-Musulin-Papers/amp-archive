@@ -86,6 +86,13 @@ jobs:
       - name: Creating ARCHE constants ttl file
         run: |
           python scripts/arche_constants.py
+      - name: Verify RDF Metadata with metadata-crawler
+        run: |
+          ./shellscripts/filechecker.sh
+      - name: Verify RDF Metadata with metadata-crawler
+        run: |
+          composer require "acdh-oeaw/arche-metadata-crawler:^0.5.0"
+          ./shellscripts/crawler.sh
       - name: Commit data
         uses: stefanzweifel/git-auto-commit-action@v4
         with:

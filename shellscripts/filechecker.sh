@@ -21,8 +21,6 @@ echo "Filelist path: $filelist_path; moving to rdf folder"
 cp $filelist_path ./rdf/fileList.json
 sed -i -e s/\\/metadata/''/g -e s/\\/editions/''/g -e s/\\/indexes/''/g ./rdf/fileList.json
 
-mkdir -p ./to_ingest
-
 # docker run \
 #     --name metadataCrawler \
 #     --rm \
