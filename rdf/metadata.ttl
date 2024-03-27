@@ -538,7 +538,7 @@ acdhi:wrohringer a acdh:Person;
     acdh:hasPersonalTitle "Dr.";
     acdh:hasTitle "Rohringer, Wolfgang"@und.
 <https://www.wikidata.org/wiki/Q680662> a acdh:Organisation;
-    acdh:hasTitle "Austrian Press Agency"@en.
+    acdh:hasTitle "Austrian Press Agency"@en, "Austria Press Agency"@en.
 <https://orcid.org/0000-0002-0914-9245> a acdh:Person;
     acdh:hasPersonalTitle "BA MMA";
     acdh:hasTitle "Grigoriou, Dimitra"@und;
@@ -584,7 +584,11 @@ acdhi:auden-musulin-papers acdh:hasActor <https://d-nb.info/gnd/1141619857>, <ht
     acdh:hasSubject "peotry, literature, correspondence, photographs, digital edition"@en;
     acdh:hasTemporalCoverage "1959-1996"@und;
     acdh:hasTitle "Auden Musulin Papers: A Digital Edition of W. H. Auden's Letters to Stella Musulin"@en;
-    acdh:hasUrl "https://amp.acdh.oeaw.ac.at/".
+    acdh:hasUrl "https://amp.acdh.oeaw.ac.at/";
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://d-nb.info/gnd/14000761X>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
+    acdh:hasSubject "poetry, literature, correspondence, photographs, digital edition"@en.
 acdhi:slehecka a acdh:Person;
     acdh:hasTitle "Lehecka, Sandra"@und.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition> a acdh:Collection;
@@ -604,7 +608,9 @@ acdhi:slehecka a acdh:Person;
     acdh:hasRightsHolder <https://d-nb.info/gnd/1001454-8>;
     acdh:hasSubject "digital edition, Auden, Musulin, letters, correspondence, literature, poetry, photographs, xml, tei"@en;
     acdh:hasTitle "Edition Documents"@en;
-    acdh:isPartOf acdhi:auden-musulin-papers.
+    acdh:isPartOf acdhi:auden-musulin-papers;
+    acdh:hasCreator <https://d-nb.info/gnd/14000761X>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}".
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/indexes> a acdh:Collection;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
     acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -621,15 +627,18 @@ acdhi:slehecka a acdh:Person;
     acdh:hasRightsHolder <https://d-nb.info/gnd/1001454-8>;
     acdh:hasSubject "digital edition, Auden, Musulin, entities, persons, places, organizations, events, xml, tei"@en;
     acdh:hasTitle "Indexes"@en;
-    acdh:isPartOf acdhi:auden-musulin-papers.
-acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>.
+    acdh:isPartOf acdhi:auden-musulin-papers;
+    acdh:hasCreator <https://d-nb.info/gnd/14000761X>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}".
+acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/en>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-index-events.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -643,10 +652,11 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-index-organizations.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -660,10 +670,11 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-index-persons.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -677,10 +688,11 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-index-places.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -694,10 +706,11 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-index-works.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -722,13 +735,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Auden Musulin Papers Logo"@en;
     acdh:isTitleImageOf acdhi:auden-musulin-papers.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0001.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -740,13 +755,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0002.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>, acdhi:emusulin;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>, acdhi:emusulin;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -758,13 +775,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0003.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -776,13 +795,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0004.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -794,13 +815,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0005.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -812,13 +835,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0006.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -830,13 +855,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0007.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -848,13 +875,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-06"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0008.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -866,13 +895,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-12"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0009.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -884,13 +915,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0010.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -902,13 +935,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1968-11-06"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0011.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -920,13 +955,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0012.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -938,13 +975,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0013.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -956,13 +995,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0014.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -974,13 +1015,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0015.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -992,13 +1035,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0016.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1010,13 +1055,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1970-09-18"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0017.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1028,13 +1075,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1971-06-04"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0018.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1046,13 +1095,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden \"Stark Bewölkt\" 1971-10-19"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0019.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1064,13 +1115,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0020.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1082,13 +1135,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1973-09-24"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0021.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1100,13 +1155,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Typed Letter Signed W. H. Auden to Stella Musulin 1961-10-13"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0022.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1118,13 +1175,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1961-08-16"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0023.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1136,13 +1195,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1962-07-23"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0024.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1154,13 +1215,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1962-09-11"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0025.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1172,13 +1235,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1962-10-17"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0026.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>, <https://d-nb.info/gnd/127246711>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>, <https://d-nb.info/gnd/127246711>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1190,13 +1255,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Notes W. H. Auden Stella Musulin 1959-06-01--1973-09-28"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/127246711>;
     acdh:hasAuthor <https://d-nb.info/gnd/127246711>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1208,13 +1275,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Typed Memoir Stella Musulin \"In Retrospect\" 1985-11-29--1990-03-28"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0029.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/127246711>;
     acdh:hasAuthor <https://d-nb.info/gnd/127246711>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1226,13 +1295,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Notes Stella Musulin 1968-02-13--1968-02-14"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0030.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/127246711>;
     acdh:hasAuthor <https://d-nb.info/gnd/127246711>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1244,13 +1315,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Copy Typed Letter Stella Musulin to Bruce Duncan 1985-11-29"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0031.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/127246711>;
     acdh:hasAuthor <https://d-nb.info/gnd/127246711>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1262,13 +1335,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0032.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/14000761X>;
     acdh:hasAuthor <https://d-nb.info/gnd/14000761X>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1280,13 +1355,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0033.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/127246711>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasAuthor <https://d-nb.info/gnd/14000761X>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1298,13 +1375,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0034.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/1173017283>;
     acdh:hasAuthor <https://d-nb.info/gnd/1173017283>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1316,13 +1395,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Typed Letter Signed Michael O'Sullivan to Stella Musulin 1984-05-31"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0035.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1334,13 +1415,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Telegram W. H. Auden to Stella Musulin 1971-05-13"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0038.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1352,13 +1435,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden \"Joseph Weinheber\" 1965-03-15"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0039.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/117542784>, <https://d-nb.info/gnd/118650963>, acdhi:emusulin;
     acdh:hasAuthor <https://d-nb.info/gnd/117542784>, <https://d-nb.info/gnd/118650963>, acdhi:emusulin;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1370,13 +1455,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden \"Joseph Weinheber\" 1965-04-28 and with Typescript W. H. Auden Translation \"Joseph Weinheber\""@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0040.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1388,13 +1475,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1969-06-10"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0041.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1406,13 +1495,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0042.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1424,13 +1515,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin with Typescripts W. H. Auden \"August 1968\" and \"Elegy\" 1968-10-04"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0043.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1442,13 +1535,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden \"Freedom and Necessity in the Arts\" 1970-05-21"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0044.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1460,13 +1555,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0045.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1478,13 +1575,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1960-07-21"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0046.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/127246711>, acdhi:emusulin;
     acdh:hasAuthor <https://d-nb.info/gnd/127246711>, acdhi:emusulin;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1496,13 +1595,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Notes Stella Musulin on Translation W. H. Auden \"Joseph Weinheber\" 1965-04-28--1965-12-31"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0047.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/127246711>, acdhi:emusulin;
     acdh:hasAuthor <https://d-nb.info/gnd/127246711>, acdhi:emusulin;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1514,13 +1615,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Typescript Stella Musulin Translation W. H. Auden \"Joseph Weinheber\" 1965-04-28--1965-12-31"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0048.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor acdhi:rblaha;
     acdh:hasAuthor acdhi:rblaha;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1532,13 +1635,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Portrait Photograph Rudolf Blaha of Stella Musulin 1968-01-01--1996-01-21"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0049.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/2175892-X>;
     acdh:hasAuthor <https://d-nb.info/gnd/2175892-X>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1550,13 +1655,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Invitation Card Österreichische Gesellschaft für Literatur Poetry Reading W. H. Auden 1973-01-01--1973-09-28"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0050.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/116469986>;
     acdh:hasAuthor <https://d-nb.info/gnd/116469986>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1568,13 +1675,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Photograph Otto Breicha of W. H. Auden and Mary McCarthy 1967-04-24--1967-04-26"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0051.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/115753761>;
     acdh:hasAuthor <https://d-nb.info/gnd/115753761>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1586,13 +1695,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Typed Notes [Janko Musulin] Translation W. H. Auden \"Freedom and Necessity in the Arts\" 1970-05-19--1970-06-10"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0052.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118751980>;
     acdh:hasAuthor <https://d-nb.info/gnd/118751980>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1604,13 +1715,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-07-26--1972-08-25"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0053.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/127246711>;
     acdh:hasAuthor <https://d-nb.info/gnd/127246711>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1622,13 +1735,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0054.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/127246711>;
     acdh:hasAuthor <https://d-nb.info/gnd/127246711>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1640,13 +1755,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Photographs [Stella Musulin] of W. H. Auden, Chester Kallman, and Elsa Musulin 1960-07-21--1960-11-02"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0055.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/127246711>;
     acdh:hasAuthor <https://d-nb.info/gnd/127246711>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1658,13 +1775,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Photograph [Stella Musulin] of W. H. Auden, Chester Kallman, and Elsa Musulin 1960-07-21--1960-11-02"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0057.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1676,13 +1795,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Envelope W. H. Auden to Stella Musulin 1961-04-25--1961-10-25"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0058.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1694,13 +1815,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1961-10-01--1965-08-15"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0059.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1712,13 +1835,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed W. H. Auden to Stella Musulin 1962-04-30"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0060.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/116413298>;
     acdh:hasAuthor <https://d-nb.info/gnd/116413298>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1730,13 +1855,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Copy Typed Letter Wolfgang Kraus to Stella Musulin 1977-03-22"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0061.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/127246711>;
     acdh:hasAuthor <https://d-nb.info/gnd/127246711>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1748,13 +1875,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Typed Letter Signed Stella Musulin to Wolfgang Kraus 1977-04-05"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0062.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/127246711>;
     acdh:hasAuthor <https://d-nb.info/gnd/127246711>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1766,13 +1895,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Typescript Memoir Stella Musulin \"The Years in Austria\" 1976-09-04--1980-12-01"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0063.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/119022354>, <https://d-nb.info/gnd/127246711>;
     acdh:hasAuthor <https://d-nb.info/gnd/119022354>, <https://d-nb.info/gnd/127246711>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1784,13 +1915,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0064.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/127246711>;
     acdh:hasAuthor <https://d-nb.info/gnd/127246711>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1802,13 +1935,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Photograph [Stella Musulin] of Chester Kallman at W. H. Auden's Funeral 1973-10-04"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0065.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/127246711>;
     acdh:hasAuthor <https://d-nb.info/gnd/127246711>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1820,13 +1955,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Photograph [Stella Musulin] of Friedrich Heer, Chester Kallman, and W. H. Auden 1969-05-28"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0066.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/127246711>;
     acdh:hasAuthor <https://d-nb.info/gnd/127246711>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1838,13 +1975,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Photograph [Stella Musulin] of Friedrich Heer, Chester Kallman, and W. H. Auden 1969-05-28"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0067.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/127246711>;
     acdh:hasAuthor <https://d-nb.info/gnd/127246711>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1856,13 +1995,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Photograph [Stella Musulin] of Friedrich Heer, Chester Kallman, and W. H. Auden 1969-05-28"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0068.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/127246711>;
     acdh:hasAuthor <https://d-nb.info/gnd/127246711>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1874,13 +2015,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Photograph [Stella Musulin] of W. H. Auden 1969-05-28"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0069.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/127246711>;
     acdh:hasAuthor <https://d-nb.info/gnd/127246711>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1892,13 +2035,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Photograph [Stella Musulin] of Friedrich Heer 1969-05-28"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0070.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/118650963>;
     acdh:hasAuthor <https://d-nb.info/gnd/118650963>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1910,13 +2055,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Typed Letter Signed W. H. Auden to Stella Musulin 1959-10-10"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0071.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/127246711>;
     acdh:hasAuthor <https://d-nb.info/gnd/127246711>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1928,13 +2075,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Typed Letter Signed Stella Musulin to W. H. Auden 1962-04-16--1973-04-16"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0072.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/127246711>;
     acdh:hasAuthor <https://d-nb.info/gnd/127246711>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1946,13 +2095,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Photograph [Stella Musulin] of Friedrich Colloredo, Chester Kallman, and W. H. Auden 1959-06-01--1973-09-28"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0073.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/127246711>;
     acdh:hasAuthor <https://d-nb.info/gnd/127246711>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1964,13 +2115,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Photograph [Stella Musulin] of Chester Kallman, John Auden, Charles Monteith, Edward Mendelson, Charles Osborne, Sonia Orwell, Stephen Spender, and Lisa Clark at W. H. Auden's Funeral 1973-10-04"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0074.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/127246711>;
     acdh:hasAuthor <https://d-nb.info/gnd/127246711>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
@@ -1982,13 +2135,15 @@ acdhi:auden-musulin-papers acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6
     acdh:hasTitle "Photograph [Stella Musulin] of Edward Mendelson, Sonia Orwell, Charles Osborne, David Luke, Lisa Clark, Thekla Clark, Marny Yates, Michael Yates, Hella Bronold, Wolfgang Kraus, and Friedrich Heer at W. H. Auden's Funeral 1973-10-04"@en;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition>.
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0075.xml> acdh:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public>;
+    acdh:hasActor <https://d-nb.info/gnd/127246711>;
     acdh:hasAuthor <https://d-nb.info/gnd/127246711>;
     acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei>;
     acdh:hasContact <https://d-nb.info/gnd/1024881253>;
-    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;
+    acdh:hasCreator <https://d-nb.info/gnd/1024881253>, <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>, <https://d-nb.info/gnd/14000761X>;
     acdh:hasCurator <https://d-nb.info/gnd/1043833846>, <https://orcid.org/0000-0002-0636-4476>;
+    acdh:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}";
     acdh:hasDepositor <https://d-nb.info/gnd/1024881253>;
-    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/eng>, <https://vocabs.acdh.oeaw.ac.at/iso6391/de>;
+    acdh:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6391/de>, <https://vocabs.acdh.oeaw.ac.at/iso6391/en>;
     acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasLicensor <https://d-nb.info/gnd/1123037736>;
     acdh:hasMetadataCreator <https://d-nb.info/gnd/1024881253>, <https://orcid.org/0000-0002-0636-4476>, <https://orcid.org/0000-0002-0914-9245>, <https://orcid.org/0000-0002-3997-5193>;

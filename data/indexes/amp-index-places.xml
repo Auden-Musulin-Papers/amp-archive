@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at" xml:id="amp-index-places.xml" prev="https://id.acdh.oeaw.ac.at/amp-index-persons.xml" next="https://id.acdh.oeaw.ac.at/amp-index-works.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -13,7 +13,7 @@
                <resp>converted to XML encoding</resp>
                <name>Daniel Stoxreiter</name>
             </respStmt>
-            <funder xmlns="http://www.tei-c.org/ns/1.0">
+            <funder>
                <name>FWF Der Wissenschaftsfond.</name>
                <address>
                      <street>Sensengasse 1</street>

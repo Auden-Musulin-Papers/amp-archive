@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0034.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0034.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0033.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0035.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -67,8 +67,7 @@ for any purpose, even commercially.</p>
       </fileDesc>
       <encodingDesc>
          <listPrefixDef>
-            <prefixDef ident="acdh" matchPattern="(.+)"
-               replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+            <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
                <p>Edition Documents Prefix</p>
             </prefixDef>
          </listPrefixDef>
