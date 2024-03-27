@@ -346,13 +346,14 @@ USER_CONFIG = {
         "xpaths": {
             "hasTitle": "//tei:titleStmt/tei:title[@level='a']",
             "hasPid": "//tei:publicationStmt/tei:idno[@type='handle']",
-            "hasAuthor": "//tei:titleStmt/tei:author[@ref]/@ref"
+            "hasActor": "//tei:titleStmt/tei:author[@ref]/@ref"
         },
         "static_values": {
             "hasAccessRestriction": "https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public",
             "hasCategory": "https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei",
             "isPartOf": "https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition",
             "hasLicense": "https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0",
+            "hasCustomCitation": "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}"
         },
         "vocabs_lookup": {
             "hasTitle": {
@@ -365,7 +366,12 @@ USER_CONFIG = {
                 "prefix": False,
                 "custom_suffix": False
             },
-            "hasAuthor": {
+            "hasActor": {
+                "lang": LANG_SPECIAL_TOKEN,
+                "prefix": False,
+                "custom_suffix": False
+            },
+            "hasCustomCitation": {
                 "lang": LANG_SPECIAL_TOKEN,
                 "prefix": False,
                 "custom_suffix": False
@@ -524,13 +530,19 @@ USER_CONFIG = {
             "isPartOf": "https://id.acdh.oeaw.ac.at/auden-musulin-papers/indexes",
             "hasPid": "create",
             "hasLicense": "https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0",
+            "hasCustomCitation": "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}"
         },
         "vocabs_lookup": {
             "hasTitle": {
                 "lang": "en",
                 "prefix": False,
                 "custom_suffix": False
-            }
+            },
+            "hasCustomCitation": {
+                "lang": LANG_SPECIAL_TOKEN,
+                "prefix": False,
+                "custom_suffix": False
+            },
         }
     }
 }

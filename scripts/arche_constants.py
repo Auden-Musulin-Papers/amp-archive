@@ -265,11 +265,11 @@ def create_resource_triples(
     Create an URIRef from a string.
     """
     edition_files = glob.glob(f"{file_path}/*.{file_format}")
-    for file in tqdm(edition_files, total=len(edition_files)):
+    for file in edition_files:
         doc = TeiReader(file)
         xml_id = doc.any_xpath(subject_id)
         if isinstance(xml_id, list) and len(xml_id) > 0:
-            for x in tqdm(xml_id, total=len(xml_id)):
+            for x in xml_id:
                 resource_id = x.strip()
                 if resource_id.startswith("#"):
                     resource_id = resource_id.replace("#", "")
@@ -526,12 +526,12 @@ for meta in tqdm(metadata.values(), total=len(metadata)):
 files = ["Persons_denormalized", "Places_denormalized", "Organizations_denormalized"]
 file_glob = glob.glob("json_dumps/*.json")
 
-for file in file_glob:
+for file in tqdm(file_glob, total=len(file_glob)):
     fn = file.split("/")[-1].split(".")[0]
     if fn in files:
         with open(file, "r") as f:
             data = json.load(f)
-        for meta in tqdm(data.values(), total=len(data)):
+        for meta in data.values():
             subject_uri = URIRef(meta["Subject_uri"])
             if isinstance(meta["Predicate_uri"], list) and len(meta["Predicate_uri"]) == 1:
                 predicate_class = meta["Predicate_uri"][0]

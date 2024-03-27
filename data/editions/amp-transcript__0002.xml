@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0002.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0001.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0003.xml">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0002.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -34,15 +34,8 @@
                               <author ref="acdh:amp-index-persons.xml#amp_person_2"/>
                               <title level="a">Auden in Kirchstetten</title>
                               <title level="m">W.H. Auden: 'In Solitude, for Company': W.H. Auden After 1940</title>
-                              <editor>
-                                 <persName ref="acdh:amp-index-persons.xml#amp_person_231"/>
-                              </editor>
-                              <editor>
-                                 <persName>
-                                    <surname>Jenkins</surname>
-                                    <forename>Nicholas</forename>
-                                 </persName>
-                              </editor>
+                              <editor ref="acdh:amp-index-persons.xml#amp_person_231"/>
+                              <editor ref="acdh:amp-index-persons.xml#amp_person_232"/>
                               <publisher>Clarendon Press</publisher>
                               <pubPlace ref="acdh:amp-index-places.xml#amp_place_id_46"/>
                               <date when-iso="1995"/>

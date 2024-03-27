@@ -140,3 +140,4 @@ composer.*
 /to_ingest
 /data/images
 /saxon
+rdf/delete.ttl

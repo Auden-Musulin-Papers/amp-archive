@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at" xml:id="amp-index-places.xml" prev="https://id.acdh.oeaw.ac.at/amp-index-persons.xml" next="https://id.acdh.oeaw.ac.at/amp-index-works.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -13,7 +13,7 @@
                <resp>converted to XML encoding</resp>
                <name>Daniel Stoxreiter</name>
             </respStmt>
-            <funder>
+            <funder xmlns="http://www.tei-c.org/ns/1.0">
                <name>FWF Der Wissenschaftsfond.</name>
                <address>
                      <street>Sensengasse 1</street>
@@ -682,7 +682,7 @@
                   <desc type="entity_type">city, village,...</desc>
                   <country>US, United States</country>
                   <location type="located_in_place">
-                     <placeName key="amp_place_id_28">New York City</placeName>
+                     <placeName key="amp_place_id_15">United States of America</placeName>
                   </location>
                   <location type="coords">
                      <geo>43.15478, -77.61556</geo>
@@ -2541,13 +2541,12 @@
                   <desc type="entity_type">spot, building, farm</desc>
                   <country>US, United States</country>
                   <location type="located_in_place">
-                     <placeName key="amp_place_id_28">New York City</placeName>
+                     <placeName key="amp_place_id_168">Manhattan</placeName>
                   </location>
                   <location type="coords">
                      <geo>40.81013, -73.96418</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12503863/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q5126299</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_172">
@@ -3579,7 +3578,7 @@
                </place>
                <place xml:id="amp_place_id_248">
                   <settlement type="S">
-                     <placeName>39 Claremont Ave, apt 31</placeName>
+                     <placeName>39 Claremont Avenue, apt 31</placeName>
                   </settlement>
                   <desc type="entity_type">spot, building, farm</desc>
                   <country>US, United States</country>
@@ -3590,7 +3589,6 @@
                      <geo>40.81013, -73.96418</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12503863/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q5126299</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_249">

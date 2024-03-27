@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0062.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0061.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0063.xml">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0062.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -2437,7 +2437,7 @@ for any purpose, even commercially.</p>
                   and drove to <rs type="place" ref="#amp_place_id_7">Fridau</rs>. <space quantity="1" unit="char"/>An answer to the note came by telephone:<lb/>
                   <rs type="person" ref="#amp_person_4">Chester</rs> would like me to come over in the afternoon - by now it<lb/>
                   was Sunday.<lb/>
-                  <space quantity="5" unit="char"/>The <rs type="place" ref="#amp_place_id_2">room</rs> was <rs type="event" ref="#amp_event_id_40">full of people</rs>. <space quantity="1" unit="char"/>On the seat behind the <del>f</del>coffee<lb/>
+                  <space quantity="5" unit="char"/>The <rs type="place" ref="#amp_place_id_2">room</rs> was full of people. <space quantity="1" unit="char"/>On the seat behind the <del>f</del>coffee<lb/>
                   table sat the pathetic <rs type="person" ref="#amp_person_4">figure</rs> whom one instinctively acknowledged<lb/>
                   as the widow. <space quantity="1" unit="char"/><rs type="person" ref="#amp_person_96">Mrs. Clark</rs> and <rs type="person" ref="#amp_person_169">her daughter</rs> had come up from<lb/>
                   <rs type="place" ref="#amp_place_id_14">Florence</rs>, the <rs type="person" ref="#amp_person_22">mayor of Kirchstetten</rs> was there, the headmistress<lb/>

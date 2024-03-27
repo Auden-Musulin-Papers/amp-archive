@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0039.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0038.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0040.xml">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0039.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -36,7 +36,7 @@
                                     <settlement ref="acdh:amp-index-places.xml#amp_place_id_28"/>
                                     <repository>New York Public Library</repository>
                                     <collection>W. H. Auden collection of papers 1809-1979</collection>
-                                    <idno>69 ALS, etc. to Elizabeth Mayer. Folder 18</idno>
+                                    <idno>Mayer, Elizabeth. 69 ALS, 6 ANS, 16 TLS, 2 TL, 4 TNS, 10 postcards, 1 telegram, 2 invitation cards</idno>
                                  </msIdentifier>
                               </bibl>
                            </event>

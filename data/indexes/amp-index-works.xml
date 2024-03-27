@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at" xml:id="amp-index-works.xml" prev="https://id.acdh.oeaw.ac.at/amp-index-places.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -13,7 +13,7 @@
                <resp>converted to XML encoding</resp>
                <name>Daniel Stoxreiter</name>
             </respStmt>
-            <funder>
+            <funder xmlns="http://www.tei-c.org/ns/1.0">
                <name>FWF Der Wissenschaftsfond.</name>
                <address>
                      <street>Sensengasse 1</street>
@@ -411,7 +411,7 @@
                <author ref="#amp_person_1">
                   <persName>Auden, W. H.</persName>
                </author>
-               <date when="1965">1965</date>
+               <date when="1964">1964</date>
                <lang>en</lang>
             </bibl>
             <bibl xml:id="lit_work_id_38" type="poem">
@@ -419,7 +419,7 @@
                <author ref="#amp_person_1">
                   <persName>Auden, W. H.</persName>
                </author>
-               <date when="1969">1969</date>
+               <date when="1967">1967</date>
                <lang>en</lang>
             </bibl>
             <bibl xml:id="lit_work_id_39" type="biographical text">
@@ -541,7 +541,7 @@
                <author ref="#amp_person_1">
                   <persName>Auden, W. H.</persName>
                </author>
-               <date when="1944">1944</date>
+               <date when="1943">1943</date>
                <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q5467148</idno>
                <lang>en</lang>
             </bibl>
@@ -558,7 +558,7 @@
                <author ref="#amp_person_1">
                   <persName>Auden, W. H.</persName>
                </author>
-               <date when="1972">1972</date>
+               <date when="1969">1969</date>
                <lang>en</lang>
             </bibl>
             <bibl xml:id="lit_work_id_58" type="poem">
@@ -692,7 +692,7 @@
                <author ref="#amp_person_1">
                   <persName>Auden, W. H.</persName>
                </author>
-               <date when="1965">1965</date>
+               <date when="1963">1963</date>
                <lang>en</lang>
             </bibl>
             <bibl xml:id="lit_work_id_75" type="drama">
@@ -724,7 +724,7 @@
                <author ref="#amp_person_1">
                   <persName>Auden, W. H.</persName>
                </author>
-               <date when="1965">1965</date>
+               <date when="1962">1962</date>
                <lang>en</lang>
                <lang>de</lang>
             </bibl>
@@ -783,7 +783,7 @@
                <lang>de</lang>
             </bibl>
             <bibl xml:id="lit_work_id_90" type="speech">
-               <title>Freedom and Necessity in the Arts (version 1970-05-21)</title>
+               <title>Freedom and Necessity in the Arts (English version 1970-05-21)</title>
                <author ref="#amp_person_1">
                   <persName>Auden, W. H.</persName>
                </author>
@@ -793,7 +793,7 @@
                <lang>fr</lang>
             </bibl>
             <bibl xml:id="lit_work_id_91" type="speech">
-               <title>Freedom and Necessity in the Arts (1970-05-21--1970-06-10)</title>
+               <title>Freedom and Necessity in the Arts (translation Stella Musulin Janko Musulin 1970-05-21--1970-06-10)</title>
                <author ref="#amp_person_2">
                   <persName>Musulin, Stella Mary Bellairs</persName>
                </author>
@@ -843,7 +843,6 @@
                   <persName>Williams, Charles</persName>
                </author>
                <date when="1958">1958</date>
-               <idno type="URI" subtype="WIKIDATA">https://baserow.acdh-dev.oeaw.ac.at/database/274/table/1487/5647/row/96</idno>
                <lang>en</lang>
             </bibl>
             <bibl xml:id="lit_work_id_96" type="review">
@@ -852,7 +851,6 @@
                   <persName>Auden, W. H.</persName>
                </author>
                <date when="1959">1959</date>
-               <idno type="URI" subtype="WIKIDATA">https://baserow.acdh-dev.oeaw.ac.at/database/274/table/1487/5647/row/95</idno>
                <lang>en</lang>
             </bibl>
             <bibl xml:id="lit_work_id_97" type="autobiographical text">
@@ -865,7 +863,7 @@
                <lang>en</lang>
             </bibl>
             <bibl xml:id="lit_work_id_99" type="legal document">
-               <title>Statement (addressed to the Austrian tax authorities)</title>
+               <title>Statement addressed to the Austrian tax authorities (English version 1972-07-26)</title>
                <author ref="#amp_person_1">
                   <persName>Auden, W. H.</persName>
                </author>
@@ -885,7 +883,7 @@
                <author ref="#amp_person_1">
                   <persName>Auden, W. H.</persName>
                </author>
-               <date when="1960">1960</date>
+               <date when="1959">1959</date>
                <lang>en</lang>
             </bibl>
             <bibl xml:id="lit_work_id_102" type="poem">
@@ -893,11 +891,14 @@
                <author ref="#amp_person_1">
                   <persName>Auden, W. H.</persName>
                </author>
-               <date when="1965">1965</date>
+               <date when="1964">1964</date>
                <lang>en</lang>
             </bibl>
             <bibl xml:id="lit_work_id_103" type="legal document">
-               <title>Statement (addressed to the Austrian tax authorities)</title>
+               <title>Statement addressed to the Austrian tax authorities (translation Hilde Spiel 1972-08-23--1972-09-18)</title>
+               <author ref="#amp_person_1">
+                  <persName>Auden, W. H.</persName>
+               </author>
                <author ref="#amp_person_78">
                   <persName>Spiel, Hilde</persName>
                </author>
@@ -930,12 +931,12 @@
                <author ref="#amp_person_1">
                   <persName>Auden, W. H.</persName>
                </author>
-               <date when="1969">1969</date>
+               <date when="1968">1968</date>
                <lang>en</lang>
                <lang>de</lang>
             </bibl>
             <bibl xml:id="lit_work_id_108" type="speech">
-               <title>Auden in Kirchstetten</title>
+               <title>Auden in Kirchstetten (1976-06-23)</title>
                <author ref="#amp_person_2">
                   <persName>Musulin, Stella Mary Bellairs</persName>
                </author>
@@ -976,7 +977,7 @@
                <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q18813</idno>
             </bibl>
             <bibl xml:id="lit_work_id_114" type="biographical text">
-               <title>Unpublished volume on W. H. Auden in Austria</title>
+               <title>Unpublished volume on W. H. Auden in Austria to be edited by Peter Müller</title>
                <author ref="#amp_person_2">
                   <persName>Musulin, Stella Mary Bellairs</persName>
                </author>
@@ -999,12 +1000,12 @@
                <author ref="#amp_person_1">
                   <persName>Auden, W. H.</persName>
                </author>
-               <date when="1968">1968</date>
+               <date when="1967">1967</date>
                <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q7443800</idno>
                <lang>en</lang>
             </bibl>
             <bibl xml:id="lit_work_id_117" type="biographical text">
-               <title>Unpublished volume on W. H. Auden</title>
+               <title>Unpublished volume of memoirs of W. H. Auden</title>
                <author ref="#amp_person_2">
                   <persName>Musulin, Stella Mary Bellairs</persName>
                </author>
@@ -1093,7 +1094,6 @@
                   <persName>Musulin, Stella Mary Bellairs</persName>
                </author>
                <date when="1977">1977</date>
-               <idno type="URI" subtype="WIKIDATA">https://www.mediathek.at/atom/046F4F16-1B8-0020E-00000A7C-046E80D1</idno>
                <lang>de</lang>
             </bibl>
             <bibl xml:id="lit_work_id_127" type="interview">
@@ -1149,7 +1149,7 @@
                <author ref="#amp_person_1">
                   <persName>Auden, W. H.</persName>
                </author>
-               <date when="1972">1972</date>
+               <date when="1971">1971</date>
                <lang>en</lang>
             </bibl>
             <bibl xml:id="lit_work_id_133" type="interview">
@@ -1329,7 +1329,6 @@
             <bibl xml:id="lit_work_id_159" type="interview">
                <title>Harrison Birtwistle: Writing Music is Like Knitting</title>
                <date when="2014">2014</date>
-               <idno type="URI" subtype="WIKIDATA">https://www.telegraph.co.uk/culture/books/ways-with-words/10963821/Harrison-Birtwistle-Writing-music-is-like-knitting.html</idno>
                <lang>en</lang>
             </bibl>
             <bibl xml:id="lit_work_id_161" type="poem">
@@ -1337,6 +1336,7 @@
                <author ref="#amp_person_1">
                   <persName>Auden, W. H.</persName>
                </author>
+               <date when="1968">1968</date>
                <lang>en</lang>
             </bibl>
             <bibl xml:id="lit_work_id_162" type="biographical text">
@@ -1521,7 +1521,7 @@
                <author ref="#amp_person_1">
                   <persName>Auden, W. H.</persName>
                </author>
-               <date when="1937">1937</date>
+               <date when="1936">1936</date>
                <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q7091167</idno>
                <lang>en</lang>
             </bibl>
@@ -1538,7 +1538,7 @@
                <author ref="#amp_person_1">
                   <persName>Auden, W. H.</persName>
                </author>
-               <date when="1941">1941</date>
+               <date when="1940">1940</date>
                <lang>en</lang>
             </bibl>
             <bibl xml:id="lit_work_id_185">
@@ -1573,7 +1573,7 @@
                <author ref="#amp_person_1">
                   <persName>Auden, W. H.</persName>
                </author>
-               <date when="1941">1941</date>
+               <date when="1939">1939</date>
                <lang>en</lang>
             </bibl>
       </listBibl>

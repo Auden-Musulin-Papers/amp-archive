@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0033.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0032.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0034.xml">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0033.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</title>
             <author ref="https://d-nb.info/gnd/14000761X">Mendelson, Edward</author>
+            <author ref="https://d-nb.info/gnd/127246711">Musulin, Stella</author>
             <editor><name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></editor>
             <funder>
                <name>Austrian Science Fund (FWF)</name>
@@ -19,7 +20,36 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>AMP</edition>
+            <edition>
+               <title>Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</title>
+               <interpGrp>
+                  <interp xml:id="ana_033" source="ph_033"><!-- link -->
+                     <desc>
+                        In <rs type="person" ref="#amp_person_2">Stella Musulin</rs>'s <ref target="acdh:amp-transcript__0031.xml">letter</ref> to <rs type="person" ref="#amp_person_98">Edward Mendelson</rs> from December 1985, she writes, "<rs type="person" ref="#amp_person_119">Peter Müller</rs> has not been sleeping over his plan to edit a <rs type="lit_work" ref="#lit_work_id_114">book on <rs type="person" ref="#amp_person_1">Auden</rs>´s time here</rs> . . . Now - you may know this - it is definite and the book is to come out in February 1987 in time for <rs type="person" ref="#amp_person_1">A</rs>´s 80th." In a 1990 interview, <rs type="person" ref="#amp_person_2">she</rs> states that "[d]uring the eighties, she was commissioned by the Niederösterreichische Verlag (Lower Austrian Provincial Publishers) to write a piece on <rs type="person" ref="#amp_person_1">Auden</rs> for some unnamed bilingual publication, which she did. However, due to lack of funds, this never appeared" (Firchow 237).
+                        <listBibl>
+                           <bibl sameAs="acdh:amp-index-works.xml#lit_work_id_114"><title>Unpublished volume on W. H. Auden in Austria to be edited by Peter Müller</title></bibl>
+                           <bibl>
+                              <author>
+                                 <persName>
+                                    <surname>Firchow</surname>
+                                    <forename>Peter Edgerly</forename>
+                                 </persName>
+                              </author>
+                              <title>W. H. Auden: Contexts for Poetry</title>
+                              <publisher>University of Delaware Press</publisher>
+                              <pubPlace>Newark</pubPlace>
+                              <date when-iso="2002"/>
+                              <idno type="ISBN">0-87413-766-7</idno>
+                              <citedRange unit="page" from="237" to="237"/>
+                           </bibl>
+                           <bibl sameAs="acdh:amp-transcript__0031.xml"/>
+                        </listBibl>
+                     </desc>
+                     <respons resp="dgrigoriou smayer tfruehwirth" locus="value"/>
+                     <certainty cert="medium" locus="value"/>
+                  </interp>
+               </interpGrp>
+            </edition>
             <respStmt><resp>Transcription and commentary</resp><name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></respStmt>
          <respStmt><resp>TEI Schema, ODD/RNG</resp><name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name><name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name></respStmt></editionStmt>
          <publicationStmt>
@@ -60,36 +90,35 @@ for any purpose, even commercially.</p>
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="acdh" matchPattern="(.+)"
+               replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+               <p>Edition Documents Prefix</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="de">German</language>
          </langUsage>
-         
          <correspDesc>
-            <correspAction type="composed">
-               <persName ref="#amp_person_98">Mendelson, Edward</persName>
-               <placeName ref="#amp_place_id_171">39 Claremont Ave, apt 31</placeName>
-               <date notBefore="1980-11-21" notAfter="1980-11-21">1980-11-21</date>
-            </correspAction>
             <correspAction type="sent">
-               <persName ref="#amp_person_98">Mendelson, Edward</persName>
+               <orgName><rs type="org" ref="#amp_organization_85">United States General Post Office</rs></orgName>
                <placeName ref="#amp_place_id_28">New York City</placeName>
-               <date notBefore="1980-11-23" notAfter="1980-11-23">1980-11-23</date>
+               <date notBefore-iso="1981-11-23T12:00:00-05:00" notAfter-iso="1981-11-23T23:59:59-05:00">1981-11-23T12:00:00-05:00/1981-11-23T23:59:59-05:00</date>
             </correspAction>
             <correspAction type="received">
                <persName ref="#amp_person_2">Musulin, Stella</persName>
                <placeName ref="#amp_place_id_172">Schlösselgasse 8</placeName>
-               <date>unknown</date>
             </correspAction>
             <correspContext>
-               <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
                <ref type="belongsToCorrespondence" target="#amp_person_98">Mendelson, Edward</ref>
+               <ref type="belongsToCorrespondence" target="#amp_person_2">Musulin, Stella</ref>
                <ref subtype="previous_letter" type="withinCollection" target="#amp-transcript__0032.xml">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</ref>
-               <ref subtype="next_letter" type="withinCollection" target="#amp-transcript__0034.xml">Typed Letter Signed Michael O'Sullivan to Stella Musulin 1984-05-31</ref>
             </correspContext>
          </correspDesc>
-         
       </profileDesc>
       <revisionDesc status="draft">
          <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
@@ -98,6 +127,7 @@ for any purpose, even commercially.</p>
          <change who="smayer tfruehwirth" when="2021-12-14">transcriptions collated</change>
          <change who="dgrigoriou" when="2022-10-06">transcriptions updated v0.1</change>
          <change who="dgrigoriou smayer tfruehwirth" when="2023-02-27">entities and correspDesc collated</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2024-03-22">container structure updated, entities updated, interpGrp added</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -110,116 +140,128 @@ for any purpose, even commercially.</p>
    </facsimile>
    <text type="letter" hand="#typed">
       <body>
-         <div xml:id="transcription">
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0229/" type="sheet"/>
-               <p>
-                  <space quantity="45" unit="char"/><rs type="place" ref="#amp_place_id_248">39 Claremont Ave, apt 31<lb/>
-                  <space quantity="45" unit="char"/>New York NY  10027</rs><lb/>
-               </p>
-               <p>
-                  <space quantity="45" unit="char"/>21 Novembe<del>er</del>r  1981
-               </p>
-               <p>
-                  Dear <rs type="person" ref="#amp_person_2">Stella</rs>,
-               </p>
-               <p>
-                  Delighted you got that <rs type="lit_work" ref="#lit_work_id_49">EARLY AUDEN</rs>, and even more delighted you find<lb/>
-                  it worth looking into. <space quantity="1" unit="char"/><del>As I suppose you've experienced yourself,</del>Is it a universal experience among authors to<lb/>
-                  be surprised that someone actually reads one's book?  I'm so familiar<lb/>
-                  with <rs type="lit_work" ref="#lit_work_id_49">the thing</rs> by now, and so aware of its deficiencies, that I wish<lb/>
-                  I could recall the edition and rewrite <rs type="lit_work" ref="#lit_work_id_49">the whole <del>thing from</del>book</rs> from the start.<lb/>
-                  Luckily, t<del>h</del>eaching, reviewing and miscellaneous annoyances keep the<lb/>
-                  mind elsewhere. <space quantity="1" unit="char"/>One of those miscellaneous annoy<del><gap reason="deleted"/></del>ances was a move<lb/>
-                  from <rs type="place" ref="#amp_place_id_171">my o<del>d</del>ld flat</rs> to <rs type="place" ref="#amp_place_id_248">an<del>t</del>other one</rs> on the same floor in the same building.<lb/>
-                  The <rs type="place" ref="#amp_place_id_171">new address</rs> is up above, and the only change is in the apartment<lb/>
-                  number. <space quantity="1" unit="char"/>Phone number still 212 222-0679.
-               </p>
-               <p>
-                  Yes, I saw the <rs type="person" ref="#amp_person_">you<del>g</del>ng man</rs> who was doing advance work f<del>ro</del>or <rs type="person" ref="#amp_person_158">Robert Robinson</rs>,<lb/>
-                  but haven't heard from him since July. <space quantity="1" unit="char"/>I gather <rs type="lit_work" ref="#lit_work_id_118"><del>wor</del>that work</rs> progresses,<lb/>
-                  though. <space quantity="1" unit="char"/>There was <rs type="lit_work" ref="#lit_work_id_119">an hour on <rs type="person" ref="#amp_person_1">Wystan</rs> on <rs type="org" ref="#amp_organization_28">BBC</rs> <hi rend="underline"/>Radio</rs> the other week--a<lb/>
-                  "dramatization" with an actor reading the poems and lots of ominous<lb/>
-                  <space quantity="1" unit="char"/>noises off. <space quantity="1" unit="char"/>I'm told it was fairly dreadful, but perh<del><gap reason="deleted"/></del>aps <rs type="lit_work" ref="#lit_work_id_118">the TV film</rs><lb/>
-                  will be better. <space quantity="1" unit="char"/>I saw quite a good one from the <rs type="org" ref="#amp_organization_28">BBC</rs> on <rs type="person" ref="#amp_person_136">Benjamin Britten</rs>.<lb/>
-                  Its only fault--and I'm not sure <del><gap reason="deleted"/></del>this was a fault, given the usual tone<lb/>
-                  of TV journalism--was an awed tone of worship.
-               </p>
-               <p>
-                  <del>A</del>Easy answers to important questions. <space quantity="1" unit="char"/>Those <rs type="lit_work" ref="#lit_work_id_114">two volumes <del><gap reason="deleted"/>f</del>by and about<lb/>
-                  <rs type="person" ref="#amp_person_1">Auden</rs></rs> sound very attractive. <space quantity="1" unit="char"/>(Which publisher is interested?) <space quantity="1" unit="char"/>The<lb/>
-                  place to write for permissions is to the agents, specifically, to
-               </p>
-               <p>
-                  <space quantity="24" unit="char"/><rs type="person" ref="#amp_person_159">Maureen Walters</rs><lb/>
-                  <space quantity="24" unit="char"/><rs type="org" ref="#amp_organization_29">Curtis Brown Ltd</rs><lb/>
-                  <space quantity="24" unit="char"/><rs type="place" ref="#amp_place_id_221">575 Madison Avenue<lb/>
-                  <space quantity="24" unit="char"/>New York NY  10022<lb/>
-                  <space quantity="24" unit="char"/>USA</rs>
-               </p>
-               <p>
-                  Mention <rs type="person" ref="#amp_person_98">my name</rs>, and things will be easier. <space quantity="1" unit="char"/>But they should be easy<lb/>
-                  anyway.
-               </p>
-               <p>
-                  Now let me beg you for an easy answer. <space quantity="1" unit="char"/>I've heard from at<del>t<gap reason="deleted"/></del> least two<lb/>
-                  different people that they had seen (or knew someone else who had seen)<lb/>
-                  a <rs type="lit_work" ref="#lit_work_id_115">German text of your Wystan memoir</rs> in print. <space quantity="1" unit="char"/>Are they right, or are<lb/>
-                  they confusing this with an occasion when you read it aloud (and it was<lb/>
-                  reported)? <space quantity="1" unit="char"/>I had an <rs type="person" ref="#amp_person_">Austrian student</rs> here this summer working on <rs type="person" ref="#amp_person_1">Wystan</rs>,<lb/>
-                  and I wanted to tell her about <rs type="lit_work" ref="#lit_work_id_115">the piece</rs>, but didn't know where to find<lb/>
-                  it. <space quantity="1" unit="char"/>Please, <hi rend="underline">please</hi> tell me if you printed <rs type="lit_work" ref="#lit_work_id_115">it</rs>, and if so, where. <space quantity="1" unit="char"/>No need<lb/>
-                  for a long letter: just a "No, calm down, I never printed <rs type="lit_work" ref="#lit_work_id_115">it</rs>" or a "Yes,<lb/>
-                  it appeared in such-in-such a journal" would be more than enough. <space quantity="1" unit="char"/>This is<lb/>
-                  the one min<del><gap reason="deleted"/></del>or mystery of writings-about-<rs type="person" ref="#amp_person_1">Wystan</rs> I haven't been able to solve,<lb/>
-                  so please do help.
-               </p>
-               <p>
-                  Have I told you <del><gap reason="deleted"/>ny</del>any of my news? <space quantity="1" unit="char"/>I'm now at <rs type="org" ref="#amp_organization_30">Columbia University</rs> permanently,<lb/>
-                  if I want to be. <space quantity="1" unit="char"/>I have a <rs type="place" ref="#amp_place_id_248">flat</rs> with a small guest room and bath--so please<lb/>
-                  take note if you're in <rs type="place" ref="#amp_place_id_15">th<del>e</del>is country</rs> for any reason. <space quantity="1" unit="char"/>I have a lady friend,<lb/>
-                  the first whom I expect to be with for a very long time, and we are quite<lb/>
-                  happy about things in general. <space quantity="1" unit="char"/>Next June we'll be in <rs type="place" ref="#amp_place_id_30">Europe</rs>, certainly in<lb/>
-                  <rs type="place" ref="#amp_place_id_84">Paris</rs>, possibly father <del><gap reason="deleted"/></del>south, <del>t</del>although we may put off the southern trip<lb/>
-                  for another year or so. <space quantity="1" unit="char"/>I haven't been across the Atlantic this year; too<lb/>
-               </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0230/" type="sheet"/>
-               <p>
-                  <rs type="person" ref="#amp_person_98">Mendelson</rs><lb/>
-                  <rs type="place" ref="#amp_place_id_248">39 Claremont Ave, apt 31<lb/>
-                  New York NY  10027</rs>
-               </p>
-            <p hand="#handwritten">
-                  Red<unclear>aktion</unclear> 11-12.<lb/>
-                  <rs type="org" ref="#amp_organization_67"> Kr<unclear>on</unclear>e<unclear>nz</unclear>ei<unclear>tung</unclear></rs><unclear>.</unclear>½ 2-<unclear>5</unclear><lb/>
-                  <rs type="org" ref="#amp_organization_68">M<unclear>or</unclear>gen  197<unclear>7.</unclear></rs> ·<lb/>
-                  1.Nu<unclear>mer.</unclear> <unclear>Heft</unclear><unclear>.</unclear>
-               </p>
-               <p>
-                  <space quantity="36" unit="char"/><rs type="person" ref="#amp_person_2">Frau Baronin<lb/>
-                  <space quantity="36" unit="char"/>Stella Musulin</rs><lb/>
-                  <space quantity="36" unit="char"/><rs type="place" ref="#amp_place_id_172">Sch<del><gap reason="deleted"/></del>l<del>t</del>össelgasse 8/17<lb/>
-                  <space quantity="36" unit="char"/>A-1080 Vienna<lb/>
-                  <space quantity="36" unit="char"/>Austria</rs>
-               </p>
-               <p>
-                  preoccupied, too broke, too much to do in <rs type="place" ref="#amp_place_id_28">New York</rs> to feel much of an<lb/>
-                  i<del><unclear>p</unclear></del>mpulse to get away. <space quantity="1" unit="char"/>My years in <rs type="place" ref="#amp_place_id_222">New Haven</rs> always left me panting to<lb/>
-                  get overseas, but now I feel at home again.
-               </p>
-               <p>
-                  Did you see <rs type="person" ref="#amp_person_100">Humphrey Carpenter</rs>'s <rs type="lit_work" ref="#lit_work_id_39">book on <rs type="person" ref="#amp_person_1">Wystan</rs></rs>?  Not bad, as biographies<lb/>
-                  <unclear>g</unclear>o, but not very deep either. <space quantity="1" unit="char"/>It seems to have most of the facts right,<lb/>
-                  which is something. <space quantity="1" unit="char"/>Now <rs type="lit_work" ref="#lit_work_id_48">a life of <rs type="person" ref="#amp_person_4">Chester</rs></rs> is being written, by the <rs type="person" ref="#amp_person_150">woman</rs><lb/>
-                  who recently married <rs type="person" ref="#amp_person_160"><rs type="person" ref="#amp_person_4">Chester</rs>'s father</rs>, and who knew <rs type="person" ref="#amp_person_4">Chester</rs> since 1942.<lb/>
-                  Full of surprises and purple passages; <rs type="person" ref="#amp_person_4">Chester</rs> would be pleased, I think,<lb/>
-                  although I don't like to imagine how <rs type="person" ref="#amp_person_1">Wystan</rs> would have taken <rs type="lit_work" ref="#lit_work_id_48">it</rs>.
-               </p>
-               <p hand="#handwritten">
-                  A<unclear>ff</unclear>ection<unclear>a</unclear>tely,
-               </p>
-               <p hand="#handwritten">
-                  <rs type="person" ref="#amp_person_98">Ed</rs>
-               </p>
+         <div type="transcription" xml:id="transcription_amp_0033" xml:lang="en">
+            <div type="letter">
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0229/" type="sheet" ed="1r"/>
+               <div type="letter_message">
+                  <opener>
+                     <dateline>
+                        <placeName>
+                           <address>
+                              <space quantity="45" unit="char"/><rs type="place" ref="#amp_place_id_248">39 Claremont Ave, apt 31<lb/>
+                              <space quantity="45" unit="char"/>New York NY  10027</rs>
+                           </address>
+                        </placeName>
+                        <space quantity="45" unit="char"/><date rend="#block">21 Novembe<del>er</del>r <space quantity="1" unit="char"/>1981</date>
+                     </dateline>
+                     <salute>
+                        Dear <rs type="person" ref="#amp_person_2">Stella</rs>,
+                     </salute>
+                  </opener>
+                  <p>
+                     Delighted you got that <rs type="lit_work" ref="#lit_work_id_49">EARLY AUDEN</rs>, and even more delighted you find<lb/>
+                     it worth looking into. <space quantity="1" unit="char"/><del>As I suppose you've experienced yourself,</del>Is it a universal experience among authors to<lb/>
+                     be surprised that someone actually reads one's book?  I'm so familiar<lb/>
+                     with <rs type="lit_work" ref="#lit_work_id_49">the thing</rs> by now, and so aware of its deficiencies, that I wish<lb/>
+                     I could recall the edition and rewrite <rs type="lit_work" ref="#lit_work_id_49">the whole <del>thing from</del>book</rs> from the start.<lb/>
+                     Luckily, t<del>h</del>eaching, reviewing and miscellaneous annoyances keep the<lb/>
+                     mind elsewhere. <space quantity="1" unit="char"/>One of those miscellaneous annoy<del><gap reason="deleted"/></del>ances was a move<lb/>
+                     from <rs type="place" ref="#amp_place_id_171">my o<del>d</del>ld flat</rs> to <rs type="place" ref="#amp_place_id_248">an<del>t</del>other one</rs> on the same floor in the same building.<lb/>
+                     The <rs type="place" ref="#amp_place_id_248">new address</rs> is up above, and the only change is in the apartment<lb/>
+                     number. <space quantity="1" unit="char"/>Phone number still 212 222-0679.
+                  </p>
+                  <p>
+                     Yes, I saw the you<del>g</del>ng man who was doing advance work f<del>ro</del>or <rs type="person" ref="#amp_person_158">Robert Robinson</rs>,<lb/>
+                     but haven't heard from him since July. <space quantity="1" unit="char"/>I gather <rs type="lit_work" ref="#lit_work_id_118"><del>wor</del>that work</rs> progresses,<lb/>
+                     though. <space quantity="1" unit="char"/>There was <rs type="lit_work" ref="#lit_work_id_119">an hour on <rs type="person" ref="#amp_person_1">Wystan</rs></rs> on <rs type="org" ref="#amp_organization_28">BBC <hi rend="underline">Radio</hi></rs> the other week--a<lb/>
+                     "dramatization" with an actor reading the poems and lots of ominous<lb/>
+                     <space quantity="1" unit="char"/>noises off. <space quantity="1" unit="char"/>I'm told it was fairly dreadful, but perh<del><gap reason="deleted"/></del>aps <rs type="lit_work" ref="#lit_work_id_118">the TV film</rs><lb/>
+                     will be better. <space quantity="1" unit="char"/>I saw quite a good one from the <rs type="org" ref="#amp_organization_22">BBC</rs> on <rs type="person" ref="#amp_person_136">Benjamin Britten</rs>.<lb/>
+                     Its only fault--and I'm not sure <del><gap reason="deleted"/></del>this was a fault, given the usual tone<lb/>
+                     of TV journalism--was an awed tone of worship.
+                  </p>
+                  <p>
+                     <del>A</del>Easy answers to important questions. <space quantity="1" unit="char"/>Those <rs type="lit_work" ref="#lit_work_id_185" ana="#ana_033">two volumes <del><gap reason="deleted"/>f</del>by and about<lb/>
+                     <rs type="person" ref="#amp_person_1">Auden</rs></rs> sound very attractive. <space quantity="1" unit="char"/>(Which publisher is interested?) <space quantity="1" unit="char"/>The<lb/>
+                     place to write for permissions is to the agents, specifically, to
+                     <seg>
+                        <lb/><space quantity="24" unit="char"/><rs type="person" ref="#amp_person_159">Maureen Walters</rs>
+                        <lb/><space quantity="24" unit="char"/><rs type="org" ref="#amp_organization_29">Curtis Brown Ltd</rs>
+                        <lb/><space quantity="24" unit="char"/><rs type="place" ref="#amp_place_id_221">575 Madison Avenue
+                        <lb/><space quantity="24" unit="char"/>New York NY  10022
+                        <lb/><space quantity="24" unit="char"/>USA</rs><lb/>
+                     </seg>
+                     Mention <rs type="person" ref="#amp_person_98">my name</rs>, and things will be easier. <space quantity="1" unit="char"/>But they should be easy<lb/>
+                     anyway.
+                  </p>
+                  <p>
+                     Now let me beg you for an easy answer. <space quantity="1" unit="char"/>I've heard from at<del>t<gap reason="deleted"/></del> least two<lb/>
+                     different people that they had seen (or knew someone else who had seen)<lb/>
+                     a <rs type="lit_work" ref="#lit_work_id_115">German text of your Wystan memoir</rs> in print. <space quantity="1" unit="char"/>Are they right, or are<lb/>
+                     they confusing this with an occasion when you read it aloud (and it was<lb/>
+                     reported)? <space quantity="1" unit="char"/>I had an Austrian student here this summer working on <rs type="person" ref="#amp_person_1">Wystan</rs>,<lb/>
+                     and I wanted to tell her about <rs type="lit_work" ref="#lit_work_id_115">the piece</rs>, but didn't know where to find<lb/>
+                     it. <space quantity="1" unit="char"/>Please, <hi rend="underline">please</hi> tell me if you printed <rs type="lit_work" ref="#lit_work_id_115">it</rs>, and if so, where. <space quantity="1" unit="char"/>No need<lb/>
+                     for a long letter: just a "No, calm down, I never printed it" or a "Yes,<lb/>
+                     it appeared in such-in-such a journal" would be more than enough. <space quantity="1" unit="char"/>This is<lb/>
+                     the one min<del><gap reason="deleted"/></del>or mystery of writings-about-<rs type="person" ref="#amp_person_1">Wystan</rs> I haven't been able to solve,<lb/>
+                     so please do help.
+                  </p>
+                  <p>
+                     Have I told you <del><gap reason="deleted"/>ny</del>any of my news? <space quantity="1" unit="char"/>I'm now at <rs type="org" ref="#amp_organization_30">Columbia University</rs> permanently,<lb/>
+                     if I want to be. <space quantity="1" unit="char"/>I have a <rs type="place" ref="#amp_place_id_248">flat</rs> with a small guest room and bath--so please<lb/>
+                     take note if you're in <rs type="place" ref="#amp_place_id_15">th<del>e</del>is country</rs> for any reason. <space quantity="1" unit="char"/>I have a lady friend,<lb/>
+                     the first whom I expect to be with for a very long time, and we are quite<lb/>
+                     happy about things in general. <space quantity="1" unit="char"/>Next June we'll be in <rs type="place" ref="#amp_place_id_30">Europe</rs>, certainly in<lb/>
+                     <rs type="place" ref="#amp_place_id_84">Paris</rs>, possibly father <del><gap reason="deleted"/></del>south, <del>t</del>although we may put off the southern trip<lb/>
+                     for another year or so. <space quantity="1" unit="char"/>I haven't been across the Atlantic this year; too<lb/>
+                  </p>
+                  </div>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0230/" type="sheet" ed="1v"/>
+                  <div>
+                     <ab>
+                        <rs type="person" ref="#amp_person_98">Mendelson</rs><lb/>
+                        <address>
+                           <rs type="place" ref="#amp_place_id_248">39 Claremont Ave, apt 31<lb/>
+                           New York NY <space quantity="1" unit="char"/>10027</rs>
+                        </address>
+                     </ab>
+                     <ab hand="#handwritten" xml:lang="de">
+                        Red<unclear>aktion</unclear> 11-12.<lb/>
+                        <rs type="org" ref="#amp_organization_67">Kr<unclear>on</unclear>e<unclear>nz</unclear>ei<unclear>tung</unclear></rs><unclear>.</unclear>½ 2-<unclear>5</unclear><lb/>
+                        <rs type="org" ref="#amp_organization_68">M<unclear>or</unclear>gen  197<unclear>7.</unclear></rs> ·<lb/>
+                        1.Nu<unclear>mer.</unclear> <unclear>Heft</unclear><unclear>.</unclear>
+                     </ab>
+                     <ab xml:lang="de">
+                        <space quantity="36" unit="char"/><rs type="person" ref="#amp_person_2">Frau Baronin<lb/>
+                        <space quantity="36" unit="char"/>Stella Musulin</rs><lb/>
+                        <address xml:lang="en">
+                           <space quantity="36" unit="char"/><rs type="place" ref="#amp_place_id_172">Sch<del><gap reason="deleted"/></del>l<del>t</del>össelgasse 8/17<lb/>
+                           <space quantity="36" unit="char"/>A-1080 Vienna<lb/>
+                           <space quantity="36" unit="char"/>Austria</rs>
+                        </address>
+                     </ab>
+                  </div>
+                  <div type="letter_message">
+                     <p prev="true">
+                        preoccupied, too broke, too much to do in <rs type="place" ref="#amp_place_id_28">New York</rs> to feel much of an<lb/>
+                        i<del><unclear>p</unclear></del>mpulse to get away. <space quantity="1" unit="char"/>My years in <rs type="org" ref="#amp_organization_18">New Haven</rs> always left me panting to<lb/>
+                        get overseas, but now I feel at home again.
+                     </p>
+                     <p>
+                        Did you see <rs type="person" ref="#amp_person_100">Humphrey Carpenter</rs>'s <rs type="lit_work" ref="#lit_work_id_39">book on <rs type="person" ref="#amp_person_1">Wystan</rs></rs>?  Not bad, as biographies<lb/>
+                        <unclear>g</unclear>o, but not very deep either. <space quantity="1" unit="char"/>It seems to have most of the facts right,<lb/>
+                        which is something. <space quantity="1" unit="char"/>Now <rs type="lit_work" ref="#lit_work_id_48">a life of <rs type="person" ref="#amp_person_4">Chester</rs></rs> is being written, by the <rs type="person" ref="#amp_person_150">woman</rs><lb/>
+                        who recently married <rs type="person" ref="#amp_person_160">Chester's father</rs>, and who knew <rs type="person" ref="#amp_person_4">Chester</rs> since 1942.<lb/>
+                        Full of surprises and purple passages; <rs type="person" ref="#amp_person_4">Chester</rs> would be pleased, I think,<lb/>
+                        although I don't like to imagine how <rs type="person" ref="#amp_person_1">Wystan</rs> would have taken it.
+                     </p>
+                     <closer hand="#handwritten">
+                        <salute>A<unclear>ff</unclear>ection<unclear>a</unclear>tely,</salute>
+                        <signed><rs type="person" ref="#amp_person_98">Ed</rs></signed>
+                     </closer>
+                  </div>
+            </div>
          </div>
       </body>
    </text>

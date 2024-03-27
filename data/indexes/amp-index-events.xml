@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at" xml:id="amp-index-events.xml" next="https://id.acdh.oeaw.ac.at/amp-index-organizations.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -13,7 +13,7 @@
                <resp>converted to XML encoding</resp>
                <name>Daniel Stoxreiter</name>
             </respStmt>
-            <funder>
+            <funder xmlns="http://www.tei-c.org/ns/1.0">
                <name>FWF Der Wissenschaftsfond.</name>
                <address>
                      <street>Sensengasse 1</street>
@@ -390,6 +390,9 @@
                      <person sameAs="amp_person_120" role="is_attendee_of">
                         <persName>Monteith, Charles</persName>
                      </person>
+                     <person sameAs="amp_person_121" role="is_attendee_of">
+                        <persName>Esders, Christa</persName>
+                     </person>
                   </listPerson>
                   <listPlace>
                      <place sameAs="amp_place_id_5" type="location" subtype="is_event_location">
@@ -478,9 +481,6 @@
                   </listPlace>
                   <listOrg>
                      <org sameAs="amp_organization_9" role="is_organizer_of">
-                        <orgName>Österreichische Gesellschaft für Literatur (Austrian Society for Literature)</orgName>
-                     </org>
-                     <org sameAs="amp_organization_9" role="is_host_of">
                         <orgName>Österreichische Gesellschaft für Literatur (Austrian Society for Literature)</orgName>
                      </org>
                   </listOrg>
@@ -745,46 +745,6 @@
                         <placeName>Eslarngasse</placeName>
                         <location type="coords">
                            <geo>48.19499, 16.39375</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </event>
-               <event xml:id="amp_event_id_40" notBefore-iso="1973-09-30" notAfter-iso="1973-09-30" type="personal">
-                  <label>Preparation of W. H. Auden's funeral, 1973-09-30</label>
-                  <listPerson>
-                     <person sameAs="amp_person_2" role="is_activeparticipant_in">
-                        <persName>Musulin, Stella Mary Bellairs</persName>
-                     </person>
-                     <person sameAs="amp_person_4" role="is_activeparticipant_in">
-                        <persName>Kallman, Chester</persName>
-                     </person>
-                     <person sameAs="amp_person_22" role="is_activeparticipant_in">
-                        <persName>Enzinger, Josef</persName>
-                     </person>
-                     <person sameAs="amp_person_32" role="is_activeparticipant_in">
-                        <persName>Strobl, Josefa</persName>
-                     </person>
-                     <person sameAs="amp_person_87" role="is_activeparticipant_in">
-                        <persName>Opel, Adolf</persName>
-                     </person>
-                     <person sameAs="amp_person_96" role="is_activeparticipant_in">
-                        <persName>Clark, Thekla</persName>
-                     </person>
-                     <person sameAs="amp_person_97" role="is_activeparticipant_in">
-                        <persName>Seitz, Maria</persName>
-                     </person>
-                     <person sameAs="amp_person_169" role="is_activeparticipant_in">
-                        <persName>Clark, Lisa</persName>
-                     </person>
-                     <person sameAs="amp_person_4" role="is_activeparticipant_in">
-                        <persName>Kallman, Chester</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place sameAs="amp_place_id_2" type="location" subtype="is_event_location">
-                        <placeName>Hinterholz 6</placeName>
-                        <location type="coords">
-                           <geo>48.18153, 15.81151</geo>
                         </location>
                      </place>
                   </listPlace>
@@ -1804,6 +1764,27 @@
                      </org>
                   </listOrg>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q124830790</idno>
+               </event>
+               <event xml:id="amp_event_id_106" notBefore-iso="1976-06-23" notAfter-iso="1976-06-23" type="professional">
+                  <label>Talk Stella Musulin "Auden in Kirchstetten" 1976-06-23</label>
+                  <listPerson>
+                     <person sameAs="amp_person_2" role="is_speaker_in">
+                        <persName>Musulin, Stella Mary Bellairs</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place sameAs="amp_place_id_56" type="location" subtype="is_event_location">
+                        <placeName>London</placeName>
+                        <location type="coords">
+                           <geo>51.50853, -0.12574</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+                  <listOrg>
+                     <org sameAs="amp_organization_47" role="is_organizer_of">
+                        <orgName>English PEN</orgName>
+                     </org>
+                  </listOrg>
                </event>
             </listEvent>
          </div>

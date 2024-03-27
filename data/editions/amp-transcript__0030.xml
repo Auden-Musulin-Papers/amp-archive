@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0030.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0029.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0031.xml">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0030.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -21,6 +21,15 @@
          <editionStmt>
             <edition>
                <title>Copy Typed Letter Stella Musulin to Bruce Duncan 1985-11-29</title>
+               <interpGrp>
+                  <interp source="ph_028" xml:id="ana_028"><!-- link -->
+                     <desc>
+                        <rs type="person" ref="#amp_person_156">Bruce Duncan</rs> is depicted, to the right of <rs type="person" ref="#amp_person_230">Anton Schickelgruber</rs>, in one of <rs type="person" ref="#amp_person_2">Stella Musulin</rs>'s <ref target="acdh:amp-transcript__0075.xml">photographs</ref> of <rs type="event" ref="#amp_event_id_19"><rs type="person" ref="#amp_person_1">W. H. Auden</rs>'s funeral</rs>.
+                     </desc>
+                     <respons resp="dgrigoriou smayer tfruehwirth" locus="value"/>
+                     <certainty cert="high" locus="value"/>
+                  </interp>
+               </interpGrp>
             </edition>
             <respStmt><resp>Transcription and commentary</resp><name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></respStmt>
          <respStmt><resp>TEI Schema, ODD/RNG</resp><name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name><name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name></respStmt></editionStmt>
@@ -54,9 +63,9 @@
                         <idno>2, 10</idno>
                      </msIdentifier>
                      <history>
-                        <origin><!-- mark up certainty values -->
+                        <origin>
                            <origDate notBefore-iso="1985-11-29T00:00:00+01:00" notAfter-iso="1985-11-29T23:59:59+01:00">1985-11-29</origDate>
-                           <origPlace ref="#amp_place_id_10">Austria</origPlace>
+                           <origPlace ref="#amp_place_id_7">Schloss Fridau</origPlace>
                         </origin>
                      </history>
                   </msDesc>
@@ -64,6 +73,14 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="acdh" matchPattern="(.+)"
+               replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+               <p>Edition Documents Prefix</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
@@ -77,6 +94,7 @@
          <change who="dgrigoriou" when="2022-10-06">transcriptions updated v0.1</change>
          <change who="dgrigoriou smayer tfruehwirth" when="2023-02-23">entities and correspDesc collated</change>
          <change who="dgrigoriou" when="2023-08-17">container structure updated</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2024-03-14">entities updated, interpGrp added</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -91,7 +109,7 @@
       <body>
          <div type="transcription" xml:id="transcription_amp_0030" xml:lang="en">
            <div type="letter">
-           <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0221/" type="sheet"/>
+           <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0221/" type="sheet" ed="1r"/>
                <div type="letter_message">
                   <opener>
                      <dateline>
@@ -122,7 +140,7 @@
                   </p>
                   <p>
                      <space quantity="4" unit="char"/>Would you be so kind as to confirm that you took the<lb/>
-                     <rs type="event" ref="#amp_event_id_19">ecumenical service</rs> - shall I<del>S</del>scall it that? in the <rs type="place" ref="#amp_place_id_332">church at<lb/>
+                     <rs type="event" ref="#amp_event_id_19" ana="#ana_028">ecumenical service</rs> - shall I<del>S</del>scall it that? in the <rs type="place" ref="#amp_place_id_332">church at<lb/>
                      Kirchstetten</rs> in October 1973, jointly with the <rs type="person" ref="#amp_person_230">parish priest</rs>?
                   </p>
                   <p>    
@@ -140,7 +158,7 @@
                      life was a mess. <space quantity="1" unit="char"/>But he was kind, generous and totally<lb/>
                      unpreten<del>s</del>tious, and personally I was devoted to him. <space quantity="1" unit="char"/>It is
                   </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0222/" type="sheet"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0222/" type="sheet" ed="1v"/>
                   <p prev="true">
                      my dim recollection that some verse or other in the <rs type="lit_work" ref="#lit_work_id_59">Bible</rs><lb/>
                      reading might help me to describe that amazing mixture of<lb/>

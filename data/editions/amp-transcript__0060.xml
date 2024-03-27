@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0060.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0059.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0061.xml">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0060.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -19,7 +19,9 @@
                 </funder>
             </titleStmt>
             <editionStmt>
-                <edition>AMP</edition>
+                <edition>
+                    <title>Copy Typed Letter Wolfgang Kraus to Stella Musulin 1977-03-22</title>
+                </edition>
                 <respStmt><resp>Transcription and commentary</resp><name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></respStmt>
             <respStmt><resp>TEI Schema, ODD/RNG</resp><name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name><name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name></respStmt></editionStmt>
             <publicationStmt>
@@ -55,7 +57,7 @@
                             <history>
                                 <origin>
                                     <origDate notBefore-iso="1977-03-22T00:00:00+01:00" notAfter-iso="1977-03-22T23:59:59+01:00">1977-03-22</origDate>
-                                    <origPlace ref="#amp_place_id_211">Herrengasse 5</origPlace><!-- mark up certainty value -->
+                                    <origPlace ref="#amp_place_id_211" cert="high" resp="dgrigoriou smayer tfruehwirth">Herrengasse 5</origPlace>
                                 </origin>
                             </history>
                         </msDesc>
@@ -63,6 +65,14 @@
                 </listWit>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <listPrefixDef>
+                <prefixDef ident="acdh" matchPattern="(.+)"
+                    replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+                    <p>Edition Documents Prefix</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
         <profileDesc>
             <langUsage>
                 <language ident="de">German</language>
@@ -76,6 +86,7 @@
             <change who="dgrigoriou" when="2022-10-06">transcriptions updated v0.1</change>
             <change who="dgrigoriou smayer tfruehwirth" when="2023-03-02">entities and correspDesc collated</change>
             <change who="dgrigoriou" when="2023-08-18">container structure updated</change>
+            <change who="dgrigoriou smayer tfruehwirth" when="2024-03-18">entities updated</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -88,9 +99,9 @@
     </facsimile>
     <text type="letter" hand="#typed">
         <body>
-            <div type="transcription" xml:id="transcription_amp_0060">
+            <div type="transcription" xml:id="transcription_amp_0060" xml:lang="de">
                <div type="letter"> 
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0253/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0253/" type="sheet" ed="1r"/>
                   <div>
                       <ab hand="#handwritten">
                           <unclear>A2</unclear>
@@ -133,7 +144,7 @@
                         <space quantity="32" unit="char"/><signed>(<rs type="person" ref="#amp_person_137">Dr.Wolfgang Kraus</rs>)</signed>
                      </closer>
                   </div>
-               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0254/" type="sheet"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0254/" type="sheet" ed="1v"/>
             </div>
         </div>
         </body>
