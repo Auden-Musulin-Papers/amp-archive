@@ -538,7 +538,7 @@ acdhi:wrohringer a acdh:Person;
     acdh:hasPersonalTitle "Dr.";
     acdh:hasTitle "Rohringer, Wolfgang"@und.
 <https://www.wikidata.org/wiki/Q680662> a acdh:Organisation;
-    acdh:hasTitle "Austrian Press Agency"@en, "Austria Press Agency"@en.
+    acdh:hasTitle "Austria Press Agency"@en.
 <https://orcid.org/0000-0002-0914-9245> a acdh:Person;
     acdh:hasPersonalTitle "BA MMA";
     acdh:hasTitle "Grigoriou, Dimitra"@und;
