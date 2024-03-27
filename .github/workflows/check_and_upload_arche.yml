@@ -13,7 +13,7 @@ jobs:
       ARCHE_INSTANCE: arche-curation.acdh-dev
       ARCHE_INSTANCE_NAME: Curation
       PROJECT_NAME : auden-musulin-papers
-      OUTPUT_DIR: rdf
+      OUTPUT_DIR: to_ingest
       DATA_DIR: data/editions
       META_DIR: data/metadata
       INDICES_DIR: data/indexes
@@ -33,7 +33,6 @@ jobs:
         # vendor/bin/arche-update-redmine --token ${{ secrets.REDMINE_TOKEN }} --append "$RUN_URL" $REDMINE_ID 'Upload AIP to ${ARCHE_INSTANCE_NAME} Instance'
     - name: Copy XML Files to to_ingest 
       run: |
-        mkdir $PWD/to_ingest
         find -path "./${DATA_DIR}/*.xml" -exec cp -prv '{}' './to_ingest' ';'
         find -path "./${INDICES_DIR}/*.xml" -exec cp -prv '{}' './to_ingest' ';'
         find -path "./${META_DIR}/*.odd" -exec cp -prv '{}' './to_ingest' ';'

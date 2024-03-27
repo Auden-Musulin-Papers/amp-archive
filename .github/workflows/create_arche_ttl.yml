@@ -95,10 +95,10 @@ jobs:
       - name: refresh AV database
         run: |
           python3 -m pip install --user cvdupdate && cvd update
-      - name: Verify RDF Metadata with metadata-crawler
+      - name: Verify Binaries with repo-filechecker
         run: |
           ./shellscripts/filechecker.sh
-      - name: Verify RDF Metadata with metadata-crawler
+      - name: Verify RDF Metadata with arche-metadata-crawler
         run: |
           composer require "acdh-oeaw/arche-metadata-crawler:^0.5.0"
           ./shellscripts/crawler.sh
