@@ -4,9 +4,9 @@
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Typescript Stella Musulin Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</title>
-            <author ref="https://d-nb.info/gnd/127246711">Musulin, Stella</author>
-            <author ref="https://id.acdh.oeaw.ac.at/emusulin">Musulin, Elsa</author>
-            <editor><name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></editor>
+            <author ref="https://d-nb.info/gnd/127246711">Musulin, Stella Mary Bellairs</author>
+            <author ref="https://id.acdh.oeaw.ac.at/emusulin">Musulin, Elsa Gerda Maria Louise Pauline von</author>
+            <editor><name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name xml:id="tfruehwirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></editor>
             <funder>
                <name>Austrian Science Fund (FWF)</name>
                <address>
@@ -20,7 +20,9 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>AMP</edition>
+            <edition>
+               <title>Typescript Stella Musulin Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</title>
+            </edition>
             <respStmt><resp>Transcription and commentary</resp><name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></respStmt>
          <respStmt><resp>TEI Schema, ODD/RNG</resp><name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name><name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name></respStmt></editionStmt>
          <publicationStmt>
@@ -54,19 +56,25 @@ for any purpose, even commercially.</p>
                         <idno>2, 2</idno>
                      </msIdentifier>
                      <history>
-                        <origin><origDate notBefore-iso="1965-04-28T00:00:00+01:00" notAfter-iso="1965-12-31T23:59:59+01:00">1965-04-28--1965-12-31</origDate></origin>
+                        <origin><origDate notBefore-iso="1965-04-28T00:00:00+01:00" notAfter-iso="1965-12-31T23:59:59+01:00" ana="acdh:amp-transcript__0039.xml#ana_046">1965-04-28--1965-12-31</origDate></origin>
                      </history>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+               <p>Edition Documents Prefix</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language ident="en">English</language>
+            <language ident="la">Latin</language>
             <language ident="de">German</language>
          </langUsage>
-         
       </profileDesc>
       <revisionDesc status="draft">
          <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
@@ -75,6 +83,7 @@ for any purpose, even commercially.</p>
          <change who="smayer tfruehwirth" when="2021-12-20">transcriptions collated</change>
          <change who="smayer tfruehwirth" when="2022-05-10">transcription reviewed, `space` element and `hand` attributes added, date format in `origDate` and `correspAction`/`date` modified</change>
          <change who="dgrigoriou smayer tfruehwirth" when="2023-02-28">entities collated</change>
+         <change who="dgrigoriou tfruehwirth" when="2024-05-23">entities reviewed, prose container structure updated</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -85,82 +94,251 @@ for any purpose, even commercially.</p>
          <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0144/"/>
       </surface>
    </facsimile>
-   <text type="card" hand="#typed">
+   <text type="prose" hand="#typed">
       <body>
-         <div xml:id="transcription">
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0143/" type="sheet"/>
+         <div type="transcription" xml:id="transcription_amp_0047" xml:lang="de">
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0143/" type="sheet" ed="1r"/>
+            <div type="prose">
+               <head>
+                  <space quantity="21" unit="char"/><rs type="lit_work" ref="#lit_work_id_93"><rs type="person" ref="#amp_person_5">JOSEPH WEINHEBER</rs><lb/>
+                  <space quantity="22" unit="char"/>(1892-1945)</rs>
+               </head>
                <p>
-                  <space quantity="21" unit="char"/><head><rs type="lit_work" ref="#lit_work_id_93"><rs type="person" ref="#amp_person_5">JOSEPH WEINHEBER<lb/>
-                  <space quantity="22" unit="char"/>(1892-1945)</rs></rs></head><lb/>
                   <space quantity="5" unit="char"/>Von meiner Garten<del>n</del>tür führt ein schmaler Pfad vom Dorf weiter<lb/>
                   einen Wald. <space quantity="1" unit="char"/>Auf meinen Gängen dorthin scheint es gehörig, stehen z<lb/>
                   bleiben und durch den Zaun deines Gartens zu schauen, in dem man<lb/>
                   dich (die Umstände verlangten es) wie einen alten geliebten <unclear><del>H</del>F</unclear>amilien<lb/>
-                  hund begrub.<lb/>
+                  hund begrub.
+               </p>
+               <p>
                   <space quantity="5" unit="char"/>Vor zwanzig Jahren kategorisierte Feinde, jetzt nah benachbart,<lb/>
                   wären wir vielleicht gute Freunde geworden, die eine gemeinsame<lb/>
                   Umwelt und Liebe für das Wort teilten, und hätten bei einem gold-<lb/>
                   hellen Kremser lange Gespräche über Syntax, Kommas und Verskunst<lb/>
-                  geführt.<lb/>
+                  geführt.
+               </p>
+               <p>
                   <space quantity="5" unit="char"/>Ja, ja, es muss gesagt werden, Machthaber, Männer grossen<lb/>
                   Unheils und Übelwollens, nahmen dich auf; <space quantity="1" unit="char"/>für wie lang, doch,<lb/>
                   wickelten sie dich ein, dich, der auf <rs type="person" ref="#amp_person_196">Goebbels</rs> Angebot von Kultur<lb/>
                   "In Ruah lassen!" entgegnetest? <space quantity="1" unit="char"/>Aber Krethi und Plethi ziehen<lb/>
-                  einen Stunk vor, und die Jungen verdammen dich ungelesen.<lb/>
+                  einen Stunk vor, und die Jungen verdammen dich ungelesen.
+               </p>
+               <p>
                   <space quantity="5" unit="char"/>Was wohl würde dir, dem Österreicher, dem Dichter, dein Herz<lb/>
                   gesagt haben, hättest du je von <rs type="person" ref="#amp_person_7">Franz Jägerstätter</rs>, dem <rs type="place" ref="#amp_place_id_22">Sankt<lb/>
                   Radegund</rs>er Bauern, gehört, der sein einsames Nein zu dem Ariersta<del>t</del>at<lb/>
                   sagte und geköpft wurde? <space quantity="1" unit="char"/>Natürlich sorgte man dafür, daß nichts<lb/>
-                  davon zu Ohren kam,<lb/>
+                  davon zu Ohren kam,
+               </p>
+               <p>
                   <space quantity="5" unit="char"/>dass du unvorbereitet auf einen Tag sein solltest, der kommen<lb/>
                   musste, eine Zeit, voller Schrecken, Tränen und Auflösung, in dem<lb/>
                   du, der vom Albdruck erstarrt, dich selbst vernichtet<unclear>e</unclear>st?<lb/>
                   Vergeltung ging immer wie ein Stümper vor. <space quantity="1" unit="char"/>"Dies alles ist<lb/>
-                  furchtbar, hier nur Schweigen gemäss."<lb/>
+                  furchtbar, hier nur Schweigen gemäss."
+               </p>
+               <p>
                   <space quantity="5" unit="char"/>Unbemerkt und <del>b</del>unbetrauert von mir die Stunde deines Todes,<lb/>
                   unbegrüsst von dir war der Augenblick, als ich, von der Vorsehung<lb/>
                   geleitet, <del>R</del><rs type="place" ref="#amp_place_id_5">Kirchstetten</rs> zuerst erblickte, an einem Oktobertag <del>in</del> bei<lb/>
                   strömendem Regen, in einem Jahr, das unsern Kosmos veränderte,<lb/>
-                  dem <hi rend="underline">annus mirabilis</hi> als die Parität gestürzt wurde.<lb/>
+                  dem <hi rend="underline"><foreign xml:lang="la">annus mirabilis</foreign></hi> als die Parität gestürzt wurde.
+               </p>
+               <p>
                   <del>Schon</del><space quantity="5" unit="char"/>Schon waren die Reiche, die verloren ha<del>b</del>tten, genügend warm und<lb/>
                   sattgegessen, ihre Verbrechen waren auf prosaische und private Art,<lb/>
                   jene Ärgernisse, Tote und Schutt, längst weggeschafft: <space quantity="1" unit="char"/>für ihre<lb/>
                   Geschändeten verblasste der Schock, ihre gewaltsam entführten<lb/>
-                  Physiker hatten kein Heimweh mehr.<lb/>
+                  Physiker hatten kein Heimweh mehr.
+               </p>
+               <p>
                   <space quantity="5" unit="char"/>Heute lächeln wir bei Hochzeiten, bei denen Braut und Bräutigam<lb/>
                   schon auf der Welt waren als sich der Schatten gehoben hatte oder<lb/>
                   vielmehr weitergerückt war. <space quantity="1" unit="char"/><del><unclear>B</unclear></del>Noch nie war die Erde ohne ihre faule<lb/>
                   Stelle, einen Unort mit Posten für Folterer, (In welchen Bars sind<lb/>
-                  sie willkommen? <space quantity="1" unit="char"/>Welch<del>e</del>Mädchen heiraten sie?)<lb/>
+                  sie willkommen? <space quantity="1" unit="char"/>Welch<del>e</del>Mädchen heiraten sie?)
+               </p>
+               <p>
                   <space quantity="5" unit="char"/>noch nie war überall Friede auf ihrer nährenden Oberfläche:<lb/>
                   so viel wir wissen, ist niemand je sicher gewesen, und deshalb<lb/>
                   überwachen brave Familienväter, mit der Hingebung von Mönchen, in<lb/>
                   geheimen Zonen, Geräte, in denen harmlose Substanz menschenmörderisc<lb/>
-                  wird.<lb/>
+                  wird.
+               </p>
+               <p>
                   <space quantity="5" unit="char"/>Doch hier fühl ich mich <del>t</del>zuhause, wie du einst: <space quantity="1" unit="char"/>dieselben kurz-<lb/>
                   lebigen Geschöpfe stimmen wieder dieselben sorglosen Lieder an;<lb/>
                   Pbstgärten halten fest an dem Regime, das sie kennen, von des April<lb/>
                   rasch zunehmenden Farbtönen bis zum ungestümen Herbst, wenn bei<lb/>
-                  jedem stotternden Windstoss Äpfel auf den Boden plumpsen.<lb/>
+                  jedem stotternden Windstoss Äpfel auf den Boden plumpsen.
+               </p>
+               <p>
                   <space quantity="4" unit="char"/><unclear>W</unclear>enn ich über unser Tal - human bescheiden und sanft im Umris<lb/>
                   schaue, in dem der <rs type="place" ref="#amp_place_id_252">Sichelbach</rs> westwärts gurgelt, um sich mit der<lb/>
                   <rs type="place" ref="#amp_place_id_251">Perschling</rs> zu vereinigen, bin ich mir bedeutenderen Nachbarn<lb/>
                   ehrfürchtig bewusst, der Berge, die hinter mir aufragen, vor mi<lb/>
-                  des noblen Flusses,<lb/>
+                  des noblen Flusses,
+               </p>
+               <p>
                   <space quantity="4" unit="char"/>doch möcht ich auch dir Achtung erweisen, Nachbar und Kolle<lb/>
                   <del>de</del>
                </p>
-               <p>
+            </div>
+            <div>
+               <ab>
                   <space quantity="57" unit="char"/>⁒
-               </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0144/" type="sheet"/>
-               <p>
+               </ab>
+            </div>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0144/" type="sheet" ed="1v"/>
+            <div type="prose">
+               <p prev="true">
                   denn selbst mein englisches Ohr erfasst in deinem Deutsch die<lb/>
                   Meisterschaft und den Tonfall einen dem es vergönnt war, auf dem<lb/>
                   gepfählten Anger die Violas zu hören, die ihn nachher dazu<lb/>
                   verpflichteten, sie "den Abgrund zu nennen".
                </p>
+            </div>
          </div>
       </body>
-   </text>
+   <back><listPlace><place xml:id="amp_place_id_5">
+                  <settlement type="P">
+                     <placeName>Kirchstetten</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>AT, Austria</country>
+                  <location type="located_in_place">
+                     <placeName key="amp_place_id_6">Lower Austria</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>48.18333, 15.81667</geo>
+                  </location>
+                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2774362/</idno>
+                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q674814</idno>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/4801892-2</idno>
+               <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note><note target="amp-transcript__0003.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29</note><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0007.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-06</note><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0015.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10</note><note target="amp-transcript__0016.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-09-18</note><note target="amp-transcript__0017.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1971-06-04</note><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note><note target="amp-transcript__0020.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1973-09-24</note><note target="amp-transcript__0022.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-08-16</note><note target="amp-transcript__0023.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-07-23</note><note target="amp-transcript__0024.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-09-11</note><note target="amp-transcript__0025.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-10-17</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0035.xml" type="mentions">Telegram W. H. Auden to Stella Musulin 1971-05-13</note><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note><note target="amp-transcript__0040.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-06-10</note><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note><note target="amp-transcript__0042.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescripts W. H. Auden "August 1968" and "Elegy" 1968-10-04</note><note target="amp-transcript__0045.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1960-07-21</note><note target="amp-transcript__0047.xml" type="mentions">Typescript Stella Musulin Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</note><note target="amp-transcript__0052.xml" type="mentions">Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-07-26--1972-08-25</note><note target="amp-transcript__0057.xml" type="mentions">Envelope W. H. Auden to Stella Musulin 1961-04-25--1961-10-25</note><note target="amp-transcript__0059.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-04-30</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0069.xml" type="mentions">Photograph [Stella Musulin] of Friedrich Heer 1969-05-28</note><note target="amp-transcript__0070.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1959-10-10</note><note target="amp-transcript__0071.xml" type="mentions">Typed Letter Signed Stella Musulin to W. H. Auden 1962-04-16--1973-04-16</note></noteGrp></place>
+               <place xml:id="amp_place_id_251">
+                  <settlement type="H">
+                     <placeName>Perschling (stream)</placeName>
+                  </settlement>
+                  <desc type="entity_type">stream, lake, ...</desc>
+                  <country>AT, Austria</country>
+                  <location type="located_in_place">
+                     <placeName key="amp_place_id_10">Austria</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>48.33333, 15.96667</geo>
+                  </location>
+                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2769061/</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q2071869</idno>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/4802137-4</idno>
+                  <note/>
+               <noteGrp><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note><note target="amp-transcript__0046.xml" type="mentions">Autograph Notes Stella Musulin on Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</note><note target="amp-transcript__0047.xml" type="mentions">Typescript Stella Musulin Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</note></noteGrp></place>
+               <place xml:id="amp_place_id_22">
+                  <settlement type="A">
+                     <placeName>Sankt Radegund</placeName>
+                  </settlement>
+                  <desc type="entity_type">country, state, region,...</desc>
+                  <country>AT, Austria</country>
+                  <location type="located_in_place">
+                     <placeName key="amp_place_id_10">Austria</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>48.09539, 12.77435</geo>
+                  </location>
+                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/7873111/</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q669185</idno>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/4382796-2</idno>
+               <noteGrp><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note><note target="amp-transcript__0047.xml" type="mentions">Typescript Stella Musulin Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</note></noteGrp></place>
+               <place xml:id="amp_place_id_252">
+                  <settlement type="H">
+                     <placeName>Sichelbach (stream)</placeName>
+                  </settlement>
+                  <desc type="entity_type">stream, lake, ...</desc>
+                  <country>AT, Austria</country>
+                  <location type="located_in_place">
+                     <placeName key="amp_place_id_10">Austria</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>48.18696, 15.81104</geo>
+                  </location>
+                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12514480/</idno>
+                  <note/>
+               <noteGrp><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note><note target="amp-transcript__0047.xml" type="mentions">Typescript Stella Musulin Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</note></noteGrp></place>
+               </listPlace><listPerson><person xml:id="amp_person_7">
+                  <persName>
+                     <forename>Franz</forename>
+                     <surname>Jägerstätter</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1907-05-20">1907-05-20</date>
+                     <settlement key="amp_place_id_22">
+                        <placeName>Sankt Radegund</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1943-08-09">1943-08-09</date>
+                     <settlement key="amp_place_id_23">
+                        <placeName>Brandenburg an der Havel</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118556509</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q45243</idno>
+               <noteGrp><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note><note target="amp-transcript__0047.xml" type="mentions">Typescript Stella Musulin Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
+               <person xml:id="amp_person_5">
+                  <persName>
+                     <forename>Josef</forename>
+                     <surname>Weinheber</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1892-03-09">1892-03-09</date>
+                     <settlement key="amp_place_id_16">
+                        <placeName>Ottakring</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1945-04-08">1945-04-08</date>
+                     <settlement key="amp_place_id_5">
+                        <placeName>Kirchstetten</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118766287</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q78776</idno>
+                  <listBibl>
+                     <bibl n="lit_work_id_40">Auf das Unabwendbare</bibl>
+                     <bibl n="lit_work_id_41">Kammermusik</bibl>
+                  </listBibl>
+               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note><note target="amp-transcript__0047.xml" type="mentions">Typescript Stella Musulin Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</note><note target="amp-transcript__0052.xml" type="mentions">Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-07-26--1972-08-25</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
+               <person xml:id="amp_person_196">
+                  <persName>
+                     <forename>Joseph</forename>
+                     <surname>Goebbels</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1897-10-29">1897-10-29</date>
+                     <settlement key="amp_place_id_250">
+                        <placeName>Rheydt</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1945-05-01">1945-05-01</date>
+                     <settlement key="amp_place_id_17">
+                        <placeName>Berlin</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118540041</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q41749</idno>
+               <noteGrp><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note><note target="amp-transcript__0047.xml" type="mentions">Typescript Stella Musulin Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</note></noteGrp></person>
+               </listPerson><listBibl><bibl xml:id="lit_work_id_93" type="prose">
+               <title>Joseph Weinheber (prose translation Elsa Musulin and Stella Musulin)</title>
+               <author ref="#amp_person_2">
+                  <persName>Musulin, Stella Mary Bellairs</persName>
+               </author>
+               <author ref="#amp_person_93">
+                  <persName>Musulin, Elsa Gerda Maria Louise Pauline von</persName>
+               </author>
+               <date when="1965">1965</date>
+               <lang>de</lang>
+            <noteGrp><note target="amp-transcript__0047.xml" type="mentions">Typescript Stella Musulin Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</note></noteGrp></bibl>
+            </listBibl></back></text>
 </TEI>

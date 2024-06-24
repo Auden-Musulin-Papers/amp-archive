@@ -78,6 +78,7 @@ jobs:
       - name: Adding attributes to TEI root node
         run: |
           ./shellscripts/add_attributes.sh
+          ./shellscripts/denormalize.sh
       - name: Run ant to add xml-model schema
         run: |
           apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommend

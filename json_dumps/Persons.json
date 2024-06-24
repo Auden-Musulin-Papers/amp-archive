@@ -193,7 +193,7 @@
     "id": 33,
     "order": "31.00000000000000000000",
     "Name": "Auden, W. H.",
-    "Literal": "Auden, W. H.",
+    "Literal": "W. H. Auden",
     "Object_uri_organizations": [],
     "Language": "und",
     "Predicate_uri": [
@@ -208,7 +208,7 @@
     "id": 34,
     "order": "32.00000000000000000000",
     "Name": "Brenner, Simon",
-    "Literal": "Brenner, Simon",
+    "Literal": "Simon Brenner",
     "Object_uri_organizations": [],
     "Language": "und",
     "Predicate_uri": [
@@ -223,7 +223,7 @@
     "id": 37,
     "order": "35.00000000000000000000",
     "Name": "Elsner, Daniel",
-    "Literal": "Elsner, Daniel",
+    "Literal": "Daniel Elsner",
     "Object_uri_organizations": [],
     "Language": "und",
     "Predicate_uri": [
@@ -238,7 +238,7 @@
     "id": 38,
     "order": "36.00000000000000000000",
     "Name": "Frühwirth, Timo",
-    "Literal": "Frühwirth, Timo",
+    "Literal": "Timo Frühwirth",
     "Object_uri_organizations": [],
     "Language": "und",
     "Predicate_uri": [
@@ -253,7 +253,7 @@
     "id": 39,
     "order": "37.00000000000000000000",
     "Name": "Grigoriou, Dimitra",
-    "Literal": "Grigoriou, Dimitra",
+    "Literal": "Dimitra Grigoriou",
     "Object_uri_organizations": [],
     "Language": "und",
     "Predicate_uri": [
@@ -268,7 +268,7 @@
     "id": 40,
     "order": "38.00000000000000000000",
     "Name": "Kubaczek, Karl",
-    "Literal": "Kubaczek, Karl",
+    "Literal": "Karl Kubaczek",
     "Object_uri_organizations": [],
     "Language": "und",
     "Predicate_uri": [
@@ -283,7 +283,7 @@
     "id": 42,
     "order": "40.00000000000000000000",
     "Name": "Mayer, Sandra",
-    "Literal": "Mayer, Sandra",
+    "Literal": "Sandra Mayer",
     "Object_uri_organizations": [],
     "Language": "und",
     "Predicate_uri": [
@@ -298,7 +298,7 @@
     "id": 43,
     "order": "41.00000000000000000000",
     "Name": "Mendelson, Edward",
-    "Literal": "Mendelson, Edward",
+    "Literal": "Edward Mendelson",
     "Object_uri_organizations": [],
     "Language": "und",
     "Predicate_uri": [
@@ -313,7 +313,7 @@
     "id": 44,
     "order": "42.00000000000000000000",
     "Name": "Musulin, Janko",
-    "Literal": "Musulin, Janko",
+    "Literal": "Janko Musulin",
     "Object_uri_organizations": [],
     "Language": "und",
     "Predicate_uri": [
@@ -328,7 +328,7 @@
     "id": 45,
     "order": "43.00000000000000000000",
     "Name": "Musulin, Stella",
-    "Literal": "Musulin, Stella",
+    "Literal": "Stella Musulin",
     "Object_uri_organizations": [],
     "Language": "und",
     "Predicate_uri": [
@@ -343,7 +343,7 @@
     "id": 46,
     "order": "44.00000000000000000000",
     "Name": "Musulin, Marko",
-    "Literal": "Musulin, Marko",
+    "Literal": "Marko Musulin",
     "Object_uri_organizations": [],
     "Language": "und",
     "Predicate_uri": [
@@ -358,7 +358,7 @@
     "id": 47,
     "order": "45.00000000000000000000",
     "Name": "O'Sullivan, Michael",
-    "Literal": "O'Sullivan, Michael",
+    "Literal": "Michael O'Sullivan",
     "Object_uri_organizations": [],
     "Language": "und",
     "Predicate_uri": [
@@ -373,7 +373,7 @@
     "id": 48,
     "order": "46.00000000000000000000",
     "Name": "Rohringer, Wolfgang",
-    "Literal": "Rohringer, Wolfgang",
+    "Literal": "Wolfgang Rohringer",
     "Object_uri_organizations": [],
     "Language": "und",
     "Predicate_uri": [
@@ -388,7 +388,7 @@
     "id": 49,
     "order": "47.00000000000000000000",
     "Name": "Spiel, Hilde",
-    "Literal": "Spiel, Hilde",
+    "Literal": "Hilde Spiel",
     "Object_uri_organizations": [],
     "Language": "und",
     "Predicate_uri": [
@@ -403,7 +403,7 @@
     "id": 50,
     "order": "48.00000000000000000000",
     "Name": "Andorfer, Peter",
-    "Literal": "Andorfer, Peter",
+    "Literal": "Peter Andorfer",
     "Object_uri_organizations": [],
     "Language": "und",
     "Predicate_uri": [
@@ -418,7 +418,7 @@
     "id": 51,
     "order": "49.00000000000000000000",
     "Name": "Kraus, Wolfgang",
-    "Literal": "Kraus, Wolfgang",
+    "Literal": "Wolfgang Kraus",
     "Object_uri_organizations": [],
     "Language": "und",
     "Predicate_uri": [
@@ -433,7 +433,7 @@
     "id": 52,
     "order": "50.00000000000000000000",
     "Name": "Breicha, Otto",
-    "Literal": "Breicha, Otto",
+    "Literal": "Otto Breicha",
     "Object_uri_organizations": [],
     "Language": "und",
     "Predicate_uri": [
@@ -448,7 +448,7 @@
     "id": 54,
     "order": "51.00000000000000000000",
     "Name": "Blaha, Rudof",
-    "Literal": "Blaha, Rudof",
+    "Literal": "Rudolf Blaha",
     "Object_uri_organizations": [],
     "Language": "und",
     "Predicate_uri": [
@@ -463,7 +463,7 @@
     "id": 55,
     "order": "52.00000000000000000000",
     "Name": "Musulin, Elsa",
-    "Literal": "Musulin, Elsa",
+    "Literal": "Elsa Musulin",
     "Object_uri_organizations": [],
     "Language": "und",
     "Predicate_uri": [
@@ -478,7 +478,7 @@
     "id": 57,
     "order": "54.00000000000000000000",
     "Name": "Busta, Christine",
-    "Literal": "Busta, Christine",
+    "Literal": "Christine Buster",
     "Object_uri_organizations": [],
     "Language": "und",
     "Predicate_uri": [
@@ -493,7 +493,7 @@
     "id": 59,
     "order": "55.00000000000000000000",
     "Name": "Lehecka, Sandra",
-    "Literal": "Lehecka, Sandra",
+    "Literal": "Sandra Lehacka",
     "Object_uri_organizations": [],
     "Language": "und",
     "Predicate_uri": [
@@ -508,7 +508,7 @@
     "id": 61,
     "order": "57.00000000000000000000",
     "Name": "Angerer, Thomas",
-    "Literal": "Angerer, Thomas",
+    "Literal": "Thomas Angerer",
     "Object_uri_organizations": [],
     "Language": "und",
     "Predicate_uri": [
@@ -523,7 +523,7 @@
     "id": 62,
     "order": "58.00000000000000000000",
     "Name": "Mendelssohn, Anna",
-    "Literal": "Mendelssohn, Anna",
+    "Literal": "Anna Mendelssohn",
     "Object_uri_organizations": [],
     "Language": "und",
     "Predicate_uri": [
@@ -538,7 +538,7 @@
     "id": 63,
     "order": "59.00000000000000000000",
     "Name": "Mayer, Elizabeth",
-    "Literal": "Mayer, Elizabeth",
+    "Literal": "Elizabeth Mayer",
     "Object_uri_organizations": [],
     "Language": "und",
     "Predicate_uri": [
@@ -575,6 +575,36 @@
       {
         "id": 76,
         "value": "hasEmail"
+      }
+    ],
+    "Subject_uri": "https://orcid.org/0000-0002-0636-4476"
+  },
+  "66": {
+    "id": 66,
+    "order": "62.00000000000000000000",
+    "Name": "Elsner, Daniel",
+    "Literal": "Daniel",
+    "Object_uri_organizations": [],
+    "Language": "",
+    "Predicate_uri": [
+      {
+        "id": 80,
+        "value": "hasFirstName"
+      }
+    ],
+    "Subject_uri": "https://orcid.org/0000-0002-0636-4476"
+  },
+  "67": {
+    "id": 67,
+    "order": "63.00000000000000000000",
+    "Name": "Elsner, Daniel",
+    "Literal": "Elsner",
+    "Object_uri_organizations": [],
+    "Language": "",
+    "Predicate_uri": [
+      {
+        "id": 84,
+        "value": "hasLastName"
       }
     ],
     "Subject_uri": "https://orcid.org/0000-0002-0636-4476"

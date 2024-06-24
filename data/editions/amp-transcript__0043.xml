@@ -5,7 +5,7 @@
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</title>
             <author ref="https://d-nb.info/gnd/118650963">Auden, W. H.</author>
-            <editor><name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></editor>
+            <editor><name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name xml:id="tfruehwirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></editor>
             <funder>
                <name>Austrian Science Fund (FWF)</name>
                <address>
@@ -167,7 +167,7 @@ for any purpose, even commercially.</p>
          <div type="transcription" xml:id="transcription_amp_0043" xml:lang="en">
             <div type="letter">
             <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0099/" type="sheet" ed="1r"/>
-               <div type="speech">
+               <div type="prose">
                   <ab>
                      <title>
                         <rs type="lit_work" ref="#lit_work_id_90"><hi rend="underline">FREEDOM AND NECESSITY IN THE ARTS</hi></rs>
@@ -220,304 +220,1027 @@ for any purpose, even commercially.</p>
                </div>
             <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0100/" type="sheet" ed="1v"/>
             <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0145/" type="sheet" ed="2r"/>
-               <div type="speech">
-               <p hand="#handwritten">
-                  (<unclear>1</unclear>
-               </p>
-               <p>
-                  <space quantity="17" unit="char"/><foreign xml:lang="de">Sehr vee<del>rh</del>hrter <rs type="person" ref="#amp_person_112">Herr Landeshauptman<unclear>n</unclear></rs><unclear>,</unclear> meine Damen und Herren</foreign>:<lb/>
-                  <space quantity="10" unit="char"/>I hope you will pardon me if I speak somewhat personally. I do so,<lb/>
-                  not out of vanity,but bec<del>ua</del>ause <space quantity="1" unit="char"/>I do <del>j</del>not wish to give the impression that I<lb/>
-                  am attempting to lay down absolute laws which are valid for all. I give you my<lb/>
-                  experience<unclear>s</unclear> as a poet,in the hope that you will be able to compare the<del>,</del>m with<lb/>
-                  yours<del><unclear>own</unclear></del>,and form your own judgment about them.<lb/>
-                  <space quantity="3" unit="char"/>Most of what I <del><unclear>o</unclear></del>know about the writing of poetry,or at least about the kind I<lb/>
-                  am interested in writing,I discovered long before I took any interest in poetry<lb/>
-                  itself.<lb/>
-                  <space quantity="2" unit="char"/>Between the ages of six and twelve,I spent a great many of my waking hours in<lb/>
-                  the fab<del>o</del>rication of a private secondary sacred world,the basic elements of which<lb/>
-                  were <del><del><unclear>at</unclear></del><unclear>O</unclear></del> a) a limestone landscape mainly derived from the <rs type="place" ref="#amp_place_id_41">Pennine Moors in the<lb/>
-                  North of England</rs> and b) an industry - lead-mining.<lb/>
-                  <space quantity="3" unit="char"/>It is no doubt psychologically significant that my sacred world was autistic -<lb/>
-                  that is to say,I had no wish to share it with others no<del>t</del>r could I have done so.<lb/>
-                  However,though constructed for and inhabited by myself alone,I needed the help of<lb/>
-                  others,<rs type="person" ref="#amp_person_183 #amp_person_184">my parents</rs> in particular,in collecting its basic materials; others had to<lb/>
-                  procure for me the necessary text-books on geology and machinery,maps,catalog<del>i</del>ues,<lb/>
-                  guide-books and photographs,and,when occasion offered<del>,to</del> ta<del>l</del>ke me down real mines,<lb/>
-                  tasks which they performed with unfailing patience and generosity.<lb/>
-                  <space quantity="4" unit="char"/>From this activity,I learned certain principles which I was later to find applied<lb/>
-                  to all artistic fabrication. First,whatever other elements it may include,the<lb/>
-                  initial impulse to create a secondary world is a feeling of awe aroused by<lb/>
-                  encounters,in the Primary World,with sacred beings or events. <space quantity="1" unit="char"/>This feeling of awe<lb/>
-                  is an imperative,that is to<unclear>´</unclear> say,one is not free to choose the object or the event<lb/>
-                  that arouses it. Though every work of art is a secondary world,it cannot be<lb/>
-                  constructed <hi rend="underline">ex nihilo</hi>,but is a selection from and a recombination of the contents of<lb/>
-                  the Primary World. Even the 'purest' poem,in the French <foreign xml:lang="fr">Symboliste</foreign> sense,is<lb/>
-                  made of words which are not the poet's private property,but the communal creation<lb/>
-                  of the linguistic group to whom he belongs,so that their meaning can be looked up<lb/>
-                  in a dictionary.<lb/>
-                  <space quantity="5" unit="char"/>Secondly,in constructing my private world,I discovere<del>s</del>d that,though this was<lb/>
-                  a game,or rather precisely <hi rend="underline">because it was a game</hi> - that is to say,not a necessity<lb/>
-                  like eating or sleeping,but something I was free to do or not as I chose - it<lb/>
-                  could not be played without rules. Absolute freedom is meaningless: freedom can<lb/>
-                  only be realised in a choice between alternati<del>c</del>ves. A secondary world,be it a poem,<lb/>
-                  or a game of football or bridge,must be as much a world of law as the Primary,the<lb/>
-                  only difference being that in the world of games one is free to decide what its<lb/>
-                  laws shall be. But to all games as to real life,<rs type="person" ref="#amp_person_11">Goethe</rs>'s lines apply.
-               </p>
-               <quote source="#lit_work_id_170">
-                  <lg xml:lang="de">
-                     <lb/><space quantity="14" unit="char"/><l><hi rend="underline">In der Beschr<unclear>ä</unclear>nkung zeigt sich erst der Meister</hi>,</l>
-                     <lb/><space quantity="14" unit="char"/><l><hi rend="underline">Und d<del>s</del>as Gesetz nur kann uns Freiheit geben.</hi></l>
-                  </lg>
-               </quote>
-               <p>
-                  <space quantity="3" unit="char"/>As regards my particu<del>al</del>l<unclear>a</unclear>r lead-mining world,I decided,or rather,without conscious<lb/>
-                  decision I instinctively felt,that I must impose two restrictions upon my freedom<lb/>
-                  of fantasy. In choosing what objects were to be included,I was free to select this<lb/>
-                  and reject that,on condition that both were real objects in the Primary World,to<lb/>
-                  choose,for example,between two kinds of water-turbine,which could be found in a<lb/>
-                  text-book <space quantity="1" unit="char"/>on mining machinery or a manufacturer's catalogue: but I was not free<lb/>
-                  to invent one. <space quantity="1" unit="char"/>In deciding how my world was to function,I <del>was </del> could choose between<lb/>
-                  <space quantity="1" unit="char"/>t<del><unclear>e</unclear></del>wo practical possibilit<del>es</del>ies <space quantity="1" unit="char"/>- a mine can be drained either by an adit or a pump -<lb/>
-                  <space quantity="1" unit="char"/>but physic<del><gap reason="deleted"/></del>al impossibili<del>es</del>ties and magic means were forbidden. <del><unclear>T</unclear></del>When I say forbidden,<lb/>
-                  <space quantity="1" unit="char"/>I mean that I felt,in some obscure way,that they were morally forbidden. Then there<lb/>
-                  <space quantity="1" unit="char"/>came a day when the moral issue became quite conscious. As I was planning my<lb/>
-                  <space quantity="1" unit="char"/>Platonic Idea of a concentrating-mill,I ran into difficulties. I had to choose<lb/>
-                  <space quantity="1" unit="char"/>between two types of a cer<del>at</del>tain machine for separating the sli<unclear>m</unclear>es,called a buddle.<lb/>
-                  <space quantity="1" unit="char"/>One type I found more sacred or '<del>beat<del>i</del>uful</del> beautiful',but the other type was,I<lb/>
-                  <space quantity="1" unit="char"/>knew from my reading,the more efficient. At this point I realised that it was my<lb/>
-                  <space quantity="1" unit="char"/>moral duty to sacrifice my <del>aethetic</del> aesthetic preference to reality or truth.
-               </p>
+               <div type="prose">
+                  <fw type="pageNum" hand="#handwritten">
+                     (<unclear>1</unclear>
+                  </fw>
+                  <ab xml:lang="de">
+                     <space quantity="17" unit="char"/>Sehr vee<del>rh</del>hrter <rs type="person" ref="#amp_person_112">Herr Landeshauptman<unclear>n</unclear></rs><unclear>,</unclear> meine Damen und Herren:
+                  </ab>
+                  <p>
+                     <space quantity="10" unit="char"/>I hope you will pardon me if I speak somewhat personally. I do so,<lb/>
+                     not out of vanity,but bec<del>ua</del>ause <space quantity="1" unit="char"/>I do <del>j</del>not wish to give the impression that I<lb/>
+                     am attempting to lay down absolute laws which are valid for all. I give you my<lb/>
+                     experience<unclear>s</unclear> as a poet,in the hope that you will be able to compare the<del>,</del>m with<lb/>
+                     yours<del><unclear>own</unclear></del>,and form your own judgment about them.
+                  </p>
+                  <p>
+                     <space quantity="3" unit="char"/>Most of what I <del><unclear>o</unclear></del>know about the writing of poetry,or at least about the kind I<lb/>
+                     am interested in writing,I discovered long before I took any interest in poetry<lb/>
+                     itself.
+                  </p>
+                  <p>
+                     <space quantity="2" unit="char"/>Between the ages of six and twelve,I spent a great many of my waking hours in<lb/>
+                     the fab<del>o</del>rication of a private secondary sacred world,the basic elements of which<lb/>
+                     were <del><del><unclear>at</unclear></del><unclear>O</unclear></del> a) a limestone landscape mainly derived from the <rs type="place" ref="#amp_place_id_41">Pennine Moors in the<lb/>
+                     North of England</rs> and b) an industry - lead-mining.
+                  </p>
+                  <p>
+                     <space quantity="3" unit="char"/>It is no doubt psychologically significant that my sacred world was autistic -<lb/>
+                     that is to say,I had no wish to share it with others no<del>t</del>r could I have done so.<lb/>
+                     However,though constructed for and inhabited by myself alone,I needed the help of<lb/>
+                     others,<rs type="person" ref="#amp_person_183 #amp_person_184">my parents</rs> in particular,in collecting its basic materials; others had to<lb/>
+                     procure for me the necessary text-books on geology and machinery,maps,catalog<del>i</del>ues,<lb/>
+                     guide-books and photographs,and,when occasion offered<del>,to</del> ta<del>l</del>ke me down real mines,<lb/>
+                     tasks which they performed with unfailing patience and generosity.
+                  </p>
+                  <p>
+                     <space quantity="4" unit="char"/>From this activity,I learned certain principles which I was later to find applied<lb/>
+                     to all artistic fabrication. First,whatever other elements it may include,the<lb/>
+                     initial impulse to create a secondary world is a feeling of awe aroused by<lb/>
+                     encounters,in the Primary World,with sacred beings or events. <space quantity="1" unit="char"/>This feeling of awe<lb/>
+                     is an imperative,that is to<unclear>´</unclear> say,one is not free to choose the object or the event<lb/>
+                     that arouses it. Though every work of art is a secondary world,it cannot be<lb/>
+                     constructed <hi rend="underline">ex nihilo</hi>,but is a selection from and a recombination of the contents of<lb/>
+                     the Primary World. Even the 'purest' poem,in the French <foreign xml:lang="fr">Symboliste</foreign> sense,is<lb/>
+                     made of words which are not the poet's private property,but the communal creation<lb/>
+                     of the linguistic group to whom he belongs,so that their meaning can be looked up<lb/>
+                     in a dictionary.
+                  </p>
+                  <p>
+                     <space quantity="5" unit="char"/>Secondly,in constructing my private world,I discovere<del>s</del>d that,though this was<lb/>
+                     a game,or rather precisely <hi rend="underline">because it was a game</hi> - that is to say,not a necessity<lb/>
+                     like eating or sleeping,but something I was free to do or not as I chose - it<lb/>
+                     could not be played without rules. Absolute freedom is meaningless: freedom can<lb/>
+                     only be realised in a choice between alternati<del>c</del>ves. A secondary world,be it a poem,<lb/>
+                     or a game of football or bridge,must be as much a world of law as the Primary,the<lb/>
+                     only difference being that in the world of games one is free to decide what its<lb/>
+                     laws shall be. But to all games as to real life,<rs type="person" ref="#amp_person_11">Goethe</rs>'s lines apply.
+                     <seg>
+                        <quote source="#lit_work_id_170">
+                           <lg xml:lang="de">
+                              <lb/><space quantity="14" unit="char"/><l><hi rend="underline">In der Beschr<unclear>ä</unclear>nkung zeigt sich erst der Meister</hi>,</l>
+                              <lb/><space quantity="14" unit="char"/><l><hi rend="underline">Und d<del>s</del>as Gesetz nur kann uns Freiheit geben.</hi></l>
+                           </lg>
+                        </quote>
+                     </seg>
+                  </p>
+                  <p>
+                     <space quantity="3" unit="char"/>As regards my particu<del>al</del>l<unclear>a</unclear>r lead-mining world,I decided,or rather,without conscious<lb/>
+                     decision I instinctively felt,that I must impose two restrictions upon my freedom<lb/>
+                     of fantasy. In choosing what objects were to be included,I was free to select this<lb/>
+                     and reject that,on condition that both were real objects in the Primary World,to<lb/>
+                     choose,for example,between two kinds of water-turbine,which could be found in a<lb/>
+                     text-book <space quantity="1" unit="char"/>on mining machinery or a manufacturer's catalogue: but I was not free<lb/>
+                     to invent one. <space quantity="1" unit="char"/>In deciding how my world was to function,I <del>was </del> could choose between<lb/>
+                     <space quantity="1" unit="char"/>t<del><unclear>e</unclear></del>wo practical possibilit<del>es</del>ies <space quantity="1" unit="char"/>- a mine can be drained either by an adit or a pump -<lb/>
+                     <space quantity="1" unit="char"/>but physic<del><gap reason="deleted"/></del>al impossibili<del>es</del>ties and magic means were forbidden. <del><unclear>T</unclear></del>When I say forbidden,<lb/>
+                     <space quantity="1" unit="char"/>I mean that I felt,in some obscure way,that they were morally forbidden. Then there<lb/>
+                     <space quantity="1" unit="char"/>came a day when the moral issue became quite conscious. As I was planning my<lb/>
+                     <space quantity="1" unit="char"/>Platonic Idea of a concentrating-mill,I ran into difficulties. I had to choose<lb/>
+                     <space quantity="1" unit="char"/>between two types of a cer<del>at</del>tain machine for separating the sli<unclear>m</unclear>es,called a buddle.<lb/>
+                     <space quantity="1" unit="char"/>One type I found more sacred or '<del>beat<del>i</del>uful</del> beautiful',but the other type was,I<lb/>
+                     <space quantity="1" unit="char"/>knew from my reading,the more efficient. At this point I realised that it was my<lb/>
+                     <space quantity="1" unit="char"/>moral duty to sacrifice my <del>aethetic</del> aesthetic preference to reality or truth.
+                  </p>
                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0146/" type="sheet" ed="2v"/>
                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0147/" type="sheet" ed="3r"/>
-               <p hand="#handwritten">
-                  (2
-               </p>
-               <p>
-                  <space quantity="4" unit="char"/>When,later,I began to write poetry’I found that,for me,at least,the same<lb/>
-                  obligation was binding. That is to say,I cannot accept the do<del><unclear>s</unclear></del>ctrine that,in<lb/>
-                  poetry,there is a 'suspension of belief<del><unclear>e</unclear></del>'. A poet must never make a statement<lb/>
-                  simply because it sounds poetically exciting: he must also bel<del>ei</del>ieve it to be<lb/>
-                  true. This does not mean,of course,that one can only appreciate a poet whose<lb/>
-                  beliefs happen to co-incide with one's own. It does mean,however,that one must<lb/>
-                  <del>n</del>be convinced that the poet really believ<del><gap reason="deleted"/></del>es what he says,however odd <del>that</del> the<lb/>
-                  belief may seem to oneself.<lb/>
-                  <space quantity="7" unit="char"/>Between constructing a private <del>fantsa</del>yfantasy world for oneself alone<lb/>
-                  and writing poetry,there is,of course,a profound difference. A <del>fanatsy</del><lb/>
-                  fantasy world exists only in the head of its creator: a poem is a public<lb/>
-                  verbal object intended to be read and enjoyed by others. To become conscious<lb/>
-                  of others is to become conscious of historical time<del>.</del> in various ways. The<lb/>
-                  contents of a poem are necessarily past <del>expereinces</del> experiences,and the goal of<lb/>
-                  a poem is <del>necessaily</del> necessarily in the future,since it cannot be read until<lb/>
-                  it has been written. Again<unclear>,</unclear>to write a poem is to engage in an activity which<lb/>
-                  human beings have practised for centuries. If one asks why human beings<lb/>
-                  make poems or paint pictures or compose music,I can see two possible answers.<lb/>
-                  Firstly all the artistic media are forms of an activity pecul<del><gap reason="deleted"/></del>iar to human<lb/>
-                  beings,namely,Personal Speech. Many animals have impersonal codes of<lb/>
-                  communications,visual,olfactory,auditory signals,b<del><gap reason="deleted"/></del>y which they convey to<lb/>
-                  other members of their species vital information about food,territory,sex,<lb/>
-                  the presence of <del>e<unclear>nm</unclear>ies</del> enemies etc,and in social animals like the bee,such<lb/>
-                  a code may be exceedingly comple<del>s</del>x. We,too,of course,often use words in the same<lb/>
-                  way,as when I ask a stranger the way to the railroad station. But when we<lb/>
-                  truly speak,we do something quite different. We <del>spak</del> speak as person to person<lb/>
-                  in order to disclose ourselves to others and share our exper<del>ei</del><unclear>i</unclear>ences with<lb/>
-                  them,not because we must,but becuase we enjoy doing so. This activity is<lb/>
-                  sometimes quite erroneously called 'self-expression'. If I write a poem<lb/>
-                  about <del>ceratin</del> experiences I have had,I do so<del>,not bec</del> bec<del>ua</del><unclear>a</unclear>use I think it<lb/>
-                  <del>may</del>should be of interest and value to others<del>,not</del>: the fact that it has till now<lb/>
-                  only been my exper<del>ei</del>ience is accidental. What the poet or any artist has to convey<lb/>
-                  is a perception of a reality common to all,but seen from a unique perpsective,<lb/>
-                  which it is his duty as well as his pleasure to share with others. To small<lb/>
-                  truths as well as great,<rs type="person" ref="#amp_person_111">St Augustine</rs>'s words apply.
-               </p>
-               <quote source="#lit_work_id_171">
+                  <fw type="pageNum" hand="#handwritten">
+                     (2
+                  </fw>
                   <p>
-                     <space quantity="12" unit="char"/><hi rend="underline">The truth is neither mine nor his nor another's;but belongs</hi><lb/>
-                     <space quantity="12" unit="char"/><hi rend="underline">to us all whom Thou callest to partake of it: warning us</hi><lb/>
-                     <space quantity="12" unit="char"/><hi rend="underline">terribly,not to account it private to ourselves,lest we be</hi><lb/>
-                     <space quantity="12" unit="char"/><hi rend="underline">deprived of it.</hi>
+                     <space quantity="4" unit="char"/>When,later,I began to write poetry’I found that,for me,at least,the same<lb/>
+                     obligation was binding. That is to say,I cannot accept the do<del><unclear>s</unclear></del>ctrine that,in<lb/>
+                     poetry,there is a 'suspension of belief<del><unclear>e</unclear></del>'. A poet must never make a statement<lb/>
+                     simply because it sounds poetically exciting: he must also bel<del>ei</del>ieve it to be<lb/>
+                     true. This does not mean,of course,that one can only appreciate a poet whose<lb/>
+                     beliefs happen to co-incide with one's own. It does mean,however,that one must<lb/>
+                     <del>n</del>be convinced that the poet really believ<del><gap reason="deleted"/></del>es what he says,however odd <del>that</del> the<lb/>
+                     belief may seem to oneself.
                   </p>
-               </quote>
-               <p>
-                  <space quantity="2" unit="char"/>Then the second impulse to artistic fabrication is the desire to transcend<lb/>
-                  our mortality,by making objects which,unlike ourselves,are not subject to<lb/>
-                  natural death,but can remain <del>permantly</del> permanently 'on hand' in the world,<lb/>
-                  long after we and our society have perished.<lb/>
-                  <space quantity="3" unit="char"/>Every genuine work of art,I believe,exhibits two qualities,Nowness and<lb/>
-                  Permanence. By Nowness I mean the quality which enables an art-historian<lb/>
-                  to date a work,at least,approximately. If,for example,one listens to<lb/>
-                  a composition by <rs type="person" ref="#amp_person_24">Palestrina</rs> and one by <rs type="person" ref="#amp_person_13">Mozart</rs>,one knows immediately that,<lb/>
-                  quite aside from their artistic merits,<rs type="person" ref="#amp_person_24">Palestrina</rs> must have lived earlier<lb/>
-                  than <rs type="person" ref="#amp_person_13">Mozart</rs>: he could not possibly have written as he did after <rs type="person" ref="#amp_person_13">Mozart</rs>.<lb/>
-                  By <del>p</del>Perman<del>a</del>ence,I mean <space quantity="1" unit="char"/>that the work continues to have relevance and<lb/>
-                  importance lo<unclear>m</unclear>g after its creator is dead. In the history of Art,unlike<lb/>
-                  the history of Science,no genuine work of art is made obsolete by a<lb/>
-                  later work. Past science is of interest only to the historian of science,not<lb/>
-                  to what scientists are doing at this moment. Past works of art,on the<lb/>
-                  other hand,are of the utmost importance to the contemporary <del>praticioner<unclear>.</unclear></del><lb/>
-                  practic<del>o</del>t<del>o</del>neroner. Every artist tries to produce something new,but in the hope<lb/>
-                  that,in time,it will take its <del><gap reason="deleted"/></del>proper place in the tradition of his art.<lb/>
-                  And he cannot produce anything significantly original unless he knows<lb/>
-                  well what has <del>been</del> already been done<unclear>;</unclear>w<del>ithout</del>,that is to say ,<del>even in</del> he cannot<lb/>
-                  'rebel' against the past without having a profound reverence for it.
-               </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0148/" type="sheet" ed="3v"/>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0149/" type="sheet" ed="4r"/>
-               <p hand="#handwritten">
-                  (3
-               </p>
-               <p>
-                  <space quantity="6" unit="char"/>There are periods in history when <del>art</del> the arts develop uninterruptedly,<lb/>
-                  <space quantity="1" unit="char"/>each generation building on the achievements of the previous generation.<lb/>
-                  There are other periods when radical breaks seem to be necessary. However,<lb/>
-                  <del>t</del>when they are,one will generally find that the 'radical' artist does not<lb/>
-                  <del>diswon</del> disown the past,but finds in works of a much earlier period or in<lb/>
-                  those of <del>anotehr</del> culture than his own,the clue as to what he should do now.<lb/>
-                  In my own case,for example,I know how much I owe to Anglo-Saxon and<lb/>
-                  Medie<del>av</del>val Poetry.<lb/>
-                  <space quantity="4" unit="char"/>When I <del>revei<unclear>w</unclear></del> review the contemporary artistic scene,<del>I</del><unclear>i</unclear>t strikes me how<lb/>
-                  <del>extraorinary</del> extraordinarily fortunate men like <rs type="person" ref="#amp_person_25">Stravinsky</rs>,<rs type="person" ref="#amp_person_26">Picasso</rs>,<rs type="person" ref="#amp_person_27">Eliot</rs>,<lb/>
-                  etc,that is,those persons we think of as the founders of 'modern' art,<lb/>
-                  were in being born when they were,so that they came to manhood before<lb/>
-                  I9I4. Until the <del>Fis </del> <rs type="event" ref="#amp_event_id_53">First World War</rs>,western society was still pretty much<lb/>
-                  what it had been in the nineteenth century. This meant that for these artists,<lb/>
-                  the felt need to create something new arose from an artistic imperative,<lb/>
-                  not a <del>histroi</del> historic imperative. No one asked himself:"What is the proper<lb/>
-                  kind of music to compose or picture to paint or poem to write in the year<lb/>
-                  I9I2.?" <space quantity="1" unit="char"/>Secondly,their <del>audiences</del> contemporary audiences <space quantity="1" unit="char"/>were mostly<lb/>
-                  cons<del>r</del>ervative,but honestly so. <space quantity="1" unit="char"/>Those,for instance,who were scandalised by<lb/>
-                  <hi rend="underline"><rs type="lit_work" ref="#lit_work_id_35">Le Sacre du Printemps</rs></hi>,may seem to us now to have been old <del>fgi</del> fogies,but<lb/>
-                  their reaction was genuine. They did not say to themselves:"Times have<lb/>
-                  changed and we must change with them in order <del>to be up to date." </del> not to<lb/>
-                  be left behind."<lb/>
-                  <space quantity="5" unit="char"/>Here are a few statements by <rs type="person" ref="#amp_person_25">Stravinsky</rs> to <del>whcih</del> which the young,<del>w<unclear>h</unclear>ere</del><del>where</del>whether<lb/>
-                  artists or critics would do well to listen and <del>pknde </del> ponder over.
-               </p> 
-               <p>
-                  <quote source="#lit_work_id_172">
-                     <space quantity="11" unit="char"/><hi rend="underline">In my youth the new music grew out of,and in reaction to,traditions</hi>,<lb/>
-                     <space quantity="11" unit="char"/><hi rend="underline">whereas it appears to be evolving to-day as much from social needs</hi><lb/>
-                     <space quantity="11" unit="char"/><hi rend="underline">as interior artistic ones...The status of <del>the</del> new music as a</hi><lb/>
-                     <space quantity="11" unit="char"/><hi rend="underline">category is another incomparable. It had none at all in my early</hi><lb/>
-                     <space quantity="12" unit="char"/><hi rend="underline">years,being in fact categorically opposed,and often with real</hi><lb/>
-                     <space quantity="10" unit="char"/><hi rend="underline">hostility. But the unsuccess of composers o<del>n</del>f my generation at</hi><lb/>
-                     <space quantity="10" unit="char"/><hi rend="underline">least kept them from trading on success,and our unsuccess may have</hi><lb/>
-                     <space quantity="11" unit="char"/><hi rend="underline">been less insidious than the automatic superlatives which nowadays</hi><lb/>
-                     <space quantity="10" unit="char"/><hi rend="underline">kill the new by absorbing it t<del>i</del>o de</hi>a<hi rend="underline">th.</hi><lb/>
-                  </quote>
-                  <space quantity="33" unit="char"/>***
-               </p>
-               <p>
-                  <quote source="#lit_work_id_172">
-                     <space quantity="10" unit="char"/><hi rend="underline">The use of the new hardware naturally appears to the new musician</hi><lb/>
-                     <space quantity="10" unit="char"/>a<hi rend="underline">s "historically imperative"; but music is made out of musical</hi><lb/>
-                     <space quantity="10" unit="char"/><hi rend="underline">imperatives,and the awareness of historical processes is probably</hi><lb/>
-                     <space quantity="10" unit="char"/><hi rend="underline">best left to future and different kinds of wage-earners</hi>.<lb/>
-                  </quote>
-                  <space quantity="34" unit="char"/>***
-               </p>
-               <p>
-                  <space quantity="1" unit="char"/>In times,like our own,of rapid social change and political crisis,there i<unclear>s</unclear><lb/>
-                  always a danger of confusing the principles governing political action and<lb/>
-                  those governing artistic fabrication. <space quantity="1" unit="char"/>The most important of such confus<del>u</del>ions<lb/>
-                  are thr<del>r</del>ee.<lb/>
-                  <space quantity="2" unit="char"/>Firstly,one may come to think of artistic fabrication as <del>s</del><unclear>a</unclear> f<del>rom</del>orm of politic<unclear>a</unclear>l<lb/>
-                  action. Every citizen,<del>artists</del>poets includ<del>i</del>ed,has a duty to be politically 'engagé',<lb/>
-                  that is,to <del>feel</del> play a responsible part in seeing that the society of which<lb/>
-                  he is a member shall function properly and improve. But the poet,qua poet,<lb/>
-                  has only one political function. Since lang<del>i</del>uage is his medium,it is his duty,<lb/>
-                  by his own example,to defend his <del>mot<del>eh</del>her</del>mothermother-tongue against corruption by demagogues,<lb/>
-                  journalists,the mass-media etc. As <rs type="person" ref="#amp_person_81">Karl Kraus</rs><del>s</del> said:<quote source="#lit_work_id_173">"<foreign xml:lang="de">D<hi rend="underline">ie Sprache ist die</hi> <del>Muuet</del><lb/>
-                  <space quantity="1" unit="char"/><hi rend="underline">Mutter,nicht das Magd,des <del>d</del> <del>g</del>Gedankens"</hi></foreign></quote>,and when language loses its meaning,<lb/>
-                  its <del>palce</del> place is taken by violence. Of course,the poet may use political and<lb/>
-                  social events as subject-matter for poems - they are as much a part of human<lb/>
-                  experience as love or nature - but he must never imagine that his poems have<lb/>
-                  the power to affect the course of history. The political and social history<lb/>
-                  of <rs type="place" ref="#amp_place_id_30">Europe</rs> w<unclear>o</unclear>uld be what it <del>ahs</del> has been if <rs type="person" ref="#amp_person_9">Dante</rs>,<rs type="person" ref="#amp_person_10">Shakepeare</rs>,<rs type="person" ref="#amp_person_11">Goethe</rs>,<rs type="person" ref="#amp_person_28">Micha<del>le</del>el<lb/>
-                  Angelo</rs>,<rs type="person" ref="#amp_person_12">Tit<del>ai</del>ian</rs>,<rs type="person" ref="#amp_person_13">Mozart</rs>,<rs type="person" ref="#amp_person_29">Beethoven</rs>,e<del>y</del>tc,<del>ahd</del> had never existed.
-               </p>
+                  <p>
+                     <space quantity="7" unit="char"/>Between constructing a private <del>fantsa</del>yfantasy world for oneself alone<lb/>
+                     and writing poetry,there is,of course,a profound difference. A <del>fanatsy</del><lb/>
+                     fantasy world exists only in the head of its creator: a poem is a public<lb/>
+                     verbal object intended to be read and enjoyed by others. To become conscious<lb/>
+                     of others is to become conscious of historical time<del>.</del> in various ways. The<lb/>
+                     contents of a poem are necessarily past <del>expereinces</del> experiences,and the goal of<lb/>
+                     a poem is <del>necessaily</del> necessarily in the future,since it cannot be read until<lb/>
+                     it has been written. Again<unclear>,</unclear>to write a poem is to engage in an activity which<lb/>
+                     human beings have practised for centuries. If one asks why human beings<lb/>
+                     make poems or paint pictures or compose music,I can see two possible answers.<lb/>
+                     Firstly all the artistic media are forms of an activity pecul<del><gap reason="deleted"/></del>iar to human<lb/>
+                     beings,namely,Personal Speech. Many animals have impersonal codes of<lb/>
+                     communications,visual,olfactory,auditory signals,b<del><gap reason="deleted"/></del>y which they convey to<lb/>
+                     other members of their species vital information about food,territory,sex,<lb/>
+                     the presence of <del>e<unclear>nm</unclear>ies</del> enemies etc,and in social animals like the bee,such<lb/>
+                     a code may be exceedingly comple<del>s</del>x. We,too,of course,often use words in the same<lb/>
+                     way,as when I ask a stranger the way to the railroad station. But when we<lb/>
+                     truly speak,we do something quite different. We <del>spak</del> speak as person to person<lb/>
+                     in order to disclose ourselves to others and share our exper<del>ei</del><unclear>i</unclear>ences with<lb/>
+                     them,not because we must,but becuase we enjoy doing so. This activity is<lb/>
+                     sometimes quite erroneously called 'self-expression'. If I write a poem<lb/>
+                     about <del>ceratin</del> experiences I have had,I do so<del>,not bec</del> bec<del>ua</del><unclear>a</unclear>use I think it<lb/>
+                     <del>may</del>should be of interest and value to others<del>,not</del>: the fact that it has till now<lb/>
+                     only been my exper<del>ei</del>ience is accidental. What the poet or any artist has to convey<lb/>
+                     is a perception of a reality common to all,but seen from a unique perpsective,<lb/>
+                     which it is his duty as well as his pleasure to share with others. To small<lb/>
+                     truths as well as great,<rs type="person" ref="#amp_person_111">St Augustine</rs>'s words apply.<lb/>
+                     <seg>
+                        <quote source="#lit_work_id_171">
+                           <space quantity="12" unit="char"/><hi rend="underline">The truth is neither mine nor his nor another's;but belongs</hi><lb/>
+                           <space quantity="12" unit="char"/><hi rend="underline">to us all whom Thou callest to partake of it: warning us</hi><lb/>
+                           <space quantity="12" unit="char"/><hi rend="underline">terribly,not to account it private to ourselves,lest we be</hi><lb/>
+                           <space quantity="12" unit="char"/><hi rend="underline">deprived of it.</hi>
+                        </quote>
+                     </seg>
+                  </p>
+                  <p>
+                     <space quantity="2" unit="char"/>Then the second impulse to artistic fabrication is the desire to transcend<lb/>
+                     our mortality,by making objects which,unlike ourselves,are not subject to<lb/>
+                     natural death,but can remain <del>permantly</del> permanently 'on hand' in the world,<lb/>
+                     long after we and our society have perished.
+                  </p>
+                  <p>
+                     <space quantity="3" unit="char"/>Every genuine work of art,I believe,exhibits two qualities,Nowness and<lb/>
+                     Permanence. By Nowness I mean the quality which enables an art-historian<lb/>
+                     to date a work,at least,approximately. If,for example,one listens to<lb/>
+                     a composition by <rs type="person" ref="#amp_person_24">Palestrina</rs> and one by <rs type="person" ref="#amp_person_13">Mozart</rs>,one knows immediately that,<lb/>
+                     quite aside from their artistic merits,<rs type="person" ref="#amp_person_24">Palestrina</rs> must have lived earlier<lb/>
+                     than <rs type="person" ref="#amp_person_13">Mozart</rs>: he could not possibly have written as he did after <rs type="person" ref="#amp_person_13">Mozart</rs>.<lb/>
+                     By <del>p</del>Perman<del>a</del>ence,I mean <space quantity="1" unit="char"/>that the work continues to have relevance and<lb/>
+                     importance lo<unclear>m</unclear>g after its creator is dead. In the history of Art,unlike<lb/>
+                     the history of Science,no genuine work of art is made obsolete by a<lb/>
+                     later work. Past science is of interest only to the historian of science,not<lb/>
+                     to what scientists are doing at this moment. Past works of art,on the<lb/>
+                     other hand,are of the utmost importance to the contemporary <del>praticioner<unclear>.</unclear></del><lb/>
+                     practic<del>o</del>t<del>o</del>neroner. Every artist tries to produce something new,but in the hope<lb/>
+                     that,in time,it will take its <del><gap reason="deleted"/></del>proper place in the tradition of his art.<lb/>
+                     And he cannot produce anything significantly original unless he knows<lb/>
+                     well what has <del>been</del> already been done<unclear>;</unclear>w<del>ithout</del>,that is to say ,<del>even in</del> he cannot<lb/>
+                     'rebel' against the past without having a profound reverence for it.
+                  </p>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0148/" type="sheet" ed="3v"/>
+               <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0149/" type="sheet" ed="4r"/>
+                  <fw type="pageNum" hand="#handwritten">
+                     (3
+                  </fw>
+                  <p>
+                     <space quantity="6" unit="char"/>There are periods in history when <del>art</del> the arts develop uninterruptedly,<lb/>
+                     <space quantity="1" unit="char"/>each generation building on the achievements of the previous generation.<lb/>
+                     There are other periods when radical breaks seem to be necessary. However,<lb/>
+                     <del>t</del>when they are,one will generally find that the 'radical' artist does not<lb/>
+                     <del>diswon</del> disown the past,but finds in works of a much earlier period or in<lb/>
+                     those of <del>anotehr</del> culture than his own,the clue as to what he should do now.<lb/>
+                     In my own case,for example,I know how much I owe to Anglo-Saxon and<lb/>
+                     Medie<del>av</del>val Poetry.
+                  </p>
+                  <p>
+                     <space quantity="4" unit="char"/>When I <del>revei<unclear>w</unclear></del> review the contemporary artistic scene,<del>I</del><unclear>i</unclear>t strikes me how<lb/>
+                     <del>extraorinary</del> extraordinarily fortunate men like <rs type="person" ref="#amp_person_25">Stravinsky</rs>,<rs type="person" ref="#amp_person_26">Picasso</rs>,<rs type="person" ref="#amp_person_27">Eliot</rs>,<lb/>
+                     etc,that is,those persons we think of as the founders of 'modern' art,<lb/>
+                     were in being born when they were,so that they came to manhood before<lb/>
+                     I9I4. Until the <del>Fis </del> <rs type="event" ref="#amp_event_id_53">First World War</rs>,western society was still pretty much<lb/>
+                     what it had been in the nineteenth century. This meant that for these artists,<lb/>
+                     the felt need to create something new arose from an artistic imperative,<lb/>
+                     not a <del>histroi</del> historic imperative. No one asked himself:"What is the proper<lb/>
+                     kind of music to compose or picture to paint or poem to write in the year<lb/>
+                     I9I2.?" <space quantity="1" unit="char"/>Secondly,their <del>audiences</del> contemporary audiences <space quantity="1" unit="char"/>were mostly<lb/>
+                     cons<del>r</del>ervative,but honestly so. <space quantity="1" unit="char"/>Those,for instance,who were scandalised by<lb/>
+                     <hi rend="underline"><rs type="lit_work" ref="#lit_work_id_35">Le Sacre du Printemps</rs></hi>,may seem to us now to have been old <del>fgi</del> fogies,but<lb/>
+                     their reaction was genuine. They did not say to themselves:"Times have<lb/>
+                     changed and we must change with them in order <del>to be up to date." </del> not to<lb/>
+                     be left behind."
+                  </p>
+                  <p>
+                     <space quantity="5" unit="char"/>Here are a few statements by <rs type="person" ref="#amp_person_25">Stravinsky</rs> to <del>whcih</del> which the young,<del>w<unclear>h</unclear>ere</del><del>where</del>whether<lb/>
+                     artists or critics would do well to listen and <del>pknde </del> ponder over.<lb/>
+                     <seg>
+                        <quote source="#lit_work_id_172">
+                           <space quantity="11" unit="char"/><hi rend="underline">In my youth the new music grew out of,and in reaction to,traditions</hi>,<lb/>
+                           <space quantity="11" unit="char"/><hi rend="underline">whereas it appears to be evolving to-day as much from social needs</hi><lb/>
+                           <space quantity="11" unit="char"/><hi rend="underline">as interior artistic ones...The status of <del>the</del> new music as a</hi><lb/>
+                           <space quantity="11" unit="char"/><hi rend="underline">category is another incomparable. It had none at all in my early</hi><lb/>
+                           <space quantity="12" unit="char"/><hi rend="underline">years,being in fact categorically opposed,and often with real</hi><lb/>
+                           <space quantity="10" unit="char"/><hi rend="underline">hostility. But the unsuccess of composers o<del>n</del>f my generation at</hi><lb/>
+                           <space quantity="10" unit="char"/><hi rend="underline">least kept them from trading on success,and our unsuccess may have</hi><lb/>
+                           <space quantity="11" unit="char"/><hi rend="underline">been less insidious than the automatic superlatives which nowadays</hi><lb/>
+                           <space quantity="10" unit="char"/><hi rend="underline">kill the new by absorbing it t<del>i</del>o de</hi>a<hi rend="underline">th.</hi><lb/>
+                        </quote>
+                        <space quantity="33" unit="char"/>***<lb/>
+                     </seg>
+                     <seg>
+                        <quote source="#lit_work_id_172">
+                           <space quantity="10" unit="char"/><hi rend="underline">The use of the new hardware naturally appears to the new musician</hi><lb/>
+                           <space quantity="10" unit="char"/>a<hi rend="underline">s "historically imperative"; but music is made out of musical</hi><lb/>
+                           <space quantity="10" unit="char"/><hi rend="underline">imperatives,and the awareness of historical processes is probably</hi><lb/>
+                           <space quantity="10" unit="char"/><hi rend="underline">best left to future and different kinds of wage-earners</hi>.<lb/>
+                        </quote>
+                        <space quantity="34" unit="char"/>***
+                     </seg>
+                  </p>
+                  <p>
+                     <space quantity="1" unit="char"/>In times,like our own,of rapid social change and political crisis,there i<unclear>s</unclear><lb/>
+                     always a danger of confusing the principles governing political action and<lb/>
+                     those governing artistic fabrication. <space quantity="1" unit="char"/>The most important of such confus<del>u</del>ions<lb/>
+                     are thr<del>r</del>ee.
+                  </p>
+                  <p>
+                     <space quantity="2" unit="char"/>Firstly,one may come to think of artistic fabrication as <del>s</del><unclear>a</unclear> f<del>rom</del>orm of politic<unclear>a</unclear>l<lb/>
+                     action. Every citizen,<del>artists</del>poets includ<del>i</del>ed,has a duty to be politically 'engagé',<lb/>
+                     that is,to <del>feel</del> play a responsible part in seeing that the society of which<lb/>
+                     he is a member shall function properly and improve. But the poet,qua poet,<lb/>
+                     has only one political function. Since lang<del>i</del>uage is his medium,it is his duty,<lb/>
+                     by his own example,to defend his <del>mot<del>eh</del>her</del>mothermother-tongue against corruption by demagogues,<lb/>
+                     journalists,the mass-media etc. As <rs type="person" ref="#amp_person_81">Karl Kraus</rs><del>s</del> said:<quote source="#lit_work_id_173">"<foreign xml:lang="de">D<hi rend="underline">ie Sprache ist die</hi> <del>Muuet</del><lb/>
+                     <space quantity="1" unit="char"/><hi rend="underline">Mutter,nicht das Magd,des <del>d</del> <del>g</del>Gedankens"</hi></foreign></quote>,and when language loses its meaning,<lb/>
+                     its <del>palce</del> place is taken by violence. Of course,the poet may use political and<lb/>
+                     social events as subject-matter for poems - they are as much a part of human<lb/>
+                     experience as love or nature - but he must never imagine that his poems have<lb/>
+                     the power to affect the course of history. The political and social history<lb/>
+                     of <rs type="place" ref="#amp_place_id_30">Europe</rs> w<unclear>o</unclear>uld be what it <del>ahs</del> has been if <rs type="person" ref="#amp_person_9">Dante</rs>,<rs type="person" ref="#amp_person_10">Shakepeare</rs>,<rs type="person" ref="#amp_person_11">Goethe</rs>,<rs type="person" ref="#amp_person_28">Micha<del>le</del>el<lb/>
+                     Angelo</rs>,<rs type="person" ref="#amp_person_12">Tit<del>ai</del>ian</rs>,<rs type="person" ref="#amp_person_13">Mozart</rs>,<rs type="person" ref="#amp_person_29">Beethoven</rs>,e<del>y</del>tc,<del>ahd</del> had never existed.
+                  </p>
                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0150/" type="sheet" ed="4v"/>
                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0151/" type="sheet" ed="5r"/>
-               <p hand="#handwritten">
-                  4
-               </p>
-               <p>
-                  <space quantity="3" unit="char"/>Where <del>politicla</del> political and social <del>eveils</del> evils are concerned,only<lb/>
-                  t<del>k</del>wo things are effective<del>*</del><unclear>:</unclear> political action and straightforward,truthful,<lb/>
-                  detailed journalistic rapportage of the facts. The Arts are powerless.<lb/>
-                  <space quantity="2" unit="char"/>The second confusion,of which <rs type="person" ref="#amp_person_30">Plato</rs> is the most famous example,is to take<lb/>
-                  arti<del>t</del>stic fabrication as the model for a good society. <del>The aim of any artist <space quantity="1" unit="char"/></del><lb/>
-                  Such a model,if put into practice,is bound to produce a tyrrany. The aim of<lb/>
-                  the artist<del>s</del> is to produce an object which is complete and will endure without<lb/>
-                  change. <del>A</del> In the 'city' of a poem,there are always the same inhabitants doing<lb/>
-                  exactly the same jobs for ever. A society which was really like a good poem,<lb/>
-                  embodying the aesthetic virtues of order,economy and subordination of the detail<lb/>
-                  to the whole,would be a nightmare of horror for,given the historical reality of<lb/>
-                  actual men,such a society could only come into being through selective breeding,<lb/>
-                  ex<del>y</del>termination <space quantity="1" unit="char"/>of the physically and mentally unfit,absolute obedience to<lb/>
-                  its <del>D</del>director,a alrge slave cla<del>a</del>ss kept out of sight in <del>f</del>cellars and the<lb/>
-                  strictest censure<del>e</del>ship of the Arts,forbidding anything to be said which <del>was</del> is<lb/>
-                  <del>not</del> out of keeping with the official 'line.'<lb/>
-                  <space quantity="3" unit="char"/>The third confusion,typical of our western <del>civilisat</del> 'free' <del>soncietis</del><lb/>
-                  societies at this time,is the opposite of <rs type="person" ref="#amp_person_30">Plato</rs>'s,namely to take political<lb/>
-                  act<del>u</del>ion as the model for arti<del>t</del>stic fabrication. Political action is a necessity,<lb/>
-                  that is to say,a<del>y</del>t very moment something has to be done,and <del>politicla</del> it<lb/>
-                  is momentary - action at this moment is immeiately followed by another action<lb/>
-                  at the next. <space quantity="1" unit="char"/>Artistic fabrication,on the other hand,is <del>voluntarily</del> voluntary-<lb/>
-                  the alternative to one work of art can be no work of art - and the artistic<lb/>
-                  object is permanent,that is to say,immune to historical change. The attempt<lb/>
-                  to model arti<del>t</del>stic fabrication o<del>s</del>n political action can therefore,only<lb/>
-                  reduce it to momentary <del>(<unclear>h</unclear> </del> a<del>d</del>nd arbitrary 'happenings',a conformism with<lb/>
-                  the tyrrany of the immediate moment which is far more enslaving and<lb/>
-                  destructive of integrity than any conformism with past tradition.
-               </p>
-               <p hand="#handwritten">
-                  i<unclear>n</unclear>sert<lb/>
-                  4<unclear>`</unclear>a
-               </p>
-               <p>
-                  <space quantity="3" unit="char"/>What then,can the Arts do for us? In my opi<del>o</del>nion,they can do two things.<lb/>
-                  They can,as <rs type="person" ref="#amp_person_33">Dr Johns<del>t</del>on</rs> said,<quote source="#lit_work_id_174">'enable us a little better to enjoy life or a<lb/>
-                  little better to <del>enjoy</del>endure it"</quote>. And,<del>bec<unclear>aas</unclear>e</del> because they are objects <del>permant</del><lb/>
-                  permanently on hand in the world,they are the chief means by which the <del>lvi</del><lb/>
-                  living are able to break bread with the dead,and,without a communication<lb/>
-                  with the dead,I do not believe that a fully human civilised life is possible.<lb/>
-                  <space quantity="2" unit="char"/>Perhaps,too,in our age,the mere making of a work of art is itself a<lb/>
-                  political act. So long as artists exist,making what they please or think<lb/>
-                  they ought to make,even if <del>the worlks</del> their wor<del>l</del>ks are not terribly good,they<lb/>
-                  remind the Management of something managers need to be reminded of,namely,<lb/>
-                  that the managed are people with faces,not anonymous numbers,that <hi rend="underline">Homo</hi><lb/>
-                  <hi rend="underline">Laborans</hi> is also <hi rend="underline">Homo Ludens.</hi><lb/>
-                  <space quantity="9" unit="char"/>And now,I hope those of you who know no English will forgive me i<del>s</del>f<lb/>
-                  I conclude<del>d</del> these remarks with a light poem of my own,entitled<lb/>
-                  <hi rend="underline"><rs type="lit_work" ref="#lit_work_id_57">Doggerel <del>of</del> by a Senior Citizen</rs></hi>.
-               </p>
+                  <fw type="pageNum" hand="#handwritten">
+                     4
+                  </fw>
+                  <p>
+                     <space quantity="3" unit="char"/>Where <del>politicla</del> political and social <del>eveils</del> evils are concerned,only<lb/>
+                     t<del>k</del>wo things are effective<del>*</del><unclear>:</unclear> political action and straightforward,truthful,<lb/>
+                     detailed journalistic rapportage of the facts. The Arts are powerless.
+                  </p>
+                  <p>
+                     <space quantity="2" unit="char"/>The second confusion,of which <rs type="person" ref="#amp_person_30">Plato</rs> is the most famous example,is to take<lb/>
+                     arti<del>t</del>stic fabrication as the model for a good society. <del>The aim of any artist <space quantity="1" unit="char"/></del><lb/>
+                     Such a model,if put into practice,is bound to produce a tyrrany. The aim of<lb/>
+                     the artist<del>s</del> is to produce an object which is complete and will endure without<lb/>
+                     change. <del>A</del> In the 'city' of a poem,there are always the same inhabitants doing<lb/>
+                     exactly the same jobs for ever. A society which was really like a good poem,<lb/>
+                     embodying the aesthetic virtues of order,economy and subordination of the detail<lb/>
+                     to the whole,would be a nightmare of horror for,given the historical reality of<lb/>
+                     actual men,such a society could only come into being through selective breeding,<lb/>
+                     ex<del>y</del>termination <space quantity="1" unit="char"/>of the physically and mentally unfit,absolute obedience to<lb/>
+                     its <del>D</del>director,a alrge slave cla<del>a</del>ss kept out of sight in <del>f</del>cellars and the<lb/>
+                     strictest censure<del>e</del>ship of the Arts,forbidding anything to be said which <del>was</del> is<lb/>
+                     <del>not</del> out of keeping with the official 'line.'
+                  </p>
+                  <p>
+                     <space quantity="3" unit="char"/>The third confusion,typical of our western <del>civilisat</del> 'free' <del>soncietis</del><lb/>
+                     societies at this time,is the opposite of <rs type="person" ref="#amp_person_30">Plato</rs>'s,namely to take political<lb/>
+                     act<del>u</del>ion as the model for arti<del>t</del>stic fabrication. Political action is a necessity,<lb/>
+                     that is to say,a<del>y</del>t very moment something has to be done,and <del>politicla</del> it<lb/>
+                     is momentary - action at this moment is immeiately followed by another action<lb/>
+                     at the next. <space quantity="1" unit="char"/>Artistic fabrication,on the other hand,is <del>voluntarily</del> voluntary-<lb/>
+                     the alternative to one work of art can be no work of art - and the artistic<lb/>
+                     object is permanent,that is to say,immune to historical change. The attempt<lb/>
+                     to model arti<del>t</del>stic fabrication o<del>s</del>n political action can therefore,only<lb/>
+                     reduce it to momentary <del>(<unclear>h</unclear> </del> a<del>d</del>nd arbitrary 'happenings',a conformism with<lb/>
+                     the tyrrany of the immediate moment which is far more enslaving and<lb/>
+                     destructive of integrity than any conformism with past tradition.
+                  </p>
+                  <ab hand="#handwritten">
+                     i<unclear>n</unclear>sert<lb/>
+                     4<unclear>`</unclear>a
+                  </ab>
+                  <p>
+                     <space quantity="3" unit="char"/>What then,can the Arts do for us? In my opi<del>o</del>nion,they can do two things.<lb/>
+                     They can,as <rs type="person" ref="#amp_person_33">Dr Johns<del>t</del>on</rs> said,<quote source="#lit_work_id_174">'enable us a little better to enjoy life or a<lb/>
+                     little better to <del>enjoy</del>endure it"</quote>. And,<del>bec<unclear>aas</unclear>e</del> because they are objects <del>permant</del><lb/>
+                     permanently on hand in the world,they are the chief means by which the <del>lvi</del><lb/>
+                     living are able to break bread with the dead,and,without a communication<lb/>
+                     with the dead,I do not believe that a fully human civilised life is possible.
+                  </p>
+                  <p>
+                     <space quantity="2" unit="char"/>Perhaps,too,in our age,the mere making of a work of art is itself a<lb/>
+                     political act. So long as artists exist,making what they please or think<lb/>
+                     they ought to make,even if <del>the worlks</del> their wor<del>l</del>ks are not terribly good,they<lb/>
+                     remind the Management of something managers need to be reminded of,namely,<lb/>
+                     that the managed are people with faces,not anonymous numbers,that <hi rend="underline">Homo</hi><lb/>
+                     <hi rend="underline">Laborans</hi> is also <hi rend="underline">Homo Ludens.</hi>
+                  </p>
+                  <p>
+                     <space quantity="9" unit="char"/>And now,I hope those of you who know no English will forgive me i<del>s</del>f<lb/>
+                     I conclude<del>d</del> these remarks with a light poem of my own,entitled<lb/>
+                     <hi rend="underline"><rs type="lit_work" ref="#lit_work_id_57">Doggerel <del>of</del> by a Senior Citizen</rs></hi>.
+                  </p>
                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0152/" type="sheet" ed="5v"/>
                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0153/" type="sheet" ed="6r"/>
-               <p hand="#handwritten">
-                  (4a
-               </p>
-               <p hand="#handwritten">
-                  insert into next page
-               </p>
-               <p>
-                  <space quantity="7" unit="char"/>At this p<del>in</del>oint,a little digression on the subject of 'free' verse,which<lb/>
-                  <space quantity="2" unit="char"/>seems now to be almost universal among young poets. Though excellent<lb/>
-                  <space quantity="1" unit="char"/>examples,the poems of <rs type="person" ref="#amp_person_31">D.H.Lawrence</rs>,for example,exist,i<del>n my opinion </del>they are,<unclear>in</unclear> my opinio<unclear>n</unclear><lb/>
-                  the exception,not the rule. The great virtue of formal metrical rules is<lb/>
-                  that they forbid automatic <del>reposnse</del> resp<del>i</del>onses and,by forcing the <del>piet</del> poet<lb/>
-                  to have second thoughts,free <del>f</del>him f<del>or</del>rom the fetters of self. All too often,the<lb/>
-                  result of not having a fixed form to be true to,is a self-indulgence which in<lb/>
-                  the detached reader can only cause boredom. Further,in my exper<del>ei</del>ience ,contrary<lb/>
-                  to what one might exp<del>s</del>ect,the <del>writers o</del> free-verse poets sound much more<lb/>
-                  like each other than those who write in fixed forms. Whatever freedom may do,<lb/>
-                  it does not,it would seem,make for originality.
-               </p>
+                  <fw type="pageNum" hand="#handwritten">
+                     (4a
+                  </fw>
+               </div>
+               <div>
+                  <ab hand="#handwritten">
+                     insert into next page
+                  </ab>
+               </div>
+               <div type="prose">
+                  <p>
+                     <space quantity="7" unit="char"/>At this p<del>in</del>oint,a little digression on the subject of 'free' verse,which<lb/>
+                     <space quantity="2" unit="char"/>seems now to be almost universal among young poets. Though excellent<lb/>
+                     <space quantity="1" unit="char"/>examples,the poems of <rs type="person" ref="#amp_person_31">D.H.Lawrence</rs>,for example,exist,i<del>n my opinion </del>they are,<unclear>in</unclear> my opinio<unclear>n</unclear><lb/>
+                     the exception,not the rule. The great virtue of formal metrical rules is<lb/>
+                     that they forbid automatic <del>reposnse</del> resp<del>i</del>onses and,by forcing the <del>piet</del> poet<lb/>
+                     to have second thoughts,free <del>f</del>him f<del>or</del>rom the fetters of self. All too often,the<lb/>
+                     result of not having a fixed form to be true to,is a self-indulgence which in<lb/>
+                     the detached reader can only cause boredom. Further,in my exper<del>ei</del>ience ,contrary<lb/>
+                     to what one might exp<del>s</del>ect,the <del>writers o</del> free-verse poets sound much more<lb/>
+                     like each other than those who write in fixed forms. Whatever freedom may do,<lb/>
+                     it does not,it would seem,make for originality.
+                  </p>
+               </div>
                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0154/" type="sheet" ed="6v"/>
          </div>
       </div>
-      </div>
       </body>
-   </text>
+   <back><listPerson><person xml:id="amp_person_112">
+                  <persName>
+                     <forename>Andreas</forename>
+                     <surname>Maurer</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1919-09-07">1919-09-07</date>
+                     <settlement key="amp_place_id_166">
+                        <placeName>Trautmannsdorf an der Leitha</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="2010-10-25">2010-10-25</date>
+                     <settlement key="amp_place_id_166">
+                        <placeName>Trautmannsdorf an der Leitha</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/119265311</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q87277</idno>
+               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
+               <person xml:id="amp_person_33">
+                  <persName>
+                     <forename>Samuel</forename>
+                     <surname>Johnson</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1709-09-18">1709-09-18</date>
+                     <settlement key="amp_place_id_61">
+                        <placeName>Lichfield</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1784-12-13">1784-12-13</date>
+                     <settlement key="amp_place_id_56">
+                        <placeName>London</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118558161</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q183266</idno>
+                  <listBibl>
+                     <bibl n="lit_work_id_174">Review of a Free Enquiry into the Nature and Origin of Evil</bibl>
+                  </listBibl>
+               <noteGrp><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
+               <person xml:id="amp_person_1">
+                  <persName>
+                     <forename>W. H.</forename>
+                     <surname>Auden</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1907-02-21">1907-02-21</date>
+                     <settlement key="amp_place_id_3">
+                        <placeName>York</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1973-09-29">1973-09-29</date>
+                     <settlement key="amp_place_id_225">
+                        <placeName>Hotel Altenburgerhof</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118650963</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q178698</idno>
+                  <listBibl>
+                     <bibl n="lit_work_id_2">Homage to Clio</bibl>
+                     <bibl n="lit_work_id_3">The Rake's Progress</bibl>
+                     <bibl n="lit_work_id_4">Elegy for Young Lovers</bibl>
+                     <bibl n="lit_work_id_5">The Bassarids: Opera Seria with Intermezzo in One Act Based on "The Bacchae" of Euripides</bibl>
+                     <bibl n="lit_work_id_16">The Rake's Progress</bibl>
+                     <bibl n="lit_work_id_17">Elegy for Young Lovers</bibl>
+                     <bibl n="lit_work_id_18">The Bassarids: Opera Seria with Intermezzo in One Act Based on "The Bacchae" of Euripides</bibl>
+                     <bibl n="lit_work_id_19">Love's Labour's Lost</bibl>
+                     <bibl n="lit_work_id_20">Love's Labour's Lost</bibl>
+                     <bibl n="lit_work_id_28">W. H. Auden: Collected Poems</bibl>
+                     <bibl n="lit_work_id_29">Vägmärken (Markings)</bibl>
+                     <bibl n="lit_work_id_31">The Dyer's Hand</bibl>
+                     <bibl n="lit_work_id_32">The Faber Book of Aphorisms</bibl>
+                     <bibl n="lit_work_id_33">A Certain World: A Commonplace Book</bibl>
+                     <bibl n="lit_work_id_34">Nineteenth-Century British Minor Poets</bibl>
+                     <bibl n="lit_work_id_37">The Cave of Making</bibl>
+                     <bibl n="lit_work_id_38">Prologue at Sixty</bibl>
+                     <bibl n="lit_work_id_43">Stark bewölkt (version 1971-10-19)</bibl>
+                     <bibl n="lit_work_id_53">Forewords and Afterwords</bibl>
+                     <bibl n="lit_work_id_55">For the Time Being: A Christmas Oratorio</bibl>
+                     <bibl n="lit_work_id_57">Doggerel by a Senior Citizen</bibl>
+                     <bibl n="lit_work_id_58">Elegy (version 1968-10-04)</bibl>
+                     <bibl n="lit_work_id_60">Joseph Weinheber</bibl>
+                     <bibl n="lit_work_id_61">Joseph Weinheber (version 1965-03-15)</bibl>
+                     <bibl n="lit_work_id_62">Joseph Weinheber (version 1965-04-28)</bibl>
+                     <bibl n="lit_work_id_67">Gedichte/Poems</bibl>
+                     <bibl n="lit_work_id_74">The Common Life</bibl>
+                     <bibl n="lit_work_id_79">Whitsunday in Kirchstetten</bibl>
+                     <bibl n="lit_work_id_80">The English Auden: Poems, Essays and Dramatic Writings, 1927-1939</bibl>
+                     <bibl n="lit_work_id_85">Freedom and Necessity in the Arts</bibl>
+                     <bibl n="lit_work_id_88">August 1968 (version 1968-10-04)</bibl>
+                     <bibl n="lit_work_id_90">Freedom and Necessity in the Arts (English version 1970-05-21)</bibl>
+                     <bibl n="lit_work_id_92">Joseph Weinheber (prose translation W. H. Auden and Elizabeth Mayer)</bibl>
+                     <bibl n="lit_work_id_96">The Co-Inherence: The Image of the City, and Other Essays, by Charles Williams</bibl>
+                     <bibl n="lit_work_id_99">Statement addressed to the Austrian tax authorities (English version 1972-07-26)</bibl>
+                     <bibl n="lit_work_id_101">On Installing an American Kitchen in Lower Austria</bibl>
+                     <bibl n="lit_work_id_102">For Friends Only</bibl>
+                     <bibl n="lit_work_id_103">Statement addressed to the Austrian tax authorities (translation Hilde Spiel 1972-08-23--1972-09-18)</bibl>
+                     <bibl n="lit_work_id_104">Statement (addressed to the Austrian tax authorities) (version The Years in Austria) 1976-09-04--1980-12-01</bibl>
+                     <bibl n="lit_work_id_105">Statement (addressed to the Austrian tax authorities)</bibl>
+                     <bibl n="lit_work_id_106">Statement (addressed to the Austrian tax authorities) (version In Retrospect)</bibl>
+                     <bibl n="lit_work_id_107">Elegy</bibl>
+                     <bibl n="lit_work_id_112">A Very Inquisitive Old Party</bibl>
+                     <bibl n="lit_work_id_116">Secondary Worlds</bibl>
+                     <bibl n="lit_work_id_121">Night Mail</bibl>
+                     <bibl n="lit_work_id_122">Coal Face</bibl>
+                     <bibl n="lit_work_id_123">Auden: Poems/Moore: Lithographs</bibl>
+                     <bibl n="lit_work_id_124">Austria and the Austrians</bibl>
+                     <bibl n="lit_work_id_127">Ein halbes Jahr zu Gast in Berlin: Ein Gespräch mit dem Dichter, Essayisten und Librettisten Wystan Hugh Auden</bibl>
+                     <bibl n="lit_work_id_132">Loneliness</bibl>
+                     <bibl n="lit_work_id_133">Of Drugs and Drivel</bibl>
+                     <bibl n="lit_work_id_134">About the House</bibl>
+                     <bibl n="lit_work_id_135">Collected Shorter Poems 1927–1957</bibl>
+                     <bibl n="lit_work_id_136">Collected Longer Poems</bibl>
+                     <bibl n="lit_work_id_137">City Without Walls</bibl>
+                     <bibl n="lit_work_id_138">Epistle to a Godson and Other Poems</bibl>
+                     <bibl n="lit_work_id_148">The Magic Flute</bibl>
+                     <bibl n="lit_work_id_149">Don Giovanni</bibl>
+                     <bibl n="lit_work_id_150">The Seven Deadly Sins</bibl>
+                     <bibl n="lit_work_id_151">Rise and Fall of the City of Mahagonny</bibl>
+                     <bibl n="lit_work_id_152">Arcifanfano, King of Fools; or, It's Always Too Late to Learn</bibl>
+                     <bibl n="lit_work_id_158">Nones</bibl>
+                     <bibl n="lit_work_id_161">August 1968</bibl>
+                     <bibl n="lit_work_id_165">Stark bewölkt</bibl>
+                     <bibl n="lit_work_id_166">Epistle to a Godson (version 1969-06-10)</bibl>
+                     <bibl n="lit_work_id_167">Epistle to a Godson</bibl>
+                     <bibl n="lit_work_id_168">Epithalamium (version 1965-04-28)</bibl>
+                     <bibl n="lit_work_id_169">Epithalamium</bibl>
+                     <bibl n="lit_work_id_175">Foreword</bibl>
+                     <bibl n="lit_work_id_178">Glad</bibl>
+                     <bibl n="lit_work_id_179">Paul Bunyan</bibl>
+                     <bibl n="lit_work_id_180">Delia</bibl>
+                     <bibl n="lit_work_id_181">The Entertainment of the Senses</bibl>
+                     <bibl n="lit_work_id_182">On This Island</bibl>
+                     <bibl n="lit_work_id_183">What's in your mind, my dove, my coney</bibl>
+                     <bibl n="lit_work_id_184">Three Songs for St. Cecilia's Day</bibl>
+                     <bibl n="lit_work_id_186">O Tell Me the Truth About Love</bibl>
+                     <bibl n="lit_work_id_187">Funeral Blues</bibl>
+                     <bibl n="lit_work_id_188">Johnny</bibl>
+                     <bibl n="lit_work_id_189">Calypso</bibl>
+                     <bibl n="lit_work_id_190">Inzwischen: Ein Musik-Fernseh-Spiel</bibl>
+                     <bibl n="lit_work_id_191">Foreword to The Sorrows of Young Werther [and] Novella, by Johann Wolfgang Goethe</bibl>
+                     <bibl n="lit_work_id_192">Mr G</bibl>
+                     <bibl n="lit_work_id_193">Italian Journey: Introduction to a Translation by Auden and Elizabeth Mayer of Goethe's Italian Journey</bibl>
+                     <bibl n="lit_work_id_194">Academic Graffiti</bibl>
+                     <bibl n="lit_work_id_195">Thank You, Fog and Other Poems</bibl>
+                     <bibl n="lit_work_id_196">Selected Poetry of W. H. Auden: Second Edition</bibl>
+                     <bibl n="lit_work_id_197">Selected Poems</bibl>
+                     <bibl n="lit_work_id_200">New Year Letter</bibl>
+                     <bibl n="lit_work_id_202">W. H. Auden: Selected Poems</bibl>
+                     <bibl n="lit_work_id_203">Plays and Other Dramatic Writings by W. H. Auden, 1927-1938</bibl>
+                  </listBibl>
+               <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note><note target="amp-transcript__0002.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23</note><note target="amp-transcript__0003.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29</note><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0007.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-06</note><note target="amp-transcript__0008.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-12</note><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0010.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-11-06</note><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0012.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</note><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note><note target="amp-transcript__0014.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</note><note target="amp-transcript__0014.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</note><note target="amp-transcript__0015.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10</note><note target="amp-transcript__0016.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-09-18</note><note target="amp-transcript__0017.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1971-06-04</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note><note target="amp-transcript__0020.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1973-09-24</note><note target="amp-transcript__0021.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1961-10-13</note><note target="amp-transcript__0021.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1961-10-13</note><note target="amp-transcript__0022.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-08-16</note><note target="amp-transcript__0023.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-07-23</note><note target="amp-transcript__0023.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-07-23</note><note target="amp-transcript__0024.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-09-11</note><note target="amp-transcript__0024.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-09-11</note><note target="amp-transcript__0025.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-10-17</note><note target="amp-transcript__0025.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-10-17</note><note target="amp-transcript__0026.xml" type="mentions">Autograph Notes W. H. Auden Stella Musulin 1959-06-01--1973-09-28</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note><note target="amp-transcript__0030.xml" type="mentions">Copy Typed Letter Stella Musulin to Bruce Duncan 1985-11-29</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note><note target="amp-transcript__0034.xml" type="mentions">Typed Letter Signed Michael O'Sullivan to Stella Musulin 1984-05-31</note><note target="amp-transcript__0035.xml" type="mentions">Telegram W. H. Auden to Stella Musulin 1971-05-13</note><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note><note target="amp-transcript__0040.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-06-10</note><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note><note target="amp-transcript__0042.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescripts W. H. Auden "August 1968" and "Elegy" 1968-10-04</note><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0044.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</note><note target="amp-transcript__0045.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1960-07-21</note><note target="amp-transcript__0045.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1960-07-21</note><note target="amp-transcript__0049.xml" type="mentions">Invitation Card Österreichische Gesellschaft für Literatur Poetry Reading W. H. Auden 1973-01-01--1973-09-28</note><note target="amp-transcript__0051.xml" type="mentions">Typed Notes [Janko Musulin] Translation W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21--1970-06-10</note><note target="amp-transcript__0052.xml" type="mentions">Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-07-26--1972-08-25</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0054.xml" type="mentions">Photographs [Stella Musulin] of W. H. Auden, Chester Kallman, and Elsa Musulin 1960-07-21--1960-11-02</note><note target="amp-transcript__0057.xml" type="mentions">Envelope W. H. Auden to Stella Musulin 1961-04-25--1961-10-25</note><note target="amp-transcript__0058.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-10-01--1965-08-15</note><note target="amp-transcript__0059.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-04-30</note><note target="amp-transcript__0059.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-04-30</note><note target="amp-transcript__0060.xml" type="mentions">Copy Typed Letter Wolfgang Kraus to Stella Musulin 1977-03-22</note><note target="amp-transcript__0061.xml" type="mentions">Typed Letter Signed Stella Musulin to Wolfgang Kraus 1977-04-05</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note><note target="amp-transcript__0066.xml" type="mentions">Photograph [Stella Musulin] of Friedrich Heer, Chester Kallman, and W. H. Auden 1969-05-28</note><note target="amp-transcript__0068.xml" type="mentions">Photograph [Stella Musulin] of W. H. Auden 1969-05-28</note><note target="amp-transcript__0070.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1959-10-10</note><note target="amp-transcript__0070.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1959-10-10</note><note target="amp-transcript__0071.xml" type="mentions">Typed Letter Signed Stella Musulin to W. H. Auden 1962-04-16--1973-04-16</note><note target="amp-transcript__0072.xml" type="mentions">Photograph [Stella Musulin] of Friedrich Colloredo, Chester Kallman, and W. H. Auden 1959-06-01--1973-09-28</note></noteGrp></person>
+               <person xml:id="amp_person_24">
+                  <persName>
+                     <forename>Giovanni Pierluigi da</forename>
+                     <surname>Palestrina</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1525-02-03">1525-02-03</date>
+                     <settlement key="amp_place_id_50">
+                        <placeName>Palestrina</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1594-02-02">1594-02-02</date>
+                     <settlement key="amp_place_id_51">
+                        <placeName>Rome</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118818686</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q179277</idno>
+               <noteGrp><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
+               <person xml:id="amp_person_31">
+                  <persName>
+                     <forename>D. H.</forename>
+                     <surname>Lawrence</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1885-09-11">1885-09-11</date>
+                     <settlement key="amp_place_id_59">
+                        <placeName>Eastwood</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1930-03-02">1930-03-02</date>
+                     <settlement key="amp_place_id_60">
+                        <placeName>Vence</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118570358</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q34970</idno>
+               <noteGrp><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
+               <person xml:id="amp_person_30">
+                  <persName>
+                     <forename>Plato</forename>
+                     <surname/>
+                  </persName>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118594893</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q859</idno>
+               <noteGrp><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
+               <person xml:id="amp_person_13">
+                  <persName>
+                     <forename>Wolfgang Amadeus</forename>
+                     <surname>Mozart</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1756-01-27">1756-01-27</date>
+                     <settlement key="amp_place_id_37">
+                        <placeName>Salzburg</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1791-12-05">1791-12-05</date>
+                     <settlement key="amp_place_id_1">
+                        <placeName>Vienna</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118584596</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q254</idno>
+                  <listBibl>
+                     <bibl n="lit_work_id_7">Die Zauberflöte (The Magic Flute)</bibl>
+                     <bibl n="lit_work_id_8">Il dissoluto punito ossia Il Don Giovanni (The Rake Punished, or Don Giovanni)</bibl>
+                  </listBibl>
+               <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
+               <person xml:id="amp_person_10">
+                  <persName>
+                     <forename>William</forename>
+                     <surname>Shakespeare</surname>
+                  </persName>
+                  <death>
+                     <date when-iso="1616-04-23">1616-04-23</date>
+                     <settlement key="amp_place_id_32">
+                        <placeName>Stratford-upon-Avon</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118613723</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q692</idno>
+                  <listBibl>
+                     <bibl n="lit_work_id_6">Love's Labour's Lost</bibl>
+                  </listBibl>
+               <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
+               <person xml:id="amp_person_12">
+                  <persName>
+                     <forename>Tiziano</forename>
+                     <surname>Vecellio</surname>
+                  </persName>
+                  <death>
+                     <date when-iso="1576-08-27">1576-08-27</date>
+                     <settlement key="amp_place_id_36">
+                        <placeName>Venice</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118622994</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q47551</idno>
+               <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
+               <person xml:id="amp_person_81">
+                  <persName>
+                     <forename>Karl</forename>
+                     <surname>Kraus</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1874-04-28">1874-04-28</date>
+                     <settlement key="amp_place_id_141">
+                        <placeName>Jičín</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1936-06-12">1936-06-12</date>
+                     <settlement key="amp_place_id_1">
+                        <placeName>Vienna</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118566288</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q44328</idno>
+                  <listBibl>
+                     <bibl n="lit_work_id_173">Aphorismen</bibl>
+                  </listBibl>
+               <noteGrp><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
+               <person xml:id="amp_person_25">
+                  <persName>
+                     <forename>Igor</forename>
+                     <surname>Stravinsky</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1882-06-17">1882-06-17</date>
+                     <settlement key="amp_place_id_52">
+                        <placeName>Lomonosov</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1971-04-06">1971-04-06</date>
+                     <settlement key="amp_place_id_28">
+                        <placeName>New York City</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118642545</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q7314</idno>
+                  <listBibl>
+                     <bibl n="lit_work_id_3">The Rake's Progress</bibl>
+                     <bibl n="lit_work_id_35">Le Sacre du Printemps (The Rite of Spring)</bibl>
+                     <bibl n="lit_work_id_172">Retrospectives and Conclusions</bibl>
+                  </listBibl>
+               <noteGrp><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note></noteGrp></person>
+               <person xml:id="amp_person_111">
+                  <persName>
+                     <forename>Augustine of</forename>
+                     <surname>Hippo</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="0354-11-13">0354-11-13</date>
+                     <settlement key="amp_place_id_164">
+                        <placeName>Souk Ahras</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="0430-08-28">0430-08-28</date>
+                     <settlement key="amp_place_id_165">
+                        <placeName>Annaba</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118505114</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q8018</idno>
+                  <listBibl>
+                     <bibl n="lit_work_id_171">Confessiones (Confessions)</bibl>
+                  </listBibl>
+               <noteGrp><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
+               <person xml:id="amp_person_2">
+                  <persName>
+                     <forename>Stella Mary Bellairs</forename>
+                     <surname>Musulin</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1915-07-16">1915-07-16</date>
+                     <settlement key="amp_place_id_4">
+                        <placeName>Dale</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1996-01-21">1996-01-21</date>
+                     <settlement key="amp_place_id_7">
+                        <placeName>Schloss Fridau</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/127246711</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q120538514</idno>
+                  <listBibl>
+                     <bibl n="lit_work_id_45">Austria: People and Landscape</bibl>
+                     <bibl n="lit_work_id_46">In Retrospect</bibl>
+                     <bibl n="lit_work_id_47">The Years in Austria 1976-09-04--1980-12-01</bibl>
+                     <bibl n="lit_work_id_87">Fleißaufgaben in Nächstenliebe</bibl>
+                     <bibl n="lit_work_id_91">Freedom and Necessity in the Arts (translation Stella Musulin Janko Musulin 1970-05-21--1970-06-10)</bibl>
+                     <bibl n="lit_work_id_93">Joseph Weinheber (prose translation Elsa Musulin and Stella Musulin)</bibl>
+                     <bibl n="lit_work_id_94">Joseph Weinheber (notes prose translation Elsa Musulin and Stella Musulin)</bibl>
+                     <bibl n="lit_work_id_104">Statement (addressed to the Austrian tax authorities) (version The Years in Austria) 1976-09-04--1980-12-01</bibl>
+                     <bibl n="lit_work_id_106">Statement (addressed to the Austrian tax authorities) (version In Retrospect)</bibl>
+                     <bibl n="lit_work_id_108">Auden in Kirchstetten (1976-06-23)</bibl>
+                     <bibl n="lit_work_id_114">Unpublished volume on W. H. Auden in Austria to be edited by Peter Müller</bibl>
+                     <bibl n="lit_work_id_115">Die zwei Welten des W. H. Auden: Auf den Spuren des englischen Poeten in Kirchstetten</bibl>
+                     <bibl n="lit_work_id_117">Unpublished volume of memoirs of W. H. Auden</bibl>
+                     <bibl n="lit_work_id_124">Austria and the Austrians</bibl>
+                     <bibl n="lit_work_id_126">W. H. Auden und die Österreicher</bibl>
+                     <bibl n="lit_work_id_162">Auden in Kirchstetten</bibl>
+                     <bibl n="lit_work_id_163">Austria: People and Landscape (pre-print version 1970)</bibl>
+                     <bibl n="lit_work_id_164">Austria: People and Landscape</bibl>
+                     <bibl n="lit_work_id_185">"two volumes by and about Auden" (amp-transcript__0033.xml)</bibl>
+                  </listBibl>
+               <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note><note target="amp-transcript__0002.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23</note><note target="amp-transcript__0003.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29</note><note target="amp-transcript__0003.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29</note><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0007.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-06</note><note target="amp-transcript__0008.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-12</note><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0010.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-11-06</note><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0012.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</note><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note><note target="amp-transcript__0014.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</note><note target="amp-transcript__0014.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</note><note target="amp-transcript__0015.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10</note><note target="amp-transcript__0016.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-09-18</note><note target="amp-transcript__0017.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1971-06-04</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note><note target="amp-transcript__0020.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1973-09-24</note><note target="amp-transcript__0021.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1961-10-13</note><note target="amp-transcript__0022.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-08-16</note><note target="amp-transcript__0023.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-07-23</note><note target="amp-transcript__0024.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-09-11</note><note target="amp-transcript__0025.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-10-17</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0030.xml" type="mentions">Copy Typed Letter Stella Musulin to Bruce Duncan 1985-11-29</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note><note target="amp-transcript__0034.xml" type="mentions">Typed Letter Signed Michael O'Sullivan to Stella Musulin 1984-05-31</note><note target="amp-transcript__0035.xml" type="mentions">Telegram W. H. Auden to Stella Musulin 1971-05-13</note><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note><note target="amp-transcript__0040.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-06-10</note><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note><note target="amp-transcript__0042.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescripts W. H. Auden "August 1968" and "Elegy" 1968-10-04</note><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0044.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</note><note target="amp-transcript__0045.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1960-07-21</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0057.xml" type="mentions">Envelope W. H. Auden to Stella Musulin 1961-04-25--1961-10-25</note><note target="amp-transcript__0058.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-10-01--1965-08-15</note><note target="amp-transcript__0059.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-04-30</note><note target="amp-transcript__0060.xml" type="mentions">Copy Typed Letter Wolfgang Kraus to Stella Musulin 1977-03-22</note><note target="amp-transcript__0061.xml" type="mentions">Typed Letter Signed Stella Musulin to Wolfgang Kraus 1977-04-05</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note><note target="amp-transcript__0070.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1959-10-10</note><note target="amp-transcript__0071.xml" type="mentions">Typed Letter Signed Stella Musulin to W. H. Auden 1962-04-16--1973-04-16</note></noteGrp></person>
+               <person xml:id="amp_person_11">
+                  <persName>
+                     <forename>Johann Wolfgang von</forename>
+                     <surname>Goethe</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1749-08-28">1749-08-28</date>
+                     <settlement key="amp_place_id_33">
+                        <placeName>Frankfurt am Main</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1832-03-22">1832-03-22</date>
+                     <settlement key="amp_place_id_34">
+                        <placeName>Weimar</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118540238</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q5879</idno>
+                  <listBibl>
+                     <bibl n="lit_work_id_70">Italienische Reise (Italian Journey)</bibl>
+                     <bibl n="lit_work_id_170">Das Sonett</bibl>
+                  </listBibl>
+               <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
+               <person xml:id="amp_person_29">
+                  <persName>
+                     <forename>Ludwig van</forename>
+                     <surname>Beethoven</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1770-12-17">1770-12-17</date>
+                     <settlement key="amp_place_id_58">
+                        <placeName>Bonn</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1827-03-26">1827-03-26</date>
+                     <settlement key="amp_place_id_1">
+                        <placeName>Vienna</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118508288</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q255</idno>
+               <noteGrp><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
+               <person xml:id="amp_person_9">
+                  <persName>
+                     <forename>Dante</forename>
+                     <surname>Alighieri</surname>
+                  </persName>
+                  <death>
+                     <date when-iso="1321-09-14">1321-09-14</date>
+                     <settlement key="amp_place_id_31">
+                        <placeName>Ravenna</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118523708</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1067</idno>
+               <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
+               <person xml:id="amp_person_26">
+                  <persName>
+                     <forename>Pablo</forename>
+                     <surname>Picasso</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1881-10-25">1881-10-25</date>
+                     <settlement key="amp_place_id_53">
+                        <placeName>Málaga</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1973-04-08">1973-04-08</date>
+                     <settlement key="amp_place_id_54">
+                        <placeName>Mougins</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118594206</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q5593</idno>
+               <noteGrp><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
+               <person xml:id="amp_person_27">
+                  <persName>
+                     <forename>T. S.</forename>
+                     <surname>Eliot</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1888-09-26">1888-09-26</date>
+                     <settlement key="amp_place_id_55">
+                        <placeName>St. Louis</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1965-01-04">1965-01-04</date>
+                     <settlement key="amp_place_id_234">
+                        <placeName>Kensington</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118529854</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q37767</idno>
+                  <listBibl>
+                     <bibl n="lit_work_id_68">Murder in the Cathedral</bibl>
+                  </listBibl>
+               <noteGrp><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
+               <person xml:id="amp_person_28">
+                  <persName>
+                     <forename>Michelangelo</forename>
+                     <surname>Buonarroti</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1475-03-06">1475-03-06</date>
+                     <settlement key="amp_place_id_57">
+                        <placeName>Caprese Michelangelo</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1564-02-18">1564-02-18</date>
+                     <settlement key="amp_place_id_51">
+                        <placeName>Rome</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118582143</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q5592</idno>
+               <noteGrp><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
+               <person xml:id="amp_person_184">
+                  <persName>
+                     <forename>Constance Rosalie</forename>
+                     <surname>Auden</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1869-02-13">1869-02-13</date>
+                     <settlement key="amp_place_id_325">
+                        <placeName>Wroxham</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1941-08-21">1941-08-21</date>
+                     <settlement key="amp_place_id_269">
+                        <placeName>Birmingham</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q76104681</idno>
+               <noteGrp><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
+               <person xml:id="amp_person_183">
+                  <persName>
+                     <forename>George Augustus</forename>
+                     <surname>Auden</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1872-08-27">1872-08-27</date>
+                     <settlement key="amp_place_id_279">
+                        <placeName>Horninglow</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1957-05-03">1957-05-03</date>
+                     <settlement key="amp_place_id_327">
+                        <placeName>Repton</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q5536493</idno>
+               <noteGrp><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
+               </listPerson><listBibl><bibl xml:id="lit_work_id_171" type="autobiographical text">
+               <title>Confessiones (Confessions)</title>
+               <author ref="#amp_person_111">
+                  <persName>Hippo, Augustine of</persName>
+               </author>
+               <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q372941</idno>
+               <lang>la</lang>
+            <noteGrp><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></bibl>
+            <bibl xml:id="lit_work_id_35" type="ballet music">
+               <title>Le Sacre du Printemps (The Rite of Spring)</title>
+               <author ref="#amp_person_25">
+                  <persName>Stravinsky, Igor</persName>
+               </author>
+               <date when="1913">1913</date>
+               <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q206015</idno>
+            <noteGrp><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></bibl>
+            <bibl xml:id="lit_work_id_174" type="prose">
+               <title>Review of a Free Enquiry into the Nature and Origin of Evil</title>
+               <author ref="#amp_person_33">
+                  <persName>Johnson, Samuel</persName>
+               </author>
+               <date when="1757">1757</date>
+               <lang>en</lang>
+            <noteGrp><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></bibl>
+            <bibl xml:id="lit_work_id_57" type="poem">
+               <title>Doggerel by a Senior Citizen</title>
+               <author ref="#amp_person_1">
+                  <persName>Auden, W. H.</persName>
+               </author>
+               <date when="1969">1969</date>
+               <lang>en</lang>
+            <noteGrp><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></bibl>
+            <bibl xml:id="lit_work_id_90" type="speech">
+               <title>Freedom and Necessity in the Arts (English version 1970-05-21)</title>
+               <author ref="#amp_person_1">
+                  <persName>Auden, W. H.</persName>
+               </author>
+               <date when="1970">1970</date>
+               <lang>en</lang>
+               <lang>de</lang>
+               <lang>fr</lang>
+            <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note></noteGrp></bibl>
+            <bibl xml:id="lit_work_id_173" type="prose">
+               <title>Aphorismen</title>
+               <author ref="#amp_person_81">
+                  <persName>Kraus, Karl</persName>
+               </author>
+               <date when="1909">1909</date>
+               <lang>de</lang>
+            <noteGrp><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></bibl>
+            <bibl xml:id="lit_work_id_91" type="speech">
+               <title>Freedom and Necessity in the Arts (translation Stella Musulin Janko Musulin 1970-05-21--1970-06-10)</title>
+               <author ref="#amp_person_2">
+                  <persName>Musulin, Stella Mary Bellairs</persName>
+               </author>
+               <author ref="#amp_person_167">
+                  <persName>Musulin, Janko von</persName>
+               </author>
+               <date when="1970">1970</date>
+               <lang>de</lang>
+            <noteGrp><note target="amp-transcript__0015.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note></noteGrp></bibl>
+            <bibl xml:id="lit_work_id_170" type="poem">
+               <title>Das Sonett</title>
+               <author ref="#amp_person_11">
+                  <persName>Goethe, Johann Wolfgang von</persName>
+               </author>
+               <date when="1807">1807</date>
+               <lang>de</lang>
+            <noteGrp><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></bibl>
+            <bibl xml:id="lit_work_id_85" type="speech">
+               <title>Freedom and Necessity in the Arts</title>
+               <author ref="#amp_person_1">
+                  <persName>Auden, W. H.</persName>
+               </author>
+               <date when="1970">1970</date>
+               <lang>en</lang>
+               <lang>de</lang>
+               <lang>fr</lang>
+            <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></bibl>
+            <bibl xml:id="lit_work_id_172" type="autobiographical text">
+               <title>Retrospectives and Conclusions</title>
+               <author ref="#amp_person_25">
+                  <persName>Stravinsky, Igor</persName>
+               </author>
+               <author ref="#amp_person_239">
+                  <persName>Craft, Robert</persName>
+               </author>
+               <date when="1969">1969</date>
+               <lang>en</lang>
+            <noteGrp><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></bibl>
+            </listBibl><listPlace><place xml:id="amp_place_id_47">
+                  <settlement type="P">
+                     <placeName>Neulengbach</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>AT, Austria</country>
+                  <location type="located_in_place">
+                     <placeName key="amp_place_id_6">Lower Austria</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>48.19745, 15.90219</geo>
+                  </location>
+                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2770730/</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q700307</idno>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/4041812-1</idno>
+               <noteGrp><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               <place xml:id="amp_place_id_41">
+                  <settlement type="P">
+                     <placeName>West Pennine Moors</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>GB, United Kingdom</country>
+                  <location type="located_in_place">
+                     <placeName key="amp_place_id_239">England</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>53.663, -2.431</geo>
+                  </location>
+                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12504039/</idno>
+                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q7986192</idno>
+               <noteGrp><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0051.xml" type="mentions">Typed Notes [Janko Musulin] Translation W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21--1970-06-10</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               <place xml:id="amp_place_id_30">
+                  <settlement type="L">
+                     <placeName>Europe</placeName>
+                  </settlement>
+                  <desc type="entity_type">parks,area, ...</desc>
+                  <location type="coords">
+                     <geo>48.69096, 9.14062</geo>
+                  </location>
+                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/6255148/</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q46</idno>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/4015701-5</idno>
+               <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </listPlace><listEvent><event xml:id="amp_event_id_53" notBefore-iso="1914-07-28" notAfter-iso="1918-11-11" type="historic">
+                  <label>World War I 1914-07-28--1918-11-11</label>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q361</idno>
+               <noteGrp><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               <event xml:id="amp_event_id_37" notBefore-iso="1970-06-14" notAfter-iso="1970-06-14" type="professional">
+                  <label>Lyrik 70 poetry convention 1970-06-14</label>
+                  <listPerson>
+                     <person sameAs="amp_person_112" role="is_attendee_of">
+                        <persName>Maurer, Andreas</persName>
+                     </person>
+                     <person sameAs="amp_person_1" role="is_speaker_in">
+                        <persName>Auden, W. H.</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place sameAs="amp_place_id_47" type="location" subtype="is_event_location">
+                        <placeName>Neulengbach</placeName>
+                        <location type="coords">
+                           <geo>48.19745, 15.90219</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q124289732</idno>
+               <noteGrp><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </listEvent></back></text>
 </TEI>

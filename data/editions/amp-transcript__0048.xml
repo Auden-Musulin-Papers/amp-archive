@@ -5,7 +5,7 @@
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Portrait Photograph Rudolf Blaha of Stella Musulin 1968-01-01--1996-01-21</title>
             <author ref="https://id.acdh.oeaw.ac.at/rblaha">Blaha, Rudolf</author>
-            <editor><name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></editor>
+            <editor><name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name xml:id="tfruehwirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></editor>
             <funder>
                <name>Austrian Science Fund (FWF)</name>
                <address>
@@ -104,5 +104,27 @@ for any purpose, even commercially.</p>
                </p>
          </div>
       </body>
-   </text>
+   <back><listPerson><person xml:id="amp_person_198">
+                  <persName>
+                     <forename>Rudolf</forename>
+                     <surname>Blaha</surname>
+                  </persName>
+               <noteGrp><note target="amp-transcript__0048.xml" type="mentions">Portrait Photograph Rudolf Blaha of Stella Musulin 1968-01-01--1996-01-21</note></noteGrp></person>
+               </listPerson><listPlace><place xml:id="amp_place_id_253">
+                  <settlement type="S">
+                     <placeName>Leystraße 23</placeName>
+                  </settlement>
+                  <desc type="entity_type">spot, building, farm</desc>
+                  <country>AT, Austria</country>
+                  <location type="located_in_place">
+                     <placeName key="amp_place_id_1">Vienna</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>48.24594, 16.37556</geo>
+                  </location>
+                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12514713/</idno>
+                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q106194037</idno>
+                  <note/>
+               <noteGrp><note target="amp-transcript__0048.xml" type="mentions">Portrait Photograph Rudolf Blaha of Stella Musulin 1968-01-01--1996-01-21</note></noteGrp></place>
+               </listPlace></back></text>
 </TEI>

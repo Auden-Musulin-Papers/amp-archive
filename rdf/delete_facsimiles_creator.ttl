@@ -1,0 +1,1063 @@
+@prefix arche: <https://vocabs.acdh.oeaw.ac.at/schema#> .
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0001.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0002.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0003.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0004.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0005.tif> arche:hasCreator <https://d-nb.info/gnd/118650963>,
+        <https://id.acdh.oeaw.ac.at/emusulin> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0006.tif> arche:hasCreator <https://d-nb.info/gnd/118650963>,
+        <https://id.acdh.oeaw.ac.at/emusulin> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0007.tif> arche:hasCreator <https://d-nb.info/gnd/118650963>,
+        <https://id.acdh.oeaw.ac.at/emusulin> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0008.tif> arche:hasCreator <https://d-nb.info/gnd/118650963>,
+        <https://id.acdh.oeaw.ac.at/emusulin> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0009.tif> arche:hasCreator <https://d-nb.info/gnd/117542784>,
+        <https://d-nb.info/gnd/118650963>,
+        <https://id.acdh.oeaw.ac.at/emusulin> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0010.tif> arche:hasCreator <https://d-nb.info/gnd/117542784>,
+        <https://d-nb.info/gnd/118650963>,
+        <https://id.acdh.oeaw.ac.at/emusulin> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0011.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0012.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0013.tif> arche:hasCreator <https://d-nb.info/gnd/117542784>,
+        <https://d-nb.info/gnd/118650963>,
+        <https://id.acdh.oeaw.ac.at/emusulin> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0014.tif> arche:hasCreator <https://d-nb.info/gnd/117542784>,
+        <https://d-nb.info/gnd/118650963>,
+        <https://id.acdh.oeaw.ac.at/emusulin> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0015.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0016.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0017.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0018.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0019.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0020.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0021.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0022.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0023.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0024.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0025.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0026.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0027.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0028.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0029.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0030.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0031.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0032.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0033.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0034.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0035.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0036.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0037.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0038.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0039.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0040.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0041.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0042.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0043.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0044.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0045.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0046.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0047.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0048.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0049.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0050.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0051.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0052.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0053.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0054.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0055.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0056.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0057.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0058.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0059.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0060.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0061.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0062.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0063.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0064.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0065.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0066.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0067.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0068.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0069.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0070.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0071.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0072.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0073.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0074.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0075.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0076.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0077.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0078.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0079.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0080.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0081.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0082.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0083.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0084.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0085.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0086.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0087.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0088.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0089.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0090.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0091.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0092.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0093.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0094.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0095.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0096.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0097.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0098.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0099.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0100.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0101.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0102.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0103.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0104.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0105.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0106.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0107.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0108.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0109.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0110.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0111.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0112.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0113.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0114.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0115.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0116.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0117.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0118.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0119.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0120.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0121.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0122.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0123.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0124.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0125.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0126.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0127.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0128.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0129.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0130.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0131.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0132.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0133.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0134.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0135.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0136.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0137.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0138.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0139.tif> arche:hasCreator <https://d-nb.info/gnd/117542784>,
+        <https://d-nb.info/gnd/118650963>,
+        <https://id.acdh.oeaw.ac.at/emusulin> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0140.tif> arche:hasCreator <https://d-nb.info/gnd/117542784>,
+        <https://d-nb.info/gnd/118650963>,
+        <https://id.acdh.oeaw.ac.at/emusulin> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0141.tif> arche:hasCreator <https://d-nb.info/gnd/127246711>,
+        <https://id.acdh.oeaw.ac.at/emusulin> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0142.tif> arche:hasCreator <https://d-nb.info/gnd/127246711>,
+        <https://id.acdh.oeaw.ac.at/emusulin> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0143.tif> arche:hasCreator <https://d-nb.info/gnd/127246711>,
+        <https://id.acdh.oeaw.ac.at/emusulin> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0144.tif> arche:hasCreator <https://d-nb.info/gnd/127246711>,
+        <https://id.acdh.oeaw.ac.at/emusulin> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0145.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0146.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0147.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0148.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0149.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0150.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0151.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0152.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0153.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0154.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0165.tif> arche:hasCreator <https://d-nb.info/gnd/115753761> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0166.tif> arche:hasCreator <https://d-nb.info/gnd/115753761> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0167.tif> arche:hasCreator <https://d-nb.info/gnd/115753761> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0168.tif> arche:hasCreator <https://d-nb.info/gnd/115753761> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0169.tif> arche:hasCreator <https://d-nb.info/gnd/115753761> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0170.tif> arche:hasCreator <https://d-nb.info/gnd/115753761> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0171.tif> arche:hasCreator <https://d-nb.info/gnd/118751980> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0172.tif> arche:hasCreator <https://d-nb.info/gnd/118751980> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0173.tif> arche:hasCreator <https://d-nb.info/gnd/118751980> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0174.tif> arche:hasCreator <https://d-nb.info/gnd/118751980> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0175.tif> arche:hasCreator <https://d-nb.info/gnd/118751980> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0176.tif> arche:hasCreator <https://d-nb.info/gnd/118751980> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0177.tif> arche:hasCreator <https://d-nb.info/gnd/118751980> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0178.tif> arche:hasCreator <https://d-nb.info/gnd/118751980> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0215.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0216.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0217.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0218.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0219.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0220.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0221.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0222.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0223.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0224.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0225.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0226.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0227.tif> arche:hasCreator <https://d-nb.info/gnd/14000761X> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0228.tif> arche:hasCreator <https://d-nb.info/gnd/14000761X> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0229.tif> arche:hasCreator <https://d-nb.info/gnd/127246711>,
+        <https://d-nb.info/gnd/14000761X> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0230.tif> arche:hasCreator <https://d-nb.info/gnd/127246711>,
+        <https://d-nb.info/gnd/14000761X> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0231.tif> arche:hasCreator <https://d-nb.info/gnd/1173017283> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0232.tif> arche:hasCreator <https://d-nb.info/gnd/1173017283> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0233.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0234.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0243.tif> arche:hasCreator <https://d-nb.info/gnd/2175892-X> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0244.tif> arche:hasCreator <https://d-nb.info/gnd/2175892-X> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0249.tif> arche:hasCreator <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0250.tif> arche:hasCreator <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0251.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0252.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0253.tif> arche:hasCreator <https://d-nb.info/gnd/116413298> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0254.tif> arche:hasCreator <https://d-nb.info/gnd/116413298> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0351.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0352.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0353.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0354.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0355.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0356.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0357.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0358.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0359.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0360.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0361.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0362.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0363.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0364.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0365.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0366.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0367.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0368.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0369.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0370.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0371.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0372.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0373.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0374.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0375.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0376.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0377.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0378.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0379.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0380.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0381.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0382.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0383.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0384.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0385.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0386.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0387.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0388.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0389.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0390.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0391.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0392.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0393.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0394.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0395.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0396.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0397.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0398.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0399.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0400.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0401.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0402.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0403.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0404.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0405.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0406.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0407.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0408.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0409.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0410.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0411.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0412.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0413.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0414.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0415.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0416.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0417.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0418.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0419.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0420.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0421.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0422.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0423.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0424.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0425.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0426.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0427.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0428.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0429.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0430.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0431.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0432.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0433.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0434.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0435.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0436.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0437.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0438.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0439.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0440.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0441.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0442.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0443.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0444.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0445.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0446.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0459.tif> arche:hasCreator <https://d-nb.info/gnd/117542784>,
+        <https://d-nb.info/gnd/118650963>,
+        <https://id.acdh.oeaw.ac.at/emusulin> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0460.tif> arche:hasCreator <https://d-nb.info/gnd/117542784>,
+        <https://d-nb.info/gnd/118650963>,
+        <https://id.acdh.oeaw.ac.at/emusulin> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0461.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0462.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0463.tif> arche:hasCreator <https://d-nb.info/gnd/119022354>,
+        <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0464.tif> arche:hasCreator <https://d-nb.info/gnd/119022354>,
+        <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0465.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0466.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0467.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0468.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0469.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0470.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0471.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0472.tif> arche:hasCreator <https://d-nb.info/gnd/118650963> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0477.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0478.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0479.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0480.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0481.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0482.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0483.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0484.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0485.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0486.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0487.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0488.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0489.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0490.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0491.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0492.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0493.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0494.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0495.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0496.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0497.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0498.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0499.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0500.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0501.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0502.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0503.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0504.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0505.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0506.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0507.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0508.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0509.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0510.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0511.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0512.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0513.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0514.tif> arche:hasCreator <https://d-nb.info/gnd/127246711> .
+    

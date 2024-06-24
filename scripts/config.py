@@ -408,7 +408,7 @@ USER_CONFIG = {
         "id_as_filename": True,
         "xpaths": {
             "isSourceOf": "//tei:TEI[@xml:id]/@xml:id",
-            "hasCreator": "//tei:titleStmt/tei:author[@ref]/@ref"
+            "hasAuthor": "//tei:titleStmt/tei:author[@ref]/@ref"
         },
         "static_values": {
             "hasAccessRestriction": "https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public",

@@ -4,9 +4,9 @@
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Autograph Notes Stella Musulin on Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</title>
-            <author ref="https://d-nb.info/gnd/127246711">Musulin, Stella</author>
-            <author ref="https://id.acdh.oeaw.ac.at/emusulin">Musulin, Elsa von</author><!-- point to ana="acdh:amp-transcript__0002.xml#ana_027" at some point, either author or hand -->
-            <editor><name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></editor>
+            <author ref="https://d-nb.info/gnd/127246711">Musulin, Stella Mary Bellairs</author>
+            <author ref="https://id.acdh.oeaw.ac.at/emusulin" ana="acdh:amp-transcript__0002.xml#ana_027">Musulin, Elsa Gerda Maria Louise Pauline von</author><!-- point to ana="acdh:amp-transcript__0002.xml#ana_027" in handNote -->
+            <editor><name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name xml:id="tfruehwirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></editor>
             <funder>
                <name>Austrian Science Fund (FWF)</name>
                <address>
@@ -20,7 +20,9 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>AMP</edition>
+            <edition>
+               <title>Autograph Notes Stella Musulin on Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</title>
+            </edition>
             <respStmt><resp>Transcription and commentary</resp><name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></respStmt>
          <respStmt><resp>TEI Schema, ODD/RNG</resp><name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name><name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name></respStmt></editionStmt>
          <publicationStmt>
@@ -54,20 +56,26 @@ for any purpose, even commercially.</p>
                         <idno>2, 2</idno>
                      </msIdentifier>
                      <history>
-                        <origin><origDate notBefore-iso="1965-04-28T00:00:00+01:00" notAfter-iso="1965-12-31T23:59:59+01:00">1965-04-28--1965-12-31</origDate></origin>
+                        <origin><origDate notBefore-iso="1965-04-28T00:00:00+01:00" notAfter-iso="1965-12-31T23:59:59+01:00" ana="acdh:amp-transcript__0039.xml#ana_046">1965-04-28--1965-12-31</origDate></origin>
                      </history>
                   </msDesc>
                </witness>
             </listWit>
-            <bibl type="lit_work" xml:id="lit_work_id_94">Josef Weinheber notes</bibl>
+            <bibl type="lit_work" xml:id="lit_work_id_94">Joseph Weinheber (notes prose translation Elsa Musulin and Stella Musulin)</bibl>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+               <p>Edition Documents Prefix</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
             <language ident="de">German</language>
          </langUsage>
-         
       </profileDesc>
       <revisionDesc status="draft">
          <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
@@ -76,6 +84,7 @@ for any purpose, even commercially.</p>
          <change who="smayer tfruehwirth" when="2022-01-04">transcriptions collated</change>
          <change who="smayer tfruehwirth" when="2022-05-10">transcription reviewed, `space` element and `hand` attributes added, date format in `origDate` and `correspAction`/`date` modified</change>
          <change who="dgrigoriou smayer tfruehwirth" when="2023-02-28">entities collated</change>
+         <change who="dgrigoriou tfruehwirth" when="2024-05-23">entities reviewed, prose container structure updated</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -86,82 +95,109 @@ for any purpose, even commercially.</p>
          <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0142/"/>
       </surface>
    </facsimile>
-   <text type="notes" hand="#handwritten">
+   <text type="prose" hand="#handwritten">
       <body>
-         <div xml:id="transcription">
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0141/" type="sheet"/>
-               <p>
+         <div type="transcription" xml:id="transcription_amp_0046" xml:lang="de">
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0141/" type="sheet" ed="1r"/>
+            <div type="prose">
+               <ab>
                   1. In dem <hi rend="underline">man</hi><unclear>✓</unclear> dich — begrub ·
-               </p>
-               <p>
+               </ab>
+               <ab>
                   2. Kategorisiert<unclear>.</unclear><lb/>
-                  Amb<unclear>it_</unclear>Umwelt is a bit wea<unclear>k</unclear> but pro<unclear>b</unclear>ably<lb/>
-                  can't <unclear>b</unclear>e helped·
-               </p>
-               <p>
+                  <foreign xml:lang="en">Amb<unclear>it_</unclear></foreign>Umwelt <foreign xml:lang="en">is a bit wea<unclear>k</unclear> but pro<unclear>b</unclear>ably<lb/>
+                  can't <unclear>b</unclear>e helped</foreign>·
+               </ab>
+               <ab>
                   <unclear>3</unclear>. Grosses Unheil stifteten und Böses planten .<lb/>
-                  <del>Mem</del> men of great damage and malengine .<lb/>
+                  <foreign xml:lang="en"><del>Mem</del> men of great damage and malengine .<lb/>
                   <hi rend="underline"><unclear>1</unclear></hi> the act<unclear>io</unclear>n<lb/>
-                  <hi rend="underline">2</hi> the intent.<lb/>
+                  <hi rend="underline">2</hi> the intent</foreign>.<lb/>
                   Übelwollens?<lb/>
                   Männer<unclear>✓</unclear> grossen Unheils und Übelwol<unclear>l</unclear>ens<unclear>.</unclear> ?
-               </p>
-               <p>
+               </ab>
+               <ab>
                   <unclear>5</unclear>. Alpdruck.(vom nicht vor)<lb/>
                   Stümper .
-               </p>
-               <p>
+               </ab>
+               <ab>
                   <unclear>6.</unclear> <del><unclear>I</unclear>n str</del> Bei✓ strömendem Regen<lb/>
-               </p>
-               <p>
-                  <unclear>7.</unclear> Hope ever<unclear>y</unclear>one won't think <unclear>"</unclear>die Reiche<unclear>"</unclear><lb/>
-                  is a missprint for <unclear>"</unclear>die Reichen<unclear>".</unclear>prosais<unclear>c</unclear>h<hi rend="underline">e</hi><lb/>
+               </ab>
+               <ab>
+                  <unclear>7.</unclear> <foreign xml:lang="en">Hope ever<unclear>y</unclear>one won't think</foreign> <unclear>"</unclear>die Reiche<unclear>"</unclear><lb/>
+                  <foreign xml:lang="en">is a missprint for</foreign> <unclear>"</unclear>die Reichen<unclear>".</unclear>prosais<unclear>c</unclear>h<hi rend="underline">e</hi><lb/>
                   <unclear>&amp;</unclear> privat<hi rend="underline">e</hi> Art
-               </p>
-               <p>
+               </ab>
+               <ab>
                   8. L<hi rend="underline">äch</hi>eln wir bei Hochzei<unclear>t</unclear>en , <hi rend="underline">auf</hi> denen ?<lb/>
-                  Next sentence ungramm<unclear>a</unclear>t<unclear>ica</unclear>l <unclear>.</unclear> Verb <del>lacking</del>missing..<lb/>
-                  And perhaps<unclear>:</unclear> <unclear>"</unclear>Noch nie war die Erde ohne<lb/>
+                  <foreign xml:lang="en">Next sentence ungramm<unclear>a</unclear>t<unclear>ica</unclear>l <unclear>.</unclear> Verb <del>lacking</del>missing..<lb/>
+                  And perhaps</foreign><unclear>:</unclear> <unclear>"</unclear>Noch nie war die Erde ohne<lb/>
                   ihr<hi rend="underline">e</hi> faule<del>n</del> Stelle<del>n</del> (singular as in original),<lb/>
                   ein Uno<unclear>r</unclear>t mit <hi rend="underline">Posten</hi> fü<unclear>r</unclear> Folterer
-               </p>
-               <p>
+               </ab>
+               <ab>
                   <unclear>9.</unclear> Frieden oder Friede✓ ?
-               </p>
-               <p>
+               </ab>
+               <ab>
                   10. An das Regime? Wie <unclear>w</unclear>u einst<unclear>✓</unclear> <unclear>·</unclear> W<hi rend="underline">ann</hi> bei jedem<lb/>
                   <hi rend="underline">Wenn</hi> .
-               </p>
-               <p>
+               </ab>
+               <ab>
                   11. Bedeu<unclear>te</unclear>nd<hi rend="underline">ere</hi><hi rend="underline"><del><unclear>r</unclear></del>n </hi>Nachbarn<lb/> 
                   Warum <hi rend="underline">des</hi> n<hi rend="underline">oblen</hi> <unclear>Fl</unclear>usses <unclear>?</unclear> <rs type="place" ref="#amp_place_id_251">die Perschling</rs>
-               </p>
-               <p>
+               </ab>
+               <ab>
                   12. W<hi rend="underline">as</hi> ist der Abgrund?<lb/>
                   statt Bratschen Violas oder Geigen
-               </p>
-               <p>
+               </ab>
+            </div>
+            <div>
+               <ab>
                   ⁒
-               </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0142/" type="sheet"/>
-               <p>
+               </ab>
+            </div>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0142/" type="sheet" ed="1v"/>
+            <div type="prose">
+               <ab>
                   Heute lächeln wir bei Hochzeiten ,<lb/>
                   bei <unclear>d</unclear>enen Braut u. Bräutigam schon<lb/>
                   auf der Welt waren als sich der Schatten<lb/>
                   gehoben <unclear>oder</unclear> (vielmehr)✓ weiter<unclear>✓</unclear>gerückt war<unclear>.</unclear>
-               </p>
-               <p>
+               </ab>
+               <ab>
                   1<unclear>2·</unclear><lb/>
                   Anger wäre ev. besser als Rasen <unclear>.</unclear><lb/>
-                  Try gepfählt
-               </p>
-               <p>
-                  d<hi rend="underline">ie</hi> ihn n<hi rend="underline">achher</hi> dazu ver<hi rend="underline">p</hi>f<unclear>l</unclear>ichteten, sie<lb/>
-                  den Abgrund zu nennen <unclear>·</unclear><lb/>
-                  Look for old-fashioned wo<unclear>r</unclear>d for Streicher .<lb/>
-                  <unclear>(</unclear>Strin<unclear>g</unclear>end instruments genera<unclear>l</unclear>ly.)
-               </p>
+                  <foreign xml:lang="en">Try</foreign> gepfählt
+               </ab>
+               <ab>
+                  <seg>
+                     d<hi rend="underline">ie</hi> ihn n<hi rend="underline">achher</hi> dazu ver<hi rend="underline">p</hi>f<unclear>l</unclear>ichteten, sie<lb/>
+                     den Abgrund zu nennen <unclear>·</unclear><lb/>
+                  </seg>
+                  <seg>
+                     <foreign xml:lang="en">Look for old-fashioned wo<unclear>r</unclear>d for</foreign> Streicher .<lb/>
+                     <unclear>(</unclear><foreign xml:lang="en">Strin<unclear>g</unclear>end instruments genera<unclear>l</unclear>ly</foreign>.)
+                  </seg>
+               </ab>
+            </div>
          </div>
       </body>
-   </text>
+   <back><listPlace><place xml:id="amp_place_id_251">
+                  <settlement type="H">
+                     <placeName>Perschling (stream)</placeName>
+                  </settlement>
+                  <desc type="entity_type">stream, lake, ...</desc>
+                  <country>AT, Austria</country>
+                  <location type="located_in_place">
+                     <placeName key="amp_place_id_10">Austria</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>48.33333, 15.96667</geo>
+                  </location>
+                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2769061/</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q2071869</idno>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/4802137-4</idno>
+                  <note/>
+               <noteGrp><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note><note target="amp-transcript__0046.xml" type="mentions">Autograph Notes Stella Musulin on Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</note><note target="amp-transcript__0047.xml" type="mentions">Typescript Stella Musulin Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</note></noteGrp></place>
+               </listPlace></back></text>
 </TEI>

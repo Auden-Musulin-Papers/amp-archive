@@ -4,8 +4,8 @@
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
             <title level="a">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</title>
-            <author ref="https://d-nb.info/gnd/127246711">Musulin, Stella</author>
-            <editor><name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name xml:id="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></editor>
+            <author ref="https://d-nb.info/gnd/127246711">Musulin, Stella Mary Bellairs</author>
+            <editor><name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name xml:id="tfruehwirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></editor>
             <funder>
                <name>Austrian Science Fund (FWF)</name>
                <address>
@@ -19,7 +19,9 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>AMP</edition>
+            <edition>
+               <title>Autograph Notes Stella Musulin 1968-02-13--1968-02-14</title>
+            </edition>
             <respStmt><resp>Transcription and commentary</resp><name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></respStmt>
          <respStmt><resp>TEI Schema, ODD/RNG</resp><name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name><name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name></respStmt></editionStmt>
          <publicationStmt>
@@ -60,11 +62,17 @@ for any purpose, even commercially.</p>
             </listWit>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="acdh" matchPattern="(.+)" replacementPattern="https://id.acdh.oeaw.ac.at/auden-musulin-papers/$1">
+               <p>Edition Documents Prefix</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="en">English</language>
          </langUsage>
-         
       </profileDesc>
       <revisionDesc status="draft">
          <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
@@ -72,6 +80,7 @@ for any purpose, even commercially.</p>
          <change who="smayer" when="2021-12-01">text transcribed</change>
          <change who="smayer tfruehwirth" when="2021-12-01">transcriptions collated</change>
          <change who="smayer tfruehwirth" when="2022-05-10">transcription reviewed, `space` element and `hand` attributes added, date format in `origDate` and `correspAction`/`date` modified</change>
+         <change who="dgrigoriou tfruehwirth" when="2024-05-23">entities reviewed, prose container structure updated</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -88,14 +97,15 @@ for any purpose, even commercially.</p>
          <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0218/"/>
       </surface>
    </facsimile>
-   <text type="notes" hand="#handwritten">
+   <text type="prose" hand="#handwritten">
       <body>
-         <div xml:id="transcription">
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0215/" type="sheet"/>
-               <p>
+         <div type="transcription" xml:id="transcription_amp_0029" xml:lang="en">
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0215/" type="sheet" ed="1r"/>
+            <div type="prose">
+               <head>
                   Lunch with <rs type="person" ref="#amp_person_1">W<unclear>.</unclear>H<unclear>.</unclear>A.</rs> at the <rs type="place" ref="#amp_place_id_92"><unclear>O</unclear>pern-Café</rs> on<lb/>
                   13th' Feb.19<unclear>6</unclear>8 .
-               </p>
+               </head>
                <p>
                   <unclear>T</unclear>alk of awful impasse in <rs type="event" ref="#amp_event_id_47">Vietnam<lb/>
                   War</rs>; <rs type="person" ref="#amp_person_1">W.</rs> <unclear>so</unclear> afraid of use of nuclear<lb/>
@@ -103,17 +113,23 @@ for any purpose, even commercially.</p>
                   read or listen to the news <unclear>,</unclear> Feels US<lb/>
                   will have to get out;perhaps to<lb/>
                   blame for the <rs type="event" ref="#amp_event_id_48"><unclear>"</unclear>Pueblo<unclear>"</unclear> affair</rs> &amp; <hi rend="underline"><unclear>wa</unclear>r</hi>s<lb/>
-                  in territorial waters.<lb/>
+                  in territorial waters.
+               </p>
+               <p>
                   may have to vote Repu<unclear>b</unclear>lican<unclear>,</unclear> <unclear>thou</unclear>gh<lb/>
                   he's never done <unclear>so</unclear> <unclear>b</unclear>efore,be<unclear>c</unclear>ause the<lb/>
                   Demo<unclear>c</unclear>rats really have no one for<lb/>
-                  President<unclear>.</unclear><lb/>
+                  President<unclear>.</unclear>
+               </p>
+               <p>
                   Says the Hippies are <unclear>m</unclear>oving in on<lb/>
                   <rs type="place" ref="#amp_place_id_247">his district</rs>. I asked what a hippy<lb/>
                   does when he gets old; <rs type="person" ref="#amp_person_1">W</rs><unclear>,</unclear> said thats'<lb/>
                   What he asks them; too soon to tell .<lb/>
                   Told him ab<unclear>ou</unclear>t <rs type="person" ref="#amp_person_161">Hundertwasser</rs> <unclear>&amp;</unclear><lb/>
-                  his naked protests.<lb/>
+                  his naked protests.
+               </p>
+               <p>
                   <del><unclear>I</unclear> s</del>Said I was glad he had told<lb/>
                   British young people that L.S.D is<lb/>
                   a dead duck for <unclear>c</unclear>reative workers .<lb/>
@@ -122,8 +138,8 @@ for any purpose, even commercially.</p>
                   Point is that young people need<lb/>
                   to discover who &amp; what they are <unclear>.</unclear>- 
                </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0216/" type="sheet"/>
-               <p>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0216/" type="sheet" ed="1v"/>
+               <p prev="true">
                   &amp;L<unclear>.</unclear>S<unclear>.</unclear>D. doesn't tell them, its' a<lb/>
                   pa<unclear>ss</unclear>ive effe<unclear>c</unclear>t in which there is <del>some</del><lb/>
                   alienat<unclear>io</unclear>n from <unclear>se</unclear>lf . You con<unclear>ce</unclear>ntrate<lb/>
@@ -138,7 +154,9 @@ for any purpose, even commercially.</p>
                   his experien<unclear>c</unclear>es with mes<unclear>c</unclear>alin</rs>,<lb/>
                   making people think it is<lb/>
                   an artistic experien<unclear>c</unclear>e. <rs type="person" ref="#amp_person_1">W.</rs><lb/>
-                  had <unclear>t</unclear>o add colour effe<unclear>c</unclear>ts .<lb/>
+                  had <unclear>t</unclear>o add colour effe<unclear>c</unclear>ts .
+               </p>
+               <p>
                   A<unclear>wf</unclear>ul <unclear>s</unclear>tory about young people<lb/>
                   having gone blind was invented -<lb/>
                   <unclear>q</unclear>uite untrue<unclear>.</unclear> He did it in<lb/>
@@ -149,16 +167,18 @@ for any purpose, even commercially.</p>
                   Later postman said " I waved<lb/>
                   at you , why didn't you <unclear>answ</unclear>er<unclear>?"</unclear>
                </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0217/" type="sheet"/>
-               <p>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0217/" type="sheet" ed="2r"/>
+               <fw type="pageNum">
                   <hi rend="underline">2</hi>
-               </p>   
+               </fw>   
                <p>
                   Tal<unclear>k</unclear>ed with great enthusiasm<lb/>
                   about <rs type="lit_work" ref="#lit_work_id_111">"Mayhew"</rs>. Said <unclear>th</unclear>is is the<lb/>
                   greatest work of the 19th<unclear>'</unclear> centu<unclear>r</unclear>y .<lb/>
                   Has just <rs type="lit_work" ref="#lit_work_id_112">reviewed new issue<lb/>
-                  in 4 <unclear>V</unclear>olumes in the <rs type="org" ref="#amp_organization_65">New Yorker</rs></rs>.<lb/>
+                  in 4 <unclear>V</unclear>olumes in the <rs type="org" ref="#amp_organization_65">New Yorker</rs></rs>.
+               </p>
+               <p>
                   Said h<unclear>ow</unclear> well it pays to do<lb/>
                   a le<unclear>c</unclear>ture / reading tour. In<lb/>
                   6 weeks he <unclear>c</unclear>an c<hi rend="underline">lear</hi> 15,000 <unclear>$</unclear>.<lb/>
@@ -166,13 +186,380 @@ for any purpose, even commercially.</p>
                   <del>life</del><unclear>side</unclear> which you can't <unclear>s</unclear>kip. And<lb/>
                   if you do meet someone<lb/>
                   interesting y<unclear>our'</unclear>e torn apart<lb/>
-                  after <unclear>2 or</unclear> 3 minutes<unclear>,</unclear><lb/>
-                  <rs type="person" ref="#amp_person_1">W.</rs> had <unclear>fl</unclear>own over for <unclear>4</unclear> days<lb/>
-                  to interview <rs type="person" ref="#amp_person_32 #amp_person_176">couple</rs> for <rs type="place" ref="#amp_place_id_2">Kir<unclear>c</unclear>hstetten</rs> ,<lb/>
-                  <unclear>&amp;</unclear> had to return to <rs type="place" ref="#amp_place_id_28">N<unclear>_</unclear>Y</rs>.
+                  after <unclear>2 or</unclear> 3 minutes<unclear>,</unclear>
                </p>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0218/" type="sheet"/>
+               <ab>
+                  ------
+               </ab>
+               <p>
+                  <rs type="event" ref="#amp_event_id_82"><rs type="person" ref="#amp_person_1">W.</rs> had <unclear>fl</unclear>own over</rs> for <unclear>4</unclear> days<lb/>
+                  to <rs type="event" ref="#amp_event_id_10">interview <rs type="person" ref="#amp_person_32 #amp_person_176">couple</rs> for <rs type="place" ref="#amp_place_id_2">Kir<unclear>c</unclear>hstetten</rs></rs> ,<lb/>
+                  <unclear>&amp;</unclear> had to <rs type="event" ref="#amp_event_id_112">return to <rs type="place" ref="#amp_place_id_28">N<unclear>_</unclear>Y</rs></rs>.
+               </p>
+            </div>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0218/" type="sheet" ed="2v"/>
          </div>
       </body>
-   </text>
+   <back><listEvent><event xml:id="amp_event_id_47" notBefore-iso="1955-11-01" notAfter-iso="1975-04-30" type="historic">
+                  <label>Vietnam War 1955-11-01--1975-04-30</label>
+                  <listPlace>
+                     <place sameAs="amp_place_id_236" type="location" subtype="is_event_location">
+                        <placeName>Vietnam</placeName>
+                        <location type="coords">
+                           <geo>16.16667, 107.83333</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q8740</idno>
+               <noteGrp><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note></noteGrp></event>
+               <event xml:id="amp_event_id_82" notBefore-iso="1968-02-12" notAfter-iso="1968-02-12" type="personal" subtype="travel">
+                  <label>Arrival W. H. Auden in Vienna from New York City 1968-02-12</label>
+                  <listPerson>
+                     <person sameAs="amp_person_1" role="is_activeparticipant_in">
+                        <persName>Auden, W. H.</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place sameAs="amp_place_id_1" type="location" subtype="is_event_location">
+                        <placeName>Vienna</placeName>
+                        <location type="coords">
+                           <geo>48.20849, 16.37208</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               <noteGrp><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               <event xml:id="amp_event_id_48" notBefore-iso="1968-01-20" notAfter-iso="1968-01-23" type="historic">
+                  <label>Pueblo incident 1968-01-20--1968-01-23</label>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q712703</idno>
+               <noteGrp><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note></noteGrp></event>
+               <event xml:id="amp_event_id_10" notBefore-iso="1968-02-12" notAfter-iso="1968-02-16" type="communicative" subtype="meeting">
+                  <label>W. H. Auden's interview of Strobls 1968-02-12--1968-02-16</label>
+                  <listPerson>
+                     <person sameAs="amp_person_1" role="is_activeparticipant_in">
+                        <persName>Auden, W. H.</persName>
+                     </person>
+                     <person sameAs="amp_person_176" role="is_activeparticipant_in">
+                        <persName>Strobl, Franz</persName>
+                     </person>
+                     <person sameAs="amp_person_32" role="is_activeparticipant_in">
+                        <persName>Strobl, Josefa</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place sameAs="amp_place_id_1" type="location" subtype="is_event_location">
+                        <placeName>Vienna</placeName>
+                        <location type="coords">
+                           <geo>48.20849, 16.37208</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               <noteGrp><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               <event xml:id="amp_event_id_112" notBefore-iso="1968-02-16" notAfter-iso="1968-02-16" type="personal" subtype="travel">
+                  <label>Departure W. H. Auden to New York City from Vienna 1968-02-16</label>
+                  <listPerson>
+                     <person sameAs="amp_person_1" role="is_activeparticipant_in">
+                        <persName>Auden, W. H.</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place sameAs="amp_place_id_1" type="location" subtype="is_event_location">
+                        <placeName>Vienna</placeName>
+                        <location type="coords">
+                           <geo>48.20849, 16.37208</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               <noteGrp><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note></noteGrp></event>
+               </listEvent><listBibl><bibl xml:id="lit_work_id_97" type="autobiographical text">
+               <title>The Doors of Perception</title>
+               <author ref="#amp_person_143">
+                  <persName>Huxley, Aldous</persName>
+               </author>
+               <date when="1954">1954</date>
+               <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1215450</idno>
+               <lang>en</lang>
+            <noteGrp><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></bibl>
+            <bibl xml:id="lit_work_id_111" type="history">
+               <title>London Labour and the London Poor</title>
+               <author ref="#amp_person_195">
+                  <persName>Mayhew, Henry</persName>
+               </author>
+               <date when="1851">1851</date>
+               <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1217731</idno>
+               <lang>en</lang>
+            <noteGrp><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note></noteGrp></bibl>
+            <bibl xml:id="lit_work_id_112" type="review">
+               <title>A Very Inquisitive Old Party</title>
+               <author ref="#amp_person_1">
+                  <persName>Auden, W. H.</persName>
+               </author>
+               <date when="1968">1968</date>
+               <lang>en</lang>
+            <noteGrp><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note></noteGrp></bibl>
+            </listBibl><listPlace><place xml:id="amp_place_id_28">
+                  <settlement type="P">
+                     <placeName>New York City</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>US, United States</country>
+                  <location type="located_in_place">
+                     <placeName key="amp_place_id_15">United States of America</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>40.71427, -74.00597</geo>
+                  </location>
+                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/5128581/</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q60</idno>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/4042011-5</idno>
+               <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0010.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-11-06</note><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0012.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</note><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note><note target="amp-transcript__0044.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               <place xml:id="amp_place_id_92">
+                  <settlement type="S">
+                     <placeName>Café de l'Opera (Operncafé/Opern-Café)</placeName>
+                  </settlement>
+                  <desc type="entity_type">spot, building, farm</desc>
+                  <country>AT, Austria</country>
+                  <location type="located_in_place">
+                     <placeName key="amp_place_id_1">Vienna</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>48.203, 16.368</geo>
+                  </location>
+                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12504035/</idno>
+                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q124625367</idno>
+                  <note>Telephone book "Herold" indicates that the address is "Operngasse 8"</note>
+               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               <place xml:id="amp_place_id_247">
+                  <settlement type="P">
+                     <placeName>East Village</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>US, United States</country>
+                  <location type="located_in_place">
+                     <placeName key="amp_place_id_168">Manhattan</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>40.72927, -73.98736</geo>
+                  </location>
+                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/5116093/</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1043326</idno>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/4440776-2</idno>
+                  <note/>
+               <noteGrp><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note></noteGrp></place>
+               <place xml:id="amp_place_id_2">
+                  <settlement type="S">
+                     <placeName>Hinterholz 6</placeName>
+                  </settlement>
+                  <desc type="entity_type">spot, building, farm</desc>
+                  <country>AT, Austria</country>
+                  <location type="located_in_place">
+                     <placeName key="amp_place_id_5">Kirchstetten</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>48.18153, 15.81151</geo>
+                  </location>
+                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12503995/</idno>
+                  <note>also known as Audenstraße</note>
+               <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note><note target="amp-transcript__0003.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29</note><note target="amp-transcript__0007.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-06</note><note target="amp-transcript__0008.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-12</note><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0014.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</note><note target="amp-transcript__0015.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10</note><note target="amp-transcript__0016.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-09-18</note><note target="amp-transcript__0017.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1971-06-04</note><note target="amp-transcript__0020.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1973-09-24</note><note target="amp-transcript__0021.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1961-10-13</note><note target="amp-transcript__0022.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-08-16</note><note target="amp-transcript__0023.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-07-23</note><note target="amp-transcript__0024.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-09-11</note><note target="amp-transcript__0025.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-10-17</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note><note target="amp-transcript__0040.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-06-10</note><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note><note target="amp-transcript__0042.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescripts W. H. Auden "August 1968" and "Elegy" 1968-10-04</note><note target="amp-transcript__0045.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1960-07-21</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0057.xml" type="mentions">Envelope W. H. Auden to Stella Musulin 1961-04-25--1961-10-25</note><note target="amp-transcript__0058.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-10-01--1965-08-15</note><note target="amp-transcript__0059.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-04-30</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0070.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1959-10-10</note><note target="amp-transcript__0071.xml" type="mentions">Typed Letter Signed Stella Musulin to W. H. Auden 1962-04-16--1973-04-16</note></noteGrp></place>
+               </listPlace><listPerson><person xml:id="amp_person_197">
+                  <persName>
+                     <forename>David</forename>
+                     <surname>Protetch</surname>
+                  </persName>
+               <noteGrp><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
+               <person xml:id="amp_person_1">
+                  <persName>
+                     <forename>W. H.</forename>
+                     <surname>Auden</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1907-02-21">1907-02-21</date>
+                     <settlement key="amp_place_id_3">
+                        <placeName>York</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1973-09-29">1973-09-29</date>
+                     <settlement key="amp_place_id_225">
+                        <placeName>Hotel Altenburgerhof</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118650963</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q178698</idno>
+                  <listBibl>
+                     <bibl n="lit_work_id_2">Homage to Clio</bibl>
+                     <bibl n="lit_work_id_3">The Rake's Progress</bibl>
+                     <bibl n="lit_work_id_4">Elegy for Young Lovers</bibl>
+                     <bibl n="lit_work_id_5">The Bassarids: Opera Seria with Intermezzo in One Act Based on "The Bacchae" of Euripides</bibl>
+                     <bibl n="lit_work_id_16">The Rake's Progress</bibl>
+                     <bibl n="lit_work_id_17">Elegy for Young Lovers</bibl>
+                     <bibl n="lit_work_id_18">The Bassarids: Opera Seria with Intermezzo in One Act Based on "The Bacchae" of Euripides</bibl>
+                     <bibl n="lit_work_id_19">Love's Labour's Lost</bibl>
+                     <bibl n="lit_work_id_20">Love's Labour's Lost</bibl>
+                     <bibl n="lit_work_id_28">W. H. Auden: Collected Poems</bibl>
+                     <bibl n="lit_work_id_29">Vägmärken (Markings)</bibl>
+                     <bibl n="lit_work_id_31">The Dyer's Hand</bibl>
+                     <bibl n="lit_work_id_32">The Faber Book of Aphorisms</bibl>
+                     <bibl n="lit_work_id_33">A Certain World: A Commonplace Book</bibl>
+                     <bibl n="lit_work_id_34">Nineteenth-Century British Minor Poets</bibl>
+                     <bibl n="lit_work_id_37">The Cave of Making</bibl>
+                     <bibl n="lit_work_id_38">Prologue at Sixty</bibl>
+                     <bibl n="lit_work_id_43">Stark bewölkt (version 1971-10-19)</bibl>
+                     <bibl n="lit_work_id_53">Forewords and Afterwords</bibl>
+                     <bibl n="lit_work_id_55">For the Time Being: A Christmas Oratorio</bibl>
+                     <bibl n="lit_work_id_57">Doggerel by a Senior Citizen</bibl>
+                     <bibl n="lit_work_id_58">Elegy (version 1968-10-04)</bibl>
+                     <bibl n="lit_work_id_60">Joseph Weinheber</bibl>
+                     <bibl n="lit_work_id_61">Joseph Weinheber (version 1965-03-15)</bibl>
+                     <bibl n="lit_work_id_62">Joseph Weinheber (version 1965-04-28)</bibl>
+                     <bibl n="lit_work_id_67">Gedichte/Poems</bibl>
+                     <bibl n="lit_work_id_74">The Common Life</bibl>
+                     <bibl n="lit_work_id_79">Whitsunday in Kirchstetten</bibl>
+                     <bibl n="lit_work_id_80">The English Auden: Poems, Essays and Dramatic Writings, 1927-1939</bibl>
+                     <bibl n="lit_work_id_85">Freedom and Necessity in the Arts</bibl>
+                     <bibl n="lit_work_id_88">August 1968 (version 1968-10-04)</bibl>
+                     <bibl n="lit_work_id_90">Freedom and Necessity in the Arts (English version 1970-05-21)</bibl>
+                     <bibl n="lit_work_id_92">Joseph Weinheber (prose translation W. H. Auden and Elizabeth Mayer)</bibl>
+                     <bibl n="lit_work_id_96">The Co-Inherence: The Image of the City, and Other Essays, by Charles Williams</bibl>
+                     <bibl n="lit_work_id_99">Statement addressed to the Austrian tax authorities (English version 1972-07-26)</bibl>
+                     <bibl n="lit_work_id_101">On Installing an American Kitchen in Lower Austria</bibl>
+                     <bibl n="lit_work_id_102">For Friends Only</bibl>
+                     <bibl n="lit_work_id_103">Statement addressed to the Austrian tax authorities (translation Hilde Spiel 1972-08-23--1972-09-18)</bibl>
+                     <bibl n="lit_work_id_104">Statement (addressed to the Austrian tax authorities) (version The Years in Austria) 1976-09-04--1980-12-01</bibl>
+                     <bibl n="lit_work_id_105">Statement (addressed to the Austrian tax authorities)</bibl>
+                     <bibl n="lit_work_id_106">Statement (addressed to the Austrian tax authorities) (version In Retrospect)</bibl>
+                     <bibl n="lit_work_id_107">Elegy</bibl>
+                     <bibl n="lit_work_id_112">A Very Inquisitive Old Party</bibl>
+                     <bibl n="lit_work_id_116">Secondary Worlds</bibl>
+                     <bibl n="lit_work_id_121">Night Mail</bibl>
+                     <bibl n="lit_work_id_122">Coal Face</bibl>
+                     <bibl n="lit_work_id_123">Auden: Poems/Moore: Lithographs</bibl>
+                     <bibl n="lit_work_id_124">Austria and the Austrians</bibl>
+                     <bibl n="lit_work_id_127">Ein halbes Jahr zu Gast in Berlin: Ein Gespräch mit dem Dichter, Essayisten und Librettisten Wystan Hugh Auden</bibl>
+                     <bibl n="lit_work_id_132">Loneliness</bibl>
+                     <bibl n="lit_work_id_133">Of Drugs and Drivel</bibl>
+                     <bibl n="lit_work_id_134">About the House</bibl>
+                     <bibl n="lit_work_id_135">Collected Shorter Poems 1927–1957</bibl>
+                     <bibl n="lit_work_id_136">Collected Longer Poems</bibl>
+                     <bibl n="lit_work_id_137">City Without Walls</bibl>
+                     <bibl n="lit_work_id_138">Epistle to a Godson and Other Poems</bibl>
+                     <bibl n="lit_work_id_148">The Magic Flute</bibl>
+                     <bibl n="lit_work_id_149">Don Giovanni</bibl>
+                     <bibl n="lit_work_id_150">The Seven Deadly Sins</bibl>
+                     <bibl n="lit_work_id_151">Rise and Fall of the City of Mahagonny</bibl>
+                     <bibl n="lit_work_id_152">Arcifanfano, King of Fools; or, It's Always Too Late to Learn</bibl>
+                     <bibl n="lit_work_id_158">Nones</bibl>
+                     <bibl n="lit_work_id_161">August 1968</bibl>
+                     <bibl n="lit_work_id_165">Stark bewölkt</bibl>
+                     <bibl n="lit_work_id_166">Epistle to a Godson (version 1969-06-10)</bibl>
+                     <bibl n="lit_work_id_167">Epistle to a Godson</bibl>
+                     <bibl n="lit_work_id_168">Epithalamium (version 1965-04-28)</bibl>
+                     <bibl n="lit_work_id_169">Epithalamium</bibl>
+                     <bibl n="lit_work_id_175">Foreword</bibl>
+                     <bibl n="lit_work_id_178">Glad</bibl>
+                     <bibl n="lit_work_id_179">Paul Bunyan</bibl>
+                     <bibl n="lit_work_id_180">Delia</bibl>
+                     <bibl n="lit_work_id_181">The Entertainment of the Senses</bibl>
+                     <bibl n="lit_work_id_182">On This Island</bibl>
+                     <bibl n="lit_work_id_183">What's in your mind, my dove, my coney</bibl>
+                     <bibl n="lit_work_id_184">Three Songs for St. Cecilia's Day</bibl>
+                     <bibl n="lit_work_id_186">O Tell Me the Truth About Love</bibl>
+                     <bibl n="lit_work_id_187">Funeral Blues</bibl>
+                     <bibl n="lit_work_id_188">Johnny</bibl>
+                     <bibl n="lit_work_id_189">Calypso</bibl>
+                     <bibl n="lit_work_id_190">Inzwischen: Ein Musik-Fernseh-Spiel</bibl>
+                     <bibl n="lit_work_id_191">Foreword to The Sorrows of Young Werther [and] Novella, by Johann Wolfgang Goethe</bibl>
+                     <bibl n="lit_work_id_192">Mr G</bibl>
+                     <bibl n="lit_work_id_193">Italian Journey: Introduction to a Translation by Auden and Elizabeth Mayer of Goethe's Italian Journey</bibl>
+                     <bibl n="lit_work_id_194">Academic Graffiti</bibl>
+                     <bibl n="lit_work_id_195">Thank You, Fog and Other Poems</bibl>
+                     <bibl n="lit_work_id_196">Selected Poetry of W. H. Auden: Second Edition</bibl>
+                     <bibl n="lit_work_id_197">Selected Poems</bibl>
+                     <bibl n="lit_work_id_200">New Year Letter</bibl>
+                     <bibl n="lit_work_id_202">W. H. Auden: Selected Poems</bibl>
+                     <bibl n="lit_work_id_203">Plays and Other Dramatic Writings by W. H. Auden, 1927-1938</bibl>
+                  </listBibl>
+               <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note><note target="amp-transcript__0002.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23</note><note target="amp-transcript__0003.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29</note><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0007.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-06</note><note target="amp-transcript__0008.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-12</note><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0010.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-11-06</note><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0012.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</note><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note><note target="amp-transcript__0014.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</note><note target="amp-transcript__0014.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</note><note target="amp-transcript__0015.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10</note><note target="amp-transcript__0016.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-09-18</note><note target="amp-transcript__0017.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1971-06-04</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note><note target="amp-transcript__0020.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1973-09-24</note><note target="amp-transcript__0021.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1961-10-13</note><note target="amp-transcript__0021.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1961-10-13</note><note target="amp-transcript__0022.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-08-16</note><note target="amp-transcript__0023.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-07-23</note><note target="amp-transcript__0023.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-07-23</note><note target="amp-transcript__0024.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-09-11</note><note target="amp-transcript__0024.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-09-11</note><note target="amp-transcript__0025.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-10-17</note><note target="amp-transcript__0025.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-10-17</note><note target="amp-transcript__0026.xml" type="mentions">Autograph Notes W. H. Auden Stella Musulin 1959-06-01--1973-09-28</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note><note target="amp-transcript__0030.xml" type="mentions">Copy Typed Letter Stella Musulin to Bruce Duncan 1985-11-29</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note><note target="amp-transcript__0034.xml" type="mentions">Typed Letter Signed Michael O'Sullivan to Stella Musulin 1984-05-31</note><note target="amp-transcript__0035.xml" type="mentions">Telegram W. H. Auden to Stella Musulin 1971-05-13</note><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note><note target="amp-transcript__0040.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-06-10</note><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note><note target="amp-transcript__0042.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescripts W. H. Auden "August 1968" and "Elegy" 1968-10-04</note><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0044.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</note><note target="amp-transcript__0045.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1960-07-21</note><note target="amp-transcript__0045.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1960-07-21</note><note target="amp-transcript__0049.xml" type="mentions">Invitation Card Österreichische Gesellschaft für Literatur Poetry Reading W. H. Auden 1973-01-01--1973-09-28</note><note target="amp-transcript__0051.xml" type="mentions">Typed Notes [Janko Musulin] Translation W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21--1970-06-10</note><note target="amp-transcript__0052.xml" type="mentions">Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-07-26--1972-08-25</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0054.xml" type="mentions">Photographs [Stella Musulin] of W. H. Auden, Chester Kallman, and Elsa Musulin 1960-07-21--1960-11-02</note><note target="amp-transcript__0057.xml" type="mentions">Envelope W. H. Auden to Stella Musulin 1961-04-25--1961-10-25</note><note target="amp-transcript__0058.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-10-01--1965-08-15</note><note target="amp-transcript__0059.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-04-30</note><note target="amp-transcript__0059.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-04-30</note><note target="amp-transcript__0060.xml" type="mentions">Copy Typed Letter Wolfgang Kraus to Stella Musulin 1977-03-22</note><note target="amp-transcript__0061.xml" type="mentions">Typed Letter Signed Stella Musulin to Wolfgang Kraus 1977-04-05</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note><note target="amp-transcript__0066.xml" type="mentions">Photograph [Stella Musulin] of Friedrich Heer, Chester Kallman, and W. H. Auden 1969-05-28</note><note target="amp-transcript__0068.xml" type="mentions">Photograph [Stella Musulin] of W. H. Auden 1969-05-28</note><note target="amp-transcript__0070.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1959-10-10</note><note target="amp-transcript__0070.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1959-10-10</note><note target="amp-transcript__0071.xml" type="mentions">Typed Letter Signed Stella Musulin to W. H. Auden 1962-04-16--1973-04-16</note><note target="amp-transcript__0072.xml" type="mentions">Photograph [Stella Musulin] of Friedrich Colloredo, Chester Kallman, and W. H. Auden 1959-06-01--1973-09-28</note></noteGrp></person>
+               <person xml:id="amp_person_176">
+                  <persName>
+                     <forename>Franz</forename>
+                     <surname>Strobl</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1919-12-15">1919-12-15</date>
+                     <settlement key="amp_place_id_335">
+                        <placeName>Höbersdorf</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1974-06-24">1974-06-24</date>
+                     <settlement key="amp_place_id_9">
+                        <placeName>St. Pölten</placeName>
+                     </settlement>
+                  </death>
+               <noteGrp><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
+               <person xml:id="amp_person_32">
+                  <persName>
+                     <forename>Josefa</forename>
+                     <surname>Strobl</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1916-12-12">1916-12-12</date>
+                  </birth>
+                  <death>
+                     <date when-iso="1984-12-22">1984-12-22</date>
+                  </death>
+               <noteGrp><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
+               <person xml:id="amp_person_143">
+                  <persName>
+                     <forename>Aldous</forename>
+                     <surname>Huxley</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1894-07-26">1894-07-26</date>
+                     <settlement key="amp_place_id_201">
+                        <placeName>Godalming</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1963-11-22">1963-11-22</date>
+                     <settlement key="amp_place_id_184">
+                        <placeName>Los Angeles</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118555081</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q81447</idno>
+                  <listBibl>
+                     <bibl n="lit_work_id_97">The Doors of Perception</bibl>
+                  </listBibl>
+               <noteGrp><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
+               <person xml:id="amp_person_161">
+                  <persName>
+                     <forename>Friedensreich</forename>
+                     <surname>Hundertwasser</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1928-12-15">1928-12-15</date>
+                     <settlement key="amp_place_id_1">
+                        <placeName>Vienna</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="2000-02-19">2000-02-19</date>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118554786</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q151836</idno>
+               <noteGrp><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note></noteGrp></person>
+               </listPerson><listOrg><org xml:id="amp_organization_65">
+                  <orgName>The New Yorker</orgName>
+                  <desc>Was founded in year 1925.</desc>
+                  <location type="located_in_place">
+                     <placeName key="amp_place_id_28">New York City</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>40.71427, -74.00597</geo>
+                  </location>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q217305</idno>
+                  <note/>
+               <noteGrp><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note></noteGrp></org>
+               </listOrg></back></text>
 </TEI>

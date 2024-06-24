@@ -2,7 +2,7 @@ import json
 import re
 import glob
 import os
-from config import USER_CONFIG, PROJECT_NAME, LATEST_RELEASE, PRMARY_FILE_FORMAT, custom_function
+from config import USER_CONFIG, PROJECT_NAME, LATEST_RELEASE, PRMARY_FILE_FORMAT, LANG_SPECIAL_TOKEN, custom_function
 from acdh_tei_pyutils.tei import TeiReader
 from tqdm import tqdm
 from acdh_graph_pyutils.graph import (
@@ -27,7 +27,6 @@ NAMESPACES["arche"] = "https://vocabs.acdh.oeaw.ac.at/schema#"
 arche_id = URIRef("https://id.acdh.oeaw.ac.at/")
 ARCHE = Namespace(NAMESPACES["arche"])
 COLLECTION_NAME = PROJECT_NAME
-LANG_SPECIAL_TOKEN = "na"
 
 
 def create_entity_uri_from_string(string: str) -> URIRef:

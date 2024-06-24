@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0055.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0054.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0057.xml">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0077.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0075.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0078.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
-            <title level="a">Photograph [Stella Musulin] of W. H. Auden, Chester Kallman, and Elsa Musulin 1960-07-21--1960-11-02</title>
+            <title level="a">Photograph [Stella Musulin] of W. H. Auden and Margaret Lloyd-Philipps 1970-09-22</title>
             <author ref="https://d-nb.info/gnd/127246711">Musulin, Stella Mary Bellairs</author>
             <editor><name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name xml:id="tfruehwirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></editor>
             <funder>
@@ -19,9 +19,14 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>AMP</edition>
+            <edition>
+               <title>
+                  Photograph [Stella Musulin] of W. H. Auden and Margaret Lloyd-Philipps 1970-09-22
+               </title>
+            </edition>
             <respStmt><resp>Transcription and commentary</resp><name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></respStmt>
-         <respStmt><resp>TEI Schema, ODD/RNG</resp><name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name><name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name></respStmt></editionStmt>
+            <respStmt><resp>TEI Schema, ODD/RNG</resp><name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name><name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name></respStmt>
+         </editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
@@ -29,7 +34,7 @@
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
                   <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
-for any purpose, even commercially.</p>
+                     for any purpose, even commercially.</p>
                   <p>The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms:</p>
                   <p>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p>
                   <p>Notices:</p>
@@ -37,7 +42,8 @@ for any purpose, even commercially.</p>
                </licence>
                <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
             </availability>
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-C33C-3</idno></publicationStmt>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-0011-DC6F-A</idno>
+         </publicationStmt>
          <seriesStmt>
             <p>Machine-Readable Transcriptions of the Auden Musulin Papers</p>
          </seriesStmt>
@@ -47,13 +53,14 @@ for any purpose, even commercially.</p>
                   <msDesc>
                      <msIdentifier>
                         <country>A</country>
-                        <settlement>St. Pölten</settlement>
-                        <repository>State Collections of Lower Austria</repository>
-                        <collection>Stella Musulin (Depot)</collection>
-                        <idno>2, 16</idno>
+                        <settlement>Vienna</settlement>
+                        <collection>Musulin private collection</collection>
                      </msIdentifier>
                      <history>
-                        <origin><origDate notBefore-iso="1960-07-21T00:00:00+01:00" notAfter-iso="1960-11-02T23:59:59+01:00">1960-07-21--1960-11-02</origDate></origin>
+                        <origin>
+                           <origDate notBefore-iso="1970-09-22T00:00:00+01:00" notAfter-iso="1970-09-22T23:59:59+01:00">1970-09-22T00:00:00+01:00/1970-09-22T23:59:59+01:00</origDate>
+                           <origPlace ref="#amp_place_id_2">Hinterholz 6</origPlace>
+                        </origin>
                      </history>
                   </msDesc>
                </witness>
@@ -65,44 +72,37 @@ for any purpose, even commercially.</p>
             <listPerson type="identified">
                <person role="participant" sameAs="amp_person_1">
                   <note type="description">left side</note>
+               </person> 
+               <person role="participant" sameAs="amp_person_225">
+                  <note type="description">right side</note>
                </person>
-               <person role="participant" sameAs="amp_person_93">    
-                  <note type="description">middle</note>
-               </person>
-               <person role="participant" sameAs="amp_person_4">    
-                  <note type="description">right side</note>  
-               </person>  
                <person role="participant" sameAs="amp_person_2">    
                   <note type="description">photographer</note>  
-               </person> 
+               </person>  
             </listPerson>
          </particDesc>
          <settingDesc>
             <setting>
-               <name sameAs="amp_place_id_254">Loreto</name>
-               <date notBefore="1960-07-21" notAfter="1960-11-02">1960-07-21--1960-11-02</date>
+               <name sameAs="amp_place_id_2">Hinterholz 6</name>
+               <date notBefore-iso="1970-09-22T00:00:00+01:00" notAfter-iso="1970-09-22T23:59:59+01:00">1970-09-22T00:00:00+01:00/1970-09-22T23:59:59+01:00</date>
             </setting>
          </settingDesc>
       </profileDesc>
       <revisionDesc status="draft">
          <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
-         <change who="smayer tfruehwirth" when="2022-01-07">caption created</change>
-         <change who="dgrigoriou smayer tfruehwirth" when="2023-03-01">entities collated, caption removed, renamed, date added</change>
+         <change who="dgrigoriou tfruehwirth" when="2024-01-16">file created, metadata inserted</change>
+         <change who="dgrigoriou tfruehwirth" when="2024-04-04">metadata updated, entities checked</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
-      <surface ulx="0" uly="0" lrx="4186" lry="3148">
-         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0235/"/>
-      </surface>
-      <surface ulx="0" uly="0" lrx="4187" lry="3109">
-         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0236/"/>
+      <surface ulx="0" uly="0" lrx="3542" lry="4859">
+         <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0453/"/>
       </surface>
    </facsimile>
    <text type="photograph">
       <body>
-         <div xml:id="transcription">
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0235/" type="photograph"/>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0236/" type="photograph"/>
+         <div type="transcription" xml:id="transcription_amp_0077">
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0453/" type="photograph"/>
          </div>
       </body>
    <back/></text>
