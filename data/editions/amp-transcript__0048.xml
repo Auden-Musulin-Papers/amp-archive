@@ -104,13 +104,7 @@ for any purpose, even commercially.</p>
                </p>
          </div>
       </body>
-   <back><listPerson><person xml:id="amp_person_198">
-                  <persName>
-                     <forename>Rudolf</forename>
-                     <surname>Blaha</surname>
-                  </persName>
-               <noteGrp><note target="amp-transcript__0048.xml" type="mentions">Portrait Photograph Rudolf Blaha of Stella Musulin 1968-01-01--1996-01-21</note></noteGrp></person>
-               </listPerson><listPlace><place xml:id="amp_place_id_253">
+   <back><listPlace><place xml:id="amp_place_id_253">
                   <settlement type="S">
                      <placeName>Leystraße 23</placeName>
                   </settlement>
@@ -126,5 +120,11 @@ for any purpose, even commercially.</p>
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q106194037</idno>
                   <note/>
                <noteGrp><note target="amp-transcript__0048.xml" type="mentions">Portrait Photograph Rudolf Blaha of Stella Musulin 1968-01-01--1996-01-21</note></noteGrp></place>
-               </listPlace></back></text>
+               </listPlace><listPerson><person xml:id="amp_person_198">
+                  <persName>
+                     <forename>Rudolf</forename>
+                     <surname>Blaha</surname>
+                  </persName>
+               <noteGrp><note target="amp-transcript__0048.xml" type="mentions">Portrait Photograph Rudolf Blaha of Stella Musulin 1968-01-01--1996-01-21</note></noteGrp></person>
+               </listPerson></back></text>
 </TEI>

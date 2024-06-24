@@ -126,45 +126,12 @@
                 </p>
             </div>
         </body>
-    <back><listPerson><person xml:id="amp_person_169">
-                  <persName>
-                     <forename>Lisa</forename>
-                     <surname>Clark</surname>
-                  </persName>
-                  <birth>
-                     <date when-iso="1950-01-31">1950-01-31</date>
-                     <settlement key="amp_place_id_184">
-                        <placeName>Los Angeles</placeName>
-                     </settlement>
-                  </birth>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q123679753</idno>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0074.xml" type="mentions">Photograph [Stella Musulin] of Edward Mendelson, Sonia Orwell, Charles Osborne, Michael Yates, Lisa Clark, Thekla Clark, Marny Yates, Hella Bronold, Wolfgang Kraus, and Friedrich Heer at W. H. Auden's Funeral 1973-10-04</note></noteGrp></person>
-               <person xml:id="amp_person_135">
+    <back><listPerson><person xml:id="amp_person_135">
                   <persName>
                      <forename>Hella</forename>
                      <surname>Bronold</surname>
                   </persName>
                <noteGrp><note target="amp-transcript__0060.xml" type="mentions">Copy Typed Letter Wolfgang Kraus to Stella Musulin 1977-03-22</note><note target="amp-transcript__0074.xml" type="mentions">Photograph [Stella Musulin] of Edward Mendelson, Sonia Orwell, Charles Osborne, Michael Yates, Lisa Clark, Thekla Clark, Marny Yates, Hella Bronold, Wolfgang Kraus, and Friedrich Heer at W. H. Auden's Funeral 1973-10-04</note></noteGrp></person>
-               <person xml:id="amp_person_54">
-                  <persName>
-                     <forename>Friedrich</forename>
-                     <surname>Heer</surname>
-                  </persName>
-                  <birth>
-                     <date when-iso="1916-04-10">1916-04-10</date>
-                     <settlement key="amp_place_id_1">
-                        <placeName>Vienna</placeName>
-                     </settlement>
-                  </birth>
-                  <death>
-                     <date when-iso="1983-09-18">1983-09-18</date>
-                     <settlement key="amp_place_id_1">
-                        <placeName>Vienna</placeName>
-                     </settlement>
-                  </death>
-                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118547666</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q87771</idno>
-               <noteGrp><note target="amp-transcript__0014.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0066.xml" type="mentions">Photograph [Stella Musulin] of Friedrich Heer, Chester Kallman, and W. H. Auden 1969-05-28</note><note target="amp-transcript__0069.xml" type="mentions">Photograph [Stella Musulin] of Friedrich Heer 1969-05-28</note><note target="amp-transcript__0074.xml" type="mentions">Photograph [Stella Musulin] of Edward Mendelson, Sonia Orwell, Charles Osborne, Michael Yates, Lisa Clark, Thekla Clark, Marny Yates, Hella Bronold, Wolfgang Kraus, and Friedrich Heer at W. H. Auden's Funeral 1973-10-04</note></noteGrp></person>
                <person xml:id="amp_person_137">
                   <persName>
                      <forename>Wolfgang</forename>
@@ -204,5 +171,38 @@
                   </death>
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q62566483</idno>
                <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0074.xml" type="mentions">Photograph [Stella Musulin] of Edward Mendelson, Sonia Orwell, Charles Osborne, Michael Yates, Lisa Clark, Thekla Clark, Marny Yates, Hella Bronold, Wolfgang Kraus, and Friedrich Heer at W. H. Auden's Funeral 1973-10-04</note></noteGrp></person>
+               <person xml:id="amp_person_54">
+                  <persName>
+                     <forename>Friedrich</forename>
+                     <surname>Heer</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1916-04-10">1916-04-10</date>
+                     <settlement key="amp_place_id_1">
+                        <placeName>Vienna</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1983-09-18">1983-09-18</date>
+                     <settlement key="amp_place_id_1">
+                        <placeName>Vienna</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118547666</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q87771</idno>
+               <noteGrp><note target="amp-transcript__0014.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0066.xml" type="mentions">Photograph [Stella Musulin] of Friedrich Heer, Chester Kallman, and W. H. Auden 1969-05-28</note><note target="amp-transcript__0069.xml" type="mentions">Photograph [Stella Musulin] of Friedrich Heer 1969-05-28</note><note target="amp-transcript__0074.xml" type="mentions">Photograph [Stella Musulin] of Edward Mendelson, Sonia Orwell, Charles Osborne, Michael Yates, Lisa Clark, Thekla Clark, Marny Yates, Hella Bronold, Wolfgang Kraus, and Friedrich Heer at W. H. Auden's Funeral 1973-10-04</note></noteGrp></person>
+               <person xml:id="amp_person_169">
+                  <persName>
+                     <forename>Lisa</forename>
+                     <surname>Clark</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1950-01-31">1950-01-31</date>
+                     <settlement key="amp_place_id_184">
+                        <placeName>Los Angeles</placeName>
+                     </settlement>
+                  </birth>
+                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q123679753</idno>
+               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0074.xml" type="mentions">Photograph [Stella Musulin] of Edward Mendelson, Sonia Orwell, Charles Osborne, Michael Yates, Lisa Clark, Thekla Clark, Marny Yates, Hella Bronold, Wolfgang Kraus, and Friedrich Heer at W. H. Auden's Funeral 1973-10-04</note></noteGrp></person>
                </listPerson></back></text>
 </TEI>

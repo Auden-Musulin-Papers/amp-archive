@@ -1503,8 +1503,8 @@
     "Number": null,
     "Object_uri_vocabs": [
       {
-        "id": 77,
-        "value": "active"
+        "id": 78,
+        "value": "completed"
       }
     ],
     "Inherit": []
@@ -1776,10 +1776,6 @@
       {
         "id": 79,
         "value": "clarin-vlo"
-      },
-      {
-        "id": 81,
-        "value": "kulturpool"
       }
     ],
     "Inherit": [
@@ -3163,43 +3159,6 @@
     "Object_uri_vocabs": [],
     "Inherit": []
   },
-  "136": {
-    "id": 136,
-    "order": "125.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/photos",
-    "Class": [
-      {
-        "id": 12,
-        "value": "Collection"
-      }
-    ],
-    "Predicate_uri": [
-      {
-        "id": 23,
-        "value": "hasOaiSet"
-      }
-    ],
-    "Object_uri_persons": [],
-    "Object_uri_places": [],
-    "Object_uri_organizations": [],
-    "Object_uri_resource": [],
-    "Literal": "",
-    "Language": "",
-    "Date": null,
-    "Number": null,
-    "Object_uri_vocabs": [
-      {
-        "id": 81,
-        "value": "kulturpool"
-      }
-    ],
-    "Inherit": [
-      {
-        "id": 46,
-        "value": "Resource"
-      }
-    ]
-  },
   "137": {
     "id": 137,
     "order": "126.00000000000000000000",
@@ -3226,8 +3185,8 @@
     "Number": null,
     "Object_uri_vocabs": [
       {
-        "id": 81,
-        "value": "kulturpool"
+        "id": 79,
+        "value": "clarin-vlo"
       }
     ],
     "Inherit": [
@@ -4622,10 +4581,6 @@
       {
         "id": 79,
         "value": "clarin-vlo"
-      },
-      {
-        "id": 81,
-        "value": "kulturpool"
       }
     ],
     "Inherit": [
@@ -4655,7 +4610,7 @@
     "Object_uri_places": [],
     "Object_uri_organizations": [],
     "Object_uri_resource": [],
-    "Literal": "Indexes of mentioned persons, places, organizations and events by Authors of Auden Musulin Papers.",
+    "Literal": "Indexes in XML/TEI format of mentioned persons, places, organizations and events by Authors of Auden Musulin Papers.",
     "Language": "en",
     "Date": null,
     "Number": null,
@@ -5037,6 +4992,38 @@
     "Date": null,
     "Number": null,
     "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "195": {
+    "id": 195,
+    "order": "179.00000000000000000000",
+    "Subject_uri": "auden-musulin-papers/photos",
+    "Class": [
+      {
+        "id": 12,
+        "value": "Collection"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 23,
+        "value": "hasOaiSet"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [
+      {
+        "id": 79,
+        "value": "clarin-vlo"
+      }
+    ],
     "Inherit": []
   }
 }
