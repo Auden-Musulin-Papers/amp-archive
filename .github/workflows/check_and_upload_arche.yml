@@ -29,8 +29,8 @@ jobs:
     - name: ingest arche metadata topcol, col, res
       run: |
         echo 'STEP=Upload AIP to ${ARCHE_INSTANCE_NAME} Instance' >> $GITHUB_ENV
-        vendor/bin/arche-delete-triples ${OUTPUT_DIR}/delete_facsimiles_creator.ttl https://${ARCHE_INSTANCE}.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
-        sleep 60
+        # vendor/bin/arche-delete-triples ${OUTPUT_DIR}/delete_facsimiles_creator.ttl https://${ARCHE_INSTANCE}.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
+        # sleep 60
         vendor/bin/arche-import-metadata ${OUTPUT_DIR}/arche.ttl https://${ARCHE_INSTANCE}.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}} --retriesOnConflict 25
         # vendor/bin/arche-update-redmine --token ${{ secrets.REDMINE_TOKEN }} --append "$RUN_URL" $REDMINE_ID 'Upload AIP to ${ARCHE_INSTANCE_NAME} Instance'
     - name: Copy XML Files to to_ingest 

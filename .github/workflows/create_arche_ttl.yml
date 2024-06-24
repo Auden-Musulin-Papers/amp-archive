@@ -47,7 +47,7 @@ on:
 
 jobs:
   update_baserow:
-    name: Uploading Arche Schema to Baserow
+    name: Dump Baserow tables and create ARCHE turtle files
     runs-on: ubuntu-latest
     env:
       PRIMARY_FILE_FORMAT: ${{ github.event.inputs.primary_file_format }}
@@ -87,22 +87,22 @@ jobs:
       - name: Creating ARCHE constants ttl file
         run: |
           python scripts/arche_constants.py
-      - name: cache AV database
-        id: avdb
-        uses: actions/cache@v3
-        with:
-          path: ~/.cvdupdate
-          key: constant
-      - name: refresh AV database
-        run: |
-          python3 -m pip install --user cvdupdate && cvd update
-      - name: Verify Binaries with repo-filechecker
-        run: |
-          ./shellscripts/filechecker.sh
-      - name: Verify RDF Metadata with arche-metadata-crawler
-        run: |
-          composer require "acdh-oeaw/arche-metadata-crawler:^0.5.0"
-          ./shellscripts/crawler.sh
+      # - name: cache AV database
+      #   id: avdb
+      #   uses: actions/cache@v3
+      #   with:
+      #     path: ~/.cvdupdate
+      #     key: constant
+      # - name: refresh AV database
+      #   run: |
+      #     python3 -m pip install --user cvdupdate && cvd update
+      # - name: Verify Binaries with repo-filechecker
+      #   run: |
+      #     ./shellscripts/filechecker.sh
+      # - name: Verify RDF Metadata with arche-metadata-crawler
+      #   run: |
+      #     composer require "acdh-oeaw/arche-metadata-crawler:^0.5.0"
+      #     ./shellscripts/crawler.sh
       - name: Commit data
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
