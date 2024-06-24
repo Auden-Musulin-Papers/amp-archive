@@ -303,7 +303,7 @@ def custom_function(subject_uri, doc) -> dict:
                 "amp_0073",
                 "amp_0074",
                 "amp_0075",
-                "amp_0077"
+                "amp_0077",
                 "amp_0078"
             ]
         },
