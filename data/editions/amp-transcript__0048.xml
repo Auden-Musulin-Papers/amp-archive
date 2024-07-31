@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0048.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0048.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0047.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0049.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -109,5 +109,27 @@ for any purpose, even commercially.</p>
             </div>
          </div>
       </body>
-   </text>
+   <back><listPerson><person xml:id="amp_person_198">
+                  <persName>
+                     <forename>Rudolf</forename>
+                     <surname>Blaha</surname>
+                  </persName>
+               <noteGrp><note target="amp-transcript__0048.xml" type="mentions">Portrait Photograph Rudolf Blaha of Stella Musulin 1968-01-01--1996-01-21</note></noteGrp></person>
+               </listPerson><listPlace><place xml:id="amp_place_id_253">
+                  <settlement type="S">
+                     <placeName>Leystraße 23</placeName>
+                  </settlement>
+                  <desc type="entity_type">spot, building, farm</desc>
+                  <country>AT, Austria</country>
+                  <location type="located_in_place">
+                     <placeName key="amp_place_id_1">Vienna</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>48.24594, 16.37556</geo>
+                  </location>
+                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12514713/</idno>
+                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q106194037</idno>
+                  <note/>
+               <noteGrp><note target="amp-transcript__0048.xml" type="mentions">Portrait Photograph Rudolf Blaha of Stella Musulin 1968-01-01--1996-01-21</note></noteGrp></place>
+               </listPlace></back></text>
 </TEI>

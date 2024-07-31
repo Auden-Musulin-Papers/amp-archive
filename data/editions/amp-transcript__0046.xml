@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0046.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0046.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0045.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0047.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -183,5 +183,22 @@ for any purpose, even commercially.</p>
             </div>
          </div>
       </body>
-   </text>
+   <back><listPlace><place xml:id="amp_place_id_251">
+                  <settlement type="H">
+                     <placeName>Perschling (stream)</placeName>
+                  </settlement>
+                  <desc type="entity_type">stream, lake, ...</desc>
+                  <country>AT, Austria</country>
+                  <location type="located_in_place">
+                     <placeName key="amp_place_id_10">Austria</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>48.33333, 15.96667</geo>
+                  </location>
+                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2769061/</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q2071869</idno>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/4802137-4</idno>
+                  <note/>
+               <noteGrp><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note><note target="amp-transcript__0046.xml" type="mentions">Autograph Notes Stella Musulin on Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</note><note target="amp-transcript__0047.xml" type="mentions">Copy Typescript Stella Musulin Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</note></noteGrp></place>
+               </listPlace></back></text>
 </TEI>
