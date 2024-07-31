@@ -68,6 +68,17 @@ def download_resources(
                 shutil.copytree(x, f"data/{to_dir}")
             elif os.path.isfile(x) and x.endswith(file_format):
                 shutil.copy(x, f"data/{to_dir}")
+        ###############################################
+        # copy odd and rng files - currently hard coded
+        ###############################################
+        os.makedirs("data/metadata", exist_ok=True)
+        odd_path = glob.glob("tmp/*/framework/auden-musulin/schema/*.odd")
+        for odd in odd_path:
+            shutil.copy(odd, "data/metadata")
+        rng_path = glob.glob("tmp/*/framework/auden-musulin/schema/out/*.rng")
+        for rng in rng_path:
+            shutil.copy(rng, "data/metadata")
+        ###############################################
         shutil.rmtree("tmp", ignore_errors=True)
         os.remove("resources.zip")
         print("Data from Resources downloaded.")

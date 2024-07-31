@@ -9,7 +9,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>ODD Auden Musulin Papers 1/3 - AMP Correspondence</title>
+        <title>ODD Auden Musulin Papers 2/3 - AMP Prose</title>
         <author xml:id="DE" role="main" ref="https://orcid.org/0000-0002-0636-4476">Daniel Elsner</author>
       </titleStmt>
       <publicationStmt>
@@ -26,8 +26,8 @@
           </licence>
         </availability>
         <ref type="URL"
-          target="https://github.com/Auden-Musulin-Papers/amp-data/framework/auden-musulin/schema/am-corresp.odd"
-          >https://github.com/Auden-Musulin-Papers/amp-data/framework/auden-musulin/schema/am-corresp.odd</ref>
+          target="https://github.com/Auden-Musulin-Papers/amp-data/framework/auden-musulin/schema/am-prose.odd"
+          >https://github.com/Auden-Musulin-Papers/amp-data/framework/auden-musulin/schema/am-prose.odd</ref>
       </publicationStmt>
       <sourceDesc>
         <p>Born digital.</p>
@@ -41,7 +41,7 @@
     <front>
       <titlePage>
         <docTitle>
-          <titlePart type="main">ODD Auden Musulin Papers 1/3 - AMP Correspondence</titlePart>
+          <titlePart type="main">ODD Auden Musulin Papers 2/3 - AMP Prose</titlePart>
         </docTitle>
         <docAuthor ref="https://orcid.org/0000-0002-0636-4476">Daniel Elsner</docAuthor>
       </titlePage>
@@ -52,16 +52,16 @@
       
       <div>
         
-        <head>TEI-Modifikation for AMP-DATA Correspondence</head>
+        <head>TEI-Modifikation for AMP-DATA Prose</head>
         
         <schemaSpec ident="amp" start="TEI" xml:lang="en" prefix="tei_">
-          <moduleRef source="tei:4.8.0" key="header" include="correspDesc correspAction correspContext seriesStmt listPrefixDef prefixDef creation langUsage language teiHeader fileDesc titleStmt editionStmt extent publicationStmt sourceDesc profileDesc encodingDesc tagsDecl rendition revisionDesc change notesStmt edition funder principal availability licence idno"/>
+          <moduleRef source="tei:4.8.0" key="header" include="seriesStmt listPrefixDef prefixDef creation langUsage language teiHeader fileDesc titleStmt editionStmt extent publicationStmt sourceDesc profileDesc encodingDesc tagsDecl rendition revisionDesc change notesStmt edition funder principal availability licence idno"/>
           <moduleRef source="tei:4.8.0" key="core" include="citedRange cb addrLine gap graphic ptr imprint biblScope head desc l label lg list author editor title p respStmt resp noteGrp note relatedItem biblStruct listBibl bibl analytic monogr series date pubPlace publisher ref address street postCode name emph foreign hi lb pb q quote rs sic term unclear del abbr add choice orig reg cit corr index"/>
           <moduleRef source="tei:4.8.0" key="corpus"/>
           <moduleRef source="tei:4.8.0" key="msdescription" include="stamp institution msDesc msIdentifier repository collection history origin origDate origPlace"/>
           <moduleRef source="tei:4.8.0" key="namesdates" include="country settlement listEvent event listOrg org listPerson person listPlace place listObject object forename geo location objectName orgName persName placeName region roleName surname state geogName affiliation district"/>
           <moduleRef source="tei:4.8.0" key="tei"/>
-          <moduleRef source="tei:4.8.0" key="textstructure" include="TEI text body div opener closer dateline salute signed postscript"/>
+          <moduleRef source="tei:4.8.0" key="textstructure" include="TEI text body div floatingText"/>
           <moduleRef source="tei:4.8.0" key="textcrit" include="listWit witness"/>
           <moduleRef source="tei:4.8.0" key="transcr" include="fw space facsimile surface damage handShift subst"/>
           <moduleRef source="tei:4.8.0" key="linking" include="ab seg"/>
@@ -69,196 +69,6 @@
           <moduleRef source="tei:4.8.0" key="certainty" include="certainty respons"/>
           <moduleRef source="tei:4.8.0" key="gaiji" include="g glyph charDecl"/>
           
-          <elementSpec ident="correspDesc" mode="change">
-            <constraintSpec ident="correspDesc" module="header" scheme="schematron">
-              <constraint>
-                <sch:rule context="//tei:correspDesc">
-                  <sch:assert test="count(./tei:correspAction) > 0">element missing; element correspAction required</sch:assert>
-                </sch:rule>
-              </constraint>
-            </constraintSpec>
-            <attList>
-              <attDef ident="type" mode="delete"/>
-              <attDef ident="subtype" mode="delete"/>
-              <attDef ident="key" mode="delete"/>
-              <attDef ident="ref" mode="delete"/>
-              <attDef ident="source" mode="delete"/>
-              <attDef ident="cert" mode="delete"/>
-              <attDef ident="resp" mode="delete"/>
-              <attDef ident="change" mode="delete"/>
-              <attDef ident="facs" mode="delete"/>
-              <attDef ident="ana" mode="delete"/>
-              <attDef ident="corresp" mode="delete"/>
-              <attDef ident="synch" mode="delete"/>
-              <attDef ident="sameAs" mode="delete"/>
-              <attDef ident="copyOf" mode="delete"/>
-              <attDef ident="next" mode="delete"/>
-              <attDef ident="prev" mode="delete"/>
-              <attDef ident="exclude" mode="delete"/>
-              <attDef ident="select" mode="delete"/>
-              <attDef ident="rend" mode="delete"/>
-              <attDef ident="style" mode="delete"/>
-              <attDef ident="rendition" mode="delete"/>
-            </attList>
-          </elementSpec>
-          
-          <elementSpec ident="correspAction" mode="change">
-            <constraintSpec ident="correspAction" module="header" scheme="schematron">
-              <constraint>
-                <sch:rule context="//tei:correspAction">
-                  <sch:report test="*[not(self::tei:persName or self::tei:placeName or self::tei:orgName or self::tei:date)]">child element not allowed; persName, orgName, placeName and date are allowed</sch:report> 
-                </sch:rule>
-              </constraint>
-            </constraintSpec>
-            <constraintSpec ident="correspAction-date" scheme="schematron">
-              <constraint>
-                <sch:rule context="//tei:correspAction/tei:date[@notBefore-iso or @notAfter-iso]">
-                  <sch:assert test="string-length(@notBefore-iso) = 25">invalid date format. expected 25 characters e.g. 2023-10-12T00:00:00+01:00</sch:assert>
-                  <sch:assert test="string-length(@notAfter-iso) = 25">invalid date format. expected 25 characters e.g. 2023-10-12T00:00:00+01:00</sch:assert>
-                </sch:rule>
-              </constraint>
-            </constraintSpec>
-            <attList>
-              <attDef ident="type" mode="change" usage="req">
-                <valList mode="replace" type="closed">
-                  <valItem ident="sent"/>
-                  <valItem ident="transmitted"/>
-                  <valItem ident="redirected"/>
-                  <valItem ident="received"/>
-                </valList>
-              </attDef>
-              <attDef ident="key" mode="delete"/>
-              <attDef ident="ref" mode="delete"/>
-              <attDef ident="source" mode="delete"/>
-              <attDef ident="cert" mode="delete"/>
-              <attDef ident="resp" mode="delete"/>
-              <attDef ident="change" mode="delete"/>
-              <attDef ident="facs" mode="delete"/>
-              <attDef ident="ana" mode="delete"/>
-              <attDef ident="corresp" mode="delete"/>
-              <attDef ident="synch" mode="delete"/>
-              <attDef ident="sameAs" mode="delete"/>
-              <attDef ident="copyOf" mode="delete"/>
-              <attDef ident="next" mode="delete"/>
-              <attDef ident="prev" mode="delete"/>
-              <attDef ident="exclude" mode="delete"/>
-              <attDef ident="select" mode="delete"/>
-              <attDef ident="rend" mode="delete"/>
-              <attDef ident="style" mode="delete"/>
-              <attDef ident="rendition" mode="delete"/>
-            </attList>
-          </elementSpec>
-          
-          <elementSpec ident="closer" mode="change">
-            <content>
-              <sequence>
-                <elementRef key="space" maxOccurs="1" minOccurs="0"/>
-                <elementRef key="salute" maxOccurs="1" minOccurs="0"/>
-                <elementRef key="lb" maxOccurs="1" minOccurs="0"/>
-                <elementRef key="space" maxOccurs="1" minOccurs="0"/>
-                <elementRef key="salute" maxOccurs="1" minOccurs="0"/>
-                <elementRef key="lb" maxOccurs="1" minOccurs="0"/>
-                <elementRef key="signed" maxOccurs="1" minOccurs="0"/>
-                <elementRef key="lb" maxOccurs="1" minOccurs="0"/>
-                <elementRef key="space" maxOccurs="1" minOccurs="0"/>
-                <elementRef key="signed" maxOccurs="1" minOccurs="0"/>
-                <elementRef key="lb" maxOccurs="1" minOccurs="0"/>
-              </sequence>
-            </content>
-            <!--<constraintSpec ident="closer" module="textstructure" scheme="schematron">
-              <constraint>
-                <sch:rule context="//tei:div[@type='letter_message']">
-                  <sch:assert test="count(./tei:closer) > 0">element missing; element closer required</sch:assert>
-                </sch:rule>
-              </constraint>
-            </constraintSpec>-->
-            <attList>
-              <attDef ident="source" mode="delete"/>
-              <attDef ident="cert" mode="delete"/>
-              <attDef ident="resp" mode="delete"/>
-              <attDef ident="change" mode="delete"/>
-              <attDef ident="facs" mode="delete"/>
-              <attDef ident="ana" mode="delete"/>
-              <attDef ident="corresp" mode="delete"/>
-              <attDef ident="synch" mode="delete"/>
-              <attDef ident="sameAs" mode="delete"/>
-              <attDef ident="copyOf" mode="delete"/>
-              <attDef ident="next" mode="delete"/>
-              <attDef ident="prev" mode="delete"/>
-              <attDef ident="exclude" mode="delete"/>
-              <attDef ident="select" mode="delete"/>
-              <attDef ident="rend" mode="delete"/>
-              <attDef ident="style" mode="delete"/>
-              <attDef ident="rendition" mode="delete"/>
-            </attList>
-          </elementSpec>
-          
-          <elementSpec ident="opener" module="textstructure" mode="change">
-            <content>
-              <sequence>
-                <elementRef key="dateline" maxOccurs="1" minOccurs="0"/>
-                <elementRef key="space" maxOccurs="1" minOccurs="0"/>
-                <elementRef key="persName" maxOccurs="1" minOccurs="0"/>
-                <elementRef key="salute" maxOccurs="1" minOccurs="0"/>
-                <elementRef key="lb" maxOccurs="1" minOccurs="0"/>
-              </sequence>
-            </content>
-            <constraintSpec ident="opener" module="textstructure" scheme="schematron">
-              <constraint>
-                <sch:rule context="//tei:div[@type='letter_message'][1]">
-                  <sch:assert test="count(./tei:opener) > 0">element missing; element opener required</sch:assert>
-                </sch:rule>
-              </constraint>
-            </constraintSpec>
-            <attList>
-              <attDef ident="source" mode="delete"/>
-              <attDef ident="cert" mode="delete"/>
-              <attDef ident="resp" mode="delete"/>
-              <attDef ident="change" mode="delete"/>
-              <attDef ident="facs" mode="delete"/>
-              <attDef ident="ana" mode="delete"/>
-              <attDef ident="corresp" mode="delete"/>
-              <attDef ident="synch" mode="delete"/>
-              <attDef ident="sameAs" mode="delete"/>
-              <attDef ident="copyOf" mode="delete"/>
-              <attDef ident="next" mode="delete"/>
-              <attDef ident="prev" mode="delete"/>
-              <attDef ident="exclude" mode="delete"/>
-              <attDef ident="select" mode="delete"/>
-              <attDef ident="rend" mode="delete"/>
-              <attDef ident="style" mode="delete"/>
-              <attDef ident="rendition" mode="delete"/>
-            </attList>
-          </elementSpec>
-          
-          <elementSpec ident="dateline" module="textstructure" mode="change">
-            <constraintSpec ident="dateline" module="textstructure" scheme="schematron">
-              <constraint>
-                <sch:rule context="//tei:dateline">
-                  <sch:assert test="*[self::tei:date or self::tei:placeName or self::tei:space]">missing child elements: date or placeName required and space optional</sch:assert>
-                </sch:rule>
-              </constraint>
-            </constraintSpec>
-          </elementSpec>
-          
-          <elementSpec ident="signed" module="textstructure" mode="change">
-            <attList>
-              <attDef ident="hand" mode="change" usage="opt">
-                <valList mode="replace" type="closed">
-                  <valItem ident="#handwritten"/>
-                  <valItem ident="#typed"/>
-                </valList>
-              </attDef>
-            </attList>
-          </elementSpec>
-          
-          <elementSpec ident="citedRange" module="core" mode="change">
-            <attList>
-              <attDef ident="unit" mode="change" usage="req"/>
-              <attDef ident="from" mode="change" usage="req"/>
-              <attDef ident="to" mode="change" usage="req"/>
-            </attList>
-          </elementSpec>
           
           <elementSpec ident="edition" module="header" mode="change">
             <content>
@@ -590,27 +400,20 @@
           <elementSpec ident="div" module="textstructure" mode="change">
             <constraintSpec ident="div" scheme="schematron" mode="change">
               <constraint>
-                <sch:rule context="//tei:body/tei:div">
-                  <sch:assert test="@type = 'transcription'">missing @type or invalid attribute value; allowed value is 'transcription'</sch:assert>
+                <sch:rule context="//tei:body[parent::tei:text]/tei:div">
+                  <sch:assert test="@type='transcription'">missing @type or invalid attribute value; allowed value is 'transcription'</sch:assert>
                   <sch:assert test="matches(@xml:id, 'transcription_amp_\d+')">xml:id required with pattern: transcription_amp_0001 |(final digits = document xml:id)</sch:assert>
                   <sch:assert test="count(./tei:div) > 0">div must contain at least one div element with @type=evelope or letter ...</sch:assert>
-                  <sch:assert test="*[self::tei:div[@type='letter' or @type='envelope' or @type='enclosure']]">type required or invalid type value; only letter, envelope or enclosure allowed</sch:assert>
+                  <sch:assert test="@xml:lang">missing attribute @xml:lang</sch:assert>
                 </sch:rule>
-                <sch:rule context="//tei:body/tei:div/tei:div[@type='letter']">
-                  <sch:assert test="@type = 'letter'">@type allowed values are 'letter'</sch:assert>
-                  <sch:assert test="count(./tei:div[@type='letter_message']) > 0">div@type=letter must contain at least one div@type=letter_message</sch:assert>
-                  <sch:assert test="*[self::tei:div[@type='poem' or @type='letter_message']]">type required or invalid type value; only poem or letter_message allowed</sch:assert>
+                
+                <sch:rule context="//tei:body[parent::tei:floatingText]/tei:div">
+                  <sch:assert test="@type='prose' or @type='letter'">missing @type or invalid attribute value; allowed value is 'prose' or 'letter'</sch:assert>
+                  <sch:assert test="count(./tei:p) > 0 or count(./tei:ab) > 0">div must contain at least one p(aragraph) or ab(anonymous block) element.</sch:assert>
                 </sch:rule>
-                <sch:rule context="//tei:body/tei:div/tei:div/tei:div[@type='poem']">
-                  <sch:assert test="count(./tei:lg) > 0">missing element; lg required</sch:assert>
-                  <sch:report test="*[not(self::tei:head or self::tei:lg or self::tei:ab or self::tei:pb or self::tei:cb or self::tei:fw)]">invalid child element: lg, ab and pb allowed</sch:report>
-                </sch:rule>
-                <sch:rule context="//tei:body/tei:div/tei:div[@type='envelope']">
-                  <sch:assert test="count(./tei:ab) > 0">div@type=envelope must contain at least one tei:ab element</sch:assert>
-                  <sch:report test="*[not(self::tei:ab or self::tei:pb or self::tei:fw)]">invalid element; only pb and ab elements allowed</sch:report>
-                </sch:rule>
-                <sch:rule context="//tei:body/tei:div/tei:div[@type='enclosure']">
-                  <sch:assert test="*[self::tei:div[@type='poem' or @type='prose_translation' or @type='comments']]">type required or invalid type value; only poem, comments or prose_translation allowed</sch:assert>
+                
+                <sch:rule context="//tei:body/tei:div/tei:div[@type='prose']">
+                  <sch:assert test="count(./tei:p) > 0 or count(./tei:ab) > 0">div must contain at least one p(aragraph) or ab(anonymous block) element.</sch:assert>
                 </sch:rule>
               </constraint>
             </constraintSpec>
@@ -626,12 +429,6 @@
                 <valList type="closed" mode="replace">
                   <valItem ident="prose"/>
                   <valItem ident="letter"/>
-                  <valItem ident="letter_message"/>
-                  <valItem ident="poem"/>
-                  <valItem ident="envelope"/>
-                  <valItem ident="enclosure"/>
-                  <valItem ident="prose_translation"/>
-                  <valItem ident="comments"/>
                   <valItem ident="transcription"/>
                 </valList>
               </attDef>
@@ -762,28 +559,6 @@
           
           <!-- element space -->
           <elementSpec ident="space" module="transcr" mode="change">
-            <!--<constraintSpec ident="space" scheme="schematron">
-              <constraint>
-                <!-\-<sch:rule context="//tei:space[not(parent::tei:lg)]">
-                  <sch:assert test="@quantity or @unit">invalid attribute; allowed and required attributes are unit and quantity</sch:assert>
-                  <sch:report test="@min and @extent">invalid attribute; min and extent not allowed</sch:report>
-                  <sch:assert test="matches(@unit, 'char')">invalid value; only 'char' allowed</sch:assert>
-                </sch:rule>-\->
-                <!-\-<sch:rule context="//tei:space[parent::tei:lg][@unit]">
-                  <sch:assert test="matches(@unit, 'char')">invalid value; only 'char' allowed</sch:assert>
-                </sch:rule>-\->
-                <!-\-<sch:rule context="//tei:space[@extent]">
-                  <sch:assert test="@extent='undefined quantity of characters' or @extent='undefined quantity of characters plus minimum'">invalid value</sch:assert>
-                </sch:rule>-\->
-                <!-\-<sch:rule context="//tei:space[@extent='undefined quantity of characters plus minimum']">
-                  <sch:assert test="@unit and @min">invalid attribute requirements; unit and min required</sch:assert>
-                  <sch:report test="@quantity">invalid attribute requirements; unit and min required</sch:report>
-                </sch:rule>
-                <sch:rule context="//tei:space[@extent='undefined quantity of characters']">
-                  <sch:report test="@quantity or @unit or @min">invalid attribute requirements; unit, quantity and min not allowed</sch:report>
-                </sch:rule>-\->
-              </constraint>
-            </constraintSpec>-->
             <attList>
               <attDef ident="min" mode="change" usage="opt">
                 <datatype>

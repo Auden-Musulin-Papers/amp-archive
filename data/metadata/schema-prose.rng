@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2024-07-31T13:00:09Z. .
+Schema generated from ODD source 2024-07-31T13:00:30Z. .
 TEI Edition: Version 4.1.0. Last updated on
 	19th August 2020, revision b414ba550
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.1.0/
@@ -3129,29 +3129,41 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
    <define name="tei_model.attributable">
       <choice>
          <ref name="tei_model.quoteLike"/>
+         <ref name="tei_floatingText"/>
       </choice>
    </define>
    <define name="tei_model.attributable_alternation">
       <choice>
          <ref name="tei_model.quoteLike_alternation"/>
+         <ref name="tei_floatingText"/>
       </choice>
    </define>
    <define name="tei_model.attributable_sequence">
       <ref name="tei_model.quoteLike_sequence"/>
+      <ref name="tei_floatingText"/>
    </define>
    <define name="tei_model.attributable_sequenceOptional">
       <optional>
          <ref name="tei_model.quoteLike_sequenceOptional"/>
+      </optional>
+      <optional>
+         <ref name="tei_floatingText"/>
       </optional>
    </define>
    <define name="tei_model.attributable_sequenceOptionalRepeatable">
       <zeroOrMore>
          <ref name="tei_model.quoteLike_sequenceOptionalRepeatable"/>
       </zeroOrMore>
+      <zeroOrMore>
+         <ref name="tei_floatingText"/>
+      </zeroOrMore>
    </define>
    <define name="tei_model.attributable_sequenceRepeatable">
       <oneOrMore>
          <ref name="tei_model.quoteLike_sequenceRepeatable"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="tei_floatingText"/>
       </oneOrMore>
    </define>
    <define name="tei_model.respLike">
@@ -3164,16 +3176,11 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
       </choice>
    </define>
    <define name="tei_model.divWrapper">
-      <choice>
-         <ref name="tei_dateline"/>
-         <ref name="tei_salute"/>
-      </choice>
+      <notAllowed/>
    </define>
    <define name="tei_model.divTopPart">
       <choice>
          <ref name="tei_model.headLike"/>
-         <ref name="tei_opener"/>
-         <ref name="tei_signed"/>
       </choice>
    </define>
    <define name="tei_model.divTop">
@@ -3183,11 +3190,7 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
       </choice>
    </define>
    <define name="tei_model.divBottomPart">
-      <choice>
-         <ref name="tei_closer"/>
-         <ref name="tei_signed"/>
-         <ref name="tei_postscript"/>
-      </choice>
+      <notAllowed/>
    </define>
    <define name="tei_model.divBottom">
       <choice>
@@ -3540,7 +3543,6 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
       <choice>
          <ref name="tei_creation"/>
          <ref name="tei_langUsage"/>
-         <ref name="tei_correspDesc"/>
          <ref name="tei_textDesc"/>
          <ref name="tei_particDesc"/>
          <ref name="tei_settingDesc"/>
@@ -3562,31 +3564,6 @@ Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line;
             </list>
          </attribute>
       </optional>
-   </define>
-   <define name="tei_model.correspActionPart">
-      <choice>
-         <ref name="tei_model.dateLike"/>
-         <ref name="tei_model.addressLike"/>
-         <ref name="tei_model.nameLike"/>
-         <ref name="tei_note"/>
-         <ref name="tei_noteGrp"/>
-      </choice>
-   </define>
-   <define name="tei_model.correspContextPart">
-      <choice>
-         <ref name="tei_model.ptrLike"/>
-         <ref name="tei_model.pLike"/>
-         <ref name="tei_note"/>
-         <ref name="tei_noteGrp"/>
-      </choice>
-   </define>
-   <define name="tei_model.correspDescPart">
-      <choice>
-         <ref name="tei_note"/>
-         <ref name="tei_noteGrp"/>
-         <ref name="tei_correspAction"/>
-         <ref name="tei_correspContext"/>
-      </choice>
    </define>
    <define name="tei_model.resource">
       <choice>
@@ -5211,43 +5188,7 @@ Elements]</a:documentation>
          <ref name="tei_macro.phraseSeq"/>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.pointing.attributes"/>
-         <attribute name="unit">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies the unit of information conveyed by the element, e.g. columns, pages, volume, entry.
-Suggested values include: 1] volume (volume); 2] issue; 3] page (page); 4] line; 5] chapter (chapter); 6] part; 7] column; 8] entry</a:documentation>
-            <choice>
-               <value>volume</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(volume) the element contains a volume number.</a:documentation>
-               <value>issue</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the element contains an issue number, or volume and issue numbers.</a:documentation>
-               <value>page</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(page) the element contains a page number or page range.</a:documentation>
-               <value>line</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the element contains a line number or line range.</a:documentation>
-               <value>chapter</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(chapter) the element contains a chapter indication (number and/or title)</a:documentation>
-               <value>part</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the element identifies a part of a book or collection.</a:documentation>
-               <value>column</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the element identifies a column.</a:documentation>
-               <value>entry</value>
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">the element identifies an entry number or label in a list of entries.</a:documentation>
-               <data type="token">
-                  <param name="pattern">[^\p{C}\p{Z}]+</param>
-               </data>
-            </choice>
-         </attribute>
-         <attribute name="from">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the starting point of the range of units indicated by the <code xmlns="http://www.w3.org/1999/xhtml">@unit</code> attribute.</a:documentation>
-            <data type="token">
-               <param name="pattern">[^\p{C}\p{Z}]+</param>
-            </data>
-         </attribute>
-         <attribute name="to">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the end-point of the range of units indicated by the <code xmlns="http://www.w3.org/1999/xhtml">@unit</code> attribute.</a:documentation>
-            <data type="token">
-               <param name="pattern">[^\p{C}\p{Z}]+</param>
-            </data>
-         </attribute>
+         <ref name="tei_att.citing.attributes"/>
          <empty/>
       </element>
    </define>
@@ -6051,94 +5992,6 @@ Sample values include: 1] first-line; 2] first-letter; 3] before; 4] after</a:do
          <empty/>
       </element>
    </define>
-   <define name="tei_correspDesc">
-      <element name="correspDesc">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(correspondence description) contains a description of the actions related to one act of correspondence. [2.4.6. Correspondence Description]</a:documentation>
-         <choice>
-            <oneOrMore>
-               <ref name="tei_model.correspDescPart"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="tei_model.pLike"/>
-            </oneOrMore>
-         </choice>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-correspDesc-correspDesc-constraint-rule-32">
-            <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      context="//tei:correspDesc">
-               <sch:assert test="count(./tei:correspAction) &gt; 0">element missing; element correspAction required</sch:assert>
-            </sch:rule>
-         </pattern>
-         <ref name="tei_att.declarable.attributes"/>
-         <ref name="tei_att.global.attribute.xmlid"/>
-         <ref name="tei_att.global.attribute.n"/>
-         <ref name="tei_att.global.attribute.xmllang"/>
-         <ref name="tei_att.global.attribute.xmlbase"/>
-         <ref name="tei_att.global.attribute.xmlspace"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="tei_correspAction">
-      <element name="correspAction">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(correspondence action) contains a structured description of the place, the name of a person/organization and the date related to the sending/receiving of a message or any other action related to the correspondence. [2.4.6. Correspondence Description]</a:documentation>
-         <choice>
-            <oneOrMore>
-               <ref name="tei_model.correspActionPart"/>
-            </oneOrMore>
-            <oneOrMore>
-               <ref name="tei_model.pLike"/>
-            </oneOrMore>
-         </choice>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-correspAction-correspAction-constraint-rule-33">
-            <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      context="//tei:correspAction">
-               <sch:report test="*[not(self::tei:persName or self::tei:placeName or self::tei:orgName or self::tei:date)]">child element not allowed; persName, orgName, placeName and date are allowed</sch:report>
-            </sch:rule>
-         </pattern>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-correspAction-correspAction-date-constraint-rule-34">
-            <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      context="//tei:correspAction/tei:date[@notBefore-iso or @notAfter-iso]">
-               <sch:assert test="string-length(@notBefore-iso) = 25">invalid date format. expected 25 characters e.g. 2023-10-12T00:00:00+01:00</sch:assert>
-               <sch:assert test="string-length(@notAfter-iso) = 25">invalid date format. expected 25 characters e.g. 2023-10-12T00:00:00+01:00</sch:assert>
-            </sch:rule>
-         </pattern>
-         <ref name="tei_att.global.attribute.xmlid"/>
-         <ref name="tei_att.global.attribute.n"/>
-         <ref name="tei_att.global.attribute.xmllang"/>
-         <ref name="tei_att.global.attribute.xmlbase"/>
-         <ref name="tei_att.global.attribute.xmlspace"/>
-         <ref name="tei_att.typed.attribute.subtype"/>
-         <ref name="tei_att.sortable.attributes"/>
-         <attribute name="type">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes the nature of the action.</a:documentation>
-            <data type="token">
-               <param name="pattern">[^\p{C}\p{Z}]+</param>
-            </data>
-         </attribute>
-         <empty/>
-      </element>
-   </define>
-   <define name="tei_correspContext">
-      <element name="correspContext">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(correspondence context) provides references to preceding or following correspondence related to this piece of correspondence. [2.4.6. Correspondence Description]</a:documentation>
-         <oneOrMore>
-            <ref name="tei_model.correspContextPart"/>
-         </oneOrMore>
-         <ref name="tei_att.global.attributes"/>
-         <empty/>
-      </element>
-   </define>
    <define name="tei_revisionDesc">
       <element name="revisionDesc">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(revision description) summarizes the revision history for a file. [2.6. The Revision Description 2.1.1. The TEI Header and Its Components]</a:documentation>
@@ -6224,7 +6077,7 @@ Sample values include: 1] first-line; 2] first-letter; 3] before; 4] after</a:do
             </attribute>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-change-calendar-calendar-check-change-constraint-rule-35">
+                  id="amp-change-calendar-calendar-check-change-constraint-rule-32">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -6590,7 +6443,7 @@ Suggested values include: 1] self; 2] single; 3] many; 4] group; 5] world</a:doc
             </choice>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-msDesc-one_ms_singleton_max-constraint-rule-36">
+                  id="amp-msDesc-one_ms_singleton_max-constraint-rule-33">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -6622,7 +6475,7 @@ Suggested values include: 1] self; 2] single; 3] many; 4] group; 5] world</a:doc
             </choice>
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-origDate-origDate-constraint-rule-37">
+                  id="amp-origDate-origDate-constraint-rule-34">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -6738,7 +6591,7 @@ Suggested values include: 1] self; 2] single; 3] many; 4] group; 5] world</a:doc
             </attribute>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-origPlace-calendar-calendar-check-origPlace-constraint-rule-38">
+                  id="amp-origPlace-calendar-calendar-check-origPlace-constraint-rule-35">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -6772,7 +6625,7 @@ Suggested values include: 1] self; 2] single; 3] many; 4] group; 5] world</a:doc
             </attribute>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-stamp-calendar-calendar-check-stamp-constraint-rule-39">
+                  id="amp-stamp-calendar-calendar-check-stamp-constraint-rule-36">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -6829,7 +6682,7 @@ Suggested values include: 1] self; 2] single; 3] many; 4] group; 5] world</a:doc
             </zeroOrMore>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-msIdentifier-msId_minimal-constraint-rule-40">
+                  id="amp-msIdentifier-msId_minimal-constraint-rule-37">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -6907,7 +6760,7 @@ Suggested values include: 1] self; 2] single; 3] many; 4] group; 5] world</a:doc
             </attribute>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-origin-calendar-calendar-check-origin-constraint-rule-41">
+                  id="amp-origin-calendar-calendar-check-origin-constraint-rule-38">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -7202,7 +7055,7 @@ Suggested values include: 1] self; 2] single; 3] many; 4] group; 5] world</a:doc
             </attribute>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-orgName-calendar-calendar-check-orgName-constraint-rule-42">
+                  id="amp-orgName-calendar-calendar-check-orgName-constraint-rule-39">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -7239,7 +7092,7 @@ Suggested values include: 1] self; 2] single; 3] many; 4] group; 5] world</a:doc
             </attribute>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-persName-calendar-calendar-check-persName-constraint-rule-43">
+                  id="amp-persName-calendar-calendar-check-persName-constraint-rule-40">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -7291,7 +7144,7 @@ Suggested values include: 1] self; 2] single; 3] many; 4] group; 5] world</a:doc
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(place name) contains an absolute or relative place name. [13.2.3. Place Names]</a:documentation>
          <ref name="tei_macro.phraseSeq"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-placeName-placeName-constraint-rule-44">
+                  id="amp-placeName-placeName-constraint-rule-41">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -7319,7 +7172,7 @@ Suggested values include: 1] self; 2] single; 3] many; 4] group; 5] world</a:doc
             </attribute>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-placeName-calendar-calendar-check-placeName-constraint-rule-45">
+                  id="amp-placeName-calendar-calendar-check-placeName-constraint-rule-42">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -7355,7 +7208,7 @@ Suggested values include: 1] self; 2] single; 3] many; 4] group; 5] world</a:doc
             </attribute>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-country-calendar-calendar-check-country-constraint-rule-46">
+                  id="amp-country-calendar-calendar-check-country-constraint-rule-43">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -7391,7 +7244,7 @@ Suggested values include: 1] self; 2] single; 3] many; 4] group; 5] world</a:doc
             </attribute>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-region-calendar-calendar-check-region-constraint-rule-47">
+                  id="amp-region-calendar-calendar-check-region-constraint-rule-44">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -7427,7 +7280,7 @@ Suggested values include: 1] self; 2] single; 3] many; 4] group; 5] world</a:doc
             </attribute>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-settlement-calendar-calendar-check-settlement-constraint-rule-48">
+                  id="amp-settlement-calendar-calendar-check-settlement-constraint-rule-45">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -7463,7 +7316,7 @@ Suggested values include: 1] self; 2] single; 3] many; 4] group; 5] world</a:doc
             </attribute>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-district-calendar-calendar-check-district-constraint-rule-49">
+                  id="amp-district-calendar-calendar-check-district-constraint-rule-46">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -7500,7 +7353,7 @@ Suggested values include: 1] self; 2] single; 3] many; 4] group; 5] world</a:doc
             </attribute>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-geogName-calendar-calendar-check-geogName-constraint-rule-50">
+                  id="amp-geogName-calendar-calendar-check-geogName-constraint-rule-47">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -7545,7 +7398,7 @@ Suggested values include: 1] self; 2] single; 3] many; 4] group; 5] world</a:doc
             </attribute>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-affiliation-calendar-calendar-check-affiliation-constraint-rule-51">
+                  id="amp-affiliation-calendar-calendar-check-affiliation-constraint-rule-48">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -7627,7 +7480,7 @@ Suggested values include: 1] self; 2] single; 3] many; 4] group; 5] world</a:doc
             </attribute>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-event-calendar-calendar-check-event-constraint-rule-52">
+                  id="amp-event-calendar-calendar-check-event-constraint-rule-49">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -7820,7 +7673,7 @@ Suggested values include: 1] self; 2] single; 3] many; 4] group; 5] world</a:doc
             </attribute>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-location-calendar-calendar-check-location-constraint-rule-53">
+                  id="amp-location-calendar-calendar-check-location-constraint-rule-50">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -8043,7 +7896,7 @@ Suggested values include: 1] self; 2] single; 3] many; 4] group; 5] world</a:doc
             </attribute>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-state-calendar-calendar-check-state-constraint-rule-54">
+                  id="amp-state-calendar-calendar-check-state-constraint-rule-51">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -8080,7 +7933,7 @@ Suggested values include: 1] self; 2] single; 3] many; 4] group; 5] world</a:doc
             </attribute>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-objectName-calendar-calendar-check-objectName-constraint-rule-55">
+                  id="amp-objectName-calendar-calendar-check-objectName-constraint-rule-52">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -8257,6 +8110,27 @@ Suggested values include: 1] self; 2] single; 3] many; 4] group; 5] world</a:doc
          <empty/>
       </element>
    </define>
+   <define name="tei_floatingText">
+      <element name="floatingText">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(floating text) contains a single text of any kind, whether unitary or composite, which interrupts the text containing it at any point and after which the surrounding text resumes. [4.3.2. Floating Texts]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <ref name="tei_model.global"/>
+            </zeroOrMore>
+            <choice>
+               <ref name="tei_body"/>
+            </choice>
+            <zeroOrMore>
+               <ref name="tei_model.global"/>
+            </zeroOrMore>
+         </group>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.declaring.attributes"/>
+         <ref name="tei_att.typed.attributes"/>
+         <ref name="tei_att.cmc.attributes"/>
+         <empty/>
+      </element>
+   </define>
    <define name="tei_div">
       <element name="div">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(text division) contains a subdivision of the front, body, or back of a text. [4.1. Divisions of the Body]</a:documentation>
@@ -8317,47 +8191,32 @@ Suggested values include: 1] self; 2] single; 3] many; 4] group; 5] world</a:doc
             </optional>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-div-div-constraint-rule-56">
+                  id="amp-div-div-constraint-rule-53">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      context="//tei:body/tei:div">
-               <sch:assert test="@type = 'transcription'">missing @type or invalid attribute value; allowed value is 'transcription'</sch:assert>
+                      context="//tei:body[parent::tei:text]/tei:div">
+               <sch:assert test="@type='transcription'">missing @type or invalid attribute value; allowed value is 'transcription'</sch:assert>
                <sch:assert test="matches(@xml:id, 'transcription_amp_\d+')">xml:id required with pattern: transcription_amp_0001 |(final digits = document xml:id)</sch:assert>
                <sch:assert test="count(./tei:div) &gt; 0">div must contain at least one div element with @type=evelope or letter ...</sch:assert>
-               <sch:assert test="*[self::tei:div[@type='letter' or @type='envelope' or @type='enclosure']]">type required or invalid type value; only letter, envelope or enclosure allowed</sch:assert>
+               <sch:assert test="@xml:lang">missing attribute @xml:lang</sch:assert>
             </sch:rule>
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      context="//tei:body/tei:div/tei:div[@type='letter']">
-               <sch:assert test="@type = 'letter'">@type allowed values are 'letter'</sch:assert>
-               <sch:assert test="count(./tei:div[@type='letter_message']) &gt; 0">div@type=letter must contain at least one div@type=letter_message</sch:assert>
-               <sch:assert test="*[self::tei:div[@type='poem' or @type='letter_message']]">type required or invalid type value; only poem or letter_message allowed</sch:assert>
+                      context="//tei:body[parent::tei:floatingText]/tei:div">
+               <sch:assert test="@type='prose' or @type='letter'">missing @type or invalid attribute value; allowed value is 'prose' or 'letter'</sch:assert>
+               <sch:assert test="count(./tei:p) &gt; 0 or count(./tei:ab) &gt; 0">div must contain at least one p(aragraph) or ab(anonymous block) element.</sch:assert>
             </sch:rule>
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      context="//tei:body/tei:div/tei:div/tei:div[@type='poem']">
-               <sch:assert test="count(./tei:lg) &gt; 0">missing element; lg required</sch:assert>
-               <sch:report test="*[not(self::tei:head or self::tei:lg or self::tei:ab or self::tei:pb or self::tei:cb or self::tei:fw)]">invalid child element: lg, ab and pb allowed</sch:report>
-            </sch:rule>
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      context="//tei:body/tei:div/tei:div[@type='envelope']">
-               <sch:assert test="count(./tei:ab) &gt; 0">div@type=envelope must contain at least one tei:ab element</sch:assert>
-               <sch:report test="*[not(self::tei:ab or self::tei:pb or self::tei:fw)]">invalid element; only pb and ab elements allowed</sch:report>
-            </sch:rule>
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      context="//tei:body/tei:div/tei:div[@type='enclosure']">
-               <sch:assert test="*[self::tei:div[@type='poem' or @type='prose_translation' or @type='comments']]">type required or invalid type value; only poem, comments or prose_translation allowed</sch:assert>
+                      context="//tei:body/tei:div/tei:div[@type='prose']">
+               <sch:assert test="count(./tei:p) &gt; 0 or count(./tei:ab) &gt; 0">div must contain at least one p(aragraph) or ab(anonymous block) element.</sch:assert>
             </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-div-abstractModel-structure-div-in-l-or-lg-constraint-rule-61">
+                  id="amp-div-abstractModel-structure-div-in-l-or-lg-constraint-rule-56">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -8368,7 +8227,7 @@ Suggested values include: 1] self; 2] single; 3] many; 4] group; 5] world</a:doc
             </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-div-abstractModel-structure-div-in-ab-or-p-constraint-rule-62">
+                  id="amp-div-abstractModel-structure-div-in-ab-or-p-constraint-rule-57">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
@@ -8390,18 +8249,6 @@ Suggested values include: 1] self; 2] single; 3] many; 4] group; 5] world</a:doc
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>letter</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>letter_message</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>poem</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>envelope</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>enclosure</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>prose_translation</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>comments</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>transcription</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                </choice>
@@ -8420,180 +8267,6 @@ Suggested values include: 1] self; 2] single; 3] many; 4] group; 5] world</a:doc
                </choice>
             </attribute>
          </optional>
-         <empty/>
-      </element>
-   </define>
-   <define name="tei_dateline">
-      <element name="dateline">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(dateline) contains a brief description of the place, date, time, etc. of production of a letter, newspaper story, or other work, prefixed or suffixed to it as a kind of heading or trailer. [4.2.2. Openers and Closers]</a:documentation>
-         <zeroOrMore>
-            <choice>
-               <text/>
-               <ref name="tei_model.gLike"/>
-               <ref name="tei_model.phrase"/>
-               <ref name="tei_model.global"/>
-            </choice>
-         </zeroOrMore>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-dateline-dateline-constraint-rule-63">
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      context="//tei:dateline">
-               <sch:assert test="*[self::tei:date or self::tei:placeName or self::tei:space]">missing child elements: date or placeName required and space optional</sch:assert>
-            </sch:rule>
-         </pattern>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.cmc.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="tei_opener">
-      <element name="opener">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(opener) groups together dateline, byline, salutation, and similar phrases appearing as a preliminary group at the start of a division, especially of a letter. [4.2. Elements Common to All Divisions]</a:documentation>
-         <group>
-            <optional>
-               <ref name="tei_dateline"/>
-            </optional>
-            <optional>
-               <ref name="tei_space"/>
-            </optional>
-            <optional>
-               <ref name="tei_persName"/>
-            </optional>
-            <optional>
-               <ref name="tei_salute"/>
-            </optional>
-            <optional>
-               <ref name="tei_lb"/>
-            </optional>
-         </group>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-opener-opener-constraint-rule-64">
-            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      context="//tei:div[@type='letter_message'][1]">
-               <sch:assert test="count(./tei:opener) &gt; 0">element missing; element opener required</sch:assert>
-            </sch:rule>
-         </pattern>
-         <ref name="tei_att.global.attribute.xmlid"/>
-         <ref name="tei_att.global.attribute.n"/>
-         <ref name="tei_att.global.attribute.xmllang"/>
-         <ref name="tei_att.global.attribute.xmlbase"/>
-         <ref name="tei_att.global.attribute.xmlspace"/>
-         <ref name="tei_att.written.attributes"/>
-         <ref name="tei_att.cmc.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="tei_closer">
-      <element name="closer">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(closer) groups together salutations, datelines, and similar phrases appearing as a final group at the end of a division, especially of a letter. [4.2.2. Openers and Closers 4.2. Elements Common to All Divisions]</a:documentation>
-         <group>
-            <optional>
-               <ref name="tei_space"/>
-            </optional>
-            <optional>
-               <ref name="tei_salute"/>
-            </optional>
-            <optional>
-               <ref name="tei_lb"/>
-            </optional>
-            <optional>
-               <ref name="tei_space"/>
-            </optional>
-            <optional>
-               <ref name="tei_salute"/>
-            </optional>
-            <optional>
-               <ref name="tei_lb"/>
-            </optional>
-            <optional>
-               <ref name="tei_signed"/>
-            </optional>
-            <optional>
-               <ref name="tei_lb"/>
-            </optional>
-            <optional>
-               <ref name="tei_space"/>
-            </optional>
-            <optional>
-               <ref name="tei_signed"/>
-            </optional>
-            <optional>
-               <ref name="tei_lb"/>
-            </optional>
-         </group>
-         <ref name="tei_att.global.attribute.xmlid"/>
-         <ref name="tei_att.global.attribute.n"/>
-         <ref name="tei_att.global.attribute.xmllang"/>
-         <ref name="tei_att.global.attribute.xmlbase"/>
-         <ref name="tei_att.global.attribute.xmlspace"/>
-         <ref name="tei_att.written.attributes"/>
-         <ref name="tei_att.cmc.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="tei_salute">
-      <element name="salute">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(salutation) contains a salutation or greeting prefixed to a foreword, dedicatory epistle, or other division of a text, or the salutation in the closing of a letter, preface, etc. [4.2.2. Openers and Closers]</a:documentation>
-         <ref name="tei_macro.paraContent"/>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.written.attributes"/>
-         <ref name="tei_att.cmc.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="tei_signed">
-      <element name="signed">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(signature) contains the closing salutation, etc., appended to a foreword, dedicatory epistle, or other division of a text. [4.2.2. Openers and Closers]</a:documentation>
-         <ref name="tei_macro.paraContent"/>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.cmc.attributes"/>
-         <optional>
-            <attribute name="hand">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">points to a <code xmlns="http://www.w3.org/1999/xhtml">&lt;handNote&gt;</code> element describing the hand considered responsible for the content of the element concerned.</a:documentation>
-               <choice>
-                  <value>#handwritten</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>#typed</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-               </choice>
-            </attribute>
-         </optional>
-         <empty/>
-      </element>
-   </define>
-   <define name="tei_postscript">
-      <element name="postscript">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a postscript, e.g. to a letter. [4.2. Elements Common to All Divisions]</a:documentation>
-         <group>
-            <zeroOrMore>
-               <choice>
-                  <ref name="tei_model.global"/>
-                  <ref name="tei_model.divTopPart"/>
-               </choice>
-            </zeroOrMore>
-            <ref name="tei_model.common"/>
-            <zeroOrMore>
-               <choice>
-                  <ref name="tei_model.global"/>
-                  <ref name="tei_model.common"/>
-               </choice>
-            </zeroOrMore>
-            <zeroOrMore>
-               <group>
-                  <ref name="tei_model.divBottomPart"/>
-                  <zeroOrMore>
-                     <ref name="tei_model.global"/>
-                  </zeroOrMore>
-               </group>
-            </zeroOrMore>
-         </group>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.written.attributes"/>
-         <ref name="tei_att.cmc.attributes"/>
          <empty/>
       </element>
    </define>
@@ -8715,7 +8388,7 @@ Suggested values include: 1] self; 2] single; 3] many; 4] group; 5] world</a:doc
             </oneOrMore>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-facsimile-no_facsimile_text_nodes-constraint-rule-65">
+                  id="amp-facsimile-no_facsimile_text_nodes-constraint-rule-58">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -8941,7 +8614,7 @@ Sample values include: 1] glued; 2] pinned; 3] sewn</a:documentation>
             </choice>
          </oneOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-subst-substContents1-constraint-rule-66">
+                  id="amp-subst-substContents1-constraint-rule-59">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -9068,7 +8741,7 @@ Sample values include: 1] glued; 2] pinned; 3] sewn</a:documentation>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(anonymous block) contains any component-level unit of text, acting as a container for phrase or inter level elements analogous to, but without the same constraints as, a paragraph. [16.3. Blocks, Segments, and Anchors]</a:documentation>
          <ref name="tei_macro.abContent"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-ab-abstractModel-structure-ab-in-l-or-lg-constraint-rule-67">
+                  id="amp-ab-abstractModel-structure-ab-in-l-or-lg-constraint-rule-60">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
@@ -9185,7 +8858,7 @@ Sample values include: 1] glued; 2] pinned; 3] sewn</a:documentation>
             </data>
          </attribute>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="amp-interp-source-only_1_ODD_source-constraint-rule-68">
+                  id="amp-interp-source-only_1_ODD_source-constraint-rule-61">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns="http://www.tei-c.org/ns/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"

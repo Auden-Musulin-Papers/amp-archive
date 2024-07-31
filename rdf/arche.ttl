@@ -31,7 +31,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/1001454-8> ;
-    arche:hasTitle "Index of Events mentioned in Auden Musulin Papers"@en ;
+    arche:hasTitle "Index of Events"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/indexes> .
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-index-organizations.xml> a arche:Resource ;
@@ -64,7 +64,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/1001454-8> ;
-    arche:hasTitle "Index of Institutions mentioned in Auden Musulin Papers"@en ;
+    arche:hasTitle "Index of Institutions"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/indexes> .
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-index-persons.xml> a arche:Resource ;
@@ -97,7 +97,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/1001454-8> ;
-    arche:hasTitle "Index of Persons mentioned in Auden Musulin Papers"@en ;
+    arche:hasTitle "Index of Persons"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/indexes> .
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-index-places.xml> a arche:Resource ;
@@ -130,7 +130,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/1001454-8> ;
-    arche:hasTitle "Index of Places mentioned in Auden Musulin Papers"@en ;
+    arche:hasTitle "Index of Places"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/indexes> .
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-index-works.xml> a arche:Resource ;
@@ -163,7 +163,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/1001454-8> ;
-    arche:hasTitle "Index of Literature in Auden Musulin Papers"@en ;
+    arche:hasTitle "Index of Works"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/indexes> .
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-logo.png> a arche:Resource ;
@@ -190,7 +190,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0001.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -222,7 +223,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0002.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -254,7 +256,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0003.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -286,7 +289,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0004.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -319,6 +323,7 @@
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0005.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
     arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711>,
         <https://id.acdh.oeaw.ac.at/emusulin> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
@@ -352,6 +357,7 @@
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0006.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
     arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711>,
         <https://id.acdh.oeaw.ac.at/emusulin> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
@@ -385,6 +391,7 @@
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0007.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
     arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711>,
         <https://id.acdh.oeaw.ac.at/emusulin> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
@@ -418,6 +425,7 @@
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0008.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
     arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711>,
         <https://id.acdh.oeaw.ac.at/emusulin> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
@@ -518,7 +526,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0011.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://id.acdh.oeaw.ac.at/emusulin> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -550,7 +559,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0012.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://id.acdh.oeaw.ac.at/emusulin> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -650,7 +660,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0015.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -682,7 +693,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0016.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -714,7 +726,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0017.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -746,7 +759,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0018.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -906,7 +920,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0023.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -938,7 +953,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0024.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -970,7 +986,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0025.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -1002,7 +1019,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0026.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -1034,7 +1052,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0027.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -1066,7 +1085,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0028.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -1098,7 +1118,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0029.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -1130,7 +1151,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0030.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -1162,7 +1184,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0031.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -1194,7 +1217,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0032.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -1290,7 +1314,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0035.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -1322,7 +1347,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0036.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -1354,7 +1380,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0037.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -1386,7 +1413,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0038.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -1418,7 +1446,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0039.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -1450,7 +1479,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0040.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -1482,7 +1512,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0041.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -1514,7 +1545,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0042.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -1546,7 +1578,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0043.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -1578,7 +1611,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0044.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -1610,7 +1644,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0045.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -1642,7 +1677,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0046.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -1802,7 +1838,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0051.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -1834,7 +1871,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0052.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -1866,7 +1904,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0053.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -1898,7 +1937,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0054.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -1930,7 +1970,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0055.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -1962,7 +2003,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0056.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -1994,7 +2036,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0057.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -2026,7 +2069,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0058.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -2058,7 +2102,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0059.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -2090,7 +2135,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0060.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -2122,7 +2168,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0061.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -2154,7 +2201,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0062.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -2186,7 +2234,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0063.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -2218,7 +2267,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0064.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -2250,7 +2300,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0065.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -2282,7 +2333,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0066.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -2442,7 +2494,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0071.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -2474,7 +2527,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0072.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -2506,7 +2560,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0073.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -2538,7 +2593,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0074.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -2826,7 +2882,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0083.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -2858,7 +2915,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0084.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -2890,7 +2948,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0085.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -2922,7 +2981,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0086.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -2954,7 +3014,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0087.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -2986,7 +3047,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0088.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -3018,7 +3080,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0089.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -3050,7 +3113,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0090.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -3082,7 +3146,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0091.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -3114,7 +3179,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0092.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -3146,7 +3212,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0093.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -3178,7 +3245,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0094.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -3210,7 +3278,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0095.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -3242,7 +3311,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0096.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -3274,7 +3344,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0097.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -3306,7 +3377,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0098.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -3594,7 +3666,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0107.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -3626,7 +3699,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0108.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -4298,7 +4372,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0129.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -4330,7 +4405,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0130.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -4362,7 +4438,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0131.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -4394,7 +4471,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0132.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -4426,7 +4504,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0133.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://id.acdh.oeaw.ac.at/emusulin> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -4458,7 +4537,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0134.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://id.acdh.oeaw.ac.at/emusulin> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -4490,7 +4570,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0135.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://id.acdh.oeaw.ac.at/emusulin> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -4522,7 +4603,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0136.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://id.acdh.oeaw.ac.at/emusulin> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -4554,7 +4636,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0137.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://id.acdh.oeaw.ac.at/emusulin> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -4586,7 +4669,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0138.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://id.acdh.oeaw.ac.at/emusulin> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -5330,7 +5414,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0171.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118751980> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/118751980> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -5362,7 +5447,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0172.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118751980> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/118751980> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -5394,7 +5480,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0173.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118751980> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/118751980> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -5426,7 +5513,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0174.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118751980> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/118751980> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -5458,7 +5546,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0175.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118751980> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/118751980> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -5490,7 +5579,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0176.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118751980> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/118751980> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -5522,7 +5612,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0177.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118751980> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/118751980> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -5554,7 +5645,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0178.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118751980> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/118751980> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -6251,7 +6343,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "0055 Photograph 1"@en ;
+    arche:hasTitle "0055 Photograph 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0055.xml> .
 
@@ -6280,7 +6372,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "0055 Photograph 2"@en ;
+    arche:hasTitle "0055 Photograph 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0055.xml> .
 
@@ -6309,7 +6401,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "0048 Photograph 1"@en ;
+    arche:hasTitle "0048 Photograph 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0048.xml> .
 
@@ -6338,7 +6430,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "0048 Photograph 2"@en ;
+    arche:hasTitle "0048 Photograph 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0048.xml> .
 
@@ -6367,7 +6459,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "0054 Photograph 2"@en ;
+    arche:hasTitle "0054 Photograph 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0054.xml> .
 
@@ -6396,7 +6488,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "0054 Photograph 1"@en ;
+    arche:hasTitle "0054 Photograph 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0054.xml> .
 
@@ -6489,7 +6581,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://www.wikidata.org/wiki/Q680662> ;
-    arche:hasTitle "0050 Photograph 1"@en ;
+    arche:hasTitle "0050 Photograph 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0050.xml> .
 
@@ -6518,7 +6610,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://www.wikidata.org/wiki/Q680662> ;
-    arche:hasTitle "0050 Photograph 2"@en ;
+    arche:hasTitle "0050 Photograph 1 [verso]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0050.xml> .
 
@@ -9813,7 +9905,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "0064 Photograph 1"@en ;
+    arche:hasTitle "0064 Photograph 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0064.xml> .
 
@@ -9842,7 +9934,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "0065 Photograph 1"@en ;
+    arche:hasTitle "0065 Photograph 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0065.xml> .
 
@@ -9871,7 +9963,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "0066 Photograph 1"@en ;
+    arche:hasTitle "0066 Photograph 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0066.xml> .
 
@@ -9900,7 +9992,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "0067 Photograph 1"@en ;
+    arche:hasTitle "0067 Photograph 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0067.xml> .
 
@@ -9929,7 +10021,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "0068 Photograph 1"@en ;
+    arche:hasTitle "0068 Photograph 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0068.xml> .
 
@@ -9958,7 +10050,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "0069 Photograph 1"@en ;
+    arche:hasTitle "0069 Photograph 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0069.xml> .
 
@@ -9970,18 +10062,24 @@
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
         <https://orcid.org/0000-0002-0636-4476> ;
     arche:hasDepositor <https://d-nb.info/gnd/1024881253> ;
+    arche:hasDigitisingAgent <https://d-nb.info/gnd/1024881253>,
+        <https://orcid.org/0000-0002-0914-9245>,
+        <https://orcid.org/0000-0002-3997-5193> ;
     arche:hasFilename "amp_0453.tif" ;
     arche:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0> ;
+    arche:hasLicensor <https://d-nb.info/gnd/137925816> ;
     arche:hasMetadataCreator <https://d-nb.info/gnd/1024881253>,
         <https://orcid.org/0000-0002-0636-4476>,
         <https://orcid.org/0000-0002-0914-9245>,
         <https://orcid.org/0000-0002-3997-5193> ;
+    arche:hasOwner <https://d-nb.info/gnd/137925816> ;
     arche:hasPid "create" ;
     arche:hasRelatedDiscipline <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602005>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602006>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
-    arche:hasTitle "0077 Photograph 1"@en ;
+    arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
+    arche:hasTitle "0077 Photograph 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0077.xml> .
 
@@ -9993,18 +10091,24 @@
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
         <https://orcid.org/0000-0002-0636-4476> ;
     arche:hasDepositor <https://d-nb.info/gnd/1024881253> ;
+    arche:hasDigitisingAgent <https://d-nb.info/gnd/1024881253>,
+        <https://orcid.org/0000-0002-0914-9245>,
+        <https://orcid.org/0000-0002-3997-5193> ;
     arche:hasFilename "amp_0454.tif" ;
     arche:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0> ;
+    arche:hasLicensor <https://d-nb.info/gnd/137925816> ;
     arche:hasMetadataCreator <https://d-nb.info/gnd/1024881253>,
         <https://orcid.org/0000-0002-0636-4476>,
         <https://orcid.org/0000-0002-0914-9245>,
         <https://orcid.org/0000-0002-3997-5193> ;
+    arche:hasOwner <https://d-nb.info/gnd/137925816> ;
     arche:hasPid "create" ;
     arche:hasRelatedDiscipline <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602005>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602006>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
-    arche:hasTitle "0078 Photograph 1"@en ;
+    arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
+    arche:hasTitle "0078 Photograph 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0078.xml> .
 
@@ -10033,7 +10137,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "0072 Photograph 1"@en ;
+    arche:hasTitle "0072 Photograph 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0072.xml> .
 
@@ -10062,7 +10166,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "0073 Photograph 1"@en ;
+    arche:hasTitle "0073 Photograph 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0073.xml> .
 
@@ -10091,7 +10195,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "0074 Photograph 1"@en ;
+    arche:hasTitle "0074 Photograph 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0074.xml> .
 
@@ -10120,7 +10224,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/137925816> ;
-    arche:hasTitle "0075 Photograph 1"@en ;
+    arche:hasTitle "0075 Photograph 1 [recto]"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/photos> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0075.xml> .
 
@@ -10516,7 +10620,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0471.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -10548,7 +10653,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp_0472.tif> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasAuthor <https://d-nb.info/gnd/118650963> ;
+    arche:hasAuthor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
@@ -11794,13 +11900,13 @@
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/facsimiles> ;
     arche:isSourceOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0028.xml> .
 
-<https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd> a arche:Metadata ;
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema-indexes.odd> a arche:Metadata ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
         <https://orcid.org/0000-0002-0636-4476> ;
     arche:hasDepositor <https://d-nb.info/gnd/1024881253> ;
-    arche:hasDescription "TEI/XML Schema ODD for \"Auden Musulin Papers\" Edition Documents"@en ;
+    arche:hasDescription "TEI/XML Schema RNG for \"Auden Musulin Papers\" Indexes"@en ;
     arche:hasFormat "text/xml"@und ;
     arche:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0> ;
     arche:hasLicensor <https://d-nb.info/gnd/1123037736> ;
@@ -11811,7 +11917,91 @@
     arche:hasOwner <https://d-nb.info/gnd/1123037736> ;
     arche:hasPid "create" ;
     arche:hasRightsHolder <https://d-nb.info/gnd/1001454-8> ;
-    arche:hasTitle "TEI/XML Schema ODD for \"Auden Musulin Papers\" Edition Documents"@en ;
+    arche:hasTitle "TEI/XML Schema RNG for \"Auden Musulin Papers\" Indexes"@en ;
+    arche:isMetadataFor <https://id.acdh.oeaw.ac.at/auden-musulin-papers/indexes> ;
+    arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition> .
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema-indexes.rng> a arche:Metadata ;
+    arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
+    arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
+    arche:hasCurator <https://d-nb.info/gnd/1043833846>,
+        <https://orcid.org/0000-0002-0636-4476> ;
+    arche:hasDepositor <https://d-nb.info/gnd/1024881253> ;
+    arche:hasDescription "TEI/XML Schema RNG for \"Auden Musulin Papers\" Indexes"@en ;
+    arche:hasFormat "text/xml"@und ;
+    arche:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0> ;
+    arche:hasLicensor <https://d-nb.info/gnd/1123037736> ;
+    arche:hasMetadataCreator <https://d-nb.info/gnd/1024881253>,
+        <https://orcid.org/0000-0002-0636-4476>,
+        <https://orcid.org/0000-0002-0914-9245>,
+        <https://orcid.org/0000-0002-3997-5193> ;
+    arche:hasOwner <https://d-nb.info/gnd/1123037736> ;
+    arche:hasPid "create" ;
+    arche:hasRightsHolder <https://d-nb.info/gnd/1001454-8> ;
+    arche:hasTitle "TEI/XML Schema RNG for \"Auden Musulin Papers\" Indexes"@en ;
+    arche:isMetadataFor <https://id.acdh.oeaw.ac.at/auden-musulin-papers/indexes> ;
+    arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition> .
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema-prose.odd> a arche:Metadata ;
+    arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
+    arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
+    arche:hasCurator <https://d-nb.info/gnd/1043833846>,
+        <https://orcid.org/0000-0002-0636-4476> ;
+    arche:hasDepositor <https://d-nb.info/gnd/1024881253> ;
+    arche:hasDescription "TEI/XML Schema ODD for \"Auden Musulin Papers\" Edition Prose Documents"@en ;
+    arche:hasFormat "text/xml"@und ;
+    arche:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0> ;
+    arche:hasLicensor <https://d-nb.info/gnd/1123037736> ;
+    arche:hasMetadataCreator <https://d-nb.info/gnd/1024881253>,
+        <https://orcid.org/0000-0002-0636-4476>,
+        <https://orcid.org/0000-0002-0914-9245>,
+        <https://orcid.org/0000-0002-3997-5193> ;
+    arche:hasOwner <https://d-nb.info/gnd/1123037736> ;
+    arche:hasPid "create" ;
+    arche:hasRightsHolder <https://d-nb.info/gnd/1001454-8> ;
+    arche:hasTitle "TEI/XML Schema ODD for \"Auden Musulin Papers\" Edition Prose Documents"@en ;
+    arche:isMetadataFor <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition> ;
+    arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition> .
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema-prose.rng> a arche:Metadata ;
+    arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
+    arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
+    arche:hasCurator <https://d-nb.info/gnd/1043833846>,
+        <https://orcid.org/0000-0002-0636-4476> ;
+    arche:hasDepositor <https://d-nb.info/gnd/1024881253> ;
+    arche:hasDescription "TEI/XML Schema ODD for \"Auden Musulin Papers\" Edition Prose Documents"@en ;
+    arche:hasFormat "text/xml"@und ;
+    arche:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0> ;
+    arche:hasLicensor <https://d-nb.info/gnd/1123037736> ;
+    arche:hasMetadataCreator <https://d-nb.info/gnd/1024881253>,
+        <https://orcid.org/0000-0002-0636-4476>,
+        <https://orcid.org/0000-0002-0914-9245>,
+        <https://orcid.org/0000-0002-3997-5193> ;
+    arche:hasOwner <https://d-nb.info/gnd/1123037736> ;
+    arche:hasPid "create" ;
+    arche:hasRightsHolder <https://d-nb.info/gnd/1001454-8> ;
+    arche:hasTitle "TEI/XML Schema ODD for \"Auden Musulin Papers\" Edition Prose Documents"@en ;
+    arche:isMetadataFor <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition> ;
+    arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition> .
+
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd> a arche:Metadata ;
+    arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
+    arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
+    arche:hasCurator <https://d-nb.info/gnd/1043833846>,
+        <https://orcid.org/0000-0002-0636-4476> ;
+    arche:hasDepositor <https://d-nb.info/gnd/1024881253> ;
+    arche:hasDescription "TEI/XML Schema ODD for \"Auden Musulin Papers\" Edition Correspondence Documents"@en ;
+    arche:hasFormat "text/xml"@und ;
+    arche:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0> ;
+    arche:hasLicensor <https://d-nb.info/gnd/1123037736> ;
+    arche:hasMetadataCreator <https://d-nb.info/gnd/1024881253>,
+        <https://orcid.org/0000-0002-0636-4476>,
+        <https://orcid.org/0000-0002-0914-9245>,
+        <https://orcid.org/0000-0002-3997-5193> ;
+    arche:hasOwner <https://d-nb.info/gnd/1123037736> ;
+    arche:hasPid "create" ;
+    arche:hasRightsHolder <https://d-nb.info/gnd/1001454-8> ;
+    arche:hasTitle "TEI/XML Schema ODD for \"Auden Musulin Papers\" Edition Correspondence Documents"@en ;
     arche:isMetadataFor <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition> ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition> .
 
@@ -11821,7 +12011,7 @@
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
         <https://orcid.org/0000-0002-0636-4476> ;
     arche:hasDepositor <https://d-nb.info/gnd/1024881253> ;
-    arche:hasDescription "TEI/XML Schema RNG for \"Auden Musulin Papers\" Edition Documents"@en ;
+    arche:hasDescription "TEI/XML Schema ODD for \"Auden Musulin Papers\" Edition Correspondence Documents"@en ;
     arche:hasFormat "text/xml"@und ;
     arche:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0> ;
     arche:hasLicensor <https://d-nb.info/gnd/1123037736> ;
@@ -11832,7 +12022,7 @@
     arche:hasOwner <https://d-nb.info/gnd/1123037736> ;
     arche:hasPid "create" ;
     arche:hasRightsHolder <https://d-nb.info/gnd/1001454-8> ;
-    arche:hasTitle "TEI/XML Schema RNG for \"Auden Musulin Papers\" Edition Documents"@en ;
+    arche:hasTitle "TEI/XML Schema ODD for \"Auden Musulin Papers\" Edition Correspondence Documents"@en ;
     arche:isMetadataFor <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition> ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition> .
 
@@ -12575,7 +12765,7 @@
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
         <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
     arche:hasRightsHolder <https://d-nb.info/gnd/1001454-8> ;
-    arche:hasTitle "Typescript Stella Musulin Translation W. H. Auden \"Joseph Weinheber\" 1965-04-28--1965-12-31"@en ;
+    arche:hasTitle "Copy Typescript Stella Musulin Translation W. H. Auden \"Joseph Weinheber\" 1965-04-28--1965-12-31"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition> .
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0048.xml> a arche:Resource ;
@@ -12818,7 +13008,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0058.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasActor <https://d-nb.info/gnd/118650963> ;
+    arche:hasActor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCreator <https://d-nb.info/gnd/1024881253>,
@@ -12989,7 +13180,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0001.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasActor <https://d-nb.info/gnd/118650963> ;
+    arche:hasActor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCreator <https://d-nb.info/gnd/1024881253>,
@@ -13024,6 +13216,7 @@
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0002.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
     arche:hasActor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711>,
         <https://id.acdh.oeaw.ac.at/emusulin> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
@@ -13058,7 +13251,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0003.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasActor <https://d-nb.info/gnd/118650963> ;
+    arche:hasActor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCreator <https://d-nb.info/gnd/1024881253>,
@@ -13126,7 +13320,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0005.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasActor <https://d-nb.info/gnd/118650963> ;
+    arche:hasActor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCreator <https://d-nb.info/gnd/1024881253>,
@@ -13160,7 +13355,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0006.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasActor <https://d-nb.info/gnd/118650963> ;
+    arche:hasActor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCreator <https://d-nb.info/gnd/1024881253>,
@@ -13194,7 +13390,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0007.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasActor <https://d-nb.info/gnd/118650963> ;
+    arche:hasActor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCreator <https://d-nb.info/gnd/1024881253>,
@@ -13228,7 +13425,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0008.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasActor <https://d-nb.info/gnd/118650963> ;
+    arche:hasActor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCreator <https://d-nb.info/gnd/1024881253>,
@@ -13262,7 +13460,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0009.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasActor <https://d-nb.info/gnd/118650963> ;
+    arche:hasActor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCreator <https://d-nb.info/gnd/1024881253>,
@@ -13330,7 +13529,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0011.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasActor <https://d-nb.info/gnd/118650963> ;
+    arche:hasActor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCreator <https://d-nb.info/gnd/1024881253>,
@@ -13364,7 +13564,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0012.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasActor <https://d-nb.info/gnd/118650963> ;
+    arche:hasActor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCreator <https://d-nb.info/gnd/1024881253>,
@@ -13398,7 +13599,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0013.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasActor <https://d-nb.info/gnd/118650963> ;
+    arche:hasActor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCreator <https://d-nb.info/gnd/1024881253>,
@@ -13432,7 +13634,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0014.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasActor <https://d-nb.info/gnd/118650963> ;
+    arche:hasActor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCreator <https://d-nb.info/gnd/1024881253>,
@@ -13466,7 +13669,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0015.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasActor <https://d-nb.info/gnd/118650963> ;
+    arche:hasActor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCreator <https://d-nb.info/gnd/1024881253>,
@@ -13534,7 +13738,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0017.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasActor <https://d-nb.info/gnd/118650963> ;
+    arche:hasActor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCreator <https://d-nb.info/gnd/1024881253>,
@@ -13568,7 +13773,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0018.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasActor <https://d-nb.info/gnd/118650963> ;
+    arche:hasActor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCreator <https://d-nb.info/gnd/1024881253>,
@@ -13602,7 +13808,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0019.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasActor <https://d-nb.info/gnd/118650963> ;
+    arche:hasActor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCreator <https://d-nb.info/gnd/1024881253>,
@@ -13636,7 +13843,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0020.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasActor <https://d-nb.info/gnd/118650963> ;
+    arche:hasActor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCreator <https://d-nb.info/gnd/1024881253>,
@@ -13806,7 +14014,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0025.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasActor <https://d-nb.info/gnd/118650963> ;
+    arche:hasActor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCreator <https://d-nb.info/gnd/1024881253>,
@@ -14010,7 +14219,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0059.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasActor <https://d-nb.info/gnd/118650963> ;
+    arche:hasActor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/127246711> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCreator <https://d-nb.info/gnd/1024881253>,
@@ -14077,6 +14287,7 @@
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition> .
 
 <https://id.acdh.oeaw.ac.at/org-apa> a arche:Organisation ;
+    arche:hasIdentifier <https://www.wikidata.org/wiki/Q680662> ;
     arche:hasTitle "Austria Press Agency"@en .
 
 <https://d-nb.info/gnd/116469986> a arche:Person ;
@@ -14084,38 +14295,6 @@
 
 <https://d-nb.info/gnd/119022354> a arche:Person ;
     arche:hasTitle "Christine Buster"@und .
-
-<https://id.acdh.oeaw.ac.at/auden-musulin-papers/indexes> a arche:Collection ;
-    arche:hasContact <https://d-nb.info/gnd/1024881253> ;
-    arche:hasCreator <https://d-nb.info/gnd/1024881253>,
-        <https://d-nb.info/gnd/1043833846>,
-        <https://d-nb.info/gnd/14000761X>,
-        <https://orcid.org/0000-0002-0636-4476>,
-        <https://orcid.org/0000-0002-0914-9245>,
-        <https://orcid.org/0000-0002-3997-5193> ;
-    arche:hasCurator <https://d-nb.info/gnd/1043833846>,
-        <https://orcid.org/0000-0002-0636-4476> ;
-    arche:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}" ;
-    arche:hasDepositor <https://d-nb.info/gnd/1024881253> ;
-    arche:hasDescription "Indexes in XML/TEI format of mentioned persons, places, organizations and events by Authors of Auden Musulin Papers."@en ;
-    arche:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/deu>,
-        <https://vocabs.acdh.oeaw.ac.at/iso6393/eng> ;
-    arche:hasLicensor <https://d-nb.info/gnd/1123037736> ;
-    arche:hasMetadataCreator <https://d-nb.info/gnd/1024881253>,
-        <https://orcid.org/0000-0002-0636-4476>,
-        <https://orcid.org/0000-0002-0914-9245>,
-        <https://orcid.org/0000-0002-3997-5193> ;
-    arche:hasOaiSet <https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo> ;
-    arche:hasOwner <https://d-nb.info/gnd/1123037736> ;
-    arche:hasPid "create" ;
-    arche:hasRelatedDiscipline <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602005>,
-        <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602006>,
-        <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
-        <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
-    arche:hasRightsHolder <https://d-nb.info/gnd/1001454-8> ;
-    arche:hasSubject "digital edition, Auden, Musulin, entities, persons, places, organizations, events, xml, tei"@en ;
-    arche:hasTitle "Indexes"@en ;
-    arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers> .
 
 <https://id.acdh.oeaw.ac.at/rblaha> a arche:Person ;
     arche:hasTitle "Rudolf Blaha"@und .
@@ -14265,9 +14444,42 @@
     arche:hasTitle "Typed Notes [Janko Musulin] Translation W. H. Auden \"Freedom and Necessity in the Arts\" 1970-05-21--1970-06-10"@en ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition> .
 
+<https://id.acdh.oeaw.ac.at/auden-musulin-papers/indexes> a arche:Collection ;
+    arche:hasContact <https://d-nb.info/gnd/1024881253> ;
+    arche:hasCreator <https://d-nb.info/gnd/1024881253>,
+        <https://d-nb.info/gnd/1043833846>,
+        <https://d-nb.info/gnd/14000761X>,
+        <https://orcid.org/0000-0002-0636-4476>,
+        <https://orcid.org/0000-0002-0914-9245>,
+        <https://orcid.org/0000-0002-3997-5193> ;
+    arche:hasCurator <https://d-nb.info/gnd/1043833846>,
+        <https://orcid.org/0000-0002-0636-4476> ;
+    arche:hasCustomCitation "author = {Mayer, Sandra and Frühwirth, Timo and Grigoriou, Dimitra and Mendelson, Edward and Andorfer, Peter and Elsner, Daniel}" ;
+    arche:hasDepositor <https://d-nb.info/gnd/1024881253> ;
+    arche:hasDescription "Indexes in XML/TEI format of mentioned persons, places, organizations and events by Authors of Auden Musulin Papers."@en ;
+    arche:hasLanguage <https://vocabs.acdh.oeaw.ac.at/iso6393/deu>,
+        <https://vocabs.acdh.oeaw.ac.at/iso6393/eng> ;
+    arche:hasLicensor <https://d-nb.info/gnd/1123037736> ;
+    arche:hasMetadataCreator <https://d-nb.info/gnd/1024881253>,
+        <https://orcid.org/0000-0002-0636-4476>,
+        <https://orcid.org/0000-0002-0914-9245>,
+        <https://orcid.org/0000-0002-3997-5193> ;
+    arche:hasOaiSet <https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo> ;
+    arche:hasOwner <https://d-nb.info/gnd/1123037736> ;
+    arche:hasPid "create" ;
+    arche:hasRelatedDiscipline <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602005>,
+        <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602006>,
+        <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602007>,
+        <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602008> ;
+    arche:hasRightsHolder <https://d-nb.info/gnd/1001454-8> ;
+    arche:hasSubject "digital edition, Auden, Musulin, entities, persons, places, organizations, events, xml, tei"@en ;
+    arche:hasTitle "Indexes"@en ;
+    arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers> .
+
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0038.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasActor <https://d-nb.info/gnd/118650963> ;
+    arche:hasActor <https://d-nb.info/gnd/118650963>,
+        <https://id.acdh.oeaw.ac.at/emusulin> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCreator <https://d-nb.info/gnd/1024881253>,
@@ -14337,7 +14549,8 @@
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0052.xml> a arche:Resource ;
     arche:hasAccessRestriction <https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public> ;
-    arche:hasActor <https://d-nb.info/gnd/118751980> ;
+    arche:hasActor <https://d-nb.info/gnd/118650963>,
+        <https://d-nb.info/gnd/118751980> ;
     arche:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei> ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCreator <https://d-nb.info/gnd/1024881253>,
@@ -14439,7 +14652,7 @@
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
         <https://orcid.org/0000-0002-0636-4476> ;
     arche:hasDepositor <https://d-nb.info/gnd/1024881253> ;
-    arche:hasDescription "Digital Scans of Photos and Images: Private photographs of W. H. Auden and Chester Kallman."@en ;
+    arche:hasDescription "Digital images of the Auden Musulin Papers: digital images of the photographs sent by British-American poet W. H. Auden to Welsh-Austrian writer Stella Musulin in the period 1960-1973; private photographs of W. H. Auden and Chester Kallman;"@en ;
     arche:hasDigitisingAgent <https://d-nb.info/gnd/1024881253>,
         <https://orcid.org/0000-0002-0914-9245>,
         <https://orcid.org/0000-0002-3997-5193> ;
@@ -14657,28 +14870,25 @@
 
 <https://d-nb.info/gnd/1043833846> a arche:Person ;
     arche:hasPersonalTitle "Mag. Dr." ;
-    arche:hasTitle "Peter Andorfer"@und ;
-    arche:isMemberOf <https://d-nb.info/gnd/1123037736> .
+    arche:hasTitle "Peter Andorfer"@und .
 
 <https://orcid.org/0000-0002-0914-9245> a arche:Person ;
     arche:hasPersonalTitle "BA MMA" ;
-    arche:hasTitle "Dimitra Grigoriou"@und ;
-    arche:isMemberOf <https://d-nb.info/gnd/1123037736> .
+    arche:hasTitle "Dimitra Grigoriou"@und .
 
 <https://orcid.org/0000-0002-3997-5193> a arche:Person ;
     arche:hasPersonalTitle "Mag." ;
-    arche:hasTitle "Timo Frühwirth"@und ;
-    arche:isMemberOf <https://d-nb.info/gnd/1123037736> .
+    arche:hasTitle "Timo Frühwirth"@und .
 
 <https://orcid.org/0000-0002-0636-4476> a arche:Person ;
     arche:hasEmail "daniel.elsner@oeaw.ac.at" ;
+    arche:hasFirstName "Daniel"@und ;
+    arche:hasLastName "Elsner"@und ;
     arche:hasPersonalTitle "BA MA" ;
     arche:hasTitle "Daniel Elsner"@und ;
-    arche:hasUrl "https://www.oeaw.ac.at/acdh/team/current-team/daniel-elsner" ;
-    arche:isMemberOf <https://d-nb.info/gnd/1123037736> .
+    arche:hasUrl "https://www.oeaw.ac.at/acdh/team/current-team/daniel-elsner" .
 
 <https://d-nb.info/gnd/1024881253> a arche:Person ;
     arche:hasPersonalTitle "Mag. Dr." ;
-    arche:hasTitle "Sandra Mayer"@und ;
-    arche:isMemberOf <https://d-nb.info/gnd/1123037736> .
+    arche:hasTitle "Sandra Mayer"@und .
 

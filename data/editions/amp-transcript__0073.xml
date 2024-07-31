@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0073.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0072.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0074.xml">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0073.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -19,13 +19,13 @@
                 </funder>
             </titleStmt>
             <editionStmt>
-                <edition>AMP</edition>
+                <edition><title>Photograph [Stella Musulin] of Chester Kallman, John Auden, Charles Monteith, Edward Mendelson, Charles Osborne, Sonia Orwell, Stephen Spender, and Lisa Clark at W. H. Auden's Funeral 1973-10-04</title></edition>
                 <respStmt><resp>Transcription and commentary</resp><name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></respStmt>
             <respStmt><resp>TEI Schema, ODD/RNG</resp><name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name><name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name></respStmt></editionStmt>
             <publicationStmt>
                 <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
                 <pubPlace>Vienna</pubPlace>
-                <date when="2021">2021</date>
+                <date when="2024">2024</date>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
                         <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
@@ -100,9 +100,10 @@
                 </setting>
             </settingDesc>
         </profileDesc>
-        <revisionDesc status="draft">
+        <revisionDesc status="published">
             <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
             <change who="dgrigoriou tfruehwirth" when="2023-05-22">file created, metadata inserted</change>
+            <change who="dgrigoriou smayer tfruehwirth" when="2024-07-23">container structure updated</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -110,200 +111,17 @@
             <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0456/"/>
         </surface>
     </facsimile>
-    <text type="photograph">
+    <text>
         <body>
-            <div xml:id="transcription">
-                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0456/" type="photograph"/>
-                <p hand="#handwritten">
-                    <rs type="person" ref="#amp_person_4">Chester</rs> <rs type="person" ref="#amp_person_88">John A .</rs> <rs type="person" ref="#amp_person_120">Charles Monteith</rs><lb/>
-                    <rs type="event" ref="#amp_event_id_19">Funeral Auden</rs> . <rs type="person" ref="#amp_person_8">Stephen Spender</rs> 
-                </p>
+            <div type="transcription" xml:id="transcription_amp_0073" hand="#handwritten" xml:lang="en">
+                <div type="photo">
+                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0456/" type="photograph" ed="1r"/>
+                    <ab>
+                        <rs type="person" ref="#amp_person_4">Chester</rs> <rs type="person" ref="#amp_person_88">John A .</rs> <rs type="person" ref="#amp_person_120">Charles Monteith</rs><lb/>
+                        <rs type="event" ref="#amp_event_id_19">Funeral Auden</rs> . <rs type="person" ref="#amp_person_8">Stephen Spender</rs> 
+                    </ab>
+                </div>
             </div>
         </body>
-    <back><listPerson><person xml:id="amp_person_8">
-                  <persName>
-                     <forename>Stephen</forename>
-                     <surname>Spender</surname>
-                  </persName>
-                  <birth>
-                     <date when-iso="1909-02-28">1909-02-28</date>
-                     <settlement key="amp_place_id_234">
-                        <placeName>Kensington</placeName>
-                     </settlement>
-                  </birth>
-                  <death>
-                     <date when-iso="1995-07-16">1995-07-16</date>
-                     <settlement key="amp_place_id_272">
-                        <placeName>St John's Wood</placeName>
-                     </settlement>
-                  </death>
-                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118751840</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q448764</idno>
-                  <listBibl>
-                     <bibl n="lit_work_id_117">Unpublished volume of memoirs of W. H. Auden</bibl>
-                     <bibl n="lit_work_id_157">Seriously Unserious</bibl>
-                     <bibl n="lit_work_id_177">The Truly Great</bibl>
-                  </listBibl>
-               <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0026.xml" type="mentions">Autograph Notes W. H. Auden Stella Musulin 1959-06-01--1973-09-28</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0034.xml" type="mentions">Typed Letter Signed Michael O'Sullivan to Stella Musulin 1984-05-31</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0073.xml" type="mentions">Photograph [Stella Musulin] of Chester Kallman, John Auden, Charles Monteith, Edward Mendelson, Charles Osborne, Sonia Orwell, Stephen Spender, and Lisa Clark at W. H. Auden's Funeral 1973-10-04</note></noteGrp></person>
-               <person xml:id="amp_person_4">
-                  <persName>
-                     <forename>Chester</forename>
-                     <surname>Kallman</surname>
-                  </persName>
-                  <birth>
-                     <date when-iso="1921-01-07">1921-01-07</date>
-                     <settlement key="amp_place_id_12">
-                        <placeName>Brooklyn</placeName>
-                     </settlement>
-                  </birth>
-                  <death>
-                     <date when-iso="1975-01-18">1975-01-18</date>
-                     <settlement key="amp_place_id_13">
-                        <placeName>Athens</placeName>
-                     </settlement>
-                  </death>
-                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/119544911</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q5093626</idno>
-                  <listBibl>
-                     <bibl n="lit_work_id_3">The Rake's Progress</bibl>
-                     <bibl n="lit_work_id_4">Elegy for Young Lovers</bibl>
-                     <bibl n="lit_work_id_5">The Bassarids: Opera Seria with Intermezzo in One Act Based on "The Bacchae" of Euripides</bibl>
-                     <bibl n="lit_work_id_16">The Rake's Progress</bibl>
-                     <bibl n="lit_work_id_17">Elegy for Young Lovers</bibl>
-                     <bibl n="lit_work_id_18">The Bassarids: Opera Seria with Intermezzo in One Act Based on "The Bacchae" of Euripides</bibl>
-                     <bibl n="lit_work_id_19">Love's Labour's Lost</bibl>
-                     <bibl n="lit_work_id_20">Love's Labour's Lost</bibl>
-                     <bibl n="lit_work_id_148">The Magic Flute</bibl>
-                     <bibl n="lit_work_id_149">Don Giovanni</bibl>
-                     <bibl n="lit_work_id_150">The Seven Deadly Sins</bibl>
-                     <bibl n="lit_work_id_151">Rise and Fall of the City of Mahagonny</bibl>
-                     <bibl n="lit_work_id_152">Arcifanfano, King of Fools; or, It's Always Too Late to Learn</bibl>
-                     <bibl n="lit_work_id_180">Delia</bibl>
-                     <bibl n="lit_work_id_181">The Entertainment of the Senses</bibl>
-                     <bibl n="lit_work_id_207">Ein Autor hat Bedenken</bibl>
-                  </listBibl>
-               <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note><note target="amp-transcript__0002.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23</note><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0012.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</note><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note><note target="amp-transcript__0014.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</note><note target="amp-transcript__0015.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0021.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1961-10-13</note><note target="amp-transcript__0023.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-07-23</note><note target="amp-transcript__0024.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-09-11</note><note target="amp-transcript__0025.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-10-17</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0030.xml" type="mentions">Copy Typed Letter Stella Musulin to Bruce Duncan 1985-11-29</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note><note target="amp-transcript__0045.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1960-07-21</note><note target="amp-transcript__0052.xml" type="mentions">Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-07-26--1972-08-25</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0054.xml" type="mentions">Photographs [Stella Musulin] of W. H. Auden, Chester Kallman, and Elsa Musulin 1960-07-21--1960-11-02</note><note target="amp-transcript__0059.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-04-30</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note><note target="amp-transcript__0066.xml" type="mentions">Photograph [Stella Musulin] of Friedrich Heer, Chester Kallman, and W. H. Auden 1969-05-28</note><note target="amp-transcript__0070.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1959-10-10</note><note target="amp-transcript__0072.xml" type="mentions">Photograph [Stella Musulin] of Friedrich Colloredo, Chester Kallman, and W. H. Auden 1959-06-01--1973-09-28</note><note target="amp-transcript__0073.xml" type="mentions">Photograph [Stella Musulin] of Chester Kallman, John Auden, Charles Monteith, Edward Mendelson, Charles Osborne, Sonia Orwell, Stephen Spender, and Lisa Clark at W. H. Auden's Funeral 1973-10-04</note></noteGrp></person>
-               <person xml:id="amp_person_120">
-                  <persName>
-                     <forename>Charles</forename>
-                     <surname>Monteith</surname>
-                  </persName>
-                  <birth>
-                     <date when-iso="1921-02-09">1921-02-09</date>
-                     <settlement key="amp_place_id_178">
-                        <placeName>Lisburn</placeName>
-                     </settlement>
-                  </birth>
-                  <death>
-                     <date when-iso="1995-05-09">1995-05-09</date>
-                     <settlement key="amp_place_id_56">
-                        <placeName>London</placeName>
-                     </settlement>
-                  </death>
-                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/1124937285</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q18526885</idno>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0073.xml" type="mentions">Photograph [Stella Musulin] of Chester Kallman, John Auden, Charles Monteith, Edward Mendelson, Charles Osborne, Sonia Orwell, Stephen Spender, and Lisa Clark at W. H. Auden's Funeral 1973-10-04</note></noteGrp></person>
-               <person xml:id="amp_person_88">
-                  <persName>
-                     <forename>John Bicknell</forename>
-                     <surname>Auden</surname>
-                  </persName>
-                  <birth>
-                     <date when-iso="1903-12-14">1903-12-14</date>
-                     <settlement key="amp_place_id_3">
-                        <placeName>York</placeName>
-                     </settlement>
-                  </birth>
-                  <death>
-                     <date when-iso="1991-01-21">1991-01-21</date>
-                     <settlement key="amp_place_id_56">
-                        <placeName>London</placeName>
-                     </settlement>
-                  </death>
-                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/1089340591</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q14946819</idno>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0030.xml" type="mentions">Copy Typed Letter Stella Musulin to Bruce Duncan 1985-11-29</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0073.xml" type="mentions">Photograph [Stella Musulin] of Chester Kallman, John Auden, Charles Monteith, Edward Mendelson, Charles Osborne, Sonia Orwell, Stephen Spender, and Lisa Clark at W. H. Auden's Funeral 1973-10-04</note></noteGrp></person>
-               </listPerson><listEvent><event xml:id="amp_event_id_19" notBefore-iso="1973-10-04" notAfter-iso="1973-10-04" type="personal">
-                  <label>Funeral of W. H. Auden 1973-10-04</label>
-                  <listPerson>
-                     <person sameAs="amp_person_2" role="is_attendee_of">
-                        <persName>Musulin, Stella Mary Bellairs</persName>
-                     </person>
-                     <person sameAs="amp_person_156" role="is_activeparticipant_in">
-                        <persName>Duncan, Bruce</persName>
-                     </person>
-                     <person sameAs="amp_person_4" role="is_attendee_of">
-                        <persName>Kallman, Chester</persName>
-                     </person>
-                     <person sameAs="amp_person_88" role="is_attendee_of">
-                        <persName>Auden, John Bicknell</persName>
-                     </person>
-                     <person sameAs="amp_person_230" role="is_activeparticipant_in">
-                        <persName>Schickelgruber, Anton</persName>
-                     </person>
-                     <person sameAs="amp_person_107" role="is_attendee_of">
-                        <persName>K., Hugo</persName>
-                     </person>
-                     <person sameAs="amp_person_240" role="is_attendee_of">
-                        <persName>K., Christa</persName>
-                     </person>
-                     <person sameAs="amp_person_175" role="is_attendee_of">
-                        <persName>N/A_8,  "he whose name we never mention"</persName>
-                     </person>
-                     <person sameAs="amp_person_96" role="is_attendee_of">
-                        <persName>Clark, Thekla</persName>
-                     </person>
-                     <person sameAs="amp_person_169" role="is_attendee_of">
-                        <persName>Clark, Lisa</persName>
-                     </person>
-                     <person sameAs="amp_person_97" role="is_attendee_of">
-                        <persName>Seitz, Maria</persName>
-                     </person>
-                     <person sameAs="amp_person_22" role="is_attendee_of">
-                        <persName>Enzinger, Josef</persName>
-                     </person>
-                     <person sameAs="amp_person_89" role="is_attendee_of">
-                        <persName>Luke, Frederic Davey [David]</persName>
-                     </person>
-                     <person sameAs="amp_person_90" role="is_attendee_of">
-                        <persName>Orwell, Sonia</persName>
-                     </person>
-                     <person sameAs="amp_person_98" role="is_attendee_of">
-                        <persName>Mendelson, Edward</persName>
-                     </person>
-                     <person sameAs="amp_person_229" role="is_attendee_of">
-                        <persName>Yates, Michael</persName>
-                     </person>
-                     <person sameAs="amp_person_228" role="is_attendee_of">
-                        <persName>Yates, Marny (Margaret)</persName>
-                     </person>
-                     <person sameAs="amp_person_135" role="is_attendee_of">
-                        <persName>Bronold, Hella</persName>
-                     </person>
-                     <person sameAs="amp_person_137" role="is_attendee_of">
-                        <persName>Kraus, Wolfgang</persName>
-                     </person>
-                     <person sameAs="amp_person_54" role="is_attendee_of">
-                        <persName>Heer, Friedrich</persName>
-                     </person>
-                     <person sameAs="amp_person_227" role="is_attendee_of">
-                        <persName>Osborne, Charles</persName>
-                     </person>
-                     <person sameAs="amp_person_120" role="is_attendee_of">
-                        <persName>Monteith, Charles</persName>
-                     </person>
-                     <person sameAs="amp_person_121" role="is_attendee_of">
-                        <persName>Esders, Christa</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place sameAs="amp_place_id_5" type="location" subtype="is_event_location">
-                        <placeName>Kirchstetten</placeName>
-                        <location type="coords">
-                           <geo>48.18333, 15.81667</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0030.xml" type="mentions">Copy Typed Letter Stella Musulin to Bruce Duncan 1985-11-29</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0073.xml" type="mentions">Photograph [Stella Musulin] of Chester Kallman, John Auden, Charles Monteith, Edward Mendelson, Charles Osborne, Sonia Orwell, Stephen Spender, and Lisa Clark at W. H. Auden's Funeral 1973-10-04</note></noteGrp></event>
-               </listEvent></back></text>
+    </text>
 </TEI>

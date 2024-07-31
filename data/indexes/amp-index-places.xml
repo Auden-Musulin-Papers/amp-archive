@@ -1,52 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at" xml:id="amp-index-places.xml" prev="https://id.acdh.oeaw.ac.at/amp-index-persons.xml" next="https://id.acdh.oeaw.ac.at/amp-index-works.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Index of Places mentioned in Auden Musulin Papers</title>
+            <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
+            <title level="a">Index of Places</title>
             <respStmt>
-               <resp>providing the content</resp>
-               <name>Mayer, Sandra</name>
-               <name>Frühwirth, Timo</name>
-               <name>Grigoriou, Dimitra</name>
+               <resp>editing entities</resp>
+               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name xml:id="tfruehwirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </respStmt>
             <respStmt>
                <resp>converted to XML encoding</resp>
-               <name>Daniel Elsner</name>
+               <name xml:id="delsner" ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
             </respStmt>
             <funder>
-               <name>FWF Der Wissenschaftsfond.</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                     <street>Sensengasse 1</street>
-                     <postCode>1090 Wien</postCode>
-                     <placeName>
-                        <country>Österreich</country>
-                        <settlement>Wien</settlement>
-                     </placeName>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Vienna</settlement>
+                  </placeName>
                </address>
             </funder>
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
-            <pubPlace>Wien</pubPlace>
-            <date when="2022">2022</date>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2024">2024</date>
             <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0">
-                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium vervielfältigen und weiterverbreiten</p>
-                  <p>Bearbeiten — das Material remixen, verändern und darauf aufbauen und zwar für beliebige Zwecke, sogar kommerziell.</p>
-                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen solange Sie sich an die Lizenzbedingungen halten. Unter folgenden Bedingungen:</p>
-                  <p>Namensnennung — Sie müssen angemessene Urheber- und Rechteangaben machen, einen Link zur Lizenz beifügen und angeben, ob Änderungen vorgenommen wurden.
-                     Diese Angaben dürfen in jeder angemessenen Art und Weise gemacht werden, allerdings nicht so, dass der Eindruck entsteht, der Lizenzgeber unterstütze
-                     gerade Sie oder Ihre Nutzung besonders.</p>
-                  <p>Keine weiteren Einschränkungen — Sie dürfen keine zusätzlichen Klauseln oder technische Verfahren einsetzen,
-                     die anderen rechtlich irgendetwas untersagen, was die Lizenz erlaubt.</p>
-                  <p>Hinweise:</p>
-                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich solcher Teile des Materials, die gemeinfrei sind, oder soweit Ihre Nutzungshandlungen durch Ausnahmen und
-                     Schranken des Urheberrechts gedeckt sind.</p>
-                  <p>Es werden keine Garantien gegeben und auch keine Gewähr geleistet.
-                     Die Lizenz verschafft Ihnen möglicherweise nicht alle Erlaubnisse,
-                     die Sie für die jeweilige Nutzung brauchen.
-                     Es können beispielsweise andere Rechte wie Persönlichkeits- undDatenschutzrechte zu beachten sein, die Ihre Nutzung des Materials entsprechend beschränken.</p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
+                  <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
+for any purpose, even commercially.</p>
+                  <p>The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms:</p>
+                  <p>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p>
+                  <p>Notices:</p>
+                  <p>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</p>
                </licence>
+               <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -73,7 +66,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2761369/</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1741</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4066009-6</idno>
-               <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note><note target="amp-transcript__0003.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0007.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-06</note><note target="amp-transcript__0008.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-12</note><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0012.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</note><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note><note target="amp-transcript__0014.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</note><note target="amp-transcript__0015.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0021.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1961-10-13</note><note target="amp-transcript__0022.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-08-16</note><note target="amp-transcript__0024.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-09-11</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0034.xml" type="mentions">Typed Letter Signed Michael O'Sullivan to Stella Musulin 1984-05-31</note><note target="amp-transcript__0035.xml" type="mentions">Telegram W. H. Auden to Stella Musulin 1971-05-13</note><note target="amp-transcript__0040.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-06-10</note><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note><note target="amp-transcript__0042.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescripts W. H. Auden "August 1968" and "Elegy" 1968-10-04</note><note target="amp-transcript__0049.xml" type="mentions">Invitation Card Österreichische Gesellschaft für Literatur Poetry Reading W. H. Auden 1973-01-01--1973-09-28</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0060.xml" type="mentions">Copy Typed Letter Wolfgang Kraus to Stella Musulin 1977-03-22</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_2">
                   <settlement type="S">
                      <placeName>Hinterholz 6</placeName>
@@ -88,7 +81,7 @@
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12503995/</idno>
                   <note>also known as Audenstraße</note>
-               <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note><note target="amp-transcript__0003.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29</note><note target="amp-transcript__0007.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-06</note><note target="amp-transcript__0008.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-12</note><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0014.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</note><note target="amp-transcript__0015.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10</note><note target="amp-transcript__0016.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-09-18</note><note target="amp-transcript__0017.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1971-06-04</note><note target="amp-transcript__0020.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1973-09-24</note><note target="amp-transcript__0021.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1961-10-13</note><note target="amp-transcript__0022.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-08-16</note><note target="amp-transcript__0023.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-07-23</note><note target="amp-transcript__0024.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-09-11</note><note target="amp-transcript__0025.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-10-17</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note><note target="amp-transcript__0040.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-06-10</note><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note><note target="amp-transcript__0042.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescripts W. H. Auden "August 1968" and "Elegy" 1968-10-04</note><note target="amp-transcript__0045.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1960-07-21</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0057.xml" type="mentions">Envelope W. H. Auden to Stella Musulin 1961-04-25--1961-10-25</note><note target="amp-transcript__0058.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-10-01--1965-08-15</note><note target="amp-transcript__0059.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-04-30</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0070.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1959-10-10</note><note target="amp-transcript__0071.xml" type="mentions">Typed Letter Signed Stella Musulin to W. H. Auden 1962-04-16--1973-04-16</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_3">
                   <settlement type="P">
                      <placeName>York</placeName>
@@ -133,9 +126,9 @@
                      <geo>48.18333, 15.81667</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2774362/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q674814</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q21880285</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4801892-2</idno>
-               <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note><note target="amp-transcript__0003.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29</note><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0007.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-06</note><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0015.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10</note><note target="amp-transcript__0016.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-09-18</note><note target="amp-transcript__0017.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1971-06-04</note><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note><note target="amp-transcript__0020.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1973-09-24</note><note target="amp-transcript__0022.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-08-16</note><note target="amp-transcript__0023.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-07-23</note><note target="amp-transcript__0024.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-09-11</note><note target="amp-transcript__0025.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-10-17</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0035.xml" type="mentions">Telegram W. H. Auden to Stella Musulin 1971-05-13</note><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note><note target="amp-transcript__0040.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-06-10</note><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note><note target="amp-transcript__0042.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescripts W. H. Auden "August 1968" and "Elegy" 1968-10-04</note><note target="amp-transcript__0045.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1960-07-21</note><note target="amp-transcript__0047.xml" type="mentions">Typescript Stella Musulin Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</note><note target="amp-transcript__0052.xml" type="mentions">Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-07-26--1972-08-25</note><note target="amp-transcript__0057.xml" type="mentions">Envelope W. H. Auden to Stella Musulin 1961-04-25--1961-10-25</note><note target="amp-transcript__0059.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-04-30</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0069.xml" type="mentions">Photograph [Stella Musulin] of Friedrich Heer 1969-05-28</note><note target="amp-transcript__0070.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1959-10-10</note><note target="amp-transcript__0071.xml" type="mentions">Typed Letter Signed Stella Musulin to W. H. Auden 1962-04-16--1973-04-16</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_6">
                   <settlement type="A">
                      <placeName>Lower Austria</placeName>
@@ -151,7 +144,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2770542/</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q42497</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4075391-8</idno>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0030.xml" type="mentions">Copy Typed Letter Stella Musulin to Bruce Duncan 1985-11-29</note><note target="amp-transcript__0052.xml" type="mentions">Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-07-26--1972-08-25</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_7">
                   <settlement type="S">
                      <placeName>Schloss Fridau</placeName>
@@ -167,7 +160,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12504042/</idno>
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q1651450</idno>
                   <idno type="URI" subtype="GND">https://lobid.org/gnd/1052612687</idno>
-               <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note><note target="amp-transcript__0002.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23</note><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0008.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-12</note><note target="amp-transcript__0015.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10</note><note target="amp-transcript__0016.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-09-18</note><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note><note target="amp-transcript__0023.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-07-23</note><note target="amp-transcript__0024.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-09-11</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note><note target="amp-transcript__0045.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1960-07-21</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0057.xml" type="mentions">Envelope W. H. Auden to Stella Musulin 1961-04-25--1961-10-25</note><note target="amp-transcript__0058.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-10-01--1965-08-15</note><note target="amp-transcript__0060.xml" type="mentions">Copy Typed Letter Wolfgang Kraus to Stella Musulin 1977-03-22</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note><note target="amp-transcript__0071.xml" type="mentions">Typed Letter Signed Stella Musulin to W. H. Auden 1962-04-16--1973-04-16</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_8">
                   <settlement type="A">
                      <placeName>Ober-Grafendorf</placeName>
@@ -183,7 +176,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/7873019/</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q665490</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4540212-7</idno>
-               <noteGrp><note target="amp-transcript__0002.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23</note><note target="amp-transcript__0022.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-08-16</note><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_9">
                   <settlement type="P">
                      <placeName>St. Pölten</placeName>
@@ -198,7 +191,7 @@
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2766429/</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q21865352</idno>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_10">
                   <settlement type="A">
                      <placeName>Austria</placeName>
@@ -214,7 +207,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2782113/</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q40</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4043271-3</idno>
-               <noteGrp><note target="amp-transcript__0002.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23</note><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0016.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-09-18</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0022.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-08-16</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0034.xml" type="mentions">Typed Letter Signed Michael O'Sullivan to Stella Musulin 1984-05-31</note><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0052.xml" type="mentions">Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-07-26--1972-08-25</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0059.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-04-30</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_11">
                   <settlement type="S">
                      <placeName>Neulinggasse 26</placeName>
@@ -228,7 +221,7 @@
                      <geo>48.19947, 16.38809</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12504033/</idno>
-               <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note><note target="amp-transcript__0002.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23</note><note target="amp-transcript__0003.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0007.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-06</note><note target="amp-transcript__0008.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-12</note><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0010.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-11-06</note><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0012.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</note><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note><note target="amp-transcript__0014.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</note><note target="amp-transcript__0015.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10</note><note target="amp-transcript__0017.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1971-06-04</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0020.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1973-09-24</note><note target="amp-transcript__0021.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1961-10-13</note><note target="amp-transcript__0022.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-08-16</note><note target="amp-transcript__0024.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-09-11</note><note target="amp-transcript__0025.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-10-17</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0035.xml" type="mentions">Telegram W. H. Auden to Stella Musulin 1971-05-13</note><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0040.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-06-10</note><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note><note target="amp-transcript__0042.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescripts W. H. Auden "August 1968" and "Elegy" 1968-10-04</note><note target="amp-transcript__0057.xml" type="mentions">Envelope W. H. Auden to Stella Musulin 1961-04-25--1961-10-25</note><note target="amp-transcript__0058.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-10-01--1965-08-15</note><note target="amp-transcript__0059.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-04-30</note><note target="amp-transcript__0061.xml" type="mentions">Typed Letter Signed Stella Musulin to Wolfgang Kraus 1977-04-05</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note><note target="amp-transcript__0071.xml" type="mentions">Typed Letter Signed Stella Musulin to W. H. Auden 1962-04-16--1973-04-16</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_12">
                   <settlement type="P">
                      <placeName>Brooklyn</placeName>
@@ -260,7 +253,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/264371/</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1524</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4003366-1</idno>
-               <noteGrp><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_14">
                   <settlement type="P">
                      <placeName>Florence</placeName>
@@ -276,7 +269,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/3176959/</idno>
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q2044</idno>
                   <idno type="URI" subtype="GND">https://lobid.org/gnd/4017581-9</idno>
-               <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_15">
                   <settlement type="A">
                      <placeName>United States of America</placeName>
@@ -289,7 +282,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/6252001/</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q30</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4078704-7</idno>
-               <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note><note target="amp-transcript__0010.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-11-06</note><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note><note target="amp-transcript__0052.xml" type="mentions">Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-07-26--1972-08-25</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_16">
                   <settlement type="P">
                      <placeName>Ottakring</placeName>
@@ -321,7 +314,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2950159/</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q64</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4005728-8</idno>
-               <noteGrp><note target="amp-transcript__0002.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23</note><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_18">
                   <settlement type="P">
                      <placeName>Dahlem</placeName>
@@ -337,7 +330,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2939440/</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q700541</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4087308-0</idno>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_19">
                   <settlement type="S">
                      <placeName>Hubertusbader Straße 43</placeName>
@@ -351,7 +344,7 @@
                      <geo>52.47901, 13.27565</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12504000/</idno>
-               <noteGrp><note target="amp-transcript__0002.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23</note><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_20">
                   <settlement type="A">
                      <placeName>Federal Republic of Germany</placeName>
@@ -367,7 +360,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2921044/</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q183</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4011882-4</idno>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0052.xml" type="mentions">Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-07-26--1972-08-25</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_21">
                   <settlement type="A">
                      <placeName>East Berlin</placeName>
@@ -382,7 +375,7 @@
                   </location>
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q56037</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4087295-6</idno>
-               <noteGrp><note target="amp-transcript__0002.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_22">
                   <settlement type="A">
                      <placeName>Sankt Radegund</placeName>
@@ -398,7 +391,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/7873111/</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q669185</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4382796-2</idno>
-               <noteGrp><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note><note target="amp-transcript__0047.xml" type="mentions">Typescript Stella Musulin Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_23">
                   <settlement type="P">
                      <placeName>Brandenburg an der Havel</placeName>
@@ -428,9 +421,9 @@
                      <geo>48.13743, 11.57549</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2867714/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1726</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q32664319</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4127793-4</idno>
-               <noteGrp><note target="amp-transcript__0003.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_27">
                   <settlement type="S">
                      <placeName>Amerikahaus Vienna (1957-1971)</placeName>
@@ -445,7 +438,7 @@
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12503867/</idno>
                   <note>Amerika Haus's address in 1968</note>
-               <noteGrp><note target="amp-transcript__0003.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_28">
                   <settlement type="P">
                      <placeName>New York City</placeName>
@@ -461,7 +454,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/5128581/</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q60</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4042011-5</idno>
-               <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0010.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-11-06</note><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0012.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</note><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note><note target="amp-transcript__0044.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_29">
                   <settlement type="S">
                      <placeName>77 St. Mark's Place</placeName>
@@ -475,7 +468,7 @@
                      <geo>40.72839, -73.98359</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12503865/</idno>
-               <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0010.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-11-06</note><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0012.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</note><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0044.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_30">
                   <settlement type="L">
                      <placeName>Europe</placeName>
@@ -487,7 +480,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/6255148/</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q46</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4015701-5</idno>
-               <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_31">
                   <settlement type="P">
                      <placeName>Ravenna</placeName>
@@ -533,7 +526,7 @@
                      <geo>50.11552, 8.68417</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2925533/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q1794</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q122166308</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4018118-2</idno>
                </place>
                <place xml:id="amp_place_id_34">
@@ -549,7 +542,7 @@
                      <geo>50.9803, 11.32903</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2812482/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q3955</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q32067990</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4065105-8</idno>
                </place>
                <place xml:id="amp_place_id_35">
@@ -581,7 +574,7 @@
                      <geo>45.43713, 12.33265</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/3164603/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q641</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q33723961</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4062501-1</idno>
                </place>
                <place xml:id="amp_place_id_37">
@@ -613,7 +606,7 @@
                      <geo>48.21301, 16.36878</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12504053/</idno>
-               <noteGrp><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_39">
                   <settlement type="P">
                      <placeName>Canterbury</placeName>
@@ -660,7 +653,7 @@
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12504039/</idno>
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q7986192</idno>
-               <noteGrp><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0051.xml" type="mentions">Typed Notes [Janko Musulin] Translation W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21--1970-06-10</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_42">
                   <settlement type="S">
                      <placeName>Hotel König von Ungarn</placeName>
@@ -674,7 +667,7 @@
                      <geo>48.20898, 16.37514</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/10285452/</idno>
-               <noteGrp><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_43">
                   <settlement type="P">
                      <placeName>Rochester</placeName>
@@ -704,7 +697,7 @@
                      <geo>51.52223, -0.12799</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12504040/</idno>
-               <noteGrp><note target="amp-transcript__0007.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-06</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_45">
                   <settlement type="S">
                      <placeName>32 Bryanston Square</placeName>
@@ -718,7 +711,7 @@
                      <geo>51.51954, -0.16167</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12503862/</idno>
-               <noteGrp><note target="amp-transcript__0008.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-12</note><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0044.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_46">
                   <settlement type="P">
                      <placeName>Oxford</placeName>
@@ -734,7 +727,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2640729/</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q34217</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4044234-2</idno>
-               <noteGrp><note target="amp-transcript__0008.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-12</note><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_47">
                   <settlement type="P">
                      <placeName>Neulengbach</placeName>
@@ -748,9 +741,9 @@
                      <geo>48.19745, 15.90219</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2770730/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q700307</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q32136998</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4041812-1</idno>
-               <noteGrp><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_48">
                   <settlement type="S">
                      <placeName>Karl-Schweighofer-Gasse 4</placeName>
@@ -764,7 +757,7 @@
                      <geo>48.20182, 16.35831</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12504003/</idno>
-               <noteGrp><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0012.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</note><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_49">
                   <settlement type="S">
                      <placeName>Paradisgasse 55</placeName>
@@ -778,7 +771,7 @@
                      <geo>48.24868, 16.34295</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12504038/</idno>
-               <noteGrp><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_50">
                   <settlement type="P">
                      <placeName>Palestrina</placeName>
@@ -792,7 +785,7 @@
                      <geo>41.83274, 12.88178</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/3171606/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q243133</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q30028551</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4224216-2</idno>
                </place>
                <place xml:id="amp_place_id_51">
@@ -840,7 +833,7 @@
                      <geo>36.72016, -4.42034</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2514256/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q8851</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q116450968</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4100040-7</idno>
                </place>
                <place xml:id="amp_place_id_54">
@@ -890,7 +883,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2643743/</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q84</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4074335-4</idno>
-               <noteGrp><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_57">
                   <settlement type="P">
                      <placeName>Caprese Michelangelo</placeName>
@@ -904,7 +897,7 @@
                      <geo>43.64031, 11.98546</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/3180632/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q52069</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q30023682</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4789884-7</idno>
                </place>
                <place xml:id="amp_place_id_58">
@@ -920,7 +913,7 @@
                      <geo>50.73438, 7.09549</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2946447/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q586</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q31917795</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4007666-0</idno>
                </place>
                <place xml:id="amp_place_id_59">
@@ -986,7 +979,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2773549/</idno>
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q131266</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4033043-6</idno>
-               <noteGrp><note target="amp-transcript__0015.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10</note><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_63">
                   <settlement type="P">
                      <placeName>Ried im Zillertal</placeName>
@@ -1016,7 +1009,7 @@
                      <geo>48.20969, 14.29004</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2782480/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q257130</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q21880189</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4217817-4</idno>
                </place>
                <place xml:id="amp_place_id_65">
@@ -1050,7 +1043,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2772400/</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q41329</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4074255-6</idno>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_67">
                   <settlement type="A">
                      <placeName>Pottenstein</placeName>
@@ -1080,8 +1073,8 @@
                      <geo>47.06667, 15.45</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2778067/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q13298</idno>
-                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/4021912-4</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q250880</idno>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/4469674-7</idno>
                </place>
                <place xml:id="amp_place_id_69">
                   <settlement type="S">
@@ -1096,7 +1089,7 @@
                      <geo>51.53593, -0.17895</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12504031/</idno>
-               <noteGrp><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0026.xml" type="mentions">Autograph Notes W. H. Auden Stella Musulin 1959-06-01--1973-09-28</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_70">
                   <settlement type="P">
                      <placeName>Livadaki</placeName>
@@ -1117,16 +1110,20 @@
                   <location type="located_in_place">
                      <placeName key="amp_place_id_156">Landstraße</placeName>
                   </location>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_72">
-                  <placeName>Lake of Constance</placeName>
+                  <settlement type="H">
+                     <placeName>Lake of Constance</placeName>
+                  </settlement>
+                  <desc type="entity_type">stream, lake, ...</desc>
+                  <country>CH, Switzerland</country>
                   <location type="coords">
                      <geo>47.58333, 9.46667</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2659347/</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q4127</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4007403-1</idno>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_74">
                   <placeName>Zell am See</placeName>
                   <location type="located_in_place">
@@ -1136,9 +1133,9 @@
                      <geo>47.32306, 12.79839</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2760634/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q187572</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q32242841</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4067531-2</idno>
-               <noteGrp><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_75">
                   <settlement type="S">
                      <placeName>Prielau (Schloss Prielau)</placeName>
@@ -1153,9 +1150,13 @@
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2768323/</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q2242987</idno>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_79">
-                  <placeName>Böheimkirchen</placeName>
+                  <settlement type="P">
+                     <placeName>Böheimkirchen</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>AT, Austria</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_6">Lower Austria</placeName>
                   </location>
@@ -1163,9 +1164,9 @@
                      <geo>48.19779, 15.76178</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2781612/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q682753</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q21879612</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4577998-3</idno>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_80">
                   <settlement type="S">
                      <placeName>Café Central</placeName>
@@ -1181,7 +1182,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12503870/</idno>
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q694757</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/7533154-8</idno>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_81">
                   <settlement type="S">
                      <placeName>Café Herrenhof</placeName>
@@ -1193,7 +1194,7 @@
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12514727/</idno>
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q262857</idno>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_82">
                   <settlement type="S">
                      <placeName>Schloss Schönbrunn</placeName>
@@ -1209,7 +1210,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/6354998/</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q131330</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4117646-7</idno>
-               <noteGrp><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_83">
                   <settlement type="A">
                      <placeName>France</placeName>
@@ -1225,7 +1226,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/3017382/</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q142</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4018145-5</idno>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_84">
                   <settlement type="P">
                      <placeName>Paris</placeName>
@@ -1241,7 +1242,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2988507/</idno>
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q90</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4044660-8</idno>
-               <noteGrp><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_85">
                   <settlement type="S">
                      <placeName>Palais Pálffy</placeName>
@@ -1257,7 +1258,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12504036/</idno>
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q873895</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/1051283507</idno>
-               <noteGrp><note target="amp-transcript__0049.xml" type="mentions">Invitation Card Österreichische Gesellschaft für Literatur Poetry Reading W. H. Auden 1973-01-01--1973-09-28</note><note target="amp-transcript__0060.xml" type="mentions">Copy Typed Letter Wolfgang Kraus to Stella Musulin 1977-03-22</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_86">
                   <settlement type="P">
                      <placeName>Budapest</placeName>
@@ -1273,7 +1274,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/3054643/</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1781</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4008684-7</idno>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_87">
                   <settlement type="S">
                      <placeName>Westminster Abbey</placeName>
@@ -1289,7 +1290,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/6618996/</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q5933</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4206437-5</idno>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_89">
                   <settlement type="S">
                      <placeName>Hofburg</placeName>
@@ -1306,7 +1307,7 @@
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q46242</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4244475-5</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_91">
                   <settlement type="A">
                      <placeName>Russia</placeName>
@@ -1320,7 +1321,7 @@
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q159</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4076899-5</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_92">
                   <settlement type="S">
                      <placeName>Café de l'Opera (Operncafé/Opern-Café)</placeName>
@@ -1336,7 +1337,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12504035/</idno>
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q124625367</idno>
                   <note>Telephone book "Herold" indicates that the address is "Operngasse 8"</note>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_93">
                   <settlement type="A">
                      <placeName>United Kingdom</placeName>
@@ -1353,7 +1354,7 @@
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q145</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4022153-2</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0052.xml" type="mentions">Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-07-26--1972-08-25</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_94">
                   <settlement type="H">
                      <placeName>Pielach (stream)</placeName>
@@ -1370,7 +1371,7 @@
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q782708</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4046036-8</idno>
                   <note>48.06853036632306, 15.46661873099261</note>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_95">
                   <settlement type="S">
                      <placeName>Neuer Markt</placeName>
@@ -1387,7 +1388,7 @@
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1493443</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4808806-7</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_96">
                   <settlement type="L">
                      <placeName>Jutland</placeName>
@@ -1404,7 +1405,7 @@
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q25389</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4028858-4</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_97">
                   <settlement type="A">
                      <placeName>Switzerland</placeName>
@@ -1421,7 +1422,7 @@
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q39</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4053881-3</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_98">
                   <settlement type="A">
                      <placeName>India</placeName>
@@ -1435,7 +1436,7 @@
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q668</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4026722-2</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_100">
                   <settlement type="A">
                      <placeName>Czechoslovakia</placeName>
@@ -1451,7 +1452,7 @@
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q33946</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4078435-6</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_103">
                   <settlement type="A">
                      <placeName>Arcadia</placeName>
@@ -1472,7 +1473,7 @@
                      <placeName key="amp_place_id_239">England</placeName>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2651831/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q1833112</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1833112</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4212804-3</idno>
                   <note/>
                </place>
@@ -1523,12 +1524,19 @@
                      <geo>51.83864, 12.24555</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2937959/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q3828</idno>
-                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/7576656-5</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q487070</idno>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/4011536-7</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_110">
-                  <placeName>Bloemfontein</placeName>
+                  <settlement type="P">
+                     <placeName>Bloemfontein</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>AT, Austria</country>
+                  <location type="coords">
+                     <geo>48.19779, 15.76178</geo>
+                  </location>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q37701</idno>
                   <note/>
                </place>
@@ -1562,7 +1570,7 @@
                      <geo>50.88365, 5.98154</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2754652/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q9799</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q33444227</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4240795-3</idno>
                   <note/>
                </place>
@@ -1579,7 +1587,7 @@
                      <geo>47.91839, 13.79933</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2778436/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q430449</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q21880218</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4021376-6</idno>
                   <note/>
                </place>
@@ -1647,7 +1655,7 @@
                      <geo>46.29192, 7.53559</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2658606/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q68297</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q22623308</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_119">
@@ -1677,7 +1685,7 @@
                      <geo>46.49582, 26.86916</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/668048/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q2621188</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q12152192</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/2050835-9</idno>
                   <note/>
                </place>
@@ -1711,7 +1719,7 @@
                      <geo>46.20222, 6.14569</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2660646/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q71</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q30343751</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4020137-5</idno>
                   <note/>
                </place>
@@ -1762,7 +1770,7 @@
                      <geo>47.71667, 11.71667</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2953318/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q502921</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q31898227</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4108838-4</idno>
                   <note/>
                </place>
@@ -1782,17 +1790,21 @@
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1055</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4023118-5</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_127">
-                  <placeName>Hailey</placeName>
+                  <settlement type="P">
+                     <placeName>Hailey</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>US, United States</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_15">United States of America</placeName>
                   </location>
                   <location type="coords">
-                     <geo>43.4268, -114.21882</geo>
+                     <geo>43.51963, -114.31532</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/5594956/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q1517614</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1517614</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_128">
@@ -1923,7 +1935,7 @@
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q656</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4267026-3</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_136">
                   <settlement type="P">
                      <placeName>Potsdam</placeName>
@@ -1974,7 +1986,7 @@
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q649</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4074987-3</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_139">
                   <settlement type="P">
                      <placeName>Gütersloh</placeName>
@@ -1988,7 +2000,7 @@
                      <geo>51.90693, 8.37853</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2913366/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q32518681</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q11042201</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4132018-9</idno>
                   <note/>
                </place>
@@ -2073,7 +2085,7 @@
                      <geo>48.2, 15.2</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2768627/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q255350</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q21880322</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4115820-9</idno>
                   <note/>
                </place>
@@ -2222,7 +2234,7 @@
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q100</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4007840-1</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_156">
                   <settlement type="A">
                      <placeName>Landstraße</placeName>
@@ -2239,7 +2251,7 @@
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q519552</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4196533-4</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_158">
                   <settlement type="P">
                      <placeName>Prater</placeName>
@@ -2256,7 +2268,7 @@
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q264752</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4108812-8</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_159">
                   <settlement type="A">
                      <placeName>Italy</placeName>
@@ -2273,7 +2285,7 @@
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q38</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4027833-5</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0052.xml" type="mentions">Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-07-26--1972-08-25</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_160">
                   <settlement type="S">
                      <placeName>Embassy of the United Kingdom in Austria</placeName>
@@ -2434,7 +2446,7 @@
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12504050/</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0030.xml" type="mentions">Copy Typed Letter Stella Musulin to Bruce Duncan 1985-11-29</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_171">
                   <settlement type="S">
                      <placeName>39 Claremont Avenue, apt 32</placeName>
@@ -2449,7 +2461,7 @@
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12503863/</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_172">
                   <settlement type="S">
                      <placeName>Schlösselgasse 8</placeName>
@@ -2464,7 +2476,7 @@
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12504043/</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_173">
                   <settlement type="S">
                      <placeName>22 Kildare Street</placeName>
@@ -2479,7 +2491,7 @@
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12504004/</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0034.xml" type="mentions">Typed Letter Signed Michael O'Sullivan to Stella Musulin 1984-05-31</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_174">
                   <settlement type="S">
                      <placeName>Lackierergasse 5</placeName>
@@ -2511,7 +2523,7 @@
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q251246</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/7598731-4</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_176">
                   <settlement type="P">
                      <placeName>Riga</placeName>
@@ -2528,7 +2540,7 @@
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1773</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4050042-1</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_177">
                   <settlement type="S">
                      <placeName>Palais Wilczek</placeName>
@@ -2545,7 +2557,7 @@
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q2046912</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/1068332212</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0061.xml" type="mentions">Typed Letter Signed Stella Musulin to Wolfgang Kraus 1977-04-05</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_178">
                   <settlement type="P">
                      <placeName>Lisburn</placeName>
@@ -2576,7 +2588,7 @@
                      <geo>54.19782, -10.01265</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2966911/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q639614</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q639614</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_181">
@@ -2704,7 +2716,7 @@
                      <geo>48.25628, 13.04343</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2781520/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q131128</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q21880244</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4008037-7</idno>
                   <note/>
                </place>
@@ -2821,7 +2833,7 @@
                      <geo>46.8289, 12.76903</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2772505/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q336250</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q21881853</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4035690-5</idno>
                   <note/>
                </place>
@@ -3089,7 +3101,7 @@
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12503861/</idno>
                   <note>home of Stella Musulin's mother</note>
-               <noteGrp><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_217">
                   <settlement type="S">
                      <placeName>Alser Straße 48</placeName>
@@ -3106,7 +3118,7 @@
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q2651453</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/1068799889</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0050.xml" type="mentions">Photograph Otto Breicha of W. H. Auden and Mary McCarthy 1967-04-24--1967-04-26</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_219">
                   <settlement type="P">
                      <placeName>Liverpool</placeName>
@@ -3155,7 +3167,7 @@
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12503864/</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_222">
                   <settlement type="P">
                      <placeName>New Haven</placeName>
@@ -3187,7 +3199,7 @@
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12504001/</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0026.xml" type="mentions">Autograph Notes W. H. Auden Stella Musulin 1959-06-01--1973-09-28</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_225">
                   <settlement type="S">
                      <placeName>Hotel Altenburgerhof</placeName>
@@ -3202,7 +3214,7 @@
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12503998/</idno>
                   <note>https://www.geschichtewiki.wien.gv.at/Altenburger_Hof</note>
-               <noteGrp><note target="amp-transcript__0020.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1973-09-24</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_227">
                   <settlement type="P">
                      <placeName>Jericho</placeName>
@@ -3214,6 +3226,7 @@
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/284899/</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q5687</idno>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/4028579-0</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_228">
@@ -3249,7 +3262,7 @@
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q382500</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4214692-6</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_234">
                   <settlement type="P">
                      <placeName>Kensington</placeName>
@@ -3283,7 +3296,7 @@
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q699947</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4363985-9</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_236">
                   <settlement type="A">
                      <placeName>Vietnam</placeName>
@@ -3348,7 +3361,7 @@
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q21</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4014770-8</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0007.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-06</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_240">
                   <settlement type="P">
                      <placeName>Koblenz</placeName>
@@ -3433,18 +3446,22 @@
                   <note/>
                </place>
                <place xml:id="amp_place_id_245">
-                  <placeName>Innsbruck</placeName>
+                  <settlement type="P">
+                     <placeName>Innsbruck</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>AT, Austria</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_10">Austria</placeName>
                   </location>
                   <location type="coords">
-                     <geo>47.28873, 11.38158</geo>
+                     <geo>47.26266, 11.39454</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2775220/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1735</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q32060456</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4027096-8</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_246">
                   <settlement type="P">
                      <placeName>Tarsus</placeName>
@@ -3475,7 +3492,7 @@
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1043326</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4440776-2</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_248">
                   <settlement type="S">
                      <placeName>39 Claremont Avenue, apt 31</placeName>
@@ -3490,7 +3507,7 @@
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12503863/</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_249">
                   <settlement type="A">
                      <placeName>Ireland</placeName>
@@ -3504,7 +3521,7 @@
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q27</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4027667-3</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0034.xml" type="mentions">Typed Letter Signed Michael O'Sullivan to Stella Musulin 1984-05-31</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_250">
                   <settlement type="P">
                      <placeName>Rheydt</placeName>
@@ -3538,7 +3555,7 @@
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q2071869</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4802137-4</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note><note target="amp-transcript__0046.xml" type="mentions">Autograph Notes Stella Musulin on Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</note><note target="amp-transcript__0047.xml" type="mentions">Typescript Stella Musulin Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_252">
                   <settlement type="H">
                      <placeName>Sichelbach (stream)</placeName>
@@ -3553,7 +3570,7 @@
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12514480/</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note><note target="amp-transcript__0047.xml" type="mentions">Typescript Stella Musulin Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_253">
                   <settlement type="S">
                      <placeName>Leystraße 23</placeName>
@@ -3569,7 +3586,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12514713/</idno>
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q106194037</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0048.xml" type="mentions">Portrait Photograph Rudolf Blaha of Stella Musulin 1968-01-01--1996-01-21</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_254">
                   <settlement type="A">
                      <placeName>Loretto</placeName>
@@ -3586,7 +3603,7 @@
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q201148</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4437428-8</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0054.xml" type="mentions">Photographs [Stella Musulin] of W. H. Auden, Chester Kallman, and Elsa Musulin 1960-07-21--1960-11-02</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_256">
                   <settlement type="H">
                      <placeName>Lake Zell</placeName>
@@ -3603,29 +3620,44 @@
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q187763</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4389973-0</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_257">
-                  <placeName>Austria-Hungary</placeName>
+                  <settlement type="P">
+                     <placeName>Austria-Hungary</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>AT, Austria</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_30">Europe</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>47.26266, 11.39454</geo>
                   </location>
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q28513</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4075613-0</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_258">
-                  <placeName>Haus Fallegg</placeName>
+                  <settlement type="S">
+                     <placeName>Haus Fallegg</placeName>
+                  </settlement>
+                  <desc type="entity_type">spot, building, farm</desc>
+                  <country>AT, Austria</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_74">Zell am See</placeName>
                   </location>
                   <location type="coords">
-                     <geo>47.31667, 12.8</geo>
+                     <geo>47.3285, 12.76946</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12719931/</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_259">
-                  <placeName>St. Mark's Place</placeName>
+                  <settlement type="R">
+                     <placeName>St. Mark's Place</placeName>
+                  </settlement>
+                  <desc type="entity_type">road, railroad</desc>
+                  <country>US, United States</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_247">East Village</placeName>
                   </location>
@@ -3635,7 +3667,7 @@
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/11819921/</idno>
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q2142493</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_260">
                   <settlement type="R">
                      <placeName>Eastern Bloc</placeName>
@@ -3648,7 +3680,7 @@
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q170541</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4075730-4</idno>
                   <note>https://www.britannica.com/topic/Eastern-bloc</note>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_261">
                   <settlement type="S">
                      <placeName>Hauptpostamt</placeName>
@@ -3695,14 +3727,18 @@
                      <geo>47.49209, 11.09576</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2922530/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q127043</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q32025801</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4019275-1</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_264">
-                  <placeName>Edom</placeName>
+                  <settlement type="R">
+                     <placeName>Edom</placeName>
+                  </settlement>
+                  <desc type="entity_type">road, railroad</desc>
+                  <country>US, United States</country>
                   <location type="coords">
-                     <geo>47.49209, 11.09576</geo>
+                     <geo>40.7281, -73.98648</geo>
                   </location>
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q208475</idno>
                   <note/>
@@ -3772,7 +3808,7 @@
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/710719/</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q157725</idno>
-                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/5351553-5</idno>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/2045762-5</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_269">
@@ -3873,7 +3909,7 @@
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/1275339/</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1156</idno>
-                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/10013721-0</idno>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/4007629-5</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_275">
@@ -3961,12 +3997,16 @@
                   <note/>
                </place>
                <place xml:id="amp_place_id_280">
-                  <placeName>Theobalds House</placeName>
+                  <settlement type="R">
+                     <placeName>Theobalds House</placeName>
+                  </settlement>
+                  <desc type="entity_type">road, railroad</desc>
+                  <country>US, United States</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_239">England</placeName>
                   </location>
                   <location type="coords">
-                     <geo>51.6885, -0.0564</geo>
+                     <geo>40.7281, -73.98648</geo>
                   </location>
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q512922</idno>
                   <note/>
@@ -4014,7 +4054,7 @@
                      <geo>48.88353, 12.57966</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2826099/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q7027</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q49278248</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4057970-0</idno>
                   <note/>
                </place>
@@ -4144,7 +4184,7 @@
                      <geo>54.30663, 9.66313</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2848245/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q490457</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q32253367</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4049461-5</idno>
                   <note/>
                </place>
@@ -4178,7 +4218,7 @@
                      <geo>50.436, 7.373</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2956206/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q490058</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q31880667</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4001919-6</idno>
                   <note/>
                </place>
@@ -4192,7 +4232,7 @@
                      <geo>53.32525, 8.465</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2945545/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q501639</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q31919904</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4007933-8</idno>
                   <note/>
                </place>
@@ -4284,9 +4324,9 @@
                      <placeName key="amp_place_id_1">Vienna</placeName>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12746601/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q124625333</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q124625333</idno>
                   <note>Telephone book "Herold" 1960, p. 555, Neubaug. 81</note>
-               <noteGrp><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_302">
                   <settlement type="P">
                      <placeName>Brisbane</placeName>
@@ -4315,7 +4355,7 @@
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12547477/</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0070.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1959-10-10</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_304">
                   <settlement type="P">
                      <placeName>Ho Chi Minh City - Saigon</placeName>
@@ -4446,7 +4486,7 @@
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q304184</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4804912-8</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_312">
                   <settlement type="P">
                      <placeName>Grunewald</placeName>
@@ -4484,37 +4524,59 @@
                <place xml:id="amp_place_id_314">
                   <placeName>"the wrong Kirchstetten" (amp-transcript__0070.xml)</placeName>
                   <note/>
-               <noteGrp><note target="amp-transcript__0070.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1959-10-10</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_315">
                   <placeName>"your place" (amp-transcript__0058.xml)</placeName>
                   <note/>
-               <noteGrp><note target="amp-transcript__0058.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-10-01--1965-08-15</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_316">
-                  <placeName>Reinprechtspölla</placeName>
+                  <settlement type="P">
+                     <placeName>Reinprechtspölla</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>AT, Austria</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_6">Lower Austria</placeName>
                   </location>
+                  <location type="coords">
+                     <geo>48.61327, 15.76155</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2767699/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q63441039</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q63441039</idno>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/4809872-3</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_317">
-                  <placeName>Accrington</placeName>
+                  <settlement type="P">
+                     <placeName>Accrington</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>GB, United Kingdom</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_93">United Kingdom</placeName>
                   </location>
+                  <location type="coords">
+                     <geo>53.75379, -2.35863</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2657770/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q1622949</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1622949</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4805727-7</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_318">
-                  <placeName>Mere, Wiltshire</placeName>
+                  <settlement type="P">
+                     <placeName>Mere, Wiltshire</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>GB, United Kingdom</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_93">United Kingdom</placeName>
                   </location>
+                  <location type="coords">
+                     <geo>51.08889, -2.26694</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2642730/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q1221042</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1221042</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_319">
@@ -4527,66 +4589,115 @@
                      <placeName key="amp_place_id_15">United States of America</placeName>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/5110269/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q928168</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q928168</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4341646-9</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_320">
-                  <placeName>"Wandl"</placeName>
+                  <settlement type="P">
+                     <placeName>"Wandl"</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>GB, United Kingdom</country>
+                  <location type="coords">
+                     <geo>51.08889, -2.26694</geo>
+                  </location>
                   <note/>
-               <noteGrp><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_321">
-                  <placeName>Hotel Wandl</placeName>
+                  <settlement type="S">
+                     <placeName>Hotel Wandl</placeName>
+                  </settlement>
+                  <desc type="entity_type">spot, building, farm</desc>
+                  <country>AT, Austria</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_1">Vienna</placeName>
                   </location>
+                  <location type="coords">
+                     <geo>48.2097, 16.3702</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/6526692/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q38027210</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q38027210</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_322">
-                  <placeName>Hellmonsödt</placeName>
+                  <settlement type="P">
+                     <placeName>Hellmonsödt</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>AT, Austria</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_10">Austria</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>48.43333, 14.3</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2776531/</idno>
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q693541</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/7663273-8</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_323">
-                  <placeName>Merthyr Tydfil</placeName>
+                  <settlement type="P">
+                     <placeName>Merthyr Tydfil</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>GB, United Kingdom</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_93">United Kingdom</placeName>
                   </location>
+                  <location type="coords">
+                     <geo>51.74794, -3.37779</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2642705/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q752762</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q752762</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4398958-5</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_324">
-                  <placeName>Clevedon</placeName>
+                  <settlement type="P">
+                     <placeName>Clevedon</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>GB, United Kingdom</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_239">England</placeName>
                   </location>
+                  <location type="coords">
+                     <geo>51.44227, -2.85786</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2652861/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q670079</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q670079</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/1163291692</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_325">
-                  <placeName>Wroxham</placeName>
+                  <settlement type="P">
+                     <placeName>Wroxham</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>GB, United Kingdom</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_239">England</placeName>
                   </location>
+                  <location type="coords">
+                     <geo>52.70445, 1.40582</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2633472/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q478666</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q478666</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_326">
-                  <placeName>Strelzhof</placeName>
+                  <settlement type="P">
+                     <placeName>Strelzhof</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>AT, Austria</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_6">Lower Austria</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>47.7977, 16.07351</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2764141/</idno>
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q95110631</idno>
@@ -4594,71 +4705,141 @@
                   <note/>
                </place>
                <place xml:id="amp_place_id_327">
-                  <placeName>Repton</placeName>
+                  <settlement type="P">
+                     <placeName>Repton</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>GB, United Kingdom</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_239">England</placeName>
                   </location>
+                  <location type="coords">
+                     <geo>52.83983, -1.55061</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2639489/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q1018787</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1018787</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4116967-0</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_328">
-                  <placeName>"draussen" (amp-transcript__0053.xml)</placeName>
+                  <settlement type="P">
+                     <placeName>"draussen" (amp-transcript__0053.xml)</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>GB, United Kingdom</country>
+                  <location type="coords">
+                     <geo>52.83983, -1.55061</geo>
+                  </location>
                   <note/>
-               <noteGrp><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_329">
-                  <placeName>Kingston, New York</placeName>
+                  <settlement type="P">
+                     <placeName>Kingston, New York</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>US, United States</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_15">United States of America</placeName>
                   </location>
+                  <location type="coords">
+                     <geo>41.92704, -73.99736</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/5123477/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q868660</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q868660</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/301736-9</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_330">
-                  <placeName>Gulf Stream, Florida</placeName>
+                  <settlement type="P">
+                     <placeName>Gulf Stream, Florida</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>US, United States</country>
+                  <location type="coords">
+                     <geo>26.49368, -80.05504</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/4157680/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q1866968</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1866968</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_331">
-                  <placeName>Poets' Corner</placeName>
+                  <settlement type="S">
+                     <placeName>Poets' Corner</placeName>
+                  </settlement>
+                  <desc type="entity_type">spot, building, farm</desc>
+                  <country>GB, United Kingdom</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_87">Westminster Abbey</placeName>
                   </location>
+                  <location type="coords">
+                     <geo>51.49946, -0.12739</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12746554/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q1275898</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1275898</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_332">
-                  <placeName>Pfarrkirche Kirchstetten (Kirchstetten parish church)</placeName>
+                  <settlement type="S">
+                     <placeName>Pfarrkirche Kirchstetten (Kirchstetten parish church)</placeName>
+                  </settlement>
+                  <desc type="entity_type">spot, building, farm</desc>
+                  <country>GB, United Kingdom</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_5">Kirchstetten</placeName>
                   </location>
+                  <location type="coords">
+                     <geo>51.49946, -0.12739</geo>
+                  </location>
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q38085012</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0030.xml" type="mentions">Copy Typed Letter Stella Musulin to Bruce Duncan 1985-11-29</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_333">
-                  <placeName>Reichenau</placeName>
+                  <settlement type="S">
+                     <placeName>Reichenau</placeName>
+                  </settlement>
+                  <desc type="entity_type">spot, building, farm</desc>
+                  <country>GB, United Kingdom</country>
+                  <location type="coords">
+                     <geo>51.49946, -0.12739</geo>
+                  </location>
                   <note/>
                </place>
                <place xml:id="amp_place_id_334">
-                  <placeName>Hofstetten</placeName>
+                  <settlement type="S">
+                     <placeName>Hofstetten</placeName>
+                  </settlement>
+                  <desc type="entity_type">spot, building, farm</desc>
+                  <country>GB, United Kingdom</country>
+                  <location type="coords">
+                     <geo>51.49946, -0.12739</geo>
+                  </location>
                   <note/>
                </place>
                <place xml:id="amp_place_id_335">
-                  <placeName>Höbersdorf</placeName>
+                  <settlement type="P">
+                     <placeName>Höbersdorf</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>AT, Austria</country>
+                  <location type="coords">
+                     <geo>48.43333, 16.16667</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2776148/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q1643181</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1643181</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4801153-8</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_336">
-                  <placeName>Ollersbach</placeName>
+                  <settlement type="P">
+                     <placeName>Ollersbach</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>AT, Austria</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_6">Lower Austria</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>48.18669, 15.844</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2769439/</idno>
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q47468305</idno>
@@ -4666,28 +4847,49 @@
                   <note/>
                </place>
                <place xml:id="amp_place_id_337">
-                  <placeName>Frieth</placeName>
+                  <settlement type="P">
+                     <placeName>Frieth</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>GB, United Kingdom</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_239">England</placeName>
                   </location>
+                  <location type="coords">
+                     <geo>51.6052, -0.85191</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/9538955/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q5504468</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q5504468</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_338">
-                  <placeName>Brunn am Gebirge</placeName>
+                  <settlement type="P">
+                     <placeName>Brunn am Gebirge</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>AT, Austria</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_6">Lower Austria</placeName>
                   </location>
+                  <location type="coords">
+                     <geo>48.10697, 16.28466</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2781321/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q871405</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q21879632</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4420575-2</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_339">
-                  <placeName>Klagenfurt am Wörthersee</placeName>
+                  <settlement type="P">
+                     <placeName>Klagenfurt am Wörthersee</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>AT, Austria</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_10">Austria</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>46.62472, 14.30528</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2774326/</idno>
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q41753</idno>
@@ -4695,140 +4897,245 @@
                   <note/>
                </place>
                <place xml:id="amp_place_id_340">
-                  <placeName>County Cork</placeName>
+                  <settlement type="A">
+                     <placeName>County Cork</placeName>
+                  </settlement>
+                  <desc type="entity_type">country, state, region,...</desc>
+                  <country>IE, Ireland</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_249">Ireland</placeName>
                   </location>
+                  <location type="coords">
+                     <geo>51.96667, -8.58333</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2965139/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q162475</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q162475</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4085331-7</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_341">
-                  <placeName>Cleveland</placeName>
+                  <settlement type="P">
+                     <placeName>Cleveland</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>US, United States</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_15">United States of America</placeName>
                   </location>
+                  <location type="coords">
+                     <geo>41.4995, -81.69541</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/5150529/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q37320</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q37320</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4010292-0</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_342">
-                  <placeName>Land Salzburg</placeName>
+                  <settlement type="A">
+                     <placeName>Land Salzburg</placeName>
+                  </settlement>
+                  <desc type="entity_type">country, state, region,...</desc>
+                  <country>AT, Austria</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_10">Austria</placeName>
                   </location>
+                  <location type="coords">
+                     <geo>47.41667, 13.25</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2766823/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q43325</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q43325</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4051423-7</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_343">
-                  <placeName>Stoke Mandeville</placeName>
+                  <settlement type="P">
+                     <placeName>Stoke Mandeville</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>GB, United Kingdom</country>
+                  <location type="coords">
+                     <geo>51.78606, -0.79157</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2636845/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q1027124</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1027124</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_344">
-                  <placeName>Stockholm</placeName>
+                  <settlement type="P">
+                     <placeName>Stockholm</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>SE, Sweden</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_30">Europe</placeName>
                   </location>
+                  <location type="coords">
+                     <geo>59.32938, 18.06871</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2673730/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q1754</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1754</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4057648-6</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_345">
-                  <placeName>Boden</placeName>
+                  <settlement type="P">
+                     <placeName>Boden</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>SE, Sweden</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_30">Europe</placeName>
                   </location>
+                  <location type="coords">
+                     <geo>65.82518, 21.68864</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/606531/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q586179</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q586179</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4306001-8</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_346">
-                  <placeName>Galway</placeName>
+                  <settlement type="P">
+                     <placeName>Galway</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>IE, Ireland</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_249">Ireland</placeName>
                   </location>
+                  <location type="coords">
+                     <geo>53.27245, -9.05095</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2964180/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q129610</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q129610</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4086664-6</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_347">
-                  <placeName>Wolfsberg</placeName>
+                  <settlement type="A">
+                     <placeName>Wolfsberg</placeName>
+                  </settlement>
+                  <desc type="entity_type">country, state, region,...</desc>
+                  <country>AT, Austria</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_10">Austria</placeName>
                   </location>
+                  <location type="coords">
+                     <geo>46.86274, 14.79266</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/7872810/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q487527</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q487527</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4405250-9</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_348">
-                  <placeName>Wiener Ringstraße (Vienna Ring Road)</placeName>
+                  <settlement type="R">
+                     <placeName>Wiener Ringstraße (Vienna Ring Road)</placeName>
+                  </settlement>
+                  <desc type="entity_type">road, railroad</desc>
+                  <country>AT, Austria</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_1">Vienna</placeName>
                   </location>
+                  <location type="coords">
+                     <geo>48.20493, 16.36244</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/8181703/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q46232</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q46232</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4108142-0</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_349">
-                  <placeName>Waxhaws</placeName>
+                  <settlement type="R">
+                     <placeName>Waxhaws</placeName>
+                  </settlement>
+                  <desc type="entity_type">road, railroad</desc>
+                  <country>AT, Austria</country>
+                  <location type="coords">
+                     <geo>48.20493, 16.36244</geo>
+                  </location>
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q2552970</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_350">
-                  <placeName>The Hermitage, Nashville, Tennessee</placeName>
+                  <settlement type="P">
+                     <placeName>The Hermitage, Nashville, Tennessee</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>US, United States</country>
+                  <location type="coords">
+                     <geo>36.19617, -86.6225</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/4628929/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q2376587</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q5741770</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/7686626-9</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_351">
-                  <placeName>Josefsplatz</placeName>
+                  <settlement type="S">
+                     <placeName>Josefsplatz</placeName>
+                  </settlement>
+                  <desc type="entity_type">spot, building, farm</desc>
+                  <country>AT, Austria</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_1">Vienna</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>48.20684, 16.36702</geo>
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12504002/</idno>
                   <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q3573245</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/1068798920</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               </place>
                <place xml:id="amp_place_id_352">
-                  <placeName>Odesa</placeName>
+                  <settlement type="P">
+                     <placeName>Odesa</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>UA, Ukraine</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_30">Europe</placeName>
                   </location>
+                  <location type="coords">
+                     <geo>46.48572, 30.74383</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/698740/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q1874</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1874</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4043115-0</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_353">
-                  <placeName>Kyiv</placeName>
+                  <settlement type="P">
+                     <placeName>Kyiv</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>UA, Ukraine</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_30">Europe</placeName>
                   </location>
+                  <location type="coords">
+                     <geo>50.45466, 30.5238</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/703448/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q1899</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1899</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4030522-3</idno>
                   <note/>
                </place>
                <place xml:id="amp_place_id_354">
-                  <placeName>Ilminster</placeName>
+                  <settlement type="P">
+                     <placeName>Ilminster</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>GB, United Kingdom</country>
                   <location type="located_in_place">
                      <placeName key="amp_place_id_239">England</placeName>
                   </location>
+                  <location type="coords">
+                     <geo>50.92684, -2.91009</geo>
+                  </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2646265/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q1247779</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1247779</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4129280-7</idno>
                   <note/>
                </place>
@@ -4839,7 +5146,7 @@
                   </location>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12902788/</idno>
                   <note/>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note></noteGrp></place>
+               </place>
             </listPlace>
          </div>
       </body>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0078.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0077.xml">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0078.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -30,7 +30,7 @@
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when="2021">2021</date>
+            <date when="2024">2024</date>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
                   <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
@@ -88,10 +88,11 @@
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc status="draft">
+      <revisionDesc status="published">
          <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
          <change who="dgrigoriou tfruehwirth" when="2024-01-16">file created, metadata inserted</change>
          <change who="dgrigoriou tfruehwirth" when="2024-04-04">metadata updated, entities checked</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2024-07-23">container structure updated</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -99,11 +100,13 @@
          <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0454/"/>
       </surface>
    </facsimile>
-   <text type="photograph">
+   <text>
       <body>
          <div type="transcription" xml:id="transcription_amp_0078">
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0454/" type="photograph"/>
+            <div type="photo">
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0454/" type="photograph" ed="1r"/>
+            </div>
          </div>
       </body>
-   <back/></text>
+   </text>
 </TEI>

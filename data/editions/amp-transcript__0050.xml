@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0050.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0049.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0051.xml">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0050.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,13 +19,13 @@
             </funder>
          </titleStmt>
          <editionStmt>
-            <edition>AMP</edition>
+            <edition><title>Photograph Otto Breicha of W. H. Auden and Mary McCarthy 1967-04-24--1967-04-26</title></edition>
             <respStmt><resp>Transcription and commentary</resp><name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></respStmt>
          <respStmt><resp>TEI Schema, ODD/RNG</resp><name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name><name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name></respStmt></editionStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
             <pubPlace>Vienna</pubPlace>
-            <date when="2021">2021</date>
+            <date when="2024">2024</date>
             <availability status="free">
                <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
                   <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
@@ -90,10 +90,11 @@ for any purpose, even commercially.</p>
             </setting>
          </settingDesc>
       </profileDesc>
-      <revisionDesc status="draft">
+      <revisionDesc status="published">
          <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
          <change who="smayer tfruehwirth" when="2022-01-07">text transcribed and caption created</change>
          <change who="dgrigoriou smayer tfruehwirth" when="2023-03-01">entities collated, caption removed, renamed, date added</change>
+         <change who="dgrigoriou smayer tfruehwirth" when="2024-07-23">container structure updated</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -104,58 +105,25 @@ for any purpose, even commercially.</p>
          <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0248/"/>
       </surface>
    </facsimile>
-   <text type="photograph">
+   <text>
       <body>
-         <div xml:id="transcription">
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0247/" type="photograph"/>
-            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0248/" type="photograph"/>
-               <p hand="#handwritten">
+         <div type="transcription" xml:id="transcription_amp_0050" hand="#handwritten" xml:lang="de">
+            <div type="photo">
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0247/" type="photograph" ed="1r"/>
+            <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0248/" type="photograph" ed="1v"/>
+               <ab hand="#handwritten">
                   <unclear>Wien</unclear>, IV.67
-               </p>
-               <p hand="#stamp">
-                  AUFNAHME:<lb/>
-                  <rs type="person" ref="#amp_person_152">OTTO BREICHA</rs><lb/>
-                  <rs type="place" ref="#amp_place_id_217">ALSERSTRASSE 48/31<lb/>
-                  WIEN 9</rs>
-               </p>
+               </ab>
+               <ab hand="#printed">
+                  <stamp>
+                     AUFNAHME:<lb/>
+                     <rs type="person" ref="#amp_person_152">OTTO BREICHA</rs><lb/>
+                     <rs type="place" ref="#amp_place_id_217">ALSERSTRASSE 48/31<lb/>
+                     WIEN 9</rs>
+                  </stamp>
+               </ab>
+            </div>
          </div>
       </body>
-   <back><listPerson><person xml:id="amp_person_152">
-                  <persName>
-                     <forename>Otto</forename>
-                     <surname>Breicha</surname>
-                  </persName>
-                  <birth>
-                     <date when-iso="1932-07-26">1932-07-26</date>
-                     <settlement key="amp_place_id_1">
-                        <placeName>Vienna</placeName>
-                     </settlement>
-                  </birth>
-                  <death>
-                     <date when-iso="2003-12-28">2003-12-28</date>
-                     <settlement key="amp_place_id_1">
-                        <placeName>Vienna</placeName>
-                     </settlement>
-                  </death>
-                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/116469986</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q2038348</idno>
-               <noteGrp><note target="amp-transcript__0050.xml" type="mentions">Photograph Otto Breicha of W. H. Auden and Mary McCarthy 1967-04-24--1967-04-26</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
-               </listPerson><listPlace><place xml:id="amp_place_id_217">
-                  <settlement type="S">
-                     <placeName>Alser Straße 48</placeName>
-                  </settlement>
-                  <desc type="entity_type">spot, building, farm</desc>
-                  <country>AT, Austria</country>
-                  <location type="located_in_place">
-                     <placeName key="amp_place_id_1">Vienna</placeName>
-                  </location>
-                  <location type="coords">
-                     <geo>48.21561, 16.34315</geo>
-                  </location>
-                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12503866/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q2651453</idno>
-                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/1068799889</idno>
-                  <note/>
-               <noteGrp><note target="amp-transcript__0050.xml" type="mentions">Photograph Otto Breicha of W. H. Auden and Mary McCarthy 1967-04-24--1967-04-26</note></noteGrp></place>
-               </listPlace></back></text>
+   </text>
 </TEI>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0075.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0074.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0077.xml">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0075.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -19,13 +19,13 @@
                 </funder>
             </titleStmt>
             <editionStmt>
-                <edition>AMP</edition>
+                <edition><title>Photograph [Stella Musulin] of Anton Schickelgruber and Bruce Duncan at W. H. Auden's Funeral 1973-10-04</title></edition>
                 <respStmt><resp>Transcription and commentary</resp><name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></respStmt>
             <respStmt><resp>TEI Schema, ODD/RNG</resp><name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name><name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name></respStmt></editionStmt>
             <publicationStmt>
                 <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
                 <pubPlace>Vienna</pubPlace>
-                <date when="2021">2021</date>
+                <date when="2024">2024</date>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
                         <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
@@ -47,7 +47,7 @@
                         <msDesc>
                             <msIdentifier>
                                 <country>A</country>
-                                <settlement>Vienna</settlement><!-- add repository? -->
+                                <settlement>Vienna</settlement>
                                 <collection>Musulin private collection</collection>
                             </msIdentifier>
                             <history>
@@ -79,9 +79,10 @@
                 </setting>
             </settingDesc>
         </profileDesc>
-        <revisionDesc status="draft">
+        <revisionDesc status="published">
             <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
             <change who="dgrigoriou tfruehwirth" when="2023-05-22">file created, metadata inserted</change>
+            <change who="dgrigoriou smayer tfruehwirth" when="2024-07-23">container structure updated</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -89,11 +90,13 @@
             <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0458/"/>
         </surface>
     </facsimile>
-    <text type="photograph">
+    <text>
         <body>
-            <div xml:id="transcription">
-                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0458/" type="photograph"/>
+            <div type="transcription" xml:id="transcription_amp_0075">
+                <div type="photo">
+                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0458/" type="photograph" ed="1r"/>
+                </div>
             </div>
         </body>
-    <back/></text>
+    </text>
 </TEI>

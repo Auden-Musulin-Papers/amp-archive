@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0069.xml" xml:base="https://id.acdh.oeaw.ac.at" prev="https://id.acdh.oeaw.ac.at/amp-transcript__0068.xml" next="https://id.acdh.oeaw.ac.at/amp-transcript__0070.xml">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="amp-transcript__0069.xml" xml:base="https://id.acdh.oeaw.ac.at/auden-musulin-papers">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -19,13 +19,13 @@
                 </funder>
             </titleStmt>
             <editionStmt>
-                <edition>AMP</edition>
+                <edition><title>Photograph [Stella Musulin] of Friedrich Heer 1969-05-28</title></edition>
                 <respStmt><resp>Transcription and commentary</resp><name sameAs="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name><name sameAs="tfruewirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name><name sameAs="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name></respStmt>
             <respStmt><resp>TEI Schema, ODD/RNG</resp><name ref="https://orcid.org/0000-0002-9575-9372" xml:id="pandorfer">Andorfer, Peter</name><name ref="https://orcid.org/0000-0002-0636-4476" xml:id="delsner">Elsner, Daniel</name></respStmt></editionStmt>
             <publicationStmt>
                 <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
                 <pubPlace>Vienna</pubPlace>
-                <date when="2021">2021</date>
+                <date when="2024">2024</date>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
                         <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
@@ -78,9 +78,10 @@
                 </setting>
             </settingDesc>
         </profileDesc>
-        <revisionDesc status="draft">
+        <revisionDesc status="published">
             <change who="pandorfer" when="2021-09-21">template populated with script "create_templates.py"</change>
             <change who="dgrigoriou tfruehwirth" when="2023-05-22">file created, metadata inserted</change>
+            <change who="dgrigoriou smayer tfruehwirth" when="2024-07-23">container structure updated</change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -88,51 +89,17 @@
             <graphic url="https://iiif.acdh.oeaw.ac.at/amp/amp_0452/"/>
         </surface>
     </facsimile>
-    <text type="photograph">
+    <text>
         <body>
-            <div xml:id="transcription">
-                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0452/" type="photograph"/>
-                <p hand="#handwritten">
-                    <rs type="person" ref="#amp_person_54">Friedrich Heer</rs> at<lb/>
-                    <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs>.
-                </p>
+            <div type="transcription" xml:id="transcription_amp_0069" hand="#handwritten" xml:lang="en">
+                <div type="photo">
+                <pb facs="https://iiif.acdh.oeaw.ac.at/amp/amp_0452/" type="photograph" ed="1r"/>
+                    <ab>
+                        <rs type="person" ref="#amp_person_54">Friedrich Heer</rs> at<lb/>
+                        <rs type="place" ref="#amp_place_id_5">Kirchstetten</rs>.
+                    </ab>
+                </div>
             </div>
         </body>
-    <back><listPlace><place xml:id="amp_place_id_5">
-                  <settlement type="P">
-                     <placeName>Kirchstetten</placeName>
-                  </settlement>
-                  <desc type="entity_type">city, village,...</desc>
-                  <country>AT, Austria</country>
-                  <location type="located_in_place">
-                     <placeName key="amp_place_id_6">Lower Austria</placeName>
-                  </location>
-                  <location type="coords">
-                     <geo>48.18333, 15.81667</geo>
-                  </location>
-                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2774362/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q674814</idno>
-                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/4801892-2</idno>
-               <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note><note target="amp-transcript__0003.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29</note><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0007.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-06</note><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0015.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10</note><note target="amp-transcript__0016.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-09-18</note><note target="amp-transcript__0017.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1971-06-04</note><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note><note target="amp-transcript__0020.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1973-09-24</note><note target="amp-transcript__0022.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-08-16</note><note target="amp-transcript__0023.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-07-23</note><note target="amp-transcript__0024.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-09-11</note><note target="amp-transcript__0025.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-10-17</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0035.xml" type="mentions">Telegram W. H. Auden to Stella Musulin 1971-05-13</note><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note><note target="amp-transcript__0040.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-06-10</note><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note><note target="amp-transcript__0042.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescripts W. H. Auden "August 1968" and "Elegy" 1968-10-04</note><note target="amp-transcript__0045.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1960-07-21</note><note target="amp-transcript__0047.xml" type="mentions">Typescript Stella Musulin Translation W. H. Auden "Joseph Weinheber" 1965-04-28--1965-12-31</note><note target="amp-transcript__0052.xml" type="mentions">Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-07-26--1972-08-25</note><note target="amp-transcript__0057.xml" type="mentions">Envelope W. H. Auden to Stella Musulin 1961-04-25--1961-10-25</note><note target="amp-transcript__0059.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-04-30</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0069.xml" type="mentions">Photograph [Stella Musulin] of Friedrich Heer 1969-05-28</note><note target="amp-transcript__0070.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1959-10-10</note><note target="amp-transcript__0071.xml" type="mentions">Typed Letter Signed Stella Musulin to W. H. Auden 1962-04-16--1973-04-16</note></noteGrp></place>
-               </listPlace><listPerson><person xml:id="amp_person_54">
-                  <persName>
-                     <forename>Friedrich</forename>
-                     <surname>Heer</surname>
-                  </persName>
-                  <birth>
-                     <date when-iso="1916-04-10">1916-04-10</date>
-                     <settlement key="amp_place_id_1">
-                        <placeName>Vienna</placeName>
-                     </settlement>
-                  </birth>
-                  <death>
-                     <date when-iso="1983-09-18">1983-09-18</date>
-                     <settlement key="amp_place_id_1">
-                        <placeName>Vienna</placeName>
-                     </settlement>
-                  </death>
-                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118547666</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q87771</idno>
-               <noteGrp><note target="amp-transcript__0014.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0066.xml" type="mentions">Photograph [Stella Musulin] of Friedrich Heer, Chester Kallman, and W. H. Auden 1969-05-28</note><note target="amp-transcript__0069.xml" type="mentions">Photograph [Stella Musulin] of Friedrich Heer 1969-05-28</note><note target="amp-transcript__0074.xml" type="mentions">Photograph [Stella Musulin] of Edward Mendelson, Sonia Orwell, Charles Osborne, Michael Yates, Lisa Clark, Thekla Clark, Marny Yates, Hella Bronold, Wolfgang Kraus, and Friedrich Heer at W. H. Auden's Funeral 1973-10-04</note></noteGrp></person>
-               </listPerson></back></text>
+    </text>
 </TEI>

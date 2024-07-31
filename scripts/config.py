@@ -404,7 +404,7 @@ USER_CONFIG = {
     "auden-musulin-papers/facsimiles__resource": {
         "resource_file_path": "data/editions",
         "file_format": "xml",
-        "id": "//tei:pb/@facs[ancestor::tei:text[not(@type='photograph')]]",
+        "id": "//tei:pb[parent::tei:div[not(@type='photo')]]/@facs",
         "custom_lang": "en",
         "id_suffix": ".tif",
         "id_as_filename": True,
@@ -471,7 +471,7 @@ USER_CONFIG = {
     "auden-musulin-papers/photos__resource": {
         "resource_file_path": "data/editions",
         "file_format": "xml",
-        "id": "//tei:pb/@facs[ancestor::tei:text[@type='photograph']]",
+        "id": "//tei:pb[parent::tei:div[@type='photo']]/@facs",
         "id_suffix": ".tif",
         "id_as_filename": True,
         "custom_lang": "en",
@@ -524,7 +524,7 @@ USER_CONFIG = {
         "id": "//tei:TEI[@xml:id]/@xml:id",
         "custom_lang": "en",
         "xpaths": {
-            "hasTitle": "//tei:titleStmt/tei:title[1]"
+            "hasTitle": "//tei:titleStmt/tei:title[@level='a']",
         },
         "static_values": {
             "hasAccessRestriction": "https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public",

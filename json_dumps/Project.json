@@ -1006,6 +1006,86 @@
     ],
     "Inherit": []
   },
+  "245": {
+    "id": 245,
+    "order": "42.33333333333333570181",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 22,
+        "value": "hasMetadataCreator"
+      }
+    ],
+    "Object_uri_persons": [
+      {
+        "id": 37,
+        "value": "Elsner, Daniel"
+      },
+      {
+        "id": 38,
+        "value": "Frühwirth, Timo"
+      },
+      {
+        "id": 39,
+        "value": "Grigoriou, Dimitra"
+      },
+      {
+        "id": 42,
+        "value": "Mayer, Sandra"
+      }
+    ],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "229": {
+    "id": 229,
+    "order": "42.50000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-prose.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 11,
+        "value": "hasCurator"
+      }
+    ],
+    "Object_uri_persons": [
+      {
+        "id": 20,
+        "value": "Andorfer, Peter"
+      },
+      {
+        "id": 37,
+        "value": "Elsner, Daniel"
+      }
+    ],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
   "43": {
     "id": 43,
     "order": "43.00000000000000000000",
@@ -1050,10 +1130,117 @@
     "Object_uri_vocabs": [],
     "Inherit": []
   },
+  "260": {
+    "id": 260,
+    "order": "44.00000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-prose.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 81,
+        "value": "hasFormat"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "text/xml",
+    "Language": "und",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
   "45": {
     "id": 45,
     "order": "45.00000000000000000000",
     "Subject_uri": "auden-musulin-papers/schema.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 22,
+        "value": "hasMetadataCreator"
+      }
+    ],
+    "Object_uri_persons": [
+      {
+        "id": 37,
+        "value": "Elsner, Daniel"
+      },
+      {
+        "id": 38,
+        "value": "Frühwirth, Timo"
+      },
+      {
+        "id": 39,
+        "value": "Grigoriou, Dimitra"
+      },
+      {
+        "id": 42,
+        "value": "Mayer, Sandra"
+      }
+    ],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": null,
+    "Language": null,
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "246": {
+    "id": 246,
+    "order": "45.33333333333333570181",
+    "Subject_uri": "auden-musulin-papers/schema-prose.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 11,
+        "value": "hasCurator"
+      }
+    ],
+    "Object_uri_persons": [
+      {
+        "id": 20,
+        "value": "Andorfer, Peter"
+      },
+      {
+        "id": 37,
+        "value": "Elsner, Daniel"
+      }
+    ],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "215": {
+    "id": 215,
+    "order": "45.50000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-prose.rng",
     "Class": [
       {
         "id": 34,
@@ -1126,10 +1313,150 @@
     "Object_uri_vocabs": [],
     "Inherit": []
   },
+  "247": {
+    "id": 247,
+    "order": "46.33333333333333570181",
+    "Subject_uri": "auden-musulin-papers/schema-prose.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 22,
+        "value": "hasMetadataCreator"
+      }
+    ],
+    "Object_uri_persons": [
+      {
+        "id": 37,
+        "value": "Elsner, Daniel"
+      },
+      {
+        "id": 38,
+        "value": "Frühwirth, Timo"
+      },
+      {
+        "id": 39,
+        "value": "Grigoriou, Dimitra"
+      },
+      {
+        "id": 42,
+        "value": "Mayer, Sandra"
+      }
+    ],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": null,
+    "Language": null,
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "216": {
+    "id": 216,
+    "order": "46.50000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-prose.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 24,
+        "value": "hasOwner"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [
+      {
+        "id": 12,
+        "value": "Austrian Centre for Digital Humanities and Cultural Heritage"
+      }
+    ],
+    "Object_uri_resource": [],
+    "Literal": null,
+    "Language": null,
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
   "47": {
     "id": 47,
     "order": "47.00000000000000000000",
     "Subject_uri": "auden-musulin-papers/schema.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 29,
+        "value": "hasRightsHolder"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [
+      {
+        "id": 17,
+        "value": "Austrian Academy of Sciences"
+      }
+    ],
+    "Object_uri_resource": [],
+    "Literal": null,
+    "Language": null,
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "248": {
+    "id": 248,
+    "order": "47.33333333333333570181",
+    "Subject_uri": "auden-musulin-papers/schema-prose.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 24,
+        "value": "hasOwner"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [
+      {
+        "id": 12,
+        "value": "Austrian Centre for Digital Humanities and Cultural Heritage"
+      }
+    ],
+    "Object_uri_resource": [],
+    "Literal": null,
+    "Language": null,
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "217": {
+    "id": 217,
+    "order": "47.50000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-prose.rng",
     "Class": [
       {
         "id": 34,
@@ -1190,10 +1517,138 @@
     "Object_uri_vocabs": [],
     "Inherit": []
   },
+  "249": {
+    "id": 249,
+    "order": "48.33333333333333570181",
+    "Subject_uri": "auden-musulin-papers/schema-prose.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 29,
+        "value": "hasRightsHolder"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [
+      {
+        "id": 17,
+        "value": "Austrian Academy of Sciences"
+      }
+    ],
+    "Object_uri_resource": [],
+    "Literal": null,
+    "Language": null,
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "218": {
+    "id": 218,
+    "order": "48.50000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-prose.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 20,
+        "value": "hasLicensor"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [
+      {
+        "id": 12,
+        "value": "Austrian Centre for Digital Humanities and Cultural Heritage"
+      }
+    ],
+    "Object_uri_resource": [],
+    "Literal": null,
+    "Language": null,
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
   "49": {
     "id": 49,
     "order": "49.00000000000000000000",
     "Subject_uri": "auden-musulin-papers/schema.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 12,
+        "value": "hasDepositor"
+      }
+    ],
+    "Object_uri_persons": [
+      {
+        "id": 42,
+        "value": "Mayer, Sandra"
+      }
+    ],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": null,
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "250": {
+    "id": 250,
+    "order": "49.33333333333333570181",
+    "Subject_uri": "auden-musulin-papers/schema-prose.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 20,
+        "value": "hasLicensor"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [
+      {
+        "id": 12,
+        "value": "Austrian Centre for Digital Humanities and Cultural Heritage"
+      }
+    ],
+    "Object_uri_resource": [],
+    "Literal": null,
+    "Language": null,
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "219": {
+    "id": 219,
+    "order": "49.50000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-prose.rng",
     "Class": [
       {
         "id": 34,
@@ -1254,6 +1709,70 @@
     "Object_uri_vocabs": [],
     "Inherit": []
   },
+  "251": {
+    "id": 251,
+    "order": "50.33333333333333570181",
+    "Subject_uri": "auden-musulin-papers/schema-prose.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 12,
+        "value": "hasDepositor"
+      }
+    ],
+    "Object_uri_persons": [
+      {
+        "id": 42,
+        "value": "Mayer, Sandra"
+      }
+    ],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": null,
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "220": {
+    "id": 220,
+    "order": "50.50000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-prose.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 36,
+        "value": "isPartOf"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [
+      {
+        "id": 22,
+        "value": "auden-musulin-papers/edition"
+      }
+    ],
+    "Literal": null,
+    "Language": null,
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
   "51": {
     "id": 51,
     "order": "51.00000000000000000000",
@@ -1286,10 +1805,138 @@
     ],
     "Inherit": []
   },
+  "252": {
+    "id": 252,
+    "order": "51.33333333333333570181",
+    "Subject_uri": "auden-musulin-papers/schema-prose.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 36,
+        "value": "isPartOf"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [
+      {
+        "id": 22,
+        "value": "auden-musulin-papers/edition"
+      }
+    ],
+    "Literal": null,
+    "Language": null,
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "221": {
+    "id": 221,
+    "order": "51.50000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-prose.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 6,
+        "value": "hasCategory"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": null,
+    "Language": null,
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [
+      {
+        "id": 7,
+        "value": "tei"
+      }
+    ],
+    "Inherit": []
+  },
   "52": {
     "id": 52,
     "order": "52.00000000000000000000",
     "Subject_uri": "auden-musulin-papers/schema.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 19,
+        "value": "hasLicense"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": null,
+    "Language": null,
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [
+      {
+        "id": 73,
+        "value": "cc-by-4-0"
+      }
+    ],
+    "Inherit": []
+  },
+  "253": {
+    "id": 253,
+    "order": "52.33333333333333570181",
+    "Subject_uri": "auden-musulin-papers/schema-prose.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 6,
+        "value": "hasCategory"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": null,
+    "Language": null,
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [
+      {
+        "id": 7,
+        "value": "tei"
+      }
+    ],
+    "Inherit": []
+  },
+  "222": {
+    "id": 222,
+    "order": "52.50000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-prose.rng",
     "Class": [
       {
         "id": 34,
@@ -1999,7 +2646,7 @@
     "Object_uri_places": [],
     "Object_uri_organizations": [],
     "Object_uri_resource": [],
-    "Literal": "Digital Scans of Photos and Images: Private photographs of W. H. Auden and Chester Kallman.",
+    "Literal": "Digital images of the Auden Musulin Papers: digital images of the photographs sent by British-American poet W. H. Auden to Welsh-Austrian writer Stella Musulin in the period 1960-1973; private photographs of W. H. Auden and Chester Kallman;",
     "Language": "en",
     "Date": null,
     "Number": null,
@@ -2483,6 +3130,70 @@
     "Object_uri_vocabs": [],
     "Inherit": []
   },
+  "254": {
+    "id": 254,
+    "order": "102.33333333333332859638",
+    "Subject_uri": "auden-musulin-papers/schema-prose.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 19,
+        "value": "hasLicense"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": null,
+    "Language": null,
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [
+      {
+        "id": 73,
+        "value": "cc-by-4-0"
+      }
+    ],
+    "Inherit": []
+  },
+  "223": {
+    "id": 223,
+    "order": "102.50000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-prose.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 3,
+        "value": "hasAccessRestriction"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": null,
+    "Language": null,
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [
+      {
+        "id": 41,
+        "value": "public"
+      }
+    ],
+    "Inherit": []
+  },
   "114": {
     "id": 114,
     "order": "103.00000000000000000000",
@@ -2510,10 +3221,128 @@
     "Object_uri_vocabs": [],
     "Inherit": []
   },
+  "255": {
+    "id": 255,
+    "order": "103.33333333333332859638",
+    "Subject_uri": "auden-musulin-papers/schema-prose.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 3,
+        "value": "hasAccessRestriction"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": null,
+    "Language": null,
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [
+      {
+        "id": 41,
+        "value": "public"
+      }
+    ],
+    "Inherit": []
+  },
+  "224": {
+    "id": 224,
+    "order": "103.50000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-prose.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 97,
+        "value": "hasPid"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "create",
+    "Language": "na",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
   "115": {
     "id": 115,
     "order": "104.00000000000000000000",
     "Subject_uri": "auden-musulin-papers/schema.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 33,
+        "value": "isMetadataFor"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [
+      {
+        "id": 22,
+        "value": "auden-musulin-papers/edition"
+      }
+    ],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "256": {
+    "id": 256,
+    "order": "104.33333333333332859638",
+    "Subject_uri": "auden-musulin-papers/schema-prose.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 97,
+        "value": "hasPid"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "create",
+    "Language": "na",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "225": {
+    "id": 225,
+    "order": "104.50000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-prose.rng",
     "Class": [
       {
         "id": 34,
@@ -2589,7 +3418,66 @@
     "Object_uri_places": [],
     "Object_uri_organizations": [],
     "Object_uri_resource": [],
-    "Literal": "TEI/XML Schema ODD for \"Auden Musulin Papers\" Edition Documents",
+    "Literal": "TEI/XML Schema ODD for \"Auden Musulin Papers\" Edition Correspondence Documents",
+    "Language": "en",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "257": {
+    "id": 257,
+    "order": "106.33333333333332859638",
+    "Subject_uri": "auden-musulin-papers/schema-prose.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 33,
+        "value": "isMetadataFor"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [
+      {
+        "id": 22,
+        "value": "auden-musulin-papers/edition"
+      }
+    ],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "227": {
+    "id": 227,
+    "order": "106.50000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-prose.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 114,
+        "value": "hasTitle"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "TEI/XML Schema ODD for \"Auden Musulin Papers\" Edition Prose Documents",
     "Language": "en",
     "Date": null,
     "Number": null,
@@ -2616,7 +3504,7 @@
     "Object_uri_places": [],
     "Object_uri_organizations": [],
     "Object_uri_resource": [],
-    "Literal": "TEI/XML Schema ODD for \"Auden Musulin Papers\" Edition Documents",
+    "Literal": "TEI/XML Schema ODD for \"Auden Musulin Papers\" Edition Correspondence Documents",
     "Language": "en",
     "Date": null,
     "Number": null,
@@ -2627,6 +3515,38 @@
     "id": 119,
     "order": "108.00000000000000000000",
     "Subject_uri": "auden-musulin-papers/schema.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 24,
+        "value": "hasOwner"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [
+      {
+        "id": 12,
+        "value": "Austrian Centre for Digital Humanities and Cultural Heritage"
+      }
+    ],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "199": {
+    "id": 199,
+    "order": "108.50000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.rng",
     "Class": [
       {
         "id": 34,
@@ -2687,10 +3607,138 @@
     "Object_uri_vocabs": [],
     "Inherit": []
   },
+  "230": {
+    "id": 230,
+    "order": "109.33333333333332859638",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 24,
+        "value": "hasOwner"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [
+      {
+        "id": 12,
+        "value": "Austrian Centre for Digital Humanities and Cultural Heritage"
+      }
+    ],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "200": {
+    "id": 200,
+    "order": "109.50000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 29,
+        "value": "hasRightsHolder"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [
+      {
+        "id": 17,
+        "value": "Austrian Academy of Sciences"
+      }
+    ],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
   "121": {
     "id": 121,
     "order": "110.00000000000000000000",
     "Subject_uri": "auden-musulin-papers/schema.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 20,
+        "value": "hasLicensor"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [
+      {
+        "id": 12,
+        "value": "Austrian Centre for Digital Humanities and Cultural Heritage"
+      }
+    ],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "231": {
+    "id": 231,
+    "order": "110.33333333333332859638",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 29,
+        "value": "hasRightsHolder"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [
+      {
+        "id": 17,
+        "value": "Austrian Academy of Sciences"
+      }
+    ],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "201": {
+    "id": 201,
+    "order": "110.50000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.rng",
     "Class": [
       {
         "id": 34,
@@ -2751,10 +3799,170 @@
     "Object_uri_vocabs": [],
     "Inherit": []
   },
+  "232": {
+    "id": 232,
+    "order": "111.33333333333332859638",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 20,
+        "value": "hasLicensor"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [
+      {
+        "id": 12,
+        "value": "Austrian Centre for Digital Humanities and Cultural Heritage"
+      }
+    ],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "202": {
+    "id": 202,
+    "order": "111.50000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 12,
+        "value": "hasDepositor"
+      }
+    ],
+    "Object_uri_persons": [
+      {
+        "id": 42,
+        "value": "Mayer, Sandra"
+      }
+    ],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "233": {
+    "id": 233,
+    "order": "111.66666666666667140362",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 12,
+        "value": "hasDepositor"
+      }
+    ],
+    "Object_uri_persons": [
+      {
+        "id": 42,
+        "value": "Mayer, Sandra"
+      }
+    ],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
   "123": {
     "id": 123,
     "order": "112.00000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 36,
+        "value": "isPartOf"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [
+      {
+        "id": 22,
+        "value": "auden-musulin-papers/edition"
+      }
+    ],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "203": {
+    "id": 203,
+    "order": "112.50000000000000000000",
     "Subject_uri": "auden-musulin-papers/schema.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 36,
+        "value": "isPartOf"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [
+      {
+        "id": 22,
+        "value": "auden-musulin-papers/edition"
+      }
+    ],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "234": {
+    "id": 234,
+    "order": "112.66666666666667140362",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.odd",
     "Class": [
       {
         "id": 34,
@@ -2786,7 +3994,71 @@
   "124": {
     "id": 124,
     "order": "113.00000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 6,
+        "value": "hasCategory"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [
+      {
+        "id": 7,
+        "value": "tei"
+      }
+    ],
+    "Inherit": []
+  },
+  "204": {
+    "id": 204,
+    "order": "113.50000000000000000000",
     "Subject_uri": "auden-musulin-papers/schema.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 6,
+        "value": "hasCategory"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [
+      {
+        "id": 7,
+        "value": "tei"
+      }
+    ],
+    "Inherit": []
+  },
+  "235": {
+    "id": 235,
+    "order": "113.66666666666667140362",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.odd",
     "Class": [
       {
         "id": 34,
@@ -2818,7 +4090,71 @@
   "125": {
     "id": 125,
     "order": "114.00000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 19,
+        "value": "hasLicense"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [
+      {
+        "id": 73,
+        "value": "cc-by-4-0"
+      }
+    ],
+    "Inherit": []
+  },
+  "205": {
+    "id": 205,
+    "order": "114.50000000000000000000",
     "Subject_uri": "auden-musulin-papers/schema.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 19,
+        "value": "hasLicense"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [
+      {
+        "id": 73,
+        "value": "cc-by-4-0"
+      }
+    ],
+    "Inherit": []
+  },
+  "236": {
+    "id": 236,
+    "order": "114.66666666666667140362",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.odd",
     "Class": [
       {
         "id": 34,
@@ -2850,6 +4186,38 @@
   "126": {
     "id": 126,
     "order": "115.00000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 3,
+        "value": "hasAccessRestriction"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [
+      {
+        "id": 41,
+        "value": "public"
+      }
+    ],
+    "Inherit": []
+  },
+  "206": {
+    "id": 206,
+    "order": "115.50000000000000000000",
     "Subject_uri": "auden-musulin-papers/schema.rng",
     "Class": [
       {
@@ -2906,10 +4274,113 @@
     "Object_uri_vocabs": [],
     "Inherit": []
   },
+  "207": {
+    "id": 207,
+    "order": "116.50000000000000000000",
+    "Subject_uri": "",
+    "Class": [],
+    "Predicate_uri": [],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "237": {
+    "id": 237,
+    "order": "116.59999999999999431566",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 3,
+        "value": "hasAccessRestriction"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [
+      {
+        "id": 41,
+        "value": "public"
+      }
+    ],
+    "Inherit": []
+  },
+  "208": {
+    "id": 208,
+    "order": "116.66666666666667140362",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 97,
+        "value": "hasPid"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "create",
+    "Language": "na",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "238": {
+    "id": 238,
+    "order": "116.75000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 97,
+        "value": "hasPid"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "create",
+    "Language": "na",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
   "128": {
     "id": 128,
     "order": "117.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/schema.rng",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.rng",
     "Class": [
       {
         "id": 34,
@@ -2927,39 +4398,12 @@
     "Object_uri_organizations": [],
     "Object_uri_resource": [
       {
-        "id": 22,
-        "value": "auden-musulin-papers/edition"
+        "id": 169,
+        "value": "auden-musulin-papers/indexes"
       }
     ],
     "Literal": "",
     "Language": "",
-    "Date": null,
-    "Number": null,
-    "Object_uri_vocabs": [],
-    "Inherit": []
-  },
-  "129": {
-    "id": 129,
-    "order": "118.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/schema.odd",
-    "Class": [
-      {
-        "id": 34,
-        "value": "Metadata"
-      }
-    ],
-    "Predicate_uri": [
-      {
-        "id": 81,
-        "value": "hasFormat"
-      }
-    ],
-    "Object_uri_persons": [],
-    "Object_uri_places": [],
-    "Object_uri_organizations": [],
-    "Object_uri_resource": [],
-    "Literal": "text/xml",
-    "Language": "und",
     "Date": null,
     "Number": null,
     "Object_uri_vocabs": [],
@@ -3014,10 +4458,74 @@
       }
     ]
   },
+  "209": {
+    "id": 209,
+    "order": "119.50000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 33,
+        "value": "isMetadataFor"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [
+      {
+        "id": 22,
+        "value": "auden-musulin-papers/edition"
+      }
+    ],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "239": {
+    "id": 239,
+    "order": "119.66666666666667140362",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 33,
+        "value": "isMetadataFor"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [
+      {
+        "id": 169,
+        "value": "auden-musulin-papers/indexes"
+      }
+    ],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
   "131": {
     "id": 131,
     "order": "120.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/schema.rng",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.rng",
     "Class": [
       {
         "id": 34,
@@ -3590,6 +5098,60 @@
         "value": "Resource"
       }
     ]
+  },
+  "258": {
+    "id": 258,
+    "order": "137.33333333333334280724",
+    "Subject_uri": "auden-musulin-papers/schema-prose.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 114,
+        "value": "hasTitle"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "TEI/XML Schema ODD for \"Auden Musulin Papers\" Edition Prose Documents",
+    "Language": "en",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "228": {
+    "id": 228,
+    "order": "137.50000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-prose.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 74,
+        "value": "hasDescription"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "TEI/XML Schema ODD for \"Auden Musulin Papers\" Edition Prose Documents",
+    "Language": "en",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
   },
   "149": {
     "id": 149,
@@ -4744,9 +6306,117 @@
       }
     ]
   },
+  "259": {
+    "id": 259,
+    "order": "170.33333333333334280724",
+    "Subject_uri": "auden-musulin-papers/schema-prose.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 74,
+        "value": "hasDescription"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "TEI/XML Schema ODD for \"Auden Musulin Papers\" Edition Prose Documents",
+    "Language": "en",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "210": {
+    "id": 210,
+    "order": "170.50000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-prose.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 81,
+        "value": "hasFormat"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "text/xml",
+    "Language": "und",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "240": {
+    "id": 240,
+    "order": "170.66666666666665719276",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 81,
+        "value": "hasFormat"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "text/xml",
+    "Language": "und",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
   "185": {
     "id": 185,
     "order": "171.00000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 114,
+        "value": "hasTitle"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "TEI/XML Schema RNG for \"Auden Musulin Papers\" Indexes",
+    "Language": "en",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "211": {
+    "id": 211,
+    "order": "171.50000000000000000000",
     "Subject_uri": "auden-musulin-papers/schema.rng",
     "Class": [
       {
@@ -4764,7 +6434,34 @@
     "Object_uri_places": [],
     "Object_uri_organizations": [],
     "Object_uri_resource": [],
-    "Literal": "TEI/XML Schema RNG for \"Auden Musulin Papers\" Edition Documents",
+    "Literal": "TEI/XML Schema ODD for \"Auden Musulin Papers\" Edition Correspondence Documents",
+    "Language": "en",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "241": {
+    "id": 241,
+    "order": "171.66666666666665719276",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 114,
+        "value": "hasTitle"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "TEI/XML Schema RNG for \"Auden Musulin Papers\" Indexes",
     "Language": "en",
     "Date": null,
     "Number": null,
@@ -4774,6 +6471,33 @@
   "186": {
     "id": 186,
     "order": "172.00000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 74,
+        "value": "hasDescription"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "TEI/XML Schema RNG for \"Auden Musulin Papers\" Indexes",
+    "Language": "en",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "212": {
+    "id": 212,
+    "order": "172.50000000000000000000",
     "Subject_uri": "auden-musulin-papers/schema.rng",
     "Class": [
       {
@@ -4791,7 +6515,34 @@
     "Object_uri_places": [],
     "Object_uri_organizations": [],
     "Object_uri_resource": [],
-    "Literal": "TEI/XML Schema RNG for \"Auden Musulin Papers\" Edition Documents",
+    "Literal": "TEI/XML Schema ODD for \"Auden Musulin Papers\" Edition Correspondence Documents",
+    "Language": "en",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "242": {
+    "id": 242,
+    "order": "172.66666666666665719276",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 74,
+        "value": "hasDescription"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "TEI/XML Schema RNG for \"Auden Musulin Papers\" Indexes",
     "Language": "en",
     "Date": null,
     "Number": null,
@@ -4801,7 +6552,61 @@
   "187": {
     "id": 187,
     "order": "173.00000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 81,
+        "value": "hasFormat"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "text/xml",
+    "Language": "und",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "213": {
+    "id": 213,
+    "order": "173.50000000000000000000",
     "Subject_uri": "auden-musulin-papers/schema.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 81,
+        "value": "hasFormat"
+      }
+    ],
+    "Object_uri_persons": [],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "text/xml",
+    "Language": "und",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "243": {
+    "id": 243,
+    "order": "173.66666666666665719276",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.odd",
     "Class": [
       {
         "id": 34,
@@ -4828,7 +6633,7 @@
   "188": {
     "id": 188,
     "order": "174.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers/schema.rng",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.rng",
     "Class": [
       {
         "id": 34,
@@ -5024,6 +6829,122 @@
         "value": "clarin-vlo"
       }
     ],
+    "Inherit": []
+  },
+  "244": {
+    "id": 244,
+    "order": "179.50000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.odd",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 11,
+        "value": "hasCurator"
+      }
+    ],
+    "Object_uri_persons": [
+      {
+        "id": 20,
+        "value": "Andorfer, Peter"
+      },
+      {
+        "id": 37,
+        "value": "Elsner, Daniel"
+      }
+    ],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "198": {
+    "id": 198,
+    "order": "180.00000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema-indexes.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 22,
+        "value": "hasMetadataCreator"
+      }
+    ],
+    "Object_uri_persons": [
+      {
+        "id": 37,
+        "value": "Elsner, Daniel"
+      },
+      {
+        "id": 38,
+        "value": "Frühwirth, Timo"
+      },
+      {
+        "id": 39,
+        "value": "Grigoriou, Dimitra"
+      },
+      {
+        "id": 42,
+        "value": "Mayer, Sandra"
+      }
+    ],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
+    "Inherit": []
+  },
+  "214": {
+    "id": 214,
+    "order": "181.00000000000000000000",
+    "Subject_uri": "auden-musulin-papers/schema.rng",
+    "Class": [
+      {
+        "id": 34,
+        "value": "Metadata"
+      }
+    ],
+    "Predicate_uri": [
+      {
+        "id": 11,
+        "value": "hasCurator"
+      }
+    ],
+    "Object_uri_persons": [
+      {
+        "id": 20,
+        "value": "Andorfer, Peter"
+      },
+      {
+        "id": 37,
+        "value": "Elsner, Daniel"
+      }
+    ],
+    "Object_uri_places": [],
+    "Object_uri_organizations": [],
+    "Object_uri_resource": [],
+    "Literal": "",
+    "Language": "",
+    "Date": null,
+    "Number": null,
+    "Object_uri_vocabs": [],
     "Inherit": []
   }
 }

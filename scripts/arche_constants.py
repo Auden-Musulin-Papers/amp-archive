@@ -536,22 +536,26 @@ for file in tqdm(file_glob, total=len(file_glob)):
                 predicate_class = meta["Predicate_uri"][0]
                 predicate_uri = URIRef(f'{predicate_class["data"]["Namespace"]}{predicate_class["value"]}')
                 entity_type = fn.replace("_denormalized", "").lower()
-                try:
-                    get_entity_uri(
+                print(f"Creating triples for {subject_uri}.")
+                # try:
+                #     get_entity_uri(
+                #         subject_uri=subject_uri,
+                #         predicate_uri=predicate_uri,
+                #         entity=meta["Object_uri_organizations"],
+                #         entity_type="organizations"
+                #     )
+                # except KeyError:
+                #     # placeholder
+                #     print("No organizations.")
+                if predicate_class["value"] == "hasIdentifier":
+                    create_custom_triple(g, subject_uri, predicate_uri, URIRef(meta["Literal"]))
+                else:
+                    get_literal(
                         subject_uri=subject_uri,
                         predicate_uri=predicate_uri,
-                        entity=meta["Object_uri_organizations"],
-                        entity_type="organizations"
+                        literal=meta["Literal"],
+                        literal_lang=meta["Language"]
                     )
-                except KeyError:
-                    # placeholder
-                    print("No organizations.")
-                get_literal(
-                    subject_uri=subject_uri,
-                    predicate_uri=predicate_uri,
-                    literal=meta["Literal"],
-                    literal_lang=meta["Language"]
-                )
 
 # serialize graph
 os.makedirs("rdf", exist_ok=True)

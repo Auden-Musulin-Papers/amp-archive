@@ -1,52 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at" xml:id="amp-index-events.xml" next="https://id.acdh.oeaw.ac.at/amp-index-organizations.xml">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Index of Events mentioned in Auden Musulin Papers</title>
+            <title level="s">Auden Musulin Papers: A Digital Edition of W. H. Auden´s Letters to Stella Musulin (FWF P 33754)</title>
+            <title level="a">Index of Events</title>
             <respStmt>
-               <resp>providing the content</resp>
-               <name>Mayer, Sandra</name>
-               <name>Frühwirth, Timo</name>
-               <name>Grigoriou, Dimitra</name>
+               <resp>editing entities</resp>
+               <name xml:id="smayer" ref="https://orcid.org/0000-0002-2915-5888">Mayer, Sandra</name>
+               <name xml:id="tfruehwirth" ref="https://orcid.org/0000-0002-3997-5193">Frühwirth, Timo</name>
+               <name xml:id="dgrigoriou" ref="https://orcid.org/0000-0002-0914-9245">Grigoriou, Dimitra</name>
             </respStmt>
             <respStmt>
                <resp>converted to XML encoding</resp>
-               <name>Daniel Elsner</name>
+               <name xml:id="delsner" ref="https://orcid.org/0000-0002-0636-4476">Elsner, Daniel</name>
             </respStmt>
             <funder>
-               <name>FWF Der Wissenschaftsfond.</name>
+               <name>Austrian Science Fund (FWF)</name>
                <address>
-                     <street>Sensengasse 1</street>
-                     <postCode>1090 Wien</postCode>
-                     <placeName>
-                        <country>Österreich</country>
-                        <settlement>Wien</settlement>
-                     </placeName>
+                  <street>Georg-Coch-Platz 2</street>
+                  <postCode>1010 Vienna</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Vienna</settlement>
+                  </placeName>
                </address>
             </funder>
          </titleStmt>
          <publicationStmt>
             <publisher>Austrian Centre for Digital Humanities and Cultural Heritage</publisher>
-            <pubPlace>Wien</pubPlace>
-            <date when="2022">2022</date>
+            <pubPlace>Vienna</pubPlace>
+            <date when="2024">2024</date>
             <availability>
-               <licence target="https://creativecommons.org/licenses/by/4.0">
-                  <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium vervielfältigen und weiterverbreiten</p>
-                  <p>Bearbeiten — das Material remixen, verändern und darauf aufbauen und zwar für beliebige Zwecke, sogar kommerziell.</p>
-                  <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen solange Sie sich an die Lizenzbedingungen halten. Unter folgenden Bedingungen:</p>
-                  <p>Namensnennung — Sie müssen angemessene Urheber- und Rechteangaben machen, einen Link zur Lizenz beifügen und angeben, ob Änderungen vorgenommen wurden.
-                     Diese Angaben dürfen in jeder angemessenen Art und Weise gemacht werden, allerdings nicht so, dass der Eindruck entsteht, der Lizenzgeber unterstütze
-                     gerade Sie oder Ihre Nutzung besonders.</p>
-                  <p>Keine weiteren Einschränkungen — Sie dürfen keine zusätzlichen Klauseln oder technische Verfahren einsetzen,
-                     die anderen rechtlich irgendetwas untersagen, was die Lizenz erlaubt.</p>
-                  <p>Hinweise:</p>
-                  <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich solcher Teile des Materials, die gemeinfrei sind, oder soweit Ihre Nutzungshandlungen durch Ausnahmen und
-                     Schranken des Urheberrechts gedeckt sind.</p>
-                  <p>Es werden keine Garantien gegeben und auch keine Gewähr geleistet.
-                     Die Lizenz verschafft Ihnen möglicherweise nicht alle Erlaubnisse,
-                     die Sie für die jeweilige Nutzung brauchen.
-                     Es können beispielsweise andere Rechte wie Persönlichkeits- undDatenschutzrechte zu beachten sein, die Ihre Nutzung des Materials entsprechend beschränken.</p>
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.en">
+                  <p>You are free to: Share — copy and redistribute the material in any medium or format; adapt — remix, transform, and build upon the material
+for any purpose, even commercially.</p>
+                  <p>The licensor cannot revoke these freedoms as long as you follow the license terms. Under the following terms:</p>
+                  <p>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</p>
+                  <p>Notices:</p>
+                  <p>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation. No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</p>
                </licence>
+               <p>Copyright literary texts W. H. Auden Estate of W. H. Auden.</p>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -65,7 +58,7 @@
                         <persName>Eiermann, Emma</persName>
                      </person>
                   </listPerson>
-               <noteGrp><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0042.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescripts W. H. Auden "August 1968" and "Elegy" 1968-10-04</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_2" notBefore-iso="1968-12-13" notAfter-iso="1968-12-13" type="personal">
                   <label>Death Ioannis Boras 1968-12-13</label>
                   <listPerson>
@@ -81,7 +74,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0012.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_3" notBefore-iso="1973-09-28" notAfter-iso="1973-09-28" type="professional">
                   <label>Reading W. H. Auden "Gedichte/Poems" 1973-09-28</label>
                   <listPerson>
@@ -100,9 +93,10 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0020.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1973-09-24</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0049.xml" type="mentions">Invitation Card Österreichische Gesellschaft für Literatur Poetry Reading W. H. Auden 1973-01-01--1973-09-28</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_4" notBefore-iso="1965-11-09" notAfter-iso="1965-11-10" type="historic">
                   <label>Northeast blackout of 1965 1965-11-09--1965-11-10</label>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1251686</idno>
                   <listPerson>
                      <person sameAs="amp_person_1" role="is_passiveparticipant_in">
                         <persName>Auden, W. H.</persName>
@@ -116,10 +110,10 @@
                         </location>
                      </place>
                   </listPlace>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q1251686</idno>
-               <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_5" notBefore-iso="1966-01-01" notAfter-iso="1966-01-13" type="historic">
                   <label>1966 New York City transit strike 1966-01-01--1966-01-13</label>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q3118377</idno>
                   <listPerson>
                      <person sameAs="amp_person_1" role="is_passiveparticipant_in">
                         <persName>Auden, W. H.</persName>
@@ -133,10 +127,13 @@
                         </location>
                      </place>
                   </listPlace>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q3118377</idno>
-               <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_6" notBefore-iso="1967-10-25" notAfter-iso="1967-10-28" type="professional">
                   <label>T S Eliot Memorial Lectures: "Secondary Worlds - Art and Truth" 1967-10-25--1967-10-28</label>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q123758233</idno>
+                  <org sameAs="amp_organization_57" role="is_host_of">
+                     <orgName>Eliot College</orgName>
+                  </org>
                   <listPerson>
                      <person sameAs="amp_person_1" role="is_speaker_in">
                         <persName>Auden, W. H.</persName>
@@ -150,15 +147,10 @@
                         </location>
                      </place>
                   </listPlace>
-                  <listOrg>
-                     <org sameAs="amp_organization_57" role="is_host_of">
-                        <orgName>Eliot College</orgName>
-                     </org>
-                  </listOrg>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q123758233</idno>
-               <noteGrp><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_7" notBefore-iso="1969-05-05" notAfter-iso="1969-05-10" type="historic">
                   <label>State visit of Queen Elizabeth II in Austria 1969-05-05--1969-05-10</label>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q72716379</idno>
                   <listPerson>
                      <person sameAs="amp_person_2" role="is_attendee_of">
                         <persName>Musulin, Stella Mary Bellairs</persName>
@@ -181,14 +173,16 @@
                         </location>
                      </place>
                   </listPlace>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q72716379</idno>
-               <noteGrp><note target="amp-transcript__0014.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_8" notBefore-iso="1815-01-01" notAfter-iso="1848-12-31" type="historic">
                   <label>Biedermeier period</label>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q154432</idno>
-               <noteGrp><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_9" notBefore-iso="1967-10-25" notAfter-iso="1967-10-25" type="professional">
                   <label>W. H. Auden's lecture "The Martyr as Dramatic Hero" 1967-10-25</label>
+                  <org sameAs="amp_organization_57" role="is_host_of">
+                     <orgName>Eliot College</orgName>
+                  </org>
                   <listPerson>
                      <person sameAs="amp_person_1" role="is_activeparticipant_in">
                         <persName>Auden, W. H.</persName>
@@ -211,12 +205,7 @@
                         </location>
                      </place>
                   </listPlace>
-                  <listOrg>
-                     <org sameAs="amp_organization_57" role="is_host_of">
-                        <orgName>Eliot College</orgName>
-                     </org>
-                  </listOrg>
-               <noteGrp><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_10" notBefore-iso="1968-02-12" notAfter-iso="1968-02-16" type="communicative" subtype="meeting">
                   <label>W. H. Auden's interview of Strobls 1968-02-12--1968-02-16</label>
                   <listPerson>
@@ -238,7 +227,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_14" notBefore-iso="1970-06-13" notAfter-iso="1970-06-13" type="personal">
                   <label>"Wedding near Krems" 1970-06-13</label>
                   <listPerson>
@@ -257,7 +246,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0015.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_16" notBefore-iso="1962-08-01" notAfter-iso="1962-08-31" type="communicative" subtype="meeting">
                   <label>Meeting W. H. Auden and Christiane Zimmer  1962-08-01--1962-08-31</label>
                   <listPerson>
@@ -276,7 +265,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0023.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-07-23</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_17" notBefore-iso="1962-10-20" notAfter-iso="1962-10-20" type="communicative" subtype="meeting">
                   <label>Meeting W. H. Auden, Chester Kallman, and Franz Josef Lustkandl 1962-10-20</label>
                   <listPerson>
@@ -298,7 +287,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0025.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-10-17</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_18" notBefore-iso="1973-09-28" notAfter-iso="1973-09-29" type="personal">
                   <label>Death W. H. Auden 1973-09-28--1973-09-29</label>
                   <listPerson>
@@ -314,7 +303,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0030.xml" type="mentions">Copy Typed Letter Stella Musulin to Bruce Duncan 1985-11-29</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_19" notBefore-iso="1973-10-04" notAfter-iso="1973-10-04" type="personal">
                   <label>Funeral of W. H. Auden 1973-10-04</label>
                   <listPerson>
@@ -396,9 +385,15 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0030.xml" type="mentions">Copy Typed Letter Stella Musulin to Bruce Duncan 1985-11-29</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0073.xml" type="mentions">Photograph [Stella Musulin] of Chester Kallman, John Auden, Charles Monteith, Edward Mendelson, Charles Osborne, Sonia Orwell, Stephen Spender, and Lisa Clark at W. H. Auden's Funeral 1973-10-04</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_21" notBefore-iso="1984-10-11" notAfter-iso="1984-10-13" type="professional">
                   <label>Symposium "W. H. Auden 1907-1973" 1984-10-11--1984-10-13</label>
+                  <org sameAs="amp_organization_60" role="is_host_of">
+                     <orgName>Künstlerhaus Wien</orgName>
+                  </org>
+                  <org sameAs="amp_organization_16" role="is_organizer_of">
+                     <orgName>British Council</orgName>
+                  </org>
                   <listPerson>
                      <person sameAs="amp_person_99" role="is_speaker_in">
                         <persName>O'Sullivan, Michael</persName>
@@ -421,15 +416,7 @@
                         </location>
                      </place>
                   </listPlace>
-                  <listOrg>
-                     <org sameAs="amp_organization_60" role="is_host_of">
-                        <orgName>Künstlerhaus Wien</orgName>
-                     </org>
-                     <org sameAs="amp_organization_16" role="is_organizer_of">
-                        <orgName>British Council</orgName>
-                     </org>
-                  </listOrg>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_22" notBefore-iso="1969-05-28" notAfter-iso="1969-05-28" type="personal" subtype="meeting">
                   <label>Meeting W. H. Auden, Friedrich Heer, Chester Kallman, and Stella Musulin 1969-05-28</label>
                   <listPerson>
@@ -454,9 +441,12 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0014.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_23" notBefore-iso="1977-05-05" notAfter-iso="1977-05-05" type="professional">
                   <label>Stella Musulin's talk "W. H. Auden und die Österreicher" 1977-05-05</label>
+                  <org sameAs="amp_organization_9" role="is_organizer_of">
+                     <orgName>Österreichische Gesellschaft für Literatur (Austrian Society for Literature)</orgName>
+                  </org>
                   <listPerson>
                      <person sameAs="amp_person_137" role="is_activeparticipant_in">
                         <persName>Kraus, Wolfgang</persName>
@@ -473,14 +463,12 @@
                         </location>
                      </place>
                   </listPlace>
-                  <listOrg>
-                     <org sameAs="amp_organization_9" role="is_organizer_of">
-                        <orgName>Österreichische Gesellschaft für Literatur (Austrian Society for Literature)</orgName>
-                     </org>
-                  </listOrg>
-               <noteGrp><note target="amp-transcript__0060.xml" type="mentions">Copy Typed Letter Wolfgang Kraus to Stella Musulin 1977-03-22</note><note target="amp-transcript__0061.xml" type="mentions">Typed Letter Signed Stella Musulin to Wolfgang Kraus 1977-04-05</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_25" notBefore-iso="1962-10-04" notAfter-iso="1962-10-04" type="professional">
                   <label>Reading W. H. Auden 1962-10-04</label>
+                  <org sameAs="amp_organization_9" role="is_organizer_of">
+                     <orgName>Österreichische Gesellschaft für Literatur (Austrian Society for Literature)</orgName>
+                  </org>
                   <listPerson>
                      <person sameAs="amp_person_243" role="is_speaker_in">
                         <persName>Gasser, Wolfgang</persName>
@@ -489,14 +477,12 @@
                         <persName>Auden, W. H.</persName>
                      </person>
                   </listPerson>
-                  <listOrg>
-                     <org sameAs="amp_organization_9" role="is_organizer_of">
-                        <orgName>Österreichische Gesellschaft für Literatur (Austrian Society for Literature)</orgName>
-                     </org>
-                  </listOrg>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_26" notBefore-iso="1964-10-15" notAfter-iso="1964-10-18" type="professional">
                   <label>PEN International Executive Committee and Round Table Discussion "Tradition and Innovation in Contemporary Literature" 1964-10-15--1964-10-18</label>
+                  <org sameAs="amp_organization_51" role="is_organizer_of">
+                     <orgName>PEN International</orgName>
+                  </org>
                   <listPerson>
                      <person sameAs="amp_person_1" role="is_speaker_in">
                         <persName>Auden, W. H.</persName>
@@ -510,12 +496,7 @@
                         </location>
                      </place>
                   </listPlace>
-                  <listOrg>
-                     <org sameAs="amp_organization_51" role="is_organizer_of">
-                        <orgName>PEN International</orgName>
-                     </org>
-                  </listOrg>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_27" notBefore-iso="1964-10-01" notAfter-iso="1965-04-01" type="professional">
                   <label>W. H. Auden's Ford Foundation Residency at Berlin, 1964-1965</label>
                   <listPerson>
@@ -534,6 +515,15 @@
                </event>
                <event xml:id="amp_event_id_29" notBefore-iso="1965-05-24" notAfter-iso="1965-05-24" type="professional">
                   <label>W. H. Auden's talk "T. S. Eliot" 1965-05-24</label>
+                  <org sameAs="amp_organization_35" role="is_organizer_of">
+                     <orgName>Österreichisch-Britische Gesellschaft (Austro-British Society)</orgName>
+                  </org>
+                  <org sameAs="amp_organization_16" role="is_organizer_of">
+                     <orgName>British Council</orgName>
+                  </org>
+                  <org sameAs="amp_organization_61" role="is_host_of">
+                     <orgName>Naturhistorisches Museum Wien (Natural History Museum Vienna)</orgName>
+                  </org>
                   <listPerson>
                      <person sameAs="amp_person_2" role="is_passiveparticipant_in">
                         <persName>Musulin, Stella Mary Bellairs</persName>
@@ -550,18 +540,7 @@
                         </location>
                      </place>
                   </listPlace>
-                  <listOrg>
-                     <org sameAs="amp_organization_35" role="is_organizer_of">
-                        <orgName>Österreichisch-Britische Gesellschaft (Austro-British Society)</orgName>
-                     </org>
-                     <org sameAs="amp_organization_16" role="is_organizer_of">
-                        <orgName>British Council</orgName>
-                     </org>
-                     <org sameAs="amp_organization_61" role="is_host_of">
-                        <orgName>Naturhistorisches Museum Wien (Natural History Museum Vienna)</orgName>
-                     </org>
-                  </listOrg>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_30" notBefore-iso="1966-10-18" notAfter-iso="1966-10-18" type="professional">
                   <label>W. H. Auden's sermon delivered in Westminster Abbey 1966-10-18</label>
                   <listPerson>
@@ -577,7 +556,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_31" notBefore-iso="1967-04-24" notAfter-iso="1967-04-26" type="professional">
                   <label>Round table "Literatur als Tradition und Revolution" 1967-04-24--1967-04-26</label>
                   <listPerson>
@@ -611,6 +590,9 @@
                      <person sameAs="amp_person_137" role="is_speaker_in">
                         <persName>Kraus, Wolfgang</persName>
                      </person>
+                     <person sameAs="amp_person_152" role="is_activeparticipant_in">
+                        <persName>Breicha, Otto</persName>
+                     </person>
                   </listPerson>
                   <listPlace>
                      <place sameAs="amp_place_id_85" type="location" subtype="is_event_location">
@@ -626,9 +608,12 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_32" notBefore-iso="1968-07-25" notAfter-iso="1968-07-25" type="professional">
                   <label>W. H. Auden's speech "Worte und Noten: Rede zur Eröffnung der Salzburger Festspiele" 1968-07-25</label>
+                  <org sameAs="amp_organization_62" role="is_host_of">
+                     <orgName>Großes Festspielhaus (Large Festival House)</orgName>
+                  </org>
                   <listPerson>
                      <person sameAs="amp_person_1" role="is_speaker_in">
                         <persName>Auden, W. H.</persName>
@@ -642,12 +627,7 @@
                         </location>
                      </place>
                   </listPlace>
-                  <listOrg>
-                     <org sameAs="amp_organization_62" role="is_host_of">
-                        <orgName>Großes Festspielhaus (Large Festival House)</orgName>
-                     </org>
-                  </listOrg>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_34" notBefore-iso="1968-04-01" notAfter-iso="1968-04-30" type="personal">
                   <label>Car accident W. H. Auden 1968-04</label>
                   <listPerson>
@@ -663,7 +643,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_36" notBefore-iso="1962-10-01" notAfter-iso="1962-10-15" type="personal">
                   <label>Arrest and court trial of Christa K. and Hugo K. 1962</label>
                   <listPerson>
@@ -685,15 +665,19 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_37" notBefore-iso="1970-06-14" notAfter-iso="1970-06-14" type="professional">
                   <label>Lyrik 70 poetry convention 1970-06-14</label>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q124289732</idno>
                   <listPerson>
                      <person sameAs="amp_person_112" role="is_attendee_of">
                         <persName>Maurer, Andreas</persName>
                      </person>
                      <person sameAs="amp_person_1" role="is_speaker_in">
                         <persName>Auden, W. H.</persName>
+                     </person>
+                     <person sameAs="amp_person_152" role="is_organizer_of">
+                        <persName>Breicha, Otto</persName>
                      </person>
                   </listPerson>
                   <listPlace>
@@ -704,8 +688,7 @@
                         </location>
                      </place>
                   </listPlace>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q124289732</idno>
-               <noteGrp><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_38" notBefore-iso="1965-12-21" notAfter-iso="1966-02-03" type="personal">
                   <label>Party at Chester Kallman's apartment in Eslarngasse 18 1965-12-21--1966-02-03</label>
                   <listPerson>
@@ -724,9 +707,10 @@
                         <placeName>Eslarngasse 18</placeName>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_42" notBefore-iso="1968-01-05" notAfter-iso="1968-08-21" type="historic">
                   <label>Prague Spring 1968-01-05--1968-08-21</label>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q162401</idno>
                   <listPerson>
                      <person sameAs="amp_person_1" role="is_passiveparticipant_in">
                         <persName>Auden, W. H.</persName>
@@ -749,8 +733,7 @@
                         </location>
                      </place>
                   </listPlace>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q162401</idno>
-               <noteGrp><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_43" notBefore-iso="1972-04-15" notAfter-iso="1972-09-30" type="personal">
                   <label>Relocation W. H. Auden from New York City to Christ Church, Oxford 1972-04-15--1972-09-30</label>
                   <listPerson>
@@ -758,7 +741,7 @@
                         <persName>Auden, W. H.</persName>
                      </person>
                   </listPerson>
-               <noteGrp><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_45" notBefore-iso="1972-06-21" notAfter-iso="1972-09-19" type="personal">
                   <label>W. H. Auden's legal dispute with Austrian tax authorities 1972-06-21--1972-09-19</label>
                   <listPlace>
@@ -769,9 +752,12 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_46" notBefore-iso="1966-10-25" notAfter-iso="1966-10-25" type="professional">
                   <label>Awarding of Austrian State Prize for European Literature to W. H. Auden 1966-10-25</label>
+                  <org sameAs="amp_organization_43" role="is_organizer_of">
+                     <orgName>Bundesministerium für Unterricht und Kunst (Federal Ministry of Education and the Arts)</orgName>
+                  </org>
                   <listPerson>
                      <person sameAs="amp_person_1" role="is_activeparticipant_in">
                         <persName>Auden, W. H.</persName>
@@ -785,14 +771,10 @@
                         </location>
                      </place>
                   </listPlace>
-                  <listOrg>
-                     <org sameAs="amp_organization_43" role="is_organizer_of">
-                        <orgName>Bundesministerium für Unterricht und Kunst (Federal Ministry of Education and the Arts)</orgName>
-                     </org>
-                  </listOrg>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0052.xml" type="mentions">Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-07-26--1972-08-25</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_47" notBefore-iso="1955-11-01" notAfter-iso="1975-04-30" type="historic">
                   <label>Vietnam War 1955-11-01--1975-04-30</label>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q8740</idno>
                   <listPlace>
                      <place sameAs="amp_place_id_236" type="location" subtype="is_event_location">
                         <placeName>Vietnam</placeName>
@@ -801,12 +783,11 @@
                         </location>
                      </place>
                   </listPlace>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q8740</idno>
-               <noteGrp><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_48" notBefore-iso="1968-01-20" notAfter-iso="1968-01-23" type="historic">
                   <label>Pueblo incident 1968-01-20--1968-01-23</label>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q712703</idno>
-               <noteGrp><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_49" notBefore-iso="1965-10-30" notAfter-iso="1965-10-30" type="historic">
                   <label>Commemorative event Josef Weinheber’s death 1965-10-30</label>
                   <listPerson>
@@ -822,12 +803,13 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_51" type="personal">
                   <label>Death of Josef Eiermann</label>
-               <noteGrp><note target="amp-transcript__0042.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescripts W. H. Auden "August 1968" and "Elegy" 1968-10-04</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_52" notBefore-iso="1945-01-01" notAfter-iso="1948-01-01" type="historic">
                   <label>Expulsion of Germans from Czechoslovakia, 1945-1948</label>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q542945</idno>
                   <listPlace>
                      <place sameAs="amp_place_id_100" type="location" subtype="is_event_location">
                         <placeName>Czechoslovakia</placeName>
@@ -836,18 +818,18 @@
                         </location>
                      </place>
                   </listPlace>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q542945</idno>
-               <noteGrp><note target="amp-transcript__0042.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescripts W. H. Auden "August 1968" and "Elegy" 1968-10-04</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_53" notBefore-iso="1914-07-28" notAfter-iso="1918-11-11" type="historic">
                   <label>World War I 1914-07-28--1918-11-11</label>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q361</idno>
-               <noteGrp><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_54" notBefore-iso="1939-09-01" notAfter-iso="1945-09-02" type="historic">
                   <label>World War II 1939-09-01--1945-09-02</label>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q362</idno>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0052.xml" type="mentions">Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-07-26--1972-08-25</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_55" notBefore-iso="1938-03-12" type="historic">
                   <label>Anschluss (annexation of Austria into Nazi Germany 1938)</label>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q154681</idno>
                   <listPlace>
                      <place sameAs="amp_place_id_10" type="location" subtype="is_event_location">
                         <placeName>Austria</placeName>
@@ -856,10 +838,10 @@
                         </location>
                      </place>
                   </listPlace>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q154681</idno>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_56" type="recurrent">
                   <label>Salzburg Festival</label>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q256443</idno>
                   <listPlace>
                      <place sameAs="amp_place_id_37" type="location" subtype="is_event_location">
                         <placeName>Salzburg</placeName>
@@ -868,8 +850,7 @@
                         </location>
                      </place>
                   </listPlace>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q256443</idno>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_57" notBefore-iso="1959-01-01" notAfter-iso="1959-10-10" type="personal" subtype="meeting">
                   <label>Meeting W. H. Auden and Christiane Zimmer 1959-01-01--1959-10-10</label>
                   <listPerson>
@@ -888,7 +869,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_59" notBefore-iso="1951-03-28" notAfter-iso="1951-03-31" type="professional">
                   <label>First Asian Conference on Cultural Freedom 1951-03-28--1951-03-31</label>
                   <listPerson>
@@ -904,9 +885,12 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_60" notBefore-iso="1941-09-01" notAfter-iso="1942-06-30" type="professional">
                   <label>W. H. Auden's position as Associate Professor of English in the University of Michigan at Ann Arbor 1941-1942</label>
+                  <org sameAs="amp_organization_58" role="is_host_of">
+                     <orgName>University of Michigan</orgName>
+                  </org>
                   <listPerson>
                      <person sameAs="amp_person_1" role="is_activeparticipant_in">
                         <persName>Auden, W. H.</persName>
@@ -920,12 +904,7 @@
                         </location>
                      </place>
                   </listPlace>
-                  <listOrg>
-                     <org sameAs="amp_organization_58" role="is_host_of">
-                        <orgName>University of Michigan</orgName>
-                     </org>
-                  </listOrg>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_61" notBefore-iso="1959-10-05" notAfter-iso="1959-10-05" type="communicative" subtype="letter">
                   <label>Letter Stella Musulin to W. H. Auden 1959-10-05</label>
                   <listPerson>
@@ -944,7 +923,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0070.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1959-10-10</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_62" notBefore-iso="1959-10-10" notAfter-iso="1960-07-21" type="communicative" subtype="postcard">
                   <label>Postcard Stella Musulin to W. H. Auden 1959-10-10--1960-07-21</label>
                   <listPerson>
@@ -955,7 +934,7 @@
                         <persName>Auden, W. H.</persName>
                      </person>
                   </listPerson>
-               <noteGrp><note target="amp-transcript__0045.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1960-07-21</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_63" notBefore-iso="1960-07-23" notAfter-iso="1960-07-23" type="communicative" subtype="meeting">
                   <label>Meeting W. H. Auden, Chester Kallman, and Stella Musulin 1960-07-23</label>
                   <listPerson>
@@ -977,7 +956,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0045.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1960-07-21</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_64" notBefore-iso="1961-10-19" notAfter-iso="1965-08-19" type="communicative" subtype="meeting">
                   <label>Meeting W. H. Auden and Stella Musulin 1961-10-19--1965-08-19</label>
                   <listPerson>
@@ -993,7 +972,7 @@
                         <placeName>"your place" (amp-transcript__0058.xml)</placeName>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0058.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-10-01--1965-08-15</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_65" notBefore-iso="1961-08-16" notAfter-iso="1961-10-13" type="communicative" subtype="letter">
                   <label>Letter Stella Musulin to W. H. Auden 1961-08-16--1961-10-13</label>
                   <listPerson>
@@ -1012,7 +991,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0021.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1961-10-13</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_66" notBefore-iso="1962-05-23" notAfter-iso="1962-05-23" type="professional">
                   <label>Reading Christine Busta "Meine Hinterhöfe" 1962-05-23</label>
                   <listPerson>
@@ -1076,9 +1055,12 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0024.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-09-11</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_69" notBefore-iso="1963-05-12" notAfter-iso="1963-05-17" type="professional">
                   <label>International Rudolf Kassner Symposium 1963-05-12--1963-05-17</label>
+                  <org sameAs="amp_organization_9" role="is_organizer_of">
+                     <orgName>Österreichische Gesellschaft für Literatur (Austrian Society for Literature)</orgName>
+                  </org>
                   <listPerson>
                      <person sameAs="amp_person_1" role="is_activeparticipant_in">
                         <persName>Auden, W. H.</persName>
@@ -1095,12 +1077,7 @@
                         </location>
                      </place>
                   </listPlace>
-                  <listOrg>
-                     <org sameAs="amp_organization_9" role="is_organizer_of">
-                        <orgName>Österreichische Gesellschaft für Literatur (Austrian Society for Literature)</orgName>
-                     </org>
-                  </listOrg>
-               <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_70" notBefore-iso="1964-09-01" notAfter-iso="1964-12-23" type="communicative" subtype="letter">
                   <label>Letter Stella Musulin to W. H. Auden 1964-09-01--1964-12-23</label>
                   <listPerson>
@@ -1119,7 +1096,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0002.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_71" notBefore-iso="1963-05-13" notAfter-iso="1963-05-13" type="communicative" subtype="telephone">
                   <label>Telephone call W. H. Auden to Stella Musulin 1963-05-13</label>
                   <listPerson>
@@ -1130,7 +1107,7 @@
                         <persName>Musulin, Stella Mary Bellairs</persName>
                      </person>
                   </listPerson>
-               <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_72" notBefore-iso="1965-03-15" notAfter-iso="1965-04-28" type="communicative" subtype="letter">
                   <label>Letter Stella Musulin to W. H. Auden 1965-03-15--1965-04-28</label>
                   <listPerson>
@@ -1149,7 +1126,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_73" notBefore-iso="1965-04-28" notAfter-iso="1965-04-28" type="communicative" subtype="telephone">
                   <label>Telephone call W. H. Auden to Stella Musulin 1965-04-28</label>
                   <listPerson>
@@ -1160,7 +1137,7 @@
                         <persName>Musulin, Stella Mary Bellairs</persName>
                      </person>
                   </listPerson>
-               <noteGrp><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_74" notBefore-iso="1965-04-28" notAfter-iso="1965-09-29" type="communicative" subtype="letter">
                   <label>Letter Stella Musulin to W. H. Auden 1965-04-28--1965-09-29</label>
                   <listPerson>
@@ -1179,7 +1156,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0003.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_75" notBefore-iso="1965-10-05" notAfter-iso="1965-10-05" type="professional">
                   <label>Reception Amerikahaus Vienna (1957-1971) 1965-10-05</label>
                   <listPerson>
@@ -1195,7 +1172,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0003.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_76" notBefore-iso="1965-09-29" notAfter-iso="1966-02-03" type="communicative" subtype="letter">
                   <label>Letter Stella Musulin to W. H. Auden 1965-09-29--1966-02-03</label>
                   <listPerson>
@@ -1214,7 +1191,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_77" notBefore-iso="1965-09-29" notAfter-iso="1966-02-03" type="communicative" subtype="telegram">
                   <label>Telegram Harrison 1965-09-29--1966-02-03</label>
                   <listPerson>
@@ -1236,7 +1213,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_78" notBefore-iso="1968-09-29" notAfter-iso="1968-09-29" type="communicative" subtype="meeting">
                   <label>Meeting W. H. Auden, Chester Kallman, and Stella Musulin 1968-09-29</label>
                   <listPerson>
@@ -1258,7 +1235,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0042.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescripts W. H. Auden "August 1968" and "Elegy" 1968-10-04</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_79" notBefore-iso="1968-10-05" notAfter-iso="1968-10-05" type="communicative" subtype="telegram">
                   <label>Telegram Stella Musulin to W. H. Auden 1968-10-05</label>
                   <listPerson>
@@ -1277,7 +1254,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0007.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-06</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_80" notBefore-iso="1968-10-05" notAfter-iso="1968-10-05" type="communicative" subtype="telephone">
                   <label>Telephone call W. H. Auden to Stella Musulin 1968-10-05</label>
                   <listPerson>
@@ -1296,7 +1273,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0007.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-06</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_81" notBefore-iso="1968-10-06" notAfter-iso="1968-10-06" type="communicative" subtype="telephone">
                   <label>Telephone call W. H. Auden to Stella Musulin 1968-10-06</label>
                   <listPerson>
@@ -1315,7 +1292,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0007.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-06</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_82" notBefore-iso="1968-02-12" notAfter-iso="1968-02-12" type="personal" subtype="travel">
                   <label>Arrival W. H. Auden in Vienna from New York City 1968-02-12</label>
                   <listPerson>
@@ -1331,7 +1308,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_83" notBefore-iso="1968-10-07" notAfter-iso="1968-10-07" type="personal" subtype="travel">
                   <label>Departure W. H. Auden to England from Austria 1968-10-07</label>
                   <listPerson>
@@ -1347,7 +1324,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0007.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-06</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_84" notBefore-iso="1963-05-14" notAfter-iso="1963-05-14" type="personal" subtype="travel">
                   <label>Arrival Chester Kallman in Kirchstetten from Florence 1963-05-14</label>
                   <listPerson>
@@ -1363,7 +1340,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_85" notBefore-iso="1965-04-22" notAfter-iso="1965-04-22" type="personal" subtype="travel">
                   <label>Arrival W. H. Auden in Kirchstetten from Berlin 1965-04-22</label>
                   <listPerson>
@@ -1379,7 +1356,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_86" notBefore-iso="1966-04-20" notAfter-iso="1966-04-20" type="personal" subtype="travel">
                   <label>Arrival W. H. Auden in Kirchstetten from New York City 1966-04-20</label>
                   <listPerson>
@@ -1395,7 +1372,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_87" notBefore-iso="1968-10-14" notAfter-iso="1968-10-14" type="personal" subtype="travel">
                   <label>Arrival W. H. Auden in London from Oxford 1968-10-14</label>
                   <listPerson>
@@ -1411,7 +1388,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_88" notBefore-iso="1968-10-12" notAfter-iso="1968-10-15" type="communicative" subtype="letter">
                   <label>Letter Stella Musulin to W. H. Auden 1968-10-12--1968-10-15</label>
                   <listPerson>
@@ -1430,7 +1407,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_89" notBefore-iso="1968-10-31" notAfter-iso="1968-10-31" type="personal" subtype="travel">
                   <label>Departure W. H. Auden to New York City from London 1968-10-31</label>
                   <listPerson>
@@ -1446,7 +1423,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0044.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_90" notBefore-iso="1968-10-15" notAfter-iso="1968-10-24" type="communicative" subtype="letter">
                   <label>Letter Stella Musulin to W. H. Auden 1968-10-15--1968-10-24</label>
                   <listPerson>
@@ -1465,7 +1442,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0044.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_91" notBefore-iso="1968-10-24" notAfter-iso="1968-11-06" type="communicative" subtype="letter">
                   <label>Letter Stella Musulin to W. H. Auden 1968-10-24--1968-11-06</label>
                   <listPerson>
@@ -1484,7 +1461,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0010.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-11-06</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_92" notBefore-iso="1968-12-13" notAfter-iso="1968-12-13" type="communicative" subtype="telephone">
                   <label>Telephone call Chester Kallman to W. H. Auden 1968-12-13</label>
                   <listPerson>
@@ -1503,7 +1480,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_93" notBefore-iso="1968-12-29" notAfter-iso="1969-01-04" type="communicative" subtype="letter">
                   <label>Letter Stella Musulin to W. H. Auden 1968-12-29--1969-01-04</label>
                   <listPerson>
@@ -1522,7 +1499,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_94" notBefore-iso="1969-01-04" notAfter-iso="1969-05-21" type="communicative" subtype="postcard">
                   <label>Postcard Stella Musulin to W. H. Auden 1969-01-04--1969-05-21</label>
                   <listPerson>
@@ -1541,7 +1518,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0014.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_95" notBefore-iso="1969-01-04" notAfter-iso="1969-05-21" type="communicative" subtype="telephone">
                   <label>Telephone call W. H. Auden to Stella Musulin 1969-01-04--1969-05-21</label>
                   <listPerson>
@@ -1560,9 +1537,12 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0014.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_96" notBefore-iso="1969-05-06" notAfter-iso="1969-05-06">
                   <label>Opera performance "Die Fledermaus" Vienna State Opera 1969-05-06</label>
+                  <org sameAs="amp_organization_90" role="is_organizer_of">
+                     <orgName>Vienna State Opera</orgName>
+                  </org>
                   <listPerson>
                      <person sameAs="amp_person_2" role="is_attendee_of">
                         <persName>Musulin, Stella Mary Bellairs</persName>
@@ -1579,12 +1559,7 @@
                         </location>
                      </place>
                   </listPlace>
-                  <listOrg>
-                     <org sameAs="amp_organization_90" role="is_organizer_of">
-                        <orgName>Vienna State Opera</orgName>
-                     </org>
-                  </listOrg>
-               <noteGrp><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_97" notBefore-iso="1969-06-14" notAfter-iso="1969-06-14" type="communicative" subtype="meeting">
                   <label>Meeting W. H. Auden and Stella Musulin 1969-06-14</label>
                   <listPerson>
@@ -1603,7 +1578,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0040.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-06-10</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_98" notBefore-iso="1970-05-21" notAfter-iso="1970-06-10" type="communicative" subtype="letter">
                   <label>Letter Stella Musulin to W. H. Auden 1970-05-21--1970-06-10</label>
                   <listPerson>
@@ -1622,7 +1597,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0015.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_99" notBefore-iso="1970-09-22" notAfter-iso="1970-09-22" type="communicative" subtype="meeting">
                   <label>Meeting W. H. Auden, Margaret Lloyd-Philipps, and Stella Musulin 1970-09-22</label>
                   <listPerson>
@@ -1644,7 +1619,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0016.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-09-18</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_100" notBefore-iso="1971-05-15" notAfter-iso="1971-05-15" type="communicative" subtype="meeting">
                   <label>Meeting W. H. Auden, Chester Kallman, and Stella Musulin 1971-05-15</label>
                   <listPerson>
@@ -1666,7 +1641,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0035.xml" type="mentions">Telegram W. H. Auden to Stella Musulin 1971-05-13</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_101" notBefore-iso="1971-11-01" notAfter-iso="1971-11-01" type="personal" subtype="travel">
                   <label>Departure W. H. Auden to New York City from London 1971-11-01</label>
                   <listPerson>
@@ -1682,7 +1657,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_102" notBefore-iso="1971-10-19" notAfter-iso="1972-02-22" type="communicative" subtype="letter">
                   <label>Letter Stella Musulin to W. H. Auden 1971-10-19--1972-02-22</label>
                   <listPerson>
@@ -1701,7 +1676,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_103" notBefore-iso="1969-05-05" notAfter-iso="1969-05-05" type="historic">
                   <label>Gala dinner Schönbrunn Palace 1969-05-05</label>
                   <listPerson>
@@ -1717,7 +1692,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_104" notBefore-iso="1969-03-01" notAfter-iso="1969-03-01" type="communicative" subtype="letter">
                   <label>Letter W. H. Auden to Elizabeth Mayer 1965-03-01</label>
                   <listPerson>
@@ -1731,6 +1706,13 @@
                </event>
                <event xml:id="amp_event_id_105" notBefore-iso="1984-10-11" notAfter-iso="1984-11-03" type="professional">
                   <label>Exhibition "W. H. Auden 1907-1973" 1984-10-11--1984-11-03</label>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q124830790</idno>
+                  <org sameAs="amp_organization_16" role="is_organizer_of">
+                     <orgName>British Council</orgName>
+                  </org>
+                  <org sameAs="amp_organization_60" role="is_host_of">
+                     <orgName>Künstlerhaus Wien</orgName>
+                  </org>
                   <listPerson>
                      <person sameAs="amp_person_99" role="is_activeparticipant_in">
                         <persName>O'Sullivan, Michael</persName>
@@ -1753,18 +1735,12 @@
                         </location>
                      </place>
                   </listPlace>
-                  <listOrg>
-                     <org sameAs="amp_organization_16" role="is_organizer_of">
-                        <orgName>British Council</orgName>
-                     </org>
-                     <org sameAs="amp_organization_60" role="is_host_of">
-                        <orgName>Künstlerhaus Wien</orgName>
-                     </org>
-                  </listOrg>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q124830790</idno>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0034.xml" type="mentions">Typed Letter Signed Michael O'Sullivan to Stella Musulin 1984-05-31</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_106" notBefore-iso="1976-06-23" notAfter-iso="1976-06-23" type="professional">
                   <label>Talk Stella Musulin "Auden in Kirchstetten" 1976-06-23</label>
+                  <org sameAs="amp_organization_47" role="is_organizer_of">
+                     <orgName>English PEN</orgName>
+                  </org>
                   <listPerson>
                      <person sameAs="amp_person_2" role="is_speaker_in">
                         <persName>Musulin, Stella Mary Bellairs</persName>
@@ -1778,12 +1754,7 @@
                         </location>
                      </place>
                   </listPlace>
-                  <listOrg>
-                     <org sameAs="amp_organization_47" role="is_organizer_of">
-                        <orgName>English PEN</orgName>
-                     </org>
-                  </listOrg>
-               <noteGrp><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_107" notBefore-iso="1957-07-15" notAfter-iso="1957-07-15" type="communicative" subtype="letter">
                   <label>Letter W. H. Auden to Christa Esders 1957-07-15</label>
                   <listPerson>
@@ -1822,9 +1793,12 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_109" type="professional">
                   <label>Reading W. H. Auden "Hier und Jetzt"</label>
+                  <org sameAs="amp_organization_9" role="is_organizer_of">
+                     <orgName>Österreichische Gesellschaft für Literatur (Austrian Society for Literature)</orgName>
+                  </org>
                   <listPerson>
                      <person sameAs="amp_person_1" role="is_speaker_in">
                         <persName>Auden, W. H.</persName>
@@ -1838,12 +1812,7 @@
                         </location>
                      </place>
                   </listPlace>
-                  <listOrg>
-                     <org sameAs="amp_organization_9" role="is_organizer_of">
-                        <orgName>Österreichische Gesellschaft für Literatur (Austrian Society for Literature)</orgName>
-                     </org>
-                  </listOrg>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_110" notBefore-iso="1970-05-19" notAfter-iso="1970-05-19" type="professional" subtype="telegram">
                   <label>Telegram W. H. Auden to Stella Musulin 1970-05-19</label>
                   <listPerson>
@@ -1862,7 +1831,7 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_111" type="professional" subtype="letter">
                   <label>Letter Oskar Kokoschka to W. H. Auden</label>
                   <listPerson>
@@ -1873,7 +1842,7 @@
                         <persName>Kokoschka, Oskar</persName>
                      </person>
                   </listPerson>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_112" notBefore-iso="1968-02-16" notAfter-iso="1968-02-16" type="personal" subtype="travel">
                   <label>Departure W. H. Auden to New York City from Vienna 1968-02-16</label>
                   <listPerson>
@@ -1889,9 +1858,12 @@
                         </location>
                      </place>
                   </listPlace>
-               <noteGrp><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note></noteGrp></event>
+               </event>
                <event xml:id="amp_event_id_113" notBefore-iso="1965-03-14" notAfter-iso="1965-06-04">
                   <label>Opera performance "The Rake's Progress" Vienna State Opera 1965-03-14--1965-06-04</label>
+                  <org sameAs="amp_organization_90" role="is_organizer_of">
+                     <orgName>Vienna State Opera</orgName>
+                  </org>
                   <listPerson>
                      <person sameAs="amp_person_250" role="is_activeparticipant_in">
                         <persName>Schenk, Otto</persName>
@@ -1908,12 +1880,7 @@
                         </location>
                      </place>
                   </listPlace>
-                  <listOrg>
-                     <org sameAs="amp_organization_90" role="is_organizer_of">
-                        <orgName>Vienna State Opera</orgName>
-                     </org>
-                  </listOrg>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note></noteGrp></event>
+               </event>
             </listEvent>
          </div>
       </body>
