@@ -158,35 +158,42 @@ for any purpose, even commercially.</p>
          </div>
       </div>
       </body>
-   <back><listPlace><place xml:id="amp_place_id_45">
-                  <settlement type="S">
-                     <placeName>32 Bryanston Square</placeName>
-                  </settlement>
-                  <desc type="entity_type">spot, building, farm</desc>
-                  <country>GB, United Kingdom</country>
-                  <location type="located_in_place">
-                     <placeName key="amp_place_id_56">London</placeName>
-                  </location>
-                  <location type="coords">
-                     <geo>51.51954, -0.16167</geo>
-                  </location>
-                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12503862/</idno>
-               <noteGrp><note target="amp-transcript__0008.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-12</note><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0044.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
-               <place xml:id="amp_place_id_29">
-                  <settlement type="S">
-                     <placeName>77 St. Mark's Place</placeName>
-                  </settlement>
-                  <desc type="entity_type">spot, building, farm</desc>
-                  <country>US, United States</country>
-                  <location type="located_in_place">
-                     <placeName key="amp_place_id_259">St. Mark's Place</placeName>
-                  </location>
-                  <location type="coords">
-                     <geo>40.72839, -73.98359</geo>
-                  </location>
-                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12503865/</idno>
-               <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0010.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-11-06</note><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0012.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</note><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0044.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
-               <place xml:id="amp_place_id_28">
+   <back><listEvent><event xml:id="amp_event_id_90" notBefore-iso="1968-10-15" notAfter-iso="1968-10-24" type="communicative" subtype="letter">
+                  <label>Letter Stella Musulin to W. H. Auden 1968-10-15--1968-10-24</label>
+                  <noteGrp><note target="amp-transcript__0044.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</note></noteGrp><listPerson>
+                     <person sameAs="amp_person_2" role="is_activeparticipant_in">
+                        <persName>Musulin, Stella Mary Bellairs</persName>
+                     </person>
+                     <person sameAs="amp_person_1" role="is_passiveparticipant_in">
+                        <persName>Auden, W. H.</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place sameAs="amp_place_id_45" type="location" subtype="is_event_location">
+                        <placeName>32 Bryanston Square</placeName>
+                        <location type="coords">
+                           <geo>51.51954, -0.16167</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </event>
+               <event xml:id="amp_event_id_89" notBefore-iso="1968-10-31" notAfter-iso="1968-10-31" type="personal" subtype="travel">
+                  <label>Departure W. H. Auden to New York City from London 1968-10-31</label>
+                  <noteGrp><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0044.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</note></noteGrp><listPerson>
+                     <person sameAs="amp_person_1" role="is_activeparticipant_in">
+                        <persName>Auden, W. H.</persName>
+                     </person>
+                  </listPerson>
+                  <listPlace>
+                     <place sameAs="amp_place_id_56" type="location" subtype="is_event_location">
+                        <placeName>London</placeName>
+                        <location type="coords">
+                           <geo>51.50853, -0.12574</geo>
+                        </location>
+                     </place>
+                  </listPlace>
+               </event>
+               </listEvent><listPlace><place xml:id="amp_place_id_28">
                   <settlement type="P">
                      <placeName>New York City</placeName>
                   </settlement>
@@ -202,6 +209,34 @@ for any purpose, even commercially.</p>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q60</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4042011-5</idno>
                <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0010.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-11-06</note><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0012.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</note><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note><note target="amp-transcript__0044.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               <place xml:id="amp_place_id_29">
+                  <settlement type="S">
+                     <placeName>77 St. Mark's Place</placeName>
+                  </settlement>
+                  <desc type="entity_type">spot, building, farm</desc>
+                  <country>US, United States</country>
+                  <location type="located_in_place">
+                     <placeName key="amp_place_id_259">St. Mark's Place</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>40.72839, -73.98359</geo>
+                  </location>
+                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12503865/</idno>
+               <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0010.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-11-06</note><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0012.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</note><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0044.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               <place xml:id="amp_place_id_45">
+                  <settlement type="S">
+                     <placeName>32 Bryanston Square</placeName>
+                  </settlement>
+                  <desc type="entity_type">spot, building, farm</desc>
+                  <country>GB, United Kingdom</country>
+                  <location type="located_in_place">
+                     <placeName key="amp_place_id_56">London</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>51.51954, -0.16167</geo>
+                  </location>
+                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12503862/</idno>
+               <noteGrp><note target="amp-transcript__0008.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-12</note><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0044.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
                </listPlace><listPerson><person xml:id="amp_person_2">
                   <persName>
                      <forename>Stella Mary Bellairs</forename>
@@ -388,40 +423,5 @@ for any purpose, even commercially.</p>
                      <surname>Langer</surname>
                   </persName>
                <noteGrp><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0044.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
-               </listPerson><listEvent><event xml:id="amp_event_id_89" notBefore-iso="1968-10-31" notAfter-iso="1968-10-31" type="personal" subtype="travel">
-                  <label>Departure W. H. Auden to New York City from London 1968-10-31</label>
-                  <noteGrp><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0044.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</note></noteGrp><listPerson>
-                     <person sameAs="amp_person_1" role="is_activeparticipant_in">
-                        <persName>Auden, W. H.</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place sameAs="amp_place_id_56" type="location" subtype="is_event_location">
-                        <placeName>London</placeName>
-                        <location type="coords">
-                           <geo>51.50853, -0.12574</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </event>
-               <event xml:id="amp_event_id_90" notBefore-iso="1968-10-15" notAfter-iso="1968-10-24" type="communicative" subtype="letter">
-                  <label>Letter Stella Musulin to W. H. Auden 1968-10-15--1968-10-24</label>
-                  <noteGrp><note target="amp-transcript__0044.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</note></noteGrp><listPerson>
-                     <person sameAs="amp_person_2" role="is_activeparticipant_in">
-                        <persName>Musulin, Stella Mary Bellairs</persName>
-                     </person>
-                     <person sameAs="amp_person_1" role="is_passiveparticipant_in">
-                        <persName>Auden, W. H.</persName>
-                     </person>
-                  </listPerson>
-                  <listPlace>
-                     <place sameAs="amp_place_id_45" type="location" subtype="is_event_location">
-                        <placeName>32 Bryanston Square</placeName>
-                        <location type="coords">
-                           <geo>51.51954, -0.16167</geo>
-                        </location>
-                     </place>
-                  </listPlace>
-               </event>
-               </listEvent></back></text>
+               </listPerson></back></text>
 </TEI>

@@ -39,7 +39,7 @@
         "value": "hasTitle"
       }
     ],
-    "Subject_uri": "https://id.acdh.oeaw.ac.at/org-apa"
+    "Subject_uri": "https://id.acdh.oeaw.ac.at/apa"
   },
   "15": {
     "id": 15,
@@ -123,6 +123,6 @@
         "value": "hasIdentifier"
       }
     ],
-    "Subject_uri": "https://id.acdh.oeaw.ac.at/org-apa"
+    "Subject_uri": "https://id.acdh.oeaw.ac.at/apa"
   }
 }
