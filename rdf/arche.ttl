@@ -11906,7 +11906,7 @@
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
         <https://orcid.org/0000-0002-0636-4476> ;
     arche:hasDepositor <https://d-nb.info/gnd/1024881253> ;
-    arche:hasDescription "TEI/XML Schema RNG for \"Auden Musulin Papers\" Indexes"@en ;
+    arche:hasDescription "TEI/XML Schema ODD for \"Auden Musulin Papers\" Indexes"@en ;
     arche:hasFormat "text/xml"@und ;
     arche:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0> ;
     arche:hasLicensor <https://d-nb.info/gnd/1123037736> ;
@@ -11917,7 +11917,7 @@
     arche:hasOwner <https://d-nb.info/gnd/1123037736> ;
     arche:hasPid "create" ;
     arche:hasRightsHolder <https://d-nb.info/gnd/1001454-8> ;
-    arche:hasTitle "TEI/XML Schema RNG for \"Auden Musulin Papers\" Indexes"@en ;
+    arche:hasTitle "TEI/XML Schema ODD for \"Auden Musulin Papers\" Indexes"@en ;
     arche:isMetadataFor <https://id.acdh.oeaw.ac.at/auden-musulin-papers/indexes> ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/indexes> .
 
@@ -11969,7 +11969,7 @@
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
         <https://orcid.org/0000-0002-0636-4476> ;
     arche:hasDepositor <https://d-nb.info/gnd/1024881253> ;
-    arche:hasDescription "TEI/XML Schema ODD for \"Auden Musulin Papers\" Edition Prose Documents"@en ;
+    arche:hasDescription "TEI/XML Schema RNG for \"Auden Musulin Papers\" Edition Prose Documents"@en ;
     arche:hasFormat "text/xml"@und ;
     arche:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0> ;
     arche:hasLicensor <https://d-nb.info/gnd/1123037736> ;
@@ -11980,7 +11980,7 @@
     arche:hasOwner <https://d-nb.info/gnd/1123037736> ;
     arche:hasPid "create" ;
     arche:hasRightsHolder <https://d-nb.info/gnd/1001454-8> ;
-    arche:hasTitle "TEI/XML Schema ODD for \"Auden Musulin Papers\" Edition Prose Documents"@en ;
+    arche:hasTitle "TEI/XML Schema RNG for \"Auden Musulin Papers\" Edition Prose Documents"@en ;
     arche:isMetadataFor <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition> ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition> .
 
@@ -12011,7 +12011,7 @@
     arche:hasCurator <https://d-nb.info/gnd/1043833846>,
         <https://orcid.org/0000-0002-0636-4476> ;
     arche:hasDepositor <https://d-nb.info/gnd/1024881253> ;
-    arche:hasDescription "TEI/XML Schema ODD for \"Auden Musulin Papers\" Edition Correspondence Documents"@en ;
+    arche:hasDescription "TEI/XML Schema RNG for \"Auden Musulin Papers\" Edition Correspondence Documents"@en ;
     arche:hasFormat "text/xml"@und ;
     arche:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0> ;
     arche:hasLicensor <https://d-nb.info/gnd/1123037736> ;
@@ -12022,7 +12022,7 @@
     arche:hasOwner <https://d-nb.info/gnd/1123037736> ;
     arche:hasPid "create" ;
     arche:hasRightsHolder <https://d-nb.info/gnd/1001454-8> ;
-    arche:hasTitle "TEI/XML Schema ODD for \"Auden Musulin Papers\" Edition Correspondence Documents"@en ;
+    arche:hasTitle "TEI/XML Schema RNG for \"Auden Musulin Papers\" Edition Correspondence Documents"@en ;
     arche:isMetadataFor <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition> ;
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition> .
 

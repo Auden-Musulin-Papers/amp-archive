@@ -390,7 +390,16 @@
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/1068332212</idno>
                   <note/>
                <noteGrp><note target="amp-transcript__0061.xml" type="mentions">Typed Letter Signed Stella Musulin to Wolfgang Kraus 1977-04-05</note></noteGrp></place>
-               </listPlace><listEvent><event xml:id="amp_event_id_23" notBefore-iso="1977-05-05" notAfter-iso="1977-05-05" type="professional">
+               </listPlace><listBibl><bibl xml:id="lit_work_id_126" type="speech">
+               <title>W. H. Auden und die Österreicher</title>
+               <author ref="#amp_person_2">
+                  <persName>Musulin, Stella Mary Bellairs</persName>
+               </author>
+               <date when="1977">1977</date>
+               <idno type="URL" subtype="OTHER">https://www.mediathek.at/atom/046F4F16-1B8-0020E-00000A7C-046E80D1</idno>
+               <lang>de</lang>
+            <noteGrp><note target="amp-transcript__0060.xml" type="mentions">Copy Typed Letter Wolfgang Kraus to Stella Musulin 1977-03-22</note><note target="amp-transcript__0061.xml" type="mentions">Typed Letter Signed Stella Musulin to Wolfgang Kraus 1977-04-05</note></noteGrp></bibl>
+            </listBibl><listEvent><event xml:id="amp_event_id_23" notBefore-iso="1977-05-05" notAfter-iso="1977-05-05" type="professional">
                   <label>Stella Musulin's talk "W. H. Auden und die Österreicher" 1977-05-05</label>
                   <noteGrp><note target="amp-transcript__0060.xml" type="mentions">Copy Typed Letter Wolfgang Kraus to Stella Musulin 1977-03-22</note><note target="amp-transcript__0061.xml" type="mentions">Typed Letter Signed Stella Musulin to Wolfgang Kraus 1977-04-05</note></noteGrp><org sameAs="amp_organization_9" role="is_organizer_of">
                      <orgName>Österreichische Gesellschaft für Literatur (Austrian Society for Literature)</orgName>
@@ -412,14 +421,5 @@
                      </place>
                   </listPlace>
                </event>
-               </listEvent><listBibl><bibl xml:id="lit_work_id_126" type="speech">
-               <title>W. H. Auden und die Österreicher</title>
-               <author ref="#amp_person_2">
-                  <persName>Musulin, Stella Mary Bellairs</persName>
-               </author>
-               <date when="1977">1977</date>
-               <idno type="URL" subtype="OTHER">https://www.mediathek.at/atom/046F4F16-1B8-0020E-00000A7C-046E80D1</idno>
-               <lang>de</lang>
-            <noteGrp><note target="amp-transcript__0060.xml" type="mentions">Copy Typed Letter Wolfgang Kraus to Stella Musulin 1977-03-22</note><note target="amp-transcript__0061.xml" type="mentions">Typed Letter Signed Stella Musulin to Wolfgang Kraus 1977-04-05</note></noteGrp></bibl>
-            </listBibl></back></text>
+               </listEvent></back></text>
 </TEI>
