@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at" xml:id="amp-index-organizations.xml" prev="https://id.acdh.oeaw.ac.at/amp-index-events.xml" next="https://id.acdh.oeaw.ac.at/amp-index-persons.xml">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema-indexes.rng"?><?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema-indexes.odd"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:base="https://id.acdh.oeaw.ac.at" xml:id="amp-index-organizations.xml" prev="https://id.acdh.oeaw.ac.at/amp-index-events.xml" next="https://id.acdh.oeaw.ac.at/amp-index-persons.xml">
    <teiHeader>
       <fileDesc>
          <titleStmt>
