@@ -125,24 +125,7 @@ for any purpose, even commercially.</p>
             </div>
          </div>
       </body>
-   <back><listPlace><place xml:id="amp_place_id_217">
-                  <settlement type="S">
-                     <placeName>Alser Straße 48</placeName>
-                  </settlement>
-                  <desc type="entity_type">spot, building, farm</desc>
-                  <country>AT, Austria</country>
-                  <location type="located_in_place">
-                     <placeName key="amp_place_id_1">Vienna</placeName>
-                  </location>
-                  <location type="coords">
-                     <geo>48.21561, 16.34315</geo>
-                  </location>
-                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12503866/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q2651453</idno>
-                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/1068799889</idno>
-                  <note/>
-               <noteGrp><note target="amp-transcript__0050.xml" type="mentions">Photograph Otto Breicha of W. H. Auden and Mary McCarthy 1967-04-24--1967-04-26</note></noteGrp></place>
-               </listPlace><listPerson><person xml:id="amp_person_152">
+   <back><listPerson><person xml:id="amp_person_152">
                   <persName>
                      <forename>Otto</forename>
                      <surname>Breicha</surname>
@@ -162,5 +145,22 @@ for any purpose, even commercially.</p>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/116469986</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q2038348</idno>
                <noteGrp><note target="amp-transcript__0050.xml" type="mentions">Photograph Otto Breicha of W. H. Auden and Mary McCarthy 1967-04-24--1967-04-26</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
-               </listPerson></back></text>
+               </listPerson><listPlace><place xml:id="amp_place_id_217">
+                  <settlement type="S">
+                     <placeName>Alser Straße 48</placeName>
+                  </settlement>
+                  <desc type="entity_type">spot, building, farm</desc>
+                  <country>AT, Austria</country>
+                  <location type="located_in_place">
+                     <placeName key="amp_place_id_1">Vienna</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>48.21561, 16.34315</geo>
+                  </location>
+                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12503866/</idno>
+                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q2651453</idno>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/1068799889</idno>
+                  <note/>
+               <noteGrp><note target="amp-transcript__0050.xml" type="mentions">Photograph Otto Breicha of W. H. Auden and Mary McCarthy 1967-04-24--1967-04-26</note></noteGrp></place>
+               </listPlace></back></text>
 </TEI>
