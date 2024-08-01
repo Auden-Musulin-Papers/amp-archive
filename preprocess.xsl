@@ -16,8 +16,24 @@
     </xsl:template>
 
     <xsl:template match="tei:TEI">
-        <xsl:text disable-output-escaping='yes'>&lt;?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?&gt;</xsl:text>
-        <xsl:text disable-output-escaping='yes'>&lt;?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?&gt;</xsl:text>
+        <xsl:choose>
+            <xsl:when test=".//tei:body/tei:div[@type='transcription']/tei:div[@type='envelope' or @type='letter']">
+                <xsl:text disable-output-escaping='yes'>&lt;?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?&gt;</xsl:text>
+                <xsl:text disable-output-escaping='yes'>&lt;?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?&gt;</xsl:text>
+            </xsl:when>
+            <xsl:when test=".//tei:body/tei:div[@type='transcription']/tei:div[@type='prose']">
+                <xsl:text disable-output-escaping='yes'>&lt;?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema-prose.rng"?&gt;</xsl:text>
+                <xsl:text disable-output-escaping='yes'>&lt;?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema-prose.odd"?&gt;</xsl:text>
+            </xsl:when>
+            <xsl:when test=".//tei:body/tei:div[@type='transcription']/tei:div[@type='photo']">
+                <xsl:text disable-output-escaping='yes'>&lt;?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.rng"?&gt;</xsl:text>
+                <xsl:text disable-output-escaping='yes'>&lt;?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema.odd"?&gt;</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:text disable-output-escaping='yes'>&lt;?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema-indexes.rng"?&gt;</xsl:text>
+                <xsl:text disable-output-escaping='yes'>&lt;?xml-model href="https://id.acdh.oeaw.ac.at/auden-musulin-papers/schema-indexes.odd"?&gt;</xsl:text>
+            </xsl:otherwise>
+        </xsl:choose>
         <xsl:copy>
             <xsl:apply-templates select="node()|@*"/>
         </xsl:copy>
