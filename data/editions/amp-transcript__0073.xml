@@ -143,26 +143,6 @@
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/1124937285</idno>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q18526885</idno>
                <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0073.xml" type="mentions">Photograph [Stella Musulin] of Chester Kallman, John Auden, Charles Monteith, Edward Mendelson, Charles Osborne, Sonia Orwell, Stephen Spender, and Lisa Clark at W. H. Auden's Funeral 1973-10-04</note></noteGrp></person>
-               <person xml:id="amp_person_88">
-                  <persName>
-                     <forename>John Bicknell</forename>
-                     <surname>Auden</surname>
-                  </persName>
-                  <birth>
-                     <date when-iso="1903-12-14">1903-12-14</date>
-                     <settlement key="amp_place_id_3">
-                        <placeName>York</placeName>
-                     </settlement>
-                  </birth>
-                  <death>
-                     <date when-iso="1991-01-21">1991-01-21</date>
-                     <settlement key="amp_place_id_56">
-                        <placeName>London</placeName>
-                     </settlement>
-                  </death>
-                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/1089340591</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q14946819</idno>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0030.xml" type="mentions">Copy Typed Letter Stella Musulin to Bruce Duncan 1985-11-29</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0073.xml" type="mentions">Photograph [Stella Musulin] of Chester Kallman, John Auden, Charles Monteith, Edward Mendelson, Charles Osborne, Sonia Orwell, Stephen Spender, and Lisa Clark at W. H. Auden's Funeral 1973-10-04</note></noteGrp></person>
                <person xml:id="amp_person_8">
                   <persName>
                      <forename>Stephen</forename>
@@ -188,6 +168,26 @@
                      <bibl n="lit_work_id_177">The Truly Great</bibl>
                   </listBibl>
                <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0026.xml" type="mentions">Autograph Notes W. H. Auden Stella Musulin 1959-06-01--1973-09-28</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0034.xml" type="mentions">Typed Letter Signed Michael O'Sullivan to Stella Musulin 1984-05-31</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0073.xml" type="mentions">Photograph [Stella Musulin] of Chester Kallman, John Auden, Charles Monteith, Edward Mendelson, Charles Osborne, Sonia Orwell, Stephen Spender, and Lisa Clark at W. H. Auden's Funeral 1973-10-04</note></noteGrp></person>
+               <person xml:id="amp_person_88">
+                  <persName>
+                     <forename>John Bicknell</forename>
+                     <surname>Auden</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1903-12-14">1903-12-14</date>
+                     <settlement key="amp_place_id_3">
+                        <placeName>York</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1991-01-21">1991-01-21</date>
+                     <settlement key="amp_place_id_56">
+                        <placeName>London</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/1089340591</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q14946819</idno>
+               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0030.xml" type="mentions">Copy Typed Letter Stella Musulin to Bruce Duncan 1985-11-29</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0073.xml" type="mentions">Photograph [Stella Musulin] of Chester Kallman, John Auden, Charles Monteith, Edward Mendelson, Charles Osborne, Sonia Orwell, Stephen Spender, and Lisa Clark at W. H. Auden's Funeral 1973-10-04</note></noteGrp></person>
                <person xml:id="amp_person_4">
                   <persName>
                      <forename>Chester</forename>

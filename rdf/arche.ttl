@@ -13179,7 +13179,6 @@
     arche:isPartOf <https://id.acdh.oeaw.ac.at/auden-musulin-papers/edition> .
 
 <https://id.acdh.oeaw.ac.at/apa> a arche:Organisation ;
-    arche:hasIdentifier <https://www.wikidata.org/wiki/Q680662> ;
     arche:hasTitle "Austria Press Agency"@en .
 
 <https://id.acdh.oeaw.ac.at/auden-musulin-papers/amp-transcript__0001.xml> a arche:Resource ;

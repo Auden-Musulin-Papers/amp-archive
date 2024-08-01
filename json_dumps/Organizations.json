@@ -110,19 +110,5 @@
       }
     ],
     "Subject_uri": "https://d-nb.info/gnd/2175892-X"
-  },
-  "23": {
-    "id": 23,
-    "order": "22.00000000000000000000",
-    "Name": "Austria Press Agency",
-    "Literal": "https://www.wikidata.org/wiki/Q680662",
-    "Language": "",
-    "Predicate_uri": [
-      {
-        "id": 17,
-        "value": "hasIdentifier"
-      }
-    ],
-    "Subject_uri": "https://id.acdh.oeaw.ac.at/apa"
   }
 }
