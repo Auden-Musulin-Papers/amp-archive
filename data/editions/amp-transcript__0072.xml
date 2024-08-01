@@ -103,7 +103,26 @@
               </div>
            </div>
         </body>
-    <back><listPerson><person xml:id="amp_person_4">
+    <back><listPerson><person xml:id="amp_person_226">
+                  <persName>
+                     <forename>Friedrich Graf von</forename>
+                     <surname>Colloredo-Mansfeld</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1917-04-03">1917-04-03</date>
+                     <settlement key="amp_place_id_17">
+                        <placeName>Berlin</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="2023-07-29">2023-07-29</date>
+                     <settlement key="amp_place_id_300">
+                        <placeName>Öblarn</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="WIKIDATA">https://www.geni.com/people/Friedrich-Graf-von-Colloredo-Mannsfeld/6000000069375237010</idno>
+               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0072.xml" type="mentions">Photograph [Stella Musulin] of Friedrich Colloredo, Chester Kallman, and W. H. Auden 1959-06-01--1973-09-28</note></noteGrp></person>
+               <person xml:id="amp_person_4">
                   <persName>
                      <forename>Chester</forename>
                      <surname>Kallman</surname>
@@ -141,25 +160,6 @@
                      <bibl n="lit_work_id_207">Ein Autor hat Bedenken</bibl>
                   </listBibl>
                <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note><note target="amp-transcript__0002.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23</note><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0012.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</note><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note><note target="amp-transcript__0014.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</note><note target="amp-transcript__0015.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0021.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1961-10-13</note><note target="amp-transcript__0023.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-07-23</note><note target="amp-transcript__0024.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-09-11</note><note target="amp-transcript__0025.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-10-17</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0030.xml" type="mentions">Copy Typed Letter Stella Musulin to Bruce Duncan 1985-11-29</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note><note target="amp-transcript__0045.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1960-07-21</note><note target="amp-transcript__0052.xml" type="mentions">Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-07-26--1972-08-25</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0054.xml" type="mentions">Photographs [Stella Musulin] of W. H. Auden, Chester Kallman, and Elsa Musulin 1960-07-21--1960-11-02</note><note target="amp-transcript__0059.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-04-30</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note><note target="amp-transcript__0066.xml" type="mentions">Photograph [Stella Musulin] of Friedrich Heer, Chester Kallman, and W. H. Auden 1969-05-28</note><note target="amp-transcript__0070.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1959-10-10</note><note target="amp-transcript__0072.xml" type="mentions">Photograph [Stella Musulin] of Friedrich Colloredo, Chester Kallman, and W. H. Auden 1959-06-01--1973-09-28</note><note target="amp-transcript__0073.xml" type="mentions">Photograph [Stella Musulin] of Chester Kallman, John Auden, Charles Monteith, Edward Mendelson, Charles Osborne, Sonia Orwell, Stephen Spender, and Lisa Clark at W. H. Auden's Funeral 1973-10-04</note></noteGrp></person>
-               <person xml:id="amp_person_226">
-                  <persName>
-                     <forename>Friedrich Graf von</forename>
-                     <surname>Colloredo-Mansfeld</surname>
-                  </persName>
-                  <birth>
-                     <date when-iso="1917-04-03">1917-04-03</date>
-                     <settlement key="amp_place_id_17">
-                        <placeName>Berlin</placeName>
-                     </settlement>
-                  </birth>
-                  <death>
-                     <date when-iso="2023-07-29">2023-07-29</date>
-                     <settlement key="amp_place_id_300">
-                        <placeName>Öblarn</placeName>
-                     </settlement>
-                  </death>
-                  <idno type="URI" subtype="WIKIDATA">https://www.geni.com/people/Friedrich-Graf-von-Colloredo-Mannsfeld/6000000069375237010</idno>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0072.xml" type="mentions">Photograph [Stella Musulin] of Friedrich Colloredo, Chester Kallman, and W. H. Auden 1959-06-01--1973-09-28</note></noteGrp></person>
                <person xml:id="amp_person_1">
                   <persName>
                      <forename>W. H.</forename>
