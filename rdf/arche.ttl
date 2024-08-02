@@ -14312,7 +14312,6 @@
         <https://d-nb.info/gnd/2175892-X>,
         <https://id.acdh.oeaw.ac.at/emusulin>,
         <https://id.acdh.oeaw.ac.at/rblaha> ;
-    arche:hasCompleteness "incomplete, to be completed by July 2024"@en ;
     arche:hasContact <https://d-nb.info/gnd/1024881253> ;
     arche:hasCoverageEndDate "1996-01-21"^^xsd:date ;
     arche:hasCoverageStartDate "1959-06-01"^^xsd:date ;
