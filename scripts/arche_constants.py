@@ -404,6 +404,44 @@ g = create_empty_graph(
     store=create_memory_store()
 )
 
+
+# create graph for ARCHE entities
+# open json file
+files = ["Persons_denormalized", "Places_denormalized", "Organizations_denormalized"]
+file_glob = glob.glob("json_dumps/*.json")
+
+for file in tqdm(file_glob, total=len(file_glob)):
+    fn = file.split("/")[-1].split(".")[0]
+    if fn in files:
+        with open(file, "r") as f:
+            data = json.load(f)
+        for meta in data.values():
+            subject_uri = URIRef(meta["Subject_uri"])
+            if isinstance(meta["Predicate_uri"], list) and len(meta["Predicate_uri"]) == 1:
+                predicate_class = meta["Predicate_uri"][0]
+                predicate_uri = URIRef(f'{predicate_class["data"]["Namespace"]}{predicate_class["value"]}')
+                entity_type = fn.replace("_denormalized", "").lower()
+                print(f"Creating triples for {subject_uri}.")
+                # try:
+                #     get_entity_uri(
+                #         subject_uri=subject_uri,
+                #         predicate_uri=predicate_uri,
+                #         entity=meta["Object_uri_organizations"],
+                #         entity_type="organizations"
+                #     )
+                # except KeyError:
+                #     # placeholder
+                #     print("No organizations.")
+                if predicate_class["value"] == "hasIdentifier":
+                    create_custom_triple(g, subject_uri, predicate_uri, URIRef(meta["Literal"]))
+                else:
+                    get_literal(
+                        subject_uri=subject_uri,
+                        predicate_uri=predicate_uri,
+                        literal=meta["Literal"],
+                        literal_lang=meta["Language"]
+                    )
+
 # initialize resource URIs (lookup USER_CONFIG)
 if isinstance(LATEST_RELEASE, str) and len(LATEST_RELEASE) > 0:
     if PRMARY_FILE_FORMAT.lower() == "xml":
@@ -426,6 +464,7 @@ if isinstance(LATEST_RELEASE, str) and len(LATEST_RELEASE) > 0:
                 inherit_class=inherit_class
             )
 
+# create graph from Baserow Project metadata
 for meta in tqdm(metadata.values(), total=len(metadata)):
     subject_string = meta["Subject_uri"]
     subject_uri = URIRef(f'{arche_id}{subject_string}')
@@ -519,43 +558,6 @@ for meta in tqdm(metadata.values(), total=len(metadata)):
                             )
                         except KeyError:
                             print("No config for this resource.")
-
-# create graph for ARCHE entities
-# open json file
-files = ["Persons_denormalized", "Places_denormalized", "Organizations_denormalized"]
-file_glob = glob.glob("json_dumps/*.json")
-
-for file in tqdm(file_glob, total=len(file_glob)):
-    fn = file.split("/")[-1].split(".")[0]
-    if fn in files:
-        with open(file, "r") as f:
-            data = json.load(f)
-        for meta in data.values():
-            subject_uri = URIRef(meta["Subject_uri"])
-            if isinstance(meta["Predicate_uri"], list) and len(meta["Predicate_uri"]) == 1:
-                predicate_class = meta["Predicate_uri"][0]
-                predicate_uri = URIRef(f'{predicate_class["data"]["Namespace"]}{predicate_class["value"]}')
-                entity_type = fn.replace("_denormalized", "").lower()
-                print(f"Creating triples for {subject_uri}.")
-                # try:
-                #     get_entity_uri(
-                #         subject_uri=subject_uri,
-                #         predicate_uri=predicate_uri,
-                #         entity=meta["Object_uri_organizations"],
-                #         entity_type="organizations"
-                #     )
-                # except KeyError:
-                #     # placeholder
-                #     print("No organizations.")
-                if predicate_class["value"] == "hasIdentifier":
-                    create_custom_triple(g, subject_uri, predicate_uri, URIRef(meta["Literal"]))
-                else:
-                    get_literal(
-                        subject_uri=subject_uri,
-                        predicate_uri=predicate_uri,
-                        literal=meta["Literal"],
-                        literal_lang=meta["Language"]
-                    )
 
 # serialize graph
 os.makedirs("rdf", exist_ok=True)
