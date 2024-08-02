@@ -207,50 +207,7 @@
                 </div>
             </div>
         </body>
-    <back><listPlace><place xml:id="amp_place_id_7">
-                  <settlement type="S">
-                     <placeName>Schloss Fridau</placeName>
-                  </settlement>
-                  <desc type="entity_type">spot, building, farm</desc>
-                  <country>AT, Austria</country>
-                  <location type="located_in_place">
-                     <placeName key="amp_place_id_8">Ober-Grafendorf</placeName>
-                  </location>
-                  <location type="coords">
-                     <geo>48.14965, 15.55641</geo>
-                  </location>
-                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12504042/</idno>
-                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q1651450</idno>
-                  <idno type="URI" subtype="GND">https://lobid.org/gnd/1052612687</idno>
-               <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note><note target="amp-transcript__0002.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23</note><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0008.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-12</note><note target="amp-transcript__0015.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10</note><note target="amp-transcript__0016.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-09-18</note><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note><note target="amp-transcript__0023.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-07-23</note><note target="amp-transcript__0024.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-09-11</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note><note target="amp-transcript__0045.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1960-07-21</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0057.xml" type="mentions">Envelope W. H. Auden to Stella Musulin 1961-04-25--1961-10-25</note><note target="amp-transcript__0058.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-10-01--1965-08-15</note><note target="amp-transcript__0060.xml" type="mentions">Copy Typed Letter Wolfgang Kraus to Stella Musulin 1977-03-22</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note><note target="amp-transcript__0071.xml" type="mentions">Typed Letter Signed Stella Musulin to W. H. Auden 1962-04-16--1973-04-16</note></noteGrp></place>
-               <place xml:id="amp_place_id_11">
-                  <settlement type="S">
-                     <placeName>Neulinggasse 26</placeName>
-                  </settlement>
-                  <desc type="entity_type">spot, building, farm</desc>
-                  <country>AT, Austria</country>
-                  <location type="located_in_place">
-                     <placeName key="amp_place_id_156">Landstraße</placeName>
-                  </location>
-                  <location type="coords">
-                     <geo>48.19947, 16.38809</geo>
-                  </location>
-                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12504033/</idno>
-               <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note><note target="amp-transcript__0002.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23</note><note target="amp-transcript__0003.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0007.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-06</note><note target="amp-transcript__0008.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-12</note><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0010.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-11-06</note><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0012.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</note><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note><note target="amp-transcript__0014.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</note><note target="amp-transcript__0015.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10</note><note target="amp-transcript__0017.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1971-06-04</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0020.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1973-09-24</note><note target="amp-transcript__0021.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1961-10-13</note><note target="amp-transcript__0022.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-08-16</note><note target="amp-transcript__0024.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-09-11</note><note target="amp-transcript__0025.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-10-17</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0035.xml" type="mentions">Telegram W. H. Auden to Stella Musulin 1971-05-13</note><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0040.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-06-10</note><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note><note target="amp-transcript__0042.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescripts W. H. Auden "August 1968" and "Elegy" 1968-10-04</note><note target="amp-transcript__0057.xml" type="mentions">Envelope W. H. Auden to Stella Musulin 1961-04-25--1961-10-25</note><note target="amp-transcript__0058.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-10-01--1965-08-15</note><note target="amp-transcript__0059.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-04-30</note><note target="amp-transcript__0061.xml" type="mentions">Typed Letter Signed Stella Musulin to Wolfgang Kraus 1977-04-05</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note><note target="amp-transcript__0071.xml" type="mentions">Typed Letter Signed Stella Musulin to W. H. Auden 1962-04-16--1973-04-16</note></noteGrp></place>
-               <place xml:id="amp_place_id_301">
-                  <settlement type="A">
-                     <placeName>Kaffee 3/4</placeName>
-                  </settlement>
-                  <desc type="entity_type">country, state, region,...</desc>
-                  <country>AT, Austria</country>
-                  <location type="located_in_place">
-                     <placeName key="amp_place_id_1">Vienna</placeName>
-                  </location>
-                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12746601/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q124625333</idno>
-                  <note>Telephone book "Herold" 1960, p. 555, Neubaug. 81</note>
-               <noteGrp><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note></noteGrp></place>
-               </listPlace><listPerson><person xml:id="amp_person_79">
+    <back><listPerson><person xml:id="amp_person_79">
                   <persName>
                      <forename>Hans Werner</forename>
                      <surname>Henze</surname>
@@ -274,6 +231,118 @@
                      <bibl n="lit_work_id_5">The Bassarids: Opera Seria with Intermezzo in One Act Based on "The Bacchae" of Euripides</bibl>
                   </listBibl>
                <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note></noteGrp></person>
+               <person xml:id="amp_person_42">
+                  <persName>
+                     <forename>Hugo von</forename>
+                     <surname>Hofmannsthal</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1874-02-01">1874-02-01</date>
+                     <settlement key="amp_place_id_1">
+                        <placeName>Vienna</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1929-07-15">1929-07-15</date>
+                     <settlement key="amp_place_id_111">
+                        <placeName>Rodaun</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118552759</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q51513</idno>
+                  <idno type="URI" subtype="PMB">https://pmb.acdh.oeaw.ac.at/entity/11740</idno>
+               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note></noteGrp></person>
+               <person xml:id="amp_person_2">
+                  <persName>
+                     <forename>Stella Mary Bellairs</forename>
+                     <surname>Musulin</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1915-07-16">1915-07-16</date>
+                     <settlement key="amp_place_id_4">
+                        <placeName>Dale</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1996-01-21">1996-01-21</date>
+                     <settlement key="amp_place_id_7">
+                        <placeName>Schloss Fridau</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/127246711</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q120538514</idno>
+                  <listBibl>
+                     <bibl n="lit_work_id_45">Austria: People and Landscape</bibl>
+                     <bibl n="lit_work_id_46">In Retrospect</bibl>
+                     <bibl n="lit_work_id_47">The Years in Austria 1976-09-04--1980-12-01</bibl>
+                     <bibl n="lit_work_id_87">Fleißaufgaben in Nächstenliebe</bibl>
+                     <bibl n="lit_work_id_91">Freedom and Necessity in the Arts (translation Stella Musulin Janko Musulin 1970-05-21--1970-06-10)</bibl>
+                     <bibl n="lit_work_id_93">Joseph Weinheber (prose translation Elsa Musulin and Stella Musulin)</bibl>
+                     <bibl n="lit_work_id_94">Joseph Weinheber (notes prose translation Elsa Musulin and Stella Musulin)</bibl>
+                     <bibl n="lit_work_id_104">Statement (addressed to the Austrian tax authorities) (version The Years in Austria) 1976-09-04--1980-12-01</bibl>
+                     <bibl n="lit_work_id_106">Statement (addressed to the Austrian tax authorities) (version In Retrospect)</bibl>
+                     <bibl n="lit_work_id_108">Auden in Kirchstetten (1976-06-23)</bibl>
+                     <bibl n="lit_work_id_114">Unpublished volume on W. H. Auden in Austria to be edited by Peter Müller</bibl>
+                     <bibl n="lit_work_id_115">Die zwei Welten des W. H. Auden: Auf den Spuren des englischen Poeten in Kirchstetten</bibl>
+                     <bibl n="lit_work_id_117">Unpublished volume of memoirs of W. H. Auden</bibl>
+                     <bibl n="lit_work_id_124">Austria and the Austrians</bibl>
+                     <bibl n="lit_work_id_126">W. H. Auden und die Österreicher</bibl>
+                     <bibl n="lit_work_id_162">Auden in Kirchstetten</bibl>
+                     <bibl n="lit_work_id_163">Austria: People and Landscape (pre-print version 1970)</bibl>
+                     <bibl n="lit_work_id_164">Austria: People and Landscape</bibl>
+                     <bibl n="lit_work_id_185">"two volumes by and about Auden" (amp-transcript__0033.xml)</bibl>
+                  </listBibl>
+               <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note><note target="amp-transcript__0002.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23</note><note target="amp-transcript__0003.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29</note><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0007.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-06</note><note target="amp-transcript__0008.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-12</note><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0010.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-11-06</note><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0012.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</note><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note><note target="amp-transcript__0014.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</note><note target="amp-transcript__0015.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10</note><note target="amp-transcript__0016.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-09-18</note><note target="amp-transcript__0017.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1971-06-04</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note><note target="amp-transcript__0020.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1973-09-24</note><note target="amp-transcript__0021.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1961-10-13</note><note target="amp-transcript__0022.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-08-16</note><note target="amp-transcript__0023.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-07-23</note><note target="amp-transcript__0024.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-09-11</note><note target="amp-transcript__0025.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-10-17</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0030.xml" type="mentions">Copy Typed Letter Stella Musulin to Bruce Duncan 1985-11-29</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note><note target="amp-transcript__0034.xml" type="mentions">Typed Letter Signed Michael O'Sullivan to Stella Musulin 1984-05-31</note><note target="amp-transcript__0035.xml" type="mentions">Telegram W. H. Auden to Stella Musulin 1971-05-13</note><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note><note target="amp-transcript__0040.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-06-10</note><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note><note target="amp-transcript__0042.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescripts W. H. Auden "August 1968" and "Elegy" 1968-10-04</note><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0044.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</note><note target="amp-transcript__0045.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1960-07-21</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0057.xml" type="mentions">Envelope W. H. Auden to Stella Musulin 1961-04-25--1961-10-25</note><note target="amp-transcript__0058.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-10-01--1965-08-15</note><note target="amp-transcript__0059.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-04-30</note><note target="amp-transcript__0060.xml" type="mentions">Copy Typed Letter Wolfgang Kraus to Stella Musulin 1977-03-22</note><note target="amp-transcript__0061.xml" type="mentions">Typed Letter Signed Stella Musulin to Wolfgang Kraus 1977-04-05</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note><note target="amp-transcript__0070.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1959-10-10</note><note target="amp-transcript__0071.xml" type="mentions">Typed Letter Signed Stella Musulin to W. H. Auden 1962-04-16--1973-04-16</note></noteGrp></person>
+               <person xml:id="amp_person_115">
+                  <persName>
+                     <forename>Bertolt</forename>
+                     <surname>Brecht</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1898-02-10">1898-02-10</date>
+                     <settlement key="amp_place_id_169">
+                        <placeName>Augsburg</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1956-08-14">1956-08-14</date>
+                     <settlement key="amp_place_id_21">
+                        <placeName>East Berlin</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118514768</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q38757</idno>
+                  <idno type="URI" subtype="PMB">https://pmb.acdh.oeaw.ac.at/entity/11008</idno>
+                  <listBibl>
+                     <bibl n="lit_work_id_9">Die Sieben Todsünden (The Seven Deadly Sins)</bibl>
+                     <bibl n="lit_work_id_10">Aufstieg und Fall der Stadt Mahagonny (Rise and Fall of the City of Mahagonny)</bibl>
+                     <bibl n="lit_work_id_23">Die Sieben Todsünden (The Seven Deadly Sins)</bibl>
+                     <bibl n="lit_work_id_24">Aufstieg und Fall der Stadt Mahagonny (Rise and Fall of the City of Mahagonny)</bibl>
+                  </listBibl>
+               <noteGrp><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note></noteGrp></person>
+               <person xml:id="amp_person_204">
+                  <persName>
+                     <forename>Christine</forename>
+                     <surname>Busta-Dimt</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1915-04-23">1915-04-23</date>
+                     <settlement key="amp_place_id_1">
+                        <placeName>Vienna</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1987-12-03">1987-12-03</date>
+                     <settlement key="amp_place_id_1">
+                        <placeName>Vienna</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/119022354</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q87991</idno>
+                  <listBibl>
+                     <bibl n="lit_work_id_156">Meine Hinterhöfe</bibl>
+                  </listBibl>
+               <noteGrp><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note></noteGrp></person>
                <person xml:id="amp_person_1">
                   <persName>
                      <forename>W. H.</forename>
@@ -387,117 +456,6 @@
                      <bibl n="lit_work_id_203">Plays and Other Dramatic Writings by W. H. Auden, 1927-1938</bibl>
                   </listBibl>
                <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note><note target="amp-transcript__0002.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23</note><note target="amp-transcript__0003.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29</note><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0007.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-06</note><note target="amp-transcript__0008.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-12</note><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0010.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-11-06</note><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0012.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</note><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note><note target="amp-transcript__0014.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</note><note target="amp-transcript__0015.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10</note><note target="amp-transcript__0016.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-09-18</note><note target="amp-transcript__0017.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1971-06-04</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note><note target="amp-transcript__0020.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1973-09-24</note><note target="amp-transcript__0021.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1961-10-13</note><note target="amp-transcript__0022.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-08-16</note><note target="amp-transcript__0023.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-07-23</note><note target="amp-transcript__0024.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-09-11</note><note target="amp-transcript__0025.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-10-17</note><note target="amp-transcript__0026.xml" type="mentions">Autograph Notes W. H. Auden Stella Musulin 1959-06-01--1973-09-28</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note><note target="amp-transcript__0030.xml" type="mentions">Copy Typed Letter Stella Musulin to Bruce Duncan 1985-11-29</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note><note target="amp-transcript__0034.xml" type="mentions">Typed Letter Signed Michael O'Sullivan to Stella Musulin 1984-05-31</note><note target="amp-transcript__0035.xml" type="mentions">Telegram W. H. Auden to Stella Musulin 1971-05-13</note><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note><note target="amp-transcript__0040.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-06-10</note><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note><note target="amp-transcript__0042.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescripts W. H. Auden "August 1968" and "Elegy" 1968-10-04</note><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0044.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</note><note target="amp-transcript__0045.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1960-07-21</note><note target="amp-transcript__0049.xml" type="mentions">Invitation Card Österreichische Gesellschaft für Literatur Poetry Reading W. H. Auden 1973-01-01--1973-09-28</note><note target="amp-transcript__0051.xml" type="mentions">Typed Notes [Janko Musulin] Translation W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21--1970-06-10</note><note target="amp-transcript__0052.xml" type="mentions">Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-07-26--1972-08-25</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0054.xml" type="mentions">Photographs [Stella Musulin] of W. H. Auden, Chester Kallman, and Elsa Musulin 1960-07-21--1960-11-02</note><note target="amp-transcript__0057.xml" type="mentions">Envelope W. H. Auden to Stella Musulin 1961-04-25--1961-10-25</note><note target="amp-transcript__0058.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-10-01--1965-08-15</note><note target="amp-transcript__0059.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-04-30</note><note target="amp-transcript__0060.xml" type="mentions">Copy Typed Letter Wolfgang Kraus to Stella Musulin 1977-03-22</note><note target="amp-transcript__0061.xml" type="mentions">Typed Letter Signed Stella Musulin to Wolfgang Kraus 1977-04-05</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note><note target="amp-transcript__0066.xml" type="mentions">Photograph [Stella Musulin] of Friedrich Heer, Chester Kallman, and W. H. Auden 1969-05-28</note><note target="amp-transcript__0068.xml" type="mentions">Photograph [Stella Musulin] of W. H. Auden 1969-05-28</note><note target="amp-transcript__0070.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1959-10-10</note><note target="amp-transcript__0071.xml" type="mentions">Typed Letter Signed Stella Musulin to W. H. Auden 1962-04-16--1973-04-16</note><note target="amp-transcript__0072.xml" type="mentions">Photograph [Stella Musulin] of Friedrich Colloredo, Chester Kallman, and W. H. Auden 1959-06-01--1973-09-28</note></noteGrp></person>
-               <person xml:id="amp_person_25">
-                  <persName>
-                     <forename>Igor</forename>
-                     <surname>Stravinsky</surname>
-                  </persName>
-                  <birth>
-                     <date when-iso="1882-06-17">1882-06-17</date>
-                     <settlement key="amp_place_id_52">
-                        <placeName>Lomonosov</placeName>
-                     </settlement>
-                  </birth>
-                  <death>
-                     <date when-iso="1971-04-06">1971-04-06</date>
-                     <settlement key="amp_place_id_28">
-                        <placeName>New York City</placeName>
-                     </settlement>
-                  </death>
-                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118642545</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q7314</idno>
-                  <idno type="URI" subtype="PMB">https://pmb.acdh.oeaw.ac.at/entity/25634</idno>
-                  <listBibl>
-                     <bibl n="lit_work_id_3">The Rake's Progress</bibl>
-                     <bibl n="lit_work_id_35">Le Sacre du Printemps (The Rite of Spring)</bibl>
-                     <bibl n="lit_work_id_172">Retrospectives and Conclusions</bibl>
-                  </listBibl>
-               <noteGrp><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note></noteGrp></person>
-               <person xml:id="amp_person_42">
-                  <persName>
-                     <forename>Hugo von</forename>
-                     <surname>Hofmannsthal</surname>
-                  </persName>
-                  <birth>
-                     <date when-iso="1874-02-01">1874-02-01</date>
-                     <settlement key="amp_place_id_1">
-                        <placeName>Vienna</placeName>
-                     </settlement>
-                  </birth>
-                  <death>
-                     <date when-iso="1929-07-15">1929-07-15</date>
-                     <settlement key="amp_place_id_111">
-                        <placeName>Rodaun</placeName>
-                     </settlement>
-                  </death>
-                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118552759</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q51513</idno>
-                  <idno type="URI" subtype="PMB">https://pmb.acdh.oeaw.ac.at/entity/11740</idno>
-               <noteGrp><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note></noteGrp></person>
-               <person xml:id="amp_person_204">
-                  <persName>
-                     <forename>Christine</forename>
-                     <surname>Busta-Dimt</surname>
-                  </persName>
-                  <birth>
-                     <date when-iso="1915-04-23">1915-04-23</date>
-                     <settlement key="amp_place_id_1">
-                        <placeName>Vienna</placeName>
-                     </settlement>
-                  </birth>
-                  <death>
-                     <date when-iso="1987-12-03">1987-12-03</date>
-                     <settlement key="amp_place_id_1">
-                        <placeName>Vienna</placeName>
-                     </settlement>
-                  </death>
-                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/119022354</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q87991</idno>
-                  <listBibl>
-                     <bibl n="lit_work_id_156">Meine Hinterhöfe</bibl>
-                  </listBibl>
-               <noteGrp><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note></noteGrp></person>
-               <person xml:id="amp_person_2">
-                  <persName>
-                     <forename>Stella Mary Bellairs</forename>
-                     <surname>Musulin</surname>
-                  </persName>
-                  <birth>
-                     <date when-iso="1915-07-16">1915-07-16</date>
-                     <settlement key="amp_place_id_4">
-                        <placeName>Dale</placeName>
-                     </settlement>
-                  </birth>
-                  <death>
-                     <date when-iso="1996-01-21">1996-01-21</date>
-                     <settlement key="amp_place_id_7">
-                        <placeName>Schloss Fridau</placeName>
-                     </settlement>
-                  </death>
-                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/127246711</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q120538514</idno>
-                  <listBibl>
-                     <bibl n="lit_work_id_45">Austria: People and Landscape</bibl>
-                     <bibl n="lit_work_id_46">In Retrospect</bibl>
-                     <bibl n="lit_work_id_47">The Years in Austria 1976-09-04--1980-12-01</bibl>
-                     <bibl n="lit_work_id_87">Fleißaufgaben in Nächstenliebe</bibl>
-                     <bibl n="lit_work_id_91">Freedom and Necessity in the Arts (translation Stella Musulin Janko Musulin 1970-05-21--1970-06-10)</bibl>
-                     <bibl n="lit_work_id_93">Joseph Weinheber (prose translation Elsa Musulin and Stella Musulin)</bibl>
-                     <bibl n="lit_work_id_94">Joseph Weinheber (notes prose translation Elsa Musulin and Stella Musulin)</bibl>
-                     <bibl n="lit_work_id_104">Statement (addressed to the Austrian tax authorities) (version The Years in Austria) 1976-09-04--1980-12-01</bibl>
-                     <bibl n="lit_work_id_106">Statement (addressed to the Austrian tax authorities) (version In Retrospect)</bibl>
-                     <bibl n="lit_work_id_108">Auden in Kirchstetten (1976-06-23)</bibl>
-                     <bibl n="lit_work_id_114">Unpublished volume on W. H. Auden in Austria to be edited by Peter Müller</bibl>
-                     <bibl n="lit_work_id_115">Die zwei Welten des W. H. Auden: Auf den Spuren des englischen Poeten in Kirchstetten</bibl>
-                     <bibl n="lit_work_id_117">Unpublished volume of memoirs of W. H. Auden</bibl>
-                     <bibl n="lit_work_id_124">Austria and the Austrians</bibl>
-                     <bibl n="lit_work_id_126">W. H. Auden und die Österreicher</bibl>
-                     <bibl n="lit_work_id_162">Auden in Kirchstetten</bibl>
-                     <bibl n="lit_work_id_163">Austria: People and Landscape (pre-print version 1970)</bibl>
-                     <bibl n="lit_work_id_164">Austria: People and Landscape</bibl>
-                     <bibl n="lit_work_id_185">"two volumes by and about Auden" (amp-transcript__0033.xml)</bibl>
-                  </listBibl>
-               <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note><note target="amp-transcript__0002.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23</note><note target="amp-transcript__0003.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29</note><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0007.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-06</note><note target="amp-transcript__0008.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-12</note><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0010.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-11-06</note><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0012.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</note><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note><note target="amp-transcript__0014.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</note><note target="amp-transcript__0015.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10</note><note target="amp-transcript__0016.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-09-18</note><note target="amp-transcript__0017.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1971-06-04</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note><note target="amp-transcript__0020.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1973-09-24</note><note target="amp-transcript__0021.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1961-10-13</note><note target="amp-transcript__0022.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-08-16</note><note target="amp-transcript__0023.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-07-23</note><note target="amp-transcript__0024.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-09-11</note><note target="amp-transcript__0025.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-10-17</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0030.xml" type="mentions">Copy Typed Letter Stella Musulin to Bruce Duncan 1985-11-29</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note><note target="amp-transcript__0034.xml" type="mentions">Typed Letter Signed Michael O'Sullivan to Stella Musulin 1984-05-31</note><note target="amp-transcript__0035.xml" type="mentions">Telegram W. H. Auden to Stella Musulin 1971-05-13</note><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note><note target="amp-transcript__0040.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-06-10</note><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note><note target="amp-transcript__0042.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescripts W. H. Auden "August 1968" and "Elegy" 1968-10-04</note><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0044.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</note><note target="amp-transcript__0045.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1960-07-21</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0057.xml" type="mentions">Envelope W. H. Auden to Stella Musulin 1961-04-25--1961-10-25</note><note target="amp-transcript__0058.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-10-01--1965-08-15</note><note target="amp-transcript__0059.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-04-30</note><note target="amp-transcript__0060.xml" type="mentions">Copy Typed Letter Wolfgang Kraus to Stella Musulin 1977-03-22</note><note target="amp-transcript__0061.xml" type="mentions">Typed Letter Signed Stella Musulin to Wolfgang Kraus 1977-04-05</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note><note target="amp-transcript__0070.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1959-10-10</note><note target="amp-transcript__0071.xml" type="mentions">Typed Letter Signed Stella Musulin to W. H. Auden 1962-04-16--1973-04-16</note></noteGrp></person>
                <person xml:id="amp_person_4">
                   <persName>
                      <forename>Chester</forename>
@@ -536,40 +494,82 @@
                      <bibl n="lit_work_id_207">Ein Autor hat Bedenken</bibl>
                   </listBibl>
                <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note><note target="amp-transcript__0002.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23</note><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0012.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</note><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note><note target="amp-transcript__0014.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</note><note target="amp-transcript__0015.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0021.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1961-10-13</note><note target="amp-transcript__0023.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-07-23</note><note target="amp-transcript__0024.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-09-11</note><note target="amp-transcript__0025.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-10-17</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0030.xml" type="mentions">Copy Typed Letter Stella Musulin to Bruce Duncan 1985-11-29</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note><note target="amp-transcript__0045.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1960-07-21</note><note target="amp-transcript__0052.xml" type="mentions">Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-07-26--1972-08-25</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0054.xml" type="mentions">Photographs [Stella Musulin] of W. H. Auden, Chester Kallman, and Elsa Musulin 1960-07-21--1960-11-02</note><note target="amp-transcript__0059.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-04-30</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note><note target="amp-transcript__0066.xml" type="mentions">Photograph [Stella Musulin] of Friedrich Heer, Chester Kallman, and W. H. Auden 1969-05-28</note><note target="amp-transcript__0070.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1959-10-10</note><note target="amp-transcript__0072.xml" type="mentions">Photograph [Stella Musulin] of Friedrich Colloredo, Chester Kallman, and W. H. Auden 1959-06-01--1973-09-28</note><note target="amp-transcript__0073.xml" type="mentions">Photograph [Stella Musulin] of Chester Kallman, John Auden, Charles Monteith, Edward Mendelson, Charles Osborne, Sonia Orwell, Stephen Spender, and Lisa Clark at W. H. Auden's Funeral 1973-10-04</note></noteGrp></person>
-               <person xml:id="amp_person_115">
+               <person xml:id="amp_person_25">
                   <persName>
-                     <forename>Bertolt</forename>
-                     <surname>Brecht</surname>
+                     <forename>Igor</forename>
+                     <surname>Stravinsky</surname>
                   </persName>
                   <birth>
-                     <date when-iso="1898-02-10">1898-02-10</date>
-                     <settlement key="amp_place_id_169">
-                        <placeName>Augsburg</placeName>
+                     <date when-iso="1882-06-17">1882-06-17</date>
+                     <settlement key="amp_place_id_52">
+                        <placeName>Lomonosov</placeName>
                      </settlement>
                   </birth>
                   <death>
-                     <date when-iso="1956-08-14">1956-08-14</date>
-                     <settlement key="amp_place_id_21">
-                        <placeName>East Berlin</placeName>
+                     <date when-iso="1971-04-06">1971-04-06</date>
+                     <settlement key="amp_place_id_28">
+                        <placeName>New York City</placeName>
                      </settlement>
                   </death>
-                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118514768</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q38757</idno>
-                  <idno type="URI" subtype="PMB">https://pmb.acdh.oeaw.ac.at/entity/11008</idno>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/118642545</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q7314</idno>
+                  <idno type="URI" subtype="PMB">https://pmb.acdh.oeaw.ac.at/entity/25634</idno>
                   <listBibl>
-                     <bibl n="lit_work_id_9">Die Sieben Todsünden (The Seven Deadly Sins)</bibl>
-                     <bibl n="lit_work_id_10">Aufstieg und Fall der Stadt Mahagonny (Rise and Fall of the City of Mahagonny)</bibl>
-                     <bibl n="lit_work_id_23">Die Sieben Todsünden (The Seven Deadly Sins)</bibl>
-                     <bibl n="lit_work_id_24">Aufstieg und Fall der Stadt Mahagonny (Rise and Fall of the City of Mahagonny)</bibl>
+                     <bibl n="lit_work_id_3">The Rake's Progress</bibl>
+                     <bibl n="lit_work_id_35">Le Sacre du Printemps (The Rite of Spring)</bibl>
+                     <bibl n="lit_work_id_172">Retrospectives and Conclusions</bibl>
                   </listBibl>
-               <noteGrp><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note></noteGrp></person>
+               <noteGrp><note target="amp-transcript__0043.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Freedom and Necessity in the Arts" 1970-05-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note></noteGrp></person>
                </listPerson><listBibl><bibl xml:id="lit_work_id_156" type="poem">
-               <title>Meine Hinterhöfe</title>
-               <author ref="#amp_person_204">
-                  <persName>Busta-Dimt, Christine</persName>
-               </author>
-               <date when="1958">1958</date>
-               <lang>de</lang>
-            <noteGrp><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note></noteGrp></bibl>
-            </listBibl></back></text>
+                  <title>Meine Hinterhöfe</title>
+                  <author ref="#amp_person_204">
+                     <persName>Busta-Dimt, Christine</persName>
+                  </author>
+                  <date when="1958">1958</date>
+                  <lang>de</lang>
+               <noteGrp><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note></noteGrp></bibl>
+               </listBibl><listPlace><place xml:id="amp_place_id_7">
+                  <settlement type="S">
+                     <placeName>Schloss Fridau</placeName>
+                  </settlement>
+                  <desc type="entity_type">spot, building, farm</desc>
+                  <country>AT, Austria</country>
+                  <location type="located_in_place">
+                     <placeName key="amp_place_id_8">Ober-Grafendorf</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>48.14965, 15.55641</geo>
+                  </location>
+                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12504042/</idno>
+                  <idno type="URI" subtype="WIKIDATA">https://www.wikidata.org/wiki/Q1651450</idno>
+                  <idno type="URI" subtype="GND">https://lobid.org/gnd/1052612687</idno>
+               <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note><note target="amp-transcript__0002.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23</note><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0008.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-12</note><note target="amp-transcript__0015.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10</note><note target="amp-transcript__0016.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-09-18</note><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note><note target="amp-transcript__0023.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-07-23</note><note target="amp-transcript__0024.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-09-11</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0039.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" and with Typescript W. H. Auden Translation "Joseph Weinheber" 1965-04-28</note><note target="amp-transcript__0045.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1960-07-21</note><note target="amp-transcript__0053.xml" type="mentions">Typed Letter Stella Musulin to [Edith Silbermann] 1969-05-29</note><note target="amp-transcript__0057.xml" type="mentions">Envelope W. H. Auden to Stella Musulin 1961-04-25--1961-10-25</note><note target="amp-transcript__0058.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-10-01--1965-08-15</note><note target="amp-transcript__0060.xml" type="mentions">Copy Typed Letter Wolfgang Kraus to Stella Musulin 1977-03-22</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note><note target="amp-transcript__0071.xml" type="mentions">Typed Letter Signed Stella Musulin to W. H. Auden 1962-04-16--1973-04-16</note></noteGrp></place>
+               <place xml:id="amp_place_id_301">
+                  <settlement type="A">
+                     <placeName>Kaffee 3/4</placeName>
+                  </settlement>
+                  <desc type="entity_type">country, state, region,...</desc>
+                  <country>AT, Austria</country>
+                  <location type="located_in_place">
+                     <placeName key="amp_place_id_1">Vienna</placeName>
+                  </location>
+                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12746601/</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q124625333</idno>
+                  <note>Telephone book "Herold" 1960, p. 555, Neubaug. 81</note>
+               <noteGrp><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note></noteGrp></place>
+               <place xml:id="amp_place_id_11">
+                  <settlement type="S">
+                     <placeName>Neulinggasse 26</placeName>
+                  </settlement>
+                  <desc type="entity_type">spot, building, farm</desc>
+                  <country>AT, Austria</country>
+                  <location type="located_in_place">
+                     <placeName key="amp_place_id_156">Landstraße</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>48.19947, 16.38809</geo>
+                  </location>
+                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12504033/</idno>
+               <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note><note target="amp-transcript__0002.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1964-12-23</note><note target="amp-transcript__0003.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1965-09-29</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0007.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-06</note><note target="amp-transcript__0008.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-12</note><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0010.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-11-06</note><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0012.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</note><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note><note target="amp-transcript__0014.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-05-21</note><note target="amp-transcript__0015.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-06-10</note><note target="amp-transcript__0017.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1971-06-04</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0020.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1973-09-24</note><note target="amp-transcript__0021.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1961-10-13</note><note target="amp-transcript__0022.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-08-16</note><note target="amp-transcript__0024.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-09-11</note><note target="amp-transcript__0025.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-10-17</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0035.xml" type="mentions">Telegram W. H. Auden to Stella Musulin 1971-05-13</note><note target="amp-transcript__0038.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Joseph Weinheber" 1965-03-15</note><note target="amp-transcript__0040.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-06-10</note><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note><note target="amp-transcript__0042.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescripts W. H. Auden "August 1968" and "Elegy" 1968-10-04</note><note target="amp-transcript__0057.xml" type="mentions">Envelope W. H. Auden to Stella Musulin 1961-04-25--1961-10-25</note><note target="amp-transcript__0058.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1961-10-01--1965-08-15</note><note target="amp-transcript__0059.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1962-04-30</note><note target="amp-transcript__0061.xml" type="mentions">Typed Letter Signed Stella Musulin to Wolfgang Kraus 1977-04-05</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0063.xml" type="mentions">Autograph Letter Signed Stella Musulin to Christine Busta 1962-05-23</note><note target="amp-transcript__0071.xml" type="mentions">Typed Letter Signed Stella Musulin to W. H. Auden 1962-04-16--1973-04-16</note></noteGrp></place>
+               </listPlace></back></text>
 </TEI>

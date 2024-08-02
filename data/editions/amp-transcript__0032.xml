@@ -239,7 +239,30 @@ for any purpose, even commercially.</p>
             </div>
          </div>
       </body>
-   <back><listPerson><person xml:id="amp_person_1">
+   <back><listPerson><person xml:id="amp_person_98">
+                  <persName>
+                     <forename>Edward</forename>
+                     <surname>Mendelson</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1946-03-15">1946-03-15</date>
+                     <settlement key="amp_place_id_28">
+                        <placeName>New York City</placeName>
+                     </settlement>
+                  </birth>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/14000761X</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q5344431</idno>
+                  <listBibl>
+                     <bibl n="lit_work_id_28">W. H. Auden: Collected Poems</bibl>
+                     <bibl n="lit_work_id_49">Early Auden</bibl>
+                     <bibl n="lit_work_id_53">Forewords and Afterwords</bibl>
+                     <bibl n="lit_work_id_80">The English Auden: Poems, Essays and Dramatic Writings, 1927-1939</bibl>
+                     <bibl n="lit_work_id_117">Unpublished volume of memoirs of W. H. Auden</bibl>
+                     <bibl n="lit_work_id_202">W. H. Auden: Selected Poems</bibl>
+                     <bibl n="lit_work_id_203">Plays and Other Dramatic Writings by W. H. Auden, 1927-1938</bibl>
+                  </listBibl>
+               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note><note target="amp-transcript__0034.xml" type="mentions">Typed Letter Signed Michael O'Sullivan to Stella Musulin 1984-05-31</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
+               <person xml:id="amp_person_1">
                   <persName>
                      <forename>W. H.</forename>
                      <surname>Auden</surname>
@@ -375,6 +398,26 @@ for any purpose, even commercially.</p>
                      <bibl n="lit_work_id_39">W. H. Auden: A Biography</bibl>
                   </listBibl>
                <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note><note target="amp-transcript__0034.xml" type="mentions">Typed Letter Signed Michael O'Sullivan to Stella Musulin 1984-05-31</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
+               <person xml:id="amp_person_120">
+                  <persName>
+                     <forename>Charles</forename>
+                     <surname>Monteith</surname>
+                  </persName>
+                  <birth>
+                     <date when-iso="1921-02-09">1921-02-09</date>
+                     <settlement key="amp_place_id_178">
+                        <placeName>Lisburn</placeName>
+                     </settlement>
+                  </birth>
+                  <death>
+                     <date when-iso="1995-05-09">1995-05-09</date>
+                     <settlement key="amp_place_id_56">
+                        <placeName>London</placeName>
+                     </settlement>
+                  </death>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/1124937285</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q18526885</idno>
+               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0073.xml" type="mentions">Photograph [Stella Musulin] of Chester Kallman, John Auden, Charles Monteith, Edward Mendelson, Charles Osborne, Sonia Orwell, Stephen Spender, and Lisa Clark at W. H. Auden's Funeral 1973-10-04</note></noteGrp></person>
                <person xml:id="amp_person_2">
                   <persName>
                      <forename>Stella Mary Bellairs</forename>
@@ -439,44 +482,6 @@ for any purpose, even commercially.</p>
                      <bibl n="lit_work_id_117">Unpublished volume of memoirs of W. H. Auden</bibl>
                   </listBibl>
                <noteGrp><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note></noteGrp></person>
-               <person xml:id="amp_person_121">
-                  <persName>
-                     <forename>Christa</forename>
-                     <surname>Esders</surname>
-                  </persName>
-                  <birth>
-                     <date when-iso="1916-07-28">1916-07-28</date>
-                     <settlement key="amp_place_id_338">
-                        <placeName>Brunn am Gebirge</placeName>
-                     </settlement>
-                  </birth>
-                  <death>
-                     <date when-iso="1984-12-17">1984-12-17</date>
-                     <settlement key="amp_place_id_1">
-                        <placeName>Vienna</placeName>
-                     </settlement>
-                  </death>
-               <noteGrp><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note></noteGrp></person>
-               <person xml:id="amp_person_120">
-                  <persName>
-                     <forename>Charles</forename>
-                     <surname>Monteith</surname>
-                  </persName>
-                  <birth>
-                     <date when-iso="1921-02-09">1921-02-09</date>
-                     <settlement key="amp_place_id_178">
-                        <placeName>Lisburn</placeName>
-                     </settlement>
-                  </birth>
-                  <death>
-                     <date when-iso="1995-05-09">1995-05-09</date>
-                     <settlement key="amp_place_id_56">
-                        <placeName>London</placeName>
-                     </settlement>
-                  </death>
-                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/1124937285</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q18526885</idno>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0073.xml" type="mentions">Photograph [Stella Musulin] of Chester Kallman, John Auden, Charles Monteith, Edward Mendelson, Charles Osborne, Sonia Orwell, Stephen Spender, and Lisa Clark at W. H. Auden's Funeral 1973-10-04</note></noteGrp></person>
                <person xml:id="amp_person_8">
                   <persName>
                      <forename>Stephen</forename>
@@ -502,118 +507,25 @@ for any purpose, even commercially.</p>
                      <bibl n="lit_work_id_177">The Truly Great</bibl>
                   </listBibl>
                <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0026.xml" type="mentions">Autograph Notes W. H. Auden Stella Musulin 1959-06-01--1973-09-28</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0034.xml" type="mentions">Typed Letter Signed Michael O'Sullivan to Stella Musulin 1984-05-31</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note><note target="amp-transcript__0073.xml" type="mentions">Photograph [Stella Musulin] of Chester Kallman, John Auden, Charles Monteith, Edward Mendelson, Charles Osborne, Sonia Orwell, Stephen Spender, and Lisa Clark at W. H. Auden's Funeral 1973-10-04</note></noteGrp></person>
-               <person xml:id="amp_person_98">
+               <person xml:id="amp_person_121">
                   <persName>
-                     <forename>Edward</forename>
-                     <surname>Mendelson</surname>
+                     <forename>Christa</forename>
+                     <surname>Esders</surname>
                   </persName>
                   <birth>
-                     <date when-iso="1946-03-15">1946-03-15</date>
-                     <settlement key="amp_place_id_28">
-                        <placeName>New York City</placeName>
+                     <date when-iso="1916-07-28">1916-07-28</date>
+                     <settlement key="amp_place_id_338">
+                        <placeName>Brunn am Gebirge</placeName>
                      </settlement>
                   </birth>
-                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/14000761X</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q5344431</idno>
-                  <listBibl>
-                     <bibl n="lit_work_id_28">W. H. Auden: Collected Poems</bibl>
-                     <bibl n="lit_work_id_49">Early Auden</bibl>
-                     <bibl n="lit_work_id_53">Forewords and Afterwords</bibl>
-                     <bibl n="lit_work_id_80">The English Auden: Poems, Essays and Dramatic Writings, 1927-1939</bibl>
-                     <bibl n="lit_work_id_117">Unpublished volume of memoirs of W. H. Auden</bibl>
-                     <bibl n="lit_work_id_202">W. H. Auden: Selected Poems</bibl>
-                     <bibl n="lit_work_id_203">Plays and Other Dramatic Writings by W. H. Auden, 1927-1938</bibl>
-                  </listBibl>
-               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note><note target="amp-transcript__0034.xml" type="mentions">Typed Letter Signed Michael O'Sullivan to Stella Musulin 1984-05-31</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></person>
-               </listPerson><listBibl><bibl xml:id="lit_work_id_117" type="biographical_text">
-               <title>Unpublished volume of memoirs of W. H. Auden</title>
-               <author ref="#amp_person_2">
-                  <persName>Musulin, Stella Mary Bellairs</persName>
-               </author>
-               <author ref="#amp_person_8">
-                  <persName>Spender, Stephen</persName>
-               </author>
-               <author ref="#amp_person_98">
-                  <persName>Mendelson, Edward</persName>
-               </author>
-               <author ref="#amp_person_114">
-                  <persName>Kirstein, Lincoln</persName>
-               </author>
-               <lang>en</lang>
-            <noteGrp><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note></noteGrp></bibl>
-            <bibl xml:id="lit_work_id_39" type="biographical_text">
-               <title>W. H. Auden: A Biography</title>
-               <author ref="#amp_person_100">
-                  <persName>Carpenter, Humphrey</persName>
-               </author>
-               <date when="1981">1981</date>
-               <lang>en</lang>
-            <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></bibl>
-            <bibl xml:id="lit_work_id_49" type="biographical_text">
-               <title>Early Auden</title>
-               <author ref="#amp_person_98">
-                  <persName>Mendelson, Edward</persName>
-               </author>
-               <date when="1981">1981</date>
-               <lang>en</lang>
-            <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note></noteGrp></bibl>
-            <bibl xml:id="lit_work_id_47" type="biographical_text">
-               <title>The Years in Austria 1976-09-04--1980-12-01</title>
-               <author ref="#amp_person_2">
-                  <persName>Musulin, Stella Mary Bellairs</persName>
-               </author>
-               <lang>en</lang>
-               <lang>de</lang>
-            <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></bibl>
-            </listBibl><listPlace><place xml:id="amp_place_id_239">
-                  <settlement type="L">
-                     <placeName>England</placeName>
-                  </settlement>
-                  <desc type="entity_type">parks,area, ...</desc>
-                  <country>GB, United Kingdom</country>
-                  <location type="located_in_place">
-                     <placeName key="amp_place_id_93">United Kingdom</placeName>
-                  </location>
-                  <location type="coords">
-                     <geo>53, -2</geo>
-                  </location>
-                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2649994/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q21</idno>
-                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/4014770-8</idno>
-                  <note/>
-               <noteGrp><note target="amp-transcript__0007.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-06</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
-               <place xml:id="amp_place_id_28">
-                  <settlement type="P">
-                     <placeName>New York City</placeName>
-                  </settlement>
-                  <desc type="entity_type">city, village,...</desc>
-                  <country>US, United States</country>
-                  <location type="located_in_place">
-                     <placeName key="amp_place_id_15">United States of America</placeName>
-                  </location>
-                  <location type="coords">
-                     <geo>40.71427, -74.00597</geo>
-                  </location>
-                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/5128581/</idno>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q60</idno>
-                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/4042011-5</idno>
-               <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0010.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-11-06</note><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0012.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</note><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note><note target="amp-transcript__0044.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
-               <place xml:id="amp_place_id_171">
-                  <settlement type="S">
-                     <placeName>39 Claremont Avenue, apt 32</placeName>
-                  </settlement>
-                  <desc type="entity_type">spot, building, farm</desc>
-                  <country>US, United States</country>
-                  <location type="located_in_place">
-                     <placeName key="amp_place_id_168">Manhattan</placeName>
-                  </location>
-                  <location type="coords">
-                     <geo>40.81013, -73.96418</geo>
-                  </location>
-                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12503863/</idno>
-                  <note/>
-               <noteGrp><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note></noteGrp></place>
-               <place xml:id="amp_place_id_56">
+                  <death>
+                     <date when-iso="1984-12-17">1984-12-17</date>
+                     <settlement key="amp_place_id_1">
+                        <placeName>Vienna</placeName>
+                     </settlement>
+                  </death>
+               <noteGrp><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note></noteGrp></person>
+               </listPerson><listPlace><place xml:id="amp_place_id_56">
                   <settlement type="P">
                      <placeName>London</placeName>
                   </settlement>
@@ -629,6 +541,21 @@ for any purpose, even commercially.</p>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q84</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4074335-4</idno>
                <noteGrp><note target="amp-transcript__0009.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-15</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               <place xml:id="amp_place_id_171">
+                  <settlement type="S">
+                     <placeName>39 Claremont Avenue, apt 32</placeName>
+                  </settlement>
+                  <desc type="entity_type">spot, building, farm</desc>
+                  <country>US, United States</country>
+                  <location type="located_in_place">
+                     <placeName key="amp_place_id_168">Manhattan</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>40.81013, -73.96418</geo>
+                  </location>
+                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12503863/</idno>
+                  <note/>
+               <noteGrp><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note></noteGrp></place>
                <place xml:id="amp_place_id_1">
                   <settlement type="P">
                      <placeName>Vienna</placeName>
@@ -660,6 +587,39 @@ for any purpose, even commercially.</p>
                   <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/12504043/</idno>
                   <note/>
                <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note></noteGrp></place>
+               <place xml:id="amp_place_id_28">
+                  <settlement type="P">
+                     <placeName>New York City</placeName>
+                  </settlement>
+                  <desc type="entity_type">city, village,...</desc>
+                  <country>US, United States</country>
+                  <location type="located_in_place">
+                     <placeName key="amp_place_id_15">United States of America</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>40.71427, -74.00597</geo>
+                  </location>
+                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/5128581/</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q60</idno>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/4042011-5</idno>
+               <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0010.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-11-06</note><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0012.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</note><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0029.xml" type="mentions">Autograph Notes Stella Musulin 1968-02-13--1968-02-14</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note><note target="amp-transcript__0044.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-24</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
+               <place xml:id="amp_place_id_239">
+                  <settlement type="L">
+                     <placeName>England</placeName>
+                  </settlement>
+                  <desc type="entity_type">parks,area, ...</desc>
+                  <country>GB, United Kingdom</country>
+                  <location type="located_in_place">
+                     <placeName key="amp_place_id_93">United Kingdom</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>53, -2</geo>
+                  </location>
+                  <idno type="URI" subtype="GEONAMES">https://sws.geonames.org/2649994/</idno>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q21</idno>
+                  <idno type="URI" subtype="GND">https://d-nb.info/gnd/4014770-8</idno>
+                  <note/>
+               <noteGrp><note target="amp-transcript__0007.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-10-06</note><note target="amp-transcript__0018.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin with Typescript W. H. Auden "Stark bewölkt" 1971-10-19</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0041.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1970-07-06</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
                <place xml:id="amp_place_id_15">
                   <settlement type="A">
                      <placeName>United States of America</placeName>
@@ -673,7 +633,58 @@ for any purpose, even commercially.</p>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q30</idno>
                   <idno type="URI" subtype="GND">https://d-nb.info/gnd/4078704-7</idno>
                <noteGrp><note target="amp-transcript__0001.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1963-05-12</note><note target="amp-transcript__0010.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-11-06</note><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note><note target="amp-transcript__0052.xml" type="mentions">Copy Typescript Hilde Spiel Translation W. H. Auden Statement to Austrian Tax Authorities 1972-07-26--1972-08-25</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></place>
-               </listPlace><listOrg><org xml:id="amp_organization_12">
+               </listPlace><listBibl><bibl xml:id="lit_work_id_39" type="biographical_text">
+                  <title>W. H. Auden: A Biography</title>
+                  <author ref="#amp_person_100">
+                     <persName>Carpenter, Humphrey</persName>
+                  </author>
+                  <date when="1981">1981</date>
+                  <lang>en</lang>
+               <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></bibl>
+               <bibl xml:id="lit_work_id_117" type="biographical_text">
+                  <title>Unpublished volume of memoirs of W. H. Auden</title>
+                  <author ref="#amp_person_2">
+                     <persName>Musulin, Stella Mary Bellairs</persName>
+                  </author>
+                  <author ref="#amp_person_8">
+                     <persName>Spender, Stephen</persName>
+                  </author>
+                  <author ref="#amp_person_98">
+                     <persName>Mendelson, Edward</persName>
+                  </author>
+                  <author ref="#amp_person_114">
+                     <persName>Kirstein, Lincoln</persName>
+                  </author>
+                  <lang>en</lang>
+               <noteGrp><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note></noteGrp></bibl>
+               <bibl xml:id="lit_work_id_49" type="biographical_text">
+                  <title>Early Auden</title>
+                  <author ref="#amp_person_98">
+                     <persName>Mendelson, Edward</persName>
+                  </author>
+                  <date when="1981">1981</date>
+                  <lang>en</lang>
+               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0031.xml" type="mentions">Copy Typed Letter Stella Musulin to Edward Mendelson 1985-12-15</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note></noteGrp></bibl>
+               <bibl xml:id="lit_work_id_47" type="biographical_text">
+                  <title>The Years in Austria 1976-09-04--1980-12-01</title>
+                  <author ref="#amp_person_2">
+                     <persName>Musulin, Stella Mary Bellairs</persName>
+                  </author>
+                  <lang>en</lang>
+                  <lang>de</lang>
+               <noteGrp><note target="amp-transcript__0028.xml" type="mentions">Typed Memoir Stella Musulin "In Retrospect" 1985-11-29--1990-03-28</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0062.xml" type="mentions">Typescript Memoir Stella Musulin "The Years in Austria" 1976-09-04--1980-12-01</note></noteGrp></bibl>
+               </listBibl><listOrg><org xml:id="amp_organization_85">
+                  <orgName>United States General Post Office</orgName>
+                  <location type="located_in_place">
+                     <placeName key="amp_place_id_168">Manhattan</placeName>
+                  </location>
+                  <location type="coords">
+                     <geo>40.78343, -73.96625</geo>
+                  </location>
+                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q2466300</idno>
+                  <note/>
+               <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0010.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-11-06</note><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0012.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</note><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note></noteGrp></org>
+               <org xml:id="amp_organization_12">
                   <orgName>Random House</orgName>
                   <desc>Was founded in year 1927.</desc>
                   <location type="located_in_place">
@@ -685,16 +696,5 @@ for any purpose, even commercially.</p>
                   <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q744182</idno>
                   <note/>
                <noteGrp><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note></noteGrp></org>
-               <org xml:id="amp_organization_85">
-                  <orgName>United States General Post Office</orgName>
-                  <location type="located_in_place">
-                     <placeName key="amp_place_id_168">Manhattan</placeName>
-                  </location>
-                  <location type="coords">
-                     <geo>40.78343, -73.96625</geo>
-                  </location>
-                  <idno type="URI" subtype="WIKIDATA">http://www.wikidata.org/entity/Q2466300</idno>
-                  <note/>
-               <noteGrp><note target="amp-transcript__0004.xml" type="mentions">Typed Letter Signed W. H. Auden to Stella Musulin 1966-02-03</note><note target="amp-transcript__0005.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1967-11-08</note><note target="amp-transcript__0006.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-02-06</note><note target="amp-transcript__0010.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-11-06</note><note target="amp-transcript__0011.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-13</note><note target="amp-transcript__0012.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1968-12-29</note><note target="amp-transcript__0013.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1969-01-04</note><note target="amp-transcript__0019.xml" type="mentions">Autograph Letter Signed W. H. Auden to Stella Musulin 1972-02-22</note><note target="amp-transcript__0032.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1980-12-01</note><note target="amp-transcript__0033.xml" type="mentions">Aerogram Signed Edward Mendelson to Stella Musulin 1981-11-21</note></noteGrp></org>
                </listOrg></back></text>
 </TEI>

@@ -2156,33 +2156,6 @@
     ],
     "Inherit": []
   },
-  "83": {
-    "id": 83,
-    "order": "73.00000000000000000000",
-    "Subject_uri": "auden-musulin-papers",
-    "Class": [
-      {
-        "id": 48,
-        "value": "TopCollection"
-      }
-    ],
-    "Predicate_uri": [
-      {
-        "id": 62,
-        "value": "hasCompleteness"
-      }
-    ],
-    "Object_uri_persons": [],
-    "Object_uri_places": [],
-    "Object_uri_organizations": [],
-    "Object_uri_resource": [],
-    "Literal": "incomplete, to be completed by July 2024",
-    "Language": "en",
-    "Date": null,
-    "Number": null,
-    "Object_uri_vocabs": [],
-    "Inherit": []
-  },
   "86": {
     "id": 86,
     "order": "76.00000000000000000000",
