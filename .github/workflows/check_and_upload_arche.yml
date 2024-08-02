@@ -10,8 +10,8 @@ jobs:
     env:
       ANT_OPTS: -Xmx5g
       REDMINE_ID: 20352
-      ARCHE_INSTANCE: arche-curation.acdh-dev
-      ARCHE_INSTANCE_NAME: Curation
+      ARCHE_INSTANCE: arche.acdh
+      ARCHE_INSTANCE_NAME: Production
       PROJECT_NAME : auden-musulin-papers
       OUTPUT_DIR: rdf
       DATA_DIR: data/editions
